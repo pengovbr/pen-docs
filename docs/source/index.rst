@@ -13,5 +13,6 @@ Contents
 
 .. toctree::
 
+   2fa
    usage
    api
