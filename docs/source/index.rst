@@ -11,8 +11,16 @@ how to :ref:`installation` the project.
 Contents
 --------
 
-.. toctree::
+--------
+```{toctree}
+:maxdepth: 2
+:caption: Índice
 
-   2fa
-   usage
-   api
+Introducao
+Manual_usuario/index
+```
+
+## Indices and tables
+* {ref}`genindex`
+* {ref}`modindex`
+* {ref}`search`
