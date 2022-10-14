@@ -1,5 +1,5 @@
 Introdução
-===
+===========
 
 O SUPER.GOV.BR 1.0 é um sistema de gestão de processos e documentos arquivísticos eletrônicos, baseado no Sistema Eletrônico de Informações (SEI), que tem o objetivo de aprimorar a gestão documental e tramitação de processos administrativos eletrônicos, contribuindo para o controle, a padronização e a manutenção de documentos via processos digitais, bem como para o aumento da eficiência da gestão pública e da transparência dos processos de trabalho.
 
