@@ -5,13 +5,13 @@ Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
 
 
-Contents
+Indice
 --------
 
 .. toctree::
 
-   2fa
    Introducao
+   2fa
    Manual_usuario/index
    usage
    api
