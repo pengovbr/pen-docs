@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="http://fonts.cdnfonts.com/css/rawline" rel="stylesheet">
+  <title>4. Operações de manutenção e acompanhamento de processos &mdash; SUPER.GOVBR 0.1 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="_static/doctools.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="5. Outras Operações com Processos" href="Outras_operacoes_com_processos.html" />
+    <link rel="prev" title="3. Operações Básicas com processos" href="Operacoes_basicas_com_processos.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> SUPER.GOVBR
+            <img src="_static/Gov.br_logo.svg" class="logo" alt="Logo"/>
+          </a>
+              <div class="version">
+                0.1.0
+              </div>
+        </div><div class="wy-menu wy-menu-vertical govbr-text-gray-80" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="Introducao.html">1. Introdução</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Iniciando_operacoes.html">2. 1. Iniciando Operações</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Operacoes_basicas_com_processos.html">3. Operações Básicas com processos</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">4. Operações de manutenção e acompanhamento de processos</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#retorno-programado">4.1. Retorno programado</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#processos-enviados-pela-unidade-com-retorno-programado">4.1.1. Processos enviados pela unidade com Retorno Programado</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#controle-dos-retornos-programados-da-unidade">4.1.2. Controle dos Retornos Programados da unidade</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#controle-de-prazos">4.2. Controle de prazos</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#identificacao-de-processos-com-controle-de-prazo">4.2.1. Identificação de processos com Controle de Prazo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#controlar-processos-com-controle-de-prazos">4.2.2. Controlar processos com Controle de Prazos</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#marcadores">4.3. Marcadores</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#como-criar-um-marcador">4.3.1. Como criar um Marcador</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#como-atribuir-marcador-a-processos">4.3.2. Como Atribuir Marcador a Processos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#como-remover-marcador-de-processo">4.3.3. Como remover Marcador de processo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#historico-de-marcadores-do-processo">4.3.4. Histórico de Marcadores do processo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#controle-de-processos-por-marcadores">4.3.5. Controle de Processos por Marcadores</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#gerenciamento-de-marcadores">4.3.6. Gerenciamento de Marcadores</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#inserir-anotacoes">4.4. Inserir anotações</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#visualizacao-e-alteracao-de-anotacoes-inseridas-no-processo">4.4.1. Visualização e alteração de Anotações inseridas no processo</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#ciencia-de-processo">4.5. Ciência de processo</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#consulta-de-usuarios-que-registraram-ciencia">4.5.1. Consulta de usuários que registraram Ciência</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#comentarios">4.6. Comentários</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#visualizando-comentarios">4.6.1. Visualizando Comentários</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#alterando-comentarios">4.6.2. Alterando Comentários</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#excluindo-comentarios">4.6.3. Excluindo Comentários</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#gerar-pdf-ou-zip-do-processo">4.7. Gerar PDF ou ZIP do processo</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#gerar-arquivo-pdf">4.7.1. Gerar Arquivo PDF</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#gerar-arquivo-zip">4.7.2. Gerar Arquivo ZIP</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#consulta-ao-andamento-do-processo">4.8. Consulta ao andamento do processo</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#historico-do-processo">4.8.1. Histórico do Processo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#atualizacao-de-andamento-do-processo">4.8.2. Atualização de Andamento do Processo</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#enviar-correspondencia-eletronica">4.9. Enviar Correspondência Eletrônica</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Outras_operacoes_com_processos.html">5. Outras Operações com Processos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Operacoes_basicas_com_documentos.html">6. Operações básicas com documentos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Outras_operacoes_com_documentos.html">7. Outras operações com Documentos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Blocos.html">8. Blocos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Restricao_de_acesso.html">9. Restrição de Acesso</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Acompanhando_e_recuperando_informacoes_de_processos.html">10. Acompanhando e Recuperando Informações de Processos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Usuario_externo.html">11. Usuário Externo</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">SUPER.GOVBR</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div class="template-base">
+    <header class="br-header" id="header" data-sticky="data-sticky">
+      <div class="container-fluid">
+
+        <div class="header-bottom">
+          <div class="header-menu"> 
+            <div class="header-info">
+              <div class="header-title"><span class="section-number">4. </span>Operações de manutenção e acompanhamento de processos</div>
+              <div class="header-subtitle">SUPER.GOVBR</div>
+            </div>
+          </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div>
+      </div>
+    </header>
+  </div>
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+      <li><span class="section-number">4. </span>Operações de manutenção e acompanhamento de processos</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/Operacoes_de_manutencao_e_acompanhamento_de_processos.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="operacoes-de-manutencao-e-acompanhamento-de-processos">
+<h1><span class="section-number">4. </span>Operações de manutenção e acompanhamento de processos<a class="headerlink" href="#operacoes-de-manutencao-e-acompanhamento-de-processos" title="Permalink to this heading"></a></h1>
+<section id="retorno-programado">
+<h2><span class="section-number">4.1. </span>Retorno programado<a class="headerlink" href="#retorno-programado" title="Permalink to this heading"></a></h2>
+<section id="processos-enviados-pela-unidade-com-retorno-programado">
+<h3><span class="section-number">4.1.1. </span>Processos enviados pela unidade com Retorno Programado<a class="headerlink" href="#processos-enviados-pela-unidade-com-retorno-programado" title="Permalink to this heading"></a></h3>
+</section>
+<section id="controle-dos-retornos-programados-da-unidade">
+<h3><span class="section-number">4.1.2. </span>Controle dos Retornos Programados da unidade<a class="headerlink" href="#controle-dos-retornos-programados-da-unidade" title="Permalink to this heading"></a></h3>
+</section>
+</section>
+<section id="controle-de-prazos">
+<h2><span class="section-number">4.2. </span>Controle de prazos<a class="headerlink" href="#controle-de-prazos" title="Permalink to this heading"></a></h2>
+<section id="identificacao-de-processos-com-controle-de-prazo">
+<h3><span class="section-number">4.2.1. </span>Identificação de processos com Controle de Prazo<a class="headerlink" href="#identificacao-de-processos-com-controle-de-prazo" title="Permalink to this heading"></a></h3>
+</section>
+<section id="controlar-processos-com-controle-de-prazos">
+<h3><span class="section-number">4.2.2. </span>Controlar processos com Controle de Prazos<a class="headerlink" href="#controlar-processos-com-controle-de-prazos" title="Permalink to this heading"></a></h3>
+</section>
+</section>
+<section id="marcadores">
+<h2><span class="section-number">4.3. </span>Marcadores<a class="headerlink" href="#marcadores" title="Permalink to this heading"></a></h2>
+<section id="como-criar-um-marcador">
+<h3><span class="section-number">4.3.1. </span>Como criar um Marcador<a class="headerlink" href="#como-criar-um-marcador" title="Permalink to this heading"></a></h3>
+</section>
+<section id="como-atribuir-marcador-a-processos">
+<h3><span class="section-number">4.3.2. </span>Como Atribuir Marcador a Processos<a class="headerlink" href="#como-atribuir-marcador-a-processos" title="Permalink to this heading"></a></h3>
+</section>
+<section id="como-remover-marcador-de-processo">
+<h3><span class="section-number">4.3.3. </span>Como remover Marcador de processo<a class="headerlink" href="#como-remover-marcador-de-processo" title="Permalink to this heading"></a></h3>
+</section>
+<section id="historico-de-marcadores-do-processo">
+<h3><span class="section-number">4.3.4. </span>Histórico de Marcadores do processo<a class="headerlink" href="#historico-de-marcadores-do-processo" title="Permalink to this heading"></a></h3>
+</section>
+<section id="controle-de-processos-por-marcadores">
+<h3><span class="section-number">4.3.5. </span>Controle de Processos por Marcadores<a class="headerlink" href="#controle-de-processos-por-marcadores" title="Permalink to this heading"></a></h3>
+</section>
+<section id="gerenciamento-de-marcadores">
+<h3><span class="section-number">4.3.6. </span>Gerenciamento de Marcadores<a class="headerlink" href="#gerenciamento-de-marcadores" title="Permalink to this heading"></a></h3>
+</section>
+</section>
+<section id="inserir-anotacoes">
+<h2><span class="section-number">4.4. </span>Inserir anotações<a class="headerlink" href="#inserir-anotacoes" title="Permalink to this heading"></a></h2>
+<section id="visualizacao-e-alteracao-de-anotacoes-inseridas-no-processo">
+<h3><span class="section-number">4.4.1. </span>Visualização e alteração de Anotações inseridas no processo<a class="headerlink" href="#visualizacao-e-alteracao-de-anotacoes-inseridas-no-processo" title="Permalink to this heading"></a></h3>
+</section>
+</section>
+<section id="ciencia-de-processo">
+<h2><span class="section-number">4.5. </span>Ciência de processo<a class="headerlink" href="#ciencia-de-processo" title="Permalink to this heading"></a></h2>
+<section id="consulta-de-usuarios-que-registraram-ciencia">
+<h3><span class="section-number">4.5.1. </span>Consulta de usuários que registraram Ciência<a class="headerlink" href="#consulta-de-usuarios-que-registraram-ciencia" title="Permalink to this heading"></a></h3>
+</section>
+</section>
+<section id="comentarios">
+<h2><span class="section-number">4.6. </span>Comentários<a class="headerlink" href="#comentarios" title="Permalink to this heading"></a></h2>
+<section id="visualizando-comentarios">
+<h3><span class="section-number">4.6.1. </span>Visualizando Comentários<a class="headerlink" href="#visualizando-comentarios" title="Permalink to this heading"></a></h3>
+</section>
+<section id="alterando-comentarios">
+<h3><span class="section-number">4.6.2. </span>Alterando Comentários<a class="headerlink" href="#alterando-comentarios" title="Permalink to this heading"></a></h3>
+</section>
+<section id="excluindo-comentarios">
+<h3><span class="section-number">4.6.3. </span>Excluindo Comentários<a class="headerlink" href="#excluindo-comentarios" title="Permalink to this heading"></a></h3>
+</section>
+</section>
+<section id="gerar-pdf-ou-zip-do-processo">
+<h2><span class="section-number">4.7. </span>Gerar PDF ou ZIP do processo<a class="headerlink" href="#gerar-pdf-ou-zip-do-processo" title="Permalink to this heading"></a></h2>
+<section id="gerar-arquivo-pdf">
+<h3><span class="section-number">4.7.1. </span>Gerar Arquivo PDF<a class="headerlink" href="#gerar-arquivo-pdf" title="Permalink to this heading"></a></h3>
+</section>
+<section id="gerar-arquivo-zip">
+<h3><span class="section-number">4.7.2. </span>Gerar Arquivo ZIP<a class="headerlink" href="#gerar-arquivo-zip" title="Permalink to this heading"></a></h3>
+</section>
+</section>
+<section id="consulta-ao-andamento-do-processo">
+<h2><span class="section-number">4.8. </span>Consulta ao andamento do processo<a class="headerlink" href="#consulta-ao-andamento-do-processo" title="Permalink to this heading"></a></h2>
+<section id="historico-do-processo">
+<h3><span class="section-number">4.8.1. </span>Histórico do Processo<a class="headerlink" href="#historico-do-processo" title="Permalink to this heading"></a></h3>
+</section>
+<section id="atualizacao-de-andamento-do-processo">
+<h3><span class="section-number">4.8.2. </span>Atualização de Andamento do Processo<a class="headerlink" href="#atualizacao-de-andamento-do-processo" title="Permalink to this heading"></a></h3>
+</section>
+</section>
+<section id="enviar-correspondencia-eletronica">
+<h2><span class="section-number">4.9. </span>Enviar Correspondência Eletrônica<a class="headerlink" href="#enviar-correspondencia-eletronica" title="Permalink to this heading"></a></h2>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="Operacoes_basicas_com_processos.html" class="btn btn-neutral float-left" title="3. Operações Básicas com processos" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="Outras_operacoes_com_processos.html" class="btn btn-neutral float-right" title="5. Outras Operações com Processos" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2021, Super GOVBR.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_govbr_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

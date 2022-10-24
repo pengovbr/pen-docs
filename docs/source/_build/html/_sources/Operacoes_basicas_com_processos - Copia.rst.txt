@@ -11,4 +11,7 @@ O Processo Eletrônico Nacional (PEN), sob coordenação do Ministério da Econo
 
 O marco legal de implantação do PEN, no Poder Executivo, foi o Decreto n° 8.539, de 2015, que estabeleceu o uso de meio eletrônico para a realização de processos administrativos nos órgãos e entidades da Administração Pública direta, autárquica e fundacional, sendo sua operacionalização de responsabilidade da Secretaria de Gestão (SEGES), do Ministério da Economia (ME), e, especificamente, do Departamento de Normas e Sistemas de Logísticas (DELOG), conforme dispõe o art. 128, do Decreto nº 9.745, de 2019.
 
+.. autosummary::
+   :toctree: generated
+
    

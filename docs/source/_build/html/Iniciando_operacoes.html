@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="http://fonts.cdnfonts.com/css/rawline" rel="stylesheet">
+  <title>2. Iniciando Operações &mdash; SUPER.GOVBR 0.1 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="_static/doctools.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="3. Operações Básicas com processos" href="Operacoes_basicas_com_processos.html" />
+    <link rel="prev" title="1. Introdução" href="Introducao.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> SUPER.GOVBR
+            <img src="_static/Gov.br_logo.svg" class="logo" alt="Logo"/>
+          </a>
+              <div class="version">
+                0.1.0
+              </div>
+        </div><div class="wy-menu wy-menu-vertical govbr-text-gray-80" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="Introducao.html">1. Introdução</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">2. Iniciando Operações</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#acesso-ao-sistema">2.1. Acesso ao Sistema</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#autenticacao-em-dois-fatores">2.2. Autenticação em dois fatores</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#barra-de-ferramentas">2.3. Barra de Ferramentas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#menu-principal">2.4. Menu Principal</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#tela-de-controle-de-processos">2.5. Tela de Controle de Processos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#tela-do-processo">2.6. Tela do Processo</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#arvore-de-processos">2.6.1. Árvore de Processos</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#tela-do-documento">2.7. Tela do Documento</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Operacoes_basicas_com_processos.html">3. Operações Básicas com processos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Operacoes_de_manutencao_e_acompanhamento_de_processos.html">4. Operações de manutenção e acompanhamento de processos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Outras_operacoes_com_processos.html">5. Outras Operações com Processos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Operacoes_basicas_com_documentos.html">6. Operações básicas com documentos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Outras_operacoes_com_documentos.html">7. Outras operações com Documentos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Blocos.html">8. Blocos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Restricao_de_acesso.html">9. Restrição de Acesso</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Acompanhando_e_recuperando_informacoes_de_processos.html">10. Acompanhando e Recuperando Informações de Processos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Usuario_externo.html">11. Usuário Externo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Modulo_GD.html">12. Módulo de Gestão Documental</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">SUPER.GOVBR</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div class="template-base">
+    <header class="br-header" id="header" data-sticky="data-sticky">
+      <div class="container-fluid">
+
+        <div class="header-bottom">
+          <div class="header-menu"> 
+            <div class="header-info">
+              <div class="header-title"><span class="section-number">2. </span>Iniciando Operações</div>
+              <div class="header-subtitle">SUPER.GOVBR</div>
+            </div>
+          </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div>
+      </div>
+    </header>
+  </div>
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+      <li><span class="section-number">2. </span>Iniciando Operações</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/Iniciando_operacoes.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="iniciando-operacoes">
+<h1><span class="section-number">2. </span>Iniciando Operações<a class="headerlink" href="#iniciando-operacoes" title="Permalink to this heading"></a></h1>
+<section id="acesso-ao-sistema">
+<h2><span class="section-number">2.1. </span>Acesso ao Sistema<a class="headerlink" href="#acesso-ao-sistema" title="Permalink to this heading"></a></h2>
+<p>Para acessar o SUPER.GOV.BR 1.0, o usuário deve utilizar um navegador de internet para acessar a URL fornecida pelo órgão ao qual está vinculado, informar seu login, senha e – no caso de instalações multiórgão – o órgão ao qual está vinculado.</p>
+<figure class="align-default">
+<img alt="_images/1-IO-Tela_inicial.gif" src="_images/1-IO-Tela_inicial.gif" />
+</figure>
+</section>
+<section id="autenticacao-em-dois-fatores">
+<h2><span class="section-number">2.2. </span>Autenticação em dois fatores<a class="headerlink" href="#autenticacao-em-dois-fatores" title="Permalink to this heading"></a></h2>
+<p>Para habilitar a Autenticação em dois fatores, é necessário acessar a tela de login do SUPER.GOV.BR, preencher o campo <strong>Usuário</strong>, inserir a <strong>Senha</strong> e clicar sobre a opção <strong>Autenticação em dois fatores</strong>.</p>
+<div class="admonition-nota admonition">
+<p class="admonition-title">Nota</p>
+<p>O usuário poderá, se desejar, habilitar a Autenticação em dois fatores para efetuar o login no sistema. A disponibilização desse recurso é um dos itens que evidenciam a preocupação com a segurança do sistema e das informações registradas.
+Com essa possibilidade, o usuário poderá adicionar uma camada extra de segurança aos seus dados de acesso, uma vez que essa sistemática associa um dado que o usuário conhece (a sua senha) a um recurso que possui em mãos (o seu smartphone).</p>
+</div>
+<figure class="align-default">
+<img alt="_images/1-IO_tela_inicial_2fa.png" src="_images/1-IO_tela_inicial_2fa.png" />
+</figure>
+<p>Na tela seguinte, será exibido um link com todas as informações para a habilitação do recurso. O usuário deverá ler as instruções e, em seguida, clicar no botão <strong>Prosseguir</strong>.</p>
+<p>Para continuar, é necessário ter, em seu dispositivo móvel, um aplicativo destinado a autenticação em duas etapas. O <strong>*Google Authenticator*</strong> e o <strong>*Microsoft Authenticator*</strong> são exemplos de apps que podem ser utilizados para esta finalidade.</p>
+<p>Após esse procedimento, abra o aplicativo e acesse a opção para leitura de <strong>QR Code</strong>.</p>
+<div class="admonition-nota admonition">
+<p class="admonition-title">Nota</p>
+<p>Recomenda-se informar um e-mail pessoal, que não esteja associado à sua Instituição. É imprescindível que a senha de acesso a esse e-mail seja diferente da senha de    acesso ao SUPER.GOV.BR.</p>
+</div>
+<p>Faça a leitura da imagem, insira seu e-mail pessoal e clique em <strong>Enviar</strong>.</p>
+<figure class="align-center">
+<img alt="_images/1-IO_tela_inicial_2fa_qrcode.png" src="_images/1-IO_tela_inicial_2fa_qrcode.png" />
+</figure>
+<p>Ao clicar sobre o botão <strong>ACESSAR</strong>, o sistema emitirá uma mensagem informando o envio de um e-mail para habilitação do recurso, com validade de até 60 minutos para a conclusão da solicitação.</p>
+<p>Para ativar a Autenticação em dois fatores, o usuário deve acessar o e-mail e clicar sobre o <em>link</em> (ou copiar o endereço eletrônico da mensagem e colar no navegador).</p>
+<p>Para acessar o sistema, insira o usuário e a senha na tela inicial. Depois, clique em <strong>ACESSAR</strong>.</p>
+<p>A tela seguinte exigirá o código de acesso gerado pelo aplicativo. Portanto, consulte o código exibido no app e digite-o no campo apropriado do sistema. Em seguida, clique em <strong>Validar</strong>.</p>
+<p>Para dispositivos utilizados com frequência, o SUPER.GOV.BR disponibiliza a opção “Não usar o 2FA neste dispositivo e navegador”. Se essa opção for marcada, o código de acesso não será solicitado novamente no mesmo dispositivo e navegador. Porém, se for realizada a limpeza de cookies do navegador, o código de acesso voltará a ser solicitado.</p>
+<figure class="align-center">
+<img alt="_images/1-IO_tela_inicial_2fa_flag_nao_usar_2fa.png" src="_images/1-IO_tela_inicial_2fa_flag_nao_usar_2fa.png" />
+</figure>
+<p>A desativação da Autenticação em dois fatores também poderá ser feita por meio dessa tela. Ao clicar sobre o botão <strong>Desativar 2FA</strong>, o sistema enviará um link para o e-mail cadastrado, para confirmar a operação. Acessando o e-mail e clicando no link, o recurso será desabilitado e o usuário voltará a efetuar o acesso somente com usuário e senha.</p>
+<div class="admonition-saiba-mais admonition">
+<p class="admonition-title">Saiba Mais</p>
+<p>Caso o usuário tenha utilizado a Autenticação em dois fatores e, por qualquer motivo, tenha efetuado a desabilitação do recurso ou perdido o prazo para sua             ativação, será necessário, para efetuar uma nova tentativa, verificar se essa conta permanece registrada no aplicativo. Em caso afirmativo, será preciso excluí-la    antes de efetuar a leitura do novo QR Code.</p>
+</div>
+</section>
+<section id="barra-de-ferramentas">
+<h2><span class="section-number">2.3. </span>Barra de Ferramentas<a class="headerlink" href="#barra-de-ferramentas" title="Permalink to this heading"></a></h2>
+<p>No topo da página está localizada a barra de ferramentas do sistema.</p>
+<figure class="align-default">
+<img alt="_images/1-IO_barra_de_ferramentas.png" src="_images/1-IO_barra_de_ferramentas.png" />
+</figure>
+<p>As funcionalidades disponíveis são:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Ícones Disponíveis</p></th>
+<th class="head"><p>Descrição</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><figure class="align-default">
+<img alt="_images/1-IO_icone_exibir_ocultar.png" src="_images/1-IO_icone_exibir_ocultar.png" />
+</figure>
+</td>
+<td><p><strong>Exibir/ocultar:</strong> permite ocultar e exibir o menu principal.</p></td>
+</tr>
+<tr class="row-odd"><td><figure class="align-default">
+<img alt="_images/1-IO_icone_pesquisa.png" src="_images/1-IO_icone_pesquisa.png" />
+</figure>
+</td>
+<td><p><strong>Pesquisa:</strong> possibilita uma busca rápida a processos ou documentos.</p></td>
+</tr>
+<tr class="row-even"><td><figure class="align-default">
+<img alt="_images/1-IO_icone_caixa_selecao_unidade.png" src="_images/1-IO_icone_caixa_selecao_unidade.png" />
+</figure>
+</td>
+<td><p><strong>Caixa de seleção de unidade:</strong> informa ao usuário qual unidade ele está acessando e possibilita navegar pelas unidades nas quais tenha permissão.</p></td>
+</tr>
+<tr class="row-odd"><td><figure class="align-default">
+<img alt="_images/1-IO_icone_controle_de_processos.png" src="_images/1-IO_icone_controle_de_processos.png" />
+</figure>
+</td>
+<td><p><strong>Controle de processos:</strong> permite ao usuário voltar à tela principal do sistema.</p></td>
+</tr>
+<tr class="row-even"><td><figure class="align-default">
+<img alt="_images/1-IO_icone_novidades.png" src="_images/1-IO_icone_novidades.png" />
+</figure>
+</td>
+<td><p><strong>Novidades:</strong> possibilita visualizar as novidades publicadas pela administração do sistema, também exibidas em forma de pop-up ao se acessar o sistema.</p></td>
+</tr>
+<tr class="row-odd"><td><figure class="align-default">
+<img alt="_images/1-IO_icone_usuario.png" src="_images/1-IO_icone_usuario.png" />
+</figure>
+</td>
+<td><p><strong>Usuário:</strong> identifica o usuário que está acessando o sistema.</p></td>
+</tr>
+<tr class="row-even"><td><figure class="align-default">
+<img alt="_images/1-IO_icone_configuracoes_do_sistema.png" src="_images/1-IO_icone_configuracoes_do_sistema.png" />
+</figure>
+</td>
+<td><p><strong>Configurações do sistema:</strong> permite que o usuário altere o esquema de cores do sistema.</p></td>
+</tr>
+<tr class="row-odd"><td><figure class="align-default">
+<img alt="_images/1-IO_icone_sair_do_sistema.png" src="_images/1-IO_icone_sair_do_sistema.png" />
+</figure>
+</td>
+<td><p><strong>Sair do sistema:</strong> permite ao usuário sair com segurança do sistema.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="menu-principal">
+<h2><span class="section-number">2.4. </span>Menu Principal<a class="headerlink" href="#menu-principal" title="Permalink to this heading"></a></h2>
+<p>É a coluna localizada na lateral esquerda da tela. Disponibiliza um conjunto de funcionalidades de acordo com o perfil do usuário ou do tipo de unidade.</p>
+<p>As funcionalidades estão apresentadas em ordem alfabética e contêm símbolos para facilitar a sua identificação e correspondência com os ícones existentes na tela de controle de processos e tela do processo.</p>
+<figure class="align-default">
+<img alt="_images/1-IO_tela_menu_principal.png" src="_images/1-IO_tela_menu_principal.png" />
+</figure>
+<p>O perfil básico apresenta as seguintes opções:</p>
+<ul class="simple">
+<li><p><strong>Acompanhamento Especial</strong>: permite visualizar a relação dos processos da unidade que estão em acompanhamento especial e outras informações sobre cada acompanhamento, como o usuário responsável, a data de inclusão, o grupo em que ele está incluído e um campo para observação.</p></li>
+<li><p><strong>Base de Conhecimento</strong>: permite descrever as etapas de um processo e anexar documentos de referência relacionados ao Tipo de Processo vinculado àquela base de conhecimento.</p></li>
+<li><p><strong>Blocos de Assinatura</strong>: Permite gerenciar os blocos de assinatura criados pela unidade ou disponibilizados a ela. Possibilita que mais de um usuário, de qualquer unidade, possa assinar documentos produzidos no sistema.</p></li>
+<li><p><strong>Blocos de Reunião</strong>: Permite gerenciar os blocos de reunião criados pela unidade ou disponibilizados a ela. Possibilita que uma unidade disponibilize processos para conhecimento de outras unidades, sem que estas tenham uma atuação formal sobre eles, para serem discutidos em reuniões ou decisão colegiada. Essa funcionalidade permite a visualização do conteúdo dos documentos mesmo que não estejam assinados.</p></li>
+<li><p><strong>Blocos Internos</strong>: Permite visualizar os blocos internos criados pela unidade. Possibilita a organização de conjuntos de processos que possuam alguma ligação entre si. Esta forma de organização é visível apenas pela unidade que a criou.</p></li>
+</ul>
+<div class="admonition-saiba-mais admonition">
+<p class="admonition-title">Saiba Mais</p>
+<p>Além disso, diferentemente do Acompanhamento Especial – que pode ser utilizado para assinalar qualquer processo, independentemente de onde este esteja aberto – a    inclusão em bloco interno só pode ser feita em processos abertos na unidade.</p>
+</div>
+<ul class="simple">
+<li><p><strong>Contatos</strong>: permite o cadastro e consulta dos contatos que serão exibidos como opções para o preenchimento dos campos Interessados, Remetente e Destinatários, na tela de cadastro do processo ou do documento, por exemplo.</p></li>
+<li><p><strong>Controle de Prazos</strong>: ferramenta utilizada para administração de prazos dentro da unidade. É uma funcionalidade de organização interna – ou seja, outras unidades não terão acesso ao Controle de Prazos da unidade.</p></li>
+<li><p><strong>Controle de Processos</strong>: Direciona o usuário para a tela principal do SEI, onde são visualizados todos os processos que estão em sua unidade.</p></li>
+<li><p><strong>Estatísticas</strong>: Permite visualizar as estatísticas da unidade e o desempenho de processos.</p></li>
+<li><p><strong>Favoritos</strong>: permite visualizar e gerenciar a relação de processos salvos como favoritos na unidade, possibilitando acesso rápido a eles.</p></li>
+<li><p><strong>Grupos de Contato</strong>: possibilita a criação de uma lista a partir da seleção de contatos cadastrados no sistema.</p></li>
+<li><p><strong>Grupos de E-mail</strong>: permite criar e gerenciar grupos de e-mail para o envio de mensagens eletrônicas dentro do sistema.</p></li>
+<li><p><strong>Grupos de Envio</strong>: permite criar e gerenciar grupos de unidades para o envio de processos dentro do sistema.</p></li>
+<li><p><strong>Iniciar Processo</strong>: permite iniciar um novo processo no SUPER.GOV.BR.</p></li>
+<li><p><strong>Marcadores</strong>: permite que a unidade crie e gerencie marcadores para os processos sob sua gestão. Utilizado para organização interna da equipe de trabalho.</p></li>
+<li><p><strong>Painel de Controle</strong>: Funcionalidade que possibilita ao usuário ter uma visão resumida e personalizada dos processos da unidade.</p></li>
+<li><p><strong>Pesquisa</strong>: Possibilita a pesquisa avançada de informações, documentos ou processos.</p></li>
+<li><p><strong>Pontos de Controle</strong>: Recurso que permite atribuir Pontos de Controle (fases ou categorias) para acompanhamento de processos.</p></li>
+<li><p><strong>Processos Sobrestados</strong>: permite visualizar a relação de processos da unidade que se encontram suspensos temporariamente e as informações relativas ao sobrestamento.</p></li>
+<li><p><strong>Retorno Programado</strong>: Permite verificar a relação de retornos programados da unidade – aqueles processos aos quais foram atribuídos prazos para resposta.</p></li>
+<li><p><strong>Textos Padrão</strong>: Permite incluir textos que sejam recorrentes na unidade para utilização em documentos e e-mails produzidos no sistema.</p></li>
+</ul>
+</section>
+<section id="tela-de-controle-de-processos">
+<h2><span class="section-number">2.5. </span>Tela de Controle de Processos<a class="headerlink" href="#tela-de-controle-de-processos" title="Permalink to this heading"></a></h2>
+<p>Ao acessar o sistema, o usuário será direcionado para a tela Controle de Processos. Essa tela apresenta os processos abertos na unidade (recebidos e gerados) e disponibiliza diversas funcionalidades por meio da Barra de Ferramentas, do Menu Principal (ambos abordados em capítulos anteriores), e da Barra de Ícones.</p>
+<p>Além disso, a tela de controle de processos apresenta filtros que permitem diferentes formas de visualização dos processos da Unidade.</p>
+<figure class="align-default">
+<img alt="_images/1-IO_tela_controle_de_processos.png" src="_images/1-IO_tela_controle_de_processos.png" />
+</figure>
+<p>Nessa tela é possível realizar operações com processos em lote. Para isso, é necessário clicar na caixa de seleção ao lado do número de cada processo e selecionar o ícone da operação desejada, conforme a necessidade.</p>
+<p>Abaixo, estão descritas as diversas funcionalidades da barra de ícones. O passo a passo para o uso de cada uma dessas funcionalidades será apresentado mais à frente.</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Ícones</p></th>
+<th class="head"><p>Descrição</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><figure class="align-default">
+<img alt="_images/1-IO_icone_Enviar_Processo.png" src="_images/1-IO_icone_Enviar_Processo.png" />
+</figure>
+</td>
+<td><p><strong>Enviar processo:</strong> permite tramitar processo(s) para outra unidade. Conclui o processo na unidade remetente, a menos que, no momento do envio, o usuário assinale a opção “Manter o processo aberto na unidade atual”. Se concluído, o processo desaparecerá da tela “Controle de Processos”, mas poderá ser recuperado na Pesquisa ou Acompanhamento Especial (quando assinalado).</p></td>
+</tr>
+<tr class="row-odd"><td><figure class="align-default">
+<img alt="_images/1-IO_icone_Atualizar_Andamento.png" src="_images/1-IO_icone_Atualizar_Andamento.png" />
+</figure>
+</td>
+<td><p><strong>Atualizar andamento:</strong> permite incluir uma informação ou despacho de andamento ao(s) processo(s) selecionado(s).</p></td>
+</tr>
+<tr class="row-even"><td><figure class="align-default">
+<img alt="_images/1-IO_icone_Atribuicao_processo.png" src="_images/1-IO_icone_Atribuicao_processo.png" />
+</figure>
+</td>
+<td><p><strong>Atribuição de processos:</strong> permite distribuir processos entre os usuários da unidade, atribuindo-lhes responsabilidade. Essa informação não fica disponível para outras unidades que, eventualmente, consultarem o processo.</p></td>
+</tr>
+<tr class="row-odd"><td><figure class="align-default">
+<img alt="_images/1-IO_icone_incluir_bloco.png" src="_images/1-IO_icone_incluir_bloco.png" />
+</figure>
+</td>
+<td><p><strong>Incluir em bloco:</strong> utilizado para organizar os processos dentro do sistema, incluindo-os em Bloco Interno ou Bloco de Reunião.</p></td>
+</tr>
+<tr class="row-even"><td><figure class="align-default">
+<img alt="_images/1-IO_icone_sobrestar_processo.png" src="_images/1-IO_icone_sobrestar_processo.png" />
+</figure>
+</td>
+<td><p><strong>Sobrestar processo:</strong> utilizado quando o processo precisa aguardar alguma providência antes de ter prosseguimento, mantendo-se suspenso temporariamente na unidade.</p></td>
+</tr>
+<tr class="row-odd"><td><figure class="align-default">
+<img alt="_images/1-IO_icone_concluir_processo.png" src="_images/1-IO_icone_concluir_processo.png" />
+</figure>
+</td>
+<td><p><strong>Concluir processo nesta unidade:</strong> permite finalizar o processo na unidade em que o usuário que está acessando o sistema. O processo desaparecerá da tela “Controle de Processos”, mas poderá ser recuperado na Pesquisa ou Acompanhamento Especial quando tiver sido previamente incluído em acompanhamento).</p></td>
+</tr>
+<tr class="row-even"><td><figure class="align-default">
+<img alt="_images/1-IO_icone_Anotacoes.png" src="_images/1-IO_icone_Anotacoes.png" />
+</figure>
+</td>
+<td><p><strong>Anotações:</strong> permite inserir informações adicionais que não devem constar dos autos do processo. Utilizado geralmente para orientações internas de trabalho da equipe. Essas informações não ficam disponíveis para outras unidades que, eventualmente, consultarem o processo.</p></td>
+</tr>
+<tr class="row-odd"><td><figure class="align-default">
+<img alt="_images/1-IO_icone_Acompanhamento_especial.png" src="_images/1-IO_icone_Acompanhamento_especial.png" />
+</figure>
+</td>
+<td><p><strong>Acompanhamento especial:</strong> possibilita ao usuário acompanhar o andamento do processo, mesmo que ele esteja tramitando em outra unidade, sem a necessidade de mantê-lo aberto em sua unidade.</p></td>
+</tr>
+<tr class="row-even"><td><figure class="align-default">
+<img alt="_images/1-IO_icone_incluir_documento.png" src="_images/1-IO_icone_incluir_documento.png" />
+</figure>
+</td>
+<td><p><strong>Incluir documento:</strong> permite incluir novo documento no(s) processo(s) selecionado(s).</p></td>
+</tr>
+<tr class="row-odd"><td><figure class="align-default">
+<img alt="_images/1-IO_icone_Gerenciar_Marcador.png" src="_images/1-IO_icone_Gerenciar_Marcador.png" />
+</figure>
+</td>
+<td><p><strong>Gerenciar marcador:</strong> permite que a unidade crie e gerencie marcadores para os processos sob sua gestão. Utilizado para organização interna da equipe de trabalho. Essas informações não ficam disponíveis para unidades que, eventualmente, consultarem o processo.</p></td>
+</tr>
+<tr class="row-even"><td><figure class="align-default">
+<img alt="_images/1-IO_icone_Atribuicao_processo.png" src="_images/1-IO_icone_Atribuicao_processo.png" />
+</figure>
+</td>
+<td><p><strong>Controle de Prazos:</strong> ferramenta utilizada para administração de prazos dentro da unidade. É uma funcionalidade de organização interna, dessa forma, outras unidades não terão acesso ao Controle de Prazos da unidade.</p></td>
+</tr>
+</tbody>
+</table>
+<p>Os Filtros disponíveis na tela Controle de Processos, que ficam logo abaixo da Barra de Ícones, permitem diversas visualizações dos processos. Veja a explicação de cada opção a seguir:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Ícones</p></th>
+<th class="head"><p>Descrição</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><em>Visualização detalhada</em></p></td>
+<td><p>Possibilita uma visualização mais detalhada dos processos na tela. O usuário poderá configurar essa opção clicando no link “Visualização detalhada” e, em seguida, no link “Configurar nível de detalhe”.</p></td>
+</tr>
+<tr class="row-odd"><td><p><em>Configurar nível de detalhe</em></p></td>
+<td><p>Esse link surge quando o usuário clica em “Visualização detalhada”. Ele permite a configuração do nível de detalhe a ser exibido em tela. O usuário poderá selecionar uma das seguintes opções a serem apresentadas na tela: Atribuição, Anotação, Tipo de processo, Especificação, Interessados, Observação, Controle de Prazo, Para Devolver, Aguardando Retorno, Última Movimentação na Unidade e Marcadores.</p></td>
+</tr>
+<tr class="row-even"><td><p><em>Ver processos atribuídos a mim</em></p></td>
+<td><p>Aplica filtro para que sejam mostrados, na tela Controle de Processos, apenas os processos atribuídos ao usuário que está acessando o sistema.</p></td>
+</tr>
+<tr class="row-odd"><td><p><em>Ver por marcadores</em></p></td>
+<td><p>Exibe os Marcadores utilizados na unidade e a quantidade de processos em cada Marcador. Para acessar os processos, basta clicar no número correspondente à quantidade de cada Marcador, na coluna Processos.</p></td>
+</tr>
+<tr class="row-even"><td><p><em>Ver por tipo de processo</em></p></td>
+<td><p>Exibe os tipos de processos abertos na unidade e a quantidade de processos de cada tipo. Para acessar os processos, basta clicar no número correspondente à quantidade de cada tipo, na coluna Processos.</p></td>
+</tr>
+</tbody>
+</table>
+<p>Os símbolos e orientações visuais apresentados na tela Controle de Processos auxiliam na identificação da situação dos processos. Veja a descrição de cada um deles a seguir:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Ícones/Simbologias</p></th>
+<th class="head"><p>Descrição</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><figure class="align-default">
+<img alt="_images/1-IO_icone_Login_entre_parenteses.png" src="_images/1-IO_icone_Login_entre_parenteses.png" />
+</figure>
+</td>
+<td><p><strong>Login entre parênteses</strong>: indica o usuário a quem o processo foi atribuído na unidade.</p></td>
+</tr>
+<tr class="row-odd"><td><figure class="align-default">
+<img alt="_images/1-IO_icone_numero_preto.png" src="_images/1-IO_icone_numero_preto.png" />
+</figure>
+</td>
+<td><p><strong>Processo com número em preto</strong>: indica que já foi acessado por algum usuário da unidade.</p></td>
+</tr>
+<tr class="row-even"><td><figure class="align-default">
+<img alt="_images/1-IO_icone_numero_em_vermelho.png" src="_images/1-IO_icone_numero_em_vermelho.png" />
+</figure>
+</td>
+<td><p><strong>Processo com número em vermelho</strong>: indica que ainda não foi acessado.</p></td>
+</tr>
+<tr class="row-odd"><td><figure class="align-default">
+<img alt="_images/1-IO_icone_processo_fundo_preto.png" src="_images/1-IO_icone_processo_fundo_preto.png" />
+</figure>
+</td>
+<td><p><strong>Incluir em bloco</strong>: utilizado para organizar os processos dentro do sistema, incluindo-os em Bloco Interno ou Bloco de Reunião.</p></td>
+</tr>
+<tr class="row-even"><td><figure class="align-default">
+<img alt="_images/1-IO_icone_fundo_vermelho.png" src="_images/1-IO_icone_fundo_vermelho.png" />
+</figure>
+</td>
+<td><p><strong>Processo com fundo vermelho</strong>: indica processo sigiloso que ainda não foi acessado.</p></td>
+</tr>
+<tr class="row-odd"><td><figure class="align-default">
+<img alt="_images/1-IO_icone_fundo_azul.png" src="_images/1-IO_icone_fundo_azul.png" />
+</figure>
+</td>
+<td><p><strong>Processo com fundo azul</strong>: indica que o processo sigiloso foi acessado e/ou que sofreu alguma ação realizada pelo usuário no login/sessão atual.</p></td>
+</tr>
+<tr class="row-even"><td><figure class="align-default">
+<img alt="_images/1-IO_icone_RP_a_vencer.png" src="_images/1-IO_icone_RP_a_vencer.png" />
+</figure>
+</td>
+<td><p>Indica que o processo recebido pela unidade tem prazo de Retorno Programado a vencer.</p></td>
+</tr>
+<tr class="row-odd"><td><figure class="align-default">
+<img alt="_images/1-IO_icone_RP_atrasado.png" src="_images/1-IO_icone_RP_atrasado.png" />
+</figure>
+</td>
+<td><p>Indica que o processo recebido pela unidade está com prazo de Retorno Programado expirado (atrasado).</p></td>
+</tr>
+<tr class="row-even"><td><figure class="align-default">
+<img alt="_images/1-IO_icone_RP_concluido.png" src="_images/1-IO_icone_RP_concluido.png" />
+</figure>
+</td>
+<td><p>Indica que o processo recebido pela unidade com prazo de Retorno Programado teve a devolução cumprida.</p></td>
+</tr>
+<tr class="row-odd"><td><figure class="align-default">
+<img alt="_images/1-IO_icone_RP_aguardando_retorno.png" src="_images/1-IO_icone_RP_aguardando_retorno.png" />
+</figure>
+</td>
+<td><p>Indica que o processo enviado pela unidade com Retorno Programado está aguardando retorno de outra unidade.</p></td>
+</tr>
+<tr class="row-even"><td><figure class="align-default">
+<img alt="_images/1-IO_icone_retorno_cumprido.png" src="_images/1-IO_icone_retorno_cumprido.png" />
+</figure>
+</td>
+<td><p>Indica que o processo enviado pela unidade com Retorno Programado teve o retorno cumprido.</p></td>
+</tr>
+<tr class="row-odd"><td><figure class="align-default">
+<img alt="_images/1-IO_icone_RP_devolucao_atrasada.png" src="_images/1-IO_icone_RP_devolucao_atrasada.png" />
+</figure>
+</td>
+<td><p>Indica que o processo enviado pela unidade com Retorno Programado está com o prazo de devolução expirado (atrasado).</p></td>
+</tr>
+<tr class="row-even"><td><figure class="align-default">
+<img alt="_images/1-IO_icone_doc_inluido_ou_assinado.png" src="_images/1-IO_icone_doc_inluido_ou_assinado.png" />
+</figure>
+</td>
+<td><p>Indica que um documento foi incluído ou assinado no processo.</p></td>
+</tr>
+<tr class="row-odd"><td><figure class="align-default">
+<img alt="_images/1-IO_icone_Anotacoes.png" src="_images/1-IO_icone_Anotacoes.png" />
+</figure>
+</td>
+<td><p>Indica a existência de uma Anotação simples.</p></td>
+</tr>
+<tr class="row-even"><td><figure class="align-default">
+<img alt="_images/1-IO_icone_Anotacoes_com_prioridade.png" src="_images/1-IO_icone_Anotacoes_com_prioridade.png" />
+</figure>
+</td>
+<td><p>Indica a existência de uma Anotação com prioridade.</p></td>
+</tr>
+<tr class="row-odd"><td><figure class="align-default">
+<img alt="_images/1-IO_icone_Gerenciar_Marcador.png" src="_images/1-IO_icone_Gerenciar_Marcador.png" />
+</figure>
+</td>
+<td><p>Indica que o processo possui um marcador.</p></td>
+</tr>
+<tr class="row-even"><td><figure class="align-default">
+<img alt="_images/1-IO_icone__possui_ponto_de_controle.png" src="_images/1-IO_icone__possui_ponto_de_controle.png" />
+</figure>
+</td>
+<td><p>Indica que o processo possui um Ponto de Controle.</p></td>
+</tr>
+<tr class="row-odd"><td><figure class="align-default">
+<img alt="_images/1-IO_icone__controle_prazo_a_vencer.png" src="_images/1-IO_icone__controle_prazo_a_vencer.png" />
+</figure>
+</td>
+<td><p>Indica que o processo possui um Controle de Prazo a vencer.</p></td>
+</tr>
+<tr class="row-even"><td><figure class="align-default">
+<img alt="_images/1-IO_icone__controle_prazo_concluido.png" src="_images/1-IO_icone__controle_prazo_concluido.png" />
+</figure>
+</td>
+<td><p>Indica que o processo possui um Controle de Prazo concluído.</p></td>
+</tr>
+<tr class="row-odd"><td><figure class="align-default">
+<img alt="_images/1-IO_icone__controle_prazo_atrasado.png" src="_images/1-IO_icone__controle_prazo_atrasado.png" />
+</figure>
+</td>
+<td><p>Indica que o processo possui um Controle de Prazo vencido (atrasado).</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="tela-do-processo">
+<h2><span class="section-number">2.6. </span>Tela do Processo<a class="headerlink" href="#tela-do-processo" title="Permalink to this heading"></a></h2>
+<p>Ao clicar sobre um número de processo, na tela Controle de Processos, o usuário será direcionado a uma nova tela, onde poderá visualizar seu conteúdo.</p>
+<figure class="align-default">
+<img alt="_images/1-IO_tela_do_processo.png" src="_images/1-IO_tela_do_processo.png" />
+</figure>
+<p>O lado esquerdo da tela mostra o número do processo e a relação de documentos organizados por ordem de produção – é a chamada <strong>“Árvore do Processo”</strong>. Logo abaixo, é apresentada a funcionalidade <strong>“Consultar Andamento”</strong> e, em seguida, são mostrados os <strong>Processos Relacionados</strong>, quando houver.</p>
+<p>À direita da tela são exibidos os ícones de operações possíveis para o processo e, logo abaixo, as unidades nas quais o processo está aberto.</p>
+<p>Alguns desses ícones são os mesmos apresentados na tela Controle de Processos, já detalhados no tópico anterior. As demais funcionalidades são as seguintes:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Ícone</p></th>
+<th class="head"><p>Descrição</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><figure class="align-default">
+<img alt="_images/1-IO_icone__iniciar_processo_relacionado.png" src="_images/1-IO_icone__iniciar_processo_relacionado.png" />
+</figure>
+</td>
+<td><p><strong>Iniciar processo relacionado:</strong> permite iniciar um novo processo relacionado ao processo em que o usuário está trabalhando no momento.</p></td>
+</tr>
+<tr class="row-odd"><td><figure class="align-default">
+<img alt="_images/1-IO_icone__consultar_alterar_processo.png" src="_images/1-IO_icone__consultar_alterar_processo.png" />
+</figure>
+</td>
+<td><p><strong>Consultar/Alterar processo:</strong> permite consultar ou alterar os dados de cadastro do processo (descrição, interessados, destinatário, nível de acesso), com exceção da data de autuação e do NUP.</p></td>
+</tr>
+<tr class="row-even"><td><figure class="align-default">
+<img alt="_images/1-IO_icone__ciência.png" src="_images/1-IO_icone__ciência.png" />
+</figure>
+</td>
+<td><p><strong>Ciência:</strong> permite que as unidades registrem ciência do processo, dispensando a necessidade de se produzir um novo documento para esse fim.</p></td>
+</tr>
+<tr class="row-odd"><td><figure class="align-default">
+<img alt="_images/1-IO_icone__favoritos.png" src="_images/1-IO_icone__favoritos.png" />
+</figure>
+</td>
+<td><p><strong>Favoritos:</strong> Permite salvar o processo selecionado como “favorito”, podendo-se incluí-lo em grupos de favoritos, a critério da unidade. Os processos favoritos podem ser acessados a partir da opção “Favoritos” no menu Principal.</p></td>
+</tr>
+<tr class="row-even"><td><figure class="align-default">
+<img alt="_images/1-IO_icone__duplicar_processo.png" src="_images/1-IO_icone__duplicar_processo.png" />
+</figure>
+</td>
+<td><p><strong>Duplicar processo:</strong> permite duplicar os documentos integrantes de um processo, gerando um novo processo.</p></td>
+</tr>
+<tr class="row-odd"><td><figure class="align-default">
+<img alt="_images/1-IO_icone__enviar_correspondencia_eletronica.png" src="_images/1-IO_icone__enviar_correspondencia_eletronica.png" />
+</figure>
+</td>
+<td><p><strong>Enviar correspondência eletrônica:</strong> permite enviar e-mail relacionado ao processo, com ou sem anexos.</p></td>
+</tr>
+<tr class="row-even"><td><figure class="align-default">
+<img alt="_images/1-IO_icone__relacionamentos_processo.png" src="_images/1-IO_icone__relacionamentos_processo.png" />
+</figure>
+</td>
+<td><p><strong>Relacionamentos do processo:</strong> permite vincular virtualmente um processo a outro, mantendo os andamentos de forma independente.</p></td>
+</tr>
+<tr class="row-odd"><td><figure class="align-default">
+<img alt="_images/1-IO_icone__ordenar_arvore.png" src="_images/1-IO_icone__ordenar_arvore.png" />
+</figure>
+</td>
+<td><p><strong>Ordenar árvore do processo:</strong> permite que o usuário altere a ordem dos documentos de um processo conforme a necessidade.</p></td>
+</tr>
+<tr class="row-even"><td><figure class="align-default">
+<img alt="_images/1-IO_icone__gerenciar_dispon_acesso_externo.png" src="_images/1-IO_icone__gerenciar_dispon_acesso_externo.png" />
+</figure>
+</td>
+<td><p><strong>Gerenciar disponibilizações de acesso externo</strong>: utilizado para liberar acesso ao conteúdo do processo para um usuário externo. Envia e-mail com link que dará acesso aos documentos do processo.</p></td>
+</tr>
+<tr class="row-odd"><td><figure class="align-default">
+<img alt="_images/1-IO_icone__anexar_processo.png" src="_images/1-IO_icone__anexar_processo.png" />
+</figure>
+</td>
+<td><p><strong>Anexar processo:</strong> permite anexar um processo a outro. Essa ação não pode ser desfeita.</p></td>
+</tr>
+<tr class="row-even"><td><figure class="align-default">
+<img alt="_images/1-IO_icone__gerar_pdf.png" src="_images/1-IO_icone__gerar_pdf.png" />
+</figure>
+</td>
+<td><p><strong>Gerar arquivo PDF do processo:</strong> permite gerar um arquivo do processo no formato PDF. O usuário pode escolher quais documentos deseja incluir no arquivo.</p></td>
+</tr>
+<tr class="row-odd"><td><figure class="align-default">
+<img alt="_images/1-IO_icone__gerar_ZIP.png" src="_images/1-IO_icone__gerar_ZIP.png" />
+</figure>
+</td>
+<td><p><strong>Gerar arquivo ZIP do processo:</strong> permite gerar um arquivo do processo no formato ZIP. O usuário pode escolher quais documentos deseja incluir no arquivo.</p></td>
+</tr>
+<tr class="row-even"><td><figure class="align-default">
+<img alt="_images/1-IO_icone__comentarios.png" src="_images/1-IO_icone__comentarios.png" />
+</figure>
+</td>
+<td><p><strong>Comentários:</strong> permite a inclusão de comentários em processos e/ou documentos.</p></td>
+</tr>
+<tr class="row-odd"><td><figure class="align-default">
+<img alt="_images/1-IO_icone_controle_de_processo_tela_processos.png" src="_images/1-IO_icone_controle_de_processo_tela_processos.png" />
+</figure>
+</td>
+<td><p><strong>Controle de Processos:</strong> permite que o usuário acesse a tela de controle de processos.</p></td>
+</tr>
+<tr class="row-even"><td><figure class="align-default">
+<img alt="_images/1-IO_icone__pesquisar_processo.png" src="_images/1-IO_icone__pesquisar_processo.png" />
+</figure>
+</td>
+<td><p><strong>Pesquisar no Processo:</strong> Permite que o usuário realize pesquisas avançadas sobre processos e documentos.</p></td>
+</tr>
+</tbody>
+</table>
+<section id="arvore-de-processos">
+<h3><span class="section-number">2.6.1. </span>Árvore de Processos<a class="headerlink" href="#arvore-de-processos" title="Permalink to this heading"></a></h3>
+<p>Todos os documentos do processo são organizados por ordem de inclusão, na vertical, em um modo de visualização denominado <strong>“Árvore de Documentos do Processo”</strong>.</p>
+<figure class="align-default">
+<img alt="_images/1-IO_tela_arvore_de_processos.png" src="_images/1-IO_tela_arvore_de_processos.png" />
+</figure>
+<p>Processos que, por sua natureza, comportem grande volume de documentos apresentam seus conteúdos aglutinados em pastas, de modo que sempre fiquem visíveis os últimos documentos inseridos. Essa aglutinação não pode ser confundida com “Volume de Processo”, que é típico de processos em suporte físico, não existente em processo eletrônico.</p>
+<p>O SUPER.GOV.BR traz facilidades para cópia do Número Único de Protocolo (NUP). Para isso, deve-se clicar no ícone ao lado do número do processo.</p>
+<p>Será possível copiar o número do processo, o número do processo acompanhado do seu assunto ou o seu link de acesso.</p>
+<figure class="align-default">
+<img alt="_images/1-IO_tela_arvore_de_processos_NUP.png" src="_images/1-IO_tela_arvore_de_processos_NUP.png" />
+</figure>
+</section>
+</section>
+<section id="tela-do-documento">
+<h2><span class="section-number">2.7. </span>Tela do Documento<a class="headerlink" href="#tela-do-documento" title="Permalink to this heading"></a></h2>
+<p>Ao clicar sobre um documento na árvore do processo, ele recebe uma marcação em azul enfatizando o item selecionado.</p>
+<figure class="align-default">
+<img alt="_images/1-IO_tela_do_documento.png" src="_images/1-IO_tela_do_documento.png" />
+</figure>
+<p>À direita, são mostrados todos os ícones de operações possíveis para documentos e, logo abaixo, é apresentado o corpo do documento.</p>
+<p>Alguns desses ícones são os mesmos apresentados na tela do processo, já detalhados no tópico anterior. As demais funcionalidades disponíveis são as seguintes:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Ícone</p></th>
+<th class="head"><p>Descrição</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><figure class="align-default">
+<img alt="_images/1-IO_icone__consultar_alterar_documento.png" src="_images/1-IO_icone__consultar_alterar_documento.png" />
+</figure>
+</td>
+<td><p><strong>Consultar/Alterar documento:</strong> permite consultar ou alterar os dados de cadastro do documento (descrição, interessados, destinatário, nível de acesso), com exceção da data de produção e do número do documento.</p></td>
+</tr>
+<tr class="row-odd"><td><figure class="align-default">
+<img alt="_images/1-IO_icone__adionar_aos_favoritos.png" src="_images/1-IO_icone__adionar_aos_favoritos.png" />
+</figure>
+</td>
+<td><p><strong>Adicionar aos favoritos:</strong> permite que o usuário defina o documento como modelo, aproveitando seu formato e conteúdo na produção de novos documentos.</p></td>
+</tr>
+<tr class="row-even"><td><figure class="align-default">
+<img alt="_images/1-IO_icone__imprimir_web.png" src="_images/1-IO_icone__imprimir_web.png" />
+</figure>
+</td>
+<td><p><strong>Imprimir web:</strong> permite imprimir um documento. Essa funcionalidade está disponível apenas para documentos produzidos no editor de texto do sistema.</p></td>
+</tr>
+<tr class="row-odd"><td><figure class="align-default">
+<img alt="_images/1-IO_icone_consultar_assinaturas.png" src="_images/1-IO_icone_consultar_assinaturas.png" />
+</figure>
+</td>
+<td><p><strong>Consultar assinaturas:</strong> permite consultar as assinaturas de autenticação efetuadas no documento externo digitalizado e inserido no SUPER.GOV.BR 1.0.</p></td>
+</tr>
+</tbody>
+</table>
+<p>Da mesma forma que ocorre com o número do processo, o SUPER.GOV.BR tem funcionalidade que permite a geração de cópia do número do documento, para acessá-la clique no ícone ao lado do documento.</p>
+<p>Será possível copiar o número do documento, o número do documento acompanhado do seu título ou o seu link de acesso.</p>
+<figure class="align-default">
+<img alt="_images/1-IO_tela_do_documento_numero_doc.png" src="_images/1-IO_tela_do_documento_numero_doc.png" />
+</figure>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="Introducao.html" class="btn btn-neutral float-left" title="1. Introdução" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="Operacoes_basicas_com_processos.html" class="btn btn-neutral float-right" title="3. Operações Básicas com processos" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2021, Super GOVBR.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_govbr_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
