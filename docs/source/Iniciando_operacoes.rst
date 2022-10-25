@@ -70,8 +70,8 @@ No topo da página está localizada a barra de ferramentas do sistema.
 
 As funcionalidades disponíveis são:
 
-
-.. list-table::
+.. list-table:: Ícones Tela de Controle de Processos
+   :widths: 20 35
    :header-rows: 1
 
    - * Ícones Disponíveis
