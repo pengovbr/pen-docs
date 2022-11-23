@@ -98,7 +98,7 @@ Na tela “**Blocos de Assinatura**” será possível verificar que o Bloco no 
 
 .. |visualizar_documentos| image:: _static/images/9-B-icone_visualizar_documentos.png
    :align: middle
-   :width: 25
+   :width: 20
 
 .. |disponibilizar_bloco| image:: _static/images/9-B-icone_disponibilizar_bloco.png
    :align: middle
@@ -114,7 +114,7 @@ Na tela “**Blocos de Assinatura**” será possível verificar que o Bloco no 
 
 .. |excluir| image:: _static/images/3-OBCP_icone_exclusao.png
    :align: middle
-   :width: 20
+   :width: 25
 
 Para que seja possível a visualização, a edição e a assinatura dos documentos contidos no Bloco por usuário de outra unidade, será necessário clicar no ícone “**Disponibilizar Bloco**” |disponibilizar_bloco|, exibido na coluna Ações.
 
@@ -137,7 +137,7 @@ O Bloco disponibilizado aparecerá na cor amarela e seu estado passará a “**D
 
 .. |visualizar_documentos| image:: _static/images/9-B-icone_visualizar_documentos.png
    :align: middle
-   :width: 25
+   :width: 20
 
 .. |cancelar_disponibilizacao_bloco| image:: _static/images/9-B-icone_cancelar_disponibilizacao_bloco.png
    :align: middle
@@ -424,7 +424,7 @@ Também será possível excluir múltiplos grupos. Para isso, basta selecionar o
 
 .. |excluir| image:: _static/images/3-OBCP_icone_exclusao.png
    :align: middle
-   :width: 20
+   :width: 25
 
 .. |editar| image:: _static/images/3-OBCP_icone_edicao.png
    :align: middle
@@ -583,7 +583,7 @@ Nessa tela, encontram-se disponíveis botões que permitem a realização de aç
 
 .. |excluir| image:: _static/images/3-OBCP_icone_exclusao.png
    :align: middle
-   :width: 20
+   :width: 25
 
 .. |cancelar_disponibilizacao_bloco| image:: _static/images/9-B-icone_cancelar_disponibilizacao_bloco.png
    :align: middle
@@ -650,7 +650,7 @@ Nessa tela, é possível:
 
 .. |excluir| image:: _static/images/3-OBCP_icone_exclusao.png
    :align: middle
-   :width: 20
+   :width: 25
 
 
 Para sair da tela Processos do Bloco de Reunião, clique no botão Fechar.
@@ -703,7 +703,7 @@ Após essa ação, o Estado do Bloco será alterado para “**Disponibilizado**�
 
 .. |visualizar_documentos| image:: _static/images/9-B-icone_visualizar_documentos.png
    :align: middle
-   :width: 25
+   :width: 20
 
 .. |disponibilizar_bloco| image:: _static/images/9-B-icone_disponibilizar_bloco.png
    :align: middle
@@ -719,7 +719,7 @@ Após essa ação, o Estado do Bloco será alterado para “**Disponibilizado**�
 
 .. |excluir| image:: _static/images/3-OBCP_icone_exclusao.png
    :align: middle
-   :width: 20
+   :width: 25
 
 .. |cancelar_disponibilizacao_bloco| image:: _static/images/9-B-icone_cancelar_disponibilizacao_bloco.png
    :align: middle
@@ -871,7 +871,7 @@ Nessa tela, é possível:
 
 .. |excluir| image:: _static/images/3-OBCP_icone_exclusao.png
    :align: middle
-   :width: 20
+   :width: 25
 
 .. |anotacoes| image:: _static/images/9-B-icone_anotacoes.png
    :align: middle
@@ -914,7 +914,7 @@ Nessa tela, as opções existentes na coluna “**Ações**” irão variar conf
 
 .. |visualizar_documentos| image:: _static/images/9-B-icone_visualizar_documentos.png
    :align: middle
-   :width: 35
+   :width: 25
 
 .. |editar| image:: _static/images/3-OBCP_icone_edicao.png
    :align: middle
@@ -930,7 +930,7 @@ Nessa tela, as opções existentes na coluna “**Ações**” irão variar conf
 
 .. |excluir| image:: _static/images/3-OBCP_icone_exclusao.png
    :align: middle
-   :width: 20
+   :width: 25
 
 
 .. admonition:: Notas

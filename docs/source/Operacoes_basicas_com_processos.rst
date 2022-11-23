@@ -6,7 +6,8 @@ Iniciar Processo
 
 Para iniciar um processo no SUPER.GOV.BR, o usuário deve clicar em “**Iniciar Processo**” no menu principal.
 
-.. figure:: _static/images/2-OBCP_Tela_Controle_Iniciar_Processo.png
+.. figure:: _static/images/2-OBCP_Tela_Controle_Iniciar_Processo.gif
+
 
 Será exibida uma tela com os tipos de processos já utilizados na unidade.
 
@@ -29,7 +30,7 @@ Se desejar voltar à tela anterior, selecione o ícone “**Exibir apenas os tip
 
 Ao clicar sobre o tipo do processo desejado, na tela “**Iniciar Processo**”, aparecerão os campos para cadastramento dos metadados do processo.
 
-.. figure:: _static/images/2-OBCP_incluir_processo_formulario_cadastro.png
+.. figure:: _static/images/2-OBCP_incluir_processo_formulario_cadastro.gif
 
 O campo “**Tipo do Processo**” aparece preenchido com o tipo selecionado, e o campo “**Classificação por Assuntos**” é preenchido automaticamente, de acordo com o Tipo do Processo selecionado. O usuário poderá clicar duas vezes sobre o Código/Descrição registrado no campo, para obter mais informações a respeito daquela classificação. 
 

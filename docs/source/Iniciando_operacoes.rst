@@ -20,12 +20,9 @@ Para habilitar a Autenticação em dois fatores, é necessário acessar a tela d
    O usuário poderá, se desejar, habilitar a Autenticação em dois fatores para efetuar o login no sistema. A disponibilização desse recurso é um dos itens que evidenciam a preocupação com a segurança do sistema e das informações registradas.
    Com essa possibilidade, o usuário poderá adicionar uma camada extra de segurança aos seus dados de acesso, uma vez que essa sistemática associa um dado que o usuário conhece (a sua senha) a um recurso que possui em mãos (o seu smartphone). 
 
-.. figure:: _static/images/1-IO_tela_inicial_2fa.png
+.. figure:: _static/images/tela_A2F.gif
 
 Na tela seguinte, será exibido um link com todas as informações para a habilitação do recurso. O usuário deverá ler as instruções e, em seguida, clicar no botão **Prosseguir**.
-
-.. figure:: _static/images/1-IO_tela_inicial_2fa_prosseguir.png
-   :align: middle
 
 Para continuar, é necessário ter, em seu dispositivo móvel, um aplicativo destinado a autenticação em duas etapas. O ***Google Authenticator*** e o ***Microsoft Authenticator*** são exemplos de apps que podem ser utilizados para esta finalidade. 
 
@@ -37,8 +34,8 @@ Após esse procedimento, abra o aplicativo e acesse a opção para leitura de **
 
 Faça a leitura da imagem, insira seu e-mail pessoal e clique em **Enviar**.
 
-.. figure:: _static/images/1-IO_tela_inicial_2fa_qrcode.png
-   :align: center
+.. figure:: _static/images/tela_A2F_envio_email.gif
+  
 
 Ao clicar sobre o botão **ACESSAR**, o sistema emitirá uma mensagem informando o envio de um e-mail para habilitação do recurso, com validade de até 60 minutos para a conclusão da solicitação.  
 
@@ -172,29 +169,73 @@ Abaixo, estão descritas as diversas funcionalidades da barra de ícones. O pass
 
    - * Ícones
      * Descrição
-   - * .. figure:: _static/images/1-IO_icone_Enviar_Processo.png
+   - * |enviar_processo|
      * **Enviar processo:** permite tramitar processo(s) para outra unidade. Conclui o processo na unidade remetente, a menos que, no momento do envio, o usuário assinale a opção “Manter o processo aberto na unidade atual”. Se concluído, o processo desaparecerá da tela “Controle de Processos”, mas poderá ser recuperado na Pesquisa ou Acompanhamento Especial (quando assinalado).
-   - * .. figure:: _static/images/1-IO_icone_Atualizar_Andamento.png
+   - * |atualizar_andamento| 
      * **Atualizar andamento:** permite incluir uma informação ou despacho de andamento ao(s) processo(s) selecionado(s).
-   - * .. figure:: _static/images/1-IO_icone_Atribuicao_processo.png
+   - * |Atribuição_de_processos|
      * **Atribuição de processos:** permite distribuir processos entre os usuários da unidade, atribuindo-lhes responsabilidade. Essa informação não fica disponível para outras unidades que, eventualmente, consultarem o processo.
-   - * .. figure:: _static/images/1-IO_icone_incluir_bloco.png
+   - * |Incluir_em_bloco|
      * **Incluir em bloco:** utilizado para organizar os processos dentro do sistema, incluindo-os em Bloco Interno ou Bloco de Reunião.
-   - * .. figure:: _static/images/1-IO_icone_sobrestar_processo.png
+   - * |Sobrestar_processo|
      * **Sobrestar processo:** utilizado quando o processo precisa aguardar alguma providência antes de ter prosseguimento, mantendo-se suspenso temporariamente na unidade.
-   - * .. figure:: _static/images/1-IO_icone_concluir_processo.png
+   - * |Concluir_processo_nesta_unidade|
      * **Concluir processo nesta unidade:** permite finalizar o processo na unidade em que o usuário que está acessando o sistema. O processo desaparecerá da tela “Controle de Processos”, mas poderá ser recuperado na Pesquisa ou Acompanhamento Especial quando tiver sido previamente incluído em acompanhamento).
-   - * .. figure:: _static/images/1-IO_icone_Anotacoes.png
+   - * |Anotações|
      * **Anotações:** permite inserir informações adicionais que não devem constar dos autos do processo. Utilizado geralmente para orientações internas de trabalho da equipe. Essas informações não ficam disponíveis para outras unidades que, eventualmente, consultarem o processo.
-   - * .. figure:: _static/images/1-IO_icone_Acompanhamento_especial.png
+   - * |Acompanhamento_especial|
      * **Acompanhamento especial:** possibilita ao usuário acompanhar o andamento do processo, mesmo que ele esteja tramitando em outra unidade, sem a necessidade de mantê-lo aberto em sua unidade.
-   - * .. figure:: _static/images/1-IO_icone_incluir_documento.png
+   - * |Incluir_documento|
      * **Incluir documento:** permite incluir novo documento no(s) processo(s) selecionado(s).
-   - * .. figure:: _static/images/1-IO_icone_Gerenciar_Marcador.png
+   - * |Gerenciar_marcador|
      * **Gerenciar marcador:** permite que a unidade crie e gerencie marcadores para os processos sob sua gestão. Utilizado para organização interna da equipe de trabalho. Essas informações não ficam disponíveis para unidades que, eventualmente, consultarem o processo.
-   - * .. figure:: _static/images/1-IO_icone_Atribuicao_processo.png
+   - * |Controle_de_Prazos|
      * **Controle de Prazos:** ferramenta utilizada para administração de prazos dentro da unidade. É uma funcionalidade de organização interna, dessa forma, outras unidades não terão acesso ao Controle de Prazos da unidade.
+
+.. |enviar_processo| image:: _static/images/1-IO_icone_Enviar_Processo.png
+   :align: middle
+   :width: 50
    
+.. |atualizar_andamento| image:: _static/images/1-IO_icone_Atualizar_Andamento.png
+   :align: middle
+   :width: 50
+
+.. |Atribuição_de_processos| image:: _static/images/1-IO_icone_Atribuicao_processo.png
+   :align: middle
+   :width: 50
+
+.. |Incluir_em_bloco| image:: _static/images/1-IO_icone_incluir_bloco.png
+   :align: middle
+   :width: 50
+
+.. |Sobrestar_processo| image:: _static/images/1-IO_icone_sobrestar_processo.png
+   :align: middle
+   :width: 50
+
+.. |Concluir_processo_nesta_unidade| image:: _static/images/1-IO_icone_concluir_processo.png
+   :align: middle
+   :width: 50
+
+.. |Anotações| image:: _static/images/1-IO_icone_Anotacoes.png
+   :align: middle
+   :width: 50
+
+.. |Acompanhamento_especial| image:: _static/images/1-IO_icone_Acompanhamento_especial.png
+   :align: middle
+   :width: 50
+
+.. |Incluir_documento| image:: _static/images/1-IO_icone_incluir_documento.png
+   :align: middle
+   :width: 50
+
+.. |Gerenciar_marcador| image:: _static/images/1-IO_icone_Gerenciar_Marcador.png
+   :align: middle
+   :width: 50
+
+.. |Controle_de_Prazos| image:: _static/images/1-IO_icone__cotrole_de_prazos.png
+   :align: middle
+   :width: 50
+
 
 Os Filtros disponíveis na tela Controle de Processos, que ficam logo abaixo da Barra de Ícones, permitem diversas visualizações dos processos. Veja a explicação de cada opção a seguir:
 
@@ -222,47 +263,126 @@ Os símbolos e orientações visuais apresentados na tela Controle de Processos 
 
    - * Ícones/Simbologias
      * Descrição
-   - * .. figure:: _static/images/1-IO_icone_Login_entre_parenteses.png
+   - * |Login_entre_parenteses|
      * **Login entre parênteses**: indica o usuário a quem o processo foi atribuído na unidade.
-   - * .. figure:: _static/images/1-IO_icone_numero_preto.png
+   - * |Processo_numero_preto|
      * **Processo com número em preto**: indica que já foi acessado por algum usuário da unidade.
-   - * .. figure:: _static/images/1-IO_icone_numero_em_vermelho.png
+   - * |Processo_núumero_vermelho|
      * **Processo com número em vermelho**: indica que ainda não foi acessado.
-   - * .. figure:: _static/images/1-IO_icone_processo_fundo_preto.png
-     * **Incluir em bloco**: utilizado para organizar os processos dentro do sistema, incluindo-os em Bloco Interno ou Bloco de Reunião.
-   - * .. figure:: _static/images/1-IO_icone_fundo_vermelho.png
+   - * |Processo_fundo_preto| 
+     * **Processo com fundo preto**: Indica processo sigiloso já acessado por alguém da unidade. Só pode ser visto por usuários com credencial de acesso ao processo sigiloso.
+   - * |Processo_fundo_vermelho|
      * **Processo com fundo vermelho**: indica processo sigiloso que ainda não foi acessado.
-   - * .. figure:: _static/images/1-IO_icone_fundo_azul.png
+   - * |Processo_fundo_azul|
      * **Processo com fundo azul**: indica que o processo sigiloso foi acessado e/ou que sofreu alguma ação realizada pelo usuário no login/sessão atual.
-   - * .. figure:: _static/images/1-IO_icone_RP_a_vencer.png
+   - * |retorno_laranja|
      * Indica que o processo recebido pela unidade tem prazo de Retorno Programado a vencer.
-   - * .. figure:: _static/images/1-IO_icone_RP_atrasado.png
+   - * |retorno_vermelho|
      * Indica que o processo recebido pela unidade está com prazo de Retorno Programado expirado (atrasado).
-   - * .. figure:: _static/images/1-IO_icone_RP_concluido.png
+   - * |retorno_azul|
      * Indica que o processo recebido pela unidade com prazo de Retorno Programado teve a devolução cumprida.
-   - * .. figure:: _static/images/1-IO_icone_RP_aguardando_retorno.png
+   - * |ampulheta_laranja| 
      * Indica que o processo enviado pela unidade com Retorno Programado está aguardando retorno de outra unidade.
-   - * .. figure:: _static/images/1-IO_icone_retorno_cumprido.png
+   - * |ampulheta_azul| 
      * Indica que o processo enviado pela unidade com Retorno Programado teve o retorno cumprido.
-   - * .. figure:: _static/images/1-IO_icone_RP_devolucao_atrasada.png
+   - * |ampulheta_vermelha|
      * Indica que o processo enviado pela unidade com Retorno Programado está com o prazo de devolução expirado (atrasado).
-   - * .. figure:: _static/images/1-IO_icone_doc_inluido_ou_assinado.png
+   - * |alerta|
      * Indica que um documento foi incluído ou assinado no processo.
-   - * .. figure:: _static/images/1-IO_icone_Anotacoes.png
+   - * |anotacoes| 
      * Indica a existência de uma Anotação simples.
-   - * .. figure:: _static/images/1-IO_icone_Anotacoes_com_prioridade.png
+   - * |anotocoes_vermelho|
      * Indica a existência de uma Anotação com prioridade.
-   - * .. figure:: _static/images/1-IO_icone_Gerenciar_Marcador.png
+   - * |marcador|
      * Indica que o processo possui um marcador.
-   - * .. figure:: _static/images/1-IO_icone__possui_ponto_de_controle.png
+   - * |ponto_controle|
      * Indica que o processo possui um Ponto de Controle.
-   - * .. figure:: _static/images/1-IO_icone__controle_prazo_a_vencer.png
+   - * |controle_prazo_laranja|
      * Indica que o processo possui um Controle de Prazo a vencer.
-   - * .. figure:: _static/images/1-IO_icone__controle_prazo_concluido.png
+   - * |controle_prazo_azul| 
      * Indica que o processo possui um Controle de Prazo concluído.
-   - * .. figure:: _static/images/1-IO_icone__controle_prazo_atrasado.png
+   - * |controle_prazo_vermelho|
      * Indica que o processo possui um Controle de Prazo vencido (atrasado).
 
+.. |Login_entre_parenteses| image:: _static/images/1-IO_icone_Login_entre_parenteses.png
+   :align: middle
+   :width: 150
+
+.. |Processo_numero_preto| image:: _static/images/1-IO_icone_numero_preto.png
+   :align: middle
+   :width: 100
+
+.. |Processo_núumero_vermelho| image::  _static/images/1-IO_icone_numero_em_vermelho.png
+   :align: middle
+   :width: 100
+
+.. |Processo_fundo_preto| image:: _static/images/1-IO_icone_processo_fundo_preto.png
+   :align: middle
+   :width: 100
+
+.. |Processo_fundo_vermelho| image:: _static/images/1-IO_icone_fundo_vermelho.png
+   :align: middle
+   :width: 100
+
+.. |Processo_fundo_azul| image:: _static/images/1-IO_icone_fundo_azul.png
+   :align: middle
+   :width: 100
+
+.. |retorno_laranja| image:: _static/images/1-IO_icone_RP_a_vencer.png
+   :align: middle
+   :width: 40
+
+.. |retorno_vermelho| image:: _static/images/1-IO_icone_RP_atrasado.png
+   :align: middle
+   :width: 40
+
+.. |retorno_azul| image:: _static/images/1-IO_icone_RP_concluido.png
+   :align: middle
+   :width: 40
+
+.. |ampulheta_laranja| image:: _static/images/1-IO_icone_RP_aguardando_retorno.png
+   :align: middle
+   :width: 40
+
+.. |ampulheta_azul| image:: _static/images/1-IO_icone_retorno_cumprido.png
+   :align: middle
+   :width: 35
+
+.. |ampulheta_vermelha| image:: _static/images/1-IO_icone_RP_devolucao_atrasada.png
+   :align: middle
+   :width: 40
+
+.. |alerta| image:: _static/images/1-IO_icone_doc_inluido_ou_assinado.png
+   :align: middle
+   :width: 40
+
+.. |anotacoes| image:: _static/images/1-IO_icone_Anotacoes.png
+   :align: middle
+   :width: 40
+
+.. |anotocoes_vermelho| image:: _static/images/1-IO_icone_Anotacoes_com_prioridade.png
+   :align: middle
+   :width: 40
+
+.. |marcador| image:: _static/images/1-IO_icone_Gerenciar_Marcador.png
+   :align: middle
+   :width: 40
+
+.. |ponto_controle| image:: _static/images/1-IO_icone__possui_ponto_de_controle.png
+   :align: middle
+   :width: 40
+
+.. |controle_prazo_laranja| image::  _static/images/1-IO_icone__controle_prazo_a_vencer.png
+   :align: middle
+   :width: 40
+
+.. |controle_prazo_azul| image:: _static/images/1-IO_icone__controle_prazo_concluido.png
+   :align: middle
+   :width: 35
+
+.. |controle_prazo_vermelho| image:: _static/images/1-IO_icone__controle_prazo_atrasado.png
+   :align: middle
+   :width: 40
 
 Tela do Processo
 ++++++++++++++++
@@ -283,37 +403,97 @@ Alguns desses ícones são os mesmos apresentados na tela Controle de Processos,
 
    - * Ícone
      * Descrição
-   - * .. figure:: _static/images/1-IO_icone__iniciar_processo_relacionado.png
+   - * |Iniciar_processo_relacionado| 
      * **Iniciar processo relacionado:** permite iniciar um novo processo relacionado ao processo em que o usuário está trabalhando no momento. 
-   - * .. figure:: _static/images/1-IO_icone__consultar_alterar_processo.png
+   - * |Consultar_Alterar_processo|
      * **Consultar/Alterar processo:** permite consultar ou alterar os dados de cadastro do processo (descrição, interessados, destinatário, nível de acesso), com exceção da data de autuação e do NUP.
-   - * .. figure:: _static/images/1-IO_icone__ciência.png
+   - * |Ciencia|
      * **Ciência:** permite que as unidades registrem ciência do processo, dispensando a necessidade de se produzir um novo documento para esse fim. 
-   - * .. figure:: _static/images/1-IO_icone__favoritos.png
+   - * |Favoritos|
      * **Favoritos:** Permite salvar o processo selecionado como “favorito”, podendo-se incluí-lo em grupos de favoritos, a critério da unidade. Os processos favoritos podem ser acessados a partir da opção “Favoritos” no menu Principal.
-   - * .. figure:: _static/images/1-IO_icone__duplicar_processo.png
+   - * |Duplicar_processo|
      * **Duplicar processo:** permite duplicar os documentos integrantes de um processo, gerando um novo processo.
-   - * .. figure:: _static/images/1-IO_icone__enviar_correspondencia_eletronica.png
+   - * |Enviar_correspondência_eletronica|
      * **Enviar correspondência eletrônica:** permite enviar e-mail relacionado ao processo, com ou sem anexos.
-   - * .. figure:: _static/images/1-IO_icone__relacionamentos_processo.png
+   - * |Relacionamentos_do_processo|
      * **Relacionamentos do processo:** permite vincular virtualmente um processo a outro, mantendo os andamentos de forma independente. 
-   - * .. figure:: _static/images/1-IO_icone__ordenar_arvore.png
+   - * |Ordenar_arvore_do_processo|
      * **Ordenar árvore do processo:** permite que o usuário altere a ordem dos documentos de um processo conforme a necessidade.
-   - * .. figure:: _static/images/1-IO_icone__gerenciar_dispon_acesso_externo.png
+   - * |Gerenciar_disponibilizacoes_de_acesso_externo|
      * **Gerenciar disponibilizações de acesso externo**: utilizado para liberar acesso ao conteúdo do processo para um usuário externo. Envia e-mail com link que dará acesso aos documentos do processo. 
-   - * .. figure:: _static/images/1-IO_icone__anexar_processo.png
+   - * |Anexar_processo| 
      * **Anexar processo:** permite anexar um processo a outro. Essa ação não pode ser desfeita. 
-   - * .. figure:: _static/images/1-IO_icone__gerar_pdf.png
+   - * |Gerar_arquivo_PDF_do_processo|
      * **Gerar arquivo PDF do processo:** permite gerar um arquivo do processo no formato PDF. O usuário pode escolher quais documentos deseja incluir no arquivo. 
-   - * .. figure:: _static/images/1-IO_icone__gerar_ZIP.png
+   - * |Gerar_arquivo_ZIP_do_processo|
      * **Gerar arquivo ZIP do processo:** permite gerar um arquivo do processo no formato ZIP. O usuário pode escolher quais documentos deseja incluir no arquivo. 
-   - * .. figure:: _static/images/1-IO_icone__comentarios.png
+   - * |Comentarios| 
      * **Comentários:** permite a inclusão de comentários em processos e/ou documentos.
-   - * .. figure:: _static/images/1-IO_icone_controle_de_processo_tela_processos.png
+   - * |Controle_de_Processos|
      * **Controle de Processos:** permite que o usuário acesse a tela de controle de processos.
-   - * .. figure:: _static/images/1-IO_icone__pesquisar_processo.png
+   - * |Pesquisar_no_Processo|
      * **Pesquisar no Processo:** Permite que o usuário realize pesquisas avançadas sobre processos e documentos.
 
+
+.. |Iniciar_processo_relacionado| image:: _static/images/1-IO_icone__iniciar_processo_relacionado.png
+   :align: middle
+   :width: 50
+
+.. |Consultar_Alterar_processo| image:: _static/images/1-IO_icone__consultar_alterar_processo.png
+   :align: middle
+   :width: 50
+
+.. |Ciencia| image::  _static/images/1-IO_icone__ciência.png
+   :align: middle
+   :width: 50
+
+.. |Favoritos| image:: _static/images/1-IO_icone__favoritos.png
+   :align: middle
+   :width: 50
+
+.. |Duplicar_processo| image:: _static/images/1-IO_icone__duplicar_processo.png
+   :align: middle
+   :width: 50
+
+.. |Enviar_correspondência_eletronica| image:: _static/images/1-IO_icone__enviar_correspondencia_eletronica.png
+   :align: middle
+   :width: 50
+
+.. |Relacionamentos_do_processo| image:: _static/images/1-IO_icone__relacionamentos_processo.png
+   :align: middle
+   :width: 50
+
+.. |Ordenar_arvore_do_processo| image:: _static/images/1-IO_icone__ordenar_arvore.png
+   :align: middle
+   :width: 50
+
+.. |Gerenciar_disponibilizacoes_de_acesso_externo| image:: _static/images/1-IO_icone__gerenciar_dispon_acesso_externo.png
+   :align: middle
+   :width: 50
+
+.. |Anexar_processo| image:: _static/images/1-IO_icone__anexar_processo.png
+   :align: middle
+   :width: 50
+
+.. |Gerar_arquivo_PDF_do_processo| image:: _static/images/1-IO_icone__gerar_pdf.png
+   :align: middle
+   :width: 50
+
+.. |Gerar_arquivo_ZIP_do_processo| image:: _static/images/1-IO_icone__gerar_ZIP.png
+   :align: middle
+   :width: 50
+
+.. |Comentarios| image:: _static/images/1-IO_icone__comentarios.png
+   :align: middle
+   :width: 50
+
+.. |Controle_de_Processos| image:: _static/images/1-IO_icone_controle_de_processo_tela_processos.png
+   :align: middle
+   :width: 50
+
+.. |Pesquisar_no_Processo| image:: _static/images/1-IO_icone__pesquisar_processo.png
+   :align: middle
+   :width: 50
 
 
 Árvore de Processos
@@ -345,18 +525,36 @@ Alguns desses ícones são os mesmos apresentados na tela do processo, já detal
 
 
 .. list-table::
+   :widths: 25 50
    :header-rows: 1
+  
 
    - * Ícone
      * Descrição
-   - * .. figure:: _static/images/1-IO_icone__consultar_alterar_documento.png
+   - * |Consultar_Alterar_documento|
      * **Consultar/Alterar documento:** permite consultar ou alterar os dados de cadastro do documento (descrição, interessados, destinatário, nível de acesso), com exceção da data de produção e do número do documento.
-   - * .. figure:: _static/images/1-IO_icone__adionar_aos_favoritos.png
+   - * |Adicionar_aos_favoritos| 
      * **Adicionar aos favoritos:** permite que o usuário defina o documento como modelo, aproveitando seu formato e conteúdo na produção de novos documentos. 
-   - * .. figure:: _static/images/1-IO_icone__imprimir_web.png
-     * **Imprimir web:** permite imprimir um documento. Essa funcionalidade está disponível apenas para documentos produzidos no editor de texto do sistema.
-   - * .. figure:: _static/images/1-IO_icone_consultar_assinaturas.png
+   - * |Imprimir_web| 
+     * **Imprimir web**: permite imprimir um documento. Essa funcionalidade está disponível apenas para documentos produzidos no editor de texto do sistema.
+   - * |Consultar_assinaturas| 
      * **Consultar assinaturas:** permite consultar as assinaturas de autenticação efetuadas no documento externo digitalizado e inserido no SUPER.GOV.BR 1.0.
+
+.. |Consultar_Alterar_documento| image:: _static/images/1-IO_icone__consultar_alterar_documento.png
+   :align: middle
+   :width: 50
+
+.. |Adicionar_aos_favoritos| image:: _static/images/1-IO_icone__adionar_aos_favoritos.png
+   :align: middle
+   :width: 50
+
+.. |Imprimir_web| image:: _static/images/1-IO_icone__imprimir_web.png
+   :align: middle
+   :width: 50
+
+.. |Consultar_assinaturas| image:: _static/images/1-IO_icone_consultar_assinaturas.png
+   :align: middle
+   :width: 50
 
 
 Da mesma forma que ocorre com o número do processo, o SUPER.GOV.BR tem funcionalidade que permite a geração de cópia do número do documento, para acessá-la clique no ícone ao lado do documento.
@@ -365,3 +563,4 @@ Será possível copiar o número do documento, o número do documento acompanhad
 
 
 .. figure:: _static/images/1-IO_tela_do_documento_numero_doc.png
+

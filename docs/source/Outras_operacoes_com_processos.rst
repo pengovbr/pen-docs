@@ -83,13 +83,13 @@ Para cancelar o relacionamento de processos, acesse um dos processos e clique no
 
 .. |relacionar| image:: _static/images/1-IO_icone__relacionamentos_processo.png
    :align: middle
-   :width: 25
+   :width: 30
 
 Na tela “Relacionamentos do Processo”, serão listados os processos relacionados. Selecione o processo desejado e clique no ícone “Remover Relacionamento**” |remover_relacao|, disponível na coluna **Ações**.
 
 .. |remover_relacao| image:: _static/images/4-OOCP-icone_remover_relacionamento.png
    :align: middle
-   :width: 25
+   :width: 30
 
 .. figure:: _static/images/4-OOCP-tela_processo_relacionamentos_processo.png
 
@@ -156,7 +156,7 @@ Para sobrestar processo, clique no número do processo e selecione o ícone “*
 
 .. |sobrestar| image:: _static/images/1-IO_icone_sobrestar_processo.png
    :align: middle
-   :width: 25
+   :width: 30
 
 .. figure:: _static/images/4-OOCP-sobrestar_tela_processo.png
 
@@ -185,7 +185,7 @@ Na tela **Processos Sobrestados**, é possível visualizar todos os processos so
 
 .. |remover_sobrestar| image:: _static/images/4-OOCP-icone_remover_sobrestamento.png
    :align: middle
-   :width: 30
+   :width: 35
 
 .. figure:: _static/images/4-OOCP-sobrestar_tela_processos_sobrestados.png
 
@@ -212,7 +212,7 @@ Na tela do processo, clique no ícone “Excluir” |excluir|, disponível na Ba
 
 .. |excluir| image:: _static/images/3-OBCP_icone_exclusao.png
    :align: middle
-   :width: 20
+   :width: 25
 
 .. figure:: _static/images/4-OOCP-Excluir_processo_tela_processos.png
 

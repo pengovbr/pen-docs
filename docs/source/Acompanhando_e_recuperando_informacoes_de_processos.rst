@@ -47,7 +47,7 @@ O recurso Atualizar Andamento permite acrescentar informações ao Histórico do
 
 .. |atualizar_andamento| image:: _static/images/11-ARIP-icone_atualizar_andamento.png
    :align: middle
-   :width: 25
+   :width: 30
 
 .. figure:: _static/images/11-ARIP-tela_processo_atualizar_andamento.png
 
@@ -63,7 +63,7 @@ O recurso Atualizar Andamento permite acrescentar informações ao Histórico do
 
 .. |atualizar_andamento| image:: _static/images/11-ARIP-icone_atualizar_andamento.png
    :align: middle
-   :width: 25
+   :width: 30
 
 .. figure:: _static/images/11-ARIP-tela_controle_consultar_andamento.png
 
@@ -95,7 +95,7 @@ O usuário deverá selecionar um processo e clicar no ícone “**Acompanhamento
 
 .. |acompanhamento_especial| image:: _static/images/11-ARIP-icone_acompanhamento_especial.png
    :align: middle
-   :width: 25
+   :width: 30
 
 .. figure:: _static/images/11-ARIP-tela_controle_acompanhamento_especial.png
 
@@ -157,7 +157,7 @@ Após o cadastro do Acompanhamento Especial no Processo (clique no botão Salvar
 
 .. |excluir| image:: _static/images/3-OBCP_icone_exclusao.png
    :align: middle
-   :width: 25
+   :width: 30
 
 .. |editar| image:: _static/images/3-OBCP_icone_edicao.png
    :align: middle
@@ -201,7 +201,7 @@ Nesta tela será possível:
 
 .. |excluir| image:: _static/images/3-OBCP_icone_exclusao.png
    :align: middle
-   :width: 25
+   :width: 30
 
 .. |editar| image:: _static/images/3-OBCP_icone_edicao.png
    :align: middle
@@ -320,7 +320,7 @@ Ainda na tela “**Resultado da Pesquisa**”, existem outras opções disponív
 
 .. |excluir| image:: _static/images/3-OBCP_icone_exclusao.png
    :align: middle
-   :width: 20
+   :width: 25
 
 .. |editar| image:: _static/images/3-OBCP_icone_edicao.png
    :align: middle
@@ -699,7 +699,7 @@ Na Lista de Processos por Controles de Prazo Em andamento, poderá ser encontrad
 
 .. |controle_prazo_laranja| image:: _static/images/11-ARIP-icone_controle_prazo_laranja.png
    :align: middle
-   :width: 35
+   :width: 30
 
 .. |controle_prazo_vermelho| image:: _static/images/11-ARIP-icone_controle_prazo_vermelho.png
    :align: middle
@@ -727,7 +727,7 @@ tipo:
 
 .. |retorno_programado_laranja| image:: _static/images/11-ARIP-icone_ampulheta_amarela.png
    :align: middle
-   :width: 20
+   :width: 25
 
 .. |retorno_programado_vermelho| image:: _static/images/11-ARIP-icone_ampulheta_vermelho.png
    :align: middle
@@ -735,7 +735,7 @@ tipo:
 
 .. |retorno_programado_azul| image:: _static/images/11-ARIP-icone_ampulheta_azul.png
    :align: middle
-   :width: 20
+   :width: 25
 
 * **Processos para devolver**
 
@@ -1001,19 +1001,19 @@ Na tela “**Base de Conhecimento**”, o usuário poderá, dependendo da situa�
 
 .. |cancelar_liberacao| image:: _static/images/11-ARIP-icone_cancelar_liberacao.png
    :align: middle
-   :width: 20
+   :width: 25
 
 .. |visualizar_versoes| image:: _static/images/11-ARIP-icone_visualizar_versoes.png
    :align: middle
-   :width: 20
+   :width: 25
 
 .. |consultar_cadastro| image:: _static/images/11-ARIP-icone_consultar_cadastro.png
    :align: middle
-   :width: 20
+   :width: 25
 
 .. |liberar_versao| image:: _static/images/11-ARIP-icone_liberar_versao.png
    :align: middle
-   :width: 20
+   :width: 25
 
 .. |alterar_conteudo| image:: _static/images/11-ARIP-icone_alterar_conteudo.png
    :align: middle
@@ -1021,11 +1021,11 @@ Na tela “**Base de Conhecimento**”, o usuário poderá, dependendo da situa�
 
 .. |visualizar_conteudo| image:: _static/images/11-ARIP-icone_visualizar_conteudo.png
    :align: middle
-   :width: 20
+   :width: 25
 
 .. |excluir| image:: _static/images/3-OBCP_icone_exclusao.png
    :align: middle
-   :width: 20
+   :width: 25
 
 .. |editar| image:: _static/images/3-OBCP_icone_edicao.png
    :align: middle

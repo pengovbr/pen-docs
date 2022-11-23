@@ -22,7 +22,7 @@ Na tela seguinte, o usuário deverá selecionar um “**Grupo de Favoritos**” 
 
 .. |mais| image:: _static/images/2-OBCP_Atribuir_icone_Exibir_todos_os_tipos.png
    :align: middle
-   :width: 25
+   :width: 30
 
 .. figure:: _static/images/6-OOD-favorito_tela_processo_formulario.png
 
@@ -37,7 +37,7 @@ b) Excluir o documento Favorito por meio do ícone “**Excluir Favorito**” |e
 
 .. |excluir| image:: _static/images/3-OBCP_icone_exclusao.png
    :align: middle
-   :width: 20
+   :width: 25
 
 .. figure:: _static/images/6-OOD-favorito_excluir.png
 
@@ -154,7 +154,7 @@ Nessa tela, é possível também:
 
 .. |excluir| image:: _static/images/3-OBCP_icone_exclusao.png
    :align: middle
-   :width: 20
+   :width: 25
 
 .. |editar| image:: _static/images/3-OBCP_icone_edicao.png
    :align: middle
@@ -192,7 +192,7 @@ Na tela seguinte, será possível “Consultar” |consulta|, “Alterar” |edi
 
 .. |excluir| image:: _static/images/3-OBCP_icone_exclusao.png
    :align: middle
-   :width: 20
+   :width: 25
 
 .. |editar| image:: _static/images/3-OBCP_icone_edicao.png
    :align: middle
@@ -369,7 +369,7 @@ Para visualizar as publicações/agendamentos de publicações de um documento, 
 
 .. |alterar_pubicacao| image:: _static/images/6-OOD-icone_alterar_agendamento.png
    :align: middle
-   :width: 30
+   :width: 35
 
 .. |cancelar_pubicacao| image:: _static/images/6-OOD-icone_cancelar_agendamento.png
    :align: middle

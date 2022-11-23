@@ -20,13 +20,13 @@ Os processos recebidos na unidade com uma data de retorno programada apresentar�
 
 .. |para_devolver| image:: _static/images/1-IO_icone_RP_a_vencer.png
    :align: middle
-   :width: 35
+   :width: 30
 
 |para_devolver_expirado| (ícone vermelho) - **Para Devolver**, expirado (atrasado). Assim, ao posicionar o cursor sobre esse ícone, serão mostradas a data e a quantidade de dias de atraso na devolução do processo e a unidade que definiu a data de retorno.
 
 .. |para_devolver_expirado| image:: _static/images/1-IO_icone_RP_atrasado.png
    :align: middle
-   :width: 30
+   :width: 35
 
 Esses ícones aparecerão tanto na tela do processo, ao lado do seu número, quanto na tela Controle de Processos.
 
@@ -48,7 +48,7 @@ Os processos enviados pela unidade com uma data de retorno programada apresentar
 
 .. |aguardando_retorno| image:: _static/images/1-IO_icone_RP_aguardando_retorno.png
    :align: middle
-   :width: 30
+   :width: 25
 
 |aguardando_retorno_atrasado| (ícone vermelho) - **Aguardando Retorno**, expirado (atrasado). Indica que o processo foi enviado pela unidade com prazo de retorno programado e o prazo para retorno já se expirou (está atrasado). Assim, ao posicionar o cursor sobre esse ícone, serão mostradas a data programada para o retorno, a quantidade de dias de atraso na devolução do processo e a unidade para a qual o processo foi enviado.
 
@@ -85,7 +85,7 @@ Na tela “Retorno Programado”, por meio da coluna Ações, a unidade que defi
 
 .. |excluir| image:: _static/images/3-OBCP_icone_exclusao.png
    :align: middle
-   :width: 20
+   :width: 30
 
 .. figure:: _static/images/3-OBCP_tela_controle_acoes_retorno_programado.png
 
@@ -163,14 +163,14 @@ O ícone aparecerá na cor laranja, vermelha ou azul, a depender da situação d
 
 .. |controle_em_andamento| image:: _static/images/1-IO_icone__controle_prazo_a_vencer.png
    :align: middle
-   :width: 30
+   :width: 25
 
 |controle_atrasado| (vermelho) Controle de Prazo Atrasado: indica que o processo possui 
 prazo vencido.
 
 .. |controle_atrasado| image:: _static/images/1-IO_icone__controle_prazo_atrasado.png
    :align: middle
-   :width: 27
+   :width: 25
 
 |controle_concluido| (azul) Controle de Prazo Concluído: indica que o processo possui prazo concluído.
 
@@ -217,7 +217,7 @@ O usuário poderá ainda alterar o Controle de Prazo, por meio do ícone **Alter
 
 .. |excluir| image:: _static/images/3-OBCP_icone_exclusao.png
    :align: middle
-   :width: 20
+   :width: 25
 
 Na tela **Controles de Prazos**, a visualização dos processos na Lista será por ano. Portanto, o usuário terá a opção de selecionar o ano dos processos que deseja visualizar na Lista.
 
@@ -310,11 +310,11 @@ Remover Marcador do Processo |remover_marcador|.
 
 .. |alterar_texto_marcador| image:: _static/images/3-OBCP_icone_alterar_texto.png
    :align: middle
-   :width: 35
+   :width: 30
 
 .. |remover_marcador| image:: _static/images/3-OBCP_icone_remover.png
    :align: middle
-   :width: 35
+   :width: 25
  
 Além disso, por meio do botão histórico será possível consultar o histórico do marcador selecionado.
 
@@ -331,7 +331,7 @@ Há duas opções para remover um Marcador do processo:
 
 .. |remover_etiqueta_marcador| image:: _static/images/3-OBCP_icone_remover_marcador.png
    :align: middle
-   :width: 30
+   :width: 25
 
 .. figure:: _static/images/3-OBCP_remover_marcador_tela_controle_processo.png
 
@@ -343,7 +343,7 @@ Será aberta a tela **Remoção de Marcador**, selecione, na caixa Marcador, aqu
 
 .. |remover_marcador| image:: _static/images/3-OBCP_icone_remover.png
    :align: middle
-   :width: 20
+   :width: 25
 
 .. figure:: _static/images/3-OBCP_remover_marcador_opcoes.png
 
@@ -430,7 +430,7 @@ Na tela Marcadores, por meio dos ícones disponíveis na coluna Ações, é poss
 
 .. |alterar_marcador| image:: _static/images/3-OBCP_icone_edicao.png
    :align: middle
-   :width: 20
+   :width: 25
 
 .. |desativar_marcador| image:: _static/images/3-OBCP_icone_desativar_marcador.png
    :align: middle
@@ -438,11 +438,11 @@ Na tela Marcadores, por meio dos ícones disponíveis na coluna Ações, é poss
 
 .. |excluir_marcador| image:: _static/images/3-OBCP_icone_exclusao.png
    :align: middle
-   :width: 20
+   :width: 25
 
 .. |reativar_marcador| image:: _static/images/3-OBCP_icone_reativar_marcador.png
    :align: middle
-   :width: 20
+   :width: 25
 
 As ações de excluir e desativar **Marcador**, poderão ser realizadas também por meio dos botões **Excluir** e **Desativar**, respectivamente, após a seleção do Marcador.
 
@@ -462,7 +462,7 @@ Para incluir uma anotação, na tela de “**Controle de Processos**”, clique 
 
 .. |anotacoes| image:: _static/images/1-IO_icone_Anotacoes.png
    :align: middle
-   :width: 20
+   :width: 25
 
 .. figure:: _static/images/3-OBCP_anotacoes_controle_processo.png
 
@@ -476,11 +476,11 @@ Insira o texto pretendido no campo “**Descrição**”, caso seja necessário,
 
 .. |anotacoes| image:: _static/images/1-IO_icone_Anotacoes.png
    :align: middle
-   :width: 20
+   :width: 25
 
 .. |anotacoes_vermelho| image:: _static/images/1-IO_icone_Anotacoes_com_prioridade.png
    :align: middle
-   :width: 20
+   :width: 25
 
 .. figure:: _static/images/3-OBCP_anotacoes_tela_processo.png
 
@@ -492,7 +492,7 @@ Para visualizar as anotações inseridas no processo, na tela “**Controle de P
 
 .. |anotacoes| image:: _static/images/1-IO_icone_Anotacoes.png
    :align: middle
-   :width: 20
+   :width: 25
 
 .. figure:: _static/images/3-OBCP_anotacoes_visualizacao.png
 
@@ -500,7 +500,7 @@ Para excluir anotações do processo, clique no ícone “**Anotações**” |an
 
 .. |anotacoes| image:: _static/images/1-IO_icone_Anotacoes.png
    :align: middle
-   :width: 20
+   :width: 25
 
 .. figure:: _static/images/3-OBCP_anotacoes_formulario_descricao.png
 
@@ -517,7 +517,7 @@ Para dar ciência em um processo, acesse o processo, selecione seu número e cli
 
 .. |ciencia| image:: _static/images/1-IO_icone__ciência.png
    :align: middle
-   :width: 20
+   :width: 25
 
 .. figure:: _static/images/3-OBCP_ciencia_tela_controle_processos.png
 
@@ -533,7 +533,7 @@ Clique no ícone “**Visualizar Ciências no Documento**” |ciencia|, ao lado 
 
 .. |ciencia| image:: _static/images/1-IO_icone__ciência.png
    :align: middle
-   :width: 20
+   :width: 25
 
 .. admonition:: Nota
 
@@ -549,7 +549,7 @@ Para incluir um comentário, acesse o processo, selecione seu número e clique n
 
 .. |comentario| image:: _static/images/1-IO_icone__comentarios.png
    :align: middle
-   :width: 20
+   :width: 25
 
 .. figure:: _static/images/3-OBCP_comentarios_tela_processo.png
 
@@ -578,7 +578,7 @@ Para visualizar todos os comentários incluídos no processo e em seus documento
 
 .. |comentario| image:: _static/images/1-IO_icone__comentarios.png
    :align: middle
-   :width: 20
+   :width: 25
 
 .. figure:: _static/images/3-OBCP_comentarios_tela_processo_indicativos.png
 
@@ -637,7 +637,7 @@ Ainda na tela “**Comentários**”, na coluna “**Ações**”, será possív
 
 .. |alterar_marcador| image:: _static/images/3-OBCP_icone_edicao.png
    :align: middle
-   :width: 20
+   :width: 25
 
 .. figure:: _static/images/3-OBCP_comentarios_alterar_comentarios.png
 
@@ -650,7 +650,7 @@ Ainda na tela “**Comentários**”, na coluna “**Ações**”, será possív
 
 .. |excluir_comentario| image:: _static/images/3-OBCP_icone_exclusao.png
    :align: middle
-   :width: 20
+   :width: 25
 
 .. figure:: _static/images/3-OBCP_comentarios_excluir_comentariospng.png
 
@@ -730,7 +730,7 @@ Na tela do processo, clique na opção “**Consultar Andamento**”|Lupa|, que 
 
 .. |Lupa| image:: _static/images/1-IO_icone__lupa.png
    :align: middle
-   :width: 20
+   :width: 25
 
 .. figure:: _static/images/3-OBCP_consultar_andamento.png
 
@@ -759,7 +759,7 @@ O recurso Atualizar Andamento permite acrescentar informações ao Histórico do
 
 É possível utilizar esse recurso por meio de uma das opções abaixo:
 
-* **Na tela do processo**, clique no número do processo e, depois, no ícone “**Atualizar Andamento**”   , disponível na Barra de Ícones
+* **Na tela do processo**, clique no número do processo e, depois, no ícone “**Atualizar Andamento**”  |atualizar_andamento|, disponível na Barra de Ícones
 
 .. |atualizar_andamento| image:: _static/images/1-IO_icone_Atualizar_Andamento.png
    :align: middle

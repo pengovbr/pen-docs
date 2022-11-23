@@ -10,7 +10,7 @@ Processos e documentos restritos são indicados por meio do ícone “**Acesso R
 
 .. |acesso_restrito| image:: _static/images/8RA-icone_acesso_restrito.png
    :align: middle
-   :width: 30
+   :width: 35
 
 .. figure:: _static/images/8RA-tela_acesso_restrito.png
 
@@ -233,7 +233,9 @@ Gerenciamento dos Processos Sigilosos na Unidade
 
 É possível gerenciar os processos sigilosos gerados e recebidos na unidade, ainda que não possuam Credencial de Acesso ativa no momento, por meio do relatório “**Acervo de Processos Sigilosos na Unidade**”, disponível no menu “**Relatórios**” do menu principal. 
 
-Nota: Nem todos os usuários têm acesso a esse relatório. Para acessá-lo, é necessário solicitar ao “**Administrador do Sistema**” o perfil “**Acervo de Sigilosos da Unidade**”.
+.. admonition:: Nota
+
+   Nem todos os usuários têm acesso a esse relatório. Para acessá-lo, é necessário solicitar ao “**Administrador do Sistema**” o perfil “**Acervo de Sigilosos da Unidade**”.
 
 
 .. figure:: _static/images/8RA-tela_gerenciar_sigilosos_relatorio.png
@@ -251,6 +253,7 @@ Em seguida, será aberta a tela “**Acervo de Processos Sigilosos da Unidade**�
 * Acompanhamento Especial (Data, Usuário, Grupo, Observações);
 * Credenciais na unidade; e
 * Ações
+
   * Ativar Credencial na Unidade |ativar_credencial|
   * Cancelar Credenciais Inativas na Unidade |cassar_credencial|
 
@@ -260,7 +263,7 @@ Em seguida, será aberta a tela “**Acervo de Processos Sigilosos da Unidade**�
 
 .. |ativar_credencial| image:: _static/images/8RA-icone_ativar_credenciais.png
    :align: middle
-   :width: 25
+   :width: 30
 
 Na coluna “**Credenciais na Unidade**” são identificadas as Credenciais ativas, as Credenciais inativas (sem permissão na unidade) e as Credenciais finalizadas (renúncia/cassação/anulação/cancelamento), conforme as cores da legenda apresentada na tela.
 

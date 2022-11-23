@@ -327,7 +327,7 @@ Para consultar ou alterar documentos, acesse o processo, selecione o documento e
 
 .. |consultar_documento| image:: _static/images/5-OBD-icone_consultar_alterar_documento.png
    :align: middle
-   :width: 25
+   :width: 30
 
 .. figure:: _static/images/5-OBD-alterar_documento_tela_processo.png
 
@@ -393,7 +393,7 @@ Para cancelar um documento, acesse o processo, selecione o documento e clique no
 
 .. |cancelar_documento| image:: _static/images/5-OBD-icone_cancelar_documento.png
    :align: middle
-   :width: 20
+   :width: 25
 
 .. figure:: _static/images/5-OBD-cancelar_documento_tela_processo.png
 
