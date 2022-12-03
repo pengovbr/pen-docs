@@ -50,6 +50,7 @@ Para dispositivos utilizados com frequência, o SUPER.GOV.BR disponibiliza a op�
 .. figure:: _static/images/1-IO_tela_inicial_2fa_flag_nao_usar_2fa.png
    :align: center
 
+
 A desativação da Autenticação em dois fatores também poderá ser feita por meio dessa tela. Ao clicar sobre o botão **Desativar 2FA**, o sistema enviará um link para o e-mail cadastrado, para confirmar a operação. Acessando o e-mail e clicando no link, o recurso será desabilitado e o usuário voltará a efetuar o acesso somente com usuário e senha. 
 
 .. admonition:: Saiba Mais
@@ -74,20 +75,28 @@ As funcionalidades disponíveis são:
    - * Ícones Disponíveis
      * Descrição
    - * .. figure:: _static/images/1-IO_icone_exibir_ocultar.png
+          :align: center 
      * **Exibir/ocultar:** permite ocultar e exibir o menu principal.
    - * .. figure:: _static/images/1-IO_icone_pesquisa.png
+          :align: center     
      * **Pesquisa:** possibilita uma busca rápida a processos ou documentos.
    - * .. figure:: _static/images/1-IO_icone_caixa_selecao_unidade.png
+          :align: center 
      * **Caixa de seleção de unidade:** informa ao usuário qual unidade ele está acessando e possibilita navegar pelas unidades nas quais tenha permissão.
    - * .. figure:: _static/images/1-IO_icone_controle_de_processos.png
+          :align: center
      * **Controle de processos:** permite ao usuário voltar à tela principal do sistema.
    - * .. figure:: _static/images/1-IO_icone_novidades.png
+          :align: center
      * **Novidades:** possibilita visualizar as novidades publicadas pela administração do sistema, também exibidas em forma de pop-up ao se acessar o sistema. 
    - * .. figure:: _static/images/1-IO_icone_usuario.png
+          :align: center
      * **Usuário:** identifica o usuário que está acessando o sistema.
    - * .. figure:: _static/images/1-IO_icone_configuracoes_do_sistema.png
+          :align: center 
      * **Configurações do sistema:** permite que o usuário altere o esquema de cores do sistema.
-   - * .. figure:: _static/images/1-IO_icone_sair_do_sistema.png 
+   - * .. figure:: _static/images/1-IO_icone_sair_do_sistema.png
+          :align: center
      * **Sair do sistema:** permite ao usuário sair com segurança do sistema.
 
 

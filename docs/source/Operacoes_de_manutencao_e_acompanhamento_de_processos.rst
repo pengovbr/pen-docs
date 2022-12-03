@@ -67,7 +67,7 @@ Controle dos Retornos Programados da unidade
 
 Para verificar a relação dos processos com Retornos Programados na unidade, acesse a opção “**Retorno Programado**”, disponível no **Menu Principal**.
 
-.. figure:: _static/images/3-OBCP_tela_controle_retorno_programado.png
+.. figure:: _static/images/3-OBCP_tela_controle_retorno_programado.gif
 
 Na tela “**Retorno Programado**”, o usuário visualiza os Processos aguardando retorno de outras unidades e os Processos para devolução, com todas as informações correspondentes.
 
@@ -77,7 +77,7 @@ Os dias com marcação de retorno estarão sinalizados no calendário em amarelo
 
 .. figure:: _static/images/3-OBCP_tela_controle_calendario_retorno_programado.png
 
-Na tela “Retorno Programado”, por meio da coluna Ações, a unidade que definiu o retorno poderá Alterar Retorno |alterar| ou Excluir Retorno |excluir|, caso a unidade demandada não tenha retornado o processo na data definida.
+Na tela “**Retorno Programado**”, por meio da coluna Ações, a unidade que definiu o retorno poderá Alterar Retorno |alterar| ou Excluir Retorno |excluir|, caso a unidade demandada não tenha retornado o processo na data definida.
 
 .. |alterar| image:: _static/images/3-OBCP_icone_edicao.png
    :align: middle
@@ -87,7 +87,7 @@ Na tela “Retorno Programado”, por meio da coluna Ações, a unidade que defi
    :align: middle
    :width: 30
 
-.. figure:: _static/images/3-OBCP_tela_controle_acoes_retorno_programado.png
+.. figure:: _static/images/3-OBCP_tela_controle_acoes_retorno_programado.gif
 
 .. admonition:: Notas
 
@@ -98,12 +98,12 @@ Na tela “Retorno Programado”, por meio da coluna Ações, a unidade que defi
    3. Para cessar a contagem do prazo, é necessário enviar o processo à unidade que demandou o retorno. A simples conclusão do processo não encerra a contagem do prazo.
 
    4. O prazo alterado pelo demandante na opção Alterar Retorno |alterar| permite apenas a prorrogação dos prazos, não sendo possível a redução do prazo inicial.
-
+   
 .. |alterar| image:: _static/images/3-OBCP_icone_edicao.png
    :align: middle
    :width: 25
 
-.. figure:: _static/images/3-OBCP_tela_retorno_programado_mensagem.png
+.. figure:: _static/images/3-OBCP_tela_retorno_programado_mensagem.gif
 
 Controle de prazos
 ++++++++++++++++++
@@ -116,7 +116,7 @@ Para criar um controle de prazo, acesse o processo e clique no ícone “**Contr
    :align: middle
    :width: 25
 
-.. figure:: _static/images/3-OBCP_tela_controle_processos_controle_prazo.png
+.. figure:: _static/images/3-OBCP_tela_controle_processos_controle_prazo.gif
 
 
 A tela “Definir Controle de Prazo” será aberta. Nela, serão exibidas as seguintes opções:
@@ -137,7 +137,7 @@ Também será possível incluir **Controle de Prazos** na tela **Controle de pro
    :align: middle
    :width: 25
 
-.. figure:: _static/images/3-OBCP_tela_controle_processo_controle_prazo.png
+.. figure:: _static/images/3-OBCP_tela_controle_processo_controle_prazo.gif
 
 Este procedimento poderá ser feito a qualquer momento para alteração de prazo ou conclusão do prazo do processo.
 
@@ -192,7 +192,7 @@ Controlar processos com Controle de Prazos
 
 Para visualizar todos os processos com Controle de Prazos na unidade, clique no Menu Principal, opção **Controle de Prazos**. 
 
-.. figure:: _static/images/3-OBCP_opcao_controle_prazo.png
+.. figure:: _static/images/3-OBCP_opcao_controle_prazo.gif
 
 Será aberta a tela de Controle de Prazos, onde consta a Lista de Controle de Prazos, contendo as seguintes informações:
 
@@ -243,11 +243,11 @@ Como criar um Marcador
 
 Para criar um marcador, selecione a opção **Marcadores** no menu lateral e, na tela seguinte, clique no botão Novo.
 
-.. figure:: _static/images/3-OBCP_opcao_marcadores.png
+.. figure:: _static/images/3-OBCP_opcao_marcadores.gif
 
 Na tela Novo Marcador, o usuário deverá selecionar uma cor, na caixa Ícone, inserir um nome para o Marcador que será criado, no campo Nome e, em seguida, clicar no botão Salvar.
 
-.. figure:: _static/images/3-OBCP_marcadores_campos_selecao.png
+.. figure:: _static/images/3-OBCP_marcadores_campos_selecao.gif
 
 .. admonition:: Notas
 
@@ -268,7 +268,7 @@ A atribuição de Marcadores a processos pode ser feita de duas maneiras:
    :width: 35
 
 
-.. figure:: _static/images/3-OBCP_marcadores_adicionar_marcadores.png
+.. figure:: _static/images/3-OBCP_marcadores_adicionar_marcadores.gif
 
 * **Na tela do processo**, clique no ícone **Gerenciar Marcador** |gerenciar_marcador|, disponível na Barra de Ícones.
 
@@ -276,7 +276,7 @@ A atribuição de Marcadores a processos pode ser feita de duas maneiras:
    :align: middle
    :width: 35
 
-.. figure:: _static/images/3-OBCP_marcadores_gerenciar.png
+.. figure:: _static/images/3-OBCP_marcadores_gerenciar.gif
 
 Após realizar uma das opções descritas acima, será aberta a tela adicionar Marcador. Nessa tela, o usuário poderá selecionar um **Marcador** já existente, na caixa Marcador; ou criar um Marcador clicando no ícone **Novo Marcador** |novo_marcador|.
 
@@ -290,7 +290,7 @@ Será possível incluir informações adicionais no campo **Texto**.
 
 Após a realização das seleções e preenchimentos, o usuário deverá clicar em “**Salvar**”.
 
-.. figure:: _static/images/3-OBCP_marcadores_novo_formulario.png
+.. figure:: _static/images/3-OBCP_marcadores_novo_formulario.gif
 
 O Marcador atribuído ao(s) processo(s) será visualizado, ao lado de seu número, na tela **Controle de Processos** e na **tela do Processo**.
 
@@ -327,17 +327,14 @@ Como remover Marcador de processo
 
 Há duas opções para remover um Marcador do processo: 
 
-* **Na tela Controle de Processos**, selecione o(s) processo(s) e clique no ícone “Remover Marcador” |remover_etiqueta_marcador|, na Barra de Ícones.
+* **Na tela Controle de Processos**, selecione o(s) processo(s) e clique no ícone “Remover Marcador” |remover_etiqueta_marcador|, na Barra de Ícones. Será aberta a tela **Remoção de Marcador**, selecione, na caixa Marcador, aquele que será removido e, depois, clique em **Remover**.
 
 .. |remover_etiqueta_marcador| image:: _static/images/3-OBCP_icone_remover_marcador.png
    :align: middle
    :width: 25
 
-.. figure:: _static/images/3-OBCP_remover_marcador_tela_controle_processo.png
+.. figure:: _static/images/3-OBCP_remover_marcador_tela_controle_processo.gif
 
-Será aberta a tela **Remoção de Marcador**, selecione, na caixa Marcador, aquele que será removido e, depois, clique em **Remover**.
-
-.. figure:: _static/images/3-OBCP_remover_marcador_formulario.png
 
 * **Na tela Controle de Processos** ou na **Tela do Processo**, clique sobre o ícone do Marcador ao lado do número do processo. Será aberta a tela Marcadores do Processo, nela, o usuário poderá remover o Marcador por meio do ícone **Remover Marcador do Processo** |remover_marcador|, disponível na coluna **Ações**; ou por meio do botão **Remover**, após selecionar o Marcador.
 
@@ -345,7 +342,7 @@ Será aberta a tela **Remoção de Marcador**, selecione, na caixa Marcador, aqu
    :align: middle
    :width: 25
 
-.. figure:: _static/images/3-OBCP_remover_marcador_opcoes.png
+.. figure:: _static/images/3-OBCP_remover_marcador_opcoes.gif
 
 
 Histórico de Marcadores do processo
@@ -361,7 +358,7 @@ Na tela Histórico de Marcadores de Processo, será exibido o Histórico de Marc
 - Marcador (ícone e nome); 
 - Texto (informações adicionais).
 
-.. figure:: _static/images/3-OBCP_marcadores_historico.png
+.. figure:: _static/images/3-OBCP_marcadores_historico.gif
 
 .. admonition:: Notas
 
@@ -375,13 +372,10 @@ Na tela Histórico de Marcadores de Processo, será exibido o Histórico de Marc
 Controle de Processos por Marcadores
 -------------------------------------
 
-Na tela **Controle de Processos**, clique no Filtro “**Ver por marcadores**”.
+Na tela **Controle de Processos**, clique no Filtro “**Ver por marcadores**”. A tela “**Controle de Processos**” exibirá a lista de Marcadores e a quantidade de processos por Marcador.
 
-.. figure:: _static/images/3-OBCP_marcadores_filtro.png
+.. figure:: _static/images/3-OBCP_marcadores_filtro_visualizacao.gif
 
-A tela “**Controle de Processos**” exibirá a lista de Marcadores e a quantidade de processos por Marcador.
-
-.. figure:: _static/images/3-OBCP_marcadores_filtro_visualizacao.png
 
 Para visualizar os processos correspondentes a determinado Marcador, clique no número referente a ele, na coluna Processos. Então, a tela **Controle de Processos** exibirá apenas os processos com o Marcador selecionado.
 
@@ -393,7 +387,7 @@ Para retornar à tela anterior e visualizar novamente a lista de Marcadores e a 
    :align: middle
    :width: 20
 
-.. figure:: _static/images/3-OBCP_marcadores_remover_filtro.png
+.. figure:: _static/images/3-OBCP_marcadores_remover_filtro.gif
 
 A visualização da tela Controle de Processos por Marcadores apresenta ainda os seguintes Filtros:
 
@@ -413,13 +407,10 @@ A visualização da tela Controle de Processos por Marcadores apresenta ainda os
 Gerenciamento de Marcadores
 ----------------------------
 
-No Menu Principal, selecione a opção Marcadores.
+No Menu Principal, selecione a opção Marcadores. Será exibida a Lista de Marcadores da unidade.
 
-.. figure:: _static/images/3-OBCP_marcadores_menu_principal.png
+.. figure:: _static/images/3-OBCP_marcadores_menu_principal.gif
 
-Será exibida a Lista de Marcadores da unidade.
-
-.. figure:: _static/images/3-OBCP_marcadores_opcoes.png
 
 Na tela Marcadores, por meio dos ícones disponíveis na coluna Ações, é possível:
 
@@ -464,11 +455,11 @@ Para incluir uma anotação, na tela de “**Controle de Processos**”, clique 
    :align: middle
    :width: 25
 
-.. figure:: _static/images/3-OBCP_anotacoes_controle_processo.png
+.. figure:: _static/images/3-OBCP_anotacoes_controle_processo.gif
 
 Insira o texto pretendido no campo “**Descrição**”, caso seja necessário, marque o campo “**Prioridade**” e clique em “**Salvar**”.
 
-.. figure:: _static/images/3-OBCP_anotacoes_formulario.png
+.. figure:: _static/images/3-OBCP_anotacoes_formulario.gif
 
 .. admonition:: Nota
 
@@ -482,7 +473,7 @@ Insira o texto pretendido no campo “**Descrição**”, caso seja necessário,
    :align: middle
    :width: 25
 
-.. figure:: _static/images/3-OBCP_anotacoes_tela_processo.png
+.. figure:: _static/images/3-OBCP_anotacoes_tela_processo.gif
 
 
 Visualização e alteração de Anotações inseridas no processo
@@ -502,7 +493,7 @@ Para excluir anotações do processo, clique no ícone “**Anotações**” |an
    :align: middle
    :width: 25
 
-.. figure:: _static/images/3-OBCP_anotacoes_formulario_descricao.png
+.. figure:: _static/images/3-OBCP_anotacoes_formulario_descricao.gif
 
 .. admonition:: Nota
 
@@ -519,7 +510,7 @@ Para dar ciência em um processo, acesse o processo, selecione seu número e cli
    :align: middle
    :width: 25
 
-.. figure:: _static/images/3-OBCP_ciencia_tela_controle_processos.png
+.. figure:: _static/images/3-OBCP_ciencia_tela_controle_processos.gif
 
 Após dar ciência, o ícone “**Visualizar Ciências**” ficará disponível ao lado do número do processo e será aberta a tela Ciências exibindo a Lista de Ciências no processo.
 
@@ -545,17 +536,14 @@ Comentários
 
 Recurso destinado à inclusão de comentários em processos e/ou documentos. Os Comentários não fazem parte da instrução processual, no entanto, poderão ser visualizados pelas demais unidades que tiverem acesso ao processo.
 
-Para incluir um comentário, acesse o processo, selecione seu número e clique no ícone “**Comentários**” |comentario|, disponível na Barra de Ícones.
+Para incluir um comentário, acesse o processo, selecione seu número e clique no ícone “**Comentários**” |comentario|, disponível na Barra de Ícones. Na tela “**Novo Comentário**”, preencha o campo “**Descrição**” com o comentário que deseja e, em seguida, clique em Salvar.
 
 .. |comentario| image:: _static/images/1-IO_icone__comentarios.png
    :align: middle
    :width: 25
 
-.. figure:: _static/images/3-OBCP_comentarios_tela_processo.png
+.. figure:: _static/images/3-OBCP_comentarios_tela_processo.gif
 
-Na tela “**Novo Comentário**”, preencha o campo “**Descrição**” com o comentário que deseja e, em seguida, clique em Salvar.
-
-.. figure:: _static/images/3-OBCP_comentarios_formulario.png
 
 Ao incluir Comentário no processo, o ícone “**Visualizar Comentários**” ficará disponível ao lado de seu número.
 
@@ -586,7 +574,7 @@ Na tela Comentários, para visualizar apenas os comentários do processo, clique
 
 Nessa tela serão exibidos os comentários incluídos no documento ou no processo, respectivamente. Esses comentários serão exibidos na “**Lista de Comentários**”, que apresentará as seguintes informações sobre o Comentário: data e hora de inclusão; protocolo em que o comentário foi inserido, com o respectivo tipo (no caso de exibição de todos os comentários do processo); unidade na qual foi efetuada a inclusão; e o usuário responsável pela inclusão.
 
-.. figure:: _static/images/3-OBCP_comentarios_listar_comentarios.png
+.. figure:: _static/images/3-OBCP_comentarios_listar_comentarios.gif
 
 .. admonition:: Nota
 
@@ -639,7 +627,7 @@ Ainda na tela “**Comentários**”, na coluna “**Ações**”, será possív
    :align: middle
    :width: 25
 
-.. figure:: _static/images/3-OBCP_comentarios_alterar_comentarios.png
+.. figure:: _static/images/3-OBCP_comentarios_alterar_comentarios.gif
 
 Após a realização das alterações desejadas no campo “**Descrição**”, clique em Salvar.
 
@@ -652,11 +640,9 @@ Ainda na tela “**Comentários**”, na coluna “**Ações**”, será possív
    :align: middle
    :width: 25
 
-.. figure:: _static/images/3-OBCP_comentarios_excluir_comentariospng.png
+.. figure:: _static/images/3-OBCP_comentarios_excluir_comentariospng.gif
 
 Para a exclusão, será solicitada a confirmação.
-
-.. figure:: _static/images/3-OBCP_comentarios_excluir_comentarios_ok.png
 
 Após a exclusão, o ícone “**Visualizar Comentários**” desaparecerá do lado do número do documento ou processo, caso não haja outros comentários no documento ou processo.
 
@@ -684,11 +670,11 @@ Acesse o processo e clique no ícone “**Gerar Arquivo PDF do Processo**” |PD
    :align: middle
    :width: 30
 
-.. figure:: _static/images/3-OBCP_gerar_PDF_tela_processos.png
+.. figure:: _static/images/3-OBCP_gerar_PDF_tela_processos.gif
 
 Selecione os documentos que deseja incluir no arquivo PDF e clique em **Gerar**. O arquivo PDF com os documentos selecionados será baixado automaticamente ou após a confirmação do usuário, conforme as especificações do navegador
 
-.. figure:: _static/images/3-OBCP_gerar_PDF_botao_gerar.png
+.. figure:: _static/images/3-OBCP_gerar_PDF_botao_gerar.gif
 
 Geração de arquivo PDF em um documento
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -699,7 +685,7 @@ Acesse o documento e clique no ícone “**Gerar Arquivo PDF do Documento**” |
    :align: middle
    :width: 30
 
-.. figure:: _static/images/3-OBCP_gerar_PDF_tela_documentos.png
+.. figure:: _static/images/3-OBCP_gerar_PDF_tela_documentos.gif
 
 .. admonition:: Notas
 
@@ -717,22 +703,21 @@ Acesse o processo e clique no ícone “**Gerar Arquivo ZIP do Processo**” |ZI
    :align: middle
    :width: 30
 
-.. figure:: _static/images/3-OBCP_gerar_ZIP_tela_processos.png
+.. figure:: _static/images/3-OBCP_gerar_ZIP_tela_processos.gif
 
 Selecione os documentos que deseja incluir no arquivo PDF e clique em Gerar.
 
-.. figure:: _static/images/3-OBCP_gerar_ZIP_botao_gerar.png
 
 Consulta ao andamento do processo
 ++++++++++++++++++++++++++++++++++
 
-Na tela do processo, clique na opção “**Consultar Andamento**”|Lupa|, que fica logo abaixo da Árvore do Processo. Serão exibidos todos os andamentos do processo de forma resumida. 
+Na tela do processo, clique na opção “|Lupa|**Consultar Andamento**”, que fica logo abaixo da Árvore do Processo. Serão exibidos todos os andamentos do processo de forma resumida. 
 
 .. |Lupa| image:: _static/images/1-IO_icone__lupa.png
    :align: middle
    :width: 25
 
-.. figure:: _static/images/3-OBCP_consultar_andamento.png
+.. figure:: _static/images/3-OBCP_consultar_andamento.gif
 
 
 Histórico do Processo
@@ -740,10 +725,7 @@ Histórico do Processo
 
 Para acessar o Histórico completo do processo, clique no Filtro “**Ver histórico completo**”.
 
-.. figure:: _static/images/3-OBCP_filtro_historico_processo.png
-
-.. figure:: _static/images/3-OBCP_historico_processo.png
-
+.. figure:: _static/images/3-OBCP_filtro_historico_processo.gif
 
 .. admonition:: Notas
 
@@ -765,7 +747,7 @@ O recurso Atualizar Andamento permite acrescentar informações ao Histórico do
    :align: middle
    :width: 30
 
-.. figure:: _static/images/3-OBCP_atualizar_andamento_tela_processos.png
+.. figure:: _static/images/3-OBCP_atualizar_andamento_tela_processos.gif
 
 * Na tela do processo, selecione a opção **Consultar Andamento**, que fica logo abaixo da Árvore do Processo. Depois, na tela Histórico do Processo, clique no botão Atualizar Andamento.
 
@@ -777,11 +759,9 @@ O recurso Atualizar Andamento permite acrescentar informações ao Histórico do
    :align: middle
    :width: 30
 
-.. figure:: _static/images/3-OBCP_atualizar_andamento_controle_processos.png
+.. figure:: _static/images/3-OBCP_atualizar_andamento_controle_processos.gif
 
 Ao utilizar uma das opções acima, o SUPER.GOV.BR abrirá a tela **Atualizar Andamento**. Nela, as informações que serão acrescentadas ao Histórico do processo deverão ser digitadas no campo **Descrição**, que é de livre preenchimento. Após preenchê-lo, clique em Salvar.
-
-.. figure:: _static/images/3-OBCP_atualizar_andamento_formulario_descricao.png
 
 .. admonition:: Notas
 

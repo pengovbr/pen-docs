@@ -16,7 +16,7 @@ Para exibir todos os tipos de processos existentes no órgão, selecione o ícon
 .. |exibir_todos| image:: _static/images/2-OBCP_Atribuir_icone_Exibir_todos_os_tipos.png
    :align: middle
    :width: 25
-.. figure:: _static/images/2-OBCP_escolha_tipo_processo.png
+.. figure:: _static/images/2-OBCP_escolha_tipo_processo.gif
 
 Com a lista de tipos de processos expandida, preencha um termo, no campo de pesquisa para localizar o tipo desejado; e, em seguida, clique na opção escolhida.
 
@@ -65,9 +65,9 @@ O campo “**Observações desta unidade**” poderá ser preenchido por cada un
 
 .. admonition:: Notas
 
-   1) É uma boa prática a adoção de padrões de preenchimento dos campos “Especificação”, “Interessados” e “Observações desta unidade”, uma vez que esses campos auxiliam na identificação e na recuperação dos processos.
+   1. É uma boa prática a adoção de padrões de preenchimento dos campos “Especificação”, “Interessados” e “Observações desta unidade”, uma vez que esses campos auxiliam na identificação e na recuperação dos processos.
    
-   2) Conforme as orientações mais recentes do Gabinete de Segurança Institucional da Presidência da República, não é permitido tramitar documentos classificados – Reservados, Secretos ou Ultrassecretos – nos termos do Art. 23 da Lei nº 12.527, de 10 de agosto de 2011, a Lei de Acesso à Informação (LAI) pelo Super.GOV.BR. 
+   2. Conforme as orientações mais recentes do Gabinete de Segurança Institucional da Presidência da República, não é permitido tramitar documentos classificados – Reservados, Secretos ou Ultrassecretos – nos termos do Art. 23 da Lei nº 12.527, de 10 de agosto de 2011, a Lei de Acesso à Informação (LAI) pelo Super.GOV.BR. 
 
 Após o preenchimento dos campos de cadastramento dos metadados do processo, clique no botão Salvar. Assim, será criado um NUP e será aberta a tela do processo para que possam ser incluídos documentos.
 
@@ -87,9 +87,9 @@ Para confirmar o recebimento de um processo, basta clicar sobre o seu número, q
 
 .. admonition:: Notas
 
-   1) Quando um processo está em vermelho significa que ainda não foi recebido na unidade. O processo nessa cor aparecerá, exclusivamente, na coluna Recebidos.
+   1. Quando um processo está em vermelho significa que ainda não foi recebido na unidade. O processo nessa cor aparecerá, exclusivamente, na coluna Recebidos.
    
-   2) Quando um processo ou documento está em azul, significa que ele já foi acessado pelo usuário naquela sessão do sistema. Ao efetuar o logoff no SUPER.GOV.BR e entrar novamente no sistema, os processos e documentos não estarão mais marcados com essa cor.
+   2. Quando um processo ou documento está em azul, significa que ele já foi acessado pelo usuário naquela sessão do sistema. Ao efetuar o logoff no SUPER.GOV.BR e entrar novamente no sistema, os processos e documentos não estarão mais marcados com essa cor.
 
 
 Atribuir processos a um usuário
@@ -102,7 +102,7 @@ Para atribuir um processo a um usuário, na tela **Controle de Processos**, cliq
 .. |atribuir| image:: _static/images/1-IO_icone_Atribuicao_processo.png
    :align: middle
    :width: 35
-.. figure:: _static/images/2-OBCP_Tela_Controle_Atribuir_Processo.png
+.. figure:: _static/images/2-OBCP_Tela_Controle_Atribuir_Processo.gif
 
 Selecione um nome de usuário, por meio da caixa “**Atribuir para**”, e clique em Salvar.
 
@@ -141,9 +141,9 @@ O usuário será direcionado para a tela **Atribuições de Processos**. Nessa t
 
 .. admonition:: Notas
 
-   1 A Atribuição de Processo a um usuário não impede que outros usuários da unidade atuem no processo, caso haja necessidade.
+   1. A Atribuição de Processo a um usuário não impede que outros usuários da unidade atuem no processo, caso haja necessidade.
    
-   2 Para remover a Atribuição de Processo, siga as mesmas orientações sobre Atribuir Processo a um usuário, entretanto deixe a caixa “**Atribuir para**” em branco.
+   2. Para remover a Atribuição de Processo, siga as mesmas orientações sobre Atribuir Processo a um usuário, entretanto deixe a caixa “**Atribuir para**” em branco.
 
 
 Enviar processos para outra unidade
@@ -155,7 +155,7 @@ Recurso utilizado para tramitar processos para outra unidade. Na tela **Controle
    :align: middle
    :width: 35
 
-.. figure:: _static/images/2-OBCP_Tela_Controle_icone_enviar_processo.png
+.. figure:: _static/images/2-OBCP_Tela_Controle_icone_enviar_processo.gif
 
 Na tela Enviar Processo, informe, na caixa “Unidades”, as unidades de destino. O processo poderá ser enviado para uma ou para várias unidades concomitantemente.
 
@@ -176,13 +176,13 @@ Além da unidade de destino, o usuário poderá informar:
 
 Após o preenchimento dos campos, basta clicar no botão **Enviar**.
 
-.. figure:: _static/images/2-OBCP_Enviar_processo_formulario_preenchimento.png
+.. figure:: _static/images/2-OBCP_Enviar_processo_formulario_preenchimento.gif
 
 .. admonition:: Notas
 
-   1 O envio de um processo a várias unidades simultaneamente é recomendado nos casos em que as atividades a serem realizadas por cada unidade sejam independentes entre si. O objetivo dessa funcionalidade é reduzir o tempo gasto para conclusão do processo, porém o encadeamento de ações que dependem uma da outra deve ser respeitado. 
+   1. O envio de um processo a várias unidades simultaneamente é recomendado nos casos em que as atividades a serem realizadas por cada unidade sejam independentes entre si. O objetivo dessa funcionalidade é reduzir o tempo gasto para conclusão do processo, porém o encadeamento de ações que dependem uma da outra deve ser respeitado. 
 
-   2 Na tela do processo, ao lado de seu número, encontra-se o ícone “**Filtrar Linha Direta**” |Linha_direta| . Esse recurso permite exibir, na Árvore do Processo, apenas os documentos gerados por unidades que tiveram comunicação direta com a unidade em que o usuário está acessando o sistema, ou seja, unidades que enviaram o processo para a unidade atual ou receberam o processo da unidade atual. Portanto, ao utilizar esse recurso, não serão exibidos todos os documentos do processo.
+   2. Na tela do processo, ao lado de seu número, encontra-se o ícone “**Filtrar Linha Direta**” |Linha_direta| . Esse recurso permite exibir, na Árvore do Processo, apenas os documentos gerados por unidades que tiveram comunicação direta com a unidade em que o usuário está acessando o sistema, ou seja, unidades que enviaram o processo para a unidade atual ou receberam o processo da unidade atual. Portanto, ao utilizar esse recurso, não serão exibidos todos os documentos do processo.
 
 .. |Linha_direta| image:: _static/images/2-OBCP_icone_filtrar_linha_direta.png
    :align: middle
@@ -198,7 +198,7 @@ Para concluir o processo, o usuário deverá acessar o processo ou qualquer docu
 .. |concluir| image:: _static/images/1-IO_icone_concluir_processo.png
    :align: middle
    :width: 35
-.. figure:: _static/images/2-OBCP_Tela_processo_concluir_processo.png
+.. figure:: _static/images/2-OBCP_Tela_processo_concluir_processo.gif
 
 Ao realizar esta ação, o processo não constará da tela de Controle de Processos, podendo ser acessado de outras maneiras, como pela opção de pesquisa ou pelas Estatísticas da Unidade.
 
@@ -213,15 +213,15 @@ Na tela Controle de Processos, assinale a caixa de seleção dos processos desej
    :align: middle
    :width: 35
 
-.. figure:: _static/images/2-OBCP_Tela_controle_processo_Concluir_processo.png
+.. figure:: _static/images/2-OBCP_Tela_controle_processo_Concluir_processo.gif
 
 .. admonition:: Notas
 
-   1 A conclusão do processo em uma unidade não acarreta sua conclusão nas outras unidades em que esteja aberto.
+   1. A conclusão do processo em uma unidade não acarreta sua conclusão nas outras unidades em que esteja aberto.
    
-   2 Ao enviar um processo a outra unidade, a conclusão é realizada automaticamente pelo sistema, desde que, na tela “**Enviar Processo**”, não seja marcada a opção “**Manter processo aberto na unidade atual**”.
+   2. Ao enviar um processo a outra unidade, a conclusão é realizada automaticamente pelo sistema, desde que, na tela “**Enviar Processo**”, não seja marcada a opção “**Manter processo aberto na unidade atual**”.
 
-   3 Para fins de estatística, o tempo em que o processo permanecer aberto, mesmo sem atividade da unidade, será computado como se ele estivesse em andamento.
+   3. Para fins de estatística, o tempo em que o processo permanecer aberto, mesmo sem atividade da unidade, será computado como se ele estivesse em andamento.
 
 
 Reabrir processos
@@ -234,12 +234,12 @@ Para reabrir um processo, o usuário deverá localizar o processo, por exemplo, 
 .. |reabrir| image:: _static/images/1-IO_icone__reabrir_processo.png
    :align: middle
    :width: 35
-.. figure:: _static/images/2-OBCP_tela_processo_reabrir_processo.png
+.. figure:: _static/images/2-OBCP_tela_processo_reabrir_processo.gif
 
 .. admonition:: Notas
 
-   1 O processo poderá ser reaberto, a qualquer momento, nas unidades em que tramitou. Não será necessário solicitar novo trâmite.
+   1. O processo poderá ser reaberto, a qualquer momento, nas unidades em que tramitou. Não será necessário solicitar novo trâmite.
    
-   2 O processo reaberto será automaticamente atribuído ao usuário que o reabriu.
+   2. O processo reaberto será automaticamente atribuído ao usuário que o reabriu.
 
-   3 Para apenas consultar um processo que já tramitou pela unidade não é necessário reabri-lo. Essa ação deve ser executada apenas quando for necessário tomar novas providências no referido processo.     
+   3. Para apenas consultar um processo que já tramitou pela unidade não é necessário reabri-lo. Essa ação deve ser executada apenas quando for necessário tomar novas providências no referido processo.     
