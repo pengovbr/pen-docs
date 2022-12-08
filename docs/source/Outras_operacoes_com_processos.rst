@@ -12,7 +12,7 @@ Para duplicar um processo, o usuário deverá acessar o processo e clicar no íc
    :align: middle
    :width: 30
 
-.. figure:: _static/images/4-OOCP-Duplicar_tela_processo.png
+.. figure:: _static/images/4-OOCP-Duplicar_tela_processo.gif
 
 Em seguida:
 
@@ -40,7 +40,7 @@ Para relacionar processos, o usuário deverá acessar um dos processos que serã
    :align: middle
    :width: 30
 
-.. figure:: _static/images/4-OOCP-relacionar_processos_tela_processos.png
+.. figure:: _static/images/4-OOCP-relacionar_processos_tela_processos.gif
 
 Será aberta a tela “**Relacionamentos do Processo**”. Nela, o usuário deverá informar o número do **Processo Destino** e clicar em Pesquisar. O sistema confirmará a existência do processo no SUPER.GOV.BR e, automaticamente, preencherá o campo **Tipo**. Por fim, clique em “**Adicionar**”.
 
@@ -63,7 +63,7 @@ O usuário poderá também iniciar um processo já relacionado a outro. Para iss
    :align: middle
    :width: 30
 
-.. figure:: _static/images/4-OOCP-iniciar_processo_relacionado_tela_processo.png
+.. figure:: _static/images/4-OOCP-iniciar_processo_relacionado_tela_processo.gif
 
 Na tela “**Iniciar Processo Relacionado**”, escolha o tipo de processo.
 
@@ -91,7 +91,7 @@ Na tela “Relacionamentos do Processo”, serão listados os processos relacion
    :align: middle
    :width: 30
 
-.. figure:: _static/images/4-OOCP-tela_processo_relacionamentos_processo.png
+.. figure:: _static/images/4-OOCP-tela_processo_relacionamentos_processo.gif
 
 .. admonition:: Notas
 
@@ -120,7 +120,7 @@ Para anexar processo, acesse o processo principal e clicar no ícone "Anexar Pro
    :align: middle
    :width: 25
 
-.. figure:: _static/images/4-OOCP-tela_processo_anexar_processo.png
+.. figure:: _static/images/4-OOCP-tela_processo_anexar_processo.gif
 
 Na tela **Anexação de Processos**, preencha o campo **Processo** com o número do processo a ser anexado e clique em “**Pesquisar**”. O SUPER.GOV.BR preencherá o campo “**Tipo**” automaticamente. Em seguida, clicar em “**Anexar**”.
 
@@ -158,7 +158,7 @@ Para sobrestar processo, clique no número do processo e selecione o ícone “*
    :align: middle
    :width: 30
 
-.. figure:: _static/images/4-OOCP-sobrestar_tela_processo.png
+.. figure:: _static/images/4-OOCP-sobrestar_tela_processo.gif
 
 Será aberta a tela **Sobrestamento**. Nela, escolha entre duas opções:
 
@@ -177,7 +177,7 @@ Consultando ou Removendo o sobrestamento
 
 Para consultar ou remover um sobrestamento, selecione a opção **Processos Sobrestados**, disponível no **Menu Principal**.
 
-.. figure:: _static/images/4-OOCP-sobrestar_tela_controle_processo.png
+.. figure:: _static/images/4-OOCP-sobrestar_tela_controle_processo.gif
 
 Na tela **Processos Sobrestados**, é possível visualizar todos os processos sobrestados na unidade.
 
@@ -214,7 +214,7 @@ Na tela do processo, clique no ícone “Excluir” |excluir|, disponível na Ba
    :align: middle
    :width: 25
 
-.. figure:: _static/images/4-OOCP-Excluir_processo_tela_processos.png
+.. figure:: _static/images/4-OOCP-Excluir_processo_tela_processos.gif
 
 .. admonition:: Notas
 

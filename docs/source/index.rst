@@ -23,5 +23,5 @@ Manual do Usuário Básico SUPER.GOV.BR 1.0
    Restricao_de_acesso
    Acompanhando_e_recuperando_informacoes_de_processos
    Usuario_externo
-   Modulo_GD
+   Modulos_SUPER.GOV.BR_1.0
    
