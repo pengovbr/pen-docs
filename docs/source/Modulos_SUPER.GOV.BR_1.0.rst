@@ -10,69 +10,94 @@ Essa seção tem por objetivo demonstrar as funcionalidades que serão disponibi
 
 O módulo de Gestão Documental traz incrementos ao Sistema SUPER.GOV.BR que podem ser acessados via entidades:
 
-* Botão Arquivar Processo – Possibilita o arquivamento de processos.
-* Botão Desarquivar Processo – possibilita que um processo arquivado seja desarquivado e retorne para a tela de controle de processos.
-* Menu Arquivo da Unidade – concentra todos os processos da unidade que foram arquivados e se encontram em fase corrente.
-* Menu Pendências de Arquivamento – concentra todos os processos cuja unidade foi a última a concluir e ainda não os arquivou.
-* Menu Gestão Documental – possibilita a avaliação dos processos, a devolução para correção e a geração de listagens de eliminação e de recolhimento, conforme a destinação final associada a cada processo.
+* **Botão Arquivar Processo** – Possibilita o arquivamento de processos.
+* **Botão Desarquivar Processo** – possibilita que um processo arquivado seja desarquivado e retorne para a tela de controle de processos.
+* **Menu Arquivo da Unidade** – concentra todos os processos da unidade que foram arquivados e se encontram em fase corrente.
+* **Menu Pendências de Arquivamento** – concentra todos os processos cuja unidade foi a última a concluir e ainda não os arquivou.
+* **Menu Gestão Documental** – possibilita a avaliação dos processos, a devolução para correção e a geração de listagens de eliminação e de recolhimento, conforme a destinação final associada a cada processo.
 
 
 Para facilitar a navegação nesse documento, abaixo fica disponível tabela contendo links para as entidades supramencionadas, bem como para suas funcionalidades.
 
-* **[Arquivar Processo](#arquivar-processo)**
-  * [Tela de Controle de processos](#tela-de-controle-de-processos)
-  * [Tela de Visualização do Processo](#tela-de-visualização-do-processo)
-  * [Preenchimento do Formulário de Arquivamento de Processo](#preenchimento-do-formulário-de-arquivamento-de-processo)
-* **[Desarquivar Processo](#desarquivar-processo)**
-  * [Desarquivar via Visão do Processo](#desarquivar-via-visão-do-processo)
-  * [Desarquivar via Menu Arquivo da Unidade](#desarquivar-via-menu-arquivo-da-unidade)
-  * [Preenchimento do Formulário de Desarquivamento de Processo](#preenchimento-do-formulário-de-desarquivamento-de-processo)
-* **[Arquivo da Unidade](#menu-arquivo-da-unidade)**
-  * [Pesquisar processos arquivados](#pesquisar-processos-arquivados)
-  * [Imprimir uma relação de processos](#imprimir-relação-de-processos)
-  * [Desarquivar um ou mais processos](#desarquivar-um-ou-mais-processos)
-* **[Pendências de Arquivamento](#menu-pendências-de-arquivamento)**
-  * [Pesquisar Processos Concluídos](#pesquisar-processos-concluídos)
-  * [Reabrir um processo](#reabrir-processo)
-  * [Arquivar um processo](#arquivar-processo)
-* **[Gestão Documental](#gestão-documental)**
-  * [Avaliação de Processos](#avaliação-de-processos)
-    * [Pesquisar Processos para Avaliação](#pesquisar-processos-para-avaliação)
-    * [Preparação da Listagem de Eliminação](#preparação-da-listagem-de-eliminação)
-    * [Preparação da Listagem de Recolhimento](#preparação-da-listagem-de-recolhimento)
-    * [Imprimir](#imprimir)
-    * [Devolver para Correção](#devolver-para-correção)
-  * [Listagem de Eliminação](#listagem-de-eliminação)
-    * [Preparar Listagem de Eliminação](#preparar-listagem-de-eliminação)
-      * [Pesquisar Processos para Eliminação](#pesquisar-processos-para-eliminação)
-      * [Adicionar observação e/ou justificativa a um processo](#adicionar-observação-eou-justificativa)
-      * [Excluir da preparação para Eliminação](#excluir-da-preparação-para-eliminação)
-      * [Gerar Listagem de Eliminação](#gerar-listagem-de-eliminação)
-      * [Imprimir](#imprimir-1)
-    * [Gestão das Listagens de Eliminação](#gestão-das-listagens-de-eliminação)
-      * [Visualizar Listagem de Eliminação](#visualizar-listagem-de-eliminação)
-      * [Editar a Listagem de Eliminação](#editar-a-listagem-de-eliminação)
-      * [Remover Processos da Listagem de Eliminação](#remover-processos-da-listagem-de-eliminação)
-      * [Acessar o Processo](#acessar-o-processo)
-      * [Pesquisar](#pesquisar)
-      * [Imprimir](#imprimir-2)
-   * [Listagem de Recolhimento](#listagem-de-recolhimento)
-     * [Preparar Listagem de Recolhimento](#preparar-listagem-de-recolhimento)
-       * [Pesquisar](#pesquisar-1)
-       * [Adicionar observação e/ou justificativa a um processo](#adicionar-observação-eou-justificativa-1)
-       * [Excluir da preparação para Recolhimento](#excluir-da-preparação-para-recolhimento)
-       * [Gerar Listagem de Recolhimento](#gerar-listagem-de-recolhimento)
-       * [Imprimir](#imprimir-3)
-     * [Gestão das Listagens de Recolhimento](#gestão-das-listagens-de-recolhimento)
-       * [Visualizar Listagem de Recolhimento](#visualizar-listagem-de-recolhimento)
-       * [Editar Listagem de Recolhimento](#editar-listagem-de-recolhimento)
-       * [Remover Processos da Listagem de Recolhimento](#remover-processos-da-listagem-de-recolhimento)
-       * [Acessar o Processo](#acessar-o-processo-1)
-       * [Pesquisar](#pesquisar-2)
-       * [Imprimir](#imprimir-4)
-   * [Relatórios](#relatórios)
-     * [Pesquisar](#pesquisar-3)
-     * [Imprimir](#imprimir-5)
+* `Arquivar Processo <https://super-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#arquivar-processo>`_
+  
+  * `Tela de Controle de processos <https://super-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#tela-de-controle-de-processos>`_
+  * `Tela de Visualização do Processo <http://locsuper-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#tela-de-visualizacao-do-processo>`_
+  * `Preenchimento do Formulário de Arquivamento de Processo <https://super-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#preenchimento-do-formulario-de-arquivamento-de-processo>`_
+
+* `Desarquivar Processo <https://super-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#desarquivar-processo>`_
+
+  * `Desarquivar via Visão do Processo <https://super-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#desarquivar-via-visao-do-processo>`_
+  * `Desarquivar via Menu Arquivo da Unidade <https://super-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#desarquivar-via-menu-arquivo-da-unidade>`_
+  * `Preenchimento do Formulário de Desarquivamento de Processo <https://super-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#preenchimento-do-formulario-de-desarquivamento-de-processo>`_
+
+* `Arquivo da Unidade <https://super-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#menu-arquivo-da-unidade>`_
+
+  * `Pesquisar processos arquivados <https://super-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#pesquisar-processos-arquivados>`_
+  * `Imprimir uma relação de processos <https://super-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#imprimir-relacao-de-processos>`_
+  * `Desarquivar um ou mais processos <https://super-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#desarquivar-um-ou-mais-processos>`_ 
+
+* `Pendências de Arquivamento <https://super-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#menu-pendencias-de-arquivamento>`_
+  
+  * `Pesquisar Processos Concluídos <https://super-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#pesquisar-processos-concluidos>`_
+  * `Reabrir um processo <https://super-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#reabrir-processo>`_
+  * `Arquivar um processo <https://super-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#id1>`_
+
+* `Gestão Documental <https://super-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#gestao-documental>`_
+  
+  * `Avaliação de Processos <https://super-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#avaliacao-de-processos>`_
+    
+    * `Pesquisar Processos para Avaliação <https://super-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#pesquisar-processos-para-avaliacao>`_
+    * `Preparação da Listagem de Eliminação <https://super-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#preparacao-da-listagem-de-eliminacao>`_
+    * `Preparação da Listagem de Recolhimento <https://super-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#preparacao-da-listagem-de-recolhimento>`_
+    * `Imprimir <https://super-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#imprimir>`_
+    * `Devolver para Correção <https://super-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#devolver-para-correcao>`_
+  
+  * `Listagem de Eliminação <https://super-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#listagem-de-eliminacao>`_
+    
+    * `Preparar Listagem de Eliminação <https://super-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#preparar-listagem-de-eliminacao>`_
+      
+      * `Pesquisar Processos para Eliminação <https://super-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#pesquisar-processos-para-eliminacao>`_
+      * `Gerar Listagem de Eliminação <https://super-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#gerar-listagem-de-eliminacao>`_
+      * `Excluir da preparação para Eliminação <https://super-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#excluir-da-preparacao-para-eliminacao>`_         * `Imprimir <https://super-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#id2>`_
+      * `Adicionar observação e/ou justificativa a um processo <https://super-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#adicionar-observacao-e-ou-justificativa>`_
+    
+    * `Gestão das Listagens de Eliminação <https://super-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#gestao-das-listagens-de-eliminacao>`_
+      
+      * `Pesquisar <https://super-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#pesquisar>`_
+      * `Imprimir <https://super-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#id3>`_
+      * `Visualizar Listagem de Eliminação <https://super-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#visualizar-listagem-de-eliminacao>`_
+      * `Editar a Listagem de Eliminação <https://super-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#editar-a-listagem-de-eliminacao>`_
+      * `Adicionar Processos à Listagem de Eliminação <https://super-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#adicionar-processos-a-listagem-de-eliminacao>`_
+      * `Remover Processos da Listagem de Eliminação <https://super-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#remover-processos-da-listagem-de-eliminacao>`_
+      * `Acessar o Processo <https://super-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#acessar-o-processo>`_
+
+   
+    * `Listagem de Recolhimento <https://super-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#listagem-de-recolhimento>`_
+     
+     * `Preparar Listagem de Recolhimento <https://super-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#preparar-listagem-de-recolhimento>`_
+     
+       * `Pesquisar <https://super-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#id4>`_
+       * `Gerar Listagem de Recolhimento <https://super-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#gerar-listagem-de-recolhimento>`_
+       * `Excluir da preparação para Recolhimento <https://super-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#excluir-da-preparacao-para-recolhimento>`_
+       * `Imprimir <https://super-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#id5>`_
+       * `Adicionar observação e/ou justificativa a um processo <https://super-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#id6>`_
+
+     
+     * `Gestão das Listagens de Recolhimento <https://super-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#gestao-das-listagens-de-recolhimento>`_
+       
+       * `Pesquisar <https://super-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#id7>`_
+       * `Imprimir <https://super-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#id8>`_
+       * `Visualizar Listagem de Recolhimento <https://super-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#visualizar-listagem-de-recolhimento>`_
+       * `Editar Listagem de Recolhimento <https://super-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#editar-listagem-de-recolhimento>`_
+       * `Adicionar Processos à Listagem de Recolhimento <https://super-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#adicionar-processos-a-listagem-de-recolhimento>`_
+       * `Remover Processos da Listagem de Recolhimento <https://super-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#remover-processos-da-listagem-de-recolhimento>`_
+       * `Acessar o Processo <https://super-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#id9>`_
+   
+    * `Relatórios <https://super-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#relatorios>`_
+     
+     * `Pesquisar <https://super-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#id10>`_
+     * `Imprimir <https://super-docs.readthedocs.io/pt_BR/latest/Modulos_SUPER.GOV.BR_1.0.html#id11>`_
 
 Abaixo são detalhadas cada uma dessas funcionalidades.
 
@@ -354,7 +379,7 @@ Ao clicar nesse botão, será aberta uma janela para inserção da mensagem de d
  
 O processo devolvido para correção ficará disponível no Arquivo da Unidade que realizou o arquivamento. Tal processo terá a indicação de que foi devolvido para correção, acompanhado do motivo.
 
-.. figure:: _static/images/Tela_arquivo_da_unidade_ícone_indicativo_de_correcao.png
+.. figure:: _static/images/tela_arquivo_da_unidade_icone_correcao2.png
 
 .. figure:: _static/images/icone_motivo_correção_detalhado.png
 
