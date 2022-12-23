@@ -1,6 +1,8 @@
 MÓDULOS SUPER.GOV.BR 1.0 (Base SEI)
 ===================================
 
+Os módulos apresentados nesta seção não são nativamente instalados no SUPER.GOV.BR 1.0 (Base SEI), podendo ser aderidos e instalados a qualquer tempo pelos Órgãos que utilizam o SUPER.GOV.BR 1.0 (Base SEI).
+
 Módulo de Gestão Documental
 ++++++++++++++++++++++++++++
 
@@ -114,7 +116,7 @@ O botão “**Arquivar Processo**” está disponível na tela de Controle de Pr
 Tela de Controle de processos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
-.. figure:: _static/images/conculsao_arquivament_tela_de_controle_processos.png
+.. figure:: _static/images/conculsao_arquivament_tela_de_controle_processos.gif
 
 Para arquivamento de processos, o usuário deverá selecionar o processo, via marcação de checkbox, e clicar no botão “**Arquivar Processo**”.
 
@@ -127,7 +129,7 @@ Para arquivamento de processos, o usuário deverá selecionar o processo, via ma
 Tela de Visualização do Processo
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. figure:: _static/images/conculsao_arquivament_tela_de_visualizacao_processos.png
+.. figure:: _static/images/conculsao_arquivament_tela_de_visualizacao_processos.gif
 
 Após todas as tratativas do processo, o usuário poderá direcioná-lo para arquivamento por meio de click no botão “**Arquivar Processo**”.
 
@@ -151,9 +153,11 @@ O formulário deverá ser preenchido conforme os campos indicados abaixo:
 6. **Cargo/Função**: Campo obrigatório. Utilizado para o registro do cargo/função do assinante.
 7. **Senha**: Campo obrigatório. Utilizado para a inclusão da senha de autenticação da ação.
 
+.. figure:: _static/images/conculsao_arquivament_fomulario_de_preenchimento.gif
+
 Ao clicar em Assinar, o processo receberá uma sinalização indicando que está Arquivado. Além disso, o sistema irá gerar automaticamente um documento de arquivamento assinado eletronicamente pelo responsável pela ação e o incorporará ao processo.
 
-.. figure:: _static/images/conculsao_arquivamento_tela_apos_procedimento_arquivamento.png
+.. figure:: _static/images/conculsao_arquivamento_tela_apos_procedimento_arquivamento.gif
 
 A realização do arquivamento impede que novos documentos ou andamentos sejam associados ao processo, sendo possível apenas as seguintes ações:
 
@@ -185,12 +189,12 @@ Caso seja necessário, o desarquivamento de um processo poderá ser realizado po
 Desarquivar via Visão do Processo
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. figure:: _static/images/desarquivamento_visao_processo.png
+.. figure:: _static/images/desarquivamento_visao_processo.gif
 
 Desarquivar via Menu Arquivo da Unidade
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. figure:: _static/images/desarquivamento_visao_menu_arquivo_unidade_individual.png
+.. figure:: _static/images/desarquivamento_visao_menu_arquivo_unidade_individual.gif
 
 Será possível a seleção de mais de um processo para desarquivamento, para tanto, o usuário deverá selecionar todos os processos desejados, via marcação de checkbox, e em seguida clicar no botão Desarquivar, existente na parte superior direita da tela. Poderá ser selecionada apenas uma justificativa para desarquivamento.
 
@@ -199,7 +203,7 @@ Será possível a seleção de mais de um processo para desarquivamento, para ta
    Para o desarquivamento em lote, todos os processos a serem desarquivados deverão ter a mesma justificativa de desarquivamento.
 
 
-.. figure:: _static/images/desarquivamento_visao_menu_arquivo_unidade_lote.png
+.. figure:: _static/images/desarquivamento_visao_menu_arquivo_unidade_lote.gif
 
 
 Preenchimento do Formulário de Desarquivamento de Processo
@@ -215,6 +219,8 @@ O formulário deverá ser preenchido conforme os campos indicados abaixo:
 4) **Assinante**: Campo obrigatório. Utilizado para o registro do nome do usuário responsável pelo desarquivamento.
 5) **Cargo/Função**: Campo obrigatório. Utilizado para o registro do cargo/função do responsável pelo desarquivamento.
 6) **Senha**: Campo obrigatório. Utilizado para a inclusão da senha de autenticação da ação.
+
+.. figure:: _static/images/desarquivamento_formulario_preenchimento.gif
 
 Ao clicar em Assinar, o sistema irá gerar automaticamente um documento de desarquivamento assinado eletronicamente pelo responsável pela ação e o incorporará ao processo.
 
@@ -263,13 +269,13 @@ A reabertura consiste em retornar um processo ao status de aberto. Nesta visão,
 
 Para reabrir um único processo, o usuário deverá clicar no botão "**Reabrir Processo**", presente na grid do processo que deseja reabrir.
 
-.. figure:: _static/images/pendencias_arquivamento_reabir_um_processo.png
+.. figure:: _static/images/pendencias_arquivamento_reabir_um_processo.gif
 
 Após o clique no botão, o sistema apresentará uma mensagem de confirmação da reabertura. Para concluir a ação, o usuário deverá clicar em “**Ok**”.
  
 Para reabrir mais de um processo, o usuário deverá selecionar todos os processos desejados, via marcação de checkbox, e em seguida clicar no botão "**Reabrir**", existente na parte superior direita da tela.
 
-.. figure:: _static/images/pendencias_arquivamento_reabir_varios_processos.png
+.. figure:: _static/images/pendencias_arquivamento_reabir_varios_processos.gif
 
 Após o clique no botão, o sistema apresentará uma mensagem de confirmação da reabertura. Para concluir a ação, o usuário deverá clicar em “**Ok**”.
 
@@ -282,7 +288,7 @@ Nesta visão, o usuário terá a possibilidade de arquivar um ou mais processos.
 
 Para arquivar um único processo, o usuário deverá clicar no botão "**Arquivar Processo**", presente na grid do processo que deseja arquivar.
 
-.. figure:: _static/images/arquivo_unidade_arquivar_um_documento.png
+.. figure:: _static/images/arquivo_unidade_arquivar_um_documento.gif
 
 Após o clique no botão, o sistema abrirá o formulário de arquivamento para preenchimento e autenticação. Os passos para o preenchimento deste formulário poderão ser acessados na seção [Preenchimento do Formulário de Desarquivamento de Processo](#preenchimento-do-formulário-de-desarquivamento-de-processo).
 
@@ -292,7 +298,7 @@ Para arquivar mais de um processo, o usuário deverá selecionar todos os proces
 
    Para o arquivamento em lote, todos os processos a serem arquivados deverão ter a mesma justificativa de arquivamento.
 
-.. figure:: _static/images/arquivo_unidade_arquivar_lote_documento.png
+.. figure:: _static/images/arquivo_unidade_arquivar_lote_documento.gif
 
 
 Gestão Documental
@@ -323,7 +329,7 @@ Preparação da Listagem de Eliminação
 
 Para indicar que um único processo deve ser enviado para preparação da listagem de eliminação, o usuário deverá clicar no botão "**Preparar Listagem de Eliminação**", presente na grid do processo.
 
-.. figure:: _static/images/avaliacao_de_processos_enviar_destinacao_um_registro.png
+.. figure:: _static/images/avaliacao_de_processos_enviar_destinacao_um_registro.gif
 
 Após o clique no botão, o sistema apresentará uma mensagem de confirmação. Para concluir a ação, o usuário deverá clicar em “**Ok**”.
 
@@ -333,7 +339,7 @@ Para indicar que mais de um processo deve ser enviado para preparação da lista
  
    Caso tenha sido selecionado algum processo cuja destinação final não seja Eliminação o módulo irá desconsiderá-lo.
 
-.. figure:: _static/images/avaliacao_de_processos_enviar_destinacao_lote_registros.png
+.. figure:: _static/images/avaliacao_de_processos_enviar_destinacao_lote_registros.gif
 
 Após o clique no botão, o sistema apresentará uma mensagem de confirmação. Para concluir a ação, o usuário deverá clicar em “**Ok**”.
 
@@ -344,7 +350,7 @@ Preparação da Listagem de Recolhimento
 
 Para indicar que um único processo deve ser enviado para preparação da listagem de recolhimento, o usuário deverá clicar no botão Preparar Listagem de Recolhimento, presente na grid do processo.
 
-.. figure:: _static/images/avaliacao_de_processos_enviar_destinacao_um_registro.png
+.. figure:: _static/images/avaliacao_de_processos_enviar_destinacao_um_registro.gif
 
 Após o clique no botão, o sistema apresentará uma mensagem de confirmação. Para concluir a ação, o usuário deverá clicar em “**Ok**”.
 
@@ -354,7 +360,7 @@ Para indicar que mais de um processo deve ser enviado para preparação da lista
 
    Caso tenha sido selecionado algum processo cuja destinação final não seja Recolhimento o módulo irá desconsiderá-lo.
 
-.. figure:: _static/images/avaliacao_de_processos_enviar_destinacao_lote_registros.png
+.. figure:: _static/images/avaliacao_de_processos_enviar_destinacao_lote_registros.gif
 
 Após o clique no botão, o sistema apresentará uma mensagem de confirmação. Para concluir a ação, o usuário deverá clicar em “**Ok**”.
 
@@ -372,21 +378,21 @@ Devolver para Correção
 
 Caso o usuário identifique que alguma informação necessita ser corrigida, deverá clicar no botão "**Devolver para Correção**", presente na grid do processo.
 
-.. figure:: _static/images/avaliacao_de_processos_enviar_correcao_um_registro.png
+.. figure:: _static/images/avaliacao_de_processos_enviar_correcao_um_registro.gif
 
 Ao clicar nesse botão, será aberta uma janela para inserção da mensagem de devolução do processo. Após o término do texto, clicar em "**Devolver**".
 
-.. figure:: _static/images/avaliacao_de_processos_enviar_correcao_justificativa.png
+.. figure:: _static/images/avaliacao_de_processos_enviar_correcao_justificativa.gif
  
 O processo devolvido para correção ficará disponível no Arquivo da Unidade que realizou o arquivamento. Tal processo terá a indicação de que foi devolvido para correção, acompanhado do motivo.
 
-.. figure:: _static/images/tela_arquivo_da_unidade_icone_correcao2.png
+.. figure:: _static/images/tela_arquivo_da_unidade_icone_correcao2.gif
 
 .. figure:: _static/images/icone_motivo_correção_detalhado.png
 
 Para realizar a correção o usuário deverá clicar no ícone "**Consultar/Alterar Processo**" (1), disponível na grid do processo. Após a correção, o usuário deverá clicar no ícone "**Concluir Edição**" (2), disponível na grid do processo.
 
-.. figure:: _static/images/avaliacao_de_processos_icone_correcao.png
+.. figure:: _static/images/avaliacao_de_processos_icone_correcao.gif
 
 .. admonition:: Nota
 
@@ -414,7 +420,7 @@ Gerar Listagem de Eliminação
 
 Para gerar uma listagem de eliminação, o usuário deverá selecionar os processos que deseja que componham a listagem e clicar em "**Gerar Listagem de Eliminação**".
 
-.. figure:: _static/images/listagem_eliminacao_gerar_listagem.png
+.. figure:: _static/images/listagem_eliminacao_gerar_listagem.gif
 
 Ao gerar uma listagem, o sistema criará um processo na tela de controle de processos para guardar a listagem criada, que ficará disponível na visão “**Gestão das Listagens**”, ligada à Listagens de Eliminação, existente no menu Gestão Documental.
 
@@ -429,7 +435,7 @@ Para excluir um único processo, o usuário deverá clicar no botão Excluir, pr
 
 Para excluir mais de um processo, o usuário deverá selecionar todos os processos desejados, via marcação de checkbox, e em seguida clicar no botão "**Excluir**", existente na parte superior direita da tela.
 
-.. figure:: _static/images/listagem_eliminacao_exclusao_varias_listas.png
+.. figure:: _static/images/listagem_eliminacao_exclusao_varias_listas.gif
 
 Após a confirmação da exclusão, os processos ficarão disponíveis na tela de Avaliação de Processos, do menu "**Gestão Documental**".
 
@@ -478,22 +484,22 @@ Para visualizar a listagem de eliminação o usuário deverá clicar no botão "
 
    O documento Listagem de Eliminação conforme modelo definido pelo Conarq é criado no processo de eliminação gerado na tela de controle de processos da unidade responsável pela Avaliação.
 
-.. figure:: _static/images/gestao_das_listagens_visualizao_listagem.png
+.. figure:: _static/images/gestao_das_listagens_visualizao_listagem.gif
 
 Ao acessar a listagem de eliminação, o usuário poderá imprimi-la, via clique no botão imprimir; poderá gerar um PDF, via clique no botão Gerar PDF; ou retornar à tela de gestão de listagens, via clique no botão "**Cancelar**".
 
-.. figure:: _static/images/gestao_das_listagens_visualizao_listagem_opcoes.png
+.. figure:: _static/images/gestao_das_listagens_visualizao_listagem_opcoes.gif
 
 Editar a Listagem de Eliminação
 """""""""""""""""""""""""""""""
 
 Conforme a necessidade e/ou deliberações internas, o usuário poderá editar a listagem de eliminação clicando no botão "**Editar Listagem de Eliminação**".
 
-.. figure:: _static/images/gestao_das_listagens_editar_listagem.png
+.. figure:: _static/images/gestao_das_listagens_editar_listagem.gif
 
 Ao realizar esta ação, o sistema irá apresentar na grid do processo botões para adicionar ou remover processos.
 
-.. figure:: _static/images/gestao_das_listagens_editar_listagem_inclusao_exclusao.png
+.. figure:: _static/images/gestao_das_listagens_editar_listagem_inclusao_exclusao.gif
 
 Adicionar Processos à Listagem de Eliminação
 """""""""""""""""""""""""""""""""""""""""""""
@@ -502,7 +508,7 @@ Ao clicar em adicionar, o sistema disponibiliza a lista de todos os processos pr
 
 Para incluir um ou mais processos, o usuário deverá selecionar, via marcação de checkbox, os processos que deseja incluir na listagem e clicar no botão "**Adicionar na Listagem de Eliminação**"".
 
-.. figure:: _static/images/gestao_das_listagens_editar_listagem_opcao_inclusao.png
+.. figure:: _static/images/gestao_das_listagens_editar_listagem_opcao_inclusao.gif
 
 Remover Processos da Listagem de Eliminação
 """""""""""""""""""""""""""""""""""""""""""
@@ -511,18 +517,18 @@ Ao clicar em remover, o sistema disponibiliza a lista de todos os processos pres
 
 Para excluir um ou mais processos, o usuário deverá selecionar, via marcação de checkbox, os processos que deseja excluir da listagem e clicar no botão "**Excluir da Listagem de Eliminação**".
 
-.. figure:: _static/images/gestao_das_listagens_editar_listagem_opcao_exclusao.png
+.. figure:: _static/images/gestao_das_listagens_editar_listagem_opcao_exclusao.gif
 
 Após realizar as inclusões e/ou exclusões de processos na listagem desejada, o usuário deverá clicar no botão "**Concluir Edição da Listagem**" para atualizar a lista com as edições efetuadas. Nesse momento será criada uma nova Listagem de Eliminação no processo de eliminação gerado na tela de controle de processos da unidade de avaliação.
 
-.. figure:: _static/images/gestao_das_listagens_editar_listagem_inclusao_exclusao_atualizar.png
+.. figure:: _static/images/gestao_das_listagens_editar_listagem_inclusao_exclusao_atualizar.gif
 
 Acessar o Processo
 """"""""""""""""""
 
 Para acessar o processo contendo a listagem de eliminação, o usuário deverá clicar sobre o número do processo em questão.
 
-.. figure:: _static/images/gestao_das_listagens_acessar_listagem.png
+.. figure:: _static/images/gestao_das_listagens_acessar_listagem.gif
 
 
 Listagem de Recolhimento
@@ -543,7 +549,7 @@ Gerar Listagem de Recolhimento
 
 Para gerar uma listagem de recolhimento, o usuário deverá selecionar os processos que deseja que componham a listagem e clicar em "**Gerar Listagem de Recolhimento**".
 
-.. figure:: _static/images/listagem_recolhimento_gerar_listagem.png
+.. figure:: _static/images/listagem_recolhimento_gerar_listagem.gif
 
 Ao gerar uma listagem, o sistema criará um número de processo para guardar a listagem criada, que ficará disponível na visão “**Gestão das Listagens**”, ligada à Listagens de Recolhimento, existente no menu Gestão Documental.
 
@@ -558,7 +564,7 @@ Para excluir um único processo, o usuário deverá clicar no botão Excluir da 
  
 Para excluir mais de um processo, o usuário deverá selecionar todos os processos desejados, via marcação de checkbox, e em seguida clicar no botão "**Excluir**", existente na parte superior direita da tela.
 
-.. figure:: _static/images/listagem_recolhimento_exclusao_varias_listas.png
+.. figure:: _static/images/listagem_recolhimento_exclusao_varias_listas.gif
 
 Após a confirmação da exclusão, os processos ficarão disponíveis na visão de Avaliação de Processos, do menu "**Gestão Documental**"
 
@@ -575,11 +581,11 @@ Adicionar observação e/ou justificativa
 
 Para registrar uma observação e/ou justificativa, o usuário deverá clicar no botão "**Adicionar observação e/ou justificativa**", presente na grid do processo que deseja.
 
-.. figure:: _static/images/listagem_recolhimento_observacao_justificativa.png
+.. figure:: _static/images/listagem_recolhimento_observacao_justificativa.gif
 
 Preencher o campo com a informação desejada e clicar em Salvar.
 
-.. figure:: _static/images/listagem_recolhimento_inclusao_observacao_justificativa.png
+.. figure:: _static/images/listagem_recolhimento_inclusao_observacao_justificativa.gif
  
 Após esta ação, a informação salva ficará disponível em tela no campo Observações e/ou Justificativas da Grid do processo.
 
@@ -606,11 +612,11 @@ Visualizar Listagem de Recolhimento
 
 Para visualizar a listagem de recolhimento o usuário deverá clicar no botão "**Visualizar Listagem**", disponível na grid do processo que deseja.
 
-.. figure:: _static/images/recolhimento_gestao_das_listagens_visualizao_listagem.png
+.. figure:: _static/images/recolhimento_gestao_das_listagens_visualizao_listagem.gif
  
 Ao acessar a listagem de recolhimento, o usuário poderá imprimi-la, via clique no botão imprimir; poderá gerar um PDF, via clique no botão Gerar PDF; ou retornar a tela de gestão de listagens, via clique no botão Cancelar.
 
-.. figure:: _static/images/recolhimento_gestao_das_listagens_visualizacao_listagem_opcoes.png
+.. figure:: _static/images/recolhimento_gestao_das_listagens_visualizacao_listagem_opcoes.gif
 
 
 Editar Listagem de Recolhimento
@@ -618,11 +624,11 @@ Editar Listagem de Recolhimento
 
 Conforme a necessidade e/ou deliberações internas, o usuário poderá editar a listagem de recolhimento clicando no botão "**Editar Listagem de Recolhimento**".
  
-.. figure:: _static/images/recolhimento_gestao_das_listagens_editar_listagem.png
+.. figure:: _static/images/recolhimento_gestao_das_listagens_editar_listagem.gif
 
 Ao realizar esta ação, o sistema irá deixar disponível na grid do processo um botão para adicionar processos e outro para remover processos.
 
-.. figure:: _static/images/recolhimento_gestao_das_listagens_editar_listagem_inclusao_exclusao.png
+.. figure:: _static/images/recolhimento_gestao_das_listagens_editar_listagem_inclusao_exclusao.gif
 
 Adicionar Processos à Listagem de Recolhimento
 """"""""""""""""""""""""""""""""""""""""""""""
@@ -631,7 +637,7 @@ Ao clicar em adicionar, o sistema disponibiliza a lista de todos os processos pr
 
 Para incluir um ou mais processos, o usuário deverá selecionar, via marcação de *checkbox*, os processos que deseja incluir na listagem e clicar no botão "**Adicionar na Listagem de Recolhimento**".
 
-.. figure:: _static/images/recolhimento_gestao_das_listagens_editar_listagem_opcao_inclusao.png
+.. figure:: _static/images/recolhimento_gestao_das_listagens_editar_listagem_opcao_inclusao.gif
  
 Remover Processos da Listagem de Recolhimento
 """""""""""""""""""""""""""""""""""""""""""""
@@ -640,18 +646,18 @@ Ao clicar em remover, o sistema disponibiliza a lista de todos os processos pres
 
 Para excluir um ou mais processos, o usuário deverá selecionar, via marcação de *checkbox*, os processos que deseja excluir da listagem e clicar no botão "**Excluir da Listagem de Recolhimento**".
  
-.. figure:: _static/images/recolhimento_gestao_das_listagens_editar_listagem_opcao_exclusao.png
+.. figure:: _static/images/recolhimento_gestao_das_listagens_editar_listagem_opcao_exclusao.gif
 
 Após realizar as inclusões e/ou exclusões de processos na listagem desejada, o usuário deverá clicar no botão Concluir Edição da Listagem para atualizar a lista com as edições efetuadas. Nesse momento será criada uma nova Listagem de Recolhimento no processo de recolhimento gerado na tela de controle de processos da unidade de avaliação.
 
-.. figure:: _static/images/recolhimento_gestao_das_listagens_editar_listagem_inclusao_exclusao_atualizar.png
+.. figure:: _static/images/recolhimento_gestao_das_listagens_editar_listagem_inclusao_exclusao_atualizar.gif
 
 Acessar o Processo
 """"""""""""""""""
 
 Para acessar o processo contendo a listagem de recolhimento, o usuário deverá clicar sobre o número do processo em questão.
 
-.. figure:: _static/images/recolhimento_gestao_das_listagens_acessar_listagem.png
+.. figure:: _static/images/recolhimento_gestao_das_listagens_acessar_listagem.gif
 
 
 Relatórios
