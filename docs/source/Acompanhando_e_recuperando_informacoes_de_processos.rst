@@ -21,7 +21,7 @@ Na tela do processo, o usuário poderá acessar o “**Histórico Resumido**” 
    :align: middle
    :width: 25
 
-.. figure:: _static/images/11-ARIP-tela_consulta_andamento.png
+.. figure:: _static/images/11-ARIP-tela_consulta_andamento.gif
 
 Ainda na tela “**Histórico do Processo**”, o usuário poderá:
 
@@ -33,7 +33,7 @@ Ainda na tela “**Histórico do Processo**”, o usuário poderá:
 
    Ao lado do nome Lista de Andamentos há informação do número de registros contidos na Lista pesquisada. Portanto, no Histórico Resumido, essa informação refere-se à quantidade de registros exibidos na Lista Resumida e, no Histórico Completo, a informação refere-se à quantidade total de registros no processo.
 
-.. figure:: _static/images/11-ARIP-tela_consulta_andamento_contador.png
+.. figure:: _static/images/11-ARIP-tela_consulta_andamento_contador.gif
 
 
 Atualizando Andamento do Processo
@@ -49,7 +49,7 @@ O recurso Atualizar Andamento permite acrescentar informações ao Histórico do
    :align: middle
    :width: 30
 
-.. figure:: _static/images/11-ARIP-tela_processo_atualizar_andamento.png
+.. figure:: _static/images/11-ARIP-tela_processo_atualizar_andamento.gif
 
 * Na tela do processo, selecione a opção “ |lupa| **Consultar Andamento**”, que fica logo abaixo da Árvore do Processo. Em seguida no botão “**Atualizar Andamento**”, existente na tela Histórico do Processo.
 
@@ -57,7 +57,7 @@ O recurso Atualizar Andamento permite acrescentar informações ao Histórico do
    :align: middle
    :width: 25
 
-.. figure:: _static/images/11-ARIP-tela_processo_consultar_andamento.png
+.. figure:: _static/images/11-ARIP-tela_processo_consultar_andamento.gif
 
 * Na tela “**Controle de Processos**”, marque a caixa de seleção ao lado do número do processo e clique no ícone “**Atualizar Andamento**” |atualizar_andamento|.
 
@@ -65,11 +65,11 @@ O recurso Atualizar Andamento permite acrescentar informações ao Histórico do
    :align: middle
    :width: 30
 
-.. figure:: _static/images/11-ARIP-tela_controle_consultar_andamento.png
+.. figure:: _static/images/11-ARIP-tela_controle_consultar_andamento.gif
 
 Ao utilizar uma das opções acima, o sistema abrirá a tela “**Atualizar Andamento**”. Nela, as informações que serão acrescentadas ao Histórico do processo deverão ser digitadas no campo “**Descrição**”, que é de livre preenchimento. Após o preenchimento, clicar em “**Salvar**”.
 
-.. figure:: _static/images/11-ARIP-tela_processo_atualizar_andamento_formulario.png
+.. figure:: _static/images/11-ARIP-tela_processo_atualizar_andamento_formulario.gif
 
 .. admonition:: Notas
 
@@ -97,7 +97,7 @@ O usuário deverá selecionar um processo e clicar no ícone “**Acompanhamento
    :align: middle
    :width: 30
 
-.. figure:: _static/images/11-ARIP-tela_controle_acompanhamento_especial.png
+.. figure:: _static/images/11-ARIP-tela_controle_acompanhamento_especial.gif
 
 .. admonition:: Nota
 
@@ -111,11 +111,11 @@ A tela “**Novo Acompanhamento Especial**” será aberta. Nela, o usuário ter
  
 **1. incluir o processo em acompanhamento especial sem associação a Grupo**: nesse caso, o usuário deverá clicar no botão “**Salvar**”.
 
-.. figure:: _static/images/11-ARIP-tela_acompanhamento_especial_formulario.png
+.. figure:: _static/images/11-ARIP-tela_acompanhamento_especial_formulario.gif
 
 **2. incluir o processo em acompanhamento especial associado a Grupo existente**: nesse caso, o usuário deverá selecionar o grupo no campo “**Grupo**” e clicar em “**Salvar**”.
 
-.. figure:: _static/images/11-ARIP-tela_acompanhamento_especial_grupo.png
+.. figure:: _static/images/11-ARIP-tela_acompanhamento_especial_grupo.gif
 
 **3. criar um Grupo e associar a um acompanhamento especial**: nesse caso, o usuário deverá clicar no ícone “**Novo Grupo de Acompanhamento**” |mais|, cadastrar o novo Grupo e, em seguida, clicar em “**Salvar**”.
 
@@ -123,9 +123,9 @@ A tela “**Novo Acompanhamento Especial**” será aberta. Nela, o usuário ter
    :align: middle
    :width: 25
 
-.. figure:: _static/images/11-ARIP-tela_acompanhamento_especial_novo_grupo.png
+.. figure:: _static/images/11-ARIP-tela_acompanhamento_especial_novo_grupo.gif
 
-.. figure:: _static/images/11-ARIP-tela_acompanhamento_especial_grupo_criado.png
+.. figure:: _static/images/11-ARIP-tela_acompanhamento_especial_grupo_criado.gif
 
 .. admonition:: Nota
 
@@ -139,7 +139,7 @@ O usuário deverá acessar o processo desejado e clicar no ícone “**Acompanha
    :align: middle
    :width: 25
 
-.. figure:: _static/images/11-ARIP-tela_processo_acompanhamento_especial.png
+.. figure:: _static/images/11-ARIP-tela_processo_acompanhamento_especial.gif
 
 O usuário será direcionado para a tela “**Novo acompanhamento Especial**”. Nela, o usuário terá três possibilidades:
 
@@ -163,11 +163,11 @@ Após o cadastro do Acompanhamento Especial no Processo (clique no botão Salvar
    :align: middle
    :width: 30
 
-.. figure:: _static/images/11-ARIP-tela_acompanhamento_opcoes.png
+.. figure:: _static/images/11-ARIP-tela_acompanhamento_opcoes.gif
 
 Os processos incluídos em Acompanhamento Especial receberão o ícone  , à direita de seu número. Ao posicionar o cursor sobre esse ícone, o usuário conseguirá visualizar quantos Acompanhamentos Especiais há no processo. Para visualizar os Acompanhamentos Especiais do processo, basta clicar sobre esse ícone.
 
-.. figure:: _static/images/11-ARIP-tela_acompanhamento_especial_sinalizadores.png
+.. figure:: _static/images/11-ARIP-tela_acompanhamento_especial_sinalizadores.gif
 
 .. admonition:: Notas
 
@@ -181,7 +181,7 @@ Visualizando processos incluídos em Acompanhamento Especial
 
 Para visualizar a relação de processos incluídos em “**Acompanhamento Especial**” pela sua unidade, o usuário deverá acessar o menu “**Acompanhamento Especial**” existente no **Menu Principal**.
 
-.. figure:: _static/images/11-ARIP-menu_principal_acompanhamento_especial.png
+.. figure:: _static/images/11-ARIP-menu_principal_acompanhamento_especial.gif
 
 Na tela seguinte, todos os processos incluídos em “Acompanhamento Especial” serão exibidos.
 
@@ -209,6 +209,8 @@ Nesta tela será possível:
 
 .. figure:: _static/images/11-ARIP-menu_principal_acompanhamento_especial_opcoes.png
 
+.. figure:: _static/images/11-ARIP-menu_principal_acompanhamento_especial_opcoes.gif
+
 
 Pesquisa
 +++++++++
@@ -233,7 +235,7 @@ Para realizar uma **Pesquisa Rápida**, o usuário deverá inserir a informaçã
    :align: middle
    :width: 25
 
-.. figure:: _static/images/11-ARIP-tela_controle_pesquisa.png
+.. figure:: _static/images/11-ARIP-tela_controle_pesquisa.gif
 
 
 Pesquisa Estruturada
@@ -241,7 +243,7 @@ Pesquisa Estruturada
 
 Para realizar uma pesquisa mais estruturada, o usuário deverá acessar a opção “**Pesquisa**”, existente no Menu Principal.
 
-.. figure:: _static/images/11-ARIP-menu_principal_pesquisa.png
+.. figure:: _static/images/11-ARIP-menu_principal_pesquisa.gif
 
 A tela “**Pesquisa**” possui vários campos que, se preenchidos adequadamente, facilitam a localização de processo e documentos. Os campos disponíveis fornecem informações à Pesquisa que permitem a otimização das buscas realizadas.
 
@@ -314,6 +316,8 @@ Ainda na tela “**Resultado da Pesquisa**”, existem outras opções disponív
 * **Botão Limpar**: apagará os dados informados nos campos de filtro utilizados para a última pesquisa. 
 * **Botão Salvar Pesquisa**: opção permite que o usuário salve os critérios aplicados para a pesquisa. Após clicar no botão Salva Pesquisa, o usuário deverá indicar o nome da pesquisa a ser armazenada e clicar em “Salvar”.
 
+.. figure:: _static/images/11-ARIP-Pesquisa_estruturada_salvar_pesquisa.gif
+
 .. figure:: _static/images/11-ARIP-Pesquisa_estruturada_salvar_pesquisa.png
 
 * **Botão Minhas Pesquisas**: opção para seleção dos critérios de pesquisas salvos que deseja aplicar. Nela também é possível editar uma pesquisa salva, por meio do botão “**Alterar Pesquisa**” |editar|, ou excluir uma pesquisa salva, por meio do botão “**Excluir Pesquisa**” |excluir|.
@@ -326,7 +330,7 @@ Ainda na tela “**Resultado da Pesquisa**”, existem outras opções disponív
    :align: middle
    :width: 25
 
-.. figure:: _static/images/11-ARIP-Pesquisa_estruturada_salvar_pesquisa_acoes.png
+.. figure:: _static/images/11-ARIP-Pesquisa_estruturada_salvar_pesquisa_acoes.gif
 
 .. admonition:: Notas
 
@@ -356,12 +360,12 @@ A Pesquisa restrita ao processo é muito útil em processos com grande quantidad
    :align: middle
    :width: 25
 
-.. figure:: _static/images/11-ARIP-tela_processo_pesquisa_pasta.png
+.. figure:: _static/images/11-ARIP-tela_processo_pesquisa_pasta.gif
 
 Na tela “**Pesquisar no Processo**”, digitar, no campo apropriado, a informação a ser pesquisada.
 
 
-.. figure:: _static/images/11-ARIP-Pesquisa_processo_botao_pesquisar.png
+.. figure:: _static/images/11-ARIP-Pesquisa_processo_botao_pesquisar.gif
 
 .. admonition:: Nota
 
@@ -396,11 +400,11 @@ Estatísticas da Unidade
 
 O usuário deverá acessar o menu “**Estatísticas**”, opção “**Unidade**”, existente no menu principal. 
 
-.. figure:: _static/images/11-ARIP-estatistica_unidade_menu_principal.png
+.. figure:: _static/images/11-ARIP-estatistica_unidade_menu_principal.gif
 
 Na tela “**Estatísticas da Unidade**”, informe o período desejado para o resultado das Estatísticas e, em seguida, clique no botão Pesquisar. Os campos referentes ao período podem ser preenchidos por meio de digitação da data ou por meio da seleção de uma data nos calendários que serão disponibilizados quando o usuário clicar nos ícones “Selecionar Data Inicial” e “**Selecionar Data Final**”.
 
-.. figure:: _static/images/11-ARIP-estatistica_unidade_calendario.png
+.. figure:: _static/images/11-ARIP-estatistica_unidade_calendario.gif
 
 Após clicar em “**Pesquisar**”, a tela “**Estatísticas da Unidade**” apresentará tabelas e gráficos com as seguintes informações estatísticas:
 
@@ -416,15 +420,18 @@ Tais informações são apresentadas em tabelas e gráficos, por tipo de process
 
 .. figure:: _static/images/11-ARIP-estatistica_unidade_resultado.png
 
+
+.. figure:: _static/images/11-ARIP-estatistica_unidade_resultado.gif
+
 A identificação da categoria das informações relacionadas a tabela e gráfico estão disponíveis em seus cabeçalhos (1).
 
 Para localizar um processo ou um documento, clique nos números referentes à quantidade de cada um dos tipos de processo ou de documento (2), exibidos nas tabelas ou nas colunas dos gráficos (3) de determinada informação estatística. Assim, será aberta a janela correspondente ao tipo selecionado em cada tabela ou gráfico.
 
-.. figure:: _static/images/11-ARIP-estatistica_unidade_lista_processos.png
+.. figure:: _static/images/11-ARIP-estatistica_unidade_lista_processos.gif
 
 Ao passar o cursor do mouse em cima das colunas gráficas, será apresentada o rótulo de dados, com a informação relacionada ao processo ou documento e a sua quantidade.
 
-.. figure:: _static/images/11-ARIP-estatistica_unidade_informacao_grafico.png
+.. figure:: _static/images/11-ARIP-estatistica_unidade_informacao_grafico.gif
 
 .. admonition:: Notas
 
@@ -438,7 +445,7 @@ Estatísticas de Desempenho de Processos
 
 O usuário deverá acessar o menu “**Estatísticas**”, opção “**Desempenho de Processos**”, existente no menu principal.
 
-.. figure:: _static/images/11-ARIP-estatistica_desempenho_processo.png
+.. figure:: _static/images/11-ARIP-estatistica_desempenho_processo.gif
 
 Na tela “**Estatísticas de Desempenho de Processos**”, o usuário poderá: 
 
@@ -457,6 +464,10 @@ Na tela “**Estatísticas de Desempenho de Processos**”, o usuário poderá:
    :width: 30
 
 .. figure:: _static/images/11-ARIP-estatistica_desempenho_campos.png
+
+ 
+
+.. figure:: _static/images/11-ARIP-estatistica_desempenho_campos.gif
 
 Será exibida uma tabela com a Lista de desempenho de processos no período. Nela, há as seguintes informações: **Tipo do processo, Quantidade de processos por tipo e Tempo Médio de trâmite dos tipos de processo no Órgão**. Além da tabela, será exibido o gráfico correspondente a ela.
 
@@ -477,7 +488,7 @@ Será exibida a janela “**Desempenho por Processo**” referente ao Tipo de pr
 
 Ao clicar no link “**Detalhar por Unidade**”, será aberta a tela Desempenho por Unidade. Nela, será exibida a Lista de Registros de Detalhamento do tipo de processo selecionado, com as seguintes informações: **Órgão, Unidade, Quantidade de processos e Tempo Médio na Unidade**.
 
-.. figure:: _static/images/11-ARIP-estatistica_desempenho_resultado.png
+.. figure:: _static/images/11-ARIP-estatistica_desempenho_resultado.gif
 
 Caso o usuário deseje acessar os processos específicos de uma unidade, deverá clicar no número correspondente na coluna Quantidade ou na coluna Tempo Médio na Unidade. Assim, será aberta a tela Desempenho dos Processos na Unidade. Nela, será possível acessar cada processo, clicando em seu número.
 
@@ -515,13 +526,11 @@ Após esta ação, um ícone “**Ponto de Controle**” |ponto_de_controle| fic
    :align: middle
    :width: 25
 
-.. figure:: _static/images/11-ARIP-tela_processo_ponto_controle_sinalizador.png
-
-.. figure:: _static/images/11-ARIP-tela_processo_ponto_controle_sinalizador_info.png
+.. figure:: _static/images/11-ARIP-tela_processo_ponto_controle_sinalizador_info.gif
 
 Ao clicar sobre esse ícone, será aberta a tela “**Gerenciar Ponto de Controle**”. Nela, é possível visualizar o Histórico de Pontos de Controle e alterá-los, se necessário.
 
-.. figure:: _static/images/11-ARIP-tela_ponto_controle_formulario.png
+.. figure:: _static/images/11-ARIP-tela_ponto_controle_formulario.gif
 
 .. admonition:: Nota
 
@@ -532,7 +541,7 @@ Consultando Processos com Ponto de Controle
 
 Para consultar os processos com **Ponto de Controle**, o usuário deverá clicar no menu “**Pontos de Controle**”, existente no menu principal.
 
-.. figure:: _static/images/11-ARIP-ponto_controle_menu_principal.png
+.. figure:: _static/images/11-ARIP-ponto_controle_menu_principal.gif
 
 Na tela “**Pontos de Controle**”, é possível recuperar informações em forma de tabela ou gráficos. Para isso, basta selecionar o “**Tipo do Processo**” e/ou o “Ponto de Controle” desejado, por meio das respectivas caixas de seleção, e clicar no botão “**Pesquisar Processos**” ou “**Gerar Gráficos**”. Caso, o usuário deseje ver também os pontos de controle que foram desativados, basta selecionar a flag “**Incluir desativados**”.
 
@@ -544,11 +553,11 @@ Na tela “**Pontos de Controle**”, é possível recuperar informações em fo
    :align: middle
    :width: 25
 
-.. figure:: _static/images/11-ARIP-tela_ponto_controle_processo.png
+.. figure:: _static/images/11-ARIP-tela_ponto_controle_processo.gif
 
 * **Gerar Gráficos**: ao clicar nesse botão, serão apresentados gráficos conforme os parâmetros informados no filtro para pesquisa.
 
-.. figure:: _static/images/11-ARIP-ponto_controle_graficos.png
+.. figure:: _static/images/11-ARIP-ponto_controle_graficos.gif
 
 O primeiro gráfico (Geral) abrange todos os processos inseridos em Pontos de Controle, de acordo com o filtro efetuado para a geração do gráfico. Ao posicionar o cursor sobre as colunas do gráfico, é possível identificar a quantidade de processos em cada Ponto de Controle (fase/categoria).
 
@@ -556,7 +565,7 @@ Os demais gráficos representam cada Ponto de Controle (fase/categoria) separada
 
 Em cada gráfico, para acessar os processos correspondentes a determinada coluna, clique sobre ela. Assim, será aberta a janela Controle da Unidade. Nela, serão exibidos todos os processos, de acordo com a coluna selecionada. Para acessar um processo, clique sobre seu número.
 
-.. figure:: _static/images/11-ARIP-ponto_controle_selecao_processos.png
+.. figure:: _static/images/11-ARIP-ponto_controle_selecao_processos.gif
 
 .. admonition:: Nota
 
@@ -578,7 +587,7 @@ Para alterar ou retirar um ponto de controle, o usuário deverá acessar o proce
 
 Na tela “**Gerenciar Ponto de Controle**”, no campo “**Ponto de Controle**”, selecionar outro Ponto de Controle para alterar a fase ou selecionar a primeira opção da lista (em branco) para retirar o Ponto de Controle. Em seguida, clicar em “**Salvar**”.
 
-.. figure:: _static/images/11-ARIP-tela_ponto_controle_alteracao.png
+.. figure:: _static/images/11-ARIP-tela_ponto_controle_alteracao.gif
 
 Para retirar o ponto de controle, o usuário deverá selecionar a opção vazio (1ª opção) do campo “**Ponto de Controle**”.
 
@@ -605,7 +614,7 @@ Painel de Controle
 Funcionalidade que possibilita ao usuário ter uma visão resumida e personalizada dos processos da unidade.
 Para acessar, o usuário deverá clicar na opção “**Painel de Controle**”, disponível no Menu Principal.
 
-.. figure:: _static/images/11-ARIP-Painel_controle_menu_principal.png
+.. figure:: _static/images/11-ARIP-Painel_controle_menu_principal.gif
 
 Estrutura do Painel de Controle
 -------------------------------
@@ -639,7 +648,7 @@ Exibe a informação do Total de processos abertos na unidade. Mostra ainda o n�
 
 Para acessar os processos, o usuário poderá clicar no número referente à informação desejada.
 
-.. figure:: _static/images/11-ARIP-painel_conrtole_processos.png
+.. figure:: _static/images/11-ARIP-painel_conrtole_processos.gif
 
 .. |alerta| image:: _static/images/11-ARIP-icone_alerta.png
    :align: middle
@@ -655,7 +664,7 @@ Essa tela permite ao usuário a realização de algumas ações, por meio da sel
 
 Ao clicar no filtro “**Configurar nível de detalhe**”, será possível definir os dados referentes ao processo para exibição na Lista de Processos.
 
-.. figure:: _static/images/11-ARIP-Painel_controle_tela_controle_processos_filtros.png
+.. figure:: _static/images/11-ARIP-Painel_controle_tela_controle_processos_filtros.gif
 
 Cada item selecionado na janela “**Configurar Nível de Detalhe**” corresponderá a uma coluna nas Listas de Processos, que serão apresentadas de acordo com a opção selecionada no Painel de Controle.
 
@@ -770,10 +779,9 @@ Para visualizar os processos com “**Retornos Programados**”, clicar em cima 
 .. figure:: _static/images/11-ARIP-painel_controle_visualizar_retornos_programados.png
 
 
-Na tela “**Controle de Processos**”, será exibida a Lista de Processos por Retorno 
-Programado.
+Na tela “**Controle de Processos**”, será exibida a Lista de Processos por Retorno Programado.
 
-.. figure:: _static/images/11-ARIP-painel_controle_retorno_tela_controle.png
+.. figure:: _static/images/11-ARIP-painel_controle_retorno_tela_controle.gif
 
 Blocos de Assinatura abertos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -788,15 +796,15 @@ Para acessar os Blocos de Assinatura ou Documentos contidos nos Blocos, clicar s
 
 * Ao clicar em um número da coluna “Blocos”, será aberta a tela Blocos de Assinatura. Nela, serão exibidos os Blocos de acordo com a Situação escolhida (Recebido, Gerado, Disponibilizado ou Retornado).
 
-.. figure:: _static/images/11-ARIP-painel_controle_gerenciar_blocos_assinatura.png
+.. figure:: _static/images/11-ARIP-painel_controle_gerenciar_blocos_assinatura.gif
 
 * Ao clicar em um número na coluna “**Documentos**”, serão apresentados todos os documentos contidos em Blocos de Assinatura (com e sem assinatura), conforme a Situação escolhida (Recebido, Gerado, Disponibilizado ou Retornado).
 
-.. figure:: _static/images/11-ARIP-painel_controle_gerenciar_blocos_documentos.png
+.. figure:: _static/images/11-ARIP-painel_controle_gerenciar_blocos_documentos.gif
 
 * Ao clicar em um número da coluna “**Sem Assinatura**”, visualizará somente os documentos contidos em Blocos que ainda não foram assinados, conforme a Situação escolhida (Recebido, Gerado, Disponibilizado ou Retornado).
 
-.. figure:: _static/images/11-ARIP-painel_controle_gerenciar_blocos_sem_assinatura.png
+.. figure:: _static/images/11-ARIP-painel_controle_gerenciar_blocos_sem_assinatura.gif
 
 Grupo de Blocos de Assinaturas Abertos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -817,11 +825,11 @@ Para acessar os Blocos de Assinatura ou documentos contidos nos Blocos, clicar s
 
 Ao clicar em um número na coluna “**Blocos**”, será aberta a tela “**Blocos de Assinatura**”. Nela, serão exibidos os Blocos de acordo com o Grupo de Blocos de Assinatura selecionado.
 
-.. figure:: _static/images/11-ARIP-painel_controle_gerenciar_blocos_assinatura.png
+.. figure:: _static/images/11-ARIP-painel_controle_gerenciar_blocos_assinatura.gif
 
 Ao clicar em um número na coluna “**Documentos**”, serão apresentados todos os documentos contidos em Blocos de Assinatura (com e sem assinatura), conforme a Situação escolhida (Recebido, Gerado, Disponibilizado ou Retornado).
 
-.. figure:: _static/images/11-ARIP-painel_controle_gerenciar_blocos_documentos.png
+.. figure:: _static/images/11-ARIP-painel_controle_gerenciar_blocos_documentos.gif
 
 O usuário terá também a opção de clicar em um número na coluna “**Sem Assinatura**”, para visualizar somente os documentos contidos em Blocos que ainda não foram assinados referentes ao Grupo de Blocos de Assinaturas selecionado.
 
@@ -844,7 +852,7 @@ Para visualizar a lista de processos, clicar em cima dos números referentes a c
 
 Após o clique, será aberta a tela de “Controle de Processos” com a lista de processos do referido “**Tipo**”.
 
-.. figure:: _static/images/11-ARIP-painel_controle_processos_abertos_tipos.png
+.. figure:: _static/images/11-ARIP-painel_controle_processos_abertos_tipos.gif
 
 Marcadores em Processos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -865,7 +873,7 @@ Para visualizar os processos referentes a determinado “**Marcador**” ou sem 
 
 Após o clique, será aberta a tela de “**Controle de Processos**” com a lista de processos do referido “**Marcador**”.
 
-.. figure:: _static/images/11-ARIP-painel_controle_marcador_controle_processo.png
+.. figure:: _static/images/11-ARIP-painel_controle_marcador_controle_processo.gif
 
 .. admonition:: Nota
 
@@ -891,7 +899,7 @@ Para visualizar os processos atribuídos a um usuário, clicar sobre o número c
 
 Após o clique, será aberta a tela de “**Controle de Processos**” com a lista de processos atribuídas ao usuário selecionado.
 
-.. figure:: _static/images/11-ARIP-painel_controle_atribuicao_controle_processo.png
+.. figure:: _static/images/11-ARIP-painel_controle_atribuicao_controle_processo.gif
 
 Acompanhamentos Especiais em Processo
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -913,7 +921,7 @@ Apresenta em tela informações, separadas por Grupos, sobre os processos que fo
 
 Para visualizar os processos referentes a determinado Grupo de “**Acompanhamento Especial**” ou **Sem grupo definido**, clicar em cima do número correspondente à informação desejada, na respectiva coluna.
 
-.. figure:: _static/images/11-ARIP-painel_controle_acompanhamento_especial.png
+.. figure:: _static/images/11-ARIP-painel_controle_acompanhamento_especial.gif
 
 Configurar Painel de Controle
 -----------------------------
@@ -925,7 +933,6 @@ O usuário poderá definir as configurações do “**Painel de Controle**” da
 A tela “**Configurar Painel de Controle**” será aberta. Nela, o usuário poderá selecionar as opções que deseja que fiquem visíveis no “**Painel de Controle**” da unidade.
 
 .. figure:: _static/images/11-ARIP-painel_controle_configurar_opcoes1.png
-
 .. figure:: _static/images/11-ARIP-painel_controle_configurar_opcoes2.png
 
 Além disso, será possível utilizar o botão “**Configura Minha Seleção**” para personalizar os resultados do “**Painel de Controle**” sempre que utilizado o botão “**Ver Minha Seleção**”, existente na tela “**Painel de Controle**”.
@@ -940,7 +947,7 @@ Exemplo:
 
 Caso o usuário deseje voltar a visão completa deste item no “**Painel de Controle**”, clicar no botão “**Ver Tudo**”.
 
-.. figure:: _static/images/11-ARIP-painel_controle_configurar_ver_tudo.png
+.. figure:: _static/images/11-ARIP-painel_controle_configurar_ver_tudo.gif
 
 .. admonition:: Nota
 
@@ -973,15 +980,15 @@ A Base de Conhecimento é associada a tipos de processo.
 
 Para criar uma Base de Conhecimento, o usuário deverá selecionar a opção “Base de Conhecimento” existente no Menu Principal.
 
-.. figure:: _static/images/11-ARIP-base_conhecimento_menu_principal.png
+.. figure:: _static/images/11-ARIP-base_conhecimento_menu_principal.gif
 
 Na tela “**Base de Conhecimento**”, clicar no botão “**Nova**”.
 
-.. figure:: _static/images/11-ARIP-base_conhecimento_novo.png
+.. figure:: _static/images/11-ARIP-base_conhecimento_novo.gif
 
 Na tela seguinte, preencher o campo Descrição, selecionar os Tipos de Processo Associados, escolher um arquivo em formato PDF, conforme o caso, e clicar em “**Salvar**”.
 
-.. figure:: _static/images/11-ARIP-base_conhecimento_formulario.png
+.. figure:: _static/images/11-ARIP-base_conhecimento_formulario.gif
 
 Ao clicar em Salvar, uma nova janela será aberta. Nela, o usuário deverá inserir as informações necessárias ao desenvolvimento das atividades, podendo utilizar os recursos disponíveis como: referências a documentos, leis, decretos, portarias e links da intranet ou internet. Após o preenchimento, clicar em “**Salvar**”.
 
@@ -1057,7 +1064,7 @@ Consultando a Base de Conhecimento
 
 Na tela “**Base de Conhecimento**”, preencher o campo “**Palavras-chave**" e clicar em “**Pesquisar**”.
 
-.. figure:: _static/images/11-ARIP-base_conhecimento_pesquisar.png
+.. figure:: _static/images/11-ARIP-base_conhecimento_pesquisar.gif
 
 .. admonition:: Notas
 
@@ -1077,7 +1084,7 @@ Na tela “**Base de Conhecimento**”, preencher o campo “**Palavras-chave**"
 
 Para acessar o conteúdo, clique sobre o procedimento recuperado.
 
-.. figure:: _static/images/11-ARIP-base_conhecimento_recuperado.png
+.. figure:: _static/images/11-ARIP-base_conhecimento_recuperado.gif
 
 Além da pesquisa do conteúdo do procedimento, a unidade criadora do procedimento conseguirá acessar e editar sua “Base de Conhecimento”, por meio do botão “**Minha Base**”. Ao clicar nesse botão, será exibida a Lista de Procedimentos da unidade.
 

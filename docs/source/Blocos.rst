@@ -20,7 +20,7 @@ Para utilizar a funcionalidade bloco de assinaturas, acesse o processo, clique n
    :width: 35
 
 
-.. figure:: _static/images/9-B-tela_incluir_em_blocos_assinatura.png
+.. figure:: _static/images/9-B-tela_incluir_em_blocos_assinatura.gif
 
 
 O usuário será direcionado para a tela “Incluir em Bloco de Assinatura”. Nessa tela, poderão ser realizadas as seguintes ações:
@@ -30,7 +30,7 @@ O usuário será direcionado para a tela “Incluir em Bloco de Assinatura”. N
 Essa opção será viabilizada pelo botão “**Novo Bloco**”. Após a criação de um novo bloco, o usuário poderá incluir documentos a esse bloco (opção “**Incluir**”) ou incluir documentos e, simultaneamente, disponibilizar a outra unidade (opção “**Incluir e Disponibilizar**”).
 
 
-.. figure:: _static/images/9-B-tela_incluir_em_blocos_assinatura_novo_bloco.png
+.. figure:: _static/images/9-B-tela_incluir_em_blocos_assinatura_novo_bloco.gif
 
 Preencha os campos exibidos em tela, e descritos abaixo:
 
@@ -40,7 +40,7 @@ Preencha os campos exibidos em tela, e descritos abaixo:
 
 Clique em “**Salvar**”.
 
-.. figure:: _static/images/9-B-tela_incluir_em_blocos_assinatura_formulario.png
+.. figure:: _static/images/9-B-tela_incluir_em_blocos_assinatura_formulario.gif
 
 Após a criação do bloco, o sistema retornará à tela “**Incluir em Bloco de Assinatura**”, com o novo bloco selecionado no campo “**Bloco**”. Nessa tela, o usuário deverá indicar quais documentos deseja inserir no bloco, se deseja apenas incluir os documentos do processo no bloco criado ou se deseja incluir e disponibilizar, simultaneamente, o bloco. Estas ações estão melhor detalhadas abaixo.
 
@@ -56,12 +56,12 @@ O documento será inserido no Bloco, mas ele não será disponibilizado no mesmo
 Para incluir o documento em um Bloco de Assinatura já existente, o usuário deverá selecionar os documentos que deseja incluir no bloco, selecionar o bloco no campo “**Bloco**” e clicar no botão “**Incluir**”.
 
 
-.. figure:: _static/images/9-B-tela_incluir_em_blocos_assinatura_incluir.png
+.. figure:: _static/images/9-B-tela_incluir_em_blocos_assinatura_incluir.gif
 
 Após esta ação, os documentos selecionados aparecerão já inseridos no Bloco escolhido.
 
 
-.. figure:: _static/images/9-B-tela_incluir_em_blocos_assinatura_indicacao_blocos.png
+.. figure:: _static/images/9-B-tela_incluir_em_blocos_assinatura_indicacao_blocos.gif
 
 Para disponibilizar o bloco para as unidades, o usuário poderá: 
 
@@ -69,11 +69,11 @@ Para disponibilizar o bloco para as unidades, o usuário poderá:
 
 * Após a inclusão do último documento no bloco, clicar no link “**Ir para Blocos de Assinatura**”, conforme descrito abaixo.
 
-.. figure:: _static/images/9-B-tela_incluir_em_blocos_assinatura_ir_para_blocos.png
+.. figure:: _static/images/9-B-tela_incluir_em_blocos_assinatura_ir_para_blocos.gif
 
 Na tela “**Blocos de Assinatura**” será possível verificar que o Bloco no qual os documentos foram inseridos encontra-se no estado “**Gerado**”, ou seja, ele foi criado, mas ainda não foi disponibilizado para outra unidade.
 
-.. figure:: _static/images/9-B-tela_bloco_assinatura_estado.png
+.. figure:: _static/images/9-B-tela_bloco_assinatura_estado.gif
 
 
 .. admonition:: Nota
@@ -122,7 +122,7 @@ Para que seja possível a visualização, a edição e a assinatura dos document
    :align: middle
    :width: 25
 
-.. figure:: _static/images/9-B-tela_disponibilizar_bloco.png
+.. figure:: _static/images/9-B-tela_disponibilizar_bloco.gif
 
 O Bloco disponibilizado aparecerá na cor amarela e seu estado passará a “**Disponibilizado**”. Haverá também uma modificação nos ícones disponíveis na coluna Ações, pois só aparecerão os ícones de ações possíveis no estado em que o Bloco se encontra. A saber:
 
@@ -161,16 +161,16 @@ Essa opção é viabilizadal pelo botão “**Incluir e Disponibilizar**”. Iss
 
 Para que o usuário inclua um ou mais documentos em um bloco e já os deixe disponíveis para a unidade, deverá selecionar os documentos e o bloco, e clicar no botão “**Incluir e Disponibilizar**”.
 
-.. figure:: _static/images/9-B-tela_incluir_e_disponibilizar.png
+.. figure:: _static/images/9-B-tela_incluir_e_disponibilizar.gif
 
 Ao realizar esta ação, a tela “**Incluir em Bloco de Assinatura**” apresentará o documento já incluído no Bloco. Para verificar se a disponibilização à unidade ocorreu com sucesso, o usuário pode clicar no link “**Ir para Blocos de Assinatura**”.
 
 
-.. figure:: _static/images/9-B-tela_botao_ir_para_bloco_assinatura.png
+.. figure:: _static/images/9-B-tela_botao_ir_para_bloco_assinatura.gif
 
 O Bloco em que o documento foi incluído e disponibilizado aparece destacado em vermelho, com a classificação do Estado “**Disponibilizado**”.
 
-.. figure:: _static/images/9-B-tela_tela_bloco_estado_disponibilizado.png
+.. figure:: _static/images/9-B-tela_tela_bloco_estado_disponibilizado.gif
 
 
 Identificando Blocos de Assinatura Recebidos, Assinando Documentos e Retornando-os
@@ -179,11 +179,11 @@ Identificando Blocos de Assinatura Recebidos, Assinando Documentos e Retornando-
 
 Para visualizar os blocos recebidos, acesse o Menu Principal, opção “**Blocos**”, e clique em “**Assinatura**”.
 
-.. figure:: _static/images/9-B-bloco_assinatura_menu_principal.png
+.. figure:: _static/images/9-B-bloco_assinatura_menu_principal.gif
 
 Será aberta a tela “**Blocos de Assinatura**”. Nessa tela, os Blocos recebidos de outras unidades são identificados pelo estado “**Recebido**”. É possível visualizar a unidade geradora do Bloco, bem como a(s) unidade(s) para a(s) qual(is) ele foi disponibilizado.
 
-.. figure:: _static/images/9-B-tela_bloco_assinatura_informacoes.png
+.. figure:: _static/images/9-B-tela_bloco_assinatura_informacoes.gif
 
 Para visualizar o(s) documento(s)/processo(s) recebido(s) para assinatura, o clique no botão “**Processos/Documentos do Bloco**” |visualizar_documentos| correspondente ao Bloco, que se encontra na coluna **Ações**; ou clique sobre o número do Bloco, na coluna **Número**.
 
@@ -191,7 +191,7 @@ Para visualizar o(s) documento(s)/processo(s) recebido(s) para assinatura, o cli
    :align: middle
    :width: 25
 
-.. figure:: _static/images/9-B-tela_bloco_assinatura_numero_pesquisa_documento.png
+.. figure:: _static/images/9-B-tela_bloco_assinatura_numero_pesquisa_documento.gif
 
 
 O usuário será redirecionado para a tela “**Documentos do Bloco de Assinatura**”. Por meio dos ícones disponíveis na coluna “**Ações**”, o usuário poderá assinar o documento, sem visualizá-lo, ao selecionar o ícone “**Assinar Documento**” |assinatura_preta| ; ou inserir anotações, por meio do ícone “**Anotações**” |anotacoes|. 
@@ -206,7 +206,7 @@ O usuário será redirecionado para a tela “**Documentos do Bloco de Assinatur
 
 É possível visualizar o documento antes da assinatura, para tanto, clique em seu número, na coluna “**Documento**”. Caso deseje ver todo o processo antes da assinatura do documento, clique em seu número, na coluna “**Processo**”.
 
-.. figure:: _static/images/9-B-tela_bloco_assinatura_processo_documento.png
+.. figure:: _static/images/9-B-tela_bloco_assinatura_processo_documento.gif
 
 * Ao clicar no processo, o usuário será direcionado para a tela do processo e poderá editar o documento, clicando no ícone “**Editar Conteúdo**” |editar_documento|, caso o documento ainda não tenha nenhuma assinatura.
 
@@ -245,13 +245,13 @@ O usuário será redirecionado para a tela “**Documentos do Bloco de Assinatur
    Toda ação de assinatura de um documento via SUPER.GOV.BR necessita que o usuário indique o seu Cargo/Função e informe a sua senha para efetivação da assinatura. Além da possibilidade de assinatura com Certificado Digital.
 
 
-.. figure:: _static/images/9-B-tela_bloco_assinatura_ass_documentos.png
+.. figure:: _static/images/9-B-tela_bloco_assinatura_ass_documentos.gif
 
 
 Após a assinatura, o nome e cargos dos assinantes do documento ficam registrados na coluna Assinaturas.
 
 
-.. figure:: _static/images/9-B-tela_bloco_assinatura_identificacao_assinantes.png
+.. figure:: _static/images/9-B-tela_bloco_assinatura_identificacao_assinantes.gif
 
 
 Finalizadas as tratativas relativas às assinaturas, para retornar à tela “**Bloco de Assinaturas**”, clique no botão “**Fechar**”.
@@ -262,7 +262,7 @@ Na tela “**Bloco de Assinaturas**”, dentre outras possibilidades, o usuário
    :align: middle
    :width: 25
 
-.. figure:: _static/images/9-B-tela_bloco_assinatura_devolver_bloco.png
+.. figure:: _static/images/9-B-tela_bloco_assinatura_devolver_bloco.gif
 
 
 Após a confirmação da devolução, o bloco não ficará mais disponível na lista de Blocos de Assinatura da Unidade.
@@ -273,7 +273,7 @@ A unidade de origem do bloco irá identificar o seu retorno por meio do símbolo
    :align: middle
    :width: 25
 
-.. figure:: _static/images/9-B-tela_controle_processos_retorno_bloco.png
+.. figure:: _static/images/9-B-tela_controle_processos_retorno_bloco.gif
 
 
 Reutilizando Blocos de Assinatura
@@ -289,13 +289,13 @@ Para concluir um Bloco, acesse a Tela “**Blocos de Assinatura**”, por meio d
    :align: middle
    :width: 25
 
-.. figure:: _static/images/9-B-tela_bloco_assinatura_opcao_concluir.png
+.. figure:: _static/images/9-B-tela_bloco_assinatura_opcao_concluir.gif
 
 O bloco concluído não ficará mais disponível na lista existente na tela “**Blocos de Assinatura**”. 
 
 Para visualizar e reabrir um Bloco que foi concluído, o usuário deverá marcar a opção “**Concluído**” na caixa Estado, que fica na parte superior da tela “**Blocos de Assinatura**”.
 
-.. figure:: _static/images/9-B-tela_bloco_assinatura_pesquisar_concuidos.png
+.. figure:: _static/images/9-B-tela_bloco_assinatura_pesquisar_concuidos.gif
 
 
 .. admonition:: Nota
@@ -308,7 +308,7 @@ Tendo acesso aos blocos concluídos, o usuário poderá reabri-los para serem re
    :align: middle
    :width: 25
 
-.. figure:: _static/images/9-B-tela_bloco_assinatura_reabrir_bloco.png
+.. figure:: _static/images/9-B-tela_bloco_assinatura_reabrir_bloco.gif
 
 
 Inserindo Sinalizações no Bloco de Assinatura
@@ -354,12 +354,12 @@ O usuário poderá inserir **Sinalizações** nos Blocos de Assinatura. Basta cl
    :align: middle
    :width: 25
 
-.. figure:: _static/images/9-B-tela_revisado.png
+.. figure:: _static/images/9-B-tela_revisado.gif
 
 
 **C. Comentado**: Ao clicar no ícone “**Comentado**”, será aberta a janela para inclusão do comentário. Nela, o usuário deverá inserir o comentário no campo “**Descrição**” e clicar no botão “**Salvar**”. 
 
-.. figure:: _static/images/9-B-tela_comentar_bloco.png
+.. figure:: _static/images/9-B-tela_comentar_bloco.gif
 
 Ao término desta ação, o ícone **Comentário** passará a cor laranja |comentario_laranja|. Ao posicionar o cursor sobre o ícone, será possível visualizar o comentário efetuado no bloco, bem como o usuário que o incluiu e a data e hora da inclusão.
 
@@ -367,11 +367,11 @@ Ao término desta ação, o ícone **Comentário** passará a cor laranja |comen
    :align: middle
    :width: 25
 
-.. figure:: _static/images/9-B-tela_comentario.png
+.. figure:: _static/images/9-B-tela_comentario.gif
 
 Ainda na tela de Blocos de Assinatura, é possível organizar a visualização dos Blocos por tipo de sinalização. Para utilizar essa opção, selecione na caixa “**Sinalizações**” um ou mais tipos de sinalizadores que deseja ver em tela.  Assim, quando é marcada a opção Prioritários, por exemplo, todos os Blocos com essa Sinalização serão visualizados na tela.
 
-.. figure:: _static/images/9-B-tela_bloco_assinatura_sinalizacoes.png
+.. figure:: _static/images/9-B-tela_bloco_assinatura_sinalizacoes.gif
 
 .. admonition:: Nota
 
@@ -411,7 +411,7 @@ Criação e Utilização de Grupo para Bloco de Assinatura
 
 Para criar um Grupo de Blocos de Assinatura, acesse a tela “**Blocos de Assinatura**” (conforme indicado nos itens anteriores) e clique no botão “**Listar Grupos**”.
 
-.. figure:: _static/images/9-B-tela_bloco_assinatura_listar_grupos.png
+.. figure:: _static/images/9-B-tela_bloco_assinatura_listar_grupos.gif
 
 A tela seguinte trará a lista de Grupos de Blocos existentes na Unidade. Nela é possível:
 
@@ -438,7 +438,7 @@ Também será possível excluir múltiplos grupos. Para isso, basta selecionar o
    :align: middle
    :width: 25
 
-.. figure:: _static/images/9-B-tela_grupos_blocos_acoes.png
+.. figure:: _static/images/9-B-tela_grupos_blocos_acoes.gif
 
 .. admonition:: Nota
 
@@ -448,7 +448,7 @@ Para retornar à tela **Blocos de Assinatura**, clique no botão “**Fechar**�
 
 Ainda na tela “Bloco de Assinatura” há outra forma de criar um novo grupo. Para tanto, selecione o bloco ou blocos que deseja e clique em “**Alterar Grupo**”.
 
-.. figure:: _static/images/9-B-tela_bloco_assinatura_alterar_grupos.png
+.. figure:: _static/images/9-B-tela_bloco_assinatura_alterar_grupos.gif
 
 Na tela “**Grupo de Blocos**", além de criar um novo grupo, será possível incluir ou alterar o grupo dos blocos selecionados. Para criar um novo grupo, o usuário deverá clicar no ícone “**Novo Grupo de Bloco**” |mais|.
 
@@ -458,19 +458,19 @@ Na tela “**Grupo de Blocos**", além de criar um novo grupo, será possível i
 
 Preencher o campo “**Nome**” com o nome do Grupo e clicar em “**Salvar**”.
 
-.. figure:: _static/images/9-B-tela_bloco_assinatura_novo_grupo_formulario.png
+.. figure:: _static/images/9-B-tela_bloco_assinatura_novo_grupo_formulario.gif
 
 O novo grupo criado será preenchido automaticamente no campo “**Grupo**” da tela “**Alterar Grupo de Blocos**”. Confirme a escolha do grupo clicando em “**Salvar**”.
 
-.. figure:: _static/images/9-B-tela_bloco_novo_grupo_formulario_preenchido.png
+.. figure:: _static/images/9-B-tela_bloco_novo_grupo_formulario_preenchido.gif
 
 Após a inclusão do grupo no bloco ou blocos, o usuário será direcionado à tela “**Blocos de Assinatura**”, que estará com o filtro “**Grupo**” selecionado com o grupo salvo na tela “**Alterar Grupo de Blocos**”. Além disso, o grupo salvo será indicado na coluna “**Grupo**” do bloco ou blocos.
 
-.. figure:: _static/images/9-B-tela_bloco_indicativo_grupo.png
+.. figure:: _static/images/9-B-tela_bloco_indicativo_grupo.gif
 
 Para visualizar todos os blocos, selecione a opção **todos** do filtro “**Grupo**”.
 
-.. figure:: _static/images/9-B-tela_bloco_visualizacao_todos_os_grupos.png
+.. figure:: _static/images/9-B-tela_bloco_visualizacao_todos_os_grupos.gif
 
 .. admonition:: Notas
 
@@ -485,15 +485,15 @@ Conhecendo a Tela Blocos de Assinatura
 
 Para acessar a tela “**Blocos de Assinatura**”, no Menu Principal, selecione a opção “**Blocos**” e clique em “**Assinatura**”.
 
-.. figure:: _static/images/9-B-tela_menu_principal_blocos_assinatuta.png
+.. figure:: _static/images/9-B-tela_menu_principal_blocos_assinatuta.gif
 
 Nessa tela, encontram-se disponíveis botões que permitem a realização de ações relacionadas aos blocos de assinatura, bem como, filtros e informações que auxiliam na visualização de controle de blocos de assinatura.
 
-.. figure:: _static/images/9-B-tela_bloco_assinatura_itens_disponiveis.png
+.. figure:: _static/images/9-B-tela_bloco_assinatura_itens_disponiveis.gif
 
 * **Filtros**:  limitam a visualização dos resultados relacionados à tela “**Blocos de Assinatura**”, conforme os critérios definidos pelo usuário. Esta tela apresenta os seguintes filtros:
 
-.. figure:: _static/images/9-B-tela_bloco_assinatura_filtros.png
+.. figure:: _static/images/9-B-tela_bloco_assinatura_filtros.gif
 
     * **Palavras-chave para pesquisa**: permite a visualização do conteúdo conforme o termo indicado neste campo. Após a inclusão do termo, o usuário deverá clicar em “Pesquisar” ou clicar no botão “Enter” do teclado. O termo escolhido será pesquisado no conteúdo do campo "Descrição" dos blocos.
     * **Ver blocos atribuídos a mim**: ao selecionar esse link, o sistema retorna apenas os blocos atribuídos ao usuário que está acessando o sistema.
@@ -522,7 +522,7 @@ Nessa tela, encontram-se disponíveis botões que permitem a realização de aç
    * **Listar Grupos**: lista os grupos existentes na Unidade. Nesta opção é possível criar, editar ou excluir grupos.
    * **Imprimir**: permite que o usuário imprima a listagem com os blocos selecionados.
 
-.. figure:: _static/images/9-B-tela_bloco_assinatura_botoes.png
+.. figure:: _static/images/9-B-tela_bloco_assinatura_botoes.gif
 
 * **Colunas/campos da Grid Bloco de Assinaturas**: concentra as informações relacionadas com os blocos de assinatura da Unidade. 
 
@@ -605,9 +605,9 @@ Para criar um bloco de reunião, selecione um ou mais processos na tela de “**
    :align: middle
    :width: 30
 
-.. figure:: _static/images/9-B-bloco_reuniao_tela_controle.png
+.. figure:: _static/images/9-B-bloco_reuniao_tela_controle.gif
 
-.. figure:: _static/images/9-B-bloco_reuniao_tela_processo.png
+.. figure:: _static/images/9-B-bloco_reuniao_tela_processo.gif
 
 
 A tela “Selecionar Bloco” será aberta, nela, o usuário poderá:
@@ -615,11 +615,11 @@ A tela “Selecionar Bloco” será aberta, nela, o usuário poderá:
 * Criar um bloco de reunião, clicando no botão “**Novo Bloco de Reunião**”
 
 
-.. figure:: _static/images/9-B-bloco_reuniao_tela_novo_bloco.png
+.. figure:: _static/images/9-B-bloco_reuniao_tela_novo_bloco.gif
 
 Na tela “**Novo Bloco de Reunião**”, inserir a Descrição do bloco; escolher um Grupo para inclusão do Bloco, caso deseje; e indicar a(s) unidade(s) para disponibilização, em seguida, basta clicar em Salvar
 
-.. figure:: _static/images/9-B-bloco_reuniao_tela_processo.png
+.. figure:: _static/images/9-B-bloco_reuniao_tela_processo.gif
 
 O usuário será direcionado novamente para a tela Selecionar Bloco. O Bloco criado já estará selecionado e aparecerá na cor amarela. Os passos para seleção do bloco estão descritos abaixo, no subitem “**Selecionar um Bloco existente**”.
 
@@ -631,11 +631,11 @@ Para incluir o(s) processo(s) no Bloco, clique no ícone “**Escolher este Bloc
    :align: middle
    :width: 30
 
-.. figure:: _static/images/9-B-tela_selecionar_bloco.png
+.. figure:: _static/images/9-B-tela_selecionar_bloco.gif
 
 O processo será automaticamente incluído no Bloco e o usuário será direcionado para a tela Processos do Bloco de Reunião.
 
-.. figure:: _static/images/9-B-tela_selecionar_bloco_opcoes.png
+.. figure:: _static/images/9-B-tela_selecionar_bloco_opcoes.gif
 
 
 Nessa tela, é possível:
@@ -664,7 +664,7 @@ Disponibilizando o Bloco de Reunião
 
 Para disponibilizar o Bloco de Reunião, acesse a opção “**Blocos**”, existente no menu principal, e clique em “**Reunião**”.
 
-.. figure:: _static/images/9-B-tela_blocos_reuniao_tela_controle.png
+.. figure:: _static/images/9-B-tela_blocos_reuniao_tela_controle.gif
 
 Na tela Blocos de Reunião serão listados todos os Blocos de Reunião que se encontram na Unidade. Para disponibilizar o Bloco de Reunião para outra unidade, clique no ícone “**Disponibilizar Bloco**” |disponibilizar_bloco|, disponível na coluna Ações.
 
@@ -672,11 +672,11 @@ Na tela Blocos de Reunião serão listados todos os Blocos de Reunião que se en
    :align: middle
    :width: 25
 
-.. figure:: _static/images/9-B-bloco_reuniao_disponibilizar.png
+.. figure:: _static/images/9-B-bloco_reuniao_disponibilizar.gif
 
 Após essa ação, o Estado do Bloco será alterado para “**Disponibilizado**”. Os ícones disponíveis na coluna “**Ações**” serão alterados tendo em vista a mudança de estado do bloco.
 
-.. figure:: _static/images/9-B-bloco_reuniao_tela_estado_acoes.png
+.. figure:: _static/images/9-B-bloco_reuniao_tela_estado_acoes.gif
 
 .. admonition:: Nota
 
@@ -740,7 +740,7 @@ Identificando um Bloco de Reunião Disponibilizado, Visualizando a Minuta de Doc
 A identificação de um “**Bloco de Reunião**” disponibilizado por outra unidade poderá ser feito pela opção “**Reunião**” existente no menu “**Blocos**”, no Menu Principal.
 
 
-.. figure:: _static/images/9-B-bloco_reuniao_menu_principal.png
+.. figure:: _static/images/9-B-bloco_reuniao_menu_principal.gif
 
 Será aberta a tela “**Blocos de Reunião**”. Nela, aparecerão todos os Blocos existentes na unidade (gerados, disponibilizados, recebidos, retornados e concluídos, dependendo da seleção feita pela unidade para visualização dos Blocos na tela).
 
@@ -750,15 +750,15 @@ Para visualizar o(s) processo(s) incluídos em um Bloco, clique sobre o número 
    :align: middle
    :width: 25
 
-.. figure:: _static/images/9-B-bloco_reuniao_pesquisar_documento.png
+.. figure:: _static/images/9-B-bloco_reuniao_pesquisar_documento.gif
 
 Para acessar o processo desejado, clique sobre seu número.
 
-.. figure:: _static/images/9-B-bloco_reuniao_acesso_processo.png
+.. figure:: _static/images/9-B-bloco_reuniao_acesso_processo.gif
 
 Será aberta a tela do processo para que o usuário visualize a minuta do documento feita pela outra unidade.
 
-.. figure:: _static/images/9-B-bloco_reuniao_processo_bloco.png
+.. figure:: _static/images/9-B-bloco_reuniao_processo_bloco.gif
 
 Após a visualização da minuta, o usuário, caso deseje, poderá retornar o “**Bloco**” à unidade de origem. Para isso, é necessário retornar à tela “**Blocos de Reunião**” (menu principal > Blocos > Reunião).
 
@@ -768,11 +768,11 @@ Na tela “**Blocos de Reunião**”, clique no ícone “**Devolver Bloco**” 
    :align: middle
    :width: 25
 
-.. figure:: _static/images/9-B-bloco_reuniao_devolver.png
+.. figure:: _static/images/9-B-bloco_reuniao_devolver.gif
 
 Após a confirmação, o bloco ficará disponível para a Unidade que o disponibilizou, com o estado “**Retornado**”.
 
-.. figure:: _static/images/9-B-bloco_reuniao_estado_retornar.png
+.. figure:: _static/images/9-B-bloco_reuniao_estado_retornar.gif
 
 .. admonition:: Notas
 
@@ -786,7 +786,7 @@ Reutilizando Blocos de Reunião
 
 Para reutilizar o bloco de reunião, retire os processos vinculados ao bloco. Para tanto, acesse a opção “**Reunião**” do menu “**Blocos**”, existente no menu principal, e clique no número do Bloco desejado.
 
-.. figure:: _static/images/9-B-bloco_reuniao_identificador_bloco.png
+.. figure:: _static/images/9-B-bloco_reuniao_identificador_bloco.gif
 
 Em seguida, selecione os processos que deseja excluir do Bloco e clique no botão “**Retirar do Bloco**”, ou clique no botão “**Retirar Processo/Documento do Bloco**” |excluir|   correspondente a cada processo, na coluna Ações.
 
@@ -794,7 +794,7 @@ Em seguida, selecione os processos que deseja excluir do Bloco e clique no botã
    :align: middle
    :width: 20
 
-.. figure:: _static/images/9-B-bloco_reuniao_retirar_bloco.png
+.. figure:: _static/images/9-B-bloco_reuniao_retirar_bloco.gif
 
 Após a retirada dos processos do Bloco, clique no botão Fechar para retornar à tela Blocos de Reunião. Para que o bloco seja reutilizado, será necessário concluí-lo, por meio de clique no Botão “**Concluir**”, ou clique no ícone “**Concluir Bloco**” |concluir_bloco|, disponível na coluna Ações. 
 
@@ -802,11 +802,11 @@ Após a retirada dos processos do Bloco, clique no botão Fechar para retornar �
    :align: middle
    :width: 25
 
-.. figure:: _static/images/9-B-bloco_reuniao_concluir_bloco.png
+.. figure:: _static/images/9-B-bloco_reuniao_concluir_bloco.gif
 
 Para visualizar e reabrir um bloco que foi concluído, marque a opção “**Concluído**” na caixa “**Estado**” que fica na parte superior da tela Blocos de Reunião.
 
-.. figure:: _static/images/9-B-bloco_reuniao_filtro_conclusao.png
+.. figure:: _static/images/9-B-bloco_reuniao_filtro_conclusao.gif
 
 É possível reabrir o bloco para reutilizá-lo. Para isso, basta clicar no ícone “**Reabrir Bloco**” |reabrir_bloco|, que se encontra na coluna **Ações**.
 
@@ -833,9 +833,9 @@ Para criar um bloco interno, selecione um ou mais processos e clique no ícone I
    :align: middle
    :width: 25
 
-.. figure:: _static/images/9-B-bloco_interno_controle_processo.png
+.. figure:: _static/images/9-B-bloco_interno_controle_processo.gif
 
-.. figure:: _static/images/9-B-bloco_interno_tela_processo.png
+.. figure:: _static/images/9-B-bloco_interno_tela_processo.gif
 
 A tela “**Selecionar Bloco**” será aberta, nela, o usuário poderá:
 
@@ -857,7 +857,7 @@ Para incluir o(s) processo(s) no Bloco, clique no ícone “**Escolher este Bloc
    :align: middle
    :width: 30
 
-.. figure:: _static/images/9-B-bloco_interno_selecionar_bloco.png
+.. figure:: _static/images/9-B-bloco_interno_selecionar_bloco.gif
 
 
 O processo será automaticamente incluído no Bloco e o usuário será direcionado para a tela “Processos do Bloco Interno”.
@@ -880,7 +880,7 @@ Nessa tela, é possível:
 
 Para sair da tela “Processos do Bloco Interno”, clique no botão “Fechar”.
 
-.. figure:: _static/images/9-B-bloco_interno_opcoes.png
+.. figure:: _static/images/9-B-bloco_interno_opcoes.gif
 
 .. admonition:: Nota
 
@@ -892,11 +892,11 @@ Consultando os Blocos Internos
 
 Para consultar os blocos internos da unidade, acesse a opção “**Internos**” do menu “**Blocos**”, existente no menu principal.
 
-.. figure:: _static/images/9-B-bloco_interno_controle_processo_indicacao.png
+.. figure:: _static/images/9-B-bloco_interno_controle_processo_indicacao.gif
 
 Será aberta a tela “**Blocos Internos**”. Nela, serão listados todos os Blocos Internos da unidade.
 
-.. figure:: _static/images/9-B-bloco_interno_pesquisar.png
+.. figure:: _static/images/9-B-bloco_interno_pesquisar.gif
 
 
 Nessa tela, as opções existentes na coluna “**Ações**” irão variar conforme o Estado do bloco. A saber:
