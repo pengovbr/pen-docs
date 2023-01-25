@@ -59,7 +59,7 @@ Acessando Processo Sigiloso
 
 Ao selecionar um processo sigiloso para acesso, o sistema abrirá automaticamente a janela Identificação de Acesso. O usuário deverá preencher o campo “**Senha**” e, em seguida, clicar no “**Enter**” ou no botão “**Acessar**”.
 
-.. figure:: _static/images/8RA-tela_identificação_de_acesso.png
+.. figure:: _static/images/8RA-tela_identificação_de_acesso.gif
 
 Concedendo, Cassando ou Renovando Credencial de Acesso
 ---------------------------------------------------------
@@ -72,11 +72,11 @@ Para isso, o usuário que iniciou o processo deverá acessar o processo e, em se
    :align: middle
    :width: 30
 
-.. figure:: _static/images/8RA-tela_gerenciar_credencial.png
+.. figure:: _static/images/8RA-tela_gerenciar_credencial.gif
 
 Na tela “**Gerenciar Credenciais**”, preencher o campo “**Conceder Credencial para**” com nome do usuário que deseja conceder o acesso ao processo. Por fim, clicar no botão “**Conceder**”.
 
-.. figure:: _static/images/8RA-tela_gerenciar_credencial_formulario.png
+.. figure:: _static/images/8RA-tela_gerenciar_credencial_formulario.gif
 
 Na tela “**Gerenciar Credenciais**”, será exibida a Lista de Credenciais Concedidas/Cassadas e as seguintes informações e ações relacionadas a estas:
  
@@ -130,11 +130,11 @@ Cada usuário poderá consultar, em determinada unidade, os processos nos quais 
    :align: middle
    :width: 25
 
-.. figure:: _static/images/8RA-tela_processos_credencial.png
+.. figure:: _static/images/8RA-tela_processos_credencial.gif
 
 Em seguida, preencher o campo “**Senha**” e clicar em “**Enter**” ou no botão “**Acessar**”, existentes na janela “**Identificação de Acesso**”.
 
-.. figure:: _static/images/8RA-tela_identificação_de_acesso.png
+.. figure:: _static/images/8RA-tela_identificação_de_acesso.gif
 
 Será aberta a tela “**Processos com Credencial na Unidade**”. Nela, serão exibidos todos os processos sigilosos em que o usuário possui “**Credencial de Acesso**”. Eles serão listados por número, data de autuação, tipo e as observações da Unidade referentes a cada processo. Para acessar um processo, clique sobre seu número.
 
@@ -150,7 +150,7 @@ Ainda na tela “**Processos com Credencial na Unidade**” será possível pesq
   * Observações desta Unidade; e 
   * Período de Autuação.
 
-.. figure:: _static/images/8RA-tela_processos_credencial_na_unidade_pesquisa.png
+.. figure:: _static/images/8RA-tela_processos_credencial_na_unidade_pesquisa.gif
 
 * Botão “**Transferir**”: permite ao usuário fazer a transferência de credencial na Unidade. Para realizar a transferência de credencial, selecionar o(s) processo(s) que deseja transferir e clicar em “**Transferir**”. Na tela Seguinte, indicar o nome do usuário destinatário e clicar em “**Salvar**”.
 
@@ -158,9 +158,7 @@ Ainda na tela “**Processos com Credencial na Unidade**” será possível pesq
 
    Essa ação não cancelará a Credencial de Acesso do usuário que fez a transferência.
 
-.. figure:: _static/images/8RA-tela_processos_credencial_na_unidade_transferencia.png
-
-.. figure:: _static/images/8RA-tela_processos_credencial_na_unidade_transferencia_formlario.png
+.. figure:: _static/images/8RA-tela_processos_credencial_na_unidade_transferencia.gif
 
 Concedendo ou Cassando Credencial de Assinatura
 ------------------------------------------------
@@ -173,7 +171,7 @@ Para conceder uma “**Credencial de Assinatura**”, o usuário deverá acessar
    :align: middle
    :width: 25
 
-.. figure:: _static/images/8RA-tela_gerenciar_credencial_assinatura.png
+.. figure:: _static/images/8RA-tela_gerenciar_credencial_assinatura.gif
 
 Na tela seguinte, preencher o campo “**Conceder Credencial de Assinatura para**” com o nome do usuário que receberá a Credencial e clicar no botão “**Conceder**”.
 
@@ -238,7 +236,7 @@ Gerenciamento dos Processos Sigilosos na Unidade
    Nem todos os usuários têm acesso a esse relatório. Para acessá-lo, é necessário solicitar ao “**Administrador do Sistema**” o perfil “**Acervo de Sigilosos da Unidade**”.
 
 
-.. figure:: _static/images/8RA-tela_gerenciar_sigilosos_relatorio.png
+.. figure:: _static/images/8RA-tela_gerenciar_sigilosos_relatorio.gif
 
 Na janela “**Identificação do Acesso**”, inserir a senha e clicar em “**Enter**” ou no botão “**Acessar**”.
 
