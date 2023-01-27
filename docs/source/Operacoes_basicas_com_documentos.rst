@@ -12,11 +12,11 @@ Para incluir um documento no processo, acesse o processo e clique no ícone “*
    :align: middle
    :width: 25
 
-.. figure:: _static/images/5-OBD-tela_processo_inclusao_documento.png
+.. figure:: _static/images/5-OBD-tela_processo_inclusao_documento.gif
 
 Em seguida, selecione o tipo do documento de forma similar à escolha do tipo do processo.
 
-.. figure:: _static/images/5-OBD-inclusao_documento_tipo_documento.png
+.. figure:: _static/images/5-OBD-inclusao_documento_tipo_documento.gif
 
 .. admonition:: Nota
 
@@ -28,7 +28,7 @@ Em seguida, selecione o tipo do documento de forma similar à escolha do tipo do
 
 Em seguida, preencha os campos de cadastramento do documento, os quais são semelhantes aos campos do processo.
 
-.. figure:: _static/images/5-OBD-inclusao_documento_formulario.png
+.. figure:: _static/images/5-OBD-inclusao_documento_formulario.gif
 
 O campo **Texto Inicial** estará selecionado como sugestão a opção “**Nenhum**”. Se desejar, o usuário poderá selecionar um “**Documento Modelo**” ou um “**Texto Padrão**” para gerar o documento.
 
@@ -82,7 +82,7 @@ Na tela “**Controle de Processos**”, marque a caixa de seleção ao lado do 
    :align: middle
    :width: 25
 
-.. figure:: _static/images/5-OBD-inclusao_documento_tela_processo.png
+.. figure:: _static/images/5-OBD-inclusao_documento_tela_processo.gif
 
 Nesta forma de inclusão de documentos em processos, o usuário deverá:
 
@@ -96,7 +96,7 @@ Nesta forma de inclusão de documentos em processos, o usuário deverá:
 
 Após o preenchimento dos campos, clicar em “**Gerar**”
 
-.. figure:: _static/images/5-OBD-inclusao_documento_formulario_varios_processos.png
+.. figure:: _static/images/5-OBD-inclusao_documento_formulario_varios_processos.gif
 
 Caso o usuário tenha optado por inserir os documentos em um Bloco de Assinatura, será aberta a tela **Blocos de Assinatura**. Nela, o usuário poderá consultar, disponibilizar os documentos para assinatura de outras unidades e assinar os documentos gerados, bem como utilizar as demais funcionalidades disponíveis em tela.
 
@@ -171,9 +171,7 @@ Os seguintes campos ficarão disponíveis para preenchimento:
    
    2. Ao realizar o upload de arquivo com extensão não habilitada no sistema, será exibida mensagem de alerta com a lista de extensões permitidas.
 
-.. figure:: _static/images/5-OBD-inclusao_documento_externo_formulario.png
-
-.. figure:: _static/images/5-OBD-inclusao_documento_externo_formulario2.png
+.. figure:: _static/images/5-OBD-inclusao_documento_externo_formulario.gif
 
 Após o preenchimento dos campos o usuário deverá clicar em **Salvar**.
 
@@ -189,12 +187,12 @@ Para editar um documento, clique no ícone “**Editar Conteúdo**” |editar_co
    :align: middle
    :width: 25
 
-.. figure:: _static/images/5-OBD-editar_documento_tela_processo.png
+.. figure:: _static/images/5-OBD-editar_documento_tela_processo.gif
 
 Uma janela para edição do documento será aberta. Após a edição, clique em **Salvar** para concluir a edição realizada.
 
 
-.. figure:: _static/images/5-OBD-editar_documento_salvar.png
+.. figure:: _static/images/5-OBD-editar_documento_salvar.gif
 
 Durante a edição do conteúdo do documento, o usuário poderá utilizar os recursos de formatação disponíveis na Barra de Ferramentas do Editor de Textos. Será possível a inclusão de imagens, links e autotextos, bem como a utilização de estilos de formatação pré-definidos.
 
@@ -282,7 +280,7 @@ Para consultar e recuperar versões de um documento, acesse o processo, selecion
    :align: middle
    :width: 25
 
-.. figure:: _static/images/5-OBD-versoes_documentos_tela_processo.png
+.. figure:: _static/images/5-OBD-versoes_documentos_tela_processo.gif
 
 Na tela seguinte, haverá um quadro contendo:
 
@@ -311,11 +309,11 @@ Comparando duas versões de um documento
 
 Para isso, na tela **Versões do Documento**, o usuário deverá selecionar duas versões e clicar no botão “**Comparar Versões**”.
 
-.. figure:: _static/images/5-OBD-versoes_documentos_comparacao.png
+.. figure:: _static/images/5-OBD-versoes_documentos_comparacao.gif
 
 Na janela aberta, os itens excluídos ficarão marcados com a cor vermelha e os itens incluídos, com a cor azul.
 
-.. figure:: _static/images/5-OBD-versoes_documentos_comparacao_documento.png
+.. figure:: _static/images/5-OBD-versoes_documentos_comparacao_documento.gif
 
 
 Consultar/Alterar Documentos
@@ -329,11 +327,11 @@ Para consultar ou alterar documentos, acesse o processo, selecione o documento e
    :align: middle
    :width: 30
 
-.. figure:: _static/images/5-OBD-alterar_documento_tela_processo.png
+.. figure:: _static/images/5-OBD-alterar_documento_tela_processo.gif
 
 Será aberta a tela **Alterar Documento**. O usuário poderá realizar as alterações necessárias e, em seguida, clicar no botão Salvar.
 
-.. figure:: _static/images/5-OBD-alterar_documento_formulario.png
+.. figure:: _static/images/5-OBD-alterar_documento_formulario.gif
 
 .. admonition:: Notas
 
@@ -356,7 +354,7 @@ Para excluir um documento, acesse o processo, selecione o documento que deseja e
    :align: middle
    :width: 15
 
-.. figure:: _static/images/5-OBD-excluir_documento_tela_processo.png
+.. figure:: _static/images/5-OBD-excluir_documento_tela_processo.gif
 
 Ao clicar no ícone, será necessário confirmar a operação para exclusão do documento.
 
@@ -389,17 +387,13 @@ Cancelar Documento
 
 Recurso destinado ao cancelamento de documentos que já tenham sido visualizados ou tramitados, ou seja, que não possuem os requisitos para o procedimento de exclusão.
 
-Para cancelar um documento, acesse o processo, selecione o documento e clique no ícone “**Cancelar Documento**” |cancelar_documento|.
+Para cancelar um documento, acesse o processo, selecione o documento e clique no ícone “**Cancelar Documento**” |cancelar_documento|. Para realizar o cancelamento, será necessária a inclusão do motivo do cancelamento. Após o preenchimento, clique em Salvar.
 
 .. |cancelar_documento| image:: _static/images/5-OBD-icone_cancelar_documento.png
    :align: middle
    :width: 25
 
-.. figure:: _static/images/5-OBD-cancelar_documento_tela_processo.png
-
-Para realizar o cancelamento, será necessária a inclusão do motivo do cancelamento. Após o preenchimento, clique em Salvar.
-
-.. figure:: _static/images/5-OBD-cancelar_documento_formulario.png
+.. figure:: _static/images/5-OBD-cancelar_documento_tela_processo.gif
 
 Após esse procedimento, o documento permanecerá na Árvore do Processo, com seu nome esmaecido e com o ícone de cancelamento à sua esquerda, porém não será possível acessar seu conteúdo. Ao posicionar o cursor sobre seu nome, será possível visualizar o motivo do cancelamento.
 
