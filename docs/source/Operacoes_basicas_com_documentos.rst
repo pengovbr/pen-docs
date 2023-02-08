@@ -343,6 +343,94 @@ Será aberta a tela **Alterar Documento**. O usuário poderá realizar as altera
    :align: middle
    :width: 25
 
+
+Assinar Documento Interno
++++++++++++++++++++++++++
+
+Recurso destinado a assinatura de documentos gerados no SUPER.GOV.BR.
+
+Para o usuário assinar um documento interno, deverá selecionar o documento desejado e clicar no ícone **Assinar Documento** |assinatura_preta|.
+
+.. |assinatura_preta| image:: _static/images/9-B-icone_assinatura_preta.png
+   :align: middle
+   :width: 30
+
+.. figure:: _static/images/5-OBD-assinatura_documento.gif
+
+
+
+.. admonition:: Nota
+
+   Também será possível assinar um documento no próprio **Editor de Textos**, por meio do botão |botao_assinatura_preta| , disponível na Barra de Ferramentas.
+
+.. |botao_assinatura_preta| image:: _static/images/9-B-botao_assinatura_preta.png
+   :align: middle
+   :width: 50
+
+Na janela de assinatura do documento, o usuário deverá conferir as informações existentes nos campos **Órgão do Assinante** e **Assinante**; e preencher o campo **Cargo/Função**. A forma de assinatura poderá ser:
+
+- Pela autenticação por senha – neste caso, o usuário deverá inserir a senha de login SUPER.GOV.BR no campo **Senha** e em seguida clicar em **Assinar**; ou
+
+.. figure:: _static/images/5-OBD-assinatura_documento_senha.gif
+
+
+- Pelo certificado digital: neste caso, o usuário deverá clicar no botão **Certificado Digital**.
+
+.. figure:: _static/images/5-OBD-assinatura_documento_certificado_digital.gif
+
+
+
+.. admonition:: Nota
+
+   Para a realização da assinatura por certificado digital o usuário deverá ter o Java versão 8 ou superior, e o “Assinador de Documentos com Certificado Digital” instalados em seu computador.
+
+   - Para Windows: download da versão 1.1.0 do programa de instalação
+   - Para Linux ou MacOS: download do arquivo JAR. Para executar com o Java Runtime faça um duplo clique sobre o arquivo ou utilize a linha de comando:
+   
+    java -jar assinador_sei_1.1.0.jar
+   
+    **OBS:** esta opção também pode ser utilizada no Windows caso ocorra algum problema com o programa de instalação.
+
+Na tela seguinte clicar no botão **Disponibilizar dados para o assinador**.
+
+.. figure:: _static/images/5-OBD-assinatura_documento_disponibilizar_dados_assinador.png
+
+
+O usuário será direcionado ao programa **Assinador de Documentos com Certificado Digital**, nele, solicitar o processamento via clique no botão **Processar dados de assinatura...**. Após a exibição dos documentos proceder com a assinatura por meio do botão **Assinar Documentos**.
+
+
+.. admonition:: Notas
+
+   1. O botão “Ajuda” trará informações mais detalhadas do programa “Assinador de Documentos com Certificado Digital”.
+   2. O programa assinador poderá ser mantido aberto para realização de outras assinaturas, se necessário.
+
+
+Após a assinatura, o documento será visualizado da seguinte forma:
+
+.. figure:: _static/images/5-OBD-apos_assinatura.png
+
+
+O rodapé do documento conterá as informações relacionadas a sua assinatura eletrônica e trará link para conferência da sua autenticidade.
+
+Além disso, ao assinar um documento, o ícone **caneta amarela** |assinatura_amarela| ficará disponível ao lado do número do documento, indicando que ele foi assinado, mas ainda não foi acessado por usuários de outra unidade. Nesse caso, ainda é permitida sua edição.
+
+Quando o documento assinado for acessado por usuários de outra unidade, o ícone ao lado do documento passará para **caneta preta** |assinatura_preta|. Nesse caso, sua edição não é permitida.
+
+.. |assinatura_preta| image:: _static/images/9-B-icone_assinatura_preta.png
+   :align: middle
+   :width: 30
+
+.. |assinatura_amarela| image:: _static/images/5-OBD-icone_caneta_amarela.png
+   :align: middle
+   :width: 30
+
+.. admonition:: Notas
+
+   1. O documento pode conter quantas assinaturas forem necessárias. Porém, se o documento necessitar da assinatura de usuários de unidades diferentes, será preciso disponibilizá-lo em um Bloco de Assinatura. Para mais informações, acessar o Item **Bloco de Assinaturas**.
+
+   2. É possível obter informações sobre as assinaturas posicionando o cursor ou clicando sobre o ícone da caneta ao lado do número do documento.
+
+
 Excluir Documento Interno ou Externo
 ++++++++++++++++++++++++++++++++++++
 
