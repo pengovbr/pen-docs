@@ -16,7 +16,7 @@ Para salvar um documento como modelo **Favorito**, selecione o documento e cliqu
    :align: middle
    :width: 30
 
-.. figure:: _static/images/6-OOD-favorito_tela_processo.png
+.. figure:: _static/images/6-OOD-favorito_tela_processo.gif
 
 Na tela seguinte, o usuário deverá selecionar um “**Grupo de Favoritos**” ou criar um “**Grupo**”, clicando no ícone “**Novo Grupo de Favoritos**” |mais|. Em seguida, preencher o campo “**Descrição**” e salvar.
 
@@ -24,13 +24,13 @@ Na tela seguinte, o usuário deverá selecionar um “**Grupo de Favoritos**” 
    :align: middle
    :width: 30
 
-.. figure:: _static/images/6-OOD-favorito_tela_processo_formulario.png
+.. figure:: _static/images/6-OOD-favorito_tela_processo_formulario.gif
 
 Será aberta a tela “**Favoritos do Documento**”. Nessa tela, o usuário poderá:
 
 a) Adicionar o documento em outro “**Grupo de Favoritos**”, por meio do botão “**Adicionar**”, visto que um documento poderá ser incluído em mais de um Grupo de Favoritos.
 
-.. figure:: _static/images/6-OOD-favorito_adicionar.png
+.. figure:: _static/images/6-OOD-favorito_adicionar.gif
 
 
 b) Excluir o documento Favorito por meio do ícone “**Excluir Favorito**” |excluir|, disponível na coluna Ações, ou por meio do botão Excluir.
@@ -39,15 +39,15 @@ b) Excluir o documento Favorito por meio do ícone “**Excluir Favorito**” |e
    :align: middle
    :width: 25
 
-.. figure:: _static/images/6-OOD-favorito_excluir.png
+.. figure:: _static/images/6-OOD-favorito_excluir.gif
 
-Alterar o documento Favorito por meio do ícone “**Alterar Favorito**” |editar|, disponível na coluna Ações.
+c) Alterar o documento Favorito por meio do ícone “**Alterar Favorito**” |editar|, disponível na coluna Ações.
 
 .. |editar| image:: _static/images/3-OBCP_icone_edicao.png
    :align: middle
    :width: 25
 
-.. figure:: _static/images/6-OOD-favorito_alterar.png
+.. figure:: _static/images/6-OOD-favorito_alterar.gif
 
 
 Situações de Utilização de um Documento Salvo em Favoritos
@@ -68,7 +68,8 @@ a) Ao criar um documento no processo, tela “**Gerar Documento**”: na seção
 
 Após a seleção, o campo será preenchido automaticamente com o número do protocolo.
 
-.. figure:: _static/images/6-OOD-favorito_selecionar_transpor.png
+.. figure:: _static/images/6-OOD-favorito_selecionar_transpor.gif
+
 
 2) No campo em branco, será possível que o usuário inclua o número de protocolo do documento a ser utilizado, não necessariamente dos Favoritos.
 
@@ -88,49 +89,46 @@ A criação de um grupo de favoritos poderá ocorrer de duas formas:
 Tela do Processo – Ícone Adicionar aos Favoritos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Para criar um Grupo de Favoritos, acesse o processo e, na Barra de Ícones, clique no ícone “**Adicionar aos Favoritos**” |adicionar_favoritos_tela_processo|.
+1) Para criar um Grupo de Favoritos, acesse o processo e, na Barra de Ícones, clique no ícone “**Adicionar aos Favoritos**” |adicionar_favoritos_tela_processo|.
 
 .. |adicionar_favoritos_tela_processo| image:: _static/images/1-IO_icone__favoritos.png
    :align: middle
    :width: 30
 
-.. figure:: _static/images/6-OOD-favorito_barra_de_icones.png
-
-Ao abrir a janela “**Novo Favorito**”, clicar no ícone “**Novo Grupo Favoritos**” |mais|, que fica ao lado da caixa **Grupo**. 
+2) Ao abrir a janela “**Novo Favorito**”, clicar no ícone “**Novo Grupo Favoritos**” |mais|, que fica ao lado da caixa **Grupo**. 
 
 .. |mais| image:: _static/images/2-OBCP_Atribuir_icone_Exibir_todos_os_tipos.png
    :align: middle
    :width: 20
 
-.. figure:: _static/images/6-OOD-favorito_novo_favorito.png
+3) Na janela “**Novo Grupo de Favorito**”, preencher o campo “**Nome**” e, em seguida, clique em Salvar.
 
-Na janela “**Novo Grupo de Favorito**”, preencher o campo “**Nome**” e, em seguida, clique em Salvar.
-
-.. figure:: _static/images/6-OOD-favorito_novo_favorito_salvar.png
-
+.. figure:: _static/images/6-OOD-favorito_barra_de_icones.gif
 
 Menu Principal – Opção Favoritos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Também é possível criar um Grupo de Favoritos acessando a opção “**Favoritos**”, no Menu Principal. 
 
-.. figure:: _static/images/6-OOD-favorito_menu_principal.png
 
-Na tela “**Favoritos**”, clique no botão “**Grupos**”.
 
-.. figure:: _static/images/6-OOD-favorito_grupos.png
+1) Na tela “**Favoritos**”, clique no botão “**Grupos**”.
 
-Na tela “**Grupos de Favoritos**”, o usuário visualiza os Grupos existentes e, por meio do botão “**Novo**”, poderá criar um Grupo.
 
-.. figure:: _static/images/6-OOD-favorito_novo_grupos.png
 
-Informe o nome do grupo no campo “**Nome**” e clique em Salvar.
+2) Na tela “**Grupos de Favoritos**”, o usuário visualiza os Grupos existentes e, por meio do botão “**Novo**”, poderá criar um Grupo.
 
-.. figure:: _static/images/6-OOD-favorito_novo_grupo_nome.png
 
-Para retornar a tela de “**Favoritos**” clique em Fechar.
 
-.. figure:: _static/images/6-OOD-favorito_novo_grupo_fechar.png
+3) Informe o nome do grupo no campo “**Nome**” e clique em Salvar.
+
+
+
+4) Para retornar a tela de “**Favoritos**” clique em Fechar.
+
+
+.. figure:: _static/images/6-OOD-favorito_menu_principal.gif
+
 
 Na tela “**Favoritos**”, são exibidos todos os documentos e processos incluídos em “Favoritos”. A Lista de Favoritos apresenta as seguintes informações a respeito do modelo incluído em Favoritos: 
 
@@ -168,17 +166,13 @@ Textos Padrão
 
 Recurso que viabiliza a criação de um fragmento de texto que pode ser utilizado na elaboração de documentos ou de e-mails gerados no sistema. O Texto Padrão é editável.
 
-Para criar um texto padrão, acesse o **Menu Principal** e selecione a opção “**Textos Padrão**”.
+Para criar um texto padrão, acesse o **Menu Principal** e selecione a opção “**Textos Padrão**”.Na tela seguinte, clique no botão “**Novo**”.
 
-.. figure:: _static/images/6-OOD-texto_padrao_menu_principal.png
-
-Na tela seguinte, clique no botão “**Novo**”.
-
-.. figure:: _static/images/6-OOD-texto_padrao_formulario.png
+.. figure:: _static/images/6-OOD-texto_padrao_menu_principal.gif
 
 Na tela “**Novo Texto Padrão Interno**”, preencha os campos “**Nome**”, “**Descrição**” e “**Conteúdo**” e depois clique em Salvar.
 
-.. figure:: _static/images/6-OOD-texto_padrao_formulario_inclusao.png
+.. figure:: _static/images/6-OOD-texto_padrao_formulario_inclusao.gif
 
 .. admonition:: Nota
 
@@ -202,7 +196,7 @@ Na tela seguinte, será possível “Consultar” |consulta|, “Alterar” |edi
    :align: middle
    :width: 25
 
-.. figure:: _static/images/6-OOD-texto_padrao_acoes.png
+.. figure:: _static/images/6-OOD-texto_padrao_acoes.PNG
 
 Situações de Utilização de um Texto Padrão
 ------------------------------------------
@@ -211,11 +205,11 @@ O Texto Padrão poderá ser utilizado nas seguintes situações:
 
 a) Ao criar um documento no processo, tela “**Gerar Documento**”: na seção “**Texto Inicial**”, seleção “**Texto Padrão**”, será disponibilizada uma caixa de seleção com os textos padrão existentes para que o usuário selecione o que melhor se adequar a sua necessidade.
 
-.. figure:: _static/images/6-OOD-inclusao_documento_texto_padraopng.png
+.. figure:: _static/images/6-OOD-inclusao_documento_texto_padraopng.gif
 
 b) Ao incluir um documento no processo, tela “**Incluir Documentos em Processos**”: na seção “**Texto Inicial**”, seleção “**Texto Padrão**”, será disponibilizada uma caixa de seleção com os textos padrão existentes para que o usuário selecione o que melhor se adequar à sua necessidade.
 
-.. figure:: _static/images/6-OOD-inclusao_documento_em_processo.png
+.. figure:: _static/images/6-OOD-inclusao_documento_em_processo.gif
 
 c) Na janela de edição do documento: ao clicar no botão “**Autotexto**” |autotexto|, disponível na Barra de Ferramentas, será aberta a janela “Autotexto”. Nela, será possível selecionar um Texto Padrão existente; e, em seguida, basta clicar no botão OK.
 
@@ -223,11 +217,11 @@ c) Na janela de edição do documento: ao clicar no botão “**Autotexto**” |
    :align: middle
    :width: 55
 
-.. figure:: _static/images/6-OOD-incluir_documento_autotexto.png
+.. figure:: _static/images/6-OOD-incluir_documento_autotexto.gif
 
 d) Na janela “**Enviar Correspondência Eletrônica**”: na caixa “**Mensagem**” é possível selecionar um Texto Padrão existente.
 
-.. figure:: _static/images/6-OOD-incluir_documento_email.png
+.. figure:: _static/images/6-OOD-incluir_documento_email.gif
 
 
 Mover Documentos Externos
@@ -240,11 +234,9 @@ Para mover um documento externo para outro processo, selecione o documento e cli
    :align: middle
    :width: 25
 
-.. figure:: _static/images/6-OOD-mover_documento_para_outro_processo.png
-
 Será aberta a tela “**Mover Documento**”, onde o usuário deverá inserir o número do processo de destino e clicar em “**Pesquisar**”. Automaticamente o campo “**Tipo**” será preenchido com o respectivo tipo de processo de destino, e será habilitado o campo “**Motivo**” para preenchimento. Complementados os campos necessários, basta clicar no botão “**Mover**”.
 
-.. figure:: _static/images/6-OOD-mover_documento_para_outro_processo_formulario.png
+.. figure:: _static/images/6-OOD-mover_documento_para_outro_processo.gif
 
 O processo de destino receberá o documento em sua árvore. O registro da transferência ficará disponível na consulta ao andamento do processo.
 
@@ -264,8 +256,6 @@ Para alterar a ordem de documentos da árvore de um processo, acesse o processo 
    :align: middle
    :width: 25
 
-.. figure:: _static/images/6-OOD-ordenar_arvore_tela_processo.png
-
 A tela “**Ordenar Árvore do Processo**” será aberta. Nela, o usuário poderá reorganizar a ordem dos documentos na árvore selecionando o documento e utilizando os ícones “**Mover Acima Protocolo Selecionado**” |para_cima| ou “**Mover Abaixo Protocolo Selecionado**” |para_baixo|.
 
 .. |para_cima| image:: _static/images/6-OOD-icone_para_cima.png
@@ -276,9 +266,9 @@ A tela “**Ordenar Árvore do Processo**” será aberta. Nela, o usuário pode
    :align: middle
    :width: 20
 
-.. figure:: _static/images/6-OOD-ordenar_arvore_formulario.png
-
 Feita a reorganização dos documentos, clique em “**Salvar**” para registrar a ação.
+
+.. figure:: _static/images/6-OOD-ordenar_arvore_tela_processo.gif
 
 Publicar/Agendar Publicação
 ++++++++++++++++++++++++++++
@@ -295,7 +285,7 @@ Para publicar ou agendar a publicação de um documento no Boletim de Serviço E
    :align: middle
    :width: 25
 
-.. figure:: _static/images/6-OOD-agendar_publicacao.png
+.. figure:: _static/images/6-OOD-agendar_publicacao.gif
 
 A tela “Agendar Publicação” será aberta. Nela, preencha os campos conforme descrito abaixo:
 
@@ -311,7 +301,7 @@ A tela “Agendar Publicação” será aberta. Nela, preencha os campos conform
 Ao preencher os campos, clique em “**Salvar**”.
 
 
-.. figure:: _static/images/6-OOD-agendar_publicacao_formulario.png
+.. figure:: _static/images/6-OOD-agendar_publicacao_formulario.gif
 
 
 * Se a data de disponibilização for a data atual, a indicação da publicação do documento será apresentada na árvore do processo, ao lado da identificação do documento, por meio do ícone |pubicacao|, e no canto superior direito do documento, na tarja de publicação.
@@ -352,7 +342,7 @@ Para visualizar as publicações/agendamentos de publicações de um documento, 
    :align: middle
    :width: 30
 
-.. figure:: _static/images/6-OOD-visualizar_publicacao_tela_processo.png
+.. figure:: _static/images/6-OOD-visualizar_publicacao_tela_processo.gif
 
 * **Documento Publicado**:  usuário terá um resumo das informações relativas à publicação, sendo possível a alteração dos dados relativos à seção “**Impressa Nacional**”, por meio do ícone “**Alterar dados de Publicação**” |alterar_pubicacao|.
 
@@ -363,7 +353,7 @@ Para visualizar as publicações/agendamentos de publicações de um documento, 
 
    Não é possível excluir ou cancelar a publicação já realizada, apenas os agendamentos realizados, enquanto ainda não tiverem sido publicados.
 
-.. figure:: _static/images/6-OOD-alterar_dados_publicacoes.png
+.. figure:: _static/images/6-OOD-alterar_dados_publicacoes.gif
 
 * **Documento com agendamento de publicação**: usuário terá um resumo das informações relativas à publicação, sendo possível consultar, alterar, por meio do ícone “**Alterar Agendamento**” |alterar_pubicacao|, ou cancelar, por meio do ícone “**Cancelar Agendamento**” |cancelar_pubicacao|, a publicação.
 
@@ -381,20 +371,17 @@ Para visualizar as publicações/agendamentos de publicações de um documento, 
 Gerando Publicação Relacionada
 ------------------------------
 
-Para gerar uma publicação relacionada a um documento publicado, selecione o documento e clique no ícone “**Gerar Publicação Relacionada**” |gerar_pubicacao|.
+Para gerar uma publicação relacionada a um documento publicado, selecione o documento e clique no ícone “**Gerar Publicação Relacionada**” |gerar_pubicacao|. Na tela “**Gerar Publicação Relacionada**”, preencha os campos disponíveis e clique em “**Salvar**”.
 
 .. |gerar_pubicacao| image:: _static/images/6-OOD-icone_gerar_publicacao.png
    :align: middle
    :width: 25
 
-.. figure:: _static/images/6-OOD-gerar_publicacao.png
-
-Na tela “**Gerar Publicação Relacionada**”, preencha os campos disponíveis e clique em “**Salvar**”.
-
-.. figure:: _static/images/6-OOD-gerar_publicacao_indicacao_arvore.png
+.. figure:: _static/images/6-OOD-gerar_publicacao.gif
 
 Essa ação irá gerar uma cópia do documento publicado. Tal documento ficará disponível na árvore de documentos do processo.
 
+.. figure:: _static/images/6-OOD-gerar_publicacao_indicacao_arvore.png
 
 Autenticar Documentos Externos
 ++++++++++++++++++++++++++++++
@@ -469,56 +456,44 @@ Com o conteúdo do documento pronto, clicar no ícone “**Gerar Circular**” |
    :align: middle
    :width: 30
 
-.. figure:: _static/images/6-OOD-gerar_circular_tela.png
-
 Na tela “**Gerar Circular**”, informe os destinatários e escolha um Bloco de Assinatura ou crie um Bloco, para a assinatura dos documentos.  Após o preenchimento dos campos, clique no botão “**Gerar**”.
 
-.. figure:: _static/images/6-OOD-gerar_circular_formulario.png
+
+O sistema direciona o usuário para a tela “**Documentos do Bloco de Assinatura**”, em que é possível consultar os dados do processo ou dos documentos ali inseridos, bem como assiná-los.
+
+.. figure:: _static/images/6-OOD-gerar_circular_tela.gif
 
 
 .. admonition:: Nota
 
    Para preenchimento do campo **Destinatários**, o usuário poderá digitar o nome do destinatário ou utilizar o ícone “**Selecionar Contatos para Destinatários**” |pesquisar|, que fica do lado direito da tela. Ao clicar nesse ícone, será aberta a janela “**Selecionar Contatos**”. Nela, é possível selecionar um ou vários contatos, bem como utilizar filtros para seleção dos contatos.
 
+   |pesquisar_gif|
+
+   A assinatura dos documentos inseridos no **Bloco de Assinatura** também poderá ser efetuada acessando o Menu Principal, opção Blocos e, depois, Assinatura. Ver mais no item "**Bloco de Assinatura**"
 
 .. |pesquisar| image:: _static/images/6-OOD-icone_pesquisar.png
    :align: middle
    :width: 25
 
-.. figure:: _static/images/6-OOD-tela_selecionar_contatos.png
-
-O sistema direciona o usuário para a tela “**Documentos do Bloco de Assinatura**”, em que é possível consultar os dados do processo ou dos documentos ali inseridos, bem como assiná-los.
-
-.. figure:: _static/images/6-OOD-documentos_bloco_assinatura.png
-
-.. admonition:: Nota
-
-   A assinatura dos documentos inseridos no **Bloco de Assinatura** também poderá ser efetuada acessando o Menu Principal, opção Blocos e, depois, Assinatura. Ver mais no item "**Bloco de Assinatura**"
+.. |pesquisar_gif| image:: _static/images/6-OOD-icone_pesquisar.gif
+   :align: middle
+   :width: 1000
 
 
 Enviando o Documento Assinado, por E-mail, ao Destinatário
 -----------------------------------------------------------
 
-Para encaminhar os documentos assinados, por e-mail, aos respectivos destinatários, acesse o processo e selecione o documento-base que gerou a circular. Ele aparecerá na “**Árvore do Processo**” com o seguinte ícone à esquerda: |gerar_circular|.
-
-
-.. |gerar_circular| image:: _static/images/6-OOD-icone_gerar_circular.png
-   :align: middle
-   :width: 30
-
-.. figure:: _static/images/6-OOD-tela_com_indicativo_gerar_circular.png
-
-Após selecionar o documento-base, clique no ícone “**Gerar Circular**” |gerar_circular|, que se encontra na Barra de Ícones do documento.
-
-.. |gerar_circular| image:: _static/images/6-OOD-icone_gerar_circular.png
-   :align: middle
-   :width: 30
-
-.. figure:: _static/images/6-OOD-gerar_circular_documento_selecionado.png
+Para encaminhar os documentos assinados, por e-mail, aos respectivos destinatários, acesse o processo e selecione o documento-base que gerou a circular. Ele aparecerá na “**Árvore do Processo**” com o seguinte ícone à esquerda: |gerar_circular|. Após selecionar o documento-base, clique no ícone “**Gerar Circular**” |gerar_circular|, que se encontra na Barra de Ícones do documento.
 
 Na tela “**Gerar Circular**”, selecione os destinatários para os quais deseja enviar o e-mail e, para o encaminhamento, clique no botão “Enviar E-mail”.
 
-.. figure:: _static/images/6-OOD-gerar_publicacao_formulario_enviar_email.png
+.. |gerar_circular| image:: _static/images/6-OOD-icone_gerar_circular.png
+   :align: middle
+   :width: 30
+
+.. figure:: _static/images/6-OOD-tela_com_indicativo_gerar_circular.gif
+
 
 Na tela “**Enviar Circular**”, insira o assunto, o conteúdo da mensagem e clique em “**Enviar**”.
 
