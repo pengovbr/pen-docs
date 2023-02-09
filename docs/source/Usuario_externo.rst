@@ -12,7 +12,7 @@ Para realizar a liberação, o usuário deverá acessar o processo e clicar no �
    :align: middle
    :width: 30
 
-.. figure:: _static/images/10-UE-tela_processo_gerenciar_acesso_externo.png
+.. figure:: _static/images/10-UE-tela_processo_gerenciar_acesso_externo.gif
 
 A tela “**Gerenciar Disponibilizações de Acesso Externo**” será aberta. Nela, o usuário deverá preencher os campos:
 
@@ -29,7 +29,7 @@ A tela “**Gerenciar Disponibilizações de Acesso Externo**” será aberta. N
    :align: middle
    :width: 25
 
-.. figure:: _static/images/10-UE-tela_selecionar_protocolos_acesso_externo.png
+.. figure:: _static/images/10-UE-tela_selecionar_protocolos_acesso_externo.gif
 
 * **Permitir Inclusão de Documentos**: se o usuário selecionado no campo destinatário for um usuário externo, será possível por meio da marcação desta flag permitir que o usuário externo inclua documentos no processo. Ao selecionar esta flag, o campo “Tipos de documentos liberados para inclusão” será aberto. Nele, o usuário poderá definir os tipos de documentos para esta liberação por meio do ícone de pesquisa |Pesquisar|.
 * **Validade (dias)**: indicar o tempo, em dias úteis, que o processo ficará disponível para visualização do usuário externo.
@@ -98,7 +98,7 @@ Para permitir ao usuário externo assinar documentos produzidos no SUPER.GOV.BR,
    :align: middle
    :width: 30
 
-.. figure:: _static/images/10-UE-tela_gerenciar_liberacoes.png
+.. figure:: _static/images/10-UE-tela_gerenciar_liberacoes.gif
 
 A tela “**Gerenciar Assinaturas Externas**” será aberta. Nela, o usuário deverá preencher os campos:
 
@@ -116,7 +116,7 @@ A tela “**Gerenciar Assinaturas Externas**” será aberta. Nela, o usuário d
    :align: middle
    :width: 25
 
-.. figure:: _static/images/10-UE-tela_selecionar_protocolos_acesso_externo_transpor.png
+.. figure:: _static/images/10-UE-tela_selecionar_protocolos_acesso_externo_transpor.gif
 
 * **Permitir Inclusão de Documentos**: flag que possibilita ao usuário permitir que o usuário externo inclua documentos no processo. Ao selecionar esta flag, o campo “Tipos de documentos liberados para inclusão” será aberto. Nele, o usuário poderá definir os tipos de documentos para esta liberação por meio do ícone de pesquisa |Pesquisar|.
 * **Validade (dias)**: indicar o tempo, em dias úteis, que o documento ficará disponível para assinatura do usuário externo.
