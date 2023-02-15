@@ -30,6 +30,14 @@ templates_path = ['_templates']
 # -- Options for HTML output
 
 html_theme = 'sphinx_govbr_theme'
+html_logo = 'logo_pen.png'
+
+html_theme_options = {
+    'logo_only': False,
+    'navigation_depth': 5,
+    'display_version': True,
+    'logo': 'logo_pen.png',
+}
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
