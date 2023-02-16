@@ -196,7 +196,7 @@ Na tela seguinte, será possível “Consultar” |consulta|, “Alterar” |edi
    :align: middle
    :width: 25
 
-.. figure:: _static/images/6-OOD-texto_padrao_acoes.PNG
+.. figure:: _static/images/6-OOD-texto_padrao_acoes.png
 
 Situações de Utilização de um Texto Padrão
 ------------------------------------------

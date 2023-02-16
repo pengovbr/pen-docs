@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'SUPER.GOVBR'
+project = 'SUPER.GOV.BR'
 copyright = '2021, Super GOVBR'
 author = 'Super'
 

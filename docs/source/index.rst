@@ -1,8 +1,7 @@
 Manual do Usuário Básico SUPER.GOV.BR 1.0
 ============================================
 
-
-.. figure:: _static/images/logo-original_nova.png
+.. figure:: _static/images/Banner_SUPER.png
 
 
 Índice
