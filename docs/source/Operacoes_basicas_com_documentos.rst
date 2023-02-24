@@ -181,6 +181,11 @@ Editar Documentos
 
 Recurso destinado à inclusão e alteração do conteúdo dos documentos.
 
+.. admonition:: Nota
+
+   Para o funcionamento adequado do editor de texto, recomenda-se a utilização do Super.GOV.BR nos navegadores Mozila Firefox ou Google Chrome, em suas versões mais recentes.
+
+
 Para editar um documento, clique no ícone “**Editar Conteúdo**” |editar_conteudo|, disponível na Barra de Ícones do documento.
 
 .. |editar_conteudo| image:: _static/images/5-ODB-icone_editar_conteudo.png
