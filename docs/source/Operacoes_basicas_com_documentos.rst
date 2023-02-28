@@ -181,9 +181,11 @@ Editar Documentos
 
 Recurso destinado à inclusão e alteração do conteúdo dos documentos.
 
-.. admonition:: Nota
+.. admonition:: Notas
 
-   Para o funcionamento adequado do editor de texto, recomenda-se a utilização do Super.GOV.BR nos navegadores Mozila Firefox ou Google Chrome, em suas versões mais recentes.
+   1.Recomenda-se que o sistema SUPER.GOV.BR esteja atualizado em sua última versão, para se obter a melhor experiência na utilização da funcionalidade de Edição de Textos.
+
+   2.Caso o usuário esteja utilizando versão do SUPER.GOV.BR anterior à versão 4.0.4.6, recomenda-se a utilização do navegador Mozilla Firefox. Pode-se utilizar o Google Chrome, desde que em sua versão mais recente.
 
 
 Para editar um documento, clique no ícone “**Editar Conteúdo**” |editar_conteudo|, disponível na Barra de Ícones do documento.
