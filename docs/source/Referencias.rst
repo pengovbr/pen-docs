@@ -1,7 +1,7 @@
 REFERÊNCIAS
 ================
 
-FICHA CATALOGRÁFICA
+Ficha Catalográfica
 -------------------
 
 **Normalização Bibliográfica: Biblioteca do Ministério da Gestão e da Inovação em Serviços Públicos.**
@@ -16,8 +16,8 @@ FICHA CATALOGRÁFICA
 **Permite-se a reprodução desta publicação, em parte ou no todo, desde que citada a fonte e sem fins comerciais.**
 
 
-BIBLIGRAFIA
------------
+Bibliografia
+------------
 
 BRASIL. Lei nº 8.159, de 8 de janeiro de 1991. Dispõe sobre a política nacional de arquivos públicos e privados e dá outras providências. Disponível em:  
 <http://www.planalto.gov.br/ccivil_03/leis/L8159.htm>. Acesso em: 06 dec. 2022. 
