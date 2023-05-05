@@ -44,7 +44,7 @@ _______. Ministério da Justiça e Segurança Pública. Ministério da Economia.
 
  
 
- _______. Ministério do Planejamento, Orçamento e Gestão. Padrões de interoperabilidade de governo eletrônico: ePING. Disponível em: <http://eping.governoeletronico.gov.br/>. Acesso em: 12 fev. 2022. 
+_______. Ministério do Planejamento, Orçamento e Gestão. Padrões de interoperabilidade de governo eletrônico: ePING. Disponível em: <http://eping.governoeletronico.gov.br/>. Acesso em: 12 fev. 2022. 
 
  
 _______. Superior Tribunal de Justiça. Guia prático do SEI [recurso eletrônico]: Sistema Eletrônico de Informações / Superior Tribunal de Justiça, Secretaria de  
