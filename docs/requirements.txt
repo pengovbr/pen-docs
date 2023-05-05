@@ -19,7 +19,7 @@ six==1.16.0
 snowballstemmer==2.2.0
 Sphinx==5.1.1
 sphinx-autobuild==2021.3.14
-sphinx-govbr-theme==1.0.4
+Furo
 sphinxcontrib-applehelp==1.0.2
 sphinxcontrib-devhelp==1.0.2
 sphinxcontrib-htmlhelp==2.0.0
