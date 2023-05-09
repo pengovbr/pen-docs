@@ -1,6 +1,6 @@
 
 
-.. figure:: _static/images/Banner_SUPER.png
+.. figure:: _static/images/Manual_de_sistemas.png
 
 
 
