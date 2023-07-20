@@ -7,7 +7,7 @@
 Manual SEI
 =======================
 
-Este manual foi elaborado pela equipe do Departamento de Processo Eletrônico Nacional em Rede (PEN). Sua construção foi baseada em documentações relativas ao sistema SEI, dando destaque à “Cartilha do Usuário Sistema Eletrônico de Informações (SEI)” elaborada pelo Diretoria de Administração e Logística do Ministério da Economia (atual dissidência do Ministério da Gestão e da Inovação em Serviços Públicos) e ao “Guia Prático do SEI” elaborado pelo Superior Tribunal de Justiça (STJ). 
+Este manual foi elaborado pela equipe da Diretoria de Informações, Serviços e Sistemas (DTGES). Sua construção foi baseada em documentações de apoio ao uso do SEI, dando destaque à "Cartilha do Usuário do Sistema Eletrônico de Informações (SEI)" elaborada pela Diretoria de Administração e Logística do Ministérios da Gestão e Inovação em Serviços Públicos e ao "Guia Prático do SEI", elaborado pelo Superior Tribunal de Justiça (STJ).
 
 O objetivo deste material é apresentar aos usuários os recursos e facilidades fornecidas pelo SEI, permitindo uma melhor experiência no uso da ferramenta no dia a dia. Além disso, entendemos este material em processo de melhoria contínua, podendo sofrer revisões devido a melhorias de funcionalidade ou mesmo revisões para tornar as redações mais claras e esclarecedoras aos usuários. Todos os servidores fazem parte de processo e podem realizar sugestões sempre que entenderem necessário.
 
