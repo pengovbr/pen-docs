@@ -1,5 +1,5 @@
-MANUAL SUPER.GOV.BR 1.0
-========================
+MANUAL SEI
+==========
 
 .. toctree::
 
