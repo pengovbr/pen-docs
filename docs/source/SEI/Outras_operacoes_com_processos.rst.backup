@@ -42,7 +42,7 @@ Para relacionar processos, o usuário deverá acessar um dos processos que serã
 
 .. figure:: _static/images/4-OOCP-relacionar_processos_tela_processos.gif
 
-Será aberta a tela “**Relacionamentos do Processo**”. Nela, o usuário deverá informar o número do **Processo Destino** e clicar em Pesquisar. O sistema confirmará a existência do processo no SEI e, automaticamente, preencherá o campo **Tipo**. Por fim, clique em “**Adicionar**”.
+Será aberta a tela “**Relacionamentos do Processo**”. Nela, o usuário deverá informar o número do **Processo Destino** e clicar em Pesquisar. O sistema confirmará a existência do processo no SUPER.GOV.BR e, automaticamente, preencherá o campo **Tipo**. Por fim, clique em “**Adicionar**”.
 
 .. figure:: _static/images/4-OOCP-relacionar_processos_adicionar.png
 
@@ -122,7 +122,7 @@ Para anexar processo, acesse o processo principal e clicar no ícone "Anexar Pro
 
 .. figure:: _static/images/4-OOCP-tela_processo_anexar_processo.gif
 
-Na tela **Anexação de Processos**, preencha o campo **Processo** com o número do processo a ser anexado e clique em “**Pesquisar**”. O SEI preencherá o campo “**Tipo**” automaticamente. Em seguida, clicar em “**Anexar**”.
+Na tela **Anexação de Processos**, preencha o campo **Processo** com o número do processo a ser anexado e clique em “**Pesquisar**”. O SUPER.GOV.BR preencherá o campo “**Tipo**” automaticamente. Em seguida, clicar em “**Anexar**”.
 
 .. figure:: _static/images/4-OOCP-Tela_anexar_processos.png
 
@@ -166,7 +166,7 @@ Será aberta a tela **Sobrestamento**. Nela, escolha entre duas opções:
 
 .. figure:: _static/images/4-OOCP-sobrestar_formulario.png
 
-* Marque “**Sobrestar vinculando a outro processo**” quando a determinação de interrupção do trâmite do processo constar em outro processo também existente no SEI. No campo **Processo para Vinculação**, informe o número do processo que tenha determinado o sobrestamento e clique em **Pesquisar**. 
+* Marque “**Sobrestar vinculando a outro processo**” quando a determinação de interrupção do trâmite do processo constar em outro processo também existente no SUPER.GOV.BR. No campo **Processo para Vinculação**, informe o número do processo que tenha determinado o sobrestamento e clique em **Pesquisar**. 
   O campo **Tipo** será automaticamente preenchido. Em seguida, preencha o campo **Motivo** e clique em **Salvar**.
 
 .. figure:: _static/images/4-OOCP-sobrestar_formulario_motivo.png
@@ -199,7 +199,7 @@ Na tela **Processos Sobrestados**, é possível visualizar todos os processos so
 Excluir Processos
 +++++++++++++++++
 
-No SEI é possível excluir processos, nos casos em que foram criados indevidamente.
+No SUPER.GOV.BR é possível excluir processos, nos casos em que foram criados indevidamente.
 
 .. admonition:: Nota
 
@@ -219,5 +219,5 @@ Na tela do processo, clique no ícone “Excluir” |excluir|, disponível na Ba
 .. admonition:: Notas
 
    1. A exclusão de processos deve ser efetuada pela unidade geradora somente em caso de processos abertos indevidamente.
-   2. No caso de processo com documentos externos e/ou gerados no sistema que possam ser excluídos, o SEI permite que sejam efetuadas as exclusões de todos esses documentos e, depois, permite a exclusão do processo.
+   2. No caso de processo com documentos externos e/ou gerados no sistema que possam ser excluídos, o SUPER.GOV.BR permite que sejam efetuadas as exclusões de todos esses documentos e, depois, permite a exclusão do processo.
 
