@@ -235,7 +235,7 @@ Esse recurso tem por objetivo organizar os processos da unidade, por meio da atr
 
 Os **Marcadores** são criados, gerenciados e adicionados aos processos pela própria unidade, que tem autonomia para definir a cor e a descrição de cada Marcador. Trata-se de uma ferramenta de organização interna.
 
-O SEI conta com 32 opções de marcadores para processos. 
+O SUPER.GOV.BR conta com 32 opções de marcadores para processos. 
 
 
 Como criar um Marcador
@@ -761,7 +761,7 @@ O recurso Atualizar Andamento permite acrescentar informações ao Histórico do
 
 .. figure:: _static/images/3-OBCP_atualizar_andamento_controle_processos.gif
 
-Ao utilizar uma das opções acima, o SEI abrirá a tela **Atualizar Andamento**. Nela, as informações que serão acrescentadas ao Histórico do processo deverão ser digitadas no campo **Descrição**, que é de livre preenchimento. Após preenchê-lo, clique em Salvar.
+Ao utilizar uma das opções acima, o SUPER.GOV.BR abrirá a tela **Atualizar Andamento**. Nela, as informações que serão acrescentadas ao Histórico do processo deverão ser digitadas no campo **Descrição**, que é de livre preenchimento. Após preenchê-lo, clique em Salvar.
 
 .. admonition:: Notas
 
@@ -773,7 +773,7 @@ Ao utilizar uma das opções acima, o SEI abrirá a tela **Atualizar Andamento**
 Enviar Correspondência Eletrônica
 +++++++++++++++++++++++++++++++++
 
-O SEI permite o envio de e-mails diretamente do processo. Nesse caso, a mensagem de correio eletrônico passa a compor automaticamente a árvore de documentos do processo. Para enviar um email, clique no número do processo e selecione o ícone |email|.
+O SUPER.GOV.BR permite o envio de e-mails diretamente do processo. Nesse caso, a mensagem de correio eletrônico passa a compor automaticamente a árvore de documentos do processo. Para enviar um email, clique no número do processo e selecione o ícone |email|.
 
 .. |email| image:: _static/images/1-IO_icone__enviar_correspondencia_eletronica.png
    :align: middle

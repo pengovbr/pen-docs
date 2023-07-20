@@ -4,7 +4,7 @@ Operações Básicas com processos
 Iniciar Processo
 ++++++++++++++++
 
-Para iniciar um processo no SEI, o usuário deve clicar em “**Iniciar Processo**” no menu principal.
+Para iniciar um processo no SUPER.GOV.BR, o usuário deve clicar em “**Iniciar Processo**” no menu principal.
 
 .. figure:: _static/images/2-OBCP_Tela_Controle_Iniciar_Processo.gif
 
@@ -67,7 +67,7 @@ O campo “**Observações desta unidade**” poderá ser preenchido por cada un
 
    1. É uma boa prática a adoção de padrões de preenchimento dos campos “Especificação”, “Interessados” e “Observações desta unidade”, uma vez que esses campos auxiliam na identificação e na recuperação dos processos.
    
-   2. Conforme as orientações mais recentes do Gabinete de Segurança Institucional da Presidência da República, não é permitido tramitar documentos classificados – Reservados, Secretos ou Ultrassecretos – nos termos do Art. 23 da Lei nº 12.527, de 10 de agosto de 2011, a Lei de Acesso à Informação (LAI) pelo SEI. 
+   2. Conforme as orientações mais recentes do Gabinete de Segurança Institucional da Presidência da República, não é permitido tramitar documentos classificados – Reservados, Secretos ou Ultrassecretos – nos termos do Art. 23 da Lei nº 12.527, de 10 de agosto de 2011, a Lei de Acesso à Informação (LAI) pelo Super.GOV.BR. 
 
 Após o preenchimento dos campos de cadastramento dos metadados do processo, clique no botão Salvar. Assim, será criado um NUP e será aberta a tela do processo para que possam ser incluídos documentos.
 
@@ -79,7 +79,7 @@ A tela Controle de Processos (tela inicial do sistema) organiza todos os documen
 
 .. figure:: _static/images/2-OBCP_Tela_Controle_Receber_Processos.png
 
-Para confirmar o recebimento de um processo, basta clicar sobre o seu número, que aparece em vermelho. O SEI registra no andamento do processo a hora, a unidade e o usuário que efetuou o recebimento.
+Para confirmar o recebimento de um processo, basta clicar sobre o seu número, que aparece em vermelho. O SUPER.GOV.BR registra no andamento do processo a hora, a unidade e o usuário que efetuou o recebimento.
 
 
 .. figure:: _static/images/2-OBCP_Tela_Controle_Receber_Processos_n_processo_vermelho.png
@@ -89,7 +89,7 @@ Para confirmar o recebimento de um processo, basta clicar sobre o seu número, q
 
    1. Quando um processo está em vermelho significa que ainda não foi recebido na unidade. O processo nessa cor aparecerá, exclusivamente, na coluna Recebidos.
    
-   2. Quando um processo ou documento está em azul, significa que ele já foi acessado pelo usuário naquela sessão do sistema. Ao efetuar o logoff no SEI e entrar novamente no sistema, os processos e documentos não estarão mais marcados com essa cor.
+   2. Quando um processo ou documento está em azul, significa que ele já foi acessado pelo usuário naquela sessão do sistema. Ao efetuar o logoff no SUPER.GOV.BR e entrar novamente no sistema, os processos e documentos não estarão mais marcados com essa cor.
 
 
 Atribuir processos a um usuário
