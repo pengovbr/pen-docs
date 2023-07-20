@@ -183,9 +183,9 @@ Recurso destinado à inclusão e alteração do conteúdo dos documentos.
 
 .. admonition:: Notas
 
-   1.Recomenda-se que o sistema SEI esteja atualizado em sua última versão, para se obter a melhor experiência na utilização da funcionalidade de Edição de Textos.
+   1.Recomenda-se que o sistema SUPER.GOV.BR esteja atualizado em sua última versão, para se obter a melhor experiência na utilização da funcionalidade de Edição de Textos.
 
-   2.Caso o usuário esteja utilizando versão do SEI anterior à versão 4.0.4.6, recomenda-se a utilização do navegador Mozilla Firefox. Pode-se utilizar o Google Chrome, desde que em sua versão mais recente.
+   2.Caso o usuário esteja utilizando versão do SUPER.GOV.BR anterior à versão 4.0.4.6, recomenda-se a utilização do navegador Mozilla Firefox. Pode-se utilizar o Google Chrome, desde que em sua versão mais recente.
 
 
 Para editar um documento, clique no ícone “**Editar Conteúdo**” |editar_conteudo|, disponível na Barra de Ícones do documento.
@@ -259,7 +259,7 @@ Será aberto um campo em que o usuário poderá selecionar a forma como quer cop
 
 .. figure:: _static/images/5-OBD-arvore_de_processos_link_documento.png
 
-2) Utilizar o ícone “**Inserir um Link para processo ou documento do SEI**”, disponível na Barra de Ferramentas do Editor de Textos.
+2) Utilizar o ícone “**Inserir um Link para processo ou documento do SUPER.GOV.BR**”, disponível na Barra de Ferramentas do Editor de Textos.
 
 Ao clicar neste ícone, o sistema abrirá a tela para preenchimento do Protocolo.  O usuário deverá inserir o número do processo ou protocolo do documento a ser referenciado e clicar em **OK**.
 
@@ -354,7 +354,7 @@ Será aberta a tela **Alterar Documento**. O usuário poderá realizar as altera
 Assinar Documento Interno
 +++++++++++++++++++++++++
 
-Recurso destinado a assinatura de documentos gerados no SEI.
+Recurso destinado a assinatura de documentos gerados no SUPER.GOV.BR.
 
 Para o usuário assinar um documento interno, deverá selecionar o documento desejado e clicar no ícone **Assinar Documento** |assinatura_preta|.
 
@@ -376,7 +376,7 @@ Para o usuário assinar um documento interno, deverá selecionar o documento des
 
 Na janela de assinatura do documento, o usuário deverá conferir as informações existentes nos campos **Órgão do Assinante** e **Assinante**; e preencher o campo **Cargo/Função**. A forma de assinatura poderá ser:
 
-- Pela autenticação por senha – neste caso, o usuário deverá inserir a senha de login SEI no campo **Senha** e em seguida clicar em **Assinar**; ou
+- Pela autenticação por senha – neste caso, o usuário deverá inserir a senha de login SUPER.GOV.BR no campo **Senha** e em seguida clicar em **Assinar**; ou
 
 .. figure:: _static/images/5-OBD-assinatura_documento_senha.gif
 
