@@ -227,7 +227,7 @@ d) Na janela “**Enviar Correspondência Eletrônica**”: na caixa “**Mensag
 Mover Documentos Externos
 +++++++++++++++++++++++++++++++
 
-O SEI disponibiliza um modo de mover documentos externos de um processo para outro. Essa funcionalidade é útil, por exemplo, nos casos em que o protocolo recebe um documento externo em um novo processo, no entanto, já existe um processo aberto para tratar daquele assunto.
+O SUPER.GOV.BR disponibiliza um modo de mover documentos externos de um processo para outro. Essa funcionalidade é útil, por exemplo, nos casos em que o protocolo recebe um documento externo em um novo processo, no entanto, já existe um processo aberto para tratar daquele assunto.
 Para mover um documento externo para outro processo, selecione o documento e clique no ícone “**Mover Documento para outro Processo**”  .
 
 .. |mover_documento| image:: _static/images/6-OOD-icone_mover_documento_para_outro_processo.png
@@ -248,7 +248,7 @@ O processo de destino receberá o documento em sua árvore. O registro da transf
 Ordenar Árvore do Processo
 ++++++++++++++++++++++++++
 
-O SEI permite a alteração da ordem dos documentos na árvore de um processo. Essa funcionalidade serve para corrigir inserções de documentos que, dispostos em sequência cronológica, acabam dificultando o entendimento das informações de um processo. 
+O SUPER.GOV.BR permite a alteração da ordem dos documentos na árvore de um processo. Essa funcionalidade serve para corrigir inserções de documentos que, dispostos em sequência cronológica, acabam dificultando o entendimento das informações de um processo. 
 
 Para alterar a ordem de documentos da árvore de um processo, acesse o processo e clique no ícone “**Ordenar Árvore do Processo**” |ordenar_arvore|.
 
@@ -444,7 +444,7 @@ A autenticação do documento se comporta conforme imagem abaixo, exibindo fora 
 Gerar Circular
 ++++++++++++++
 
-Esse recurso permite gerar documentos circulares individuais para cada destinatário, a partir de um documento-matriz e dos dados de contatos cadastrados no SEI.
+Esse recurso permite gerar documentos circulares individuais para cada destinatário, a partir de um documento-matriz e dos dados de contatos cadastrados no SUPER.GOV.BR.
 
 Os documentos gerados poderão ser inseridos em Bloco de Assinatura e encaminhados para os e-mails associados aos contatos.
 
