@@ -1,5 +1,5 @@
-MANUAL SEI
-==========
+MANUAL DO USUÁRIO SEI
+=====================
 
 .. toctree::
 
