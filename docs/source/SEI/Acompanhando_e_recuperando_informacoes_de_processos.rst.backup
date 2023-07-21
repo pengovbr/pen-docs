@@ -268,16 +268,16 @@ A tela “**Pesquisa**” possui vários campos que, se preenchidos adequadament
 
 7. **Assunto**: permite o usuário selecionar um ou mais assuntos envolvidos no processo ou documento objeto da pesquisa.
 
-8. **Assinatura / Autenticação**: permite que o usuário indiquei um ou mais usuários que tenham assinado ou certificado documentos no SEI.
+8. **Assinatura / Autenticação**: permite que o usuário indiquei um ou mais usuários que tenham assinado ou certificado documentos no SUPER.GOV.BR.
 
-9. **Contato**: permite que sejam pesquisados processos ou documentos que tenham as pessoas física e jurídicas indicadas neste campo. O conteúdo deste campo é restrito aos contatos previamente cadastrados no SEI.
+9. **Contato**: permite que sejam pesquisados processos ou documentos que tenham as pessoas física e jurídicas indicadas neste campo. O conteúdo deste campo é restrito aos contatos previamente cadastrados no SUPER.GOV.BR.
 Será possível filtrar ainda mais esta pesquisa com a marcação das flags: Interessado, Remetente e Destinatário.
 
 10. **Especificação / Descrição**: permite filtrar a pesquisa por termos relativos a especificação / descrição.
 
 11. **Obs. desta Unidade**: permite filtrar a pesquisa por termos relativos a observações da unidade do usuário que está acessando o sistema.
 
-12. **Nº SEI**: utilizado para pesquisa do processo ou documento pelo número SEI.
+12. **Nº SEI**: utilizado para pesquisa do processo ou documento pelo número SUPER.GOV.BR.
 
 13. **Tipo do Processo**: campo para seleção dos tipos de processo que deseja incluir na pesquisa.
 
@@ -289,7 +289,7 @@ Será possível filtrar ainda mais esta pesquisa com a marcação das flags: Int
 
 17. **Usuário Gerador**: permite que sejam pesquisados os documentos gerados pelos usuários indicados neste campo. Há a possibilidade de inclusão de até três usuários neste filtro de pesquisa.
 
-18. **Data entre**: permite que o usuário filtre um período de pesquisa, que deverá ter um início e fim. Quando utilizado este filtro, o usuário deverá indicar se o intervalo é relacionado à data de inclusão no SEI ou pela data do Processo / Documento.
+18. **Data entre**: permite que o usuário filtre um período de pesquisa, que deverá ter um início e fim. Quando utilizado este filtro, o usuário deverá indicar se o intervalo é relacionado à data de inclusão no SUPER.GOV.BR ou pela data do Processo / Documento.
 
 Após a seleção dos parâmetros de pesquisa desejados, o usuário deverá clicar no botão “**Pesquisar**”
 
@@ -534,7 +534,7 @@ Ao clicar sobre esse ícone, será aberta a tela “**Gerenciar Ponto de Control
 
 .. admonition:: Nota
 
-   Os Pontos de Controle disponíveis para seleção dos usuários devem ser definidos previamente pela Unidade e cadastrados pelo administrador do sistema no SEI.
+   Os Pontos de Controle disponíveis para seleção dos usuários devem ser definidos previamente pela Unidade e cadastrados pelo administrador do sistema no SUPER.GOV.BR.
 
 Consultando Processos com Ponto de Controle
 -------------------------------------------
