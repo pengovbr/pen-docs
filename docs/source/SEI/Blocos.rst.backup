@@ -242,7 +242,7 @@ O usuário será redirecionado para a tela “**Documentos do Bloco de Assinatur
 
 .. admonition:: Nota
 
-   Toda ação de assinatura de um documento via SEI necessita que o usuário indique o seu Cargo/Função e informe a sua senha para efetivação da assinatura. Além da possibilidade de assinatura com Certificado Digital.
+   Toda ação de assinatura de um documento via SUPER.GOV.BR necessita que o usuário indique o seu Cargo/Função e informe a sua senha para efetivação da assinatura. Além da possibilidade de assinatura com Certificado Digital.
 
 
 .. figure:: _static/images/9-B-tela_bloco_assinatura_ass_documentos.gif
