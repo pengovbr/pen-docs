@@ -33,7 +33,7 @@ A tela “**Gerenciar Disponibilizações de Acesso Externo**” será aberta. N
 
 * **Permitir Inclusão de Documentos**: se o usuário selecionado no campo destinatário for um usuário externo, será possível por meio da marcação desta flag permitir que o usuário externo inclua documentos no processo. Ao selecionar esta flag, o campo “Tipos de documentos liberados para inclusão” será aberto. Nele, o usuário poderá definir os tipos de documentos para esta liberação por meio do ícone de pesquisa |Pesquisar|.
 * **Validade (dias)**: indicar o tempo, em dias úteis, que o processo ficará disponível para visualização do usuário externo.
-* **Senha**: campo para inclusão da senha SEI.
+* **Senha**: campo para inclusão da senha SUPER.GOV.BR.
 
 .. |Pesquisar| image:: _static/images/10-UE-icone_pesquisar.png
    :align: middle
@@ -92,7 +92,7 @@ Gerenciar Assinaturas de Usuários Externos
 
 Recurso que possibilita atribuir a possibilidade de usuários externos assinem documentos.
 
-Para permitir ao usuário externo assinar documentos produzidos no SEI, o usuário deverá acessar o processo, selecionar o documento que deverá ser assinado e clicar no ícone “Gerenciar Liberações para Assinatura Externa” |gerenciar_liberacoes|.
+Para permitir ao usuário externo assinar documentos produzidos no SUPER.GOV.BR, o usuário deverá acessar o processo, selecionar o documento que deverá ser assinado e clicar no ícone “Gerenciar Liberações para Assinatura Externa” |gerenciar_liberacoes|.
 
 .. |gerenciar_liberacoes| image:: _static/images/10-UE-icone_gerenciar_liberacoes.png
    :align: middle
@@ -120,7 +120,7 @@ A tela “**Gerenciar Assinaturas Externas**” será aberta. Nela, o usuário d
 
 * **Permitir Inclusão de Documentos**: flag que possibilita ao usuário permitir que o usuário externo inclua documentos no processo. Ao selecionar esta flag, o campo “Tipos de documentos liberados para inclusão” será aberto. Nele, o usuário poderá definir os tipos de documentos para esta liberação por meio do ícone de pesquisa |Pesquisar|.
 * **Validade (dias)**: indicar o tempo, em dias úteis, que o documento ficará disponível para assinatura do usuário externo.
-* **Senha**: campo para inclusão da senha SEI.
+* **Senha**: campo para inclusão da senha SUPER.GOV.BR.
 
 .. |Pesquisar| image:: _static/images/10-UE-icone_pesquisar.png
    :align: middle
@@ -128,7 +128,7 @@ A tela “**Gerenciar Assinaturas Externas**” será aberta. Nela, o usuário d
 
 .. figure:: _static/images/10-UE-tela_gerenciar_assinaturas_formulario.png
 
-Após a liberação (por meio de clique no botão “**Liberar**”), o sistema encaminhará um email com o link para acesso ao SEI. Tal ação é informada ao usuário por meio de alerta disponível em tela.
+Após a liberação (por meio de clique no botão “**Liberar**”), o sistema encaminhará um email com o link para acesso ao SUPER.GOV.BR. Tal ação é informada ao usuário por meio de alerta disponível em tela.
 
 .. figure:: _static/images/10-UE-gerenciar_liberacao_externo_mensagem.png
 
