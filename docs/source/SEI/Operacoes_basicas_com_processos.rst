@@ -8,7 +8,6 @@ Para iniciar um processo no SEI, o usuário deve clicar em “**Iniciar Processo
 
 .. figure:: _static/images/2-OBCP_Tela_Controle_Iniciar_Processo.gif
 
-
 Será exibida uma tela com os tipos de processos já utilizados na unidade.
 
 Para exibir todos os tipos de processos existentes no órgão, selecione o ícone “**Exibir todos os tipos**”  |exibir_todos|, ao lado do título “**Escolha o Tipo do Processo**”.
