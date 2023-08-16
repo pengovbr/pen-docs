@@ -711,7 +711,7 @@ Selecione os documentos que deseja incluir no arquivo PDF e clique em Gerar.
 Consulta ao andamento do processo
 ++++++++++++++++++++++++++++++++++
 
-Na tela do processo, clique na opção “|Lupa|**Consultar Andamento**”, que fica logo abaixo da Árvore do Processo. Serão exibidos todos os andamentos do processo de forma resumida. 
+Na tela do processo, clique na opção |Lupa| **Consultar Andamento**, que fica logo abaixo da Árvore do Processo. Serão exibidos todos os andamentos do processo de forma resumida. 
 
 .. |Lupa| image:: _static/images/1-IO_icone__lupa.png
    :align: middle
