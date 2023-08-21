@@ -42,10 +42,4 @@ O marco legal de implantação do PEN, no Poder Executivo, foi o Decreto n° 8.5
    
    MODULOS-SEI/index
 
-.. toctree::
-   :hidden:
-   :titlesonly:
-   
-   REFERENCIAS/index
-
    

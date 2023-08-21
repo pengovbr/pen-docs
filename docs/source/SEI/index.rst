@@ -6,6 +6,7 @@ MANUAL DO USUÁRIO SEI
    :titlesonly:
    :maxdepth: 3
   
+   ficha_catalografica   
    Iniciando_operacoes
    Operacoes_basicas_com_processos
    Operacoes_de_manutencao_e_acompanhamento_de_processos
@@ -16,5 +17,5 @@ MANUAL DO USUÁRIO SEI
    Restricao_de_acesso
    Acompanhando_e_recuperando_informacoes_de_processos
    Usuario_externo
-
+   Bibliografia
   
