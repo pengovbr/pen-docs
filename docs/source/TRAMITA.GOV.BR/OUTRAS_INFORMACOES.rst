@@ -1,7 +1,7 @@
 Outras Informações
 ==================
 
-Para mais informações, acesse o `Portal do Processo Eletrônico Nacional <www.gov.br/pen>`_. 
+Para mais informações, acesse o `Portal do Processo Eletrônico Nacional <https://www.gov.br/economia/pt-br/assuntos/processo-eletronico-nacional>`_. 
 
 Eventuais dúvidas também podem ser esclarecidas na seção `"Perguntas Frequentes" <https://www.gov.br/economia/pt-br/assuntos/processo-eletronico-nacional/destaques/faq/tramita-gov.br>`_ no Portal do Processo Eletrônico Nacional. 
 

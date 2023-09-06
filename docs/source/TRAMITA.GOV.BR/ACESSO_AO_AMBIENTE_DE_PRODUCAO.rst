@@ -1,7 +1,7 @@
 Acesso ao Ambiente de Produção
 ==============================
 
-Após a conclusão dos procedimentos em ambiente de homologação, o órgão ou a entidade será autorizado a replicar as configurações de que tratam os capítulos `Configuração da Estrutura <http://localhost:8000/TRAMITA.GOV.BR/CONFIGURACAO_DA_ESTRUTURA.html#configuracoes-da-estrutura>`_ , `Implantação do Módulo de Conexão <http://localhost:8000/TRAMITA.GOV.BR/IMPLANTACAO_DO_MODULO_DE_CONEXAO.html#implantacao-do-modulo-de-conexao>`_ e `Acesso ao Ambiente de Produção <http://localhost:8000/TRAMITA.GOV.BR/ACESSO_AO_AMBIENTE_DE_PRODUCAO.html#acesso-ao-ambiente-de-producao>`_ em ambiente de produção, de modo a minimizar a possibilidade de erros que possam vir a impactar os trâmites na plataforma. Como é no ambiente de Produção que os trâmites reais são realizados, os requisitos estabelecidos em ambiente de homologação são realmente necessários para que a experiência de utilização do Tramita.GOV.BR seja positiva.
+Após a conclusão dos procedimentos em ambiente de homologação, o órgão ou a entidade será autorizado a replicar as configurações de que tratam os capítulos `Configuração da Estrutura <https://manuais.processoeletronico.gov.br/pt_BR/latest/TRAMITA.GOV.BR/CONFIGURACAO_DA_ESTRUTURA.html#configuracoes-da-estrutura>`_ , `Implantação do Módulo de Conexão <https://manuais.processoeletronico.gov.br/pt_BR/latest/TRAMITA.GOV.BR/IMPLANTACAO_DO_MODULO_DE_CONEXAO.html#implantacao-do-modulo-de-conexao>`_ e `Acesso ao Ambiente de Produção <https://manuais.processoeletronico.gov.br/pt_BR/latest/TRAMITA.GOV.BR/ACESSO_AO_AMBIENTE_DE_PRODUCAO.html#acesso-ao-ambiente-de-producao>`_ em ambiente de produção, de modo a minimizar a possibilidade de erros que possam vir a impactar os trâmites na plataforma. Como é no ambiente de Produção que os trâmites reais são realizados, os requisitos estabelecidos em ambiente de homologação são realmente necessários para que a experiência de utilização do Tramita.GOV.BR seja positiva.
 
 O acesso ao Portal de Administração do Tramita.GOV.BR é feito pelo endereço http://gestaopen.processoeletronico.gov.br.
 
@@ -9,11 +9,11 @@ O acesso ao Portal de Administração do Tramita.GOV.BR é feito pelo endereço 
    
    Deve-se observar que o presente Manual Técnico versa, em maiores detalhes, sobre as configurações do portal e sobre os procedimentos de teste para validação da integração. As configurações referentes ao módulo de integração ao SEI e às demais soluções de integração devem ser consultadas na documentação específica dos referidos projetos.
 
-   Vide o item `Definição dos Status <http://localhost:8000/TRAMITA.GOV.BR/ACESSO_AO_AMBIENTE_DE_PRODUCAO.html#definicao-dos-status>`_ deste manual para referência completa sobre os diferentes status de tramitação.
+   Vide o item `Definição dos Status <https://manuais.processoeletronico.gov.br/pt_BR/latest/TRAMITA.GOV.BR/ACESSO_AO_AMBIENTE_DE_PRODUCAO.html#id3>`_ deste manual para referência completa sobre os diferentes status de tramitação.
 
 **Somente após o cumprimento dos requisitos mínimos descritos nos capítulos anteriores** e validação dos mesmos pela equipe técnica do PEN, será autorizado o acesso ao **ambiente de Produção**, sendo que nesse ambiente, após a realização das configurações no portal do Tramita.GOV.BR, **devem ser realizados novamente TODOS  os  requisitos mínimos**.
 
-**Em produção**, os processos de testes de que trata o Capítulo `Acesso ao Ambiente de Produção <http://localhost:8000/TRAMITA.GOV.BR/ACESSO_AO_AMBIENTE_DE_PRODUCAO.html#acesso-ao-ambiente-de-producao>`_ devem ser enviados para a unidade “Divisão de Gestão de Sistemas de Documentação e Informação – DISIS”, do Ministério da Gestão e da Inovação em Serviços Públicos.
+**Em produção**, os processos de testes de que trata o Capítulo `Acesso ao Ambiente de Produção <https://manuais.processoeletronico.gov.br/pt_BR/latest/TRAMITA.GOV.BR/ACESSO_AO_AMBIENTE_DE_PRODUCAO.html#acesso-ao-ambiente-de-producao>`_ devem ser enviados para a unidade “Divisão de Gestão de Sistemas de Documentação e Informação – DISIS”, do Ministério da Gestão e da Inovação em Serviços Públicos.
 
 .. admonition:: Nota
 
@@ -67,12 +67,12 @@ O trâmite de um processo administrativo eletrônico e/ou documento avulso, em m
      * Arquivos digitais recebidos pelo destinatário
      * Os arquivos digitais foram recebidos pelo sistema de processo eletrônico destinatário. O Barramento aguarda o Sistema destinatário enviar o recibo de conclusão do trâmite.
      * Sistema de processo administrativo eletrônico destinatário
-     * Caso o processo/documento tenha ficado parado no status 4 3 será necessário verificar se o sistema destinatário está com problema no recebimento. Entre em contato com um dos gestores de protocolo do órgão/entidade destinatário.
+     * Caso o processo/documento tenha ficado parado no status 4 será necessário verificar se o sistema destinatário está com problema no recebimento. Entre em contato com um dos gestores de protocolo do órgão/entidade destinatário.
    - * 5
      * Recibo de conclusão recebido pelo Barramento
      * O sistema de processo eletrônico destinatário validou a integridade do processo e enviou o recibo de conclusão do trâmite para o Barramento.
      * Sistema de processo administrativo eletrônico destinatário
-     * Caso o processo esteja parado no status 53 será necessário verificar se o sistema de remetente está indisponível. Entre em contato com um dos gestores de protocolo do órgão/entidade remetente.
+     * Caso o processo esteja parado no status 5 será necessário verificar se o sistema de remetente está indisponível. Entre em contato com um dos gestores de protocolo do órgão/entidade remetente.
    - * 6
      * Recibo de conclusão recebido pelo remetente
      * O recibo de conclusão do trâmite foi recebido pelo sistema de processo eletrônico remetente.
@@ -87,7 +87,7 @@ O trâmite de um processo administrativo eletrônico e/ou documento avulso, em m
      * Trâmite recusado. Aguardando ciência do remetente
      * O trâmite foi recusado pelo sistema de processo eletrônico destinatário por alguma falha na validação dos dados recebidos e aguarda ciência do sistema remetente, para desbloqueio do processo. Por exemplo: o formato de arquivo não é aceio pelo sistema destinatário
      * Tramita.GOV.BR
-     * Caso o trâmite tenha ficado parado no status 8, 3 será necessário verificar se o sistema remetente está com problema de comunicação com o Barramento.
+     * Caso o trâmite tenha ficado parado no status 8 será necessário verificar se o sistema remetente está com problema de comunicação com o Barramento.
    - * 9
      * Ciência da recusa recebido pelo remetente
      * O trâmite é cancelado automaticamente pelo barramento após o prazo estabelecido pelos Administradores do Barramento. Apenas os trâmites com status 1,2 e 3 podem ser cancelados automaticamente.
