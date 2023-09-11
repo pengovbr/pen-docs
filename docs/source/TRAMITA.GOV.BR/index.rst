@@ -56,7 +56,7 @@ Dentre as principais vantagens do Tramita.GOV.BR, destacam-se:
 
 (vii) Trâmite eletrônico independentemente da tecnologia e sistema de processo eletrônico adotado, devido à definição e ao estabelecimento de um protocolo comum para tramitação. 
 
-Este guia é parte integrante da **[Portaria SEGES nº 9.412, de 26 de outubro de 2022](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/portarias/portaria-seges-me-no-9412-de-26-de-outubro-de-2022)**, a qual estabelece as regras de implantação do Tramita.GOV.BR, no âmbito da administração pública federal direta, autárquica e fundacional, assim como para os órgãos e entidades dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios, que tenham interesse em utilizar o sistema, conforme modelo constante do anexo da referida Portaria. 
+Este guia é parte integrante da `**Portaria SEGES nº 9.412, de 26 de outubro de 2022**  <https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/portarias/portaria-seges-me-no-9412-de-26-de-outubro-de-2022>`_, a qual estabelece as regras de implantação do Tramita.GOV.BR, no âmbito da administração pública federal direta, autárquica e fundacional, assim como para os órgãos e entidades dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios, que tenham interesse em utilizar o sistema, conforme modelo constante do anexo da referida Portaria. 
 
 
 Sumário
