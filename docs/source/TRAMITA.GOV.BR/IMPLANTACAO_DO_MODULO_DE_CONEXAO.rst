@@ -24,6 +24,7 @@ Em ambiente de homologação, o Processo Eletrônico Nacional (PEN) disponibiliz
 *Ambiente 1*
 
 SEI versão 4.0.11
+
 • Módulo versão 3.3.0
 
 • URL: https://sei.orgao1.tramita.processoeletronico.gov.br/
@@ -40,6 +41,7 @@ SEI versão 4.0.11
 *Ambiente 2*
 
 SEI versão 4.0.11
+
 • Módulo versão 3.3.0
 
 • URL: https://sei.orgao2.tramita.processoeletronico.gov.br/
@@ -74,6 +76,7 @@ SEI versão 3.1.7
 *Ambiente 4*
 
 SEI versão 4.0.3
+
 • Módulo versão 3.3.0
 
 • URL: https://sei.orgao4.tramita.processoeletronico.gov.br/
