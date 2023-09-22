@@ -466,7 +466,7 @@ O sistema direciona o usuário para a tela “**Documentos do Bloco de Assinatur
 
 .. admonition:: Notas
 
-   01. Para uso desse recurso, o Administrador precisa habilitar a opção "Permite Destinatários" para aquele tipo de documento.
+	01. Para uso desse recurso, o Administrador
 
    02. Para preenchimento do campo **Destinatários**, o usuário poderá digitar o nome do destinatário ou utilizar o ícone “**Selecionar Contatos para Destinatários**” |pesquisar|, que fica do lado direito da tela. Ao clicar nesse ícone, será aberta a janela “**Selecionar Contatos**”. Nela, é possível selecionar um ou vários contatos, bem como utilizar filtros para seleção dos contatos.
 
