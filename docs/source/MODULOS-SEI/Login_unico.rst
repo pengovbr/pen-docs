@@ -1,7 +1,7 @@
-Módulo de Integração com Conta gov.br (Login Único)
+Módulo de Login Externo GOV.BR
 ===================================================
 
-O módulo **Login Único** trará ao usuário externo a facilidade e segurança de acessar o SEI via plataforma de autenticação do Governo Federal, chamada no âmbito desta documentação de **Conta gov.br**
+O módulo **Login Externo GOV.BR** trará ao usuário externo a facilidade e segurança de acessar o SEI via plataforma de autenticação do Governo Federal, chamada no âmbito desta documentação de **Conta gov.br**
 
 Usuário externo é a pessoa física autorizada a acessar ou atuar em determinado(s) processo(s) no SEI, independente de vinculação a determinada pessoa jurídica, para fins de peticionamento ou assinatura de documentos relativos a um Órgão da Administração.
 
@@ -18,7 +18,7 @@ Manual de Utilização
 
 Esta seção tem por objetivo demonstrar as funcionalidades que são disponibilizadas pelo módulo de integração e também as configurações que devem ser realizadas no próprio SEI para o seu correto funcionamento.
 
-A instalação do módulo de **Login Único** irá adicionar uma nova opção de autenticação para os usuários externos, permitindo que seja utilizada a conta única provida pelo **gov.br** para realização do acesso externo ao SEI.
+A instalação do módulo de **Login Externo GOV.BR** irá adicionar uma nova opção de autenticação para os usuários externos, permitindo que seja utilizada a conta única provida pelo **gov.br** para realização do acesso externo ao SEI.
 
 Para acesso ao ambiente externo do SEI da entidade, o usuário deverá acessar a página de acesso externo específica de sua entidade e clicar no botão **[acessar com gov.br]**;
 
