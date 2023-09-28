@@ -8,6 +8,5 @@ Os módulos apresentados nesta seção não são nativamente instalados no SEI, 
    :titlesonly:
    :maxdepth: 3
    
-   Gestao_documental  
    Login_unico
 
