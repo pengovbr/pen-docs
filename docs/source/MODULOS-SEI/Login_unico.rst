@@ -8,7 +8,6 @@ Usuário externo é a pessoa física autorizada a acessar ou atuar em determinad
 A utilização deste módulo adicionará novas funcionalidades ao SEI, permitindo, entre outros:
 
  - Autenticar usuários externos utilizando a **Conta gov.br**
- - Assinar documentos utilizando a **Conta gov.br**
  
 Para informações sobre como aderir à Conta Gov.Br, acesse: https://sso.acesso.gov.br/
 
