@@ -1,3 +1,7 @@
+
+.. figure:: _static/images/titulo-modulo-do-sei.png
+
+
 MÓDULOS SEI
 ===========
 

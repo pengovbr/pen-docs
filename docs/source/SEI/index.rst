@@ -1,3 +1,6 @@
+
+.. figure:: _static/images/titulo_Manual_do_Usuario_do_sei.png
+
 MANUAL DO USUÁRIO SEI
 =====================
 

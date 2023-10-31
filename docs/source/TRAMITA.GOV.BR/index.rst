@@ -1,3 +1,7 @@
+
+.. figure:: _static/images/título-Manual-do-Tramita.png
+
+
 MANUAL TRAMITA.GOV.BR
 ======================
 
