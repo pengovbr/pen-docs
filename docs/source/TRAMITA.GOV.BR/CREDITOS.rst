@@ -34,6 +34,7 @@ Créditos
 * Gabriel Barreto Carvalho Telles 
 * Leandro Medeiros da Silva Lima 
 * Vinícius Rafael Lôbo de Mendonça 
+* Yuri Álisson Rodrigues de Oliveira
 
 **Revisão** 
 
