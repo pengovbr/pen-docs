@@ -1,7 +1,7 @@
 PEN - Manuais de Sistemas
 =========================
 
-.. figure:: _static/images/Manuais_do_PEN+fase_de_apoio.png
+.. figure:: _static/images/Banner_Manual_de_sistemas_Logo_Governo.png
 
 Olá, usuário das soluções do Processo Eletrônico Nacional
 
