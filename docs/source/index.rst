@@ -20,6 +20,13 @@ Acesse todas essas informações no menu lateral dessa página de manuais do PEN
    :hidden:
    :titlesonly:
    
+   MANUAL-ADM/index
+
+
+.. toctree::
+   :hidden:
+   :titlesonly:
+   
    MODULOS-SEI/index
 
 .. toctree::
