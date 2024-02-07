@@ -13,10 +13,3 @@ Atenciosamente,
  
 Equipe do Processo Eletrônico Nacional
 
-
-.. toctree::
-   :hidden:
-   :titlesonly:
-      
-   EM_BREVE
-    
