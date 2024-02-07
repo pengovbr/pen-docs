@@ -3,7 +3,7 @@ PEN - Manuais de Sistemas
 
 .. figure:: _static/images/Banner_Manual_de_sistemas_Logo_Governo.png
 
-Olá, usuário das soluções do Processo Eletrônico Nacional
+Olá, usuário das soluções do Processo Eletrônico Nacional ---
 
 Aqui você encontrará os manuais atualizados dos sistemas do Processo Eletrônico Nacional (PEN). Explore e domine as ferramentas e funcionalidades do Sistema Eletrônico de Informações - SEI e da plataforma Tramita GOV.BR que já estão disponíveis com conteúdo de referência atualizado e revisado pela equipe do PEN.
 
