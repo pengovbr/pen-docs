@@ -20,9 +20,8 @@ Acesse todas essas informações no menu lateral dessa página de manuais do PEN
    :hidden:
    :titlesonly:
    
-   MANUAL-ADM/index
-
-
+   SEIADM/index
+   
 .. toctree::
    :hidden:
    :titlesonly:

@@ -1,6 +1,7 @@
-
 MANUAL DO ADMINISTRADOR SEI
 ============================
+
+.. figure:: _static/images/Manual_ADM.png
 
 Olá, 
  
