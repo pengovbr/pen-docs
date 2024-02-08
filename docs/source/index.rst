@@ -27,3 +27,9 @@ Acesse todas essas informações no menu lateral dessa página de manuais do PEN
    :titlesonly:   
 
    TRAMITA.GOV.BR/index
+
+.. toctree::
+   :hidden:
+   :titlesonly:   
+
+   Manual-de-Integração-ao-Tramita-GOV.BR/index
