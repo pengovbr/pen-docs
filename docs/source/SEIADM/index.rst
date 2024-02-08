@@ -3,7 +3,7 @@ MANUAL DO ADMINISTRADOR SEI
 
 .. figure:: _static/images/Manual_ADM.png
 
-Olá, 
+Olá! 
  
 Estamos trabalhando na criação de um Manual do Administrador completo e atualizado, ao qual você possa recorrer para resolver qualquer necessidade referente à administração do SEI que você encontrar. 
  
