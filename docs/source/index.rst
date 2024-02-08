@@ -15,7 +15,13 @@ Acesse todas essas informações no menu lateral dessa página de manuais do PEN
    :titlesonly:
    
    SEI/index
-   
+
+.. toctree::
+   :hidden:
+   :titlesonly:
+
+   SEIADM/index
+  
 .. toctree::
    :hidden:
    :titlesonly:
