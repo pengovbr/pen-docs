@@ -1,5 +1,5 @@
 
-.. figure:: _static/images/titulo_Manual_do_Usuario_do_sei.png
+.. figure:: _static/images/título-Manual-do-Tramita.png
 
 Manual de Integração ao Tramita.GOV.BR
 =====================
