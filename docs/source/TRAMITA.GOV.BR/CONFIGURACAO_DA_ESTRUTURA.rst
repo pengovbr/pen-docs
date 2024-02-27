@@ -18,7 +18,7 @@ Geração do certificado digital
 * O certificado é gerado por meio da ação “Gerar Certificado”. Antes de sair da tela de geração, não se esqueça de salvar a senha e o certificado em algum lugar seguro. O certificado é vinculado automaticamente ao órgão ou a entidade no Portal de administração e se torna confiável para o Tramita.GOV.BR.
 
 
-.. figure:: _static/images/Geracao_de_Certificado_por_meio_do_Portal_do_Barramento.png
+.. figure:: _static/images/Geracao_de_Certificado_por_meio_do_Portal_do_Barramento.gif
 
 Cadastro da Hierarquia
 ++++++++++++++++++++++
@@ -26,10 +26,12 @@ Cadastro da Hierarquia
 
 .. admonition:: Nota
 
-   Aos órgãos/entidades com estrutura hierárquica mantida pelo **SIORG, não é permitido** o cadastro de novas unidades, snedo necessário solicitar eventuais ajustes, quando necessários, à área responsável pela gestão do SIORG na organização.
+   Aos órgãos/entidades com estrutura hierárquica mantida pelo **SIORG, não é permitido** o cadastro de novas unidades, sendo necessário solicitar eventuais ajustes, quando necessários, à área responsável pela gestão do SIORG na organização.
 
  
-Já os órgãos e as entidades que não se enquadram no disposto acima poderão cadastrar ou modificar a sua estrutura, por meio da funcionalidade “Gestão do Tramita.GOV.BR ”.
+Já os órgãos e as entidades que não se enquadram no disposto acima, ou seja não é SIORG, poderão importar cadastrar ou modificar a sua estrutura, por meio da funcionalidade “Gestão do Tramita.GOV.BR ”.
+
+A possibilidade de Importar Estruturas – Ao clicar, o sistema dá a possiblidade de importar Estruturas Organizacionais por meio de de um arquivo.
 
 É responsabilidade do órgão e da entidade, em processo de implantação, definir quais e quantas unidades da sua estrutura hierárquica serão cadastradas no Portal.
 
@@ -37,9 +39,9 @@ Já os órgãos e as entidades que não se enquadram no disposto acima poderão 
 Para realizar o cadastro ou alteração de uma árvore de Unidades Administrativas, clique no botão “Hierarquia”. O sistema apresentará uma tela com algumas funcionalidades.
 
 
-.. figure:: _static/images/Opcao_Hierarquia_do_Menu.png
+.. figure:: _static/images/Opcao_Hierarquia_do_Menu.gif
 
-.. figure:: _static/images/Visualizacao_e_Edicao_da_Hierarquia.png
+.. figure:: _static/images/Visualizacao_e_Edicao_da_Hierarquia.gif
  
 Estrutura de Unidades Administrativas: As unidades são exibidas em formato de lista expansível: havendo unidades abaixo delas na hierarquia, é possível exibi-las clicando-se na seta para a direita (|seta_direita|) para expandir a lista. A lista já expandida fica assinalada com a seta para baixo (|seta_baixo|), na qual se pode clicar novamente para recolhê-la. Os níveis hierárquicos serão exibidos da esquerda para a direita, ou seja, uma unidade abaixo na hierarquia estará alinhada mais à direita que sua superior.
 
@@ -68,6 +70,8 @@ Funcionalidades de alteração na Estrutura de Unidades Administrativas:
 
 **e.Visualizar** – Ao clicar, o sistema apresenta as informações cadastrais da Unidade Administrativa selecionada.
 
+**f.Editar** - Ao clicar, o sistema apresenta as informações cadastrais da Unidade Administrativa selecionada que poderá ser editada e alterada.
+
 Cadastro de novos Gestores do Órgão/Entidade
 ++++++++++++++++++++++++++++++++++++++++++++
 
@@ -75,21 +79,21 @@ Nesta funcionalidade, o Gestor de Protocolo, previamente cadastrado e devidament
 
 Para cadastrar o Gestor, basta clicar no botão “Gestores”, como na captura de tela a seguir:
 
-.. figure:: _static/images/Menu_Gestores.png
+.. figure:: _static/images/Menu_Gestores.gif
 
 Na tela seguinte, basta clicar em “Adicionar gestor”.
 
 
-.. figure:: _static/images/Adicionar_Gestor.png
+.. figure:: _static/images/Adicionar_Gestor.gif
 
 Em seguida, deve ser inserido o CPF do gestor a ser cadastrado, clicando-se em seguida no Botão “Procurar”. Caso o novo gestor não seja localizado, o usuário deverá preencher os dados no formulário e clicar no botão “Cadastrar e adicionar como gestor de protocolo”. O acesso dos novos gestores é realizado por meio da autenticação Gov.Br.
 
-.. figure:: _static/images/Dados_do_Gestor_de_Protocolo.png
+.. figure:: _static/images/Dados_do_Gestor_de_Protocolo.gif
 
 Se o Gestor já estiver cadastrado, ao inserir um CPF e clicar no botão “Procurar”,os dados já serão resgatados automaticamente, bastando ao usuário clicar no botão “Adicionar como gestor de protocolo”.
 
 
-.. figure:: _static/images/Busca_de_Gestor_de_Protocolo_pelo_CPF.png
+.. figure:: _static/images/Busca_de_Gestor_de_Protocolo_pelo_CPF.gif
 
 
 Uma vez efetivado o cadastro, o sistema apresentará os dados do(s) Gestor(es) de Protocolo cadastrado(s).
@@ -110,18 +114,18 @@ Após esta definição, as unidades selecionadas estarão aptas a realizar o env
 
 A configuração é feita por meio da funcionalidade **Protocolo > Gestão do Tramita.GOV.BR**.
  
-.. figure:: _static/images/Botao_Sistemas.png
+.. figure:: _static/images/Botao_Sistemas.gif
 
 
 O Gestor deverá localizar seu órgão/entidade na listagem e, em seguida, clicar no botão Sistemas.
 
 
-.. figure:: _static/images/Botao_Unidades_Administrativas.png
+.. figure:: _static/images/Botao_Unidades_Administrativas.gif
 
 
 Em seguida, o Gestor deverá clicar no botão **“Unidades Administrativas”**, para definir quais serão utilizadas pelos órgãos e pelas entidades para realizar o envio externo e/ou recebimento de processos.
 
-.. figure:: _static/images/Selecao_de_Unidades_Administrativas.png
+.. figure:: _static/images/Selecao_de_Unidades_Administrativas.gif
 
 Na tela seguinte, poderá assinalar quais unidades, dentro de sua hierarquia, estarão aptas a:
 
@@ -136,7 +140,7 @@ Em seguida, clicar no botão **Salvar alterações**. O sistema apresentará uma
 Definição de unidades centralizadoras de processos/documentos
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Em complemento à definição das unidades administrativas que poderão fazer o envio e recebimento de processos externos (vide `Definição de unidades para envio e recebimento de processos externos <https://manuais.processoeletronico.gov.br/pt_BR/latest/TRAMITA.GOV.BR/CONFIGURACAO_DA_ESTRUTURA.html#definicao-de-unidades-administrativas-para-envio-e-recebimento-de-processos-externos>`_), o Tramita.GOV.BR também permite que sejam definidas unidades centralizadoras, que serão responsáveis por receber todos os processos enviados para a instituição – independente da unidade indicada pelo órgão ou pela entidade remetente na hora do envio do processo ou documento – funcionando como unidades de protocolo.`Acesso ao Ambiente de Produção.
+Em complemento à definição das unidades administrativas que poderão fazer o envio e recebimento de processos externos (vide `Definição de unidades para envio e recebimento de processos externos <https://manuais.processoeletronico.gov.br/pt_BR/latest/TRAMITA.GOV.BR/CONFIGURACAO_DA_ESTRUTURA.html#definicao-de-unidades-administrativas-para-envio-e-recebimento-de-processos-externos>`_), o Tramita.GOV.BR também permite que sejam definidas unidades centralizadoras, que serão responsáveis por receber todos os processos enviados para a instituição – independente da unidade indicada pelo órgão ou pela entidade remetente na hora do envio do processo ou documento – funcionando como unidades de protocolo. Acesso ao Ambiente de Produção.
 
 Por Exemplo: considere o cenário em que o órgão ABC definiu as seguintes unidades:
  
@@ -155,15 +159,15 @@ Ou seja, considerando os dados acima, poderíamos configurar o **Protocolo Centr
 
 Essa configuração é feita a partir da funcionalidade **Protocolo > Gestão do Tramita.GOV.BR**.
 
-.. figure:: _static/images/Funcionalidade_Unidades_Centralizadoras.png
+.. figure:: _static/images/Funcionalidade_Unidades_Centralizadoras.gif
 
 Para iniciar, o Gestor deverá escolher seu órgão/entidade e clicar no botão “Unidades Centralizadoras”.
 
-.. figure:: _static/images/Botao_Definir_novas_unidades_centralizadoras.png
+.. figure:: _static/images/Botao_Definir_novas_unidades_centralizadoras.gif
 
 Na tela seguinte, o Gestor deverá clicar no botão “Definir novas unidades centralizadoras” para definir quais serão as unidades centralizadoras do órgão.
 
-.. figure:: _static/images/Definir_Unidades_Centralizadoras.png
+.. figure:: _static/images/Definir_Unidades_Centralizadoras.gif
 
 A escolha da unidade para redirecionamento de processos é realizada por meio da marcação da caixa de seleção da referida unidade na estrutura hierárquica.
 
@@ -178,7 +182,7 @@ O Painel de Controle é uma funcionalidade, disponível aos Gestores de Protocol
 
 Esta funcionalidade pode ser acessada por meio do menu **Administração > Painel de Controle**.
  
-.. figure:: _static/images/Filtros_da_Funcionalidade_Painel_de_Controle.png
+.. figure:: _static/images/Filtros_da_Funcionalidade_Painel_de_Controle.gif
 
 
 Função que permite consultar por todos os Sistemas de Processo Administrativo Eletrônico - SPE ou selecionar um SPE específico.
@@ -189,7 +193,7 @@ Função que permite selecionar os dados do Gráfico por percentual ou por quant
 
 Função que permite gerar o Painel de Controle dos trâmites por situação.
 
-.. figure:: _static/images/Resultado_da_Pesquisa_do_Painel_de_Controle.png
+.. figure:: _static/images/Resultado_da_Pesquisa_do_Painel_de_Controle.gif
 
 Função que permite selecionar uma situação do trâmite ou todas as situações.
 
@@ -197,17 +201,24 @@ IDT, ou “Identificação do Trâmite”. É um número único que identifica c
 
 NRE significa o Número do Registro do Trâmite. O NRE é o número de protocolo do Tramita.GOV.BR, independente de quantas vezes o processo for tramitado entre SPEs, esse recebe o mesmo número.
  
-Ao clicar no Número do IDT, o sistema apresentará uma tela com as **Informações** do remetente e do destinatário, informações do **Recibo**, **Situação** atual do trâmite e os **Componentes** do trâmite, conforme abaixo:
+Ao clicar no Número do IDT, o sistema apresentará uma tela com as Informações ( Trâmite, Remetente e Destinatário), Recibo ( Recibo de Envio e Recibo de Trâmite) , Situação ( Data/Hora e Situação Atual do Trâmite) e Componentes ( Ordem, Documento, Espécie, Nível de Restrição, Avulso, Hash, Tipo de Conteúdo, Mime Type e Tamanho de cada arquivo e o tamanho Total dos arquivos) do trâmite, conforme abaixo:
 
-.. figure:: _static/images/Informações_do_Tramite.png
+**A. Informações** – Informações detalhada do trâmite, o sistema apresenta do Trâmite ( Tipo, Descrição e Nível de Acesso) e do Remetente e do Destinatário ( Repositório, órgão, SPE vinculado, tipo de autenticação )
 
-
-**A. Informações** – Informações detalhada do trâmite, o sistema apresenta o Repositório, órgão, SPE vinculado, tipo de autenticação do remetente e do destinatário.
+.. figure:: _static/images/Informações_do_Tramite.gif
 
 **B. Recibo** – São os recibos que são trocados entre os dois sistemas para confirmar os envios e recebimento dos documentos.
 
+.. figure:: _static/images/Painel_de_Controle_02_Informacoes_para_Recibo.gif
+
 **C. Situações** – O sistema apresenta a situação atual do trâmite com data e hora. Para Cada IDT, pode haver uma ou várias situações do Trâmite. Se o trâmite é concluído com recusa, será exibida uma nova aba com o motivo da recusa.
 
-**D. Componentes** – São os arquivos que foram tramitados no IDT. o sistema apresenta o nome, Hash, tipo de conteúdo, MimeType e o tamanho em bytes dos arquivos.
+.. figure:: _static/images/Painel_de_Controle_03_Informacoes_para_Situacao.gif
+
+**D. Componentes** – São os componentes digitais que foram tramitados no IDT. O sistema apresenta a Ordem, Documento, Espécie, Nível de Restrição, Avulso, Hash, Tipo de Conteúdo, MimeType e Tamanho individual e Total dos arquivos do trâmite.
+
+.. figure:: _static/images/Painel_de_Controle_04_Informacoes_para_Componentes.gif
 
 **E. Recusa** –  É exibida apenas quando o trâmite é concluído com recusa. Com essa aba é possível consultar a justificativa de recusa do processo ou documento avulso.
+
+.. figure:: _static/images/GifRecusasTramita.gif
