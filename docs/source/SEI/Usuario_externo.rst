@@ -118,7 +118,6 @@ A tela “**Gerenciar Assinaturas Externas**” será aberta. Nela, o usuário d
 
 .. figure:: _static/images/10-UE-tela_selecionar_protocolos_acesso_externo_transpor.gif
 
-* **Permitir Inclusão de Documentos**: flag que possibilita ao usuário permitir que o usuário externo inclua documentos no processo. Ao selecionar esta flag, o campo “Tipos de documentos liberados para inclusão” será aberto. Nele, o usuário poderá definir os tipos de documentos para esta liberação por meio do ícone de pesquisa |Pesquisar|.
 * **Validade (dias)**: indicar o tempo, em dias úteis, que o documento ficará disponível para assinatura do usuário externo.
 * **Senha**: campo para inclusão da senha SEI.
 
