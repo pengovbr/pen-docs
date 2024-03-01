@@ -66,7 +66,7 @@ Pré-requisitos
 -  Usuário de acesso ao banco de dados do SEI e SIP com permissões para
    criar novas estruturas no banco de dados
 -  Certificado Digital de autenticação de sistema no Barramento do PEN
-   emitido pela equipe do Processo Eletrônico Nacional após aprovação do
+   emitido pela equipe do Tramita GOV.BR após aprovação do
    Comitê Gestor de Protocolo.
 -  Importante ressaltar que para compatibilidade com o SEI versão 4, e
    suas futuras atualizações, o órgão deverá se atentar ao changelog de
@@ -218,7 +218,7 @@ do módulo, conforme apresentado abaixo:
 -  **LocalizacaoCertificado**
    Localização completa do certificado digital utilizado para
    autenticação nos serviços do Tramita.GOV.BR. Os certificados digitais
-   são disponibilizados pela equipe do Processo Eletrônico Nacional
+   são disponibilizados pela equipe do Tramita GOV.BR
    mediante aprovação do credenciamento da instituição. Verifique a
    seção `pré-requisitos <#pré-requisitos>`__ para maiores informações.
    Necessário que o arquivo de certificado esteja localizado dentro da
@@ -432,7 +432,7 @@ Repositório de Estruturas:
 
 | *Identificador do repositório de origem do órgão na estrutura
   organizacional. Este identificador é informado para a instituição pela
-  equipe do Processo Eletrônico Nacional no envio do pacote de
+  equipe do Tramita GOV.BR no envio do pacote de
   integração.*
 | Exemplo: Poder Executivo Federal - *Valor 1 (Código de identificação
   da estrutura organizacional do Poder Executivo Federal)*
@@ -502,11 +502,11 @@ tenha um e-mail configurado em seu cadastro de contato.*
 Acesse a funcionalidade **[SEI > Administração > Processo Eletrônico
 Nacional > Mapeamento de Unidades]** para configurar as unidades
 administrativas do SEI com as respectivas unidades habilitadas no Portal
-do Processo Eletrônico Nacional para envio e recebimento de processos.
+do Tramita GOV.BR para envio e recebimento de processos.
 
 As unidades administrativas que estão habilitadas para envio e
 recebimento de processos são gerenciadas pela própria instituição no
-Portal do Processo Eletrônico Nacional. Veja seção `Pré-condições para
+Portal do Tramita GOV.BR. Veja seção `Pré-condições para
 utilização <#pré-condições>`__
 
 Primeiro selecione a unidade administrativa do SEI no campo de seleção e
@@ -536,9 +536,9 @@ Este mapeamento precisa ser feito tanto para o envio de processos como
 para o recebimento, sendo necessário realizar a configuração através das
 duas funcionalidades apresentadas abaixo:
 
--  SEI > Administração > Processo Eletrônico Nacional > Mapeamento de
+-  SEI > Administração > Tramita GOV.BR > Mapeamento de
    Tipos de Documentos > **Envio**
--  SEI > Administração > Processo Eletrônico Nacional > Mapeamento de
+-  SEI > Administração > Tramita GOV.BR > Mapeamento de
    Tipos de Documentos > **Recebimento**
 
 2.3.1. Atribuição de Espécie Documental Padrão para Envio
@@ -555,7 +555,7 @@ através da funcionalidade:
 
 ::
 
-   [SEI > Administração > Processo Eletrônico Nacional > Mapeamento de Tipos de Documentos > **Envio > Botão "Atribuir Espécie Padrão"**]
+   [SEI > Administração > Tramita GOV.BR > Mapeamento de Tipos de Documentos > **Envio > Botão "Atribuir Espécie Padrão"**]
 
 2.3.2. Atribuição de Tipo de Documento Padrão para Recebimento
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
@@ -571,7 +571,7 @@ através da funcionalidade:
 
 ::
 
-   [SEI > Administração > Processo Eletrônico Nacional > Mapeamento de Tipos de Documentos > **Recebimento > Botão "Atribuir Tipo de Documento Padrão"**]
+   [SEI > Administração > Tramita GOV.BR > Mapeamento de Tipos de Documentos > **Recebimento > Botão "Atribuir Tipo de Documento Padrão"**]
 
 PS: Somente Tipos de Documento com aplicabilidade ‘Externa’ ou ‘Interna
 e Externa’ podem ser selecionados para esta configuração.
@@ -595,9 +595,9 @@ Este mapeamento precisa ser feito tanto para o envio de processos como
 para o recebimento, sendo necessário realizar a configuração através das
 duas funcionalidades apresentadas abaixo:
 
--  SEI > Administração > Processo Eletrônico Nacional > Mapeamento de
+-  SEI > Administração > Tramita GOV.BR > Mapeamento de
    Hipóteses Legais > **Envio**
--  SEI > Administração > Processo Eletrônico Nacional > Mapeamento de
+-  SEI > Administração > Tramita GOV.BR > Mapeamento de
    Hipóteses Legais > **Recebimento**
 
 2.4.1 Hipótese de Restrição Padrão
@@ -1084,7 +1084,7 @@ o seguinte parâmetro de inicialização: OPTIONS=“–listen=127.0.0.1”
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 O formato do certificado digital utilizado pela integração do do SEI com
-o Processo Eletrônico Nacional é o PEM, com isto, os certificados em
+o Tramita GOV.BR é o PEM, com isto, os certificados em
 outros formatos devem ser convertidos para este formato. Para converter
 o arquivo p12 para PEM, utilize o seguinte comando. ps: Podem existir
 pequenas variações de acordo com a distribuição do Linux utilizada
@@ -1095,10 +1095,10 @@ openssl pkcs12 –nodes -in -out
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Para realizar a configuração do sistema de processo eletrônico na
-infraestrutura de serviços do Processo Eletrônico Nacional, é necessário
+infraestrutura de serviços do Tramita GOV.BR, é necessário
 a utilização de um Certificado Digital válido que deverá ter suas
 informações de Fingerprint e Common Name repassadas para a equipe do
-Processo Eletrônico Nacional fazer as devidas configurações do órgão.
+Tramita GOV.BR fazer as devidas configurações do órgão.
 Com isto, para obter tais informações do certificado digital, os
 seguintes comandos podem ser uitlizados, lembrando que podem existir
 pequenas variações de acordo com a distribuição do Linux utilizada:
@@ -1216,7 +1216,7 @@ Exemplo:
 
 Em caso de dúvidas ou problemas durante o procedimento de atualização,
 favor entrar em conta pelos canais de atendimento disponibilizados na
-Central de Atendimento do Processo Eletrônico Nacional, que conta com
+Central de Atendimento do Tramita GOV.BR, que conta com
 uma equipe para avaliar e responder esta questão de forma mais rápida
 possível.
 

@@ -1,4 +1,4 @@
-Módulo de Integração do Processo Eletrônico Nacional - PEN
+Módulo de Integração do Tramita GOV.BR - PEN
 ==========================================================
 
 O módulo **PEN** é o responsável por integrar o Sistema Eletrônico de
@@ -110,7 +110,7 @@ Para maiores informações sobre o Comitê Gestor de Protocolo, consulte o
 `manual
 específico <http://processoeletronico.gov.br/images/documentacao/Manual_do_Barramento_PEN_GESTOR7rdz.pdf>`__.
 Todos os detalhes do procedimento de adeção também podem ser encontrados
-na seção “Como Aderir” no site do Processo Eletrônico Nacional. Link:
+na seção “Como Aderir” no site do Tramita GOV.BR. Link:
 http://processoeletronico.gov.br/index.php/assuntos/produtos/barramento/como-aderir-barramento
 
 O Tramita.GOV.BR permite a participação de órgãos e entidades de outros
