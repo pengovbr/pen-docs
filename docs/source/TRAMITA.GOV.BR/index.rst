@@ -8,7 +8,7 @@ MANUAL TRAMITA.GOV.BR
 Apresentação
 +++++++++++++
 
-Este manual operacional se destina a apresentar procedimentos para a implantação e utilização da plataforma de comunicação, o **Tramita.GOV.BR**, integrante do Processo Eletrônico Nacional (PEN), disponibilizada pela Secretaria de Gestão e Inovação do Ministério da Gestão e da Inovação em Serviços Públicos, no âmbito dos órgãos e entidades da Administração Pública Federal direta, autárquica e fundacional. 
+Este manual operacional se destina a apresentar procedimentos para a implantação e utilização da plataforma de comunicação, o **Tramita.GOV.BR**, integrante do Tramita GOV.BR, disponibilizada pela Secretaria de Gestão e Inovação do Ministério da Gestão e da Inovação em Serviços Públicos, no âmbito dos órgãos e entidades da Administração Pública Federal direta, autárquica e fundacional. 
 
 O **Tramita.GOV.BR**, destina-se à tramitação de processos administrativos eletrônicos e ou documentos avulsos, em meio eletrônico, entre os diversos Sistemas de Processo Administrativo Eletrônico (SPE) existentes, com incrementos de segurança, integridade, agilidade e redução de custos no serviço público. 
 
@@ -29,7 +29,7 @@ Assim, visando minimizar eventuais dúvidas e dificuldades na implantação de r
 Introdução
 ++++++++++
 
-Este Manual operacional, primeiro a ser publicado sobre a temática do Processo Eletrônico Nacional (PEN), tem o objetivo de inaugurar uma nova etapa nas comunicações administrativas no âmbito da Administração Pública Federal direta, autárquica e fundacional. 
+Este Manual operacional, primeiro a ser publicado sobre a temática do Tramita GOV.BR, tem o objetivo de inaugurar uma nova etapa nas comunicações administrativas no âmbito da Administração Pública Federal direta, autárquica e fundacional. 
 
 O Tramita.GOV.BR, plataforma disponibilizada e gerenciada pela Secretaria de Gestão e Inovação do Ministério da Gestão e da Inovação em Serviços Públicos, permite o trâmite de processos administrativos eletrônicos ou documentos avulsos entre os diversos sistemas existentes, tais como SEI, Sistema AGU de Inteligência Jurídica (SAPIENS), Sistema Integrado de Protocolização e Fluxo de Documentos Eletrônicos (e-DOC), Sistema Integrado de Patrimônio, Administração e Contratos (SIPAC Protocolo), Sistema Unificado de Administração Pública (SUAP), dentre outros. Compõem a estrutura do Tramita.GOV.BR: 
 

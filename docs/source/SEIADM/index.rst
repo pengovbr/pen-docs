@@ -11,5 +11,5 @@ Enquanto não disponibilizamos este material, você pode acessar a documentaçã
  
 Atenciosamente,
  
-Equipe do Processo Eletrônico Nacional
+Equipe do Tramita GOV.BR
 

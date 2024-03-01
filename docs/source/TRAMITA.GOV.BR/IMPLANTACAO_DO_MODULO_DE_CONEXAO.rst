@@ -3,7 +3,7 @@ Implantação do Módulo de Conexão
 
 Após completar o cadastro no Tramita.GOV.BR, inicia-se o processo de implantação do módulo que permitirá a conexão do SPE ao Tramita.GOV.BR.
 
-Os órgãos e as entidades que adotam o SEI como Sistema de Processo Administrativo Eletrônico devem instalar o módulo disponível no repositório do Processo Eletrônico Nacional no portal GitHub: `Link <https://github.com/pengovbr/mod-sei-pen>`_.
+Os órgãos e as entidades que adotam o SEI como Sistema de Processo Administrativo Eletrônico devem instalar o módulo disponível no repositório do Tramita GOV.BR no portal GitHub: `Link <https://github.com/pengovbr/mod-sei-pen>`_.
 
 Caso adote outro sistema, o órgão ou a entidade receberá por meio de e-mail as orientações para o desenvolvimento da solução de interoperabilidade com o Tramita.GOV.BR.
 
@@ -19,7 +19,7 @@ Após a realização das configurações necessárias no Portal do Administraç�
 * A Realização do Mapeamento de Tipos de Documento – Envio;
 * A Realização do Mapeamento de Tipos de Documento – Recebimento.
 
-Em ambiente de homologação, o Processo Eletrônico Nacional (PEN) disponibiliza quatro ambientes para testes e realizações.
+Em ambiente de homologação, o Tramita GOV.BR disponibiliza quatro ambientes para testes e realizações.
 
 *Ambiente 1*
 

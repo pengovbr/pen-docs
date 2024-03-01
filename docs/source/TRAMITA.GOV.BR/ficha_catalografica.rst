@@ -8,15 +8,15 @@ Ficha Catalográfica
    
          Brasil. Ministério da Economia. Secretaria        
                Especial de Desburocratização. Departamento do 
-               Processo Eletrônico Nacional em Rede                                                    
+               Tramita GOV.BR em Rede                                                    
              Caderno do PEN : manual operacional do Tramita.GOV.BR / Ministério da                        
          Economia, Secretaria Especial de Desburocratização, Gestão e Governo Digital                
-         Secretaria de Gestão, Departamento do Processo Eletrônico Nacional em Rede. --            
+         Secretaria de Gestão, Departamento do Tramita GOV.BR em Rede. --            
          Brasília: DTPRO/SEGES/Ministério da Economia, 2022.           
              27 p. : il.                                                                      
                                                                                              
                                                                                              
-             1. Processo eletrônico Nacional – Basil. 2. Tramitação de Processos e 
+             1. Tramita GOV.BR – Basil. 2. Tramitação de Processos e 
          Documentos. 3. Documento Digital. 4. Processo eletrônico. 5. Administração pública
          Federal. 6. Brasil. Secretatia Especial de Desburocratização, Gestão e Governo
          Digital. I. Título. II. Manual operacional do Tramita.GOV.BR.               

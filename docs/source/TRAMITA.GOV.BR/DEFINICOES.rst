@@ -19,11 +19,11 @@ Definições
 
 * **Portal de Administração**: site de gerenciamento do Tramita.GOV.BR, utilizado pelos gestores de protocolos. No site é possível configurar unidades administrativas e unidades centralizadoras, cadastrar novos gestores e monitorar os trâmites de processos por meio do Painel de Controle. 
 
-* **Portal do Processo Eletrônico Nacional**: Site oficial do PEN, que consolida todas as informações relacionadas ao TramitaGOV.BR, mantido pela Secretaria de Gestão e Inovação do Ministério da Gestão e da Inovação em Serviços Públicos.
+* **Portal do Tramita GOV.BR**: Site oficial do PEN, que consolida todas as informações relacionadas ao TramitaGOV.BR, mantido pela Secretaria de Gestão e Inovação do Ministério da Gestão e da Inovação em Serviços Públicos.
 
 * **Processo administrativo eletrônico**: conjunto de documentos digitais, oficialmente reunidos e ordenados no decurso de uma ação administrativa, cujos atos processuais são registrados e disponibilizados em meio eletrônico. 
 
-* **Processo Eletrônico Nacional (PEN)**: infraestrutura pública de processo administrativo eletrônico, que visa à obtenção de substanciais melhorias no desempenho da gestão processual, com ganhos em agilidade, produtividade, satisfação do público usuário e redução de custos. 
+* **Tramita GOV.BR**: infraestrutura pública de processo administrativo eletrônico, que visa à obtenção de substanciais melhorias no desempenho da gestão processual, com ganhos em agilidade, produtividade, satisfação do público usuário e redução de custos. 
 
 * **Sistema de Processo Administrativo Eletrônico (SPE)**: sistema informatizado de gerenciamento de processos administrativos eletrônicos e documentos avulsos, em meio eletrônico, utilizado por órgão ou entidade pública, no exercício das suas atividades administrativas. 
 
