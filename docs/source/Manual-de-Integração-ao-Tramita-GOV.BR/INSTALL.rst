@@ -3,7 +3,7 @@ Manual de Instalação do Módulo de Integração do Tramita.gov.br
 
 O objetivo deste documento é descrever os procedimento para realizar a
 INSTALAÇÃO INICIAL do Módulo de Integração com o Tramita.GOV.BR
-(**mod-sei-pen**) no Sistema Eletrônico de Informações (SEI).
+(**mod-sei-tramitagovbr**) no Sistema Eletrônico de Informações (SEI).
 
 **ATENÇÃO: Caso o módulo já se encontre instalado em uma versão
 anterior, siga as instruções detalhadas de atualização no documento
@@ -54,7 +54,7 @@ Este documento está estruturado nas seguintes seções:
 -------------
 
 | Esta seção descreve os passos obrigatórios para **INSTALAÇÃO** do
-  **``**mod-sei-pen**``**.
+  **``**mod-sei-tramitagovbr**``**.
 | Todos os itens descritos nesta seção são destinados à equipe de
   tecnologia da informação, responsáveis pela execução dos procedimentos
   técnicos de instalação e manutenção da infraestrutura do SEI.
@@ -105,11 +105,11 @@ módulo e, por isto, todas estas informações precisam ser resguardadas.
 
 --------------
 
-1.2. Baixar o arquivo de distribuição do **mod-sei-pen**
+1.2. Baixar o arquivo de distribuição do **mod-sei-tramitagovbr**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Necessário realizar o *download* do pacote de distribuição do módulo
-**mod-sei-pen** para instalação ou atualização do sistema SEI. O pacote
+**mod-sei-tramitagovbr** para instalação ou atualização do sistema SEI. O pacote
 de distribuição consiste em um arquivo zip com a denominação
 **mod-sei-pen-VERSAO**.zip e sua última versão pode ser encontrada em
 https://github.com/spbgovbr/mod-sei-pen/releases
@@ -127,8 +127,8 @@ uma pasta contendo a seguinte estrutura:
    /**mod-sei-pen**-VERSAO 
        /sei              # Arquivos do módulo posicionados corretamente dentro da estrutura do SEI
        /sip              # Arquivos do módulo posicionados corretamente dentro da estrutura do SIP
-       INSTALACAO.md     # Instruções de instalação do **mod-sei-pen**
-       ATUALIZACAO.md    # Instruções de atualização do **mod-sei-pen**    
+       INSTALACAO.md     # Instruções de instalação do **mod-sei-tramitagovbr**
+       ATUALIZACAO.md    # Instruções de atualização do **mod-sei-tramitagovbr**    
        NOTAS_VERSAO.MD   # Registros de novidades, melhorias e correções desta versão
 
 Importante enfatizar que os arquivos contidos dentro dos diretórios
@@ -152,7 +152,7 @@ abaixo pelo número de versão do módulo que está sendo instalado
 
 --------------
 
-1.4. Habilitar módulo **mod-sei-pen** no arquivo de configuração do SEI
+1.4. Habilitar módulo **mod-sei-tramitagovbr** no arquivo de configuração do SEI
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Esta etapa é padrão para a instalação de qualquer módulo no SEI para que
@@ -181,7 +181,7 @@ indicada acima:
 1.5. Configurar os parâmetros do Módulo de Integração PEN
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-A instalação da nova versão do **mod-sei-pen** cria um arquivo de
+A instalação da nova versão do **mod-sei-tramitagovbr** cria um arquivo de
 configuração específico para o módulo dentro da pasta de configuração do
 SEI (**/sei/config/mod-pen/**).
 
@@ -275,12 +275,12 @@ do módulo, conforme apresentado abaixo:
 
 --------------
 
-1.6. Atualizar a base de dados do SIP com as tabelas do **mod-sei-pen**
+1.6. Atualizar a base de dados do SIP com as tabelas do **mod-sei-tramitagovbr**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 A atualização realizada no SIP não cria nenhuma tabela específica para o
 módulo, apenas é aplicada a criarção os recursos, permissões e menus de
-sistema utilizados pelo **mod-sei-pen**. Todos os novos recursos criados
+sistema utilizados pelo **mod-sei-tramitagovbr**. Todos os novos recursos criados
 possuem o prefixo **pen\_** para fácil localização pelas funcionalidades
 de gerenciamento de recursos do SIP.
 
@@ -293,11 +293,11 @@ O script de atualização da base de dados do SIP fica localizado em
 
 --------------
 
-1.7. Atualizar a base de dados do SEI com as tabelas do **mod-sei-pen**
+1.7. Atualizar a base de dados do SEI com as tabelas do **mod-sei-tramitagovbr**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Nesta etapa é instalado/atualizado as tabelas de banco de dados
-vinculadas do **mod-sei-pen**. Todas estas tabelas possuem o prefixo
+vinculadas do **mod-sei-tramitagovbr**. Todas estas tabelas possuem o prefixo
 **md_pen\_** para organização e fácil localização no banco de dados.
 
 O script de atualização da base de dados do SIP fica localizado em
@@ -330,7 +330,7 @@ A partir da versão SEI 3.1.x, o agendamento de tarefas do sistema pode
 ser executado em uma periodicidade de minutos, o que não era possível em
 versões anteriores (SEI 3.0.X).
 
-Com esta melhoria no SEI, o módulo mod-sei-pen 2.0.0 passou a utilizar o
+Com esta melhoria no SEI, o módulo mod-sei-tramitagovbr 2.0.0 passou a utilizar o
 próprio agendamento de tarefas do sistema para realizar a consulta de
 novos processos no Tramita.GOV.BR, simplificando consideravelmente os
 procedimentos de instalação e configuração do módulo.
@@ -371,7 +371,7 @@ Portanto, a periodicidade do serviço CRON deve estar configurado como:
 1.10. Verificação e testes da instalação do módulo
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-A versão 2.0.0 do **mod-sei-pen** adiciona um novo script utilitário ao
+A versão 2.0.0 do **mod-sei-tramitagovbr** adiciona um novo script utilitário ao
 SEI para que seja realizada uma verificação de todos os passos da
 instalação, assim como as configurações aplicadas. Estas verificações
 funcionam como um diagnóstico do correto funcionamento do sistema.
@@ -394,9 +394,9 @@ módulo é este apresentado abaixo:
        - Arquivos do módulo posicionados corretamente
        - Módulo corretamente ativado no arquivo de configuracao do sistema
        - Parâmetros técnicos obrigatórios de integração atribuídos em ConfiguracaoModPEN.php
-       - Verificada a compatibilidade do **mod-sei-pen** com a atual versão do SEI
+       - Verificada a compatibilidade do **mod-sei-tramitagovbr** com a atual versão do SEI
        - Certificado digital localizado e corretamente configurado
-       - Base de dados do SEI corretamente atualizada com a versão atual do **mod-sei-pen**
+       - Base de dados do SEI corretamente atualizada com a versão atual do **mod-sei-tramitagovbr**
        - Conexão com o Tramita.GOV.BR realizada com sucesso
        - Acesso aos dados do Comitê de Protocolo vinculado ao certificado realizado com sucesso
 
@@ -519,7 +519,7 @@ habilitada no Tramita.GOV.BR.
 2.3. Mapeamento de Tipos de Documentos do SEI com as Espécies Documentais do PEN
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-A partir da versão **mod-sei-pen** 2.0.0, os mapeamentos dos Tipos de
+A partir da versão **mod-sei-tramitagovbr** 2.0.0, os mapeamentos dos Tipos de
 Documentos do SEI são realizados de forma automática durante a
 instalação do módulo ou automaticamente através do agendamento de
 tarefas **PENAgendamentoRN::atualizarInformacoesPEN**.
@@ -739,7 +739,7 @@ Onde:
 3.1.5. Verificação da instalação e configuração do Gearman
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-O script de verificação da instalação do **mod-sei-pen** 2.0.0 também
+O script de verificação da instalação do **mod-sei-tramitagovbr** 2.0.0 também
 pode ser utilizado para validar se os passos da instalação foram
 realizadas com sucesso e se o módulo está conextando corretamente ao
 servidor do Gearmand.
@@ -762,9 +762,9 @@ módulo é este apresentado abaixo:
        - Arquivos do módulo posicionados corretamente
        - Módulo corretamente ativado no arquivo de configuracao do sistema
        - Parâmetros técnicos obrigatórios de integração atribuídos em ConfiguracaoModPEN.php
-       - Verificada a compatibilidade do **mod-sei-pen** com a atual versão do SEI
+       - Verificada a compatibilidade do **mod-sei-tramitagovbr** com a atual versão do SEI
        - Certificado digital localizado e corretamente configurado
-       - Base de dados do SEI corretamente atualizada com a versão atual do **mod-sei-pen**
+       - Base de dados do SEI corretamente atualizada com a versão atual do **mod-sei-tramitagovbr**
        - Conexão com o Tramita.GOV.BR realizada com sucesso
        - Acesso aos dados do Comitê de Protocolo vinculado ao certificado realizado com sucesso
        - Conexão com o servidor de processamento de tarefas Gearman realizada com sucesso
@@ -781,7 +781,7 @@ PHP envolvidos com o envio e recebimento de processos ficaram
 indisponíveis em caso de falha ou indisponibilidade do sistema, o que
 poderia acarretar atrasos no recebimento de documentos.
 
-A partir da versão **mod-sei-pen** 2.0.0, este componente passou a ser
+A partir da versão **mod-sei-tramitagovbr** 2.0.0, este componente passou a ser
 opcional pois o próprio agendamento de tarefas do SEI ficará encarregado
 de obter os processos pendentes do Barramento e processar seu
 recebimento. Tarefas executadas a cada 2 minutos, seguindo a
@@ -1195,7 +1195,7 @@ destinatário.
 
    | [!IMPORTANT]
    | **Atenção!** Esse parâmetro somente poderá ser ativado para os
-     órgãos que já possuem o módulo **mod-sei-pen** na versão 3.3.0 ou
+     órgãos que já possuem o módulo **mod-sei-tramitagovbr** na versão 3.3.0 ou
      superior. O destino também deve ter que estar compatível para
      receber o trâmite parcial. Para o SEI o destino e o envio deve ter
      o módulo com versão 3.3.0 ou superior. Para outros sistemas entrar
