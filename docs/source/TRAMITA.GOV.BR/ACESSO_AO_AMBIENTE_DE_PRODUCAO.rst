@@ -3,7 +3,7 @@ Acesso ao Ambiente de Produção
 
 Após a conclusão dos procedimentos em ambiente de homologação, o órgão ou a entidade será autorizado a replicar as configurações de que tratam os capítulos `Configuração da Estrutura <https://manuais.processoeletronico.gov.br/pt_BR/latest/TRAMITA.GOV.BR/CONFIGURACAO_DA_ESTRUTURA.html#configuracoes-da-estrutura>`_ , `Implantação do Módulo de Conexão <https://manuais.processoeletronico.gov.br/pt_BR/latest/TRAMITA.GOV.BR/IMPLANTACAO_DO_MODULO_DE_CONEXAO.html#implantacao-do-modulo-de-conexao>`_ e `Acesso ao Ambiente de Produção <https://manuais.processoeletronico.gov.br/pt_BR/latest/TRAMITA.GOV.BR/ACESSO_AO_AMBIENTE_DE_PRODUCAO.html#acesso-ao-ambiente-de-producao>`_ em ambiente de produção, de modo a minimizar a possibilidade de erros que possam vir a impactar os trâmites na plataforma. Como é no ambiente de Produção que os trâmites reais são realizados, os requisitos estabelecidos em ambiente de homologação são realmente necessários para que a experiência de utilização do Tramita.GOV.BR seja positiva.
 
-O acesso ao Portal de Administração do Tramita.GOV.BR é feito pelo endereço http://gestaopen.processoeletronico.gov.br.
+O acesso ao Portal de Administração do Tramita.GOV.BR é feito pelo endereço http://gestaopen.processoeletronico.gov.br
 
 .. admonition:: Notas
    
