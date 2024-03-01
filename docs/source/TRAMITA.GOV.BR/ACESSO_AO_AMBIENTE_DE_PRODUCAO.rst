@@ -39,62 +39,138 @@ Definição dos Status
 
 O trâmite de um processo administrativo eletrônico e/ou documento avulso, em meio eletrônico, pode passar pelos seguintes “status”:
 
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Status 1                                                                                                                                                                                                            | 
++========================+============================================================================================================================================================================================+
+|  Descrição             | Aguardando o envio dos arquivos digitais.                                                                                                                                                  |
++------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|O que signifca o status?| As informações básicas (número, descrição, interessado, relação de documentos etc.) foram fornecidas e recebidas pelo Tramita GOV.BR, porém o sistema está aguardando o envio dos arquivos.|
++------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Onde está o processo?   | Sistema de processo eletrônico de origem.                                                                                                                                                  |
++------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|O que pode ser feito?   | O trâmite do processo pode ser cancelado manualmente pelo usuário do sistema de origem.                                                                                                    |
++------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-.. list-table::
-   :header-rows: 1
 
-   - * Status
-     * Descrição
-     * O que significa o status?
-     * Onde está o processo?
-     * O processo ficou parado nesse status, o que posso fazer?
-   - * 1
-     * Aguardando o envio dos arquivos digitais
-     * As informações gerais (número, descrição, interessado, relação de documentos etc.) foram recebidas pelo Barramento, que está aguardando o envio dos arquivos do processo/documento
-     * Sistema de processo administrativo eletrônico remetente
-     * O trâmite do processo pode ser cancelado manualmente por usuário do sistema remetente
-   - * 2
-     * Arquivos digitais recebidos pelo Barramento
-     * Os arquivos digitais do processo foram recebidos pelo Barramento e validados quanto à integridade. O Barramento aguarda o Sistema de processo eletrônico destinatário buscar as informações do processo.
-     * Tramita.GOV.BR
-     * O trâmite do processo pode ser cancelado pelo usuário do sistema remetente. Caso o processo/documento tenha ficado parado no status 2, provavelmente o sistema destinatário está com problema no recebimento. Ente em contato com um dos gestores de protocolo do órgão/entidade destinatário.
-   - * 3
-     * Metadados recebidos pelo sistema de processo eletrônico destinatário
-     * As informações gerais (número, descrição, interessado, relação de documentos etc.) foram recebidas pelo sistema de processo eletrônico destinatário. Aguardando a transferência dos arquivos digitais para o sistema destinatário
-     * Tramita.GOV.BR
-     * Caso o processo/documento tenha ficado parado no status 3 será necessário verificar se o sistema destinatário está com problema no recebimento. Entre em contato com um dos gestores de protocolo do órgão/entidade destinatário.
-   - * 4
-     * Arquivos digitais recebidos pelo destinatário
-     * Os arquivos digitais foram recebidos pelo sistema de processo eletrônico destinatário. O Barramento aguarda o Sistema destinatário enviar o recibo de conclusão do trâmite.
-     * Sistema de processo administrativo eletrônico destinatário
-     * Caso o processo/documento tenha ficado parado no status 4 será necessário verificar se o sistema destinatário está com problema no recebimento. Entre em contato com um dos gestores de protocolo do órgão/entidade destinatário.
-   - * 5
-     * Recibo de conclusão recebido pelo Barramento
-     * O sistema de processo eletrônico destinatário validou a integridade do processo e enviou o recibo de conclusão do trâmite para o Barramento.
-     * Sistema de processo administrativo eletrônico destinatário
-     * Caso o processo esteja parado no status 5 será necessário verificar se o sistema de remetente está indisponível. Entre em contato com um dos gestores de protocolo do órgão/entidade remetente.
-   - * 6
-     * Recibo de conclusão recebido pelo remetente
-     * O recibo de conclusão do trâmite foi recebido pelo sistema de processo eletrônico remetente.
-     * Sistema de processo administrativo eletrônico destinatário
-     * --
-   - * 7
-     * Trâmite cancelado
-     * O trâmite foi cancelado manualmente por usuário no sistema de processo eletrônico remetente ou por falha na transferência dos dados do processo. Por exemplo: usuário do sistema remetente identifica que o trâmite foi realizado para o destinatário errado e cancela o envio.
-     * Sistema de processo administrativo eletrônico remetente
-     * --
-   - * 8
-     * Trâmite recusado. Aguardando ciência do remetente
-     * O trâmite foi recusado pelo sistema de processo eletrônico destinatário por alguma falha na validação dos dados recebidos e aguarda ciência do sistema remetente, para desbloqueio do processo. Por exemplo: o formato de arquivo não é aceio pelo sistema destinatário
-     * Tramita.GOV.BR
-     * Caso o trâmite tenha ficado parado no status 8 será necessário verificar se o sistema remetente está com problema de comunicação com o Barramento.
-   - * 9
-     * Ciência da recusa recebido pelo remetente
-     * O trâmite é cancelado automaticamente pelo barramento após o prazo estabelecido pelos Administradores do Barramento. Apenas os trâmites com status 1,2 e 3 podem ser cancelados automaticamente.
-     * Sistema de processo administrativo eletrônico remetente
-     * --
-   - * 10
-     * Trâmite cancelado automaticamente
-     * O trâmite é cancelado automaticamente pelo barramento após o prazo estabelecido pelos Administradores do Barramento. Apenas os trâmites com status 1,2 e 3 podem ser cancelados automaticamente.
-     * Sistema de processo administrativo eletrônico remetente
-     * --
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Status 2                                                                                                                                                                                                                                    | 
++========================+====================================================================================================================================================================================================================+
+|  Descrição             | Arquivos digitais recebidos pelo Tramita GOV.BR.                                                                                                                                                                   |
++------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|O que signifca o status?| Os arquivos digitais do processo foram recebidos e validados quanto à integridade pelo Tramita GOV.BR. A plataforma aguarda o Sistema de Processo Eletrônico de destino buscar as informações do processo.         |
++------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Onde está o processo?   | Tramita GOV.BR                                                                                                                                                                                                     |
++------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|O que pode ser feito?   | O trâmite do processo pode ser cancelado pelo usuário do sistema de origem.                                                                                                                                        |
+|                        |                                                                                                                                                                                                                    | 
+|                        | Caso o processo esteja parado no status 2, é muito provável que o sistema de destino esteja com problemas para recebimento. Nessa situação, entre em contato com um dos gestores de protocolo do órgão de destino. |                                                                                          
++------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Status 3                                                                                                                                                                                                                                                                            | 
++========================+============================================================================================================================================================================================================================================================+
+|  Descrição             | Metadados recebidos pelo sistema de processo eletrônico destinatário                                                                                                                                                                                       |
++------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|O que signifca o status?| As informações básicas (número, descrição, interessado, relação de documentos etc.) foram informadas e recebidas pelo Sistema de Processo Eletrônico de destino e o sistema está aguardando a transferência dos arquivos digitais para o referido sistema  |
++------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Onde está o processo?   | Tramita GOV.BR                                                                                                                                                                                                                                             |
++------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|O que pode ser feito?   | Caso o processo esteja parado no status 3, provavelmente o sistema de destino está com problemas para recebimento. Nessa situação, entre em contato com um dos gestores de protocolo do órgão de destino.                                                  |
++------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Status 4                                                                                                                                                                                                                                                                            | 
++========================+============================================================================================================================================================================================================================================================+
+|  Descrição             | Arquivos digitais recebidos pelo destinatário                                                                                                                                                                                                              |
++------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|O que signifca o status?| Os arquivos digitais foram recebidos pelo Sistema de Processo Eletrônico de destino e o Tramita GOV.BR está aguardando o sistema de destino enviar o recibo de conclusão do trâmite.                                                                       |
++------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Onde está o processo?   | Sistema de Processo Eletrônico de destino                                                                                                                                                                                                                  |
++------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|O que pode ser feito?   | Caso o processo esteja parado no status 4, provavelmente o sistema de destino está com problemas para recebimento. Nessa situação, entre em contato com um dos gestores de protocolo do órgão de destino.                                                  |
++------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Status 5                                                                                                                                                                                                                                                                            | 
++========================+============================================================================================================================================================================================================================================================+
+|  Descrição             | Recibo de conclusão recebido pelo Tramita GOV.BR                                                                                                                                                                                                           |
++------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|O que signifca o status?| O Sistema de Processo Eletrônico de destino validou a integridade do processo e enviou o recibo de conclusão do trâmite para o Tramita GOV.BR.                                                                                                             |
++------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Onde está o processo?   | Sistema de Processo Eletrônico de destino                                                                                                                                                                                                                  |
++------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|O que pode ser feito?   | Caso o processo esteja parado no status 5, provavelmente o sistema de origem está indisponível. Nessa situação, entre em contato com um dos gestores de protocolo do órgão de origem.                                                                      |
++------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Status 6                                                                                                                                                                                                                                                                            | 
++========================+============================================================================================================================================================================================================================================================+
+|  Descrição             | Recibo de conclusão recebido pelo remetente                                                                                                                                                                                                                |
++------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|O que signifca o status?| O recibo de conclusão do trâmite foi recebido com sucesso pelo Sistema de Processo Eletrônico de origem.                                                                                                                                                   |
++------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Onde está o processo?   | Sistema de Processo Eletrônico de destino                                                                                                                                                                                                                  |
++------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|O que pode ser feito?   | _                                                                                                                                                                                                                                                          |
++------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Status 7                                                                                                                                                                                                                                                                            | 
++========================+============================================================================================================================================================================================================================================================+
+|  Descrição             | Recibo de conclusão recebido pelo remetente                                                                                                                                                                                                                |
++------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|O que signifca o status?| O recibo de conclusão do trâmite foi recebido com sucesso pelo Sistema de Processo Eletrônico de origem.                                                                                                                                                   |
++------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Onde está o processo?   | Sistema de Processo Eletrônico de destino                                                                                                                                                                                                                  |
++------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|O que pode ser feito?   | _                                                                                                                                                                                                                                                          |
++------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Status 8                                                                                                                                                                                                                                                                                                      | 
++========================+======================================================================================================================================================================================================================================================================================+
+|  Descrição             | Trâmite recusado. Aguardando ciência do remetente                                                                                                                                                                                                                                    |
++------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|O que signifca o status?| O trâmite foi recusado pelo Sistema de Processo Eletrônico de destino por alguma falha na validação dos dados recebidos e está aguardando a ciência do sistema de origem para realizar o desbloqueio do processo. Exemplo: o Formato de arquivo não é aceito pelo sistema de destino |
++------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Onde está o processo?   | Tramita GOV.BR                                                                                                                                                                                                                                                                       |
++------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|O que pode ser feito?   | Cenários Possíveis:                                                                                                                                                                                                                                                                  |
+|                        |                                                                                                                                                                                                                                                                                      |
+|                        | 1. Caso o trâmite esteja parado no status 8, provavelmente o sistema de origem está com problema de comunicação com o Tramita GOV.BR. Nessa situação, entre em contato com um dos gestores de protocolo do órgão de origem.                                                          |          
+|                        |                                                                                                                                                                                                                                                                                      |
+|                        | 2. Após mudanças de estruturas de órgãos no SIORG, algumas unidades podem ser inativadas. Por esse motivo, um trâmite em andamento que foi recusado ficará parado no status 8, visto que não é possível localizar a unidade de origem para concluir o trâmite.                       |
+|                        |                                                                                                                                                                                                                                                                                      |
+|                        | Uma solução possível é verificar se a unidade de origem ainda permanece disponível no Portal de Administração e mapear novamente essa unidade para receber processos.                                                                                                                |
+|                        |                                                                                                                                                                                                                                                                                      |
+|                        | 3. Nos casos de recusa com justificativa com mais de 500 caracteres, caso o erro seja reportado, atualizar o módulo para no mínimo a versão 3.1.8.                                                                                                                                   |
++------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Status 9                                                                                                                                                                                                                                                                            | 
++========================+============================================================================================================================================================================================================================================================+
+|  Descrição             | Ciência da recusa recebido pelo remetente                                                                                                                                                                                                                  |
++------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|O que signifca o status?| A notificação da recusa do trâmite foi recebida pelo Sistema de Processo Eletrônico de origem e o processo foi desbloqueado.                                                                                                                               |
++------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Onde está o processo?   | Sistema de Processo Eletrônico de origem                                                                                                                                                                                                                   |
++------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|O que pode ser feito?   | Verificar o motivo da recusa e entrar em contato com um dos gestores de protocolo do órgão de destino.                                                                                                                                                     |
++------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Status 10                                                                                                                                                                                                                                                                           | 
++========================+============================================================================================================================================================================================================================================================+
+|  Descrição             | Trâmite cancelado automaticamente                                                                                                                                                                                                                          |
++------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|O que signifca o status?| O trâmite é cancelado automaticamente pelo Tramita GOV.BR após o prazo estabelecido pelos Administradores do Tramita GOV.BR.                                                                                                                               |
+|                        |                                                                                                                                                                                                                                                            | 
+|                        | Apenas os trâmites com status 1, 2, 3 e 4 podem ser cancelados automaticamente.                                                                                                                                                                            |
++------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Onde está o processo?   | Sistema de Processo Eletrônico de origem                                                                                                                                                                                                                   |
++------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|O que pode ser feito?   | _                                                                                                                                                                                                                                                          |
++------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+ 

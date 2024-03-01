@@ -29,9 +29,9 @@ Cadastro da Hierarquia
    Aos órgãos/entidades com estrutura hierárquica mantida pelo **SIORG, não é permitido** o cadastro de novas unidades, sendo necessário solicitar eventuais ajustes, quando necessários, à área responsável pela gestão do SIORG na organização.
 
  
-Já os órgãos e as entidades que não se enquadram no disposto acima, ou seja não é SIORG, poderão importar cadastrar ou modificar a sua estrutura, por meio da funcionalidade “Gestão do Tramita.GOV.BR ”.
+Já os órgãos e as entidades que não se enquadram no disposto acima, ou seja não é SIORG, poderão importar cadastrar ou modificar a sua estrutura, por meio da funcionalidade “Gestão do Tramita.GOV.BR”.
 
-A possibilidade de Importar Estruturas – Ao clicar, o sistema dá a possiblidade de importar Estruturas Organizacionais por meio de de um arquivo.
+A possibilidade de Importar Estruturas – Ao clicar, o sistema dá a possiblidade de importar Estruturas Organizacionais por meio de um arquivo.
 
 É responsabilidade do órgão e da entidade, em processo de implantação, definir quais e quantas unidades da sua estrutura hierárquica serão cadastradas no Portal.
 
