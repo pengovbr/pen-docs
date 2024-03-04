@@ -62,8 +62,6 @@ Funcionalidades de alteração na Estrutura de Unidades Administrativas:
 
 **OBS.:** Como boa prática, indica-se cadastrar apenas a primeira letra de cada palavra em caixa alta, por exemplo: “Diretoria de Informações, Serviços e Sistemas de Gestão”. Portanto, evite cadastrar todo o nome da unidade em caixa alta.
 
-.. figure:: _static/images/Cadastro_de_Unidade_Filha.png
-
 **c.Reativar** – Após o usuário habilitar a caixa de seleção “Mostrar inativos” e selecionar uma unidade na estrutura, o sistema possibilita reativar a unidade selecionada na estrutura organizacional.
 
 **d.Inativar** – Ao clicar, o sistema permite inativar a estrutura organizacional.

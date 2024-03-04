@@ -55,13 +55,12 @@ Para o envio da solicitação de acesso, todos os campos são de preenchimento o
 
 O órgão solicitante deve informar o Gestor Tecnológico¹.
 
-::
 
   ¹O que são Gestores Tecnológicos?
 
   Gestores Tecnológicos são órgãos responsáveis pela infraestrutura na qual o SPE está implantado. Atualmente, existem duas opções: Interno e Dataprev. Na opção Interno, o SPE é instalado na infraestrutura interna do próprio órgão. Em contraste, o SPE pode ser implementado em uma infraestrutura externa, que não pertence ao órgão em questão.
 
-  Para mais informações é possível acessar o item 2.11 da FAQ Tramita GOV.BR
+  Para mais informações é possível acessar o `item 2.11 da FAQ Tramita GOV.BR <https://wiki.processoeletronico.gov.br/pt-br/latest/Tramita_GOV_BR/Perguntas_frequentes/Conceitos_Gerais.html#o-que-sao-gestores-tecnologicos>`_
 
 Durante o preenchimento dos dados do Gestor de Protocolo, o sistema solicita a anexação de uma Portaria ou outro documento de designação, que comprove sua competência para exercer esta função para o Órgão/ Entidade solicitante. 
 
