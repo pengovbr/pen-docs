@@ -91,4 +91,4 @@ SEI versão 4.0.3
 
 
 
-Estes ambientes podem ser acessados a qualquer momento pelo usuário, o qual terá autonomia para entrar, enviar e receber processos sem a necessidade de intervenção de técnicos da PEN, possibilitando testes de envio e recebimento de processos em seu SPE.
+Estes ambientes podem ser acessados a qualquer momento pelo usuário, o qual terá autonomia para entrar, enviar e receber processos sem a necessidade de intervenção de técnicos da Tramita GOV.BR, possibilitando testes de envio e recebimento de processos em seu SPE.
