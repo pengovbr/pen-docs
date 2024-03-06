@@ -12,13 +12,13 @@ O acesso ao Portal de Administração do Tramita.GOV.BR é feito pelo endereço 
 
    Vide o item `Definição dos Status <https://manuais.processoeletronico.gov.br/pt_BR/latest/TRAMITA.GOV.BR/ACESSO_AO_AMBIENTE_DE_PRODUCAO.html#id3>`_ deste manual para referência completa sobre os diferentes status de tramitação.
 
-**Somente após o cumprimento dos requisitos mínimos descritos nos capítulos anteriores** e validação dos mesmos pela equipe técnica do PEN, será autorizado o acesso ao **ambiente de Produção**, sendo que nesse ambiente, após a realização das configurações no portal do Tramita.GOV.BR, **devem ser realizados novamente TODOS  os  requisitos mínimos**.
+**Somente após o cumprimento dos requisitos mínimos descritos nos capítulos anteriores** e validação dos mesmos pela equipe técnica do Tramita GOV.BR, será autorizado o acesso ao **ambiente de Produção**, sendo que nesse ambiente, após a realização das configurações no portal do Tramita.GOV.BR, **devem ser realizados novamente TODOS  os  requisitos mínimos**.
 
 **Em produção**, os processos de testes de que trata o Capítulo `Acesso ao Ambiente de Produção <https://manuais.processoeletronico.gov.br/pt_BR/latest/TRAMITA.GOV.BR/ACESSO_AO_AMBIENTE_DE_PRODUCAO.html#acesso-ao-ambiente-de-producao>`_ devem ser enviados para a unidade “Divisão de Gestão de Sistemas de Documentação e Informação – DISIS”, do Ministério da Gestão e da Inovação em Serviços Públicos.
 
 .. admonition:: Nota
 
-   Ao enviar o processo acima citado, é necessário incluir a descrição que se trata de um teste (por exemplo: TESTE – órgão X). Os testes em ambiente de produção são acompanhados por técnicos do PEN. Após o envio do processo de teste, deve-se comunicar, por meio de e-mail institucional processo.eletronico@gestao.gov.br, que os testes foram iniciados.
+   Ao enviar o processo acima citado, é necessário incluir a descrição que se trata de um teste (por exemplo: TESTE – órgão X). Os testes em ambiente de produção são acompanhados por técnicos do Tramita GOV.BR. Após o envio do processo de teste, deve-se comunicar, por meio de e-mail institucional processo.eletronico@gestao.gov.br, que os testes foram iniciados.
 
 Funcionamento dos Trâmites de Processos ou Documentos
 +++++++++++++++++++++++++++++++++++++++++++++++++++++
