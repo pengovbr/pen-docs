@@ -35,7 +35,7 @@ SEI versão 4.0.11
 
 • Unidade: sei.orgao1.tramita.processoeletronico.gov.br
 
-• Usuário e senha: usuariobasicoseiorgao101
+• Usuário e senha: orgao1
 
 
 *Ambiente 2*
@@ -52,7 +52,7 @@ SEI versão 4.0.11
 
 • Unidade: sei.orgao2.tramita.processoeletronico.gov.br
 
-• Usuário e senha: usuariobasicoseiorgao201
+• Usuário e senha: orgao2
 
 
 *Ambiente 3*
@@ -69,7 +69,7 @@ SEI versão 3.1.7
 
 • Unidade: sei.orgao3.tramita.processoeletronico.gov.br
 
-• Usuário e senha: usuariobasicoseiorgao301
+• Usuário e senha: orgao3
 
 
 
@@ -87,7 +87,7 @@ SEI versão 4.0.3
 
 • Unidade: sei.orgao4.tramita.processoeletronico.gov.br
 
-• Usuário e senha: usuariobasicoseiorgao401
+• Usuário e senha: orgao4
 
 
 
