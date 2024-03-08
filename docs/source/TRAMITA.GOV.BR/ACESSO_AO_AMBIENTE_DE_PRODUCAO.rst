@@ -3,7 +3,8 @@ Acesso ao Ambiente de Produção
 
 Após a conclusão dos procedimentos em ambiente de homologação, o órgão ou a entidade será autorizado a replicar as configurações de que tratam os capítulos `Configuração da Estrutura <https://manuais.processoeletronico.gov.br/pt_BR/latest/TRAMITA.GOV.BR/CONFIGURACAO_DA_ESTRUTURA.html#configuracoes-da-estrutura>`_ , `Implantação do Módulo de Conexão <https://manuais.processoeletronico.gov.br/pt_BR/latest/TRAMITA.GOV.BR/IMPLANTACAO_DO_MODULO_DE_CONEXAO.html#implantacao-do-modulo-de-conexao>`_ e `Acesso ao Ambiente de Produção <https://manuais.processoeletronico.gov.br/pt_BR/latest/TRAMITA.GOV.BR/ACESSO_AO_AMBIENTE_DE_PRODUCAO.html#acesso-ao-ambiente-de-producao>`_ em ambiente de produção, de modo a minimizar a possibilidade de erros que possam vir a impactar os trâmites na plataforma. Como é no ambiente de Produção que os trâmites reais são realizados, os requisitos estabelecidos em ambiente de homologação são realmente necessários para que a experiência de utilização do Tramita.GOV.BR seja positiva.
 
-O acesso ao Portal de Administração do Tramita.GOV.BR é feito pelo endereço http://gestaopen.processoeletronico.gov.br.
+
+O acesso ao Portal de Administração do Tramita.GOV.BR é feito pelo endereço http://gestaopen.processoeletronico.gov.br
 
 .. admonition:: Notas
    
@@ -37,64 +38,4 @@ Fluxo de Status
 Definição dos Status
 ++++++++++++++++++++
 
-O trâmite de um processo administrativo eletrônico e/ou documento avulso, em meio eletrônico, pode passar pelos seguintes “status”:
-
-
-.. list-table::
-   :header-rows: 1
-
-   - * Status
-     * Descrição
-     * O que significa o status?
-     * Onde está o processo?
-     * O processo ficou parado nesse status, o que posso fazer?
-   - * 1
-     * Aguardando o envio dos arquivos digitais
-     * As informações gerais (número, descrição, interessado, relação de documentos etc.) foram recebidas pelo Barramento, que está aguardando o envio dos arquivos do processo/documento
-     * Sistema de processo administrativo eletrônico remetente
-     * O trâmite do processo pode ser cancelado manualmente por usuário do sistema remetente
-   - * 2
-     * Arquivos digitais recebidos pelo Barramento
-     * Os arquivos digitais do processo foram recebidos pelo Barramento e validados quanto à integridade. O Barramento aguarda o Sistema de processo eletrônico destinatário buscar as informações do processo.
-     * Tramita.GOV.BR
-     * O trâmite do processo pode ser cancelado pelo usuário do sistema remetente. Caso o processo/documento tenha ficado parado no status 2, provavelmente o sistema destinatário está com problema no recebimento. Ente em contato com um dos gestores de protocolo do órgão/entidade destinatário.
-   - * 3
-     * Metadados recebidos pelo sistema de processo eletrônico destinatário
-     * As informações gerais (número, descrição, interessado, relação de documentos etc.) foram recebidas pelo sistema de processo eletrônico destinatário. Aguardando a transferência dos arquivos digitais para o sistema destinatário
-     * Tramita.GOV.BR
-     * Caso o processo/documento tenha ficado parado no status 3 será necessário verificar se o sistema destinatário está com problema no recebimento. Entre em contato com um dos gestores de protocolo do órgão/entidade destinatário.
-   - * 4
-     * Arquivos digitais recebidos pelo destinatário
-     * Os arquivos digitais foram recebidos pelo sistema de processo eletrônico destinatário. O Barramento aguarda o Sistema destinatário enviar o recibo de conclusão do trâmite.
-     * Sistema de processo administrativo eletrônico destinatário
-     * Caso o processo/documento tenha ficado parado no status 4 será necessário verificar se o sistema destinatário está com problema no recebimento. Entre em contato com um dos gestores de protocolo do órgão/entidade destinatário.
-   - * 5
-     * Recibo de conclusão recebido pelo Barramento
-     * O sistema de processo eletrônico destinatário validou a integridade do processo e enviou o recibo de conclusão do trâmite para o Barramento.
-     * Sistema de processo administrativo eletrônico destinatário
-     * Caso o processo esteja parado no status 5 será necessário verificar se o sistema de remetente está indisponível. Entre em contato com um dos gestores de protocolo do órgão/entidade remetente.
-   - * 6
-     * Recibo de conclusão recebido pelo remetente
-     * O recibo de conclusão do trâmite foi recebido pelo sistema de processo eletrônico remetente.
-     * Sistema de processo administrativo eletrônico destinatário
-     * --
-   - * 7
-     * Trâmite cancelado
-     * O trâmite foi cancelado manualmente por usuário no sistema de processo eletrônico remetente ou por falha na transferência dos dados do processo. Por exemplo: usuário do sistema remetente identifica que o trâmite foi realizado para o destinatário errado e cancela o envio.
-     * Sistema de processo administrativo eletrônico remetente
-     * --
-   - * 8
-     * Trâmite recusado. Aguardando ciência do remetente
-     * O trâmite foi recusado pelo sistema de processo eletrônico destinatário por alguma falha na validação dos dados recebidos e aguarda ciência do sistema remetente, para desbloqueio do processo. Por exemplo: o formato de arquivo não é aceio pelo sistema destinatário
-     * Tramita.GOV.BR
-     * Caso o trâmite tenha ficado parado no status 8 será necessário verificar se o sistema remetente está com problema de comunicação com o Barramento.
-   - * 9
-     * Ciência da recusa recebido pelo remetente
-     * O trâmite é cancelado automaticamente pelo barramento após o prazo estabelecido pelos Administradores do Barramento. Apenas os trâmites com status 1,2 e 3 podem ser cancelados automaticamente.
-     * Sistema de processo administrativo eletrônico remetente
-     * --
-   - * 10
-     * Trâmite cancelado automaticamente
-     * O trâmite é cancelado automaticamente pelo barramento após o prazo estabelecido pelos Administradores do Barramento. Apenas os trâmites com status 1,2 e 3 podem ser cancelados automaticamente.
-     * Sistema de processo administrativo eletrônico remetente
-     * --
+A explicação de cada status de trâmite está disponível na Pergunta `7.12 do FAQ do Tramita GOV.BR <https://wiki.processoeletronico.gov.br/pt-br/latest/Tramita_GOV_BR/Perguntas_frequentes/Utiliza_Tramita_Envio_e_recebimento_de_processos.html#o-que-representa-o-status-de-um-tramite-e-como-proceder-caso-o-processo-esteja-parado-em-algum-dos-status>`_.
