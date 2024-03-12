@@ -3,14 +3,14 @@ Manual de Instalação do Módulo de Integração do Tramita.gov.br
 
 O objetivo deste documento é descrever os procedimento para realizar a
 INSTALAÇÃO INICIAL do Módulo de Integração com o Tramita.GOV.BR
-(**mod-sei-pen**) no Sistema Eletrônico de Informações (SEI).
+(**mod-sei-tramitagovbr**) no Sistema Eletrônico de Informações (SEI).
 
 **ATENÇÃO: Caso o módulo já se encontre instalado em uma versão
 anterior, siga as instruções detalhadas de atualização no documento
 ATUALIZACAO.md presente no arquivo de distribuição do módulo
-(mod-sei-pen-VERSAO.zip)**
+(mod-sei-tramitagovbr-VERSAO.zip)**
 
-O módulo **PEN** é o responsável por integrar o Sistema Eletrônico de
+O módulo **Tramita GOV.BR** é o responsável por integrar o Sistema Eletrônico de
 Informações - SEI à plataforma de interoperabilidade do Processo
 Eletrônico Nacional - PEN. Este projeto tem como objetivo interligar
 todos os sistema de processo eletrônico do Poder Executivo Federal a fim
@@ -42,11 +42,11 @@ Este documento está estruturado nas seguintes seções:
    desempenho ao módulo.
 
 4. `Suporte <#suporte>`__: Canais de comunicação para resolver problemas
-   ou tirar dúvidas sobre o módulo e os demais componentes do PEN.
+   ou tirar dúvidas sobre o módulo e os demais componentes do Tramita GOV.BR.
 
 5. `Problemas Conhecidos <#problemas-conhecidos>`__: Canais de
    comunicação para resolver problemas ou tirar dúvidas sobre o módulo e
-   os demais componentes do PEN.
+   os demais componentes do Tramita GOV.BR.
 
 --------------
 
@@ -54,7 +54,7 @@ Este documento está estruturado nas seguintes seções:
 -------------
 
 | Esta seção descreve os passos obrigatórios para **INSTALAÇÃO** do
-  **``**mod-sei-pen**``**.
+  **``**mod-sei-tramitagovbr**``**.
 | Todos os itens descritos nesta seção são destinados à equipe de
   tecnologia da informação, responsáveis pela execução dos procedimentos
   técnicos de instalação e manutenção da infraestrutura do SEI.
@@ -65,8 +65,8 @@ Pré-requisitos
 -  **SEI versão 3.1.x ou superior instalada**;
 -  Usuário de acesso ao banco de dados do SEI e SIP com permissões para
    criar novas estruturas no banco de dados
--  Certificado Digital de autenticação de sistema no Barramento do PEN
-   emitido pela equipe do Processo Eletrônico Nacional após aprovação do
+-  Certificado Digital de autenticação de sistema no Módulo Tramita GOV.BR
+   emitido pela equipe do Tramita GOV.BR após aprovação do
    Comitê Gestor de Protocolo.
 -  Importante ressaltar que para compatibilidade com o SEI versão 4, e
    suas futuras atualizações, o órgão deverá se atentar ao changelog de
@@ -105,13 +105,13 @@ módulo e, por isto, todas estas informações precisam ser resguardadas.
 
 --------------
 
-1.2. Baixar o arquivo de distribuição do **mod-sei-pen**
+1.2. Baixar o arquivo de distribuição do **mod-sei-tramitagovbr**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Necessário realizar o *download* do pacote de distribuição do módulo
-**mod-sei-pen** para instalação ou atualização do sistema SEI. O pacote
+**mod-sei-tramitagovbr** para instalação ou atualização do sistema SEI. O pacote
 de distribuição consiste em um arquivo zip com a denominação
-**mod-sei-pen-VERSAO**.zip e sua última versão pode ser encontrada em
+**mod-sei-tramitagovbr-VERSAO**.zip e sua última versão pode ser encontrada em
 https://github.com/spbgovbr/mod-sei-pen/releases
 
 --------------
@@ -124,11 +124,11 @@ uma pasta contendo a seguinte estrutura:
 
 ::
 
-   /**mod-sei-pen**-VERSAO 
+   /**mod-sei-tramitagovbr**-VERSAO 
        /sei              # Arquivos do módulo posicionados corretamente dentro da estrutura do SEI
        /sip              # Arquivos do módulo posicionados corretamente dentro da estrutura do SIP
-       INSTALACAO.md     # Instruções de instalação do **mod-sei-pen**
-       ATUALIZACAO.md    # Instruções de atualização do **mod-sei-pen**    
+       INSTALACAO.md     # Instruções de instalação do **mod-sei-tramitagovbr**
+       ATUALIZACAO.md    # Instruções de atualização do **mod-sei-tramitagovbr**    
        NOTAS_VERSAO.MD   # Registros de novidades, melhorias e correções desta versão
 
 Importante enfatizar que os arquivos contidos dentro dos diretórios
@@ -146,13 +146,13 @@ abaixo pelo número de versão do módulo que está sendo instalado
 
 ::
 
-   $ cp /tmp/**mod-sei-pen**-VERSAO.zip <DIRETÓRIO RAIZ DE INSTALAÇÃO DO SEI E SIP>
+   $ cp /tmp/**mod-sei-tramitagovbr**-VERSAO.zip <DIRETÓRIO RAIZ DE INSTALAÇÃO DO SEI E SIP>
    $ cd <DIRETÓRIO RAIZ DE INSTALAÇÃO DO SEI E SIP>
-   $ unzip **mod-sei-pen**-VERSAO.zip
+   $ unzip **mod-sei-tramitagovbr**-VERSAO.zip
 
 --------------
 
-1.4. Habilitar módulo **mod-sei-pen** no arquivo de configuração do SEI
+1.4. Habilitar módulo **mod-sei-tramitagovbr** no arquivo de configuração do SEI
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Esta etapa é padrão para a instalação de qualquer módulo no SEI para que
@@ -178,10 +178,10 @@ indicada acima:
 
 --------------
 
-1.5. Configurar os parâmetros do Módulo de Integração PEN
+1.5. Configurar os parâmetros do Módulo de Integração Tramita GOV.BR
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-A instalação da nova versão do **mod-sei-pen** cria um arquivo de
+A instalação da nova versão do **mod-sei-tramitagovbr** cria um arquivo de
 configuração específico para o módulo dentro da pasta de configuração do
 SEI (**/sei/config/mod-pen/**).
 
@@ -218,7 +218,7 @@ do módulo, conforme apresentado abaixo:
 -  **LocalizacaoCertificado**
    Localização completa do certificado digital utilizado para
    autenticação nos serviços do Tramita.GOV.BR. Os certificados digitais
-   são disponibilizados pela equipe do Processo Eletrônico Nacional
+   são disponibilizados pela equipe do Tramita GOV.BR
    mediante aprovação do credenciamento da instituição. Verifique a
    seção `pré-requisitos <#pré-requisitos>`__ para maiores informações.
    Necessário que o arquivo de certificado esteja localizado dentro da
@@ -234,7 +234,7 @@ do módulo, conforme apresentado abaixo:
 
 -  | **Gearman** *(opcional e altamente desejável)*
    | Localização do servidor Gearman de gerenciamento de fila de
-     processamento de tarefas do Barramento PEN.
+     processamento de tarefas do Módulo Tramita GOV.BR.
    | As mensagens recebidas do Barramento são organizadas em filas de
      tarefas e distribuídas entre os nós da aplicação para processamento
      coordenado. Caso este parâmetro não seja configurado ou o servidor
@@ -253,7 +253,7 @@ do módulo, conforme apresentado abaixo:
         padrão 4730*
 
 -  **NumeroTentativasErro** *(opcional)* Quantidade de tentativas de
-   requisição dos serviços do Barramento PEN antes que um erro possa ser
+   requisição dos serviços do Módulo Tramita GOV.BR antes que um erro possa ser
    lançado pela aplicação Necessário para aumentar a resiliência da
    integração em contextos de instabilidade de rede. *Valor padrão: 3*
 
@@ -275,12 +275,12 @@ do módulo, conforme apresentado abaixo:
 
 --------------
 
-1.6. Atualizar a base de dados do SIP com as tabelas do **mod-sei-pen**
+1.6. Atualizar a base de dados do SIP com as tabelas do **mod-sei-tramitagovbr**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 A atualização realizada no SIP não cria nenhuma tabela específica para o
 módulo, apenas é aplicada a criarção os recursos, permissões e menus de
-sistema utilizados pelo **mod-sei-pen**. Todos os novos recursos criados
+sistema utilizados pelo **mod-sei-tramitagovbr**. Todos os novos recursos criados
 possuem o prefixo **pen\_** para fácil localização pelas funcionalidades
 de gerenciamento de recursos do SIP.
 
@@ -293,11 +293,11 @@ O script de atualização da base de dados do SIP fica localizado em
 
 --------------
 
-1.7. Atualizar a base de dados do SEI com as tabelas do **mod-sei-pen**
+1.7. Atualizar a base de dados do SEI com as tabelas do **mod-sei-tramitagovbr**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Nesta etapa é instalado/atualizado as tabelas de banco de dados
-vinculadas do **mod-sei-pen**. Todas estas tabelas possuem o prefixo
+vinculadas do **mod-sei-tramitagovbr**. Todas estas tabelas possuem o prefixo
 **md_pen\_** para organização e fácil localização no banco de dados.
 
 O script de atualização da base de dados do SIP fica localizado em
@@ -312,7 +312,7 @@ O script de atualização da base de dados do SIP fica localizado em
 1.8. Configuração do relógio do servidores do SEI
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-O protocolo de comunicação implementado pelo PEN realiza a geração e
+O protocolo de comunicação implementado pelo Tramita GOV.BR realiza a geração e
 assinatura digital de recibos de entrega e conclusão dos trâmites de
 processo. Para a correta geração dos recibos pelo módulo, é
 indispensável que todos os nós da aplicação estejam configurados com o
@@ -330,7 +330,7 @@ A partir da versão SEI 3.1.x, o agendamento de tarefas do sistema pode
 ser executado em uma periodicidade de minutos, o que não era possível em
 versões anteriores (SEI 3.0.X).
 
-Com esta melhoria no SEI, o módulo mod-sei-pen 2.0.0 passou a utilizar o
+Com esta melhoria no SEI, o módulo mod-sei-tramitagovbr 2.0.0 passou a utilizar o
 próprio agendamento de tarefas do sistema para realizar a consulta de
 novos processos no Tramita.GOV.BR, simplificando consideravelmente os
 procedimentos de instalação e configuração do módulo.
@@ -371,7 +371,7 @@ Portanto, a periodicidade do serviço CRON deve estar configurado como:
 1.10. Verificação e testes da instalação do módulo
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-A versão 2.0.0 do **mod-sei-pen** adiciona um novo script utilitário ao
+A versão 2.0.0 do **mod-sei-tramitagovbr** adiciona um novo script utilitário ao
 SEI para que seja realizada uma verificação de todos os passos da
 instalação, assim como as configurações aplicadas. Estas verificações
 funcionam como um diagnóstico do correto funcionamento do sistema.
@@ -390,17 +390,17 @@ módulo é este apresentado abaixo:
 
 ::
 
-   INICIANDO VERIFICAÇÃO DA INSTALAÇÃO DO MÓDULO **MOD-SEI-PEN**:
+   INICIANDO VERIFICAÇÃO DA INSTALAÇÃO DO MÓDULO **MOD-SEI-TRAMITAGOVBR**:
        - Arquivos do módulo posicionados corretamente
        - Módulo corretamente ativado no arquivo de configuracao do sistema
        - Parâmetros técnicos obrigatórios de integração atribuídos em ConfiguracaoModPEN.php
-       - Verificada a compatibilidade do **mod-sei-pen** com a atual versão do SEI
+       - Verificada a compatibilidade do **mod-sei-tramitagovbr** com a atual versão do SEI
        - Certificado digital localizado e corretamente configurado
-       - Base de dados do SEI corretamente atualizada com a versão atual do **mod-sei-pen**
+       - Base de dados do SEI corretamente atualizada com a versão atual do **mod-sei-tramitagovbr**
        - Conexão com o Tramita.GOV.BR realizada com sucesso
        - Acesso aos dados do Comitê de Protocolo vinculado ao certificado realizado com sucesso
 
-   ** VERIFICAÇÃO DA INSTALAÇÃO DO MÓDULO **MOD-SEI-PEN** FINALIZADA COM SECESSO **
+   ** VERIFICAÇÃO DA INSTALAÇÃO DO MÓDULO **MOD-SEI-TRAMITAGOVBR** FINALIZADA COM SECESSO **
 
 **ATENÇÃO !
 Outras configurações avançadas do módulo podem ser encontradas na
@@ -420,7 +420,7 @@ Eletrônico Nacional**)
 
 .. _configurar-os-parâmetros-do-módulo-de-integração-pen-1:
 
-2.1. Configurar os parâmetros do Módulo de Integração PEN
+2.1. Configurar os parâmetros do Módulo de Integração Tramita GOV.BR
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Acesse a funcionalidade **[SEI > Administração > Processo Eletrônico
@@ -432,7 +432,7 @@ Repositório de Estruturas:
 
 | *Identificador do repositório de origem do órgão na estrutura
   organizacional. Este identificador é informado para a instituição pela
-  equipe do Processo Eletrônico Nacional no envio do pacote de
+  equipe do Tramita GOV.BR no envio do pacote de
   integração.*
 | Exemplo: Poder Executivo Federal - *Valor 1 (Código de identificação
   da estrutura organizacional do Poder Executivo Federal)*
@@ -502,11 +502,11 @@ tenha um e-mail configurado em seu cadastro de contato.*
 Acesse a funcionalidade **[SEI > Administração > Processo Eletrônico
 Nacional > Mapeamento de Unidades]** para configurar as unidades
 administrativas do SEI com as respectivas unidades habilitadas no Portal
-do Processo Eletrônico Nacional para envio e recebimento de processos.
+do Tramita GOV.BR para envio e recebimento de processos.
 
 As unidades administrativas que estão habilitadas para envio e
 recebimento de processos são gerenciadas pela própria instituição no
-Portal do Processo Eletrônico Nacional. Veja seção `Pré-condições para
+Portal do Tramita GOV.BR. Veja seção `Pré-condições para
 utilização <#pré-condições>`__
 
 Primeiro selecione a unidade administrativa do SEI no campo de seleção e
@@ -516,10 +516,10 @@ habilitada no Tramita.GOV.BR.
 
 --------------
 
-2.3. Mapeamento de Tipos de Documentos do SEI com as Espécies Documentais do PEN
+2.3. Mapeamento de Tipos de Documentos do SEI com as Espécies Documentais do Tramita GOV.BR
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-A partir da versão **mod-sei-pen** 2.0.0, os mapeamentos dos Tipos de
+A partir da versão **mod-sei-tramitagovbr** 2.0.0, os mapeamentos dos Tipos de
 Documentos do SEI são realizados de forma automática durante a
 instalação do módulo ou automaticamente através do agendamento de
 tarefas **PENAgendamentoRN::atualizarInformacoesPEN**.
@@ -536,9 +536,9 @@ Este mapeamento precisa ser feito tanto para o envio de processos como
 para o recebimento, sendo necessário realizar a configuração através das
 duas funcionalidades apresentadas abaixo:
 
--  SEI > Administração > Processo Eletrônico Nacional > Mapeamento de
+-  SEI > Administração > Tramita GOV.BR > Mapeamento de
    Tipos de Documentos > **Envio**
--  SEI > Administração > Processo Eletrônico Nacional > Mapeamento de
+-  SEI > Administração > Tramita GOV.BR > Mapeamento de
    Tipos de Documentos > **Recebimento**
 
 2.3.1. Atribuição de Espécie Documental Padrão para Envio
@@ -555,7 +555,7 @@ através da funcionalidade:
 
 ::
 
-   [SEI > Administração > Processo Eletrônico Nacional > Mapeamento de Tipos de Documentos > **Envio > Botão "Atribuir Espécie Padrão"**]
+   [SEI > Administração > Tramita GOV.BR > Mapeamento de Tipos de Documentos > **Envio > Botão "Atribuir Espécie Padrão"**]
 
 2.3.2. Atribuição de Tipo de Documento Padrão para Recebimento
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
@@ -571,7 +571,7 @@ através da funcionalidade:
 
 ::
 
-   [SEI > Administração > Processo Eletrônico Nacional > Mapeamento de Tipos de Documentos > **Recebimento > Botão "Atribuir Tipo de Documento Padrão"**]
+   [SEI > Administração > Tramita GOV.BR > Mapeamento de Tipos de Documentos > **Recebimento > Botão "Atribuir Tipo de Documento Padrão"**]
 
 PS: Somente Tipos de Documento com aplicabilidade ‘Externa’ ou ‘Interna
 e Externa’ podem ser selecionados para esta configuração.
@@ -595,9 +595,9 @@ Este mapeamento precisa ser feito tanto para o envio de processos como
 para o recebimento, sendo necessário realizar a configuração através das
 duas funcionalidades apresentadas abaixo:
 
--  SEI > Administração > Processo Eletrônico Nacional > Mapeamento de
+-  SEI > Administração > Tramita GOV.BR > Mapeamento de
    Hipóteses Legais > **Envio**
--  SEI > Administração > Processo Eletrônico Nacional > Mapeamento de
+-  SEI > Administração > Tramita GOV.BR > Mapeamento de
    Hipóteses Legais > **Recebimento**
 
 2.4.1 Hipótese de Restrição Padrão
@@ -739,7 +739,7 @@ Onde:
 3.1.5. Verificação da instalação e configuração do Gearman
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-O script de verificação da instalação do **mod-sei-pen** 2.0.0 também
+O script de verificação da instalação do **mod-sei-tramitagovbr** 2.0.0 também
 pode ser utilizado para validar se os passos da instalação foram
 realizadas com sucesso e se o módulo está conextando corretamente ao
 servidor do Gearmand.
@@ -758,18 +758,18 @@ módulo é este apresentado abaixo:
 
 ::
 
-   INICIANDO VERIFICAÇÃO DA INSTALAÇÃO DO MÓDULO **MOD-SEI-PEN**:
+   INICIANDO VERIFICAÇÃO DA INSTALAÇÃO DO MÓDULO **MOD-SEI-TRAMITAGOVBR**:
        - Arquivos do módulo posicionados corretamente
        - Módulo corretamente ativado no arquivo de configuracao do sistema
        - Parâmetros técnicos obrigatórios de integração atribuídos em ConfiguracaoModPEN.php
-       - Verificada a compatibilidade do **mod-sei-pen** com a atual versão do SEI
+       - Verificada a compatibilidade do **mod-sei-tramitagovbr** com a atual versão do SEI
        - Certificado digital localizado e corretamente configurado
-       - Base de dados do SEI corretamente atualizada com a versão atual do **mod-sei-pen**
+       - Base de dados do SEI corretamente atualizada com a versão atual do **mod-sei-tramitagovbr**
        - Conexão com o Tramita.GOV.BR realizada com sucesso
        - Acesso aos dados do Comitê de Protocolo vinculado ao certificado realizado com sucesso
        - Conexão com o servidor de processamento de tarefas Gearman realizada com sucesso
 
-   ** VERIFICAÇÃO DA INSTALAÇÃO DO MÓDULO **MOD-SEI-PEN** FINALIZADA COM SECESSO **
+   ** VERIFICAÇÃO DA INSTALAÇÃO DO MÓDULO **MOD-SEI-TRAMITAGOVBR** FINALIZADA COM SECESSO **
 
 3.2. Instalação do Supervisor para monitoramento
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -781,7 +781,7 @@ PHP envolvidos com o envio e recebimento de processos ficaram
 indisponíveis em caso de falha ou indisponibilidade do sistema, o que
 poderia acarretar atrasos no recebimento de documentos.
 
-A partir da versão **mod-sei-pen** 2.0.0, este componente passou a ser
+A partir da versão **mod-sei-tramitagovbr** 2.0.0, este componente passou a ser
 opcional pois o próprio agendamento de tarefas do SEI ficará encarregado
 de obter os processos pendentes do Barramento e processar seu
 recebimento. Tarefas executadas a cada 2 minutos, seguindo a
@@ -790,7 +790,7 @@ configuração padrão do agendamento
 
 Caso seja necessário maior agilidade no recebimento dos processos e
 aumentar a garantia de disponibilidade dos serviços de conexão ao
-Barramento do PEN, o Supervisor pode ser utilizado.
+Módulo Tramita GOV.BR, o Supervisor pode ser utilizado.
 
 **Atenção:** Deverá ser utilizado o Supervisor a partir da versão 4.0.
 
@@ -1006,7 +1006,7 @@ basta agendar no crontab, por exemplo:
 
 Dúvidas com as rotinas favor abrir chamado em
 https://portaldeservicos.economia.gov.br. Se necessário, pode solicitar
-ao atendente que acione algum técnico do PEN para orientações mais
+ao atendente que acione algum técnico do Tramita GOV.BR para orientações mais
 elaboradas.
 
 --------------
@@ -1017,7 +1017,7 @@ elaboradas.
 4.1. Problema com validação de certificados HTTPS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Caso o ambiente do ConectaGov PEN utilizado nesta configuração esteja
+Caso o ambiente do ConectaGov Tramita GOV.BR utilizado nesta configuração esteja
 utilizando HTTPS com certificado digital não reconhecido pela
 ICP-Brasil, será necessário configurar a cadeia não reconhecida como
 confiável nos servidores de aplicação do SEI. Com isto, os seguintes
@@ -1028,7 +1028,7 @@ incluindo aquele responsável pelo tratamento das tarefas agendadas.
 
 ::
 
-   # Copie o certificado da cadeia de CA (Autoridade Certificadora) que assinou o certificado # fornecido PEN, para o diretório /usr/local/share/ca-certificates:
+   # Copie o certificado da cadeia de CA (Autoridade Certificadora) que assinou o certificado # fornecido Tramita GOV.BR, para o diretório /usr/local/share/ca-certificates:
 
        cp <CADEIA-CERTIFICADO-CA> /usr/local/share/ca-certificates
 
@@ -1084,7 +1084,7 @@ o seguinte parâmetro de inicialização: OPTIONS=“–listen=127.0.0.1”
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 O formato do certificado digital utilizado pela integração do do SEI com
-o Processo Eletrônico Nacional é o PEM, com isto, os certificados em
+o Tramita GOV.BR é o PEM, com isto, os certificados em
 outros formatos devem ser convertidos para este formato. Para converter
 o arquivo p12 para PEM, utilize o seguinte comando. ps: Podem existir
 pequenas variações de acordo com a distribuição do Linux utilizada
@@ -1095,10 +1095,10 @@ openssl pkcs12 –nodes -in -out
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Para realizar a configuração do sistema de processo eletrônico na
-infraestrutura de serviços do Processo Eletrônico Nacional, é necessário
+infraestrutura de serviços do Tramita GOV.BR, é necessário
 a utilização de um Certificado Digital válido que deverá ter suas
 informações de Fingerprint e Common Name repassadas para a equipe do
-Processo Eletrônico Nacional fazer as devidas configurações do órgão.
+Tramita GOV.BR fazer as devidas configurações do órgão.
 Com isto, para obter tais informações do certificado digital, os
 seguintes comandos podem ser uitlizados, lembrando que podem existir
 pequenas variações de acordo com a distribuição do Linux utilizada:
@@ -1195,7 +1195,7 @@ destinatário.
 
    | [!IMPORTANT]
    | **Atenção!** Esse parâmetro somente poderá ser ativado para os
-     órgãos que já possuem o módulo **mod-sei-pen** na versão 3.3.0 ou
+     órgãos que já possuem o módulo **mod-sei-tramitagovbr** na versão 3.3.0 ou
      superior. O destino também deve ter que estar compatível para
      receber o trâmite parcial. Para o SEI o destino e o envio deve ter
      o módulo com versão 3.3.0 ou superior. Para outros sistemas entrar
@@ -1216,7 +1216,7 @@ Exemplo:
 
 Em caso de dúvidas ou problemas durante o procedimento de atualização,
 favor entrar em conta pelos canais de atendimento disponibilizados na
-Central de Atendimento do Processo Eletrônico Nacional, que conta com
+Central de Atendimento do Tramita GOV.BR, que conta com
 uma equipe para avaliar e responder esta questão de forma mais rápida
 possível.
 

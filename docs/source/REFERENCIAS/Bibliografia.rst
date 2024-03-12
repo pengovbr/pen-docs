@@ -32,7 +32,7 @@ _______. Gabinete de Segurança Institucional da Presidência da República. Dep
 
 _______. Ministério da Economia. Secretaria Executiva. Secretaria de Gestão Corporativa. Diretoria de Administração e Logística. Usuário do Sistema Eletrônico de Informações (SEI): cartilha. 8. ed. Brasília: ME/SE/SGC/DAL, 2021. 137 p. 
 
-_______. Ministério da Gestão e da Inovação em Serviços Públicos. Secretaria de Gestão e Inovação. Processo Eletrônico Nacional. Disponível em: <https://www.gov.br/pen>. Acesso em: 09 jan. 2023. 
+_______. Ministério da Gestão e da Inovação em Serviços Públicos. Secretaria de Gestão e Inovação. Tramita GOV.BR. Disponível em: <https://www.gov.br/pen>. Acesso em: 09 jan. 2023. 
 
  
 
