@@ -43,5 +43,7 @@ html_theme_options = {
     
 }
 
+html_favicon = 'Icone_PEN.png'
+
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
