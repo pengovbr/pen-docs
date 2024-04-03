@@ -18,7 +18,7 @@ O acesso ao Portal de Administração do Tramita.GOV.BR é feito pelo endereço 
 
 .. admonition:: Nota
 
-   Ao enviar o processo acima citado, é necessário incluir a descrição que se trata de um teste (por exemplo: TESTE – órgão X). Os testes em ambiente de produção são acompanhados por técnicos do PEN. Após o envio do processo de teste, deve-se comunicar, por meio de e-mail institucional processo.eletronico@economia.gov.br, que os testes foram iniciados.
+   Ao enviar o processo acima citado, é necessário incluir a descrição que se trata de um teste (por exemplo: TESTE – órgão X). Os testes em ambiente de produção são acompanhados por técnicos do PEN. Após o envio do processo de teste, deve-se comunicar, por meio de e-mail institucional processo.eletronico@gestao.gov.br, que os testes foram iniciados.
 
 Funcionamento dos Trâmites de Processos ou Documentos
 +++++++++++++++++++++++++++++++++++++++++++++++++++++
