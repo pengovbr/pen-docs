@@ -2,7 +2,7 @@
 .. figure:: _static/images/título-Manual-do-Tramita.png
 
 
-MANUAIS TRAMITA.GOV.BR
+MANUAIS TRAMITA GOV.BR
 =======================
 
 Apresentação
