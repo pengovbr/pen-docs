@@ -138,12 +138,9 @@ A configuração é feita por meio da funcionalidade **Protocolo > Gestão do Tr
  
 .. figure:: _static/images/Botao_Sistemas.gif
 
-
 O Gestor deverá localizar seu órgão/entidade na listagem e, em seguida, clicar no botão Sistemas.
 
-
 .. figure:: _static/images/Botao_Unidades_Administrativas.gif
-
 
 Em seguida, o Gestor deverá clicar no botão **“Unidades Administrativas”**, para definir quais serão utilizadas pelos órgãos e pelas entidades para realizar o envio externo e/ou recebimento de processos.
 
