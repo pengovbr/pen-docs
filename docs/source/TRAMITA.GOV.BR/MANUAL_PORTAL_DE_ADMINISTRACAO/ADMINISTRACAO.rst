@@ -97,9 +97,6 @@ Editar
 
 Ao clicar em Editar o usuário pode alterar as informações cadastradas anteriormente em Cadastrar. Para confirmar a alteração, clicar no botão Salvar.
 
-
-https://mtegovbr.sharepoint.com/:i:/r/sites/CGPROGerencial/Documentos%20Compartilhados/Tramita.GOV.BR/Manuais/Manual%20do%20Portal%20de%20Administra%C3%A7%C3%A3o/gifs/Sistema-Governo-Editar.gif?csf=1&web=1&e=fKuhnf
-
 .. figure:: _static/images/Sistema-Governo-Editar.gif
 
 Estruturas organizacionais do PEN
@@ -150,54 +147,55 @@ Parâmetros da solução
 
 Esta funcionalidade traz parâmetros específicos do Portal de Administração do Tramita.GOV.BR. A seguir, a tabela com todos os parâmetros gerenciados pelos Administradores.
 
-. list-table::
-   :widths: 20 35
-   :header-rows: 1
 
-   - * Nome
-     * Descrição
-   - * Configuração de envio e-mail	 
-     * 
-   - * Assunto de E-mail de acesso ao ambiente de homologação aprovado
-     * Define o padrão do assunto do e-mail de acesso ao ambiente de homologação aprovado.
-   - * Assunto de E-mail de cadastro de gestor em órgão 
-     * Define o padrão do assunto do e-mail de cadastro de gestor em órgão.
-   - * Assunto de E-mail de reprovação de cadastro
-     * Define o padrão do assunto do e-mail de reprovação de cadastro.	
-   - * Assunto de E-mail de solicitação de cadastro de órgão
-     * Define o padrão do assunto do e-mail de solicitação de cadastro de órgão.	
-   - * Corpo de E-mail de acesso ao ambiente de homologação aprovado
-     * Define o padrão do corpo do e-mail de acesso ao ambiente de homologação aprovado.	
-   - * Corpo de E-mail de cadastro de gestor em órgão
-     * Define o padrão do corpo do e-mail de cadastro de gestor em órgão.	
-   - * Corpo de E-mail de reprovação de cadastro
-     * Define o padrão do corpo do e-mail de reprovação de cadastro.	
-   - * Corpo de E-mail de solicitação de cadastro de órgão
-     * Define o padrão do corpo do e-mail de solicitação de cadastro de órgão.	
-   - * Expurgo e cancelamento automático	 
-     * 
-   - * Qtd. de dias para cancelamento automático de trâmite
-     * Define a quantidade de dias corridos, sem nenhuma atualização, que libera a solução para cancelar automaticamente um trâmite
-   - * Qtd. de dias para expurgo dos binários de trâmites cancelados
-     * Define a quantidade de dias corridos, após o cancelamento de um trâmite, para que a solução possa expurgar (excluir) os componentes digitais do mesmo
-   - * Qtd. de dias para expurgo dos binários de trâmites concluídos 
-     * Define a quantidade de dias corridos, após a conclusão de um trâmite, para que a solução possa expurgar (excluir) os componentes digitais do mesmo
-   - * Importação de estruturas do SIORG	 
-   - * Intervalo entre execuções	
-     * Define a quantidade de horas de intervalo entre duas execuções da rotina de importação dos dados do SIORG
-   - * Notificar via e-mail	 
-   - * Autorização de Acesso ao Tramita	
-     * Define os e-mails destinatários para alertas de autorização de acesso ao Tramita.GOV.BR
-   - * Corpo de Autorização de Acesso ao Tramita	
-     * Define o corpo da mensagem de autorização de acesso ao Tramita.GOV.BR
-   - * Solicitação de Acesso ao Tramita.GOV.BR	
-     * Define os e-mails destinatários para alertas de novas solicitações do cadastro de Comitê Gestor de Protocolo.
-   - * Paginação	 
-   - * Valor máximo para página de registros	
-     * Define o valor máximo que um SPE pode solicitar em uma página de registros
-   - * Valor padrão para página de registros	
-     * Define o valor padrão a ser utilziado quando um SPE solicitar uma página de registros
-
++-----------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Nome                                                            | Descrição                                                                                                                                            | 
++=================================================================+======================================================================================================================================================+
+| Configuração de envio e-mail                                                                                                                                                                                           |
++-----------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Assunto de E-mail de acesso ao ambiente de homologação aprovado  |Define o padrão do assunto do e-mail de acesso ao ambiente de homologação aprovado.                                                                   |
++-----------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Assunto de E-mail de cadastro de gestor em órgão                 |Define o padrão do assunto do e-mail de cadastro de gestor em órgão.                                                                                  |
++-----------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Assunto de E-mail de reprovação de cadastro                      |Define o padrão do assunto do e-mail de reprovação de cadastro.                                                                                       |
++-----------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Assunto de E-mail de solicitação de cadastro de órgão            |Define o padrão do assunto do e-mail de solicitação de cadastro de órgão.                                                                             |
++-----------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Corpo de E-mail de acesso ao ambiente de homologação aprovado    |Define o padrão do corpo do e-mail de acesso ao ambiente de homologação aprovado.                                                                     |
++-----------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Corpo de E-mail de cadastro de gestor em órgão                   |Define o padrão do corpo do e-mail de cadastro de gestor em órgão.                                                                                    |
++-----------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Corpo de E-mail de reprovação de cadastro                        |Define o padrão do corpo do e-mail de reprovação de cadastro.                                                                                         |
++-----------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Corpo de E-mail de solicitação de cadastro de órgão              |Define o padrão do corpo do e-mail de solicitação de cadastro de órgão.                                                                               |
++-----------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Expurgo e cancelamento automático                                                                                                                                                                                      |
++-----------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Qtd. de dias para cancelamento automático de trâmite             |Define a quantidade de dias corridos, sem nenhuma atualização, que libera a solução para cancelar automaticamente um trâmite                          |
++-----------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+	
+|Qtd. de dias para expurgo dos binários de trâmites cancelados    |Define a quantidade de dias corridos, após o cancelamento de um trâmite, para que a solução possa expurgar (excluir) os componentes digitais do mesmo |
++-----------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Qtd. de dias para expurgo dos binários de trâmites concluídos    |Define a quantidade de dias corridos, após a conclusão de um trâmite, para que a solução possa expurgar (excluir) os componentes digitais do mesmo    |
++-----------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Importação de estruturas do SIORG                                                                                                                                                                                      |
++-----------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Intervalo entre execuções                                        |Define a quantidade de horas de intervalo entre duas execuções da rotina de importação dos dados do SIORG                                             |
++-----------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Notificar via e-mail                                                                                                                                                                                                   |
++-----------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Autorização de Acesso ao Tramita                                 |Define os e-mails destinatários para alertas de autorização de acesso ao Tramita.GOV.BR                                                               |
++-----------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Corpo de Autorização de Acesso ao Tramita                        |Define o corpo da mensagem de autorização de acesso ao Tramita.GOV.BR                                                                                 |
++-----------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Solicitação de Acesso ao Tramita.GOV.BR                          |Define os e-mails destinatários para alertas de novas solicitações do cadastro de Comitê Gestor de Protocolo.                                         |
++-----------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Paginação                                                                                                                                                                                                              |
++-----------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Valor máximo para página de registros                            |Define o valor máximo que um SPE pode solicitar em uma página de registros                                                                            |
++-----------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Valor padrão para página de registros                            |Define o valor padrão a ser utilziado quando um SPE solicitar uma página de registros                                                                 |
++-----------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+  
 Editar
 ------
 
