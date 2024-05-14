@@ -118,7 +118,7 @@ Vincular Sistemas
 
 O usuário pode vincular um Sistema de Processo Eletrônico para o Órgão/Entidade cadastrado.
 
-O usuário deve localizar o órgão/entidade na listagem e, em seguida, clicar no botão “Sistemas”; Ao clicar no botão “Vincular Sistemas”, aparecerá a lista dos sistemas com os botões de “Vincular” e “Desvincular”. No primeiro, o sistema é vinculado ao órgão, caso a segunda opção seja escolhida o sistema perde a vinculação com o órgão.
+O usuário deve localizar o órgão/entidade na listagem e, em seguida, clicar no botão “Sistemas”. Ao clicar no botão “Vincular Sistemas”, aparecerá a lista dos sistemas com os botões de “Vincular” e “Desvincular”. No primeiro, o sistema é vinculado ao órgão, caso a segunda opção seja escolhida o sistema perde a vinculação com o órgão.
 
 .. figure:: _static/images/Protocolo-Sistemas-Vincular.gif
 

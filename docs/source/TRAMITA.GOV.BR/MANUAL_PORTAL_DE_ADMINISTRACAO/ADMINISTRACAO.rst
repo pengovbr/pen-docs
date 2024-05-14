@@ -221,6 +221,8 @@ O usuário tem a opção de pesquisar os repositórios de estruturas por meio de
 
 No mínimo um dos campos deve ser preenchido antes de clicar no botão Filtrar. Com clique é retornada uma pesquisa respeitando os filtros preenchidos.
 
+A limpeza é realizada ao clicar no botão Limpar. Caso não queira mais visualizar os campos dos filtros clique na seta para baixo. 
+
 .. figure:: _static/images/Repositorio-Estrutura-Pesquisar.gif
 
 Cadastrar
@@ -317,7 +319,7 @@ O usuário tem a opção de pesquisar as Hipóteses Legais por meio de filtros. 
 * ID;
 * Nome;
 * Base Legal;
-* Status”.  
+* Status.  
 
 Preenchendo um dos campos e posteriormente clicar no botão “Filtrar”, a pesquisa retornada respeita os filtros preenchidos.
 
