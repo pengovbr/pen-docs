@@ -1,5 +1,5 @@
 
-.. figure:: _static/images/título-Manual-do-Tramita.png
+.. figure:: _static/images/titulo-Manual-do-Tramita.png
 
 
 MANUAL PORTAL DE ADMINISTRAÇÃO
