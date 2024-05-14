@@ -468,9 +468,7 @@ Caso contrário, “Não”, se foi anexado o termo de adesão para acesso ao Tr
 
 2) Confirmar o Sistema de Governo, ou seja, qual o nome do Sistema de Processo Administrativo Eletrônico (SPE). O SPE é o termo utilizado para se referir aos sistemas internos utilizados pelos órgãos no gerenciamento de processos administrativos no exercício de suas atividades administrativas. Por exemplo: o SEI, o SIPAC, o SUAP, o Sapiens-AGU etc.
 
-3) Confirmar o Gestor Tecnológico, ou seja, qual é o órgão responsável pela infraestrutura na qual o SPE está implantado. Na opção Interno, o SPE é instalado na infraestrutura interna do próprio órgão.
-
-Em contraste, o SPE pode ser implementado em uma infraestrutura externa, que não pertence ao órgão em questão. Um exemplo disso é a Dataprev, uma empresa pública de tecnologia que oferece serviços de hospedagem de sistemas em nuvem nas modalidades IAAS (Infrastructure as a Service) e SAAS (Software as a Service).
+3) Confirmar o Gestor Tecnológico, ou seja, qual é o órgão responsável pela infraestrutura na qual o SPE está implantado. Na opção Interno, o SPE é instalado na infraestrutura interna do próprio órgão. Em contraste, o SPE pode ser implementado em uma infraestrutura externa, que não pertence ao órgão em questão. Um exemplo disso é a Dataprev, uma empresa pública de tecnologia que oferece serviços de hospedagem de sistemas em nuvem nas modalidades IAAS (Infrastructure as a Service) e SAAS (Software as a Service).
 
 Durante o processo de avaliação, caso necessário o avaliador entra em contrato com o solicitante. A ausência de retorno resulta na invalidação da solicitação. 
 
