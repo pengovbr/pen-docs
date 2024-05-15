@@ -234,7 +234,7 @@ Nesta funcionalidade se cadastra o Repositório de Estrutura, o usuário deve pr
 
 .. admonition:: Observações
 
-   1. Os repositórios criados devem respeitar o padrão de Criação de Repositórios (Ler o documento :download:`Padrão de Criação de Repositrio V_1.0 <_static/Downloads/Padrao_de_Criacao_de_Repositorio-V1.0.pdf>`).
+   1. Os repositórios criados devem respeitar o padrão de Criação de Repositórios (Ler o documento :download:`Padrão de Criação de Repositrio V_1.0 <_static/Padrao_de_Criacao_de_Repositorio-V1.0.pdf>`).
    2. Novos repositórios apenas quando realmente necessário.
    3. Em caso de um repositório não respeitar o padrão de Criação de Repositório, utilizar a funcionalidade de migração para realizar a organização de um repositório existente.
 
