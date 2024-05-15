@@ -85,7 +85,7 @@ Funcionalidades de alteração na Estrutura de Unidades Administrativas:
 Gestores 
 --------
 
-Nesta funcionalidade, o Gestor de Protocolo, previamente cadastrado e devidamente aprovado pelos administradores do Tramita.GOV.BR, poderá adicionar novos Gestores de Protocolo, que poderão auxiliar na administração das configurações de seu sistema. Esta funcionalidade está disponível no menu **Protocolo > Gestão do Tramita.GOV.BR**.
+Nesta funcionalidade, o usuário, previamente cadastrado e devidamente aprovado pelos administradores do Tramita.GOV.BR, poderá adicionar novos Gestores de Protocolo, que poderão auxiliar na administração das configurações de seu sistema. Esta funcionalidade está disponível no menu **Protocolo > Gestão do Tramita.GOV.BR**.
 
 Para cadastrar o Gestor, basta clicar no botão “Gestores”, como na captura de tela a seguir:
 
@@ -130,7 +130,7 @@ A principal configuração para iniciar a integração é **definir quais as uni
 
 Também é importante lembrar que estas unidades estarão disponíveis para os demais órgãos ou entidades externas quando estes forem enviar processos e documentos para o órgão cadastrado.
 
-O Tramita.GOV.BR permite customizar esta configuração de diversas maneiras, possibilitando que somente algumas unidades do órgão ou da entidade estejam disponíveis para envio, por exemplo somente as unidades de protocolo, ou liberando o acesso para toda a estrutura organizacional realizar livremente o envio de processos. Desta forma, o Gestor deverá definir qual a melhor abordagem para sua instituição, alinhada às suas políticas interna de expedição de processos e documentos.
+O Tramita.GOV.BR permite customizar esta configuração de diversas maneiras, possibilitando que somente algumas unidades do órgão ou da entidade estejam disponíveis para envio, por exemplo somente as unidades de protocolo, ou liberando o acesso para toda a estrutura organizacional realizar livremente o envio de processos. Desta forma, o usuário deverá definir qual a melhor abordagem para sua instituição, alinhada às suas políticas interna de expedição de processos e documentos.
 
 Após esta definição, as unidades selecionadas estarão aptas a realizar o envio de processos/documentos e estarão visíveis para os demais sistemas externos como unidades disponíveis para envio de processos/documentos.
 
@@ -185,11 +185,11 @@ Essa configuração é feita a partir da funcionalidade **Protocolo > Gestão do
 
 .. figure:: _static/images/Funcionalidade_Unidades_Centralizadoras.gif
 
-Para iniciar, o Gestor deverá escolher seu órgão/entidade e clicar no botão “Unidades Centralizadoras”.
+Para iniciar, o usuário deverá escolher seu órgão/entidade e clicar no botão “Unidades Centralizadoras”.
 
 .. figure:: _static/images/Botao_Definir_novas_unidades_centralizadoras.gif
 
-Na tela seguinte, o Gestor deverá clicar no botão “Definir novas unidades centralizadoras” para definir quais serão as unidades centralizadoras do órgão.
+Na tela seguinte, o usuário deverá clicar no botão “Definir novas unidades centralizadoras” para definir quais serão as unidades centralizadoras do órgão.
 
 .. figure:: _static/images/Definir_Unidades_Centralizadoras.gif
 
