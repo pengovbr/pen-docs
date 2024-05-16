@@ -480,7 +480,7 @@ Se algum dos requisitos da solicitação não for alcançado, a solicitação é
 
    1. Sempre verificar se o nó marcado pelo solicitante é nó raiz. Se for outro nó, o avaliador deve realizar o ajuste para nó correto.
    
-   2. Os órgãos não SIORG devem ser vinculados ao repositório correto respeitando o Guia de Padrão de Criação de Repositórios, antes de realizar o aceite da solicitação.
+   2. Os órgãos não SIORG devem ser vinculados ao repositório correto respeitando o :download:`Padrão de Criação de Repositrio V_1.0 <_static/Padrao_de_Criacao_de_Repositorio-V1.0.pdf>`, antes de realizar o aceite da solicitação.
 
    3. O sistema de órgãos não SIORG são apenas vinculados após a criação do novo órgão no Banco de Dados.
 
