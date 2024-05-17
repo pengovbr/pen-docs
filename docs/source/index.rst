@@ -9,6 +9,11 @@ Aqui você encontrará os manuais atualizados dos sistemas do Processo Eletrôni
 
 Acesse todas essas informações no menu lateral dessa página de manuais do PEN, nesse mesmo endereço: `http://manuais.processoeletronico.gov.br <http://manuais.processoeletronico.gov.br>`_.
 
+.. toctree::
+   :hidden:
+   :titlesonly:
+
+   Glossario
 
 .. toctree::
    :hidden:

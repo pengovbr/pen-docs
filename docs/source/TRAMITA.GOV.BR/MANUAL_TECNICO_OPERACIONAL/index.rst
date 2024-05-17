@@ -50,7 +50,6 @@ Sumário
    :titlesonly:
    :maxdepth: 3
   
-   DEFINICOES
    REQUISITOS_BASICOS
    SOLICITACAO_DE_ACESSO
    CONFIGURACAO_DA_ESTRUTURA

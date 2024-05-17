@@ -1,5 +1,15 @@
+Glossário PEN
+=============
+
+Bem-vindo ao Glossário de Termos e Siglas PEN. Este documento foi criado com o objetivo de facilitar a compreensão dos termos técnicos e das siglas mais comumente utilizados nos sistemas fornecidos pela nossa Unidade.
+
+Este glossário serve como uma ferramenta de referência rápida, permitindo que você encontre definições claras e concisas para os termos e siglas que encontrará em nossa documentação, comunicações e interfaces de usuário.
+
+Cada entrada neste glossário foi cuidadosamente elaborada para garantir que você tenha uma compreensão precisa e prática dos conceitos apresentados. Esperamos que este recurso seja útil e contribua para um melhor aproveitamento dos nossos sistemas.
+
+
 Definições
-===========
+----------
 
 * **Application Programming Interface (API) SOAP**: conjunto de operações via webservices para trâmite de documentos e processos desenvolvidos conforme o protocolo SOAP.
 
