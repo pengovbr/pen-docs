@@ -5,18 +5,25 @@
 MANUAIS TRAMITA GOV.BR
 =======================
 
-Apresentação
+Introdução
 +++++++++++++
 
-Este manual operacional se destina a apresentar procedimentos para a implantação e utilização da plataforma de comunicação, o **Tramita.GOV.BR**, integrante do Processo Eletrônico Nacional (PEN), disponibilizada pela Secretaria de Gestão e Inovação do Ministério da Gestão e da Inovação em Serviços Públicos, no âmbito dos órgãos e entidades da Administração Pública Federal direta, autárquica e fundacional. 
+O Tramita.GOV.BR, plataforma disponibilizada e gerenciada pela Secretaria de Gestão e Inovação do Ministério da Gestão e da Inovação em Serviços Públicos, permite o trâmite de processos administrativos eletrônicos ou documentos avulsos entre os diversos sistemas existentes, tais como SEI, Sistema AGU de Inteligência Jurídica (SAPIENS), Sistema Integrado de Protocolização e Fluxo de Documentos Eletrônicos (e-DOC), Sistema Integrado de Patrimônio, Administração e Contratos (SIPAC Protocolo), Sistema Unificado de Administração Pública (SUAP), dentre outros. Compõem a estrutura do Tramita.GOV.BR:
 
-O **Tramita.GOV.BR**, destina-se à tramitação de processos administrativos eletrônicos e ou documentos avulsos, em meio eletrônico, entre os diversos Sistemas de Processo Administrativo Eletrônico (SPE) existentes, com incrementos de segurança, integridade, agilidade e redução de custos no serviço público. 
+1. Portal de Administração;
+2. Application Programming Interface (API) SOAP;
+3. Application Programming Interface (API) REST; e
+4. Módulo de conexão com o sistema de processo eletrônico (SPE).
 
-Tal medida alça a governança para a efetiva gestão e o trâmite processual, atendendo assim as necessidades e prioridades da Administração, visto que o **Tramita.GOV.BR** fará a interoperabilidade entre os mais diversos sistemas utilizados pelos órgãos e entidades da Administração Pública Federal, a exemplo do Sistema Eletrônico de Informação (SEI), do Sistema AGU de Inteligência Jurídica (SAPIENS), do Sistema Integrado de Protocolização e Fluxo de Documentos Eletrônicos (e-DOC), do Sistema Integrado de Patrimônio, Administração e Contratos (SIPAC Protocolo), e do Sistema Unificado de Administração Pública (SUAP). 
+A equipe do Processo Eletrônico Nacional (PEN) está constantemente trabalhando para melhorar a documentação existente e na criação de novos materiais/tutoriais para possibilitar uma melhor experiência na utilização dos seus produtos.
 
-Pretende-se, com isso, dotar a Administração de ferramental totalmente eletrônico para a célere comunicação processual entre as diversas unidades administrativas, bem como entre órgãos e entidades dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios, que tenham interesse em utilizar o **Tramita.GOV.BR**, proporcionando evidente economicidade, ganhos de produtividade e eficiência administrativa. 
+Como resultado do nosso trabalho, a plataforma Tramita GOV.BR possui até a presente data dois Manuais:
 
-Assim, visando minimizar eventuais dúvidas e dificuldades na implantação de relevante plataforma de comunicação administrativa eletrônica, apresenta-se o passo a passo para a correta configuração e utilização do **Tramita.GOV.BR**. 
+**Manual do Portal de Administração:** Esse manual contempla todas as funcionalidades disponíveis do Portal de Administração documentadas e com imagens dinâmicas com a exemplificação do funcionamento de cada uma delas.
+
+**Manual Técnico Operacional:** Esse manual consolida todas as informações necessárias para o Gestor de Protocolo desde o início até a conclusão do processo de implantação da plataforma. O manual é parte integrante da Portaria SEGES nº 9.412, de 26 de outubro de 2022, a qual estabelece as regras de implantação do Tramita.GOV.BR, no âmbito da administração pública federal direta, autárquica e fundacional, assim como para os órgãos e entidades dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios, que tenham interesse em utilizar o sistema, conforme modelo constante do anexo da referida Portaria.
+
+Acompanhe essa página para acompanhar o lançamento de novos e atualização dos existentes.
 
 
 
