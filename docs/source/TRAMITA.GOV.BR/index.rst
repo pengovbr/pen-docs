@@ -27,11 +27,6 @@ Acompanhe essa página para acompanhar o lançamento de novos e atualização do
 
 
 
-.. centered::
-   Roberto Seara Machado Pojo Rego
-.. centered::
-   Secretário de Gestão e Inovação
-
 .. toctree::
 
    :titlesonly:
