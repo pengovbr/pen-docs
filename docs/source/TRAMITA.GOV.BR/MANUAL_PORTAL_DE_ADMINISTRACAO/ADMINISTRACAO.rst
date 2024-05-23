@@ -234,7 +234,7 @@ Nesta funcionalidade se cadastra o Repositório de Estrutura, o usuário deve pr
 
 .. admonition:: Observações
 
-   1. Os repositórios criados devem respeitar o padrão de Criação de Repositórios (Ler o documento :download:`Padrão de Criação de Repositrio V_1.0 <_static/Padrao_de_Criacao_de_Repositorio-V1.0.pdf>`).
+   1. Os repositórios criados devem respeitar o padrão de Criação de Repositórios (Ler o documento :download:`Padrão de Criação de Repositrio V_2.0 <_static/Padrao_de_Criacao_de_Repositorio-V2.0.pdf>`).
    2. Novos repositórios apenas quando realmente necessário.
    3. Em caso de um repositório não respeitar o padrão de Criação de Repositório, utilizar a funcionalidade de migração para realizar a organização de um repositório existente.
 
@@ -480,7 +480,7 @@ Se algum dos requisitos da solicitação não for alcançado, a solicitação é
 
    1. Sempre verificar se o nó marcado pelo solicitante é nó raiz. Se for outro nó, o avaliador deve realizar o ajuste para nó correto.
    
-   2. Os órgãos não SIORG devem ser vinculados ao repositório correto respeitando o :download:`Padrão de Criação de Repositrio V_1.0 <_static/Padrao_de_Criacao_de_Repositorio-V1.0.pdf>`, antes de realizar o aceite da solicitação.
+   2. Os órgãos não SIORG devem ser vinculados ao repositório correto respeitando o :download:`Padrão de Criação de Repositrio V_2.0 <_static/Padrao_de_Criacao_de_Repositorio-V2.0.pdf>`, antes de realizar o aceite da solicitação.
 
    3. O sistema de órgãos não SIORG são apenas vinculados após a criação do novo órgão no Banco de Dados.
 
