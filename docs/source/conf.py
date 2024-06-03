@@ -50,7 +50,7 @@ html_favicon = 'Icone_PEN.png'
 epub_show_urls = 'footnote'
 
 # -- Options for Opengraph ext
-ogp_site_url = "https://manuais.processoeletronico.gov.br/"
+ogp_site_url = "https://manuais.processoeletronico.gov.br/pt-br/latest/"
 ogp_image = "https://manuais.processoeletronico.gov.br/pt-br/latest/_static/pen_logo_sem_fundo.png"
 ogp_description_length = 300
 ogp_type = "article"
