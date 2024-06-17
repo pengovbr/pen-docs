@@ -10,7 +10,7 @@ O acesso ao Portal de Administração do Tramita.GOV.BR é feito pelo endereço 
    
    Deve-se observar que o presente Manual Técnico versa, em maiores detalhes, sobre as configurações do portal e sobre os procedimentos de teste para validação da integração. As configurações referentes ao módulo de integração ao SEI e às demais soluções de integração devem ser consultadas na documentação específica dos referidos projetos.
 
-   Vide o item `Definição dos Status <https://manuais.processoeletronico.gov.br/pt-br/latest/TRAMITA.GOV.BR/MANUAL_TECNICO_OPERACIONAL/ACESSO_AO_AMBIENTE_DE_PRODUCAO.html?highlight=defini%C3%A7%C3%A3o%20dos%20status#id3>`_ deste manual para referência completa sobre os diferentes status de tramitação.
+  A referência completa sobre os diferentes status de tramitação está disponível no item 7.12 do FAQ do Tramita GOV.BR <https://wiki.processoeletronico.gov.br/pt-br/latest/Tramita_GOV_BR/Perguntas_frequentes/Utiliza_Tramita_Envio_e_recebimento_de_processos.html#o-que-representa-o-status-de-um-tramite-e-como-proceder-caso-o-processo-esteja-parado-em-algum-dos-status>`_.
 
 **Somente após o cumprimento dos requisitos mínimos descritos nos capítulos anteriores** e validação dos mesmos pela equipe técnica do PEN, será autorizado o acesso ao **ambiente de Produção**, sendo que nesse ambiente, após a realização das configurações no portal do Tramita.GOV.BR, **devem ser realizados novamente TODOS  os  requisitos mínimos**.
 
@@ -33,9 +33,3 @@ Fluxo de Status
 .. figure:: _static/images/Tramite_Concluido_com_Recusa.jpg
 
 .. figure:: _static/images/Tramite_Concluido_com_Cancelamento.jpg
-
-
-Definição dos Status
-++++++++++++++++++++
-
-A explicação de cada status de trâmite está disponível na Pergunta `7.12 do FAQ do Tramita GOV.BR <https://wiki.processoeletronico.gov.br/pt-br/latest/Tramita_GOV_BR/Perguntas_frequentes/Utiliza_Tramita_Envio_e_recebimento_de_processos.html#o-que-representa-o-status-de-um-tramite-e-como-proceder-caso-o-processo-esteja-parado-em-algum-dos-status>`_.
