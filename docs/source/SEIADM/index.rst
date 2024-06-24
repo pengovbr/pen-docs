@@ -14,7 +14,7 @@ Sumário
 
    Man_Adm_SEI_01-Introducao
    Man_Adm_SEI_02-Visao_Geral
-   Man_Adm_SEI_03-Config_Estr_Organizacional-01_Criacao_de_Orgãos
+   Man_Adm_SEI_03-Config_Estr_Organizacional-01_Criacao_de_Orgaos
    Man_Adm_SEI_03-Config_Estr_Organizacional-02_Criacao_de_Unidades
    Man_Adm_SEI_03-Config_Estr_Organizacional-03_Montagem_Gestao_de_Hierarquias
    Man_Adm_SEI_03-Config_Estr_Organizacional-04_Cadastro_de_Usuarios
