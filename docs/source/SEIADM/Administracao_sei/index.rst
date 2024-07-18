@@ -1,5 +1,5 @@
-MANUAL DO ADMINISTRADOR SEI
-============================
+Administração SEI
+=================
 
 .. figure:: _static/images/Manual_ADM.png
 
@@ -12,15 +12,6 @@ Sumário
    :titlesonly:
    :maxdepth: 3
 
-   Introducao
-   Man_Adm_SEI_02-Visao_Geral
-   Man_Adm_SEI_03-Config_Estr_Organizacional-01_Criacao_de_Orgaos
-   Man_Adm_SEI_03-Config_Estr_Organizacional-02_Criacao_de_Unidades
-   Man_Adm_SEI_03-Config_Estr_Organizacional-03_Montagem_Gestao_de_Hierarquias
-   Man_Adm_SEI_03-Config_Estr_Organizacional-04_Cadastro_de_Usuarios
-   Man_Adm_SEI_03-Config_Estr_Organizacional-05_Gestao_de_Permissoes
-   Man_Adm_SEI_03-Config_Estr_Organizacional-06_Gestao_Montagem_de_Perfil
-   Man_Adm_SEI_03-Config_Estr_Organizacional
    Man_Adm_SEI_04-Administração_SEI-01_Assinatura_das_Unidades
    Man_Adm_SEI_04-Administração_SEI-02_Contatos_Nao finalizado
    Man_Adm_SEI_04-Administração_SEI-03_Usuarios_Externos

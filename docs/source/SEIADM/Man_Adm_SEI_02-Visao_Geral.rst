@@ -9,7 +9,7 @@ O SEI é um sistema que trabalha em conjunto com outro sistema o SIP (Sistema de
 Apesar de o SIP atender a um único sistema (o SEI) vale ressaltar que os dois são sistemas diferentes portanto possuem login próprio em que o usuário e senha de um não necessariamente acessará o outro.
 
 Conhecendo o SIP
-=================
+----------------
 
 O SIP é o Sistema de Permissões que permite o cadastramento inicial de usuários unidades hierarquia das unidades e permissões. Ele foi concebido de forma generalista para atender quaisquer sistemas que necessitem desses dados.
 
@@ -42,10 +42,11 @@ Para entender as relações entre as respectivas funções do SEI e do SIP segue
    - * Gestão da autenticação de usuários
      * Instrução processual
    - * Gestão de permissões
+     * 
 
 
 Acesso ao SIP e ao SEI
-=======================
+----------------------
 
 Ambos os sistemas possuem login próprio em que o usuário e senha de um não necessariamente acessará o outro.
 Para acessar o SIP basta adicionar “/SIP” após o endereço de acesso ao SEI da instituição. Para exemplificar vamos acessar o SEI e em seguida o SIP.

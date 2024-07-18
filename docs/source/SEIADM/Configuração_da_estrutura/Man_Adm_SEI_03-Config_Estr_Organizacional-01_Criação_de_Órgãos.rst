@@ -103,7 +103,8 @@ Ação Alterar Órgão
 
 Ao clicar no ícone “Alterar Órgão” você terá acesso a uma nova tela que apresentará o formulário para cadastramento das informações base da instituição.
 
-**CÓDIGOS**:
+Códigos
+~~~~~~~
 
 Seção dividida em dois campos numéricos: 
   
@@ -112,7 +113,8 @@ Seção dividida em dois campos numéricos:
 
 .. figure:: _static/images/02-01_Criacao-Orgaos_Tela_Alterar-Órgão.png
 
-**CONTATO ASSOCIADO**
+Contato Associado
+~~~~~~~~~~~~~~~~~
 
 A funcionalidade dos contatos permite que pessoas físicas e jurídicas sejam cadastradas no sistema. Ressalta-se que essa seção é dividida em três partes: 
   
@@ -122,7 +124,8 @@ A funcionalidade dos contatos permite que pessoas físicas e jurídicas sejam ca
 
 .. figure:: _static/images/02-01_Criacao-Orgaos_Tela_Alterar-Contato.png
 
-**FORMATO DA NUMERAÇÃO**
+Formato da Numeração
+~~~~~~~~~~~~~~~~~~~~
 
 Campo destinado à configuração do formato do número do processo. Por exemplo no Poder Executivo Federal o padrão numérico adotado é o Número Único de Protocolo (NUP) e sua composição é:
 
@@ -143,7 +146,9 @@ Note que no SEI as variáveis se caracterizam por estarem entre @. Para montar a
 - Sequencial numérico: @seq_anual_cod_unidade_sei_06d@
 - Ano do documento: @ano_4d@
 - Dígito verificador: @dv_mod11_executivo_federal_2d@
-- A máscara do número (sinais como “/” “.” “-“) devem ser inseridas manualmente no momento de compor a numeração. Ao final o campo ficará preenchido da seguinte forma:
+- A máscara do número (sinais como “/” “.” “-“) devem ser inseridas manualmente no momento de compor a numeração.
+
+Ao final o campo ficará preenchido da seguinte forma:
   
   @cod_unidade_sei_05d@.@seq_anual_cod_unidade_sei_06d@/@ano_4d@-@
   dv_mod11_executivo_federal_2d@
@@ -151,13 +156,15 @@ Note que no SEI as variáveis se caracterizam por estarem entre @. Para montar a
 .. image:: Foto9.png
    :alt: Foto número 9
 
-**CHECKBOXES**
+Checkboxes
+~~~~~~~~~~
 
 As unidades deste órgão podem receber processos: ao selecionar esta opção suas unidades estarão disponíveis para receber processos. Desmarcar esta opção se aplica aos casos em que não é interessante que as unidades recebam processo por exemplo no caso da extinção de um órgão.
 
 As unidades deste órgão podem publicar documentos: ao selecionar esta opção suas unidades poderão publicar os documentos selecionados nos veículos de publicação disponíveis no SEI.
 
-**CORRETOR ORTOGRÁFICO**
+Corretor Ortográfico
+~~~~~~~~~~~~~~~~~~~~
 
 Nesta seção é possível selecionar um dos tipos de corretor ortográfico que será utilizado no editor de textos do SEI conforme as opções a seguir:
   
@@ -168,7 +175,8 @@ Nesta seção é possível selecionar um dos tipos de corretor ortográfico que 
   
 - Licenciado: opção indicada para as instituições que optarem por adquirir uma solução de corretor ortográfico exclusiva. Ao selecionar esta opção será exibido um campo para informar o endereço do servidor do corretor ortográfico adquirido pelo órgão.
 
-**TIMBRE**
+Timbre
+~~~~~~
 
 Esta opção permite realizar a seleção da imagem que servirá como timbre do órgão. O timbre será exibido no topo dos documentos criados na instituição. A imagem pode representar a logo da instituição ou algum outro símbolo sempre respeitando os padrões estabelecidos de redação oficial.
 
