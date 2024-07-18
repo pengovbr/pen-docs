@@ -1,4 +1,3 @@
-```rst
 Gestão de Permissões
 ====================
 
@@ -16,7 +15,6 @@ Para acessar o SIP como administrador, o usuário deve habilitar os seguintes pe
 
 .. figure:: _static/images/02-04_Gest-Permissoes_MenuSIP_Permissoes-Nova
 
-
 Uma nova tela será aberta (tela de “Nova Permissão”); nela deve-se:
 
 .. figure:: _static/images/02-04_Cadastro-Usuarios_TelaSIP_Nova-Permissao.png
@@ -26,16 +24,26 @@ Uma nova tela será aberta (tela de “Nova Permissão”); nela deve-se:
 
 Pronto, a permissão do Usuário foi providenciada.
 
-.. note::
-   - No campo “Sistema”, sempre selecionar “SIP”.
+.. admonition:: Notas
 
-.. figure:: _static/images/02-04_Cadastro-Usuarios_TelaSIP_Nova-Permissao-Sistema-SIP.PNG
+   1. No campo “Sistema”, sempre selecionar “SIP”.
 
-   - Para atribuir uma permissão para todas as Unidades, deve-se selecionar a opção “*” no campo “Unidade”.
+   |cadastro_usuario|
+
+   2.Para atribuir uma permissão para todas as Unidades, deve-se selecionar a opção “*” no campo “Unidade”.
+
+   |asterisco|
+   3. O passo a passo deve ser repetido para se definir cada perfil escolhido (“Básico”, “Administrador de Hierarquia” e “Cadastro de Usuários e Unidades”).
+   
+   4. A atribuição de perfis deve ser realizada **SOMENTE** por administradores do SIP.
+
+
+.. |cadastro_usuario| image:: _static/images/02-04_Cadastro-Usuarios_TelaSIP_Nova-Permissao-Sistema-SIP.PNG
+   :align: middle
+   :width: 100
+
+.. |asterisco| image:: _static/images/02-04_Cadastro-Usuarios_TelaSIP_Nova-Permissao_Unidade_asterisco.png
+   :align: middle
+   :width: 100
 
 .. figure:: _static/images/02-04_Cadastro-Usuarios_TelaSIP_Nova-Permissao_Unidade_asterisco.png
-
-   - O passo a passo deve ser repetido para se definir cada perfil escolhido (“Básico”, “Administrador de Hierarquia” e “Cadastro de Usuários e Unidades”).
-   - A atribuição de perfis deve ser realizada **SOMENTE** por administradores do SIP.
-
-```

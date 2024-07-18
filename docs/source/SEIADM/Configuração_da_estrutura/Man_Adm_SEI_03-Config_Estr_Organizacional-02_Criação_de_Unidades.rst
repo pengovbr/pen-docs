@@ -1,8 +1,5 @@
-CONFIGURAÇÃO DA ESTRUTURA ORGANIZACIONAL - Criação de Unidades
-========================================
-
 Criação e Configuração de Unidade
----------------------------------
+=================================
 
 Após a criação do órgão no SIP e de sua configuração no SEI, é necessário criar as unidades administrativas que farão parte da estrutura da instituição. Seguindo a mesma lógica utilizada na criação do órgão no modelo multiórgãos, as unidades também são criadas no SIP e configuradas no SEI. Para facilitar esse entendimento e exemplificar o conteúdo tratado aqui, continuaremos utilizando o organograma do Ministério XPTO.
 
@@ -23,8 +20,6 @@ Para criar uma nova Unidade no SIP deve-se seguir os seguintes passos:
 
 .. figure:: _static/images/02-02_Criacao-Orgaos_MenuSIP_Unidades-Nova.png
 
-
-
 Após clicar na opção “Nova”, abrirá uma tela denominada “Nova Unidade” com quatro campos, conforme mostra a figura a seguir:
 
 .. figure:: _static/images/02-02_Criacao-Orgaos_TelaSIP_Nova-Unidade.png
@@ -39,10 +34,9 @@ Após clicar na opção “Nova”, abrirá uma tela denominada “Nova Unidade�
 
 Após o preenchimento, clicar em “Salvar”. Com isso, a unidade será criada e será exibida a lista de todas as unidades pertencentes ao órgão.
 
+.. admonition:: Nota
 
-
-.. note::
-    Essa operação de criação deverá ser realizada para todas as unidades do órgão e deverá refletir o organograma da instituição. Caberá aos gestores do sistema analisarem a necessidade de incluir unidades temporárias, colegiados ou outras estruturas não representadas no organograma do órgão.
+   Essa operação de criação deverá ser realizada para todas as unidades do órgão e deverá refletir o organograma da instituição. Caberá aos gestores do sistema analisarem a necessidade de incluir unidades temporárias, colegiados ou outras estruturas não representadas no organograma do órgão.
 
 
 Configuração de Unidades no SEI
@@ -87,6 +81,6 @@ A configuração das unidades é um passo essencial para garantir a correta oper
 
 Em caso de dúvidas ou problemas durante a configuração das unidades, recomenda-se contatar a equipe de suporte técnico do SEI para auxílio na resolução de possíveis dificuldades.
 
-.. note::
+.. admonition:: Nota
+
     Para mais detalhes sobre a administração e configuração do SEI, consulte os manuais e documentos técnicos disponibilizados pela equipe do PEN.
-```

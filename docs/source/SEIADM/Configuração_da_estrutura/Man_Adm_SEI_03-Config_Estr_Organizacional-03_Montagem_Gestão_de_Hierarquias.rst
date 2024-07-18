@@ -1,13 +1,13 @@
-
 Montagem e Gestão de Hierarquias
-=========================================
+=================================
 
 A hierarquia no SEI é a maneira como as unidades se relacionam e indica qual a posição de cada uma no organograma da instituição. A inclusão das unidades na hierarquia é requisito indispensável para sua utilização. 
+
 Após a criação de todas as unidades do órgão no SIP é necessário montar a hierarquia entre elas refletindo o organograma da instituição. 
+
 Será continuado a utilizar o exemplo do ministério criado (bem como as suas unidades) XPTO.
 
 .. figure:: _static/images/02-03_Mont-Gest-Hierarquias_Organograma.png
-
 
 Montagem de Hierarquia no SIP
 -----------------------------
@@ -24,10 +24,8 @@ Para realizar a montagem de uma hierarquia deve-se seguir os seguintes passos:
 
 .. figure:: _static/images/02-03_Mont-Gest-Hierarquias_MenuSIP_Montar-Hierarquias.png
 
+.. admonition:: Nota
 
-
-
-.. note::
     Para montar uma nova hierarquia é comum imaginar que o caminho seja acessar o menu “Hierarquias” e clicar na opção “Nova”. No entanto, como o SIP é um sistema criado para administrar outros sistemas além do SEI, estaríamos criando uma nova hierarquia para um novo sistema ao selecionar a opção “Nova”. Logo a montagem da nossa hierarquia sempre acontecerá na hierarquia do SEI, por isso a seleção da opção “Montar”.
 
 Ao clicar na opção “Montar” uma nova tela chamada “Montar Hierarquia” será exibida. Essa tela apresenta uma lista contendo todas as unidades que já possuem hierarquia montada.
@@ -39,7 +37,6 @@ Ao clicar na opção “Montar” uma nova tela chamada “Montar Hierarquia” 
 
 
 .. figure:: _static/images/02-03_Mont-Gest-Hierarquias_TelaSIP_Montar-Hierarquia_Adc-Und.png
-
 
 
 Após clicar no botão “Adicionar Unidade” você terá acesso a uma página composta da seguinte maneira:
@@ -74,8 +71,8 @@ Nessa mesma tela é possível realizar quatro ações:
 3. **Desativar Unidade na Hierarquia** .. figure:: _static/images/ÍconeSEI_Desativar.png: Desativa a unidade dentro daquela hierarquia. Uma vez desativada, a unidade continuará sendo exibida na lista, mas não estará mais disponível para acesso via SEI. A opção “Reativar Unidade na Hierarquia” será exibida ao selecionar esta ação.
 4. **Excluir Unidade na Hierarquia** .. figure:: _static/images/ÍconeSEI_Excluir.png: Exclui definitivamente a unidade, a qual não será mais exibida na lista da hierarquia.
 
-Introdução à Configuração dos Dados na Funcionalidade "Gestão de Hierarquia"
----------------------------------------------------------------------------
+Introdução à Configuração dos Dados na Funcionalidade "Gestão de Hierarquia
+----------------------------------------------------------------------------
 
 Após a criação das unidades e a definição de sua hierarquia no SIP, é necessário configurar seus dados para que estejam prontas para serem utilizadas. O primeiro passo para configurar os dados é acessar e logar no SEI. Para isso, deve-se seguir os seguintes passos:
 
@@ -133,8 +130,9 @@ Vamos explorar a seguir cada seção que compõe o formulário (Códigos, Contat
 
 .. figure:: _static/images/02-03_Mont-Gest-Hierarquias_Tela_Alterar-Contato.png
 
-  .. note::
-      Não preencher as informações de contato fará com que aquela unidade não seja capaz de inserir novos documentos.
+.. admonition:: Nota
+
+    Não preencher as informações de contato fará com que aquela unidade não seja capaz de inserir novos documentos.
 
 - **E-mail**
 
@@ -144,25 +142,24 @@ Vamos explorar a seguir cada seção que compõe o formulário (Códigos, Contat
 
   Essa seção é composta por cinco checkboxes:
 
-**Disponível para envio de processos**: ao selecionar essa opção a unidade estará habilitada para enviar processos. Desmarcar essa opção se aplica aos casos em que não é interessante que as unidades enviem processos, por exemplo, no caso de extinção da unidade.
+- **Disponível para envio de processos**: ao selecionar essa opção a unidade estará habilitada para enviar processos. Desmarcar essa opção se aplica aos casos em que não é interessante que as unidades enviem processos, por exemplo, no caso de extinção da unidade.
 **Enviar e-mail de aviso quando um processo for remetido para a unidade**: ao selecionar essa opção o sistema enviará para o e-mail cadastrado da unidade uma mensagem sobre o recebimento de novos processos.
-**Unidade de arquivamento**: essa opção define que a unidade é também uma unidade de arquivamento. Isso implica que todos os usuários cadastrados nela terão acesso aos menus “Arquivamento”, “Desarquivamento” e “Localizadores”, podendo arquivar as partes analógicas dos processos.
+- **Unidade de arquivamento**: essa opção define que a unidade é também uma unidade de arquivamento. Isso implica que todos os usuários cadastrados nela terão acesso aos menus “Arquivamento”, “Desarquivamento” e “Localizadores”, podendo arquivar as partes analógicas dos processos.
 
 .. figure:: _static/images/02-03_Mont-Gest-Hierarquias_Menu_Unidade-Arquivamento.png
 
 
-**Unidade de ouvidoria**: seleciona a unidade como a unidade de ouvidoria do órgão.
+- **Unidade de ouvidoria**: seleciona a unidade como a unidade de ouvidoria do órgão.
 
  A unidade de ouvidoria recebe todas as manifestações externas como elogios, sugestões, reclamações e denúncias.
-**Unidade de protocolo**: define a unidade como a unidade de protocolo do órgão.
+
+- **Unidade de protocolo**: define a unidade como a unidade de protocolo do órgão.
 
   Após o preenchimento de todos os campos e seleção das checkboxes desejadas, clique em “Salvar” para finalizar o cadastro da unidade. Pronto, a unidade foi cadastrada e está configurada para uso.
 
 
-
-
 Finalizando a Configuração das Unidades no SEI
----------------------------------------------
+-----------------------------------------------
 
 Após a configuração das unidades no SEI, será exibida a mensagem "Operação realizada com sucesso" indicando que a unidade está pronta para ser utilizada.
 
@@ -174,8 +171,6 @@ A configuração das unidades é um passo essencial para garantir a correta oper
 
 Em caso de dúvidas ou problemas durante a configuração das unidades, recomenda-se contatar a equipe de suporte técnico do SEI para auxílio na resolução de possíveis dificuldades.
 
-.. note::
-    Para mais detalhes sobre a administração e configuração do SEI, consulte os manuais e documentos técnicos disponibilizados pela equipe do PEN.
-```
+.. admonition:: Nota
 
-Se precisar de mais ajustes ou se houver outras especificações, por favor, me avise.
+    Para mais detalhes sobre a administração e configuração do SEI, consulte os manuais e documentos técnicos disponibilizados pela equipe do PEN.

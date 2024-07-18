@@ -1,4 +1,3 @@
-```rst
 Gestão de Permissões
 ====================
 
@@ -23,7 +22,8 @@ Uma nova tela será aberta (tela de “Nova Permissão”); nela deve-se:
 
 Pronto, a permissão do Usuário foi providenciada.
 
-.. note::
+.. admonition:: Notas
+
    - No campo “Sistema”, sempre selecionar “SIP”.
    - Para atribuir uma permissão para todas as Unidades, deve-se selecionar a opção “*” no campo “Unidade”.
    - O passo a passo deve ser repetido para se definir cada perfil escolhido (“Básico”, “Administrador de Hierarquia” e “Cadastro de Usuários e Unidades”).
@@ -52,7 +52,8 @@ Além de atribuir perfis, o administrador pode criar novos perfis e ajustar as p
 
    Foto número 4
 
-.. note::
+.. admonition:: Notas
+
    - Certifique-se de que todas as permissões necessárias foram atribuídas corretamente para evitar problemas de acesso.
    - Os perfis devem ser revisados periodicamente para garantir que estejam atualizados conforme as mudanças organizacionais.
 
@@ -68,4 +69,3 @@ A gestão de permissões no SEI é um processo crucial para manter a segurança 
 Para mais informações ou dúvidas, consulte a documentação oficial ou entre em contato com o suporte técnico.
 
    Foto número 7
-```

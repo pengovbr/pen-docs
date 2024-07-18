@@ -15,7 +15,9 @@ Para inserir um usuário no SEI, primeiramente é necessário cadastrá-lo no SI
 
 
 Uma nova tela será aberta “Novo Usuário”.
+
 04. Na tela de Novo Usuário, preencher/selecionar os campos:
+
 - Órgão;
 - Sigla;
 - Nome;
@@ -24,12 +26,8 @@ Uma nova tela será aberta “Novo Usuário”.
 - CPF;
 - E-mail institucional.
 
-
-
-
 .. figure:: _static/images/02-04_Cadastro-Usuarios_TelaSIP_Usuario-Novo.png
 
-
-
 05.	Clicar no botão “Salvar” 
+
 Pronto! O Usuário está cadastrado no SIP. O próximo passo é efetivar o cadastro no SEI.
