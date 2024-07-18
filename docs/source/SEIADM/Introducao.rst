@@ -10,4 +10,3 @@ O objetivo deste material é apresentar ao Administrador do SEI as configuraçõ
 Além disso, entendemos este material como um processo de melhoria contínua, podendo sofrer revisões devido a melhorias de funcionalidade ou mesmo revisões para tornar as redações mais claras e esclarecedoras aos usuários. Todos os servidores fazem parte desse processo e podem realizar sugestões sempre que entenderem necessário.
 
 A equipe do PEN construiu este material pensando em você! Desejamos que você utilize todos os recursos oferecidos pelo SEI e que o sistema possa auxiliá-lo na execução, tramitação, guarda e recuperação das informações do dia a dia dos Usuários.
-```
