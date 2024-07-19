@@ -1,8 +1,5 @@
-Configuração da Estrutura Organizacional
-========================================
-
 Cadastro das Unidades no SEI
-----------------------------
+============================
 
 Para iniciar a configuração no SEI é preciso cadastrar suas unidades. Essa etapa é importante pois todas as unidades que fazem parte da estrutura do órgão devem ser cadastradas na ferramenta SEI para que a tramitação dos processos ocorra corretamente. Para isso deve-se seguir o passo a passo a seguir: 
 
