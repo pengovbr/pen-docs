@@ -14,11 +14,11 @@ Para acessar o SIP como administrador, o usuário deve habilitar os seguintes pe
 
 2. Clicar em “Nova”;
 
-.. figure:: _static/images/02-04_Gest-Permissoes_MenuSIP_Permissoes-Nova.png
+
 
 Uma nova tela será aberta (tela de “Nova Permissão”); nela deve-se:
 
-.. figure:: _static/images/02-04_Cadastro-Usuarios_TelaSIP_Nova-Permissao.png
+
 
 3. Selecionar as unidades que o Usuário terá acesso em cada tipo de permissão;
 
@@ -30,11 +30,11 @@ Pronto, a permissão do Usuário foi providenciada.
 
    1. No campo “Sistema”, sempre selecionar “SIP”.
 
-   |cadastro_usuario|
+    |cadastro_usuario|
 
    2.Para atribuir uma permissão para todas as Unidades, deve-se selecionar a opção “*” no campo “Unidade”.
 
-   |asterisco|
+    |asterisco|
 
    3. O passo a passo deve ser repetido para se definir cada perfil escolhido (“Básico”, “Administrador de Hierarquia” e “Cadastro de Usuários e Unidades”).
    

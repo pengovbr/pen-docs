@@ -10,7 +10,6 @@ Para criar uma nova Unidade no SIP deve-se seguir os seguintes passos:
 
 01. Acessar o sistema com os dados fornecidos pela equipe do PEN.
 
-.. figure:: _static/images/02-02_Criacao-Unidade_Tela_SIP.png
 
 02. Acessar o Menu Principal;
 
@@ -49,8 +48,6 @@ Após a criação das unidades no SIP, é necessário configurá-las no SEI para
 3. Clicar em “Unidades”.
 4. Selecionar a unidade recém-criada para configuração.
 
-**Foto número 3**
-
 Na tela de configuração de unidades, preencher os seguintes campos:
 
 - **Código**: Número de controle da unidade. No Poder Executivo Federal, recomenda-se que seja preenchido com o código de Unidade Protocolizadora (UP).
@@ -66,18 +63,15 @@ Na tela de configuração de unidades, preencher os seguintes campos:
 
 Após o preenchimento, clicar em “Salvar” para finalizar a configuração da unidade.
 
-**Foto número 4**
 
 Finalizando a Configuração das Unidades no SEI
 ----------------------------------------------
 
 Após a configuração das unidades no SEI, será exibida a mensagem "Operação realizada com sucesso", indicando que a unidade está pronta para ser utilizada.
 
-**Foto número 5**
 
 A configuração das unidades é um passo essencial para garantir a correta operação e integração das unidades no ambiente do SEI. Após a configuração inicial, recomenda-se realizar um teste para verificar se todas as unidades foram cadastradas e configuradas corretamente.
 
-**Foto número 6**
 
 Em caso de dúvidas ou problemas durante a configuração das unidades, recomenda-se contatar a equipe de suporte técnico do SEI para auxílio na resolução de possíveis dificuldades.
 

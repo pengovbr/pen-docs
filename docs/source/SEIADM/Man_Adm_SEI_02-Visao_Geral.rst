@@ -3,8 +3,6 @@ Visão Geral do SEI e do SIP
 
 O SEI é um sistema que trabalha em conjunto com outro sistema o SIP (Sistema de Permissões) que promove o cadastramento inicial de dados do SEI. Visto o seu nome além de realizar o cadastro inicial de dados (Usuários Unidades Hierarquia de Unidades) ele possibilita a concessão e retirada de permissões.
 
-.. image:: Foto1.png
-   :alt: Foto número 1
 
 Apesar de o SIP atender a um único sistema (o SEI) vale ressaltar que os dois são sistemas diferentes portanto possuem login próprio em que o usuário e senha de um não necessariamente acessará o outro.
 
@@ -18,9 +16,6 @@ Dessa forma dados específicos que são utilizados no âmbito de cada sistema de
 O SIP atende a um único sistema que é o SEI. Porém por ter sido criado para atender vários sistemas dados básicos dos usuários e unidades devem ser cadastrados inicialmente no SIP e depois nos casos específicos complementados no SEI.
 
 Para entender as relações entre as respectivas funções do SEI e do SIP segue uma comparação entre os dois sistemas.
-
-.. image:: Foto2.png
-   :alt: Foto número 2
 
 
 .. list-table::
@@ -59,8 +54,3 @@ Para acessar o SIP basta adicionar “/SIP” após o endereço de acesso ao SEI
  
   www.sei.[o nome ou sigla do órgão que deseja acessar].gov.br/SIP
 
-.. image:: Foto3.png
-   :alt: Foto número 3
-
-.. image:: Foto4.png
-   :alt: Foto número 4

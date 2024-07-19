@@ -83,19 +83,19 @@ Além de acessar os órgãos cadastrados é possível executar três ações:
 
 - Consultar órgão |consultar_orgao|: permite consultar os dados cadastrados naquele órgão.
 
-.. |consultar_orgao| image:: _static/images/ÍconeSEI_Consultar.png
+.. |consultar_orgao| image:: _static/images/iconeSEI_Consultar.png
    :align: middle
    :width: 30
 
 - Alterar órgão |alterar_orgao|: permite cadastrar os dados daquele órgão (será detalhado a seguir) 
 
-.. |alterar_orgao| image:: _static/images/ÍconeSEI_Alterar.png
+.. |alterar_orgao| image:: _static/images/iconeSEI_Alterar.png
    :align: middle
    :width: 30
 
 - Histórico do Órgão |historico_orgao|: permite acessar o histórico daquele órgão
 
-.. |historico_orgao| image:: _static/images/ÍconeSEI_Histórico.png
+.. |historico_orgao| image:: _static/images/iconeSEI_Histórico.png
    :align: middle
    :width: 30
 
@@ -155,8 +155,6 @@ Ao final o campo ficará preenchido da seguinte forma:
   @cod_unidade_sei_05d@.@seq_anual_cod_unidade_sei_06d@/@ano_4d@-@
   dv_mod11_executivo_federal_2d@
 
-.. image:: Foto9.png
-   :alt: Foto número 9
 
 Checkboxes
 ~~~~~~~~~~

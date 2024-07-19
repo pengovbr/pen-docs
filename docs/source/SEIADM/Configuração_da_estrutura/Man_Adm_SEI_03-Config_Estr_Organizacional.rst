@@ -7,13 +7,10 @@ Para iniciar a configuração no SEI é preciso cadastrar suas unidades. Essa et
 
 O acesso ao menu "Unidades" é feito por meio do menu Administração e clicar na opção Unidades como mostrado na figura abaixo: 
 
-.. image:: images/foto_01.png
-   :alt: Foto número 01
 
 No menu "Unidades" é possível visualizar todas as unidades cadastradas para aquele órgão conforme o exemplo a seguir: 
 
-.. image:: images/foto_02.png
-   :alt: Foto número 02
+
 
 2. **Ação Novo**
 
@@ -31,8 +28,6 @@ Ao clicar no ícone “Novo” você terá acesso a uma nova tela com o formulá
 
 Campo destinado à configuração do formato do número do processo da unidade. Deve seguir o mesmo padrão numérico adotado pelo órgão por exemplo Número Único de Protocolo (NUP). A configuração do formato do número deve utilizar as variáveis oferecidas pelo SEI. Ao clicar no ícone “Ajuda” ao lado direito do campo será exibida uma lista com todas as variáveis possíveis para composição do número conforme exemplo a seguir: 
 
-.. image:: images/foto_03.png
-   :alt: Foto número 03
 
 Note que no SEI as variáveis se caracterizam por estarem entre @. Para montar a estrutura do NUP serão utilizadas variáveis específicas para cada parte do número: 
 
@@ -81,15 +76,11 @@ Após a criação de todas as unidades no SIP a ferramenta permite realizar a mo
 
 A imagem a seguir apresenta o menu "Hierarquias": 
 
-.. image:: images/foto_04.png
-   :alt: Foto número 04
 
 3. **Criar uma nova hierarquia**:
 
 Ao acessar o menu "Hierarquias" será exibida a lista das hierarquias cadastradas. Para criar uma nova hierarquia clique no ícone "Novo" conforme a imagem a seguir:
 
-.. image:: images/foto_05.png
-   :alt: Foto número 05
 
 Ao selecionar a opção “Novo” será aberta uma nova tela para preencher os dados da nova hierarquia que são: 
 
@@ -106,13 +97,9 @@ Explorando a Funcionalidade "Montar Hierarquias"
 
 A ferramenta permite realizar a montagem da hierarquia de uma forma dinâmica onde as unidades são arrastadas para suas posições na estrutura organizacional. Veja o exemplo a seguir onde as unidades foram criadas no SIP para compor a estrutura do Ministério fictício XPTO com suas secretarias e departamentos conforme figura abaixo: 
 
-.. image:: images/foto_06.png
-   :alt: Foto número 06
 
 Na tela inicial do menu "Montar Hierarquias" selecione a hierarquia que deseja editar. A tela seguinte permitirá arrastar as unidades criadas para suas respectivas posições na estrutura hierárquica conforme figura abaixo: 
 
-.. image:: images/foto_07.png
-   :alt: Foto número 07
 
 Os ícones ao lado das unidades permitem a execução de três ações: 
 
@@ -136,8 +123,6 @@ A ação "Alterar Unidade" no SEI é utilizada para modificar as informações d
 
 4. **Clicar no ícone “Alterar Unidade” conforme a figura abaixo:**
 
-.. image:: images/foto_08.png
-   :alt: Foto número 08
 
 A tela seguinte apresentará o formulário para alteração dos dados da unidade que são:
 

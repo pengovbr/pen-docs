@@ -71,19 +71,19 @@ Nessa mesma tela é possível realizar quatro ações:
 3. **Desativar Unidade na Hierarquia** |Desativar_Unidade_na_Hierarquia|: Desativa a unidade dentro daquela hierarquia. Uma vez desativada, a unidade continuará sendo exibida na lista, mas não estará mais disponível para acesso via SEI. A opção “Reativar Unidade na Hierarquia” será exibida ao selecionar esta ação.
 4. **Excluir Unidade na Hierarquia** |Excluir_Unidade_na_Hierarquia| : Exclui definitivamente a unidade, a qual não será mais exibida na lista da hierarquia.
 
-.. |Adicionar_Subunidade| image:: _static/images/ÍconeSIP_Adicionar.png
+.. |Adicionar_Subunidade| image:: _static/images/iconeSIP_Adicionar.png
    :align: middle
    :width: 30
 
-.. |Alterar_Unidade_na_Hierarquia| image:: _static/images/ÍconeSEI_Alterar.png
+.. |Alterar_Unidade_na_Hierarquia| image:: _static/images/iconeSEI_Alterar.png
    :align: middle
    :width: 30
 
-.. |Desativar_Unidade_na_Hierarquia| image:: _static/images/ÍconeSEI_Desativar.png
+.. |Desativar_Unidade_na_Hierarquia| image:: _static/images/iconeSEI_Desativar.png
    :align: middle
    :width: 30
 
-.. |Excluir_Unidade_na_Hierarquia| image:: _static/images/ÍconeSEI_Excluir.png
+.. |Excluir_Unidade_na_Hierarquia| image:: _static/images/iconeSEI_Excluir.png
    :align: middle
    :width: 30
 
@@ -201,11 +201,11 @@ Finalizando a Configuração das Unidades no SEI
 
 Após a configuração das unidades no SEI, será exibida a mensagem "Operação realizada com sucesso" indicando que a unidade está pronta para ser utilizada.
 
-**Foto número 4**
+
 
 A configuração das unidades é um passo essencial para garantir a correta operação e integração das unidades no ambiente do SEI. Após a configuração inicial, recomenda-se realizar um teste para verificar se todas as unidades foram cadastradas e configuradas corretamente. 
 
-**Foto número 5**
+
 
 Em caso de dúvidas ou problemas durante a configuração das unidades, recomenda-se contatar a equipe de suporte técnico do SEI para auxílio na resolução de possíveis dificuldades.
 
