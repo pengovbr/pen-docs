@@ -8,7 +8,7 @@ Para inserir um usuário no SEI, primeiramente é necessário cadastrá-lo no SI
 
 2. Selecionar a opção "Usuários":
 
-3. Clicar em “Novo”
+3. Clicar em “Novo”;
 
 
 .. figure:: _static/images/02-04_Cadastro-Usuarios_MenuSIP_Usuario-Novo.png

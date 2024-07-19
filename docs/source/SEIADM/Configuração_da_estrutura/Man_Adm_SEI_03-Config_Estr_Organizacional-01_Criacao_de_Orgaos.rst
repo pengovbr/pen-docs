@@ -21,7 +21,9 @@ Para criar um novo órgão no SIP o usuário com perfil "Administrador" deverá 
 .. figure:: _static/images/02-01_Criacao-Orgaos_Tela_SIP.png
 
 02. Acessar o Menu Principal;
+
 03. Selecionar a opção“Órgãos”;
+
 04. Clicar na opção “Novo”;
 
 .. figure:: _static/images/02-01_Criacao-Orgaos_MenuSIP_Novo-Orgao.png
@@ -50,7 +52,7 @@ Ao selecionar esta opção aparecerá outro campo para a indicação dos servido
 
 Ao finalizar o preenchimento é necessário clicar no botão “Salvar”. Com isso o órgão será criado e será exibida a lista de todos os órgãos pertencentes àquela estrutura. A imagem a seguir apresenta a tela que aparece após salvar a operação.
 
-.. figure:: _static/images/02-01_Criacao-Orgaos_ListaSIP_Novo-Orgao
+.. figure:: _static/images/02-01_Criacao-Orgaos_ListaSIP_Novo-Orgao.png
 
 Configuração de Órgãos
 ----------------------
@@ -63,7 +65,7 @@ A configuração de um novo Órgão é uma etapa importante e deve ser realizada
 
 .. admonition:: Nota
 
-Como ainda não foram cadastrados usuários para o órgão foram utilizados o usuário “teste” e a senha “teste” no órgão raiz (ID 0) para acessar o menu que permite a configuração do órgão recém-criado.
+   Como ainda não foram cadastrados usuários para o órgão foram utilizados o usuário “teste” e a senha “teste” no órgão raiz (ID 0) para acessar o menu que permite a configuração do órgão recém-criado.
 
 .. figure:: _static/images/02-01_Criacao-Orgaos_Menu.png
 
@@ -83,19 +85,19 @@ Além de acessar os órgãos cadastrados é possível executar três ações:
 
 .. |consultar_orgao| image:: _static/images/ÍconeSEI_Consultar.png
    :align: middle
-   :width: 20
+   :width: 30
 
 - Alterar órgão |alterar_orgao|: permite cadastrar os dados daquele órgão (será detalhado a seguir) 
 
 .. |alterar_orgao| image:: _static/images/ÍconeSEI_Alterar.png
    :align: middle
-   :width: 20
+   :width: 30
 
 - Histórico do Órgão |historico_orgao|: permite acessar o histórico daquele órgão
 
 .. |historico_orgao| image:: _static/images/ÍconeSEI_Histórico.png
    :align: middle
-   :width: 20
+   :width: 30
 
 
 Ação Alterar Órgão

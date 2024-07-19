@@ -44,14 +44,14 @@ Observe que no código UP supracitado existe a informação “05d” que indica
 - **Ano do documento**: ``@ano_4d@`` 
 - **Dígito verificador**: ``@dv_mod11_executivo_federal_2d@``
 
- A máscara do número (sinais como “/” “.” “-“) devem ser inseridas manualmente no momento de compor a numeração. Ao final o campo ficará preenchido da seguinte forma:
+A máscara do número (sinais como “/” “.” “-“) devem ser inseridas manualmente no momento de compor a numeração. Ao final o campo ficará preenchido da seguinte forma:
 
    ``@cod_unidade_sei_05d@.@seq_anual_cod_unidade_sei_06d@/@ano_4d@-@dv_mod11_executivo_federal_2d@``
 
 - **Checkboxes**
    
 - **Esta unidade pode receber processos**: ao selecionar esta opção a unidade estará disponível para receber processos. Desmarcar esta opção se aplica aos casos em que não é interessante que a unidade receba processo por exemplo no caso da extinção da unidade. 
-   - **Esta unidade pode publicar documentos**: ao selecionar esta opção a unidade poderá publicar os documentos selecionados nos veículos de publicação disponíveis no SEI.
+- **Esta unidade pode publicar documentos**: ao selecionar esta opção a unidade poderá publicar os documentos selecionados nos veículos de publicação disponíveis no SEI.
 
 - **CORRETOR ORTOGRÁFICO**
 

@@ -66,10 +66,26 @@ Ao final da montagem da hierarquia, a estrutura do organograma será representad
 
 Nessa mesma tela é possível realizar quatro ações:
 
-1. **Adicionar Subunidade** .. figure:: _static/images/ÍconeSIP_Adicionar.png: Otimiza a montagem da hierarquia. Ao clicar nesta opção, a nova subunidade será incluída.
-2. **Alterar Unidade na Hierarquia** .. figure:: _static/images/ÍconeSEI_Alterar.png: Reorganiza a unidade na hierarquia.
-3. **Desativar Unidade na Hierarquia** .. figure:: _static/images/ÍconeSEI_Desativar.png: Desativa a unidade dentro daquela hierarquia. Uma vez desativada, a unidade continuará sendo exibida na lista, mas não estará mais disponível para acesso via SEI. A opção “Reativar Unidade na Hierarquia” será exibida ao selecionar esta ação.
-4. **Excluir Unidade na Hierarquia** .. figure:: _static/images/ÍconeSEI_Excluir.png: Exclui definitivamente a unidade, a qual não será mais exibida na lista da hierarquia.
+1. **Adicionar Subunidade** |Adicionar_Subunidade|: Otimiza a montagem da hierarquia. Ao clicar nesta opção, a nova subunidade será incluída.
+2. **Alterar Unidade na Hierarquia** |Alterar_Unidade_na_Hierarquia|: Reorganiza a unidade na hierarquia.
+3. **Desativar Unidade na Hierarquia** |Desativar_Unidade_na_Hierarquia|: Desativa a unidade dentro daquela hierarquia. Uma vez desativada, a unidade continuará sendo exibida na lista, mas não estará mais disponível para acesso via SEI. A opção “Reativar Unidade na Hierarquia” será exibida ao selecionar esta ação.
+4. **Excluir Unidade na Hierarquia** |Excluir_Unidade_na_Hierarquia| : Exclui definitivamente a unidade, a qual não será mais exibida na lista da hierarquia.
+
+.. |Adicionar_Subunidade| image:: _static/images/ÍconeSIP_Adicionar.png
+   :align: middle
+   :width: 30
+
+.. |Alterar_Unidade_na_Hierarquia| image:: _static/images/ÍconeSEI_Alterar.png
+   :align: middle
+   :width: 30
+
+.. |Desativar_Unidade_na_Hierarquia| image:: _static/images/ÍconeSEI_Desativar.png
+   :align: middle
+   :width: 30
+
+.. |Excluir_Unidade_na_Hierarquia| image:: _static/images/ÍconeSEI_Excluir.png
+   :align: middle
+   :width: 30
 
 Introdução à Configuração dos Dados na Funcionalidade "Gestão de Hierarquia
 ----------------------------------------------------------------------------
@@ -81,7 +97,9 @@ Após a criação das unidades e a definição de sua hierarquia no SIP, é nece
 Como ainda não foram cadastrados usuários para o órgão, utilizaremos o usuário “teste” e a senha “teste” para acessar o menu que permite a configuração das unidades recém-criadas. No caso de uma instalação multiórgãos, essa configuração será feita acessando com o mesmo usuário e senha, porém no órgão raiz (ID 0), neste caso o órgão ME.
 
 02. Acessar Administração no Menu Principal.
+
 03. Selecionar a opção “Unidades”;
+
 04. Clicar na opção "Listar".
 
 .. figure:: _static/images/02-03_Mont-Gest-Hierarquias_Menu00_Unidades-Listar.png
@@ -96,11 +114,31 @@ Ao clicar na opção “Listar” você terá acesso a uma tela chamada “Unida
 
 Vamos explorar a seguir cada ação disponível na funcionalidade "Listar Unidades":
 
-- **Consultar Unidade**  .. figure:: _static/images/ÍconeSEI_Consultar.png: Permite consultar os dados cadastrados naquela unidade.
-- **Alterar Unidade** .. figure:: _static/images/ÍconeSEI_Alterar.png : Permite cadastrar e editar os dados daquela unidade (esta será mais detalhada adiante).
-- **Histórico da Unidade** .. figure:: _static/images/ÍconeSEI_Histórico.png: Permite visualizar o histórico daquela unidade.
-- **Desativar Unidade** .. figure:: _static/images/ÍconeSEI_Desativar.png: Permite desativar a unidade no SEI. Essa ação remove a unidade da lista, porém é possível consultar a lista de unidades desativadas bem como reativá-las acessando o menu “Administração”, em seguida "Unidades" e clicando em “Reativar”.
-- **Excluir Unidade** .. figure:: _static/images/ÍconeSEI_Excluir.png: Permite excluir definitivamente uma unidade no SEI que não será mais exibida na lista de unidades.
+- **Consultar Unidade** |Consultar_Unidade|: Permite consultar os dados cadastrados naquela unidade.
+- **Alterar Unidade** |Alterar_Unidade|: Permite cadastrar e editar os dados daquela unidade (esta será mais detalhada adiante).
+- **Histórico da Unidade** |Historico_da_Unidade|: Permite visualizar o histórico daquela unidade.
+- **Desativar Unidade** |Desativar_Unidade|: Permite desativar a unidade no SEI. Essa ação remove a unidade da lista, porém é possível consultar a lista de unidades desativadas bem como reativá-las acessando o menu “Administração”, em seguida "Unidades" e clicando em “Reativar”.
+- **Excluir Unidade** |Excluir_Unidade|: Permite excluir definitivamente uma unidade no SEI que não será mais exibida na lista de unidades.
+
+.. |Consultar_Unidade| image:: _static/images/iconeSEI_Consultar.png
+   :align: middle
+   :width: 30
+
+.. |Alterar_Unidade| image:: _static/images/iconeSEI_Alterar.png
+   :align: middle
+   :width: 30
+
+.. |Historico_da_Unidade| image:: _static/images/iconeSEI_Histórico.png
+   :align: middle
+   :width: 30
+
+.. |Desativar_Unidade| image:: _static/images/iconeSEI_Desativar.png
+   :align: middle
+   :width: 30
+
+.. |Excluir_Unidade| image:: _static/images/iconeSEI_Excluir.png
+   :align: middle
+   :width: 30
 
 Explorando a Ação "Alterar Unidade" no SEI
 ------------------------------------------
