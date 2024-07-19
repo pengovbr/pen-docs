@@ -30,11 +30,11 @@ Pronto, a permissão do Usuário foi providenciada.
 
    1. No campo “Sistema”, sempre selecionar “SIP”.
 
-    |cadastro_usuario|
+  
 
    2.Para atribuir uma permissão para todas as Unidades, deve-se selecionar a opção “*” no campo “Unidade”.
 
-    |asterisco|
+   
 
    3. O passo a passo deve ser repetido para se definir cada perfil escolhido (“Básico”, “Administrador de Hierarquia” e “Cadastro de Usuários e Unidades”).
    
