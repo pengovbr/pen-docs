@@ -9,7 +9,7 @@ Alguns repositórios já existem e estão estruturados e utilizados há bastante
 quanto a criação e estruturação de novos repositórios, com o simples objetivo de padronizar sua apresentação e facilitar a classificação dos órgãos em seus 
 respectivos repositórios. A Tabela 1 apresenta a lista de repositórios existentes no ambiente de produção.
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++-------------------+----------------------------------------------+------------------------------------------------------------------------------------------------------+
 | Nº do Repositório | Nome do Repositório                          | Composição/descrição do Repositório                                                                  |
 +===================+==============================================+======================================================================================================+
 |  1                | Poder Executivo Federal                      | SIORG                                                                                                |
@@ -55,8 +55,9 @@ respectivos repositórios. A Tabela 1 apresenta a lista de repositórios existen
 +-------------------+----------------------------------------------+------------------------------------------------------------------------------------------------------+ 
 |  14               | Terceiro Setor                               | Terceiro Setor                                                                                       |
 +-------------------+----------------------------------------------+------------------------------------------------------------------------------------------------------+
-  **Tabela 1** – Repositórios de estruturas existentes no ambiente de produção
-
+ 
+ **Tabela 1** – Repositórios de estruturas existentes no ambiente de produção
+ 
 Uma vez validada a presente padronização para criação de repositórios de estruturas, alguns repositórios poderão ter nome e descrição alterados. Diante disso, 
 a Tabela 2 é uma representação de como os repositórios de estrutura estarão apresentados após a aplicação das diretrizes estabelecidas neste guia, bem como, a 
 quantificação de repositórios diante da implantação da plataforma nas Unidades Federativas do país. 
@@ -65,7 +66,7 @@ A sugestão tem por referência a estrutura organizacional disponibilizada pelo 
 
 Além disso, é possível observar que os textos de descrição de cada repositório seguem com uma sugestão de padronização de escrita, bem como algumas alterações nos nomes dos repositórios existentes. O objetivo é que os textos que compõem a descrição do repositório sejam padronizados e mais objetivos. Assim, essas sugestões estão diretamente relacionadas com a necessidade de auxiliar na identificação da classificação de cada órgão.
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++-------------------+----------------------------------------------+------------------------------------------------------------------------------------------------------------------------------+
 | Nº do Repositório | Nome do Repositório                          | Composição/descrição do Repositório                                                                                          |
 +===================+==============================================+==============================================================================================================================+
 |  1                | Poder Executivo Federal                      | O repositório centraliza órgãos do SIORG                                                                                     |
@@ -104,4 +105,5 @@ Além disso, é possível observar que os textos de descrição de cada reposit�
 +-------------------+----------------------------------------------+------------------------------------------------------------------------------------------------------------------------------+
 |  ...              | ...                                          | ...                                                                                                                          |
 +-------------------+----------------------------------------------+------------------------------------------------------------------------------------------------------------------------------+
-    **Tabela 2** – Repositórios de estruturas no ambiente de produção pós padronização.
+ 
+ **Tabela 2** – Repositórios de estruturas no ambiente de produção pós padronização.
