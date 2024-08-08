@@ -9,6 +9,7 @@ Nomenclatura do repositório do Poder Judiciário
 O repositório criado para concentrar os órgãos pertencentes à esfera do poder judiciário brasileiro deve possuir nome e descrição inseridas conforme a instrução que segue.
 
   **Nome do repositório:** Poder Judiciário
+
   **Descrição do repositório:** O repositório centraliza os órgãos pertencentes à estrutura do Poder Judiciário Brasileiro, sejam esses cíveis ou militares.
 
 Exemplo:
@@ -20,13 +21,20 @@ Categorias do repositório do Poder Judiciário
 
 A estruturação do repositório tem como base a estrutura do Poder Judiciário Brasileiro apresentada pelo Conselho Nacional de Justiça2e é configurada por meio de onze nós que estão no primeiro nível do repositório. A saber, são classificadas como categorias, os diversos tipos de tribunais pertencentes à essa esfera de poder, bem como conselhos que fazem parte de sua estrutura.
 
+.. admonition::Nota
+
+    Panorama e Estrutura do Poder Judiciário Brasileiro – Disponível em: https://www.cnj.jus.br/poderjudiciario/panorama-e-estrutura-do-poder-judiciario-brasileiro/ - Acessado em maio de 2024.
+
+
 Supremo Tribunal Federal
 ++++++++++++++++++++++++
 
 A configuração da categoria do Supremo Tribunal Federal é de composição única e deve possuir nome, sigla e descrição inseridas conforme a instrução que segue.
 
   **Nome:** Supremo Tribunal Federal
+
   **Sigla:** STF
+
   **Descrição:** Composto pela estrutura interna do Supremo Tribunal Federal.
 
 Exemplo:
@@ -39,7 +47,9 @@ Superior Tribunal de Justiça
 A configuração da categoria do Superior Tribunal de Justiça é de composição única e deve possuir nome, sigla e descrição inseridas conforme a instrução que segue.
 
   **Nome:** Superior Tribunal de Justiça
+
   **Sigla:** STJ
+
   **Descrição:** Composto pela estrutura interna do Superior Tribunal de Justiça.
 
 Exemplo:
@@ -52,7 +62,9 @@ Superior Tribunal Militar
 A configuração da categoria Superior Tribunal Militar é de composição única e deve possuir nome, sigla e descrição inseridas conforme a instrução que segue.
 
   **Nome:** Superior Tribunal Militar
+
   **Sigla:** STM
+
   **Descrição:** Composto pela estrutura interna do Superior Tribunal Militar.
 
 Exemplo:
@@ -65,7 +77,9 @@ Tribunal Superior do Trabalho
 A configuração da categoria Tribunal Superior do Trabalho é de composição única e deve possuir nome, sigla e descrição inseridas conforme a instrução que segue.
 
   **Nome:** Tribunal Superior do Trabalho
+
   **Sigla:** TST
+
   **Descrição:** Composto pela estrutura interna do Tribunal Superior do Trabalho.
 
 Exemplo:
@@ -78,7 +92,9 @@ Tribunal Superior Eleitoral
 A configuração da categoria Tribunal Superior Eleitoral é de composição única e deve possuir nome, sigla e descrição inseridas conforme a instrução que segue.
 
   **Nome:** Tribunal Superior Eleitoral
+
   **Sigla:** TSE
+
   **Descrição:** Composto pela estrutura interna do Tribunal Superior Eleitoral.
 
 Exemplo:
@@ -91,7 +107,9 @@ Conselhos de Justiça
 A configuração da categoria dos Conselhos de Justiça e deve possuir nome, sigla e descrição inseridas conforme a instrução que segue.
 
   **Nome:** Conselhos de Justiça
+
   **Sigla:** CJ
+
   **Descrição:** Composto pelos Conselhos de Justiça.
 
 Exemplo:
@@ -104,7 +122,9 @@ Tribunais de Justiça
 A configuração da categoria dos Tribunais de Justiça deve possuir nome, sigla e descrição inseridas conforme a instrução que segue.
 
   **Nome:** Tribunais de Justiça
+
   **Sigla:** TJ
+
   **Descrição:** Composto pelos Tribunais de Justiça.
 
 Exemplo:
@@ -118,13 +138,15 @@ A configuração da categoria dos Tribunais de Justiça Militar deve possuir nom
 
 
   **Nome:** Tribunal de Justiça Militar
+
   **Sigla:** TJM
+
   **Descrição:** Composto pelos Tribunais de Justiça Militar.
 
 
 Exemplo:
 
-.. figure:: _static/images/Nomenclatura_TJM.PNG
+.. figure:: _static/images/Nomenclatura_TJM.png
 
 Tribunais Regionais do Trabalho
 +++++++++++++++++++++++++++++++
@@ -132,7 +154,9 @@ Tribunais Regionais do Trabalho
 A configuração da categoria dos Tribunais Regionais do Trabalho deve possuir nome, sigla e descrição inseridas conforme a instrução que segue.
 
   **Nome:** Tribunais Regionais do Trabalho
+
   **Sigla:** TRT
+
   **Descrição:** Composto pelos Tribunais Regionais do Trabalho.
 
 
@@ -146,7 +170,9 @@ Tribunais Regionais Eleitorais
 A configuração da categoria dos Tribunais Regionais Eleitorais deve possuir nome, sigla e descrição inseridas conforme a instrução que segue.
 
   **Nome:** Tribunais Regionais Eleitorais
+
   **Sigla:** TRE
+
   **Descrição:** Composto pelos Tribunais Regionais Eleitorais.
 
 
@@ -160,7 +186,9 @@ Tribunais Regionais Federais
 A configuração da categoria dos Tribunais Regionais Federais deve seguir a instrução abaixo.
 
   **Nome:** Tribunais Regionais Federais
+
   **Sigla:** TRF
+
   **Descrição:** Composto pelos Tribunais Regionais Federais.
 
 
@@ -190,7 +218,9 @@ Uma vez criada a categoria é possível inserir o órgão de referência da cate
 possuir nome, sigla e descrição inseridas conforme a instrução que segue.
 
   **Nome:** Supremo Tribunal Federal
+
   **Sigla:** STF
+
   **Descrição:** Composto pela estrutura interna do Supremo Tribunal Federal.
 
 Superior Tribunal de Justiça
@@ -200,7 +230,9 @@ Uma vez criada a categoria é possível inserir o órgão de referência da cate
 possuir nome, sigla e descrição inseridas conforme a instrução que segue.
 
   **Nome:** Superior Tribunal de Justiça
+
   **Sigla:** STJ
+
   **Descrição:** Composto pela estrutura interna do Superior Tribunal de Justiça.
 
 Superior Tribunal Militar
@@ -211,7 +243,9 @@ Uma vez criada a categoria é possível inserir o órgão de referência da cate
 possuir nome, sigla e descrição inseridas conforme a instrução que segue.
 
   **Nome:** Tribunal Superior do Trabalho
+
   **Sigla:** TST
+
   **Descrição:** Composto pela estrutura interna do Tribunal Superior do Trabalho.
 
 Tribunal Superior Eleitoral
@@ -222,7 +256,9 @@ possuir nome, sigla e descrição inseridas conforme a instrução que segue.
 
 
   **Nome:** Tribunal Superior Eleitoral
+
   **Sigla:** TSE
+
   **Descrição:** Composto pela estrutura interna do Tribunal Superior Eleitoral.
 
 Conselhos de Justiça
@@ -232,7 +268,9 @@ Uma vez criada a categoria, os órgãos de referência poderão ser incluídos. 
 e devem possuir nome, sigla e descrição inseridas conforme a instrução que segue.
 
   **Nome:** Conselho [Nome do Conselho]
+
   **Sigla:** [Sigla do Nome do Conselho]
+
   **Descrição:** Composto pela estrutura interna do Conselho [Nome do Conselho].
 
 Exemplo:
@@ -246,7 +284,9 @@ Uma vez criada a categoria, os órgãos de referência poderão ser incluídos. 
 devem possuir nome, sigla e descrição inseridas conforme a instrução que segue.
 
   **Nome:** Tribunal de Justiça de/do [Nome do Estado]
+
   **Sigla:** TJ[UF]
+
   **Descrição:** Composto pela estrutura interna do Tribunal de Justiça de/do [Nome do Estado].
 
 Exemplo:
@@ -263,7 +303,9 @@ referência e devem possuir nome, sigla e descrição inseridas conforme a instr
 
 
   **Nome:** Tribunal de Justiça Militar de/do [Nome do Estado]
+
   **Sigla:** TJM[UF]
+
   **Descrição:** Composto pela estrutura interna do Tribunal de Justiça Militar de/do [Nome do Estado].
 
 Exemplo:
@@ -279,7 +321,9 @@ referência e devem possuir nome, sigla e descrição inseridas conforme a instr
 
 
   **Nome:** Tribunal Regional do Trabalho da Xª Região
+
   **Sigla:** TRTX
+
   **Descrição:** Composto pela estrutura interna do Tribunal Regional do Trabalho da Xª Região.
 
 
@@ -294,7 +338,9 @@ Uma vez criada a categoria, os órgãos de referência poderão ser incluídos. 
 referência e devem possuir nome, sigla e descrição inseridas conforme a instrução que segue.
 
   **Nome:**  Tribunal Regional Eleitoral de/do [Nome do Estado]
+
   **Sigla:**  TRE-[UF]
+
   **Descrição:** Composto pela estrutura interna do Tribunal Regional Eleitoral de/do [Nome do Estado].
 
 
@@ -311,7 +357,9 @@ Uma vez criada a categoria, os órgãos de referência poderão ser incluídos. 
 referência e devem possuir nome, sigla e descrição inseridas conforme a instrução que segue.
 
   **Nome:**  Tribunal Regional Federal da Xª Região
+
   **Sigla:** TRFX
+
   **Descrição:** : Composto pela estrutura interna do Tribunal Regional Federal da Xª Região.
 
 

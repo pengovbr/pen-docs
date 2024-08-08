@@ -10,7 +10,8 @@ quanto a criação e estruturação de novos repositórios, com o simples objeti
 respectivos repositórios. A Tabela 1 apresenta a lista de repositórios existentes no ambiente de produção.
 
 .. table:: **Tabela 1** – Repositórios de estruturas existentes no ambiente de produção
-
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|.. centered:: **Tabela 1** – Repositórios de estruturas existentes no ambiente de produção                                                                               |
 +-------------------+----------------------------------------------+------------------------------------------------------------------------------------------------------+
 | Nº do Repositório | Nome do Repositório                          | Composição/descrição do Repositório                                                                  |
 +===================+==============================================+======================================================================================================+
@@ -65,10 +66,15 @@ quantificação de repositórios diante da implantação da plataforma nas Unida
 
 A sugestão tem por referência a estrutura organizacional disponibilizada pelo próprio Ministério da Gestão e Inovação em Serviços Públicos (MGI), primando assim por uma maior consonância sistêmico-organizacional da plataforma. É evidente que em alguns aspectos a estruturação diverge da referência, mas com o propósito de facilitar uma melhor gestão interna, de acordo com as necessidades dos gestores da plataforma.
 
+.. admonition:: Nota
+
+    Estrutura SIORG – Disponível em https://siorg.gov.br/siorg-cidadao-webapp/resources/app/consultaestrutura.html - Acessado em maio de 2024.
+
 Além disso, é possível observar que os textos de descrição de cada repositório seguem com uma sugestão de padronização de escrita, bem como algumas alterações nos nomes dos repositórios existentes. O objetivo é que os textos que compõem a descrição do repositório sejam padronizados e mais objetivos. Assim, essas sugestões estão diretamente relacionadas com a necessidade de auxiliar na identificação da classificação de cada órgão.
 
 .. table:: **Tabela 2** – Repositórios de estruturas no ambiente de produção pós padronização.
-
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|.. centered:: **Tabela 2** – Repositórios de estruturas no ambiente de produção pós padronização                                                                                                 |
 +-------------------+----------------------------------------------+------------------------------------------------------------------------------------------------------------------------------+
 | Nº do Repositório | Nome do Repositório                          | Composição/descrição do Repositório                                                                                          |
 +===================+==============================================+==============================================================================================================================+

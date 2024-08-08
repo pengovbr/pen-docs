@@ -11,11 +11,19 @@ Nomenclatura do Repositório da Unidade Federativa
 O repositório criado para uma determinada Unidade Federativa deve possuir nome e descrição inseridas conforme a instrução que segue.
 
   **Nome do repositório:** Estado - [Nome do Estado].
+
   **Descrição do repositório:** O repositório centraliza órgãos dos poderes executivos e legislativos, tanto municipais quanto estaduais.
 
 Exemplo:
 
 .. figure:: _static/images/Nomenclatura_ESTADOS.png
+
+
+.. admonition:: Nota
+
+    A utilização de termos entre colchetes se refere ao preenchimento de um determinado dado a ser inserido naquele espaço em específico do texto. Ou seja, [Nome do Estado] significa dizer que o 
+nome do Estado deve ser substituído naquele determinado local do texto. A saber “Estado – Acre”, “Estado – Pernambuco”
+
 
 Categorias do repositório da Unidade Federativa
 ------------------------------------------------
@@ -29,7 +37,9 @@ Poder Executivo Estadual
 A configuração da categoria do Poder Executivo Estadual deve possuir nome, sigla e descrição inseridas conforme a instrução que segue.
 
   **Nome:** Poder Executivo Estadual do/e [Nome do Estado]
+
   **Sigla:** PEE[UF]
+
   **Descrição:** Composto por secretarias e órgãos pertencentes ao poder executivo estadual.
 
 
@@ -43,7 +53,9 @@ Poder Legislativo Estadual
 A configuração da categoria do Poder Legislativo Estadual deve possuir nome, sigla e descrição inseridas conforme a instrução que segue.
 
   **Nome:** Poder Legislativo Estadual do/e [Nome do Estado]
+
   **Sigla:** PLE[UF]
+
   **Descrição:** Composto pela assembleia legislativa do/e [Nome do Estado].
 
 
@@ -57,7 +69,9 @@ Poder Executivo Municipal
 A configuração da categoria do Poder Executivo Municipal deve possuir nome, sigla e descrição inseridas conforme a instrução que segue.
 
   **Nome:** Poderes Executivos Municipais do/e [Nome do Estado]
+
   **Sigla:**  PEM[UF]
+
   **Descrição:** Composto por secretarias e órgãos pertencentes ao poder executivo dos municípios do/e [Nome do Estado].
 
 
@@ -71,7 +85,9 @@ Poder Legislativo Municipal
 A configuração da categoria do Poder Legislativo Municipal deve possuir nome, sigla e descrição inseridas conforme a instrução que segue.
 
   **Nome:** Poderes Legislativos Municipais do/e [Nome do Estado]
+
   **Sigla:**  PLM[UF]
+
   **Descrição:** Composto pelas câmaras municipais dos municípios do/e [Nome do Estado].
 
 
