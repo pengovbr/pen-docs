@@ -15,8 +15,7 @@ Requisitos para Utilização do Módulo
 * Possuir um usuário interno SEI;
 * Usuários com CPF cadastrado no menu de usuário SEI (Administração > Usuário > Contatos).
 * Usuários com conta gov.br com selo de confiabilidade prata ou ouro.
-* Aplicativo **gov.br** instalado no celular. (`Link para download < https://acesso.gov.br/faq/_perguntasdafaq/oqueemeugovbrmobile.html
->`_)
+* Aplicativo **gov.br** instalado no celular. ( `Link para download <https://acesso.gov.br/faq/_perguntasdafaq/oqueemeugovbrmobile.html>`_ )
 
 Utilização do Módulo
 ++++++++++++++++++++
@@ -33,11 +32,11 @@ Para assinatura com **gov.br**, o usuário deverá clicar no botão **"Assinatur
 
 Preencher os campos indicados em tela e clicar em assinar com **gov.br**:
 
-.. figure:: _static/images/tela_de_preenchimento_de_ campos_para_assinatura_e_botao_assinar_com_ gov.br.png
+.. figure:: _static/images/tela_de_preenchimento_de_campos_para_assinatura_e_botao_assinar_com_ gov.br.png
 
-1) Órgão Assinante: selecionar o órgão do assinante;
-2) Assinante: Indicar o nome do assinante;
-3) Cargo/função: selecionar o cargo do assinante.
+1) **Órgão Assinante:** selecionar o órgão do assinante;
+2) **Assinante:** Indicar o nome do assinante;
+3) **Cargo/função:** selecionar o cargo do assinante.
 
 Ao clicar em assinar com **gov.br**, o sistema abrirá uma nova janela solicitando dados de autenticação da Conta gov.br. Após a autenticação, o sistema encaminhará uma mensagem para o **aplicativo gov.br** (que deverá estar instalado no celular do usuário) com um código de autenticação.
 
