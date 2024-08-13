@@ -14,3 +14,4 @@ Os módulos apresentados nesta seção não são nativamente instalados no SEI, 
    
    Login_unico
    Modulo_resposta
+   Modulo_assinatura_avancada
