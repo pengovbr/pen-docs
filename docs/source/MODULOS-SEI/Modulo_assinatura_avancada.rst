@@ -32,7 +32,7 @@ Para assinatura com **gov.br**, o usuário deverá clicar no botão **"Assinatur
 
 Preencher os campos indicados em tela e clicar em assinar com **gov.br**:
 
-.. figure:: _static/images/botao_assinar_com_ gov.br.png
+.. figure:: _static/images/botao_assinar_com_gov.br.png
 
 1) **Órgão Assinante:** selecionar o órgão do assinante;
 2) **Assinante:** Indicar o nome do assinante;
