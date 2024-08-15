@@ -29,7 +29,7 @@ A estruturação do repositório tem como base a estrutura do Poder Judiciário 
 Supremo Tribunal Federal
 ++++++++++++++++++++++++
 
-A configuração da categoria do Supremo Tribunal Federal é de composição única e deve possuir <u>nome</u>, sigla e descrição inseridas conforme a instrução que segue.
+A configuração da categoria do Supremo Tribunal Federal é de composição única e deve possuir nome, sigla e descrição inseridas conforme a instrução que segue.
 
   **Nome:** Supremo Tribunal Federal
 

@@ -68,7 +68,7 @@ A sugestão tem por referência a estrutura organizacional disponibilizada pelo 
 
 .. admonition:: Nota
 
-    Estrutura SIORG – Disponível em https://siorg.gov.br/siorg-cidadao-webapp/resources/app/consultaestrutura.html - Acessado em maio de 2024.
+    Estrutura SIORG – Disponível em https://siorg.gov.br/siorg-cidadao-webapp/resources/app/consulta-estrutura.html - Acessado em maio de 2024.
 
 Além disso, é possível observar que os textos de descrição de cada repositório seguem com uma sugestão de padronização de escrita, bem como algumas alterações nos nomes dos repositórios existentes. O objetivo é que os textos que compõem a descrição do repositório sejam padronizados e mais objetivos. Assim, essas sugestões estão diretamente relacionadas com a necessidade de auxiliar na identificação da classificação de cada órgão.
 
