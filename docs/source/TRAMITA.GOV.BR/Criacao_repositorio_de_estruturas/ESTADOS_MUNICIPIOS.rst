@@ -21,8 +21,7 @@ Exemplo:
 
 .. admonition:: Nota
 
-    A utilização de termos entre colchetes se refere ao preenchimento de um determinado dado a ser inserido naquele espaço em específico do texto. Ou seja, [Nome do Estado] significa dizer que o 
-nome do Estado deve ser substituído naquele determinado local do texto. A saber “Estado – Acre”, “Estado – Pernambuco”
+    A utilização de termos entre colchetes se refere ao preenchimento de um determinado dado a ser inserido naquele espaço em específico do texto. Ou seja, [Nome do Estado] significa dizer que o nome do Estado deve ser substituído naquele determinado local do texto. A saber “Estado – Acre”, “Estado – Pernambuco”
 
 
 Categorias do repositório da Unidade Federativa
