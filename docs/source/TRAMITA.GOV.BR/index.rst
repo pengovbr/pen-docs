@@ -35,3 +35,4 @@ Acompanhe essa página para acompanhar o lançamento de novos e atualização do
   
    MANUAL_PORTAL_DE_ADMINISTRACAO/index
    MANUAL_TECNICO_OPERACIONAL/index
+   Criacao_repositorio_de_estruturas/index
