@@ -9,6 +9,8 @@ Mas caso a opção seja por uma instalação multiórgãos cada novo órgão dev
 
 Por questões didáticas imagine o seguinte exemplo onde temos a estrutura imaginária de um órgão fictício que aderiu ao SEI recentemente e precisa configurar a sua estrutura organizacional o ministério XPTO com as suas três secretarias A B e C que por sua vez apresentam respectivamente os seus departamentos A1 A2 B1 B2 C1 e C2. 
 
+.. figure:: _static/images/03-01_Criacao_de_Orgaos-Organograma_OrgaoXPTO.png
+
 Novo Órgão no SIP
 -----------------
 

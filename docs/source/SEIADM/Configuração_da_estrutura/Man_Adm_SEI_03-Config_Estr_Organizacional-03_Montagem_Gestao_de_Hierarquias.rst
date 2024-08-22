@@ -43,13 +43,13 @@ Após clicar no botão “Adicionar Unidade” você terá acesso a uma página 
 
 .. figure:: _static/images/02-03_Mont-Gest-Hierarquias_TelaSIP_Adc-Und-Hierarquia.png
 
-- Hierarquia: Deverá ser selecionado o sistema no qual a hierarquia será montada. As unidades sempre serão montadas na hierarquia SEI.
-- Checkbox Raiz: Deverá ser selecionada quando se tratar de uma unidade superior. No caso do nosso organograma, quando incluirmos as três secretarias.
-- Unidade Superior na Hierarquia: Este campo só aparece quando a checkbox "Raiz" não está selecionada. Deve ser indicada a unidade imediatamente superior à que estamos cadastrando. No caso do nosso organograma, as secretarias devem ser indicadas como unidades superiores quando incluirmos os departamentos.
-- Órgão da Unidade: Deve ser selecionado o órgão em que se encontra a unidade.
-- Unidade: Deve ser selecionada a unidade que será incluída na hierarquia. Só serão exibidas unidades que ainda não fazem parte de uma hierarquia.
-- Data Inicial: Define a data de entrada da unidade na hierarquia. No nosso exemplo, indicaremos a data do cadastro.
-- Data Final: Indica a data final da unidade na hierarquia. No nosso exemplo deixaremos este campo em branco.
+- **Hierarquia:** Deverá ser selecionado o sistema no qual a hierarquia será montada. As unidades sempre serão montadas na hierarquia SEI.
+- **Checkbox Raiz:** Deverá ser selecionada quando se tratar de uma unidade superior. No caso do nosso organograma, quando incluirmos as três secretarias.
+- **Unidade Superior na Hierarquia:** Este campo só aparece quando a checkbox "Raiz" não está selecionada. Deve ser indicada a unidade imediatamente superior à que estamos cadastrando. No caso do nosso organograma, as secretarias devem ser indicadas como unidades superiores quando incluirmos os departamentos.
+- **Órgão da Unidade:** Deve ser selecionado o órgão em que se encontra a unidade.
+- **Unidade:** Deve ser selecionada a unidade que será incluída na hierarquia. Só serão exibidas unidades que ainda não fazem parte de uma hierarquia.
+- **Data Inicial:** Define a data de entrada da unidade na hierarquia. No nosso exemplo, indicaremos a data do cadastro.
+- **Data Final:** Indica a data final da unidade na hierarquia. No nosso exemplo deixaremos este campo em branco.
 
 
 06. Após o preenchimento, clicar em “Salvar”. 

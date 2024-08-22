@@ -10,9 +10,10 @@ Atribuição de Perfis
 
 Para acessar o SIP como administrador, o usuário deve habilitar os seguintes perfis: “Básico”, “Administrador de Hierarquia” e “Cadastro de Usuários e Unidades”. Vamos aprender os passos para atribuir os perfis. Após realizar o login no sistema, o usuário deverá acompanhar o caminho descrito a seguir:
 
-1. **No menu principal, acessar a opção “Permissões”;**
-2. **Clicar em “Nova”;**
+1. **No menu principal, acessar a opção “Permissões”;
+2. **Clicar em “Nova”;
 
+.. figure:: _static/images/03-05_Gest-Permissoes_MenuSIP_Permissoes-Nova.png
 
 Uma nova tela será aberta (tela de “Nova Permissão”); nela deve-se:
 
@@ -29,7 +30,6 @@ Pronto, a permissão do Usuário foi providenciada.
    - A atribuição de perfis deve ser realizada **SOMENTE** por administradores do SIP.
 
  
-
 Gestão/Montagem de Perfil
 -------------------------
 
@@ -41,7 +41,7 @@ Além de atribuir perfis, o administrador pode criar novos perfis e ajustar as p
 2. **Adicionar um novo perfil:**
    Clique no botão "Adicionar Perfil" para criar um novo perfil.
 
-
+.. figure:: _static/images/04-03_Usuario-Externo_Menu_Adm01.png
 
 3. **Configurar as permissões do perfil:**
    Preencha os campos obrigatórios e selecione as permissões desejadas para o novo perfil. Isso inclui definir o acesso a determinadas funcionalidades e módulos do sistema.
@@ -50,7 +50,6 @@ Além de atribuir perfis, o administrador pode criar novos perfis e ajustar as p
    Após configurar todas as permissões, clique no botão "Salvar" para concluir a criação do novo perfil.
 
   
-
 .. admonition:: Notas
 
    - Certifique-se de que todas as permissões necessárias foram atribuídas corretamente para evitar problemas de acesso.
@@ -63,7 +62,6 @@ Conclusão
 A gestão de permissões no SEI é um processo crucial para manter a segurança e a eficiência do sistema. Administradores devem seguir rigorosamente os procedimentos para garantir que todos os usuários tenham acesso adequado conforme suas responsabilidades.
 
   
-
 Para mais informações ou dúvidas, consulte a documentação oficial ou entre em contato com o suporte técnico.
 
    
