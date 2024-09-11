@@ -60,4 +60,4 @@ A tela com a Lista de Unidades será exibida.
 
 Pronto, a Configuração da Unidade no SEI foi realizada. 
 
-Caso a criação da Hierarquia foi estabelecida, é possível tratar a terceira parte desse módulo, que é a 
+Caso a criação da Hierarquia for estabelecida, é possível tratar a terceira parte desse módulo, que aborda a criação dos Usuários, Perfis e Permissões.
