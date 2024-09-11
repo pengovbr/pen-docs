@@ -1,6 +1,18 @@
 Criação e Configuração de Órgãos
 ================================
 
+Conforme conversado na Introdução da Configuração da Estrutura Organizacional, a criação e Configuração de Órgãos é a primeira etapa necessária para a montagem da Estrutura Organizacional.
+
+Assim, sendo temos a seguinte abordagem nesse capítulo: 
+
+.. figure:: _static/images/03-01_Config_Estr_Organizacional_Processo_Orgaos.png
+
+Note para dois aspectos na figura: assim como na figura do processo geral, essa também apesar de ter sido gerado em um software próprio para desenho de processos, a figura acima não segue as boas práticas do BPMN e tem somente caráter ilustrativo e didático.
+
+A segunda questão é que a parte em destaque, as duas caixas em amarelo e azul) são as que serão abordadas aqui nesse capítulo. Seguindo o padrão do primeiro desenho, caixas em amarelo são executadas no SIP e as azuis no SEI.
+
+Assim, iremos mostrar como é criado um novo Órgão no SIP e em seguida, os passos do Órgão no SEI como sua configuração e as suas ações coadjuvantes. 
+
 Iremos mostrar a seguir que o SEI pode ser configurado para ser utilizado por um único órgão ou para ser compartilhado por um conjunto de órgãos por meio de uma instalação multiórgãos.
 
 No caso da utilização do sistema por uma única instituição a indicação do nome e sigla do órgão é feita durante o processo de instalação da ferramenta.

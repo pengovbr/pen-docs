@@ -1,6 +1,14 @@
 Cadastro de Usuários
 ====================
 
+Conforme conversado na Introdução da Configuração da Estrutura Organizacional, a Criação de Usuários, a Atribuição de perfis é a última etapa necessária para a montagem da Estrutura Organizacional.
+
+Para ela acontecer, ela é dependente de duas partes (Criação e Configuração de Órgãos e Unidades). 
+
+Assim, sendo temos a seguinte abordagem nesse capítulo: 
+
+.. figure:: _static/images/03-01_Config_Estr_Organizacional_Processo_Usuarios_Perfis.png
+
 De forma a Criar e cadastrar os Usuários para que utilizem o SEI, é necessário realizar alguns passos no SIP: O cadastro de Usuários e a efetivação desse cadastro.
 
 

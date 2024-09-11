@@ -1,7 +1,19 @@
 Criação e Configuração de Unidade
 =================================
 
-Após a criação do órgão no SIP e de sua configuração no SEI, é necessário criar as unidades administrativas que farão parte da estrutura da instituição. Seguindo a mesma lógica utilizada na criação do órgão no modelo multiórgãos, as unidades também são criadas no SIP e configuradas no SEI. Para facilitar esse entendimento e exemplificar o conteúdo tratado aqui, continuaremos utilizando o organograma do Ministério XPTO.
+Conforme conversado na Introdução da Configuração da Estrutura Organizacional, a criação e Configuração de Unidades é a segunda etapa necessária para a montagem da Estrutura Organizacional, bem como a montagem da Hierarquia.
+
+Após a criação do órgão no SIP e de sua configuração no SEI, é necessário criar as unidades administrativas que farão parte da estrutura da instituição. Seguindo a mesma lógica utilizada na criação do órgão no modelo multiórgãos, as unidades também são criadas no SIP e configuradas no SEI. 
+
+Para facilitar esse entendimento e exemplificar o conteúdo tratado aqui, continuaremos utilizando o organograma do Ministério XPTO.
+
+Assim, sendo temos a seguinte abordagem nesse capítulo: 
+
+.. figure:: _static/images/03-01_Config_Estr_Organizacional_Processo_Unidades_Hierarquia.png
+
+Note para dois aspectos na figura: assim como na figura do processo geral, essa também apesar de ter sido gerado em um software próprio para desenho de processos, a figura acima não segue as boas práticas do BPMN e tem somente caráter ilustrativo e didático.
+
+A segunda questão é que a parte em destaque, as duas caixas em amarelo e azul) são as que serão abordadas aqui nesse capítulo. Seguindo o padrão do primeiro desenho, caixas em amarelo são executadas no SIP e as azuis no SEI.
 
 Nova Unidade no SIP
 -------------------

@@ -1,13 +1,25 @@
 Montagem e Gestão de Hierarquias
 =================================
 
+Conforme conversado na Introdução da Configuração da Estrutura Organizacional, a Montagem e Gestão de Hierarquias, bem como a criação e Configuração de Unidades, é a segunda etapa necessária para a montagem da Estrutura Organizacional. 
+
+Após a criação das unidades no SIP, é necessário montar e gerir as hierarquias que farão parte da estrutura da instituição.
+
+Assim, sendo temos a seguinte abordagem nesse capítulo: 
+
+.. figure:: _static/images/03-01_Config_Estr_Organizacional_Processo_Unidades_Hierarquia.png
+
+Note para dois aspectos na figura: assim como na figura do processo geral, essa também apesar de ter sido gerado em um software próprio para desenho de processos, a figura acima não segue as boas práticas do BPMN e tem somente caráter ilustrativo e didático.
+
+A segunda questão é que a parte em destaque, as duas caixas em amarelo e azul) são as que serão abordadas aqui nesse capítulo. Seguindo o padrão do primeiro desenho, caixas em amarelo são executadas no SIP e as azuis no SEI.
+
 A hierarquia no SEI é a maneira como as unidades se relacionam e indica qual a posição de cada uma no organograma da instituição. A inclusão das unidades na hierarquia é requisito indispensável para sua utilização. 
 
 Após a criação de todas as unidades do órgão no SIP é necessário montar a hierarquia entre elas refletindo o organograma da instituição. 
 
 Será continuado a utilizar o exemplo do ministério criado (bem como as suas unidades) XPTO.
 
-.. figure:: _static/images/02-03_Mont-Gest-Hierarquias_Organograma.png
+.. figure:: _static/images/03-03_Mont-Gest-Hierarquias_Organograma.png
 
 Montagem de Hierarquia no SIP
 -----------------------------
