@@ -16,7 +16,7 @@ Essa correlação segue a seguinte ordem: Órgãos, Unidades, Hierarquia e Usuá
 
 O processo a ser seguido é o seguinte: 
 
-.. figure:: _static/images/03-00_Config_Estr_Organizacional_ProcessoGeral.png
+.. figure:: _static/images/03-01_Config_Estr_Organizacional_ProcessoGeral.png
 
 .. admonition:: Nota
  
