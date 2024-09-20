@@ -8,7 +8,7 @@ Com a expansão da plataforé.ma Tramita GOV.BR, além do poder executivo federa
 
 O perfil Supervisor possibilita a gestão dos órgãos de um determinado `repositório de estrutura <https://wiki.processoeletronico.gov.br/pt-br/latest/Tramita_GOV_BR/Perguntas_frequentes/Conceitos_Gerais.html#o-que-sao-repositorios-de-estrutura>`_.  Alguns exemplos de repositórios: Poder Executivo Federal e Estado – Minas Gerais.   
 
-Dentro desse repositório, o usuário com tal perfil pode realizar várias operações no `Portal de Administração <https://wiki.processoeletronico.gov.br/pt-br/homologacao/Tramita_GOV_BR/Perguntas_frequentes/Conceitos_Gerais.html#o-que-e-portal-de-administracao-do-tramita-gov-br>`_ detalhadas na seção de `Funcionalidades <https://homolog.manuais.processoeletronico.gov.br/pt-br/homologacao/TRAMITA.GOV.BR/MANUAL_SUPERVISOR.html?highlight=funcionalidades#funcionalidades>`_.
+Dentro desse repositório, o usuário com tal perfil pode realizar várias operações no `Portal de Administração <https://wiki.processoeletronico.gov.br/pt-br/homologacao/Tramita_GOV_BR/Perguntas_frequentes/Conceitos_Gerais.html#o-que-e-portal-de-administracao-do-tramita-gov-br>`_ detalhadas na seção de `Funcionalidades <https://homolog.manuais.processoeletronico.gov.br/pt-br/homologacao/TRAMITA.GOV.BR/MANUAL_SUPERVISOR.html?highlight=funcionalidades#id1>`_.
 
 Quem pode atribuir ?  
 --------------------
