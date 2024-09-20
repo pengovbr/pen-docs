@@ -8,7 +8,7 @@ Com a expansão da plataforé.ma Tramita GOV.BR, além do poder executivo federa
 
 O perfil Supervisor possibilita a gestão dos órgãos de um determinado `repositório de estrutura <https://wiki.processoeletronico.gov.br/pt-br/latest/Tramita_GOV_BR/Perguntas_frequentes/Conceitos_Gerais.html#o-que-sao-repositorios-de-estrutura>`_.  Alguns exemplos de repositórios: Poder Executivo Federal e Estado – Minas Gerais.   
 
-Dentro desse repositório, o usuário com tal perfil pode realizar várias operações no `Portal de Administração <https://wiki.processoeletronico.gov.br/pt-br/homologacao/Tramita_GOV_BR/Perguntas_frequentes/Conceitos_Gerais.html#o-que-e-portal-de-administracao-do-tramita-gov-br>`_ detalhadas na seção de Funcionalidades (Apontar  para item Funcionalidades) . 
+Dentro desse repositório, o usuário com tal perfil pode realizar várias operações no `Portal de Administração <https://wiki.processoeletronico.gov.br/pt-br/homologacao/Tramita_GOV_BR/Perguntas_frequentes/Conceitos_Gerais.html#o-que-e-portal-de-administracao-do-tramita-gov-br>`_ detalhadas na seção de . `Funcionalidades <https://homolog.manuais.processoeletronico.gov.br/pt-br/homologacao/TRAMITA.GOV.BR/MANUAL_SUPERVISOR.html?highlight=funcionalidades#funcionalidades>`_.
 
 Quem pode atribuir ?  
 --------------------
@@ -26,7 +26,7 @@ Quais responsabilidades?
 
 4. Respeitar as diretrizes estabelecidas pelo órgão central, Ministério da Gestão e Inovação em Serviços Públicos;  
 
-5. Reportar com frequência os órgãos com a plataforma em implantação, bem como aqueles em processo de implantação;  
+5. Reportar regularmente sobre os órgãos que estão em processo de implantação da plataforma, assim como aqueles que já a implantaram;  
 
 6. Apoiar negocialmente e tecnicamente os órgãos em seu âmbito de atuação;  
 
@@ -34,7 +34,7 @@ Quais responsabilidades?
 Como atribuir este perfil a outro usuário?  
 ------------------------------------------
  
-A atribuição de perfil é realizada por meio da funcionalidade  Gerenciar Perfis (Apontar para o item  funcionalidade Gerenciar Perfis ).  
+A atribuição de perfil é realizada por meio da funcionalidade `Gerenciar Perfis <https://homolog.manuais.processoeletronico.gov.br/pt-br/homologacao/TRAMITA.GOV.BR/MANUAL_SUPERVISOR.html?highlight=gerenciar%20perfis#gerenciar-perfis>`_
 
 .. admonition:: Importante 
 
