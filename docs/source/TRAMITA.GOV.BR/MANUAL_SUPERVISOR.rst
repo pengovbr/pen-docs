@@ -34,7 +34,7 @@ Quais responsabilidades?
 Como atribuir este perfil a outro usuário?  
 ------------------------------------------
  
-A atribuição de perfil é realizada por meio da funcionalidade `Gerenciar Perfis <https://homolog.manuais.processoeletronico.gov.br/pt-br/homologacao/TRAMITA.GOV.BR/MANUAL_SUPERVISOR.html?highlight=gerenciar%20perfis#gerenciar-perfis>`_.
+A atribuição de perfil é realizada por meio da funcionalidade `Gerenciar Perfis <https://homolog.manuais.processoeletronico.gov.br/pt-br/homologacao/TRAMITA.GOV.BR/MANUAL_SUPERVISOR.html?highlight=gerenciar%20perfis#id21>`_.
 
 .. admonition:: Importante 
 
