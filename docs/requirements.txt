@@ -10,6 +10,7 @@ importlib-metadata==4.12.0
 Jinja2==3.1.2
 livereload==2.6.3
 MarkupSafe==2.1.1
+matplotlib==3.9.0
 packaging==21.3
 Pygments==2.12.0
 pyparsing==3.0.9
@@ -26,6 +27,7 @@ sphinxcontrib-htmlhelp==2.0.0
 sphinxcontrib-jsmath==1.0.1
 sphinxcontrib-qthelp==1.0.3
 sphinxcontrib-serializinghtml==1.1.5
+sphinxext-opengraph==0.9.1
 tornado==6.2
 urllib3==1.26.11
 zipp==3.8.1

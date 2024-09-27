@@ -22,6 +22,7 @@ extensions = [
     "sphinx.ext.mathjax",
     "sphinx.ext.todo",
     "sphinx.ext.viewcode",
+    "sphinxext.opengraph",
 
 ]
 
@@ -47,3 +48,10 @@ html_favicon = 'Icone_PEN.png'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+# -- Options for Opengraph ext
+ogp_site_url = "https://manuais.processoeletronico.gov.br/pt-br/latest/"
+ogp_image = "https://manuais.processoeletronico.gov.br/pt-br/latest/_static/pen_logo_sem_fundo.png"
+ogp_description_length = 300
+ogp_type = "article"
+ogp_use_first_image = True
