@@ -2,7 +2,7 @@
 .. figure:: _static/images/titulo-Manual-do-Tramita.png
 
 
-MANUAL PORTAL DE ADMINISTRAÇÃO
+Manual Portal de Administração
 ==============================
 
 Introdução

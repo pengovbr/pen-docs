@@ -2,7 +2,7 @@
 .. figure:: _static/images/título-Manual-do-Tramita.png
 
 
-MANUAL TÉCNICO-OPERACIONAL
+Manual Técnico-Operacional
 ==========================
 
 Introdução

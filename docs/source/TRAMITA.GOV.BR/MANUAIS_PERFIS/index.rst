@@ -2,7 +2,7 @@
 .. figure:: _static/images/título-Manual-do-Tramita.png
 
 
-MANUAIS DOS PERFIS
+Manuais dos Perfis
 ==================
 
 
