@@ -1,7 +1,19 @@
 Criação e Configuração de Unidade
 =================================
 
-Após a criação do órgão no SIP e de sua configuração no SEI, é necessário criar as unidades administrativas que farão parte da estrutura da instituição. Seguindo a mesma lógica utilizada na criação do órgão no modelo multiórgãos, as unidades também são criadas no SIP e configuradas no SEI. Para facilitar esse entendimento e exemplificar o conteúdo tratado aqui, continuaremos utilizando o organograma do Ministério XPTO.
+Conforme conversado na Introdução da Configuração da Estrutura Organizacional, a criação e Configuração de Unidades é a segunda etapa necessária para a montagem da Estrutura Organizacional, bem como a montagem da Hierarquia.
+
+Após a criação do órgão no SIP e de sua configuração no SEI, é necessário criar as unidades administrativas que farão parte da estrutura da instituição. Seguindo a mesma lógica utilizada na criação do órgão no modelo multiórgãos, as unidades também são criadas no SIP e configuradas no SEI. 
+
+Para facilitar esse entendimento e exemplificar o conteúdo tratado aqui, continuaremos utilizando o organograma do Ministério XPTO.
+
+Assim, sendo temos a seguinte abordagem nesse capítulo: 
+
+.. figure:: _static/images/03-01_Config_Estr_Organizacional_Processo_Unidades_Hierarquia.png
+
+Note para dois aspectos na figura: assim como na figura do processo geral, essa também apesar de ter sido gerado em um software próprio para desenho de processos, a figura acima não segue as boas práticas do BPMN e tem somente caráter ilustrativo e didático.
+
+A segunda questão é que a parte em destaque, as duas caixas em amarelo e azul) são as que serão abordadas aqui nesse capítulo. Seguindo o padrão do primeiro desenho, caixas em amarelo são executadas no SIP e as azuis no SEI.
 
 Nova Unidade no SIP
 -------------------
@@ -9,7 +21,6 @@ Nova Unidade no SIP
 Para criar uma nova Unidade no SIP deve-se seguir os seguintes passos:
 
 01. Acessar o sistema com os dados fornecidos pela equipe do PEN.
-
 
 02. Acessar o Menu Principal;
 
@@ -44,11 +55,23 @@ Configuração de Unidades no SEI
 Após a criação das unidades no SIP, é necessário configurá-las no SEI para que possam ser utilizadas. Para isso, deve-se seguir os passos abaixo:
 
 1. Acessar o SEI com os dados fornecidos.
+
 2. No Menu Principal, selecionar a opção “Administração”.
+
 3. Clicar em “Unidades”.
+
 4. Selecionar a unidade recém-criada para configuração.
 
-Na tela de configuração de unidades, preencher os seguintes campos:
+.. figure:: _static/images/03-02_Criacao-Unidade_Menu_Adm_Unidade01.png
+.. figure:: _static/images/03-02_Criacao-Unidade_Menu_Adm_Unidade02.png
+
+A tela com a Lista de Unidades será exibida.
+
+.. figure:: _static/images/03-02_Criacao-Unidade_Lista_Unidades.png
+
+5. Selecionar a unidade recém-criada para configuração.
+
+6. Na tela de configuração de unidades, preencher os seguintes campos:
 
 - **Código**: Número de controle da unidade. No Poder Executivo Federal, recomenda-se que seja preenchido com o código de Unidade Protocolizadora (UP).
 - **Sigla**: Sigla da unidade, por exemplo, “SEC-A”.
@@ -61,7 +84,7 @@ Na tela de configuração de unidades, preencher os seguintes campos:
     - **Unidade de ouvidoria**: Define a unidade como unidade de ouvidoria.
     - **Unidade de protocolo**: Define a unidade como unidade de protocolo.
 
-Após o preenchimento, clicar em “Salvar” para finalizar a configuração da unidade.
+7. Após o preenchimento, clicar em “Salvar” para finalizar a configuração da unidade.
 
 
 Finalizando a Configuração das Unidades no SEI

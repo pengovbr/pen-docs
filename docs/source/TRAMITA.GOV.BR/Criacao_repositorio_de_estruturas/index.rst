@@ -2,7 +2,7 @@
 .. figure:: _static/images/título-Manual-do-Tramita.png
 
 
-PADRÃO DE CRIAÇÃO DE REPOSITÓRIO
+Padrão de Criação de Repositório
 ================================
 
 Introdução

@@ -1,13 +1,25 @@
 Montagem e Gestão de Hierarquias
 =================================
 
+Conforme conversado na Introdução da Configuração da Estrutura Organizacional, a Montagem e Gestão de Hierarquias, bem como a criação e Configuração de Unidades, é a segunda etapa necessária para a montagem da Estrutura Organizacional. 
+
+Após a criação das unidades no SIP, é necessário montar e gerir as hierarquias que farão parte da estrutura da instituição.
+
+Assim, sendo temos a seguinte abordagem nesse capítulo: 
+
+.. figure:: _static/images/03-01_Config_Estr_Organizacional_Processo_Unidades_Hierarquia.png
+
+Note para dois aspectos na figura: assim como na figura do processo geral, essa também apesar de ter sido gerado em um software próprio para desenho de processos, a figura acima não segue as boas práticas do BPMN e tem somente caráter ilustrativo e didático.
+
+A segunda questão é que a parte em destaque, as duas caixas em amarelo e azul) são as que serão abordadas aqui nesse capítulo. Seguindo o padrão do primeiro desenho, caixas em amarelo são executadas no SIP e as azuis no SEI.
+
 A hierarquia no SEI é a maneira como as unidades se relacionam e indica qual a posição de cada uma no organograma da instituição. A inclusão das unidades na hierarquia é requisito indispensável para sua utilização. 
 
 Após a criação de todas as unidades do órgão no SIP é necessário montar a hierarquia entre elas refletindo o organograma da instituição. 
 
 Será continuado a utilizar o exemplo do ministério criado (bem como as suas unidades) XPTO.
 
-.. figure:: _static/images/02-03_Mont-Gest-Hierarquias_Organograma.png
+.. figure:: _static/images/03-03_Mont-Gest-Hierarquias_Organograma.png
 
 Montagem de Hierarquia no SIP
 -----------------------------
@@ -43,13 +55,13 @@ Após clicar no botão “Adicionar Unidade” você terá acesso a uma página 
 
 .. figure:: _static/images/02-03_Mont-Gest-Hierarquias_TelaSIP_Adc-Und-Hierarquia.png
 
-- Hierarquia: Deverá ser selecionado o sistema no qual a hierarquia será montada. As unidades sempre serão montadas na hierarquia SEI.
-- Checkbox Raiz: Deverá ser selecionada quando se tratar de uma unidade superior. No caso do nosso organograma, quando incluirmos as três secretarias.
-- Unidade Superior na Hierarquia: Este campo só aparece quando a checkbox "Raiz" não está selecionada. Deve ser indicada a unidade imediatamente superior à que estamos cadastrando. No caso do nosso organograma, as secretarias devem ser indicadas como unidades superiores quando incluirmos os departamentos.
-- Órgão da Unidade: Deve ser selecionado o órgão em que se encontra a unidade.
-- Unidade: Deve ser selecionada a unidade que será incluída na hierarquia. Só serão exibidas unidades que ainda não fazem parte de uma hierarquia.
-- Data Inicial: Define a data de entrada da unidade na hierarquia. No nosso exemplo, indicaremos a data do cadastro.
-- Data Final: Indica a data final da unidade na hierarquia. No nosso exemplo deixaremos este campo em branco.
+- **Hierarquia:** Deverá ser selecionado o sistema no qual a hierarquia será montada. As unidades sempre serão montadas na hierarquia SEI.
+- **Checkbox Raiz:** Deverá ser selecionada quando se tratar de uma unidade superior. No caso do nosso organograma, quando incluirmos as três secretarias.
+- **Unidade Superior na Hierarquia:** Este campo só aparece quando a checkbox "Raiz" não está selecionada. Deve ser indicada a unidade imediatamente superior à que estamos cadastrando. No caso do nosso organograma, as secretarias devem ser indicadas como unidades superiores quando incluirmos os departamentos.
+- **Órgão da Unidade:** Deve ser selecionado o órgão em que se encontra a unidade.
+- **Unidade:** Deve ser selecionada a unidade que será incluída na hierarquia. Só serão exibidas unidades que ainda não fazem parte de uma hierarquia.
+- **Data Inicial:** Define a data de entrada da unidade na hierarquia. No nosso exemplo, indicaremos a data do cadastro.
+- **Data Final:** Indica a data final da unidade na hierarquia. No nosso exemplo deixaremos este campo em branco.
 
 
 06. Após o preenchimento, clicar em “Salvar”. 
