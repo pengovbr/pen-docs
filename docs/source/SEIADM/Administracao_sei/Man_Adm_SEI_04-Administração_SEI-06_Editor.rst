@@ -7,7 +7,7 @@ Nessa funcionalidade, o administrador trabalhará muito com programação HTML p
 
 O Editor permite a alteração nas 4 seguintes modos de customização: Modelos, Estilos, Tarjas e Formatos de Imagens Permitidos. Iremos ver cada uma em seu detalhe. 
 
-FUNCIONALIDADE MODELOS
+Funcionalidade Modelos
 -----------------------
 
 A funcionalidade Modelos aborda os Modelos de documentos a serem utilizados no SEI. Em modelos é possível configurar as seguintes ações: Criar novo modelo, Listar modelos (e nessa listagem na coluna “Ações”, é possível a visualização, a alteração, a seleção de seções do modelo, a desativação e a exclusão do modelo, além de também criar um novo modelo e clonar), a Reativação de Modelo e a Clonagem dos Modelos existentes. 
@@ -16,7 +16,7 @@ A funcionalidade Modelos aborda os Modelos de documentos a serem utilizados no S
 
    É preciso reforçar que a apresentação do Editor não será feita na ordem de aparição do Menu Principal. Recomenda-se que o uso de clonagem de um modelo tem uma praticidade maior do que a criação de um Novo Modelo desde o início, já que não herda nenhuma das seções já estabelecidas em seus Modelos. 
 
-FUNCIONALIDADE LISTAR MODELOS
+Funcinalidade Listar Modelos
 -----------------------------
 
 Essa funcionalidade permite ao usuário acessar a lista de documentos carregados na implantação do SEI. Esses documentos poderão ser visualizados, alterados, desativados ou excluídos conforme a necessidade do órgão. Para acessar os modelos, o usuário deverá:
@@ -46,7 +46,7 @@ A tela de Modelos irá aparecer com os respectivos comandos na coluna “Ações
 * **Excluir Modelo**: Exclui o modelo. Uma vez acionada, essa ação não é reversível: o modelo torna o seu uso permanentemente impossibilitado. 
 
 
-FUNCIONALIDADE REATIVAR MODELOS
+Funcionalidade Reativar Modelos
 -------------------------------
 
 Essa funcionalidade permite ao usuário reativar os modelos desativados conforme a necessidade do órgão. Para acessar os modelos, o usuário deverá:
@@ -63,14 +63,14 @@ Essa funcionalidade permite ao usuário reativar os modelos desativados conforme
  
 A tela “Reativar Modelos” será exibida.
 
-.. figure:: _static/04-06_Editor_Lista_Modelos_Reativar.png
+.. figure:: _static/images/04-06_Editor_Lista_Modelos_Reativar.png
 
 05. Localizar o Modelo desativado e clicar em “Reativar Modelo”.
 
 Pronto o modelo foi reativado.
 
 
-FUNCIONALIDADE CLONAR MODELOS
+Funcionalidade Clonar Modelos
 -----------------------------
 
 Como foi dito anteriormente, para criar um documento com base em outro é possível reaproveitar padrões e editá-los por meio do ícone “Clonar”, que permite replicar um modelo já existente cuja formatação pode ser aproveitada em um novo modelo de documento. Inclusive, recomenda-se usar a opção de clonar sempre que o órgão precisar criar um documento, a fim de minimizar o trabalho. 
@@ -121,7 +121,7 @@ As seções apresentam a tela de Alterar Seção que são comuns para todas elas
 
 **D: Checkboxes Cabeçalho, Rodapé, Principal, Assinatura, Somente leitura, Dinâmica, Conteúdo inicial HTML**: seleções conforme o tipo de Seção.
 
-**E Conteúdo**: Campos para inserir as informações do documento com comandos comuns a um editor de texto. O uso do ‘@’ entre as variáveis possibilita alterações automáticas conforme a Unidade Administrativa.
+**E: Conteúdo**: Campos para inserir as informações do documento com comandos comuns a um editor de texto. O uso do ‘@’ entre as variáveis possibilita alterações automáticas conforme a Unidade Administrativa.
 
 Ao clicar no ícone “Ajuda”, as variáveis disponíveis na lista são informações permitidas no cadastro de usuários ou unidades administrativas. Essas variáveis são úteis para automatizar o preenchimento de campos personalizados, tais como: unidade administrativa (nome, sigla, endereço), usuário (nome, cargo, matrícula), data (dia, mês e ano), dados do processo (número, tipo). É importante que o administrador conheça o padrão de organização dos documentos no órgão, por exemplo: sigla do órgão raiz, numeração única no órgão ou unidade administrativa, formato da data.
 
@@ -178,7 +178,7 @@ Modelo Clonado> Seção > Rodapé
 Nesta seção constam os números do processo e do documento, extraídos das variáveis selecionadas no ícone “Ajuda”. Mas, conforme a necessidade do órgão ou entidade, essas variáveis podem ser alteradas.
 
 
-FUNCIONALIDADE NOVO 
+Funcionalidade Novo 
 --------------------
 
 A funcionalidade “Novo” permite ao usuário criar efetivamente um documento. Para isso, o usuário deverá:
@@ -272,11 +272,11 @@ Lembre-se de salvar a operação!
 
 .. |secao3| image:: _static/images/04-06_Editor_Tela_Alterar-Secao03.png
    :align: middle
-   :width: 80
+   :width: 150
 
 .. |secao4| image:: _static/images/04-06_Editor_Tela_Alterar-Secao04.png
    :align: middle
-   :width: 80
+   :width: 150
 
 
 Modelo Novo> Seção> Título do Documento

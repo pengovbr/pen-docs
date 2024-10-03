@@ -24,11 +24,8 @@ Visualizar a configuração da hipótese, alterar a configuração da hipótese,
 
 3. Clicar em “Listar”.
 
-.. figure:: _static/images/04-04_Hipot-Legais_Menu-Listar_.png
 
 A lista de Hipóteses Legais será exibida.
-
-.. figure:: _static/images/04-04_Hipot-Legais_Lista.png
 
 
 Criar Nova Hipótese Legal

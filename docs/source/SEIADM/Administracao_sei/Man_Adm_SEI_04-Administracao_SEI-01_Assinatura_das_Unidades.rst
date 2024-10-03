@@ -9,7 +9,7 @@ Para acessá-la o administrador deve acompanhar o caminho descrito a seguir dess
 
 1. Acessar o Menu principal no SEI;
 2. Selecionar “Administração”;
-3. Selecionar “Assinaturas das Unidades”;
+3. Selecionar “Assinaturas das Unidades”.
 
 A tela de “Assinaturas das Unidades” é aberta e nessa tela é mostradas todos os cargos dentro dos órgãos. Os campos “Cargo / Função” “Órgão” e “Unidade” são utilizados para restringir as assinaturas exibidas. Por exemplo é possível descobrir assinaturas de Unidade teste digitando “Teste” no campo “Unidade” a fim de restringir o resultado da pesquisa.
 
@@ -17,9 +17,9 @@ Dessa tela de “Assinaturas das Unidades” é possível realizar as seguintes 
 
 - Adicionar Assinatura;
 - Alterar Assinatura;
-- Excluir Assinatura;
+- Excluir Assinatura,
 
-ADICIONAR ASSINATURA
+Adicionar Assinatura
 --------------------
 
 Na tela de “Assinaturas das Unidades” seguir com esses passos: 
@@ -41,12 +41,12 @@ A tela de “Nova assinatura de Unidade” será aberta:
 
 3. Após a seleção do Órgão o campo de Unidades é habilitado para preenchimento e seleção;
 
-4. Clicar em Salvar;
+4. Clicar em Salvar.
 
 Pronto, a assinatura da Unidade foi adicionada.
 
 
-ALTERAR ASSINATURA
+Alterar Assinatura
 ------------------
 
 A Alteração da Assinatura permite alterar o nome do cargo ou função adicionar e excluir unidades anteriormente adicionadas.
@@ -59,12 +59,12 @@ Na tela de Assinatura de Unidades:
 
 2. Na tela “Alterar Assinatura de Unidade” realizar as alterações necessárias;
 
-3. Clicar em Salvar;
+3. Clicar em Salvar.
 
 Pronto, a assinatura da Unidade foi alterada.
 
 
-EXCLUIR ASSINATURA
+Excluir Assinatura
 ------------------
 
 Na tela de Assinatura de Unidades:
@@ -76,26 +76,36 @@ Na tela de Assinatura de Unidades:
 
 2. Um aviso de confirmação será emitido;
 
-3. Clicar em Ok;
+3. Clicar em Ok.
 
 Pronto, a sua assinatura foi excluída.
 
 
 
-ASSINATURA DIGITAL
+Assinatura Digital
 ------------------
 
-Com a habilitação da assinatura nos passos anteriores, os documentos criados e editados estão disponíveis para serem assinados por usuários da unidade responsável pela sua geração no SEI. A assinatura é realizada por meio da funcionalidade “Assinar Documento” .. figure:: _static/images/ÍconeSEI_Assinar.png localizada no menu superior do processo.
+Com a habilitação da assinatura nos passos anteriores, os documentos criados e editados estão disponíveis para serem assinados por usuários da unidade responsável pela sua geração no SEI. 
+
+A assinatura é realizada por meio da funcionalidade “Assinar Documento” |assinar_documento|, localizada no menu superior do processo.
 
 
-.. figure:: _static/images/04-01_Assin-Unid_Diversos_AssinarDoc
+.. |assinar_documento| image:: _static/images/ÍconeSEI_Assinar.png
+   :align: middle
+   :width: 20
+
+.. figure:: _static/images/04-01_Assin-Unid_Diversos_AssinarDoc.png
 
 
-.. admonition:: Nota
+.. admonition:: Notas
 
    A funcionalidade da Assinatura Digital está disponível apenas para documentos internos. Documentos externos não são habilitados para assinatura.
 
-Os cargos e funções configurados em “Assinaturas das Unidades” são recuperados no campo “Cargo/Função”. Lembre-se que os cargos e funções disponíveis estão relacionados à unidade e não ao usuário logado no sistema. O usuário necessita de muita atenção no momento da assinatura para não assinar o documento com um cargo ou uma função errados. Em seguida o usuário deve informar a senha de acesso ou utilizar um certificado digital para efetuar a assinatura.
+   Os cargos e funções configurados em “Assinaturas das Unidades” são recuperados no campo “Cargo/Função”. 
+
+   Lembre-se que os cargos e funções disponíveis estão relacionados à unidade e não ao usuário logado no sistema. O usuário necessita de muita atenção no momento da assinatura para não assinar o documento com um cargo ou uma função errados. 
+
+Em seguida o usuário deve informar a senha de acesso ou utilizar um certificado digital para efetuar a assinatura.
 
 A tela para Assinatura com os respectivos campos é essa:
 

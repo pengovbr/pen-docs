@@ -18,7 +18,7 @@ Um grupo de trabalho elaborou a Base de Referência do Poder Executivo, que pode
 
 Independente do uso da Base de Referência do Poder Executivo, o administrador do SEI poderá realizar ações nos tipos de processo, bem como criar novos tipos de processo.
 
-CRIAR NOVO TIPO DE PROCESSO
+Criar Novo Tipo de Processo
 ---------------------------
 
 Para criar novo tipo de processo, é necessário que o Administrador siga os seguintes passos no SEI: 
@@ -65,7 +65,7 @@ Após a realização do levantamento dos tipos de processo, é importante que se
 
 14. Interno do sistema: selecionar essa opção quando o tipo de processo não for aparecer para o usuário.
 
-LISTAR TIPO DE PROCESSO
+Listar Tipo de Processo
 -----------------------
 
 A listagem do tipo de processo permite editar os Tipos de Processos, por meio das seguintes ações: consultar, realizar alterações nos tipos de processo, desativar e excluir. 
@@ -101,7 +101,7 @@ Desativa o Tipo de Processo. Essa ação pode ser revertida com o comando “Rea
 
 Exclui o Tipo de Processo. Essa ação **NÃO** consegue ser revertida.
 
-REATIVAR TIPO DE PROCESSO
+Reativar Tipo de Processo
 -------------------------
 
 Ao desativar o tipo de processo, ele pode ser reativado com o comando “Reativar”, seguindo os seguintes passos:

@@ -17,5 +17,6 @@ Sumário
    Man_Adm_SEI_04-Administração_SEI-04_Hipoteses_Legais
    Man_Adm_SEI_04-Administração_SEI-05_Tipo_de_Processo
    Man_Adm_SEI_04-Administração_SEI-06_Editor
+   Man_Adm_SEI_04-Administração_SEI-07_Tipo_de_Documento
 
 
