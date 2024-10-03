@@ -272,11 +272,11 @@ Lembre-se de salvar a operação!
 
 .. |secao3| image:: _static/images/04-06_Editor_Tela_Alterar-Secao03.png
    :align: middle
-   :width: 150
+   :width: 800
 
 .. |secao4| image:: _static/images/04-06_Editor_Tela_Alterar-Secao04.png
    :align: middle
-   :width: 150
+   :width: 800
 
 
 Modelo Novo> Seção> Título do Documento
