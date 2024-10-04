@@ -20,7 +20,7 @@ Para acessar essa funcionalidade, o administrador deve acompanhar o caminho desc
 
 A tela de “Configuração do Histórico” será aberta com a lista das informações do Histórico: Completo, Resumido, Nome e ID.
 
-.. figure:: _static/images/04-09_Historico_Tela_Configuração.png
+.. figure:: _static/images/04-09_Historico_Tela_Configuracao.png
 
 
 Como foi exibido na tela, percebe-se dois tipos de Histórico: Completo e Resumido.
@@ -37,4 +37,4 @@ As mesmas operações estão disponíveis para ambos os tipos de histórico, cab
 
 A visão do Histórico para o Usuário Básico é mostrada da seguinte forma. Essa visão do histórico é possível exibir, clicando em “Consultar Andamento”, localizado à esquerda da tela do sistema.
 
-.. figure:: _static/images/04-09_Historico_Tela_Historico-do-Processo
+.. figure:: _static/images/04-09_Historico_Tela_Historico-do-Processo.png

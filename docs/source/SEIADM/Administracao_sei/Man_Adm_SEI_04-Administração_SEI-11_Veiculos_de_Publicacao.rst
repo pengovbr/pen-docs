@@ -40,7 +40,7 @@ Para acessar e inserir um novo item em “Veículos de Publicação”, o admini
 A tela “Novo Veículo de Publicação” será exibida.
 
 
-.. figure:: _static/images/04-11_Veiculos-de-Publicação-Novo_Tela_Novo.png
+.. figure:: _static/images/04-11_Veiculos-de-Publicacao-Novo_Tela_Novo.png
 
 04. Preencher os seguintes campos (todos de preenchimento obrigatório):
 
@@ -98,7 +98,7 @@ Para alterar item em “Veículos de Publicação”, o administrador deve acomp
 
 A tela “Veículo de Publicação” será exibida.
 
-.. figure:: _static/images/04-11_Veiculos-de-Publicação_Lista_Alterar.png
+.. figure:: _static/images/04-11_Veiculos-de-Publicacao_Lista_Alterar.png
 
 04. Localizar o Veículo de Publicação a ser alterado e clicar em “Alterar Veículo de Publicação”;
 

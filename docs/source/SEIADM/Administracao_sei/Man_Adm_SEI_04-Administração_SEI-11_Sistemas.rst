@@ -12,7 +12,7 @@ Os serviços são descritos em formato XML em um padrão denominado Web Services
 
 .. admonition:: Notas
 
-   O acesso ao Web Services Description Language (WSDL) é realizado por meio do seguinte endereço: http://[servidor php]/sei/controlador_ws.php?servico=sei. 
+   O acesso ao Web Services Description Language (WSDL) é realizado por meio do seguinte endereço: "http://[servidor_php]/sei/controlador_ws.php?servico=sei". 
 	
    A variável `[servidor php]` é o endereço web do SEI.
 	
@@ -41,11 +41,6 @@ Para inserir um novo sistema o administrador deve acompanhar o caminho descrito 
 
 6. Clique em “Salvar”.
 
-.. figure:: _static/images/04-11_Incluir-Novo-Sistema_TelaSEI_Acessar-Novo-Sistema1.png
-
-.. figure:: _static/images/04-11_Incluir-Novo-Sistema_TelaSEI_Acessar-Novo-Sistema2.png
-
-.. figure:: _static/images/04-11_Incluir-Novo-Sistema_TelaSEI_Acessar-Novo-Sistema3.png
 
 A tela “Novo Sistema” é composta pelos seguintes campos, todos de preenchimento obrigatório:
 
