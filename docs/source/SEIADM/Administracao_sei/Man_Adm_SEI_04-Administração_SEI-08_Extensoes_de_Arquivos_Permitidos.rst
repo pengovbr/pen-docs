@@ -9,7 +9,7 @@ O SEI possui dois tipos de documentos: interno e externo:
 
 Para acessá-la, é necessário acompanhar o caminho descrito a seguir.
 
-.. figure:: _static/images/04-08_Extesões-Arquivos-Permitidos_Menu_Listar.png
+.. figure:: _static/images/04-08_Extesoes-Arquivos-Permitidos_Menu_Listar.png
 
 01. No Menu Principal, acessar Administração;
 02. Acessar “Extensões de Arquivos Permitidas”;
