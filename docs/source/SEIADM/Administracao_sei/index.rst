@@ -23,4 +23,5 @@ Sumário
    Man_Adm_SEI_04-Administração_SEI-10_Ponto_de_controle
    Man_Adm_SEI_04-Administração_SEI-11_Sistemas
    Man_Adm_SEI_04-Administração_SEI-11_Veiculos_de_Publicacao
+   Man_Adm_SEI_04-Administração_SEI-12_Feriados
 
