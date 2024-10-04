@@ -7,7 +7,7 @@ O Usuário básico terá acesso a esses tipos de documento no SEI por meio do í
  
 .. figure:: _static/images/04-07_Tipos-Documentos_Tela_SEI.png
 
-FUNCIONALIDADE LISTAR DOCUMENTOS
+Funcionalidade Listar Documentos
 ++++++++++++++++++++++++++++++++
 
 É possível listar os tipos de documento já criados e fazer a gestão deles. Para isso, o usuário deverá:
@@ -24,7 +24,7 @@ Do lado direito de cada “Tipo de Documento”, há quatro ícones que represen
 
 No menu superior disponível acima da lista, há também funcionalidades para o administrador criar um Tipo, um Grupo, além de desativar e excluir em massa, caso seja selecionado mais de um item. Ainda há a possibilidade de filtrar por grupos e por modelos. 
 
-GRUPOS DE TIPOS DE DOCUMENTO
+Grupos de Tipos de Docuemnto
 +++++++++++++++++++++++++++++
 
 Antes de iniciarmos a criação dos tipos de documento, faz-se necessário criar os grupos desses documentos. 
@@ -65,7 +65,7 @@ A tela “Novo Grupo de Tipos de Documento” será aberta.
 
 Pronto, o novo Grupo de Tipo de Documento foi criado. 
 
-NOVO TIPO DE DOCUMENTO
+Novo Tipo de Documento
 ++++++++++++++++++++++
 
 Após criado o Grupo de Tipo de Documento, deve-se criar um Tipo de Documento, deve-se seguir os seguintes passos: 
@@ -129,7 +129,7 @@ Você pode restringir quando precisar que determinado departamento faça testes 
 * **Interno do Sistema**: selecionar esta opção somente se o Tipo de Processo não for aparecer para usuários. Por exemplo: um formulário a ser usado pela equipe de WebService
 
 
-NUMERAÇÃO DE DOCUMENTO
+Numeração de Documento
 ++++++++++++++++++++++
 
 É possível verificar em qual numeração está cada documento. Além disso, é permitido listar quais documentos foram configurados para cada tipo de numeração. 

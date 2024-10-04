@@ -18,5 +18,9 @@ Sumário
    Man_Adm_SEI_04-Administração_SEI-05_Tipo_de_Processo
    Man_Adm_SEI_04-Administração_SEI-06_Editor
    Man_Adm_SEI_04-Administração_SEI-07_Tipo_de_Documento
-
+   Man_Adm_SEI_04-Administração_SEI-08_Extensoes_de_Arquivos_Permitidos
+   Man_Adm_SEI_04-Administração_SEI-09_Historico
+   Man_Adm_SEI_04-Administração_SEI-10_Ponto_de_controle
+   Man_Adm_SEI_04-Administração_SEI-11_Sistemas
+   Man_Adm_SEI_04-Administração_SEI-11_Veiculos_de_Publicacao
 
