@@ -24,4 +24,14 @@ Sumário
    Man_Adm_SEI_04-Administração_SEI-11_Sistemas
    Man_Adm_SEI_04-Administração_SEI-11_Veiculos_de_Publicacao
    Man_Adm_SEI_04-Administração_SEI-12_Feriados
+   Man_Adm_SEI_04-Administração_SEI-13_Grupos_Institucionais
+   Man_Adm_SEI_04-Administração_SEI-14_Novidades
+   Man_Adm_SEI_04-Administração_SEI-15_Paises_Estados_Cidades
+   Man_Adm_SEI_04-Administração_SEI-17_Tabelas_de_Assuntos
+   Man_Adm_SEI_04-Administração_SEI-18_Emails-do-Sistema
+   Man_Adm_SEI_04-Administração_SEI-21_Regras-de-Auditoria
+   Man_Adm_SEI_04-Administração_SEI-23_Auditoria
+   Man_Adm_SEI_04-Administração_SEI-24_Log
+
+
 
