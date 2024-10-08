@@ -29,31 +29,57 @@ A seguir você irá conhecer uma lista de parâmetros nativos do SEI e suas resp
 
    Atente-se! Pois o conteúdo apresentado a seguir é a base da funcionalidade “Parâmetros” e poderá servir de apoio para a inclusão dos novos parâmetros.
 
-| NOME                                     | DESCRIÇÃO                                                                                                                                                                                                                                                                                                                                              |
-|------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ID_MODELO_BASE_CONHECIMENTO              | Modelo de documento utilizado pelo eDoc para geração de Bases de Conhecimento.                                                                                                                                                                                                                                                                           |
-| ID_MODELO_INTERNO_BASE_CONHECIMENTO      | Modelo de documento utilizado pelo editor web para geração de Bases de Conhecimento.                                                                                                                                                                                                                                                                      |
-| ID_SERIE_EMAIL                           | ID do tipo de documento e-mail (valor serie.id_serie correspondente).                                                                                                                                                                                                                                                                                     |
-| ID_UNIDADE_TESTE                         | Identificador da unidade de teste do sistema (unidade.id_unidade). Essa unidade deve existir pois é utilizada temporariamente em algumas chamadas de WebServices.                                                                                                                                                                                         |
-| SEI_EMAIL_ADMINISTRADOR                  | Endereço para envio de e-mails informando erro em agendamentos de tarefas do sistema (mais de um e-mail pode ser informado utilizando vírgula como separador).                                                                                                                                                                                             |
-| SEI_EMAIL_SISTEMA                        | Endereço de e-mail utilizado para mensagens enviadas pelo sistema.                                                                                                                                                                                                                                                                                        |
-| SEI_HABILITAR_ASSINATURA_DOCUMENTO_EXTERNO| 0 - desabilitado<br>1 - habilitado somente para unidades de protocolo                                                                                                                                                                                                                                                                                     |
-| SEI_HABILITAR_GRAU_SIGILO                | 0 - desabilitado<br>1 - opcional<br>2 - obrigatório                                                                                                                                                                                                                                                                                                       |
-| SEI_HABILITAR_HIPOTESE_LEGAL             | 0 - desabilitado<br>1 - opcional<br>2 - obrigatório                                                                                                                                                                                                                                                                                                       |
-| SEI_HABILITAR_MOVER_DOCUMENTO            | 0 - desabilitado<br>1 - habilitado somente para unidades de protocolo<br>2 - habilitado para todos os usuários                                                                                                                                                                                                                                             |
-| SEI_HABILITAR_NUMERO_PROCESSO_INFORMADO  | Ao gerar um processo exibe um campo para digitação do número e da data de autuação do processo:<br>0 - desabilitado<br>1 - habilitado somente para unidades de protocolo<br>2 - habilitado para todos os usuários                                                                                                                                         |
-| SEI_HABILITAR_VALIDACAO_CPF_CERTIFICADO_DIGITAL | 0 - desabilitado<br>1 - habilitado (o CPF do certificado deverá ser igual ao do usuário assinante)                                                                                                                                                                                                                                                        |
-| SEI_HABILITAR_VALIDACAO_EXTENSAO_ARQUIVOS| Valor do campo “sistema.id_sistema” referente ao sistema SEI na base de dados do SIP.                                                                                                                                                                                                                                                                     |
-| SEI_MASCARA_ASSUNTO                      |                                                                                                                                                                                                                                                                                                                                                           |
-| SEI_MASCARA_NUMERO_PROCESSO_INFORMADO    |                                                                                                                                                                                                                                                                                                                                                           |
-| SEI_MSG_AVISO_CADASTRO_USUARIO_EXTERNO   | Exibe um aviso para os usuários externos antes de efetuarem o cadastro no sistema. Se este campo estiver vazio nenhuma mensagem será apresentada e o usuário será direcionado diretamente para o formulário de cadastro.                                                                                                                                    |
-| SEI_NUM_FATOR_DOWNLOAD_AUTOMATICO        | Opcional. Permite limitar o download automático de arquivos externos de acordo com a velocidade de transferência de dados do usuário. Se a velocidade do usuário for 150kb/s e o fator for configurado com 5 então para arquivos maior que a definida 750kb (150 x 5) será exibido um link para o usuário ao invés de iniciar automaticamente o download. As velocidades de transferência dos usuários podem ser consultadas pelo menu “Infra” e clicando em “Velocidades de Transferência de Dados”.<br>Obs.: a velocidade somente será atualizada quando o usuário visualizar um documento externo maior que 256kb. |
-| SEI_NUM_MAX_DOCS_PASTA                   | Informa o número de documentos para agrupamento em pastas na árvore de processo (deixar vazio para não realizar agrupamento).                                                                                                                                                                                                                              |
-| SEI_SUFIXO_EMAIL                         | Sufixo adicionado em e-mails enviados pelo sistema corresponde ao valor da variável “sufixo_email”.                                                                                                                                                                                                                                                       |
-| SEI_TAM_MB_ANEXO_EMAIL                   | 10 (valor em Mb) deve refletir o valor configurado no servidor de e-mail da instituição.                                                                                                                                                                                                                                                                  |
-| SEI_TAM_MB_DOC_EXTERNO                   | Parâmetro responsável pela definição do tamanho máximo do upload de arquivos para documentos externos. 200 (valor em Mb) é necessário também configurar no php.ini as variáveis “post_max_size” 256M e “upload_max_filesize” 200M.                                                                                                                       |
-| SEI_VERSAO                               | Indica a versão instalada do sistema.                                                                                                                                                                                                                                                                                                                     |
-| SEI_WS_NUM_MAX_DOCS                      | Indica o número máximo de documentos que podem ser gerados simultaneamente em um processo (através da API de WebServices do SEI).                                                                                                                                                                                                                         |
+.. list-table::
+   :widths: 20 35
+   :header-rows: 1
+
+   - * NOME
+     * DESCRIÇÃO
+   - * ID_MODELO_BASE_CONHECIMENTO
+     * Modelo de documento utilizado pelo eDoc para geração de Bases de Conhecimento.
+   - * ID_MODELO_INTERNO_BASE_CONHECIMENTO
+     * Modelo de documento utilizado pelo editor web para geração de Bases de Conhecimento.
+   - * ID_SERIE_EMAIL
+     * ID do tipo de documento e-mail (valor serie.id_serie correspondente).
+   - * ID_UNIDADE_TESTE
+     * Identificador da unidade de teste do sistema (unidade.id_unidade). Essa unidade deve existir pois é utilizada temporariamente em algumas chamadas de WebServices.
+   - * SEI_EMAIL_ADMINISTRADOR
+     * Endereço para envio de e-mails informando erro em agendamentos de tarefas do sistema (mais de um e-mail pode ser informado utilizando vírgula como separador).
+   - * SEI_EMAIL_SISTEMA
+     * Endereço de e-mail utilizado para mensagens enviadas pelo sistema.
+   - * SEI_HABILITAR_ASSINATURA_DOCUMENTO_EXTERNO
+     * 0 - desabilitado<br>1 - habilitado somente para unidades de protocolo
+   - * SEI_HABILITAR_GRAU_SIGILO
+     * 0 - desabilitado<br>1 - opcional<br>2 - obrigatório
+   - * SEI_HABILITAR_HIPOTESE_LEGAL
+     * 0 - desabilitado<br>1 - opcional<br>2 - obrigatório
+   - * SEI_HABILITAR_MOVER_DOCUMENTO
+     * 0 - desabilitado<br>1 - habilitado somente para unidades de protocolo<br>2 - habilitado para todos os usuários
+   - * SEI_HABILITAR_NUMERO_PROCESSO_INFORMADO
+     * Ao gerar um processo exibe um campo para digitação do número e da data de autuação do processo:<br>0 - desabilitado<br>1 - habilitado somente para unidades de protocolo<br>2 - habilitado para todos os usuários
+   - * SEI_HABILITAR_VALIDACAO_CPF_CERTIFICADO_DIGITAL
+     * 0 - desabilitado<br>1 - habilitado (o CPF do certificado deverá ser igual ao do usuário assinante)
+   - * SEI_HABILITAR_VALIDACAO_EXTENSAO_ARQUIVOS
+     * Valor do campo “sistema.id_sistema” referente ao sistema SEI na base de dados do SIP.
+   - * SEI_MASCARA_NUMERO_PROCESSO_INFORMADO
+     * -
+   - * SEI_MSG_AVISO_CADASTRO_USUARIO_EXTERNO
+     * Exibe um aviso para os usuários externos antes de efetuarem o cadastro no sistema. Se este campo estiver vazio nenhuma mensagem será apresentada e o usuário será direcionado diretamente para o formulário de cadastro.
+   - * SEI_NUM_FATOR_DOWNLOAD_AUTOMATICO
+     * Opcional. Permite limitar o download automático de arquivos externos de acordo com a velocidade de transferência de dados do usuário. Se a velocidade do usuário for 150kb/s e o fator for configurado com 5 então para arquivos maior que a definida 750kb (150 x 5) será exibido um link para o usuário ao invés de iniciar automaticamente o download. As velocidades de transferência dos usuários podem ser consultadas pelo menu “Infra” e clicando em “Velocidades de Transferência de Dados”.<br>Obs.: a velocidade somente será atualizada quando o usuário visualizar um documento externo maior que 256kb.
+   - * SEI_NUM_MAX_DOCS_PASTA
+     * Informa o número de documentos para agrupamento em pastas na árvore de processo (deixar vazio para não realizar agrupamento).
+   - * SEI_SUFIXO_EMAIL
+     * Sufixo adicionado em e-mails enviados pelo sistema corresponde ao valor da variável “sufixo_email”.
+   - * SEI_TAM_MB_ANEXO_EMAIL
+     * 10 (valor em Mb) deve refletir o valor configurado no servidor de e-mail da instituição.
+   - * SEI_TAM_MB_DOC_EXTERNO
+     * Parâmetro responsável pela definição do tamanho máximo do upload de arquivos para documentos externos. 200 (valor em Mb) é necessário também configurar no php.ini as variáveis “post_max_size” 256M e “upload_max_filesize” 200M.
+   - * SEI_VERSAO
+     * Indica a versão instalada do sistema.
+   - * SEI_WS_NUM_MAX_DOCS
+     * Indica o número máximo de documentos que podem ser gerados simultaneamente em um processo (através da API de WebServices do SEI).
+                                                                                                                                                                                                               |
 
 
 Manutenção de Parâmetros
