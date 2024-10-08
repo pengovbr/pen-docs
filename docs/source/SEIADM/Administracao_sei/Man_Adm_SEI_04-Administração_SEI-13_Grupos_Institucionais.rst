@@ -64,7 +64,7 @@ Para alterar o Grupo de Contato Institucional, o Administrador deve seguir os se
 
 A tela “Grupo de Contatos Institucional” será exibida:
 
-.. figure:: _static/images/04-13_Grupos-Contatos-Institucionais-Lista_Tela-Alterar.png
+.. figure:: _static/images/04-13_Grupos-Contatos-Institucionais_Lista_Alterar.png
 
 05. Localizar o Grupo a ser alterado e clicar no botão de Alterar Grupo de Contatos;
 

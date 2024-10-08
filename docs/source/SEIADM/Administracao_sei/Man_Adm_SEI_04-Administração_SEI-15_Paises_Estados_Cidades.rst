@@ -1,5 +1,5 @@
-Administração SEI – Países, Estados e Cidades
-=========================================
+Países, Estados e Cidades
+==========================
 
 No SEI, há a possibilidade de cadastrar países, estados e cidades. Não se trata de uma lista rígida, podendo ser alterada para refletir o cenário geopolítico do momento ou a criação e fusão de municípios.
 

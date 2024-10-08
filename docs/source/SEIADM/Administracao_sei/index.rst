@@ -29,9 +29,11 @@ Sumário
    Man_Adm_SEI_04-Administração_SEI-15_Paises_Estados_Cidades
    Man_Adm_SEI_04-Administração_SEI-17_Tabelas_de_Assuntos
    Man_Adm_SEI_04-Administração_SEI-18_Emails-do-Sistema
+   Man_Adm_SEI_04-Administração_SEI-18_Tipos_de_Formulários
    Man_Adm_SEI_04-Administração_SEI-21_Regras-de-Auditoria
    Man_Adm_SEI_04-Administração_SEI-23_Auditoria
    Man_Adm_SEI_04-Administração_SEI-24_Log
+   Man_Adm_SEI_04-Administração_SEI-25_Parâmetros
    Man_Adm_SEI_04-Administração_SEI-26_Sequências
 
 
