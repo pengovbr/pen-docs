@@ -8,7 +8,7 @@ Antes de entender o funcionamento da auditoria do SEI e do SIP é necessário sa
 
 Atente-se pois a funcionalidade “Regras de Auditoria” é acessada pelo Sistema de Permissão (SIP). Nesse contexto o usuário deverá acessar o SIP e clicar na opção “Regras de Auditoria” localizada no menu principal. Feito isso você terá acesso à tela ”Regras de Auditoria”.
 
-.. figure:: _static/images/04-21_Introdução-às-Regras de-Auditoria_Tela_Regras-de-Auditoria.png
+.. figure:: _static/images/04-21_Introducao-as-Regras de-Auditoria_Tela_Regras-de-Auditoria.png
 
 Regras de Auditoria
 -------------------
@@ -24,10 +24,13 @@ Elas estão cadastradas no SIP para o SEI contemplando as seguintes categorias:
 
 Além das categorias de regras o sistema apresenta uma coluna denominada “Ações” na qual o usuário pode consultar alterar desativar e excluir uma regra.
 
-_**Destaque**_: Ressalta-se que todas as regras criadas no SIP serão aproveitadas na geração de relatórios.
+.. admonition:: Nota
+
+   Ressalta-se que todas as regras criadas no SIP serão aproveitadas na geração de relatórios.
+
 
 Manutenção na Funcionalidade “Regras de Auditoria”
----------------------------------------
+--------------------------------------------------
 
 No SIP o usuário com perfil “Administrador” pode realizar algumas ações tais como: cadastro de nova regra de auditoria, alteração de uma regra de auditoria existente, exclusão de uma regra de auditoria, consulta das regras de auditoria e inativação de uma regra de auditoria. 
 
@@ -36,9 +39,9 @@ Tais ações serão detalhadas a seguir. Para acessar essa funcionalidade o admi
 1. Acesse o SIP e clique no menu principal;
 2. Agora selecione a opção “Regras de Auditoria”;
 3. Identifique qual Regra você deseja;
-4. E clique no ícone referente à ação desejada;
+4. E clique no ícone referente à ação desejada.
 
-.. figure:: _static/images/04-21_Manutenção-na-Funcionalidade-Regras-de-Auditoria_TelaSIP_Acessar-Regras-de-Auditoria.png
+.. figure:: _static/images/04-21_Manutencao-na-Funcionalidade-Regras-de-Auditoria_TelaSIP_Acessar-Regras-de-Auditoria.png
 
 Cadastro de Nova Regra de Auditoria no SIP
 ------------------------------------------
@@ -68,9 +71,9 @@ Para alterar uma regra de auditoria o usuário com perfil “Administrador” de
 5. Preencha os campos solicitados;
 6. E clique em “Salvar”.
 
-.. figure:: _static/images/04-21_Alteração-de-Regra-de-Auditoria-no-SIP_Tela_Acessar-Alterar-Regra-de-Auditoria.png
+.. figure:: _static/images/04-21_Alteracao-de-Regra-de-Auditoria-no-SIP_Tela_Acessar-Alterar-Regra-de-Auditoria.png
 
-.. figure:: _static/images/04-21_Alteração-de-Regra-de-Auditoria-no-SIP_Tela_Campos-Alterar-Regra-de-Auditoria.png
+.. figure:: _static/images/04-21_Alteracao-de-Regra-de-Auditoria-no-SIP_Tela_Campos-Alterar-Regra-de-Auditoria.png
 
 Dessa forma após seguir os passos supracitados pode-se alterar uma regra anteriormente cadastrada.
 
@@ -78,7 +81,9 @@ A imagem a seguir apresenta a disposição dos campos disponíveis na tela “Al
 
 .. figure:: _static/images/04-21_Alteração-de-Regra-de-Auditoria-no-SIP_Tela_Alterar-Regras-de-Auditoria.png
 
-_**Destaque**_: O conteúdo de qualquer campo pode ser alterado.
+.. admonition:: Nota
+
+   O conteúdo de qualquer campo pode ser alterado.
 
 Exclusão de Regra de Auditoria
 ------------------------------
@@ -90,7 +95,7 @@ A ação de exclusão de uma ou mais regras de auditoria é realizada de duas ma
 
 Depois disso aparece uma mensagem de confirmação da exclusão conforme imagem a seguir:
 
-.. figure:: _static/images/04-21_Exclusão-de-Regra-de-Auditoria_Tela_Excluir-Regras-de-Auditoria.png
+.. figure:: _static/images/04-21_Exclusao-de-Regra-de-Auditoria_Tela_Excluir-Regras-de-Auditoria.png
 
 Consultar Regras de Auditoria
 -----------------------------

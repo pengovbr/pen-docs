@@ -1,5 +1,5 @@
 Auditoria
-========================
+==========
 
 Introdução à Funcionalidade "Auditoria"
 ---------------------------------------
@@ -10,9 +10,11 @@ O acesso à funcionalidade “Auditoria” é realizado por meio do seguinte cam
 2. Selecione a opção “Infra”;
 3. Clique no item “Auditoria”.
 
-.. figure:: _static/images/04-23_Introdução-à-Funcionalidade-Auditoria_TelaSEI_Funcionalidade-Auditoria.png
+.. figure:: _static/images/04-23_Introdução-a-Funcionalidade-Auditoria_TelaSEI_Funcionalidade-Auditoria.png
 
-_**Destaque**_: Apenas usuários com a permissão “Informática” têm acesso ao menu “Infra”. Portanto, o usuário com apenas o perfil “Administrador” não tem acesso a essa funcionalidade.
+.. admonition:: Nota
+
+   Apenas usuários com a permissão “Informática” têm acesso ao menu “Infra”. Portanto, o usuário com apenas o perfil “Administrador” não tem acesso a essa funcionalidade.
 
 Conforme aprendemos anteriormente em Logs, são exibidas informações mais técnicas avaliadas pela equipe de TI do órgão ou entidade. 
 
@@ -33,9 +35,11 @@ Os filtros que compõem a pesquisa de auditoria são os seguintes:
 - **Período**: é composto por dois campos: início e fim. Ressaltamos que esse filtro é do tipo “Data/Hora”, sendo o seu preenchimento facilitado pela seleção da data e da hora desejada por meio do calendário.
 - **IP**: é utilizado para filtrar os logs pelo IP de quem acessou o sistema.
 
-_**Destaque**_: Os últimos filtros “Servidor”, “Requisição” e “Operação” são bastante técnicos e por esse motivo optamos por não explicar o objetivo deles.
+.. admonition:: Nota
+
+   Os últimos filtros “Servidor”, “Requisição” e “Operação” são bastante técnicos e por esse motivo optamos por não explicar o objetivo deles.
 
 Vamos reforçar nosso aprendizado sobre a funcionalidade ensinada com o vídeo a seguir:
------------------------------------------
+
 
 Clique [aqui](https://cdn.evg.gov.br/cursos/304_EVG/videos/modulo07video02.mp4) para ver o vídeo.
