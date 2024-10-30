@@ -112,11 +112,11 @@ Acessar o documento assinado eletronicamente e clicar no botão Validar |icone_v
 
 .. |icone_validador| image:: _static/images/icone_validador.png
    :align: middle
-   :width: 20
+   :width: 30
 
 .. figure:: _static/images/doc_assinado_validador.png
 
-Será aberta a tela com o resultado da API de validação. ( o que faz o botão Revalidar?) 
+Será aberta a tela com o resultado da API de validação.
 
 .. figure:: _static/images/Resultado_API_validar.png
 
