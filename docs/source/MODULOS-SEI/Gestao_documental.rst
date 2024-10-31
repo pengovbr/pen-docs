@@ -215,16 +215,27 @@ Arquivando processo por meio da Tela do Processo
 O arquivamento impede que novos documentos ou andamentos sejam associados ao processo, sendo possível acessar apenas os seguintes ícones:
 
 a.Iniciar Processo Relacionado;
+
 b.Consultar Processo;
+
 c.Acompanhamento Especial;
+
 d.Adicionar aos Favoritos;
+
 e.Anotações;
+
 f.Gerar Arquivo PDF do Processo;
+
 g.Gerar Arquivo ZIP do Processo;
+
 h.Comentários;
+
 i.Controle de Processos;
+
 j.Pesquisar no Processo;
+
 k.Consultar Histórico de Arquivamento do Processo;
+
 l.Desarquivar Processo.
 
 Arquivamento Legado
