@@ -61,11 +61,7 @@ O módulo de Gestão Documental inclui dois novos perfis no SEI: perfil GD Arqui
 
 A configuração por meio da execução de script está disponível no código fonte do Módulo. Solicite que a área de TI do seu órgão execute o script contido na pasta XXXXX.
 
-Também é possível realizar a exclusão e a desativação de forma manual. Para excluir os menus, acesse Menus > Listar e exclua os menus abaixo por meio do ícone |Icone_Excluir|.
-
-.. |Icone_Excluir| image:: _static/images/Icone_Excluir.png
-   :align: middle
-   :width: 30
+Também é possível realizar a desativação de forma manual. Para desativar os menus, acesse Menus > Listar e desative os menus abaixo por meio do ícone |icone_listar|.
 
 
 .. list-table::
@@ -382,6 +378,10 @@ Para concluir a edição da listagem, clique no ícone |Icone_Concluir_Edicao_da
    :width: 150
 
 .. |Icone_Concluir_Edicao_da_Listagem| image:: _static/images/Icone_Concluir_Edicao_da_Listagem.png
+   :align: middle
+   :width: 30
+
+.. |Icone_Excluir| image:: _static/images/Icone_Excluir.png
    :align: middle
    :width: 30
 
