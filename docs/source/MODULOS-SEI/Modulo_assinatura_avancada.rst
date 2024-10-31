@@ -57,10 +57,6 @@ Validação de Assinatura Eletrônica
 
 Após a assinatura eletrônica, será possível submeter o documento assinado ao serviço de validação de assinaturas eletrônicas do Governo Federal e verificar o status de assinatura eletrônica ICP-Brasil, GOV.BR ou provenientes de acordos internacionais de reconhecimento mútuo.
 
-
-Utilizando Versão SEI Anterior a 4.0.12.15
-+++++++++++++++++++++++++++++++++++++++++++
-
 Acessar o documento assinado eletrônicamente e clicar no link presente seção localizada abaixo das assinaturas eletrônicas do documento;
 
 .. figure:: _static/images/doc_assinado.png
@@ -103,21 +99,4 @@ Será aberta a tela com a validação do documento, onde será possível:
 .. admonition:: Nota
 
    É importante ressaltar que nenhuma informação ou arquivo são armazenados nos ambientes operacionais do ITI. Os resultados da validação limitam-se exclusivamente a identificar o titular do certificado digital utilizado e confirmar se o documento assinado não sofreu nenhuma adulteração após a assinatura.
-
-
-Utilizando Versão SEI igual ou superior a 4.0.12.15
-+++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-Acessar o documento assinado eletronicamente e clicar no botão Validar |icone_validador|; 
-
-.. |icone_validador| image:: _static/images/icone_validador.png
-   :align: middle
-   :width: 30
-
-.. figure:: _static/images/doc_assinado_validador.png
-
-Será aberta a tela com o resultado da API de validação.
-
-.. figure:: _static/images/Resultado_API_validar.png
-
 
