@@ -8,10 +8,15 @@ Essa seção tem por objetivo demonstrar as funcionalidades que serão disponibi
 O módulo de Gestão Documental adiciona funcionalidades ao SEI, tais como:
 
 |icone_arquivar_processo| **Arquivar Processo** – Possibilita o arquivamento de processos.
+
 |icone_desarquivar_processo| **Desarquivar Processo** – Possibilita que um processo arquivado seja desarquivado e retorne para a tela de controle de processos.
+
 |icone_menu_pendenciar_de_arquivamento| **Menu Pendências de Arquivamento** – Exibe todos os processos pendentes de arquivamento cuja unidade foi a última a concluir.
+
 |icone_menu_arquivo_da_unidade| **Menu Arquivo da Unidade** – Concentra todos os processos arquivados pela unidade e que se encontram em fase de guarda corrente.
+
 |icone_menu_gestao_documental| **Menu Gestão Documental** – Possibilita a avaliação dos processos, a geração de listagens, editais e termos de eliminação, bem como a efetivação da eliminação.
+
 **Acervo Global** - Lista os processos sem andamentos abertos e cujas unidades por onde eles tramitaram encontram-se desativadas.
 
 .. |icone_arquivar_processo| image:: _static/images/icone_arquivar_processo.png
@@ -86,7 +91,7 @@ Para desativar os recursos, acesse o menu Recursos > Listar e realize a desativa
 
 .. |icone_listar| image:: _static/images/icone_listar.png
    :align: middle
-   :width: 30
+   :width: 35
 
 
 .. list-table::
@@ -258,7 +263,7 @@ Desarquivando processo pela tela Arquivo da Unidade
 Desarquivando processo por meio da Tela do Processo
 
 
-.. figure:: _static/images/08.Desarquivamento_Tela_de_Processos
+.. figure:: _static/images/08.Desarquivamento_Tela_de_Processos.gif
 
 
 Menu Gestão Documental
@@ -327,7 +332,7 @@ A tela de Gestão das Listagens apresenta os processos de eliminação criados n
 
 .. figure:: _static/images/13.Tela_Gestao_da_Listagem_de_Eliminacao.gif
 
-Nesta tela é possível realizar pesquisas através dos filtros e imprimir a relação de processos de eliminação. Através da coluna “**Ações**” também é possível visualizar a relação de processos incluídos na listagem, clicando no ícone |icone_listagem|, realizar anotações por meio do ícone |icone_anotacoes|e editar a listagem de eliminação através de clique no ícone |Icone_Editar_Listagem|.
+Nesta tela é possível realizar pesquisas através dos filtros e imprimir a relação de processos de eliminação. Através da coluna “**Ações**” também é possível visualizar a relação de processos incluídos na listagem, clicando no ícone |icone_listagem|, realizar anotações por meio do ícone |icone_anotacoes| e editar a listagem de eliminação através de clique no ícone |Icone_Editar_Listagem|.
 
 Ao editar a listagem de eliminação, serão apresentados dois novos ícones. Para adicionar processos à listagem gerada, clique no ícone |Icone_Adicionar_Processos|. Serão apresentados os processos presentes na tela de preparação da listagem de eliminação. Selecione os processos que deseja incluir na listagem e em seguida clique em |Icone_Adicionar_Processos_Gestao_de_Listagem|.
 
@@ -355,7 +360,7 @@ Para concluir a edição da listagem, clique no ícone |Icone_Concluir_Edicao_da
 
 .. |Icone_Adicionar_Processos_Gestao_de_Listagem| image:: _static/images/Icone_Adicionar_Processos_Gestao_de_Listagem.png
    :align: middle
-   :width: 30
+   :width: 80
 
 .. |Icone_Excluir_Processos| image:: _static/images/Icone_Excluir_Processos.png
    :align: middle
@@ -363,7 +368,7 @@ Para concluir a edição da listagem, clique no ícone |Icone_Concluir_Edicao_da
 
 .. |Icone_Excluir_Processos_Gestao_de_Listagem| image:: _static/images/Icone_Excluir_Processos_Gestao_de_Listagem.png
    :align: middle
-   :width: 30
+   :width: 80
 
 .. |Icone_Concluir_Edicao_da_Listagem| image:: _static/images/Icone_Concluir_Edicao_da_Listagem.png
    :align: middle
