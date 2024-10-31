@@ -363,7 +363,7 @@ Para concluir a edição da listagem, clique no ícone |Icone_Concluir_Edicao_da
 
 .. |Icone_Editar_Listagem| image:: _static/images/Icone_Editar_Listagem.png
    :align: middle
-   :width: 30
+   :width: 20
 
 .. |Icone_Adicionar_Processos| image:: _static/images/Icone_Adicionar_Processos.png
    :align: middle
@@ -371,7 +371,7 @@ Para concluir a edição da listagem, clique no ícone |Icone_Concluir_Edicao_da
 
 .. |Icone_Adicionar_Processos_Gestao_de_Listagem| image:: _static/images/Icone_Adicionar_Processos_Gestao_de_Listagem.png
    :align: middle
-   :width: 80
+   :width: 150
 
 .. |Icone_Excluir_Processos| image:: _static/images/Icone_Excluir_Processos.png
    :align: middle
@@ -379,7 +379,7 @@ Para concluir a edição da listagem, clique no ícone |Icone_Concluir_Edicao_da
 
 .. |Icone_Excluir_Processos_Gestao_de_Listagem| image:: _static/images/Icone_Excluir_Processos_Gestao_de_Listagem.png
    :align: middle
-   :width: 80
+   :width: 150
 
 .. |Icone_Concluir_Edicao_da_Listagem| image:: _static/images/Icone_Concluir_Edicao_da_Listagem.png
    :align: middle
