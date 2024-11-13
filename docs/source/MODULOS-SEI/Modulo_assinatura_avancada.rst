@@ -51,3 +51,52 @@ Após esta ação, o documento assinado via **gov.br** será atualização com a
    Caso o usuário não deseje assinar com a Conta gov.br, selecionar a opção **"Utilizar Assinatura Interna SEI"**.
 
 .. figure:: _static/images/tela_opcao_pela_assinatura_via_Sei.png
+
+Validação de Assinatura Eletrônica
+-----------------------------------
+
+Após a assinatura eletrônica, será possível submeter o documento assinado ao serviço de validação de assinaturas eletrônicas do Governo Federal e verificar o status de assinatura eletrônica ICP-Brasil, GOV.BR ou provenientes de acordos internacionais de reconhecimento mútuo.
+
+Acessar o documento assinado eletrônicamente e clicar no link presente seção localizada abaixo das assinaturas eletrônicas do documento;
+
+.. figure:: _static/images/doc_assinado.png
+
+Ao acessar a tela de Conferência de Autenticidade de Documentos, preencher os campos **Código Verificado** e **Código CRC**, com as informações disponibilizadas no documento assinado, seção abaixo da assinatura. Em seguida, copiar o conteúdo do Capcha para o campo apropriado e clicar em **Pesquisar**;
+
+
+.. figure:: _static/images/tela_conferencia_autenticidade.png
+
+Realizar o download do conteúdo (1) e do certificado digital para para validação externa (2).
+
+.. figure:: _static/images/documentos_download.png
+
+.. admonition:: Nota
+
+   Caso deseje visualizar a integra do documento, será possível por meio da opção em tela (3).
+
+Após o dowload dos documentos, acessar o site do Validador por meio do endereço: https://h-validar.iti.gov.br/ , presente na seção da assinatura que deseja validar;
+
+.. figure:: _static/images/Validador.png
+
+Ao acessar o portal Validar:
+
+1) Clicar no botão *Escolher Arquivo* - selecionar o arquivo com extensão **HTML** baixado anteriormente;
+2) Marcar o select box **Assinatura Destacada**. 
+3) Ao selecionar essa opção, o botão *Assinatura Destacada Arquivo" - selecionar o arquivo com extensão **p7s** baixado anteriormente;
+4) Marcar o select box **Concordo com os termos de uso e política de privacidade.**;
+5) Clicar no botão **Validar**.
+
+.. figure:: _static/images/portal_validador.png
+
+Será aberta a tela com a validação do documento, onde será possível:
+
+1) ver o status da assinatura;
+2) exportar o relatório para PDF;
+3) ver relatório de Conformidade;
+
+.. figure:: _static/images/validacao_documento.png
+
+.. admonition:: Nota
+
+   É importante ressaltar que nenhuma informação ou arquivo são armazenados nos ambientes operacionais do ITI. Os resultados da validação limitam-se exclusivamente a identificar o titular do certificado digital utilizado e confirmar se o documento assinado não sofreu nenhuma adulteração após a assinatura.
+
