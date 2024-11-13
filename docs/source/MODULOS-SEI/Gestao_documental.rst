@@ -437,7 +437,7 @@ Relação de Documentos Externos
  
 O Módulo de Gestão Documental mostra a relação de documentos externos que foram eliminados no ícone |Icone_listagem_excluido|. Tanto os documentos digitalizados, e sua localização, quanto os nato-digitais. Seus metadados também ficam guardados no módulo.
 
-image:: _static/images/docexternoMDGD.gif
+.. figure:: _static/images/docexternoMDGD.gif
 
 
 .. |Icone_listagem_excluido| image:: _static/images/icone_listagem_excluido.png
