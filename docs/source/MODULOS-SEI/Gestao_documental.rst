@@ -432,7 +432,17 @@ Feita a eliminação, o Termo de Eliminação de Documentos será gerado de form
 
    Os modelos de documentos “Listagem de Eliminação de Documentos”, “Edital de Ciência de Eliminação de Documentos” e “Termo de Eliminação de Documentos” estão de acordo com a `Resolução CONARQ nº 40, de 09 de dezembro de 2014 <https://www.gov.br/conarq/pt-br/legislacao-arquivistica/resolucoes-do-conarq/resolucao-no-40-de-9-de-dezembro-de-2014-alterada>`_.
 
-COLOCAR AQUI ITEM FALANDO DA RELAÇÃO DE DOCS EXTERNOS
+Relação de Documentos Externos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+O Módulo de Gestão Documental mostra a relação de documentos externos que foram eliminados no ícone |Icone_listagem_excluido|. Tanto os documentos digitalizados, e sua localização, quanto os nato-digitais. Seus metadados também ficam guardados no módulo.
+
+image:: _static/images/docexternoMDGD.gif
+
+
+.. |Icone_listagem_excluido| image:: _static/images/icone_listagem_excluido.png
+   :align: middle
+   :width: 30
 
 Preparação da Listagem de Recolhimento
 +++++++++++++++++++++++++++++++++++++++
