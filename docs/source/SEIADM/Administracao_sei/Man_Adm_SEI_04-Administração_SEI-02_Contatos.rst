@@ -1,5 +1,5 @@
-Administração SEI - Contatos
-============================
+Contatos
+=========
 
 Essa etapa do Manual do SEI para Administradores permite mostrar como é feita a “Gestão de Contatos”.
 
