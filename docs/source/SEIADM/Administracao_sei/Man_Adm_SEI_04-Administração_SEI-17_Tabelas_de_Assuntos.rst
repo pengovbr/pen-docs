@@ -6,7 +6,7 @@ Tabela de Assuntos
 No SEI, parte dessas exigências são atendidas por meio da funcionalidade “Tabela de Assuntos”, que serve de base para a parametrização dos tipos de processos. Assim, todo processo aberto no SEI tem assuntos associados, a fim de viabilizar uma melhor classificação. Acompanhe a disposição do campo “Classificação por Assuntos” na figura a seguir, que apresenta uma tela do SEI.
 
 
-.. figure:: _static/images/04-17_Tabela-Assuntos_Classificação-por-assuntos.png
+.. figure:: _static/images/04-17_Tabela-Assuntos_Classificacao-por-assuntos.png
 
 .. admonition:: Nota
 
@@ -54,7 +54,7 @@ Para cadastrar uma nova Tabela de Assuntos, o Administrador do SEI deve seguir c
 
 .. figure:: _static/images/04-17_Tabela-Assuntos_Menu.png
  
-A tela de Tabela de Assuntos será exibida: 
+A tela da lista da Tabela de Assuntos será exibida: 
 
 .. figure:: _static/images/04-17_Tabela-Assuntos_Lista_Novo.png
 
@@ -72,14 +72,17 @@ A tela de Nova Tabela de Assuntos será exibida:
 
 05. Clicar em Salvar.
 
-Pronto, a nova Tabela foi cadastrada.
+Pronto, a nova Tabela foi cadastrada. Na lista de Tabela de Assuntos irá aparecer para ser ativada.
 
 
 Ativar Nova Tabela de Assuntos
 ------------------------------
 
 
-**(Em construção)**
+(em construção!)
+
+
+
 
 
 Alterar Tabela de Assuntos
@@ -168,7 +171,7 @@ A tela de Assuntos será exibida com os Assuntos pertencentes àquela tabela.
 A tela de “Novo Assunto” será exibida:
 
 
-.. figure:: _static/images/04-17_Tabela-Assuntos_Lista_Assuntos-da-Tabela-Novo.png
+.. figure:: _static/images/04-17_Tabela-Assuntos_Tela_Novo-Assunto.png
 
 05. Preencher os seguintes campos: 
 
@@ -263,7 +266,7 @@ A tela de Tabela de Assuntos será exibida:
 
 .. figure:: _static/images/04-17_Tabela-Assuntos_Lista_Assuntos-da-Tabela.png
 
-03. Localizar a Tabela de Assuntos em que deseja desativar um assunto e clicar em “Assuntos da Tabela”;
+03. Localizar a Tabela de Assuntos em que deseja desativar o assunto e clicar em “Assuntos da Tabela”;
 
 A tela de Assuntos será exibida com os Assuntos pertencentes àquela tabela. 
 
@@ -279,7 +282,7 @@ Pronto, o Assunto foi desativado daquela Tabela de Assuntos.
 Reativar Assunto
 ----------------
 
-Para reatiavr assuntos desativado, o Administrador do SEI deve realizar os seguintes passos:
+Para reativar um assunto já desativado, o Administrador do SEI deve realizar os seguintes passos:
 
 
 01. No Menu Principal, acessar “Administração”;

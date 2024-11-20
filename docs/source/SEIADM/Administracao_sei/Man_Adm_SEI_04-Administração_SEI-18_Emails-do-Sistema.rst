@@ -10,7 +10,7 @@ O SEI pode enviar e-mails para os usuários em diversas situações por exemplo 
 
 Essas mensagens são geradas automaticamente porém é necessário configurar previamente o seu conteúdo. 
 
-Para isso o usuário com perfil “Administrador” deverá acompanhar o caminho descrito a seguir.
+Para isso o usuário com perfil “Administrador” deverá acompanhar o caminho descrito a seguir:
 
 1. Acesse o SEI e entre no menu principal;
 2. Selecione a opção “Administração”;
@@ -65,4 +65,4 @@ Ressalta-se que o texto dos e-mails deve ser elaborado utilizando as variáveis 
 Vamos reforçar nosso aprendizado sobre a funcionalidade ensinada com o vídeo a seguir:
 
 
-Clique [aqui](https://cdn.evg.gov.br/cursos/304_EVG/videos/modulo06video01.mp4) para ver o vídeo.
+.. _Clique aqui: https://cdn.evg.gov.br/cursos/304_EVG/videos/modulo06video01.mp4 para ver o vídeo.

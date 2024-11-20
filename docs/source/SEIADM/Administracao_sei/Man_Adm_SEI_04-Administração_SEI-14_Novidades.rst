@@ -48,7 +48,7 @@ image:: _static/images/IconeSEI_Liberar.png
 Liberar Novidade
 ----------------
 
-Após cadastrada a novidade, esse comando é disponibilizado e basicamente ele disponibiliza a novidade para os Usuários do SEI. Caso não seja liberada, a novidade não ficará disponível para os usuários. Uma vez liberada, é apresentada a ação “Cancelar Disponibilização da Novidade”, que permite o cancelamento daquela novidade.
+Após cadastrada a novidade, esse comando é habilitado e basicamente ele disponibiliza a novidade para os Usuários do SEI. Caso não seja liberada, a novidade não ficará disponível para os usuários. Uma vez liberada, é apresentada a ação “Cancelar Disponibilização da Novidade”, que permite o cancelamento daquela novidade (será detalhado no tópico adiante).
 
 .. admonition:: Nota
 
@@ -60,7 +60,7 @@ Para liberar a novidade, o  Administrador deverá acompanhar o caminho descrito 
 
 01. No Menu Principal, acessar “Administração”;
 
-02. Acessar “Novidades”;
+02. Clicar em “Novidades”;
 
 A tela Novidades será exibida com uma lista de Novidades já cadastradas: 
 
@@ -74,10 +74,10 @@ A tela Novidades será exibida com uma lista de Novidades já cadastradas:
 
 Pronto, a Novidade foi liberada para os Usuários. 
 
-Note que após liberação da novidade, dois campos foram alterados: campo “Liberação” (com a data de liberação da novidade) e o campo Ações (Dessa vez com o ícone do comando Cancelar Liberação da Novidade, que será visto a seguir).
+Note que após liberação da novidade, dois campos foram alterados: a coluna “Liberação” (com a data de liberação da novidade) e na coluna Ações (Dessa vez com o ícone do comando Cancelar Liberação da Novidade, que será visto a seguir).
 
 
-.. figure:: _static/images/04-14_Novidades_Lista_Cancelar-Liberação00.png
+.. figure:: _static/images/04-14_Novidades_Lista_Cancelar-Liberaçao00.png
 
 
 Cancelar Liberação da Novidade

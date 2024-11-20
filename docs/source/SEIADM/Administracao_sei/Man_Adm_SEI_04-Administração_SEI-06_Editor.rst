@@ -8,7 +8,7 @@ Nessa funcionalidade, o administrador trabalhará muito com programação HTML p
 O Editor permite a alteração nas 4 seguintes modos de customização: Modelos, Estilos, Tarjas e Formatos de Imagens Permitidos. Iremos ver cada uma em seu detalhe. 
 
 Funcionalidade Modelos
------------------------
+----------------------
 
 A funcionalidade Modelos aborda os Modelos de documentos a serem utilizados no SEI. Em modelos é possível configurar as seguintes ações: Criar novo modelo, Listar modelos (e nessa listagem na coluna “Ações”, é possível a visualização, a alteração, a seleção de seções do modelo, a desativação e a exclusão do modelo, além de também criar um novo modelo e clonar), a Reativação de Modelo e a Clonagem dos Modelos existentes. 
 
@@ -16,10 +16,12 @@ A funcionalidade Modelos aborda os Modelos de documentos a serem utilizados no S
 
    É preciso reforçar que a apresentação do Editor não será feita na ordem de aparição do Menu Principal. Recomenda-se que o uso de clonagem de um modelo tem uma praticidade maior do que a criação de um Novo Modelo desde o início, já que não herda nenhuma das seções já estabelecidas em seus Modelos. 
 
-Funcinalidade Listar Modelos
+Funcionalidade Listar Modelos
 -----------------------------
 
 Essa funcionalidade permite ao usuário acessar a lista de documentos carregados na implantação do SEI. Esses documentos poderão ser visualizados, alterados, desativados ou excluídos conforme a necessidade do órgão. Para acessar os modelos, o usuário deverá:
+
+.. figure:: _static/images/04-06_Editor_Menu_Modelos_Listar.png
 
 01. No Menu Principal, acessar Administração;
 
@@ -29,9 +31,9 @@ Essa funcionalidade permite ao usuário acessar a lista de documentos carregados
 
 04. Selecionar "Listar".
 
-.. figure:: _static/images/04-06_Editor_Menu_Modelos_Listar.png
-
 A tela de Modelos irá aparecer com os respectivos comandos na coluna “Ações”:
+
+.. figure:: _static/images/04-06_Editor_Lista_Modelos_Seções.png
 
 * **Visualizar Modelo**: Visualiza como o modelo é apresentado para o Usuário Básico quando este for utilizá-lo. 
 
@@ -365,3 +367,278 @@ Campos a serem preenchidos:
 
 * **Conteúdo**: esta seção é igual em todos modelos, portanto o que se deve fazer é copiar o código do rodapé de outro modelo acessando o ambiente de programação HTML. É possível também que um determinado documento seja visualizado somente por uma unidade organizacional ou determinado órgão, quando se tratar de multi-órgão.
 
+
+
+Funcionalidade Estilos
+----------------------
+
+A funcionalidade de estilos no editor do SEI permite formatar parágrafos de um documento com um conjunto de atributos, como tipo de fonte, tamanho, alinhamento, se em negrito ou itálico, entre outros.
+
+NOVO ESTILO
+
+Para criar um Novo, é necessário seguir os seguintes passos: 
+
+.. figure:: _static/images/04-06_Editor_Menu_Estilos.png
+
+01. No Menu Principal, acessar Administração;
+
+02. Acessar "Editor";
+
+03. Selecionar "Estilos";
+
+A lista de "Estilos" será exibida:
+
+.. figure:: _static/images/04-06_Editor_Lista_Estilos_Novo.png
+
+04. Clicar em "Novo";
+
+A tela "Novo Estilo" será exibida:
+
+.. figure:: _static/images/04-06_Editor_Tela_Estilo-Novo.png
+
+05. Preencher os campos "Nome" e "Formatação";
+
+06. Clicar em "Salvar"
+
+
+Pronto, um novo Estilo foi criado
+
+
+ALTERAR ESTILO
+
+Para alterar um estilo já criado, é necessário seguir os seguintes passos: 
+
+.. figure:: _static/images/04-06_Editor_Menu_Estilos.png
+
+01. No Menu Principal, acessar Administração;
+
+02. Acessar "Editor";
+
+03. Selecionar "Estilos";
+
+A lista de "Estilos" será exibida:
+
+.. figure:: _static/images/04-06_Editor_Lista_Estilos_Alterar.png
+
+04. Localizar o estilo a ser alterado e clicar em "Alterar Estilo";
+
+A tela "Alterar Estilo" será exibida: 
+
+.. figure:: _static/images/04-06_Editor_Tela_Estilo-Alterar.png
+
+05. Alterar os campos pertinentes;
+
+06. Clicar em "Salvar"
+
+Pronto, o estilo foi alterado. 
+
+	
+
+EXCLUIR ESTILO
+
+Para excluir um estilo, é necessário seguir os seguintes passos: 
+
+.. figure:: _static/images/04-06_Editor_Menu_Estilos.png
+
+01. No Menu Principal, acessar Administração;
+
+02. Acessar "Editor";
+
+03. Selecionar "Estilos";
+
+A lista de "Estilos" será exibida:
+
+.. figure:: _static/images/04-06_Editor_Lista_Estilos_Excluir.png
+
+04. Localizar o estilo a ser alterado e clicar em "Excluir Estilo";
+
+05. Confirmar o comando de exclusão.
+
+
+Pronto, o estilo foi excluído da lista de estilos. Essa ação, como todas as outras exclusões, não consegue ser revertida.
+
+
+Funcionalidade Tarjas
+---------------------
+
+A funcionalidade “Tarja” trata das informações que constarão na tarja de assinatura digital do documento, na qual encontram-se dados a respeito da validação e autenticação de assinatura.
+
+A lista de tarjas vem pronta na instalação do SEI, mas é possível realizar alterações de acordo com as necessidades de cada órgão e  é necessário um certo conhecimento em código HTML. As indicações de decretos e artigos podem ser adequadas à esfera e ao regime que o órgão ou entidade se submete. 
+
+As tarjas atuais já prontas do SEI são: Autenticação com Certificado Digital, Assinatura com Certificado Digital, Autenticação Eletrônica e Assinatura Eletrônica e Instruções de Validação. 
+
+
+ALTERAR TARJAS
+
+Para alterar uma Tarja, é necessário seguir os seguintes passos: 
+
+.. figure:: _static/images/04-06_Editor_Menu_Tarjas.png
+
+01. No Menu Principal, acessar Administração;
+
+02. Acessar "Editor";
+
+03. Selecionar "Tarjas";
+
+A lista de "Tarjas" será exibida:
+
+.. figure:: _static/images/04-06_Editor_Lista_Tarjas_Alterar.png
+
+04. Localizar a tarja a ser alterada e clicar em "Alterar Tarja";
+
+A tela "Alterar Tarja" será exibida: 
+
+.. figure:: _static/images/04-06_Editor_Tela_Tarja-Alterar.png
+
+05. Alterar os campos pertinentes;
+Note que 
+
+- O Campo "Tipo" é fixo e é selecionado na lista anterior;
+- Há um botão de Ajuda "?" para auxiliar com um Pop Up sobre as Variáveis Disponíveis na Tarja;
+- É possível inserir um logotipo para as Tarjas, por meio do botão "Escolher Logotipo"
+
+
+06. Clicar em "Salvar".
+
+Pronto, a Tarja foi alterada.
+
+
+
+
+
+Funcionalidade Formatos de Imagem Permitidos
+--------------------------------------------
+
+
+Essa funcionalidade define quais extensões de arquivos para imagem serão aceitos no corpo do documento produzido no editor de texto do SEI. 
+
+
+
+Adicionar novo formato de imagem
+
+Para adicionar um novo formato de imagem para o Editor, é preciso realizar os seguintes passos: 
+
+.. figure:: _static/images/04-06_Editor_Menu_Formato-Imagem_Novo.png
+
+01. No Menu Principal, acessar Administração;
+
+02. Acessar "Editor";
+
+03. Selecionar "Formatos de Imagem Permitidos";
+
+04. Clicar em "Novo";
+
+.. figure:: _static/images/04-06_Editor_Tela_Formato-Imagem-Novo.png
+
+05. Preencher os campos "Formato" e "Descrição";
+
+06. Clicar em "Salvar"
+
+
+
+Alterar formato de imagem
+
+Para adicionar um novo formato de imagem para o Editor, é preciso realizar os seguintes passos: 
+
+.. figure:: _static/images/04-06_Editor_Menu_Formato-Imagem_Listar.png
+
+01. No Menu Principal, acessar Administração;
+
+02. Acessar "Editor";
+
+03. Selecionar "Formatos de Imagem Permitidos";
+
+04. Clicar em "Listar";
+
+A lista de "Formatos de Imagem Permitidos" será exibida:
+
+.. figure:: _static/images/04-06_Editor_Lista_Formato-Imagem-Alterar.png
+
+05. Localizar o Formato de Imagem a ser alterado e clicar em “Alterar Formato de Imagem Permitido”.
+
+A tela "Alterar Formato de Imagem Permitido" será exibida:
+
+.. figure:: _static/images/04-06_Editor_Tela_Formato-Imagem-Alterar.png
+
+06. Alterar os campos pertinentes;
+
+07. Clicar em "Salvar"
+
+DESATIVAR FORMATO DE IMAGEM
+
+Para desativar um Formato de Imagem para o Editor, é preciso realizar os seguintes passos: 
+
+.. figure:: _static/images/04-06_Editor_Menu_Formato-Imagem_Listar.png
+
+01. No Menu Principal, acessar Administração;
+
+02. Acessar "Editor";
+
+03. Selecionar "Formatos de Imagem Permitidos";
+
+04. Clicar em "Listar";
+
+A lista de "Formatos de Imagem Permitidos" será exibida:
+
+.. figure:: _static/images/04-06_Editor_Lista_Formato-Imagem-Desativar.png
+
+05. Localizar o Formato de Imagem a ser alterado e clicar em “Desativar Formato de Imagem Permitido”.
+
+06. Confirmar comando de desativação.
+
+Pronto, o Formato de Imagem foi desativado.   
+Para reativar o formato de imagem desativado, seguir os passos do tópico seguinte. 
+
+
+
+REATIVAR FORMATO DE IMAGEM
+
+
+Para reativar um Formato de Imagem já desativado, é preciso realizar os seguintes passos: 
+
+.. figure:: _static/images/04-06_Editor_Menu_Formato-Imagem_Reativar.png
+
+01. No Menu Principal, acessar Administração;
+
+02. Acessar "Editor";
+
+03. Selecionar "Formatos de Imagem Permitidos";
+
+04. Clicar em "Reativar";
+
+A lista de "Reativar Formatos de Imagem Permitidos" será exibida:
+
+.. figure:: _static/images/04-06_Editor_Lista_Formato-Imagem-Reativar.png
+
+05. Localizar o Formato de Imagem a ser reativado e clicar em “Reativar Formato de Imagem Permitido”.
+
+06. Confirmar comando de reativação.
+
+Pronto, o Formato de Imagem foi reativado.
+
+
+EXCLUIR FORMATO DE IMAGEM
+
+Ao Excluir um Formato de Imagem, é necessário reforçar que esse, ao contrário do comando "Desativar", é uma ação irreversível. 
+
+Para excluir um Formato de Imagem para o Editor, é preciso realizar os seguintes passos: 
+
+.. figure:: _static/images/04-06_Editor_Menu_Formato-Imagem_Listar.png
+
+01. No Menu Principal, acessar Administração;
+
+02. Acessar "Editor";
+
+03. Selecionar "Formatos de Imagem Permitidos";
+
+04. Clicar em "Listar";
+
+A lista de "Formatos de Imagem Permitidos" será exibida:
+
+.. figure:: _static/images/04-06_Editor_Lista_Formato-Imagem-Excluir.png
+
+05. Localizar o Formato de Imagem a ser excluído e clicar em “Desativar Formato de Imagem Permitido”.
+
+06. Confirmar comando de desativação.
+
+Pronto, o Formato de Imagem foi excluído. 

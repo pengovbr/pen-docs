@@ -59,7 +59,7 @@ A tela “Novo Grupo de Tipos de Documento” será aberta.
 
 .. figure:: _static/images/04-07_Tipos-Documentos_Tela_Novo.png
  
-06. Preencher o Nome do Novo Grupo e a sua Descrição (preferencialmente os tipos de documentos que esse Grupo irá abranger) nos reséctivos campos; 
+06. Preencher o Nome do Novo Grupo e a sua Descrição (preferencialmente os tipos de documentos que esse Grupo irá abranger) nos respectivos campos; 
 
 07. Clicar em “Salvar”
 
@@ -129,6 +129,11 @@ Você pode restringir quando precisar que determinado departamento faça testes 
 * **Interno do Sistema**: selecionar esta opção somente se o Tipo de Processo não for aparecer para usuários. Por exemplo: um formulário a ser usado pela equipe de WebService
 
 
+5. Clicar em Salvar
+
+Pronto, um Novo Tipo de Documento foi criado!
+
+
 Numeração de Documento
 ++++++++++++++++++++++
 
@@ -171,7 +176,7 @@ Uma lista dos tipos de Documentos será exibida:
  
 .. figure:: _static/images/04-07_Tipos-Documentos_Lista_Numeracao.png
 
-06. Clicar em asdfasdfasdfa na coluna “Ações”;
+06. Localizar o Tipo do documento a ajustar a numeração e clicar em "Ajustar Numeração" na coluna “Ações”;
 
 A tela “Ajustar Numeração será exibida” e nela deve seguir esses passos:
 
@@ -182,3 +187,122 @@ A tela “Ajustar Numeração será exibida” e nela deve seguir esses passos:
 08. Clicar em Salvar.
 
 Pronto, o sequencial do tipo de documento foi alterado. 
+
+
+Alterar Tipo de Documento
++++++++++++++++++++++++++
+
+Para alterar um Tipo de Documento, deve-se seguir os seguintes passos:
+
+.. figure:: _static/images/04-07_Tipos-Documentos_Menu01.png
+
+.. figure:: _static/images/04-07_Tipos-Documentos_Menu-Listar.png
+
+01. No Menu Principal, acessar Administração;
+
+02. Acessar “Tipos de Documentos”;
+
+03. Acessar “Listar";
+
+A tela com a lista "Tipos de Documentos" será aberta.
+
+.. figure:: _static/images/04-07_Tipos-Documentos_Lista_Grupo-Tipos-Alterar.png
+
+04. Localize o Tipo de Documento a ser alterado e na coluna "Ações", clique em Alterar, correspondente ao tipo de documento;
+
+A tela "Alterar Tipo de Documento" será exibida.
+
+.. figure:: _static/images/04-07_Tipos-Documentos_Tela_Alterar-Tipo.png
+
+05. Alterar campos que julgar necessários.
+
+06. Clicar em "Salvar".
+
+Pronto! O seu Tipo de Documento foi alterado!
+
+
+
+
+Desativar Tipo de Documento
++++++++++++++++++++++++++++
+
+Para desativar um Tipo de Documento, deve-se seguir os seguintes passos:
+
+.. figure:: _static/images/04-07_Tipos-Documentos_Menu01.png
+
+.. figure:: _static/images/04-07_Tipos-Documentos_Menu_Grupos-Listar.png
+
+01. No Menu Principal, acessar Administração;
+
+02. Acessar “Tipos de Documentos”;
+
+03. Acessar “Listar";
+
+A tela com a lista de "Tipos de Documentos" será aberta.
+
+.. figure:: _static/images/04-07_Tipos-Documentos_Lista-Tipos-Desativar.png
+
+04. Localize o Tipo de Documento a ser alterado e na coluna "Ações", clique em Desativar, correspondente ao tipo de documento;
+
+
+05. Confirme a desativação do Tipo de Documento.
+
+
+Pronto! O seu Tipo de Documento foi desativado!
+
+
+
+
+Reativar Tipo de Documento
+++++++++++++++++++++++++++
+
+Para reativar um Tipo de Documento já desatvado, deve-se seguir os seguintes passos:
+
+.. figure:: _static/images/04-07_Tipos-Documentos_Menu01.png
+
+.. figure:: _static/images/04-07_Tipos-Documentos_Menu-Reativar.png
+
+01. No Menu Principal, acessar Administração;
+
+02. Acessar “Tipos de Documentos”;
+
+03. Clicar em “Reativar";
+
+A tela com a lista de "Tipos de Documentos" será aberta.
+
+.. figure:: _static/images/04-07_Tipos-Documentos_Lista-Tipos-Reativar.png
+
+04. Localize o Tipo de Documento a ser reativado e na coluna "Ações", clique em Reativar, correspondente ao tipo de documento;
+
+
+05. Confirme a reativação do Tipo de Documento.
+
+
+Pronto! O seu Tipo de Documento foi reativado!
+
+
+Excluir Tipo de Documento
+++++++++++++++++++++++++++
+
+Ao contrário do comando "Desativação", o comando de exclusão do tipo de documento é irreversível.
+Para excluir um Tipo de Documento, deve-se seguir os seguintes passos:
+
+.. figure:: _static/images/04-07_Tipos-Documentos_Menu01.png
+
+.. figure:: _static/images/04-07_Tipos-Documentos_Menu_Grupos-Listar.png
+
+01. No Menu Principal, acessar Administração;
+
+02. Acessar “Tipos de Documentos”;
+
+03. Acessar “Listar";
+
+A tela com a lista de "Tipos de Documentos" será aberta.
+
+.. figure:: _static/images/04-07_Tipos-Documentos_Lista-Tipos-Excluir.png
+
+04. Localize o Tipo de Documento a ser alterado e na coluna "Ações", clique em "Excluir", correspondente ao tipo de documento;
+
+05. Confirme a exclusão do Tipo de Documento.
+
+Pronto! O seu Tipo de Documento foi excluído!

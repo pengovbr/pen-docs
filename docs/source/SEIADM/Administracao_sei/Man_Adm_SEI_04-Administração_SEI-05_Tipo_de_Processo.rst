@@ -65,6 +65,11 @@ Após a realização do levantamento dos tipos de processo, é importante que se
 
 14. Interno do sistema: selecionar essa opção quando o tipo de processo não for aparecer para o usuário.
 
+15. Salvar o Tipo Processo.
+
+Pronto! O Tipo de Processo foi criado e está disponível para o Usuário. 
+
+
 Listar Tipo de Processo
 -----------------------
 
@@ -76,7 +81,7 @@ Para listar os tipos de processos disponíveis no Órgão, o Administrador do SE
 
 02. Acessar “Tipos de Processo”;
 
-03. Clicar em “Novo”.
+03. Clicar em “Listar”.
 
 .. figure:: _static/images/04-05_Tipos-Processos_Menu-Tipo-Processo.png
 
@@ -91,20 +96,62 @@ Consulta o tipo de processo com as características que lhe foram fornecidas
 
 * **Alterar** 
 
-Altera as características do Tipo de Processo
+Altera as características de um Tipo de Processo já criado. Para alterar o Tipo de Processo, deve-se seguir com os seguintes passos: 
+
+.. figure:: _static/images/04-05_Tipo_Processos_Lista_Alterar.png
+
+4. Clicar em "Alterar Tipo de Processo"
+
+A tela "Alterar Tipo de Processo" será exibida. 
+
+.. figure:: _static/images/04-05_Tipo_Processo_Tela_Alterar.png
+
+5. Realizar as alterações necessárias
+6. Clicar em "Salvar"
+
+Pronto, o Tipo de Processo foi alterado.
 
 * **Desativar** 
 
 Desativa o Tipo de Processo. Essa ação pode ser revertida com o comando “Reativar”, que será abordado a seguir.
 
-* **Excluir**  
+Para desativar um tipo de processo, deve-se seguir os seguintes passos: 
+
+.. figure:: _static/images/04-05_Tipo_Processos_Lista_Desativar.png
+
+
+4. Clicar em "Desativar Tipo de Processo"
+
+5. Confirmar comando.
+
+
+Pronto, o Tipo de Processo selecionado foi desativado. 
+Para reativar esse tipo de processo, um tópico específico mais adiante será abordado.
+
+
+
+* **Excluir**
 
 Exclui o Tipo de Processo. Essa ação **NÃO** consegue ser revertida.
+
+Para excluir um tipo de processo, deve-se seguir os seguintes passos: 
+
+.. figure:: _static/images/04-05_Tipo_Processos_Lista_Excluir.png
+
+
+4. Clicar em "Excluir Tipo de Processo"
+
+5. Confirmar comando.
+
+
+Pronto, o Tipo de Processo selecionado foi excluído. Vale reforçar que esse comando não permite reversão. 
+
+
 
 Reativar Tipo de Processo
 -------------------------
 
-Ao desativar o tipo de processo, ele pode ser reativado com o comando “Reativar”, seguindo os seguintes passos:
+Ao desativar o tipo de processo, ele pode ser revertido com o comando “Reativar”, seguindo os seguintes passos:
 
 01. No Menu Principal, acessar “Administração”;
 
@@ -130,5 +177,3 @@ Ou então é possível realizar em um comando:
 06. Clicar no botão “Reativar”   respectivo ao Tipo de Processo na coluna “Ações”.
 
 Pronto, o Tipo de Processo foi reativado. Lembrando que o processo para ser reativado, ele precisa ter sido Desativado: caso ele tenha sido excluído, o processo não pode ser revertido.
-
-

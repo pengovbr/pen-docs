@@ -5,7 +5,7 @@ A funcionalidade “Ponto de Controle” é utilizada para marcar situações te
 
 Para acessá-la, o administrador deve acompanhar o caminho descrito a seguir:
 
-.. figure:: _static/images/4-10_Ponto-de-controle_Menu.png
+.. figure:: _static/images/04-10_Ponto-de-controle_Menu.png
 
 01. No Menu Principal, acessar Administração;
 
@@ -118,6 +118,8 @@ Reativar Ponto de Controle
 A reativação de um Ponto de Controle é a ação reversível da desativação do ponto de controle, que foi abordada no tópico anterior.
 Caso desejar reativar um Ponto de Controle, o Administrador deve acessar a tela de Ponto de controle e localizar o Ponto de Controle a ser reativado. Note que os Pontos de Controle desativados estão em Vermelho.
 
+
+.. figure:: _static/images/04-10_Ponto-de-controle_Lista_Reativar.png
 
 01. Clicar no respectivo botão reativar Ponto de Controle;
 
