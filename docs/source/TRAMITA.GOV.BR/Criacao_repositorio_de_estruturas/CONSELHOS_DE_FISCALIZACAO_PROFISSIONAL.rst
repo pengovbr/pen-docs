@@ -40,7 +40,7 @@ A configuração da categoria dos Conselhos Federais* deve seguir a instrução 
 
 Exemplo: 
 
-.. figure:: _static/images/Conselho_Federal_ Nome da Classe.png
+.. figure:: _static/images/Conselho_Federal_ Nome_da_Classe.png
 
 
 Conselho Federal da Ordem dos Advogados do Brasil - OAB 
