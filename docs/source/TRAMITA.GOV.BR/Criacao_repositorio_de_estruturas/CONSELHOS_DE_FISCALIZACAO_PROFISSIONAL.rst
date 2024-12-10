@@ -20,12 +20,17 @@ Exemplo:
 Categorias do repositório dos Conselhos de Fiscalização Profissional 
 --------------------------------------------------------------------
 
-A estruturação do repositório tem por base o conjunto dos Conselhos Profissionais registrados no país. Atualmente, não são todas as classes profissionais que possuem um Conselho de Fiscalização, de forma que no Brasil são contabilizados 31 Conselhos Federais2. Dessa forma, esses 31 Conselhos Profissionais Federais estarão apresentados no primeiro nível do repositório, em ordem alfabética. A saber, são classificadas como categorias, os diversos Conselhos Federais pertencentes a cada uma das classes profissionais elencadas no primeiro nível do repositório. 
+A estruturação do repositório tem por base o conjunto dos Conselhos Profissionais registrados no país. Atualmente, não são todas as classes profissionais que possuem um Conselho de Fiscalização, de forma que no Brasil são contabilizados 31 Conselhos Federais. Dessa forma, esses 31 Conselhos Profissionais Federais estarão apresentados no primeiro nível do repositório, em ordem alfabética. A saber, são classificadas como categorias, os diversos Conselhos Federais pertencentes a cada uma das classes profissionais elencadas no primeiro nível do repositório. 
+
+.. admonition:: Nota
+
+   Panorama e Estrutura do Poder Judiciário Brasileiro – Disponível em: https://www.cnj.jus.br/poder-judiciario/panorama-e-estrutura-do-poder-judiciario-brasileiro/ - Acessado em maio de 2024.
+
 
 Conselhos Federais – CF  
 +++++++++++++++++++++++
 
-A configuração da categoria dos Conselhos Federais* deve seguir a instrução abaixo. 
+A configuração da categoria dos Conselhos Federais deve seguir a instrução abaixo. 
 
   **Nome:** Conselho Federal de/dos [Nome da Classe] 
 
@@ -33,14 +38,15 @@ A configuração da categoria dos Conselhos Federais* deve seguir a instrução 
 
   **Descrição:** Composto pelo Conselho Federal e pelos Conselhos Regionais de/dos [Nome da Classe]. 
 
-.. admonition::Nota
+
+.. admonition:: Nota
 
    Em específico, quatro conselhos possuem grafia diferente dos demais. Para estes serão criadas seções específicas de forma a estabelecer um consoante grau de padronização. 
 
 
 Exemplo: 
 
-.. figure:: _static/images/Conselho_Federal_ Nome_da_Classe.png
+.. figure:: _static/images/Conselho_Federal_Nome_da_Classe.png
 
 
 Conselho Federal da Ordem dos Advogados do Brasil - OAB 
@@ -112,7 +118,7 @@ Conselhos Federais
 +++++++++++++++++++
  
 
-Uma vez criada a categoria, os órgãos de referência poderão ser incluídos. Para este caso os Conselhos de Federais* serão cadastrados como um órgão de referência conforme instrução abaixo. 
+Uma vez criada a categoria, os órgãos de referência poderão ser incluídos. Para este caso os Conselhos de Federais serão cadastrados como um órgão de referência conforme instrução abaixo. 
 
   **Nome:** Conselho Federal de/dos [Nome da Classe] 
 
@@ -120,9 +126,9 @@ Uma vez criada a categoria, os órgãos de referência poderão ser incluídos. 
 
   **Descrição:** Composto pela estrutura interna do Conselho Federal de/dos [Nome da Classe]. 
 
-.. admonition::Nota
+.. admonition:: Nota
 
-   Em específico, quatro conselhos possuem grafia diferente dos demais. Para estes serão criadas seções específicas de forma a estabelecer um consoante grau de padronização. 
+   Em específico, quatro conselhos possuem grafia diferente dos demais. Para estes serão criadas seções específicas de forma a estabelecer um consoante grau de padronização.
 
 
 Exemplo: 
@@ -135,13 +141,17 @@ Conselhos Regionais
 
 A distribuição de Conselhos Regionais varia de acordo com a classe profissional. Como exemplo é possível citar os Conselhos Regionais de Nutrição e de Farmácia. Para a classe profissional de Nutrição atualmente existem onze Conselhos Regionais, separados por Região, enquanto para a classe profissional de Farmácia existem vinte e sete Conselhos Regionais, uma para cada Unidade Federativa. 
 
-Cabe ressaltar que diante da inexistência de uma padronização entre a grafia dos Conselhos Regionais, no momento da inserção, é importante que cada classe profissional registre os Órgãos de Referência de acordo com o padrão já existente para os seus Conselhos Regionais3. A configuração dos Órgãos de Referência relacionados aos Conselhos Regionais deve seguir a instrução abaixo. 
+Cabe ressaltar que diante da inexistência de uma padronização entre a grafia dos Conselhos Regionais, no momento da inserção, é importante que cada classe profissional registre os Órgãos de Referência de acordo com o padrão já existente para os seus Conselhos Regionais. A configuração dos Órgãos de Referência relacionados aos Conselhos Regionais deve seguir a instrução abaixo. 
 
   **Nome:** [Nome por extenso do Conselho Regional] 
 
   **Sigla:** [Sigla do Conselho Regional] 
 
   **Descrição:** Composto pela estrutura interna do [Nome por extenso do Conselho Regional]. 
+
+.. admonition:: Nota
+
+   No caso específico do repositório dos Conselhos de Fiscalização Profissional, a inserção dos Conselhos Regionais é de responsabilidade dos Gestores de cada um dos Conselhos Federais.
 
  
 Exemplo: 
