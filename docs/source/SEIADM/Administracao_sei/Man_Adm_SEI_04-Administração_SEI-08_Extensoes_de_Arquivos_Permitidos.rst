@@ -1,21 +1,23 @@
 Extensões de Arquivos Permitidos
 =================================
 
-O SEI possui dois tipos de documentos: interno e externo: 
+O SEI possui dois tipos de documentos o interno e o externo: 
 
 - O documento interno é criado no próprio SEI, ou seja, é aquele que foi construído no editor nativo a partir dos modelos de documentos estabelecidos pelo administrador, lembrando que a extensão desse tipo de documento é sempre html. 
 
 - O documento externo é incluído no SEI por meio de upload de um arquivo na máquina do usuário, podendo ser de diferentes extensões. Contudo, o domínio de extensões pode ser configurado pelo administrador por meio da funcionalidade “Extensões de Arquivos Permitidas”. 
 
-Para acessá-la, é necessário acompanhar o caminho descrito a seguir.
+Dessa forma, há uma lista de tipos de documentos externos que podem ser incluídos no SEI como arquivos Permitidos. Para acessá-la, é necessário acompanhar o caminho descrito a seguir.
 
 .. figure:: _static/images/04-08_Extesoes-Arquivos-Permitidos_Menu_Listar.png
 
-01. No Menu Principal, acessar Administração;
-02. Acessar “Extensões de Arquivos Permitidas”;
+01. No Menu Principal, acessar Administração.
+
+02. Acessar “Extensões de Arquivos Permitidas”.
+
 03. Acessar “Listar”.
 
-A tela de “Extensões de Arquivos Permitidas” irá exibir uma lista com todos tipos de extensões de arquivos permitidos no SEI, bem como informações (Interface, Serviços e Tamanho máximo) e Ações (Alterar, Desativar e Excuir as Extensões de Arquivos)
+A tela de “Extensões de Arquivos Permitidas” irá exibir uma lista com todos tipos de extensões de arquivos permitidos no SEI, bem como informações (Interface, Serviços e Tamanho máximo) e Ações (Alterar, Desativar e Excuir as Extensões de Arquivos).
 
 
 Inclusão de Nova Extensão de Arquivos
@@ -26,9 +28,9 @@ Inclusão de Nova Extensão de Arquivos
 .. figure:: _static/images/04-08_Extesoes-Arquivos-Permitidos_Menu_Novo.png
 
 
-01. No Menu Principal, acessar Administração
+01. No Menu Principal, acessar Administração.
 
-02. Acessar “Extensões de Arquivos Permitidas”;
+02. Acessar “Extensões de Arquivos Permitidas”.
 
 03. Clicar em “Nova”.
 
@@ -51,7 +53,7 @@ A tela de “Nova Extensão de Arquivo” é aberta.
 
 05. Clicar em Salvar.
 
-Pronto, uma nova Extensão de arquivos foi adicionada
+Pronto, uma nova Extensão de arquivos foi adicionada.
 
 Alteração de Extensão de Arquivos
 ---------------------------------

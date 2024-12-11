@@ -23,7 +23,7 @@ Cadastrar novo Grupo de Contato Institucional
 
 Para cadastrar novo Grupo de Contato Institucional, o Administrador deve seguir os seguintes passos:
 
-.. figure:: _static/images/04-13_Grupos-Contato_Menu_Novo.png
+.. figure:: _static/images/04-13_Grupos-Contatos-Institucionais_Menu_Novo.png
 
 01. No Menu Principal, acessar “Administração”;
 
@@ -52,7 +52,7 @@ Alterar o Grupo de Contato Institucional
 
 Para alterar o Grupo de Contato Institucional, o Administrador deve seguir os seguintes passos:
 
-.. figure:: _static/images/04-13_Grupos-Contato_Menu_Listar.png
+.. figure:: _static/images/04-13_Grupos-Contatos-Institucionais_Menu_Listar.png
 
 01. No Menu Principal, acessar “Administração”;
 
@@ -79,7 +79,7 @@ Desativar o Grupo de Contato Institucional
 
 Para desativar o Grupo de Contato Institucional, o Administrador deve seguir os seguintes passos:
 
-.. figure:: _static/images/04-13_Grupos-Contato_Menu_Listar.png
+.. figure:: _static/images/04-13_Grupos-Contatos-Institucionais_Menu_Listar.png
 
 01. No Menu Principal, acessar “Administração”;
 
@@ -106,7 +106,7 @@ Reativar o Grupo de Contato Institucional
 Após desativar o grupo de contato Institucional, é possível reativá-lo. Para reativar o Grupo de Contato Institucional, o Administrador deve seguir os seguintes passos:
 
 
-.. figure:: _static/images/04-13_Grupos-Contato_Menu_Reativar.png
+.. figure:: _static/images/04-13_Grupos-Contatos-Institucionais_Menu_Reativar.png
 
 01. No Menu Principal, acessar “Administração”;
 
@@ -132,7 +132,7 @@ Excluir o Grupo de Contato Institucional
 A exclusão do grupo de contato instutucional é uma ação irreversível. Tendo isso em mente, para excluir o Grupo de Contato Institucional, o Administrador deve seguir os seguintes passos:
 
 
-.. figure:: _static/images/04-13_Grupos-Contato_Menu_Listar.png
+.. figure:: _static/images/04-13_Grupos-Contatos-Institucionais_Menu_Listar.png
 
 01. No Menu Principal, acessar “Administração”;
 

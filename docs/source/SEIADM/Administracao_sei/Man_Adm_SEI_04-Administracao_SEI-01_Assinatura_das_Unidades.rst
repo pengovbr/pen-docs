@@ -11,7 +11,9 @@ Para acessá-la o administrador deve acompanhar o caminho descrito a seguir dess
 2. Selecionar “Administração”;
 3. Selecionar “Assinaturas das Unidades”.
 
-A tela de “Assinaturas das Unidades” é aberta e nessa tela é mostradas todos os cargos dentro dos órgãos. Os campos “Cargo / Função” “Órgão” e “Unidade” são utilizados para restringir as assinaturas exibidas. Por exemplo é possível descobrir assinaturas de Unidade teste digitando “Teste” no campo “Unidade” a fim de restringir o resultado da pesquisa.
+A tela de “Assinaturas das Unidades” é aberta e nessa tela são mostrados todos os cargos dentro dos órgãos. Os campos “Cargo / Função” “Órgão” e “Unidade” são utilizados para restringir as assinaturas exibidas. Por exemplo é possível descobrir assinaturas de Unidade teste digitando “Teste” no campo “Unidade” a fim de restringir o resultado da pesquisa.
+
+.. figure:: _static/images/04-01_Assin-Unid_Lista_Assinatura_Unid.png
 
 Dessa tela de “Assinaturas das Unidades” é possível realizar as seguintes ações (além da pesquisa informada acima): 
 

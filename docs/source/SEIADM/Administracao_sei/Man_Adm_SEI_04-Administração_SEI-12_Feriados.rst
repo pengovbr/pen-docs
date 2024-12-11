@@ -38,8 +38,8 @@ A tela “Novo Feriado” é exibida.
 
 Pronto, o Feriado foi cadastrado. 
 
-Funcinalidade Alterar Feriado
------------------------------
+Funcionalidade Alterar Feriado
+------------------------------
 
 Na tela “Feriados”. 
 
@@ -47,7 +47,7 @@ Na tela “Feriados”.
 
 01. Localizar o feriado a ser alterado e clicar em "Alterar Feriado";
 
-A tela “Novo Feriado” é exibida.
+A tela “Alterar Feriado” é exibida.
  
 02. Alterar os campos pertinentes;
 
@@ -63,7 +63,7 @@ Na tela “Feriados”:
 
 .. figure:: _static/images/04-12_Feriados_Lista_Excluir.png
 
-01. Localizar o feriado a ser alterado e clicar em "Excluir Feriado";
+01. Localizar o feriado a ser excluído e clicar em "Excluir Feriado";
 
 02. Confirmar a ação.
 

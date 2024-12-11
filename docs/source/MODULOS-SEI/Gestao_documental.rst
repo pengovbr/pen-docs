@@ -421,12 +421,13 @@ Os processos que constam na Listagem de Eliminação serão eliminados e ficarã
 
 Feita a eliminação, o Termo de Eliminação de Documentos será gerado de forma automática no processo de eliminação. O termo deverá ser editado e assinado pela autoridade competente.
 
+
 .. |Icone_Executar_Eliminacao| image:: _static/images/Icone_Executar_Eliminacao.png
    :align: middle
    :width: 30
 
-
 .. figure:: _static/images/15.Executar_Eliminacao.gif
+
 
 .. admonition:: ATENÇÃO
 
@@ -437,8 +438,7 @@ Relação de Documentos Externos
  
 O Módulo de Gestão Documental mostra a relação de documentos externos que foram eliminados no ícone |Icone_listagem_excluido|. Tanto os documentos digitalizados, e sua localização, quanto os nato-digitais. Seus metadados também ficam guardados no módulo.
 
-.. figure:: _static/images/docexternoMDGD.gif
-
+.. figure:: _static/images/15.Executar_Eliminacao.gif
 
 .. |Icone_listagem_excluido| image:: _static/images/icone_listagem_excluido.png
    :align: middle

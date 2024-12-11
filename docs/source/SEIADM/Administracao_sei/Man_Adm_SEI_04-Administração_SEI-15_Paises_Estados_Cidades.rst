@@ -15,7 +15,7 @@ Cadastrar Novo País
 
 Para cadastrar novo país:
 
-.. figure:: _static/images/04-15_País-Estado-Cidade_Menu_País-Novo.png
+.. figure:: _static/images/04-15_Pais-Estado-Cidade_Menu_Pais-Novo.png
 
 01. No Menu Principal, acessar “Administração”;
 
@@ -38,7 +38,7 @@ Alterar País
 
 Para alterar o nome do país, deve-se seguir os seguintes passos: 
 
-.. figure:: _static/images/04-15_País-Estado-Cidade_Menu_País_Listar.png
+.. figure:: _static/images/04-15_Pais-Estado-Cidade_Menu_Pais_Listar.png
 
 01. No Menu Principal, acessar “Administração”;
 
@@ -70,7 +70,7 @@ Excluir País
 
 Para excluir País, deve-se seguir os seguintes passos: 
 
-.. figure:: _static/images/04-15_País-Estado-Cidade_Menu_País_Listar.png
+.. figure:: _static/images/04-15_Pais-Estado-Cidade_Menu_Pais_Listar.png
 
 01. No Menu Principal, acessar “Administração”;
 
@@ -110,11 +110,11 @@ Para cadastrar novo Estado deve-se seguir os seguintes passos:
 
 04. Clicar em “Novo”;
 
-.. figure:: _static/images/04-15_País-Estado-Cidade_Menu_Estado-Novo.png
+.. figure:: _static/images/04-15_Pais-Estado-Cidade_Menu_Estado-Novo.png
 
 A tela “Novo Estado” é exibida: 
 
-.. figure:: _static/images/04-15_País-Estado-Cidade_Tela-Estado-Novo.png
+.. figure:: _static/images/04-15_Pais-Estado-Cidade_Tela-Estado-Novo.png
 
 05. Preencher os seguintes campos:
 
@@ -298,7 +298,7 @@ Para excluir uma Cidade:
 
 A tela com a lista “Cidades” será exibida:
 
-.. figure:: _static/images/04-15_País-Estado-Cidade_Lista_Cidade-Excluir.png
+.. figure:: _static/images/04-15_Pais-Estado-Cidade_Lista_Cidade-Excluir.png
 
 05. Selecionar o País;
 
