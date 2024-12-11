@@ -24,7 +24,7 @@ A estruturação do repositório tem por base o conjunto dos Conselhos Profissio
 
 .. admonition:: Nota
 
-   Panorama e Estrutura do Poder Judiciário Brasileiro – Disponível em: https://www.cnj.jus.br/poder-judiciario/panorama-e-estrutura-do-poder-judiciario-brasileiro/ - Acessado em maio de 2024.
+   Conselhos no Brasil – Disponível em: https://pt.wikipedia.org/wiki/Associa%C3%A7%C3%A3o_profissional#Conselhos_no_Brasil – Acessado em outubro de 2024.
 
 
 Conselhos Federais – CF  
