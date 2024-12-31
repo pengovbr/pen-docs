@@ -31,9 +31,6 @@ Acesse todas essas informações no menu lateral dessa página de manuais do PEN
    :hidden:
    :titlesonly:
 
-   PROTOCOLO.GOV.BR/index
-
-   
    MODULOS-SEI/index
 
 .. toctree::
@@ -47,3 +44,9 @@ Acesse todas essas informações no menu lateral dessa página de manuais do PEN
    :titlesonly:   
 
    Manual-de-Integração-ao-Tramita-GOV.BR/index
+
+.. toctree::
+   :hidden:
+   :titlesonly:
+
+   PROTOCOLO.GOV.BR/index
