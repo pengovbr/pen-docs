@@ -30,6 +30,9 @@ Acesse todas essas informações no menu lateral dessa página de manuais do PEN
 .. toctree::
    :hidden:
    :titlesonly:
+
+   PROTOCOLO.GOV.BR/index
+
    
    MODULOS-SEI/index
 
