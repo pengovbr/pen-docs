@@ -1,6 +1,6 @@
 
-MANUAIS PROTOCOLO GOV.BR
-=========================
+Manual Técnico Operacional do Protocolo GOV.BR
+===============================================
 
 Apresentação
 ------------
@@ -50,3 +50,7 @@ Este guia é parte integrante da Portaria SEGES nº XX, de XX de XXXXX de XXXX, 
     SOLICITACAO_DE_ADESAO_E_PROCEDIMENTOS_INICIAIS
     CONFIGURACAO_DO_SISTEMA_DE_PROCESSO_ADMINISTRATIVO
     CONFIGURACAO_DA_INTEGRACAO_NO_PROTOCOLO
+    CONFIGURACAO_DO_FORMULARIO_DE_SOLICITACAO
+    OUTRAS_INFORMACOES
+
+
