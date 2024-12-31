@@ -1,4 +1,3 @@
-
 Manual Técnico Operacional do Protocolo GOV.BR
 ===============================================
 
