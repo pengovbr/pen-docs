@@ -47,6 +47,6 @@ Acesse todas essas informações no menu lateral dessa página de manuais do PEN
 
 .. toctree::
    :hidden:
-   :titlesonly:
+   :titlesonly:   
 
-   PROTOCOLO.GOV.BR/index
+   TRAMITA.GOV.BR/index
