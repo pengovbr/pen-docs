@@ -21,9 +21,9 @@ VII - Portal GOV.BR: É um portal que reúne, em um só lugar, serviços para o 
 
 VIII - SPE: sistemas de gerenciamento de processos administrativos e documentos avulsos em meio eletrônico utilizados pelos órgãos e entidades públicas, no exercício de suas atividades administrativas;
 
-IX - Sistema Único de Processo Eletrônico em Rede - Super.GOV.BR: é a ferramenta informatizada integrante da plataforma do Sistema Integrado de Administração de Serviços Gerais - Siasg, disponibilizada pela Secretaria de Gestão da Secretaria Especial de Desburocratização, Gestão e Governo Digital do Ministério da Economia para o controle e movimentação de processos administrativos eletrônicos para a administração pública federal direta, autárquica e fundacional.
+IX - Sistema Eletrônico de Informações - SEI: é a ferramenta informatizada integrante da plataforma do Sistema Integrado de Administração de Serviços Gerais - Siasg, disponibilizada pela Secretaria de Gestão da Secretaria Especial de Desburocratização, Gestão e Governo Digital do Ministério da Gestão e Inovação para o controle e movimentação de processos administrativos eletrônicos para a administração pública federal direta, autárquica e fundacional.
 
-X - Tramita.GOV.BR:  plataforma digital de comunicação entre SPE, integrante do PEN, disponibilizada e gerenciada pela Secretaria de Gestão da Secretaria Especial de Desburocratização, Gestão e Governo Digital do Ministério da Economia, destinado à tramitação de processos administrativos eletrônicos e/ou documentos avulsos, em meio eletrônico, entre os diversos SPE existentes na administração pública; e
+X - Tramita.GOV.BR:  plataforma digital de comunicação entre SPE, integrante do PEN, disponibilizada e gerenciada pela Secretaria de Gestão da Secretaria Especial de Desburocratização, Gestão e Governo Digital do Ministério da Gestão e Inovação, destinado à tramitação de processos administrativos eletrônicos e/ou documentos avulsos, em meio eletrônico, entre os diversos SPE existentes na administração pública; e
 
 XI - usuário: pessoa natural identificada que atua em nome próprio, como representante de pessoa física ou jurídica, ou como portador de documento, solicitação ou requerimento perante o Protocolo.GOV.BR. 
 

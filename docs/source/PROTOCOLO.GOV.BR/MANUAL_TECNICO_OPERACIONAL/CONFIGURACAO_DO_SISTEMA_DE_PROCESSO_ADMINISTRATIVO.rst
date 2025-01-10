@@ -11,7 +11,7 @@ Para possibilitar a integração via webservice do Protocolo.GOV.BR com o SPE de
 
 .. admonition:: Atenção
 
-   É importante destacar que os procedimentos e exemplos aqui indicados tomam como referência o funcionamento do Sistema Único de Processo Eletrônico em Rede (Super.GOV.BR) versão 1.0 – Base SEI, cabendo aos órgãos e entidades que utilizam outros SPEs desenvolver e documentar a integração ao Protocolo.GOV.BR. 
+   É importante destacar que os procedimentos e exemplos aqui indicados tomam como referência o funcionamento do Sistema Único de Processo Eletrônico em Rede (SEI) versão 1.0 – Base SEI, cabendo aos órgãos e entidades que utilizam outros SPEs desenvolver e documentar a integração ao Protocolo.GOV.BR. 
 
 
 .. figure:: _static/images/figura_1.png
@@ -38,7 +38,7 @@ Em seguida, clique na opção |servicos| (“Serviços”) do menu de Ações, p
 
 .. |servicos| image:: _static/images/icone_1.png
    :align: middle
-   :width: 30
+   :width: 20
 
 .. admonition:: Atenção
 
@@ -56,7 +56,7 @@ Localize o serviço cadastrado no passo 6.2 e clique na opção |operacoes| (“
 
 .. |operacoes| image:: _static/images/icone_2.png
    :align: middle
-   :width: 30
+   :width: 20
 
 São elas:
 

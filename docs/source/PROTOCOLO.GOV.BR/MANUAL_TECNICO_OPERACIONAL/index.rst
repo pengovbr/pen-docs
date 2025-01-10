@@ -5,7 +5,7 @@ Apresentação
 ------------
 
 
-Este Manual Técnico Operacional se destina a apresentar procedimentos para a configuração e utilização do Protocolo.GOV.BR, solução integrante do Processo Eletrônico Nacional (PEN) disponibilizada pela Secretaria de Gestão da Secretaria Especial de Desburocratização, Gestão e Governo Digital do Ministério da Economia aos órgãos e entidades da Administração Pública Federal direta, autárquica e fundacional.
+Este Manual Técnico Operacional se destina a apresentar procedimentos para a configuração e utilização do Protocolo.GOV.BR, solução integrante do Processo Eletrônico Nacional (PEN) disponibilizada pela Secretaria de Gestão da Secretaria Especial de Desburocratização, Gestão e Governo Digital do Ministério da Gestão e Inovação aos órgãos e entidades da Administração Pública Federal direta, autárquica e fundacional.
 
 O Protocolo.GOV.BR se propõe a ofertar à sociedade em geral, um canal de atendimento centralizado para o envio eletrônico de documentos, pedidos e requerimentos no âmbito da administração pública federal direta, autárquica e fundacional diretamente no Portal GOV.BR de forma gratuita, segura, simples e ágil.
 
@@ -23,7 +23,7 @@ Assim, visando minimizar eventuais dúvidas e dificuldades na implantação de r
 Introdução 
 ----------
 
-O Protocolo.GOV.BR é uma plataforma disponibilizada e gerenciada pela Secretaria de Gestão da Secretaria Especial de Desburocratização, Gestão e Governo Digital do Ministério da Economia aos órgãos e entidades da Administração Pública Federal direta, autárquica e fundacional, que permite o envio eletrônico de documentos, pedidos e requerimentos por meio do Portal GOV.BR de forma gratuita, segura, simples e ágil.
+O Protocolo.GOV.BR é uma plataforma disponibilizada e gerenciada pela Secretaria de Gestão da Secretaria Especial de Desburocratização, Gestão e Governo Digital do Ministério da Gestão e Inovação aos órgãos e entidades da Administração Pública Federal direta, autárquica e fundacional, que permite o envio eletrônico de documentos, pedidos e requerimentos por meio do Portal GOV.BR de forma gratuita, segura, simples e ágil.
 
 Este Manual Técnico Operacional tem o objetivo de apoiar a configuração e operacionalização do Protocolo.GOV.BR por servidores e colaboradores em seus órgãos e entidades, visando ofertar o referido canal de atendimento a seus usuários.
 

@@ -19,7 +19,7 @@ No campo “**Nome e sigla do Órgão/Entidade**”, informe o nome completo do 
 
 Em seguida, informe o endereço do webservice do SPE no campo “**Endereço do Web Service**”. 
 
-O padrão do webservice do SUPER.GOV.BR é “https://[servidor php]/sei/ws/SeiWS.php” onde o campo [servidor php] representa o domínio do SPE do órgão ou entidade. 
+O padrão do webservice do SEI é “https://[servidor php]/sei/ws/SeiWS.php” onde o campo [servidor php] representa o domínio do SPE do órgão ou entidade. 
 
 .. figure:: _static/images/figura_7.png 
 
@@ -49,4 +49,4 @@ Para finalizar, clique em “**Prosseguir para o Passo 2**” para gravar as inf
 
 Por fim, na etapa de revisão, confira todas as informações e clique em “**Finalizar**” para concluir a integração.
 
-Em caso de erro na integração, o sistema apresentará mensagem no início do Formulário. Revise os dados enviados e acione a equipe do Ministério da Economia, em caso de nova tentativa sem sucesso, para orientações.
+Em caso de erro na integração, o sistema apresentará mensagem no início do Formulário. Revise os dados enviados e acione a equipe do Ministério da Gestão e Inovação, em caso de nova tentativa sem sucesso, para orientações.

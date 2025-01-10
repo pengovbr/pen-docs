@@ -1,7 +1,7 @@
 Configuração do Formulário de Solicitação
 =========================================
 
-Para realizar o cadastro dos tipos de solicitação do Protocolo.GOV.BR a serem disponibilizados aos usuários no Portal GOV.BR, acesse o endereço eletrônico fornecido pelo Ministério da Economia e siga as etapas a seguir. 
+Para realizar o cadastro dos tipos de solicitação do Protocolo.GOV.BR a serem disponibilizados aos usuários no Portal GOV.BR, acesse o endereço eletrônico fornecido pelo Ministério da Gestão e Inovação e siga as etapas a seguir. 
 
 .. admonition:: Atenção
 
@@ -14,7 +14,7 @@ Dados da Solicitação
 
 Na página inicial do Protocolo.GOV.BR, clique no menu “**Processos**” e, em seguida, na opção “**Abrir**”. Selecione, então, a opção “**Protocolo Digital [Cadastrar Solicitação]**”. 
 
-Na Seção **Dados da Solicitação**, informe o nome da solicitação. Esse nome ficará visível para os usuários que acessarem o Protocolo.GOV.BR (Por exemplo: “Protocolar documento junto ao Ministério da Economia”).
+Na Seção **Dados da Solicitação**, informe o nome da solicitação. Esse nome ficará visível para os usuários que acessarem o Protocolo.GOV.BR (Por exemplo: “Protocolar documento junto ao Ministério da Gestão e Inovação”).
 
 No campo “**Orientação sobre a solicitação**”, cadastre instruções para o usuário que irá protocolar o documento ou requerimento, como por exemplo, o que é a solicitação e quem pode solicitar.
 
@@ -49,11 +49,11 @@ Solicitação Sem Triagem
 
 Caso o campo “**Triagem pelo Protocolo**” seja marcado com a opção “**NÃO**”, as solicitações enviadas por meio do Protocolo.GOV.BR serão integradas automaticamente para o SPE do órgão/entidade, dispensando a triagem pelo setor de Protocolo no Sistema. 
 
-Em seguida, será necessário responder à pergunta “**Permitir o uso do Módulo de Resposta do SUPER.GOV.BR?**”. 
+Em seguida, será necessário responder à pergunta “**Permitir o uso do Módulo de Resposta do SEI?**”. 
 
-* Marque a opção “**SIM**” caso deseje que a solicitação permaneça aberta no Protocolo.GOV.BR, aguardando o envio da resposta ao solicitante por meio do Módulo de Resposta do SUPER.GOV.BR instalado no SPE; ou 
+* Marque a opção “**SIM**” caso deseje que a solicitação permaneça aberta no Protocolo.GOV.BR, aguardando o envio da resposta ao solicitante por meio do Módulo de Resposta do SEI instalado no SPE; ou 
 
-* Marque a opção “**Não**”, caso deseje que a solicitação seja concluída e o Módulo de Resposta do SUPER.GOV.BR não seja ativado no SPE. Em ambos os casos os documentos recebidos são enviados para o SPE e o NUP gerado é informado ao solicitante por e-mail
+* Marque a opção “**Não**”, caso deseje que a solicitação seja concluída e o Módulo de Resposta do SEI não seja ativado no SPE. Em ambos os casos os documentos recebidos são enviados para o SPE e o NUP gerado é informado ao solicitante por e-mail
  
 .. figure:: _static/images/figura_15.png
 
