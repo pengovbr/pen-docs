@@ -16,14 +16,14 @@ Para possibilitar a integração via webservice do Protocolo.GOV.BR com o SPE de
 
 .. figure:: _static/images/figura_1.png
    :alt: Figura 1: Menu cadastro de novo Sistema no SPE
-   :width: 50%
+   
 
 Em seguida, selecione o **Órgão** (caso utilize instalação multiórgão do SPE), cadastre a **Sigla** e o **Nome** do Sistema, no padrão de texto da Figura 2, abaixo. Para finalizar e gravar as informações, clique em “**Salvar**”.
  
 
 .. figure:: _static/images/figura_2.png
    :alt: Figura 2: Cadastro do Protocolo.GOV.BR no SPE
-   :width: 50%
+   
 
 Cadastro do serviço
 -------------------
@@ -35,7 +35,7 @@ No SPE, acesse o menu **Administração > Sistemas > Listar** para localizar o s
 
 .. figure:: _static/images/figura_3.png
    :alt: Figura 3: Listar Sistemas no SPE
-   :width: 50%
+   
 
 Em seguida, clique na opção |servicos| (“Serviços”) do menu de Ações, para visualizar os serviços disponíveis no webservice do SPE. Clique em “**Novo**”, preencha os campos conforme a Figura 4 e ative a opção “Gerar links de acesso externos”. Para finalizar e gravar as informações, clique em “**Salvar**”.
 
@@ -49,7 +49,7 @@ Em seguida, clique na opção |servicos| (“Serviços”) do menu de Ações, p
 
 .. figure:: _static/images/figura_4.png
    :alt: Figura 4: Cadastro do Serviço no SPE
-   :width: 50%
+ 
 
 Cadastro das operações
 ----------------------
@@ -79,4 +79,3 @@ Para cadastrar as operações, clique em “**Novo**” e preencha os campos con
 
 .. figure:: _static/images/figura_5.png
    :alt: Figura 5: Cadastro de operações no SPE
-   :width: 50%
