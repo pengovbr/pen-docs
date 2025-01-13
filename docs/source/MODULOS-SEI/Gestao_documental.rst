@@ -59,9 +59,7 @@ O módulo de Gestão Documental inclui dois novos perfis no SEI: perfil GD Arqui
 
    A partir da versão 4.1, o SEI possui menus e recursos de gestão documental nativos. Para o correto funcionamento do módulo de Gestão documental, é necessário que os menus sejam excluídos e os  recursos sejam desativados conforme orientação abaixo:
 
-A configuração por meio da execução de script está disponível no código fonte do Módulo. Solicite que a área de TI do seu órgão execute o script contido na pasta XXXXX.
-
-Também é possível realizar a desativação de forma manual. Para desativar os menus, acesse Menus > Listar e desative os menus abaixo por meio do ícone |icone_listar|.
+Para desativar os menus, acesse Menus > Listar e desative os menus abaixo por meio do ícone |icone_listar|.
 
 
 .. list-table::
