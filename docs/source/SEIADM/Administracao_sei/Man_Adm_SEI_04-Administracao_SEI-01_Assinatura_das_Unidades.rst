@@ -92,7 +92,7 @@ Com a habilitação da assinatura nos passos anteriores, os documentos criados e
 A assinatura é realizada por meio da funcionalidade “Assinar Documento” |assinar_documento|, localizada no menu superior do processo.
 
 
-.. |assinar_documento| image:: _static/images/ÍconeSEI_Assinar.png
+.. |assinar_documento| image:: _static/images/IconeSEI_Assinar.png
    :align: middle
    :width: 20
 
