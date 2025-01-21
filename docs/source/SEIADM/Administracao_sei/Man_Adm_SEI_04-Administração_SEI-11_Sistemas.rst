@@ -207,7 +207,7 @@ A imagem a seguir mostra a mensagem de confirmação da exclusão.
 
 Vamos reforçar nosso aprendizado sobre a funcionalidade ensinada com o vídeo a seguir: 
 
-Clique [aqui](https://cdn.evg.gov.br/cursos/304_EVG/videos/modulo05video05.mp4) para ver o vídeo.
+Clique `[aqui] <https://cdn.evg.gov.br/cursos/304_EVG/videos/modulo05video05.mp4>`_ para ver o vídeo.
 
 Reativar Sistema 
 ----------------

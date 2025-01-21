@@ -42,4 +42,4 @@ Os filtros que compõem a pesquisa de auditoria são os seguintes:
 Vamos reforçar nosso aprendizado sobre a funcionalidade ensinada com o vídeo a seguir:
 
 
-Clique [aqui](https://cdn.evg.gov.br/cursos/304_EVG/videos/modulo07video02.mp4) para ver o vídeo.
+Clique `[aqui] <https://cdn.evg.gov.br/cursos/304_EVG/videos/modulo07video02.mp4>`_ para ver o vídeo.

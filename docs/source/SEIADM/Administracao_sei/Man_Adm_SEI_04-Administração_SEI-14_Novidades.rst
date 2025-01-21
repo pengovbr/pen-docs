@@ -36,13 +36,11 @@ A tela de Nova Novidade será exibida:
 
 05. Clicar em “Salvar”.
 
-Pronto, a Novidade foi cadastrada. Note que há uma funcionalidade diferente com ícone |iconeSEI_Liberar|  cujo nome é Liberar Novidade. Será detalhada essa função mais adiante.
+Pronto, a Novidade foi cadastrada. Note que há uma funcionalidade diferente com ícone |iconeSEI_Liberar| cujo nome é Liberar Novidade. Será detalhada essa função mais adiante.
 
-|iconeSEI_Liberar|
-image:: _static/images/IconeSEI_Liberar.png
+.. |iconeSEI_Liberar| image:: _static/images/IconeSEI_Liberar.png
    :align: middle
    :width: 25
-
 
 
 Liberar Novidade
