@@ -49,10 +49,11 @@ Além de listar (e também executar as Ações), é possível criar novas hipót
 
 3. Clicar em “Nova”.
 
-.. figure:: _static/images/04-04_Hipoteses-Legais_Menu_Nova.png
+
 
 A tela de “Nova Hipótese Legal” é aberta.
 
+.. figure:: _static/images/04-04_Hipoteses-Legais_Menu_Nova.png
 
 4. Selecionar o nível de Restrição do Acesso.
 
