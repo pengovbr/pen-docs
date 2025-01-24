@@ -25,7 +25,7 @@ Para cadastrar novo país:
 
 A tela “Novo País” é exibida
 
-04-15_Pais-Estado-Cidade_Tela-Pais-Novo
+.. figure:: _static/images/04-15_Pais-Estado-Cidade_Tela-Pais-Novo.png
 
 04. Preencher o nome do novo País;
 
@@ -51,13 +51,14 @@ Para alterar o nome do país, deve-se seguir os seguintes passos:
 A tela com a lista “Países” é exibida:
 
 
-04-15_Paises-Estados-Cidades_Tela_Lista-Paises.png
+.. figure:: _static/images/04-15_Pais-Estados-Cidades_Lista-Pais-Alterar.png
 
 
 05. Localizar o País e clicar em Alterar País;
 
-
 A tela “Alterar País” será exibida: 
+
+.. figure:: _static/images/04-15_Pais-Estado-Cidade_Tela-Pais-Alterar;png
 
 06. Alterar o nome do País;
 
@@ -184,31 +185,11 @@ A tela com a Lista “Estados” é exibida:
 
 .. figure:: _static/images/04-15_Pais-Estado-Cidade_Lista_Estado-Excluir.png
 
-01. No Menu Principal, acessar “Administração”;
-
-02. Acessar “Países, Estados e Cidades”;
-
-03. Acessar “Cidade”;
-
-04. Clicar em “Nova”;
-
-A tela “Nova Cidade” é exibida
-
-05. Preencher os seguintes campos:
-
-* **País**: campo para selecionar o país ao qual pertence a cidade.
-* **Estado**: campo para selecionar o estado ao qual pertence a cidade.
-* **Código IBGE**: campo para informar o código de controle do IBGE para a cidade. Só é habilitado quando o país selecionado for Brasil.	
-* **Nome**: campo para informar o nome da cidade.
-* **Capital**: checkbox que deve ser selecionada caso a cidade seja capital de estado.
-* **Latitude**: campo para informar a posição geográfica da cidade.
-* **Longitude**: campo para informar a posição geográfica da cidade.
 
 05. Selecionar o País do respectivo estado a ser excluído;
 
 06. Localizar o Estado e clicar em Excluir Estado;
 
-07. Confirmar ação.
 
 Pronto, o Estado foi excluído
 
@@ -231,6 +212,8 @@ Para cadastrar nova Cidade deve-se seguir os seguintes passos:
 04. Clicar em “Nova”;
 
 A tela “Nova Cidade” é exibida
+
+.. figure:: _static/images/04-15_Pais-Estado-Cidade_Tela-Estado-Nova.png
 
 05. Preencher os seguintes campos:
 

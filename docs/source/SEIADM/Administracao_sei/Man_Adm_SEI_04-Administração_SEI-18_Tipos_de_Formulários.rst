@@ -65,7 +65,7 @@ Os novos campos do Tipo de Formulário podem ser cadastrados na tela de “Tipos
 
 A tela com lista de Tipos de Formulários será exibida.
 
-.. figure:: _static/images/04-18_Tipos-Formularios_Lista-Campos.png
+.. figure:: _static/images/04-18_Tipos-Formulários_Lista_Tipos_Campos.png
 
 04. Localizar o Tipo de Formulário e clicar em “Campos do Tipo de Formulário”;
 
@@ -177,7 +177,7 @@ Os campos do Tipo de Formulário podem ser alterados na tela de “Tipos de Form
 
 A tela com lista de Tipos de Formulários será exibida.
 
-.. figure:: _static/images/04-18_Tipos-Formularios_Lista-Campos.png
+.. figure:: _static/images/04-18_Tipos-Formulários_Lista_Tipos_Campos.png
 
 04. Localizar o Tipo de Formulário cujo campo será alterado e clicar em “Campos do Tipo de Formulário”;
 
@@ -197,7 +197,7 @@ A tela "Alterar Campo" será exibida
 
 Pronto, o Campo do Tipo de formulário foi alterado.
 
-Desativar Campor do Tipo de Formulário
+Desativar Campos do Tipo de Formulário
 ++++++++++++++++++++++++++++++++++++++
 
 A desativação de um Campo do Tipo de Formulário é uma ação reversível (utilizando o comando “Reativar”), ao contrário da função “Excluir”.
@@ -214,7 +214,7 @@ Para desativar um Campo do Tipo de Formulário, deve-se seguir os seguintes pass
 
 A tela com lista de Tipos de Formulários será exibida.
 
-.. figure:: _static/images/04-18_Tipos-Formularios_Lista-Campos.png
+.. figure:: _static/images/04-18_Tipos-Formulários_Lista_Tipos_Campos.png
 
 04. Localizar o Tipo de Formulário cujo campo será alterado e clicar em “Campos do Tipo de Formulário”;
 
@@ -245,7 +245,7 @@ Para reativar um Campo do Tipo de Formulário, deve-se seguir os seguintes passo
 
 A tela com lista de Tipos de Formulários será exibida.
 
-.. figure:: _static/images/04-18_Tipos-Formularios_Lista-Campos.png
+.. figure:: _static/images/04-18_Tipos-Formulários_Lista_Tipos_Campos.png
 
 04. Localizar o Tipo de Formulário cujo campo será reativado e clicar em “Campos do Tipo de Formulário”;
 
@@ -276,7 +276,7 @@ Para excluir um Campo do Formulário, deve-se seguir os seguintes passos:
 
 A tela com lista de Tipos de Formulários será exibida.
 
-.. figure:: _static/images/04-18_Tipos-Formularios_Lista-Campos.png
+.. figure:: _static/images/04-18_Tipos-Formulários_Lista_Tipos_Campos.png
 
 04. Localizar o Tipo de Formulário cujo campo será excluído e clicar em “Campos do Tipo de Formulário”;
 
@@ -372,7 +372,7 @@ Para desativar o Tipo de Formulário, é preciso seguir os seguintes passos:
 
 A tela com lista de Tipos de Formulários será exibida.
 
-.. figure:: _static/images/04-18_Tipos-Formularios_ListaTipos-Desativar.png
+.. figure:: _static/images/04-18_Tipos-Formulários_ListaTipos_Desativar.png
 
 04. Clicar em “Desativar Tipo de Formulário”;
 
@@ -422,7 +422,7 @@ Para reativar o Tipo de Formulário, é preciso seguir os seguintes passos:
 
 A tela com lista de Tipos de Formulários será exibida.
 
-.. figure:: _static/images/04-18_Tipos-Formularios_ListaTipos-Excluir.png
+.. figure:: _static/images/04-18_Tipos-Formularios_ListaTipos_Excluir.png
  
 04. Clicar em “Excluir Tipo de Formulário”;
 

@@ -8,7 +8,7 @@ Antes de entender o funcionamento da auditoria do SEI e do SIP é necessário sa
 
 Atente-se pois a funcionalidade “Regras de Auditoria” é acessada pelo Sistema de Permissão (SIP). Nesse contexto o usuário deverá acessar o SIP e clicar na opção “Regras de Auditoria” localizada no menu principal. Feito isso você terá acesso à tela ”Regras de Auditoria”.
 
-.. figure:: _static/images/04-21_Introducao-as-Regras de-Auditoria_Tela_Regras-de-Auditoria.png
+.. figure:: _static/images/04-21_Introducao-as-Regras-de-Auditoria_Tela_Regras-de-Auditoria.png
 
 Regras de Auditoria
 -------------------
@@ -79,7 +79,7 @@ Dessa forma após seguir os passos supracitados pode-se alterar uma regra anteri
 
 A imagem a seguir apresenta a disposição dos campos disponíveis na tela “Alterar Regra de Auditoria”.
 
-.. figure:: _static/images/04-21_Alteração-de-Regra-de-Auditoria-no-SIP_Tela_Alterar-Regras-de-Auditoria.png
+.. figure:: _static/images/04-21_Alteraçao-de-Regra-de-Auditoria-no-SIP_Tela_Alterar-Regras-de-Auditoria.png
 
 .. admonition:: Nota
 

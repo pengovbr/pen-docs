@@ -161,11 +161,14 @@ Cadastrar novo Grupo de E-mails Institucional
 
 Para cadastrar novo Grupo de E-mails Institucional, o Administrador deve seguir os seguintes passos:
 
-.. figure:: _static/images/04-13_Grupos-Emails_Menu_Novo.png
+.. figure:: _static/images/04-13_Grupos-Email_Menu_Novo.png
 
 01. No Menu Principal, acessar “Administração”;
+
 02. Acessar “Grupos Institucionais”;
+
 03. Acessar “E-mails”;
+
 04. Clicar em “Novo”.
 
 A tela “Novo Grupo de E-mails Institucional” será exibida:
@@ -187,7 +190,7 @@ Alterar o Grupo de E-mail Institucional
 
 Para alterar o Grupo de E-mail Institucional, o Administrador deve seguir os seguintes passos:
 
-.. figure:: _static/images/04-13_Grupos-Email_Menu_Listar.png
+.. figure:: _static/images/04-13_Grupos-Email-Institucionais_Menu_Listar.png
 
 01. No Menu Principal, acessar “Administração”;
 
@@ -199,7 +202,7 @@ Para alterar o Grupo de E-mail Institucional, o Administrador deve seguir os seg
 
 A tela “Grupo de E-mail Institucional” será exibida:
 
-.. figure:: _static/images/04-13_Grupos-Email-Institucionais-Lista_Tela-Alterar.png
+.. figure:: _static/images/04-13_Grupos-Email-Institucionais_Lista_Alterar.png
 
 05. Localizar o Grupo a ser alterado e clicar no botão de Alterar Grupo de E-mail;
 
@@ -215,7 +218,7 @@ Desativar o Grupo de E-mail Institucional
 Para desativar o Grupo de E-mail Institucional, o Administrador deve seguir os seguintes passos:
 
 
-.. figure:: _static/images/04-13_Grupos-Email_Menu_Listar.png
+.. figure:: _static/images/04-13_Grupos-Email-Institucionais_Menu_Listar.png
 
 01. No Menu Principal, acessar “Administração”;
 
@@ -227,7 +230,7 @@ Para desativar o Grupo de E-mail Institucional, o Administrador deve seguir os s
 
 A tela “Grupo de E-mail Institucional” será exibida:
 
-.. figure:: _static/images/04-13_Grupos-Email-Institucionais-Lista_Tela-Desativar.png
+.. figure:: _static/images/04-13_Grupos-Email-Institucionais_Lista_Desativar.png
 
 05. Localizar o Grupo a ser alterado e clicar no botão de Desativar Grupo de E-mail;
 
@@ -241,7 +244,7 @@ Reativar o Grupo de E-mail Institucional
 Após desativar o grupo de E-mail Institucional, é possível reativá-lo. Para reativar o Grupo de E-mail Institucional, o Administrador deve seguir os seguintes passos:
 
 
-.. figure:: _static/images/04-13_Grupos-Email_Menu_Reativar.png
+.. figure:: _static/images/04-13_Grupos-Email-Institucionais_Menu_Reativar.png
 
 01. No Menu Principal, acessar “Administração”;
 
@@ -266,7 +269,7 @@ Excluir o Grupo de E-mail Institucional
 
 A exclusão do grupo de E-mail instutucional é uma ação irreversível. Tendo isso em mente, para excluir o Grupo de E-mail Institucional, o Administrador deve seguir os seguintes passos:
 
-.. figure:: _static/images/04-13_Grupos-Email_Menu_Listar.png
+.. figure:: _static/images/04-13_Grupos-Email-Institucionais_Menu_Listar.png
 
 01. No Menu Principal, acessar “Administração”;
 
@@ -296,7 +299,7 @@ Cadastrar novo Grupo de Envio Institucional
 Para cadastrar novo Grupo de Envio Institucional, o Administrador deve seguir os seguintes passos:
 
 
-.. figure:: _static/images/04-13_Grupos-Envio_Menu_Novo.png
+.. figure:: _static/images/04-13_Grupos-Envio-Institucionais_Menu_Novo.png
 
 
 01. No Menu Principal, acessar “Administração”;
@@ -330,7 +333,7 @@ Alterar o Grupo de Envio Institucional
 Para alterar o Grupo de Envio Institucional, o Administrador deve seguir os seguintes passos:
 
 
-.. figure:: _static/images/04-13_Grupos-Envio_Menu_Listar.png
+.. figure:: _static/images/04-13_Grupos-Envio-Institucionais_Menu_Listar.png
 
 01. No Menu Principal, acessar “Administração”;
 
@@ -342,7 +345,7 @@ Para alterar o Grupo de Envio Institucional, o Administrador deve seguir os segu
 
 A tela “Grupo de Envio Institucional” será exibida:
 
-.. figure:: _static/images/04-13_Grupos-Envio-Institucionais-Lista_Tela-Alterar.png
+.. figure:: _static/images/04-13_Grupos-Envio-Institucionais_Lista_Alterar.png
 
 05. Localizar o Grupo a ser alterado e clicar no botão de Alterar Grupo de Envio;
 
@@ -359,7 +362,7 @@ Desativar o Grupo de Envio Institucional
 Para desativar o Grupo de Envio Institucional, o Administrador deve seguir os seguintes passos:
 
 
-.. figure:: _static/images/04-13_Grupos-Envio_Menu_Listar.png
+.. figure:: _static/images/04-13_Grupos-Envio-Institucionais_Menu_Listar.png
 
 01. No Menu Principal, acessar “Administração”;
 
@@ -372,7 +375,7 @@ Para desativar o Grupo de Envio Institucional, o Administrador deve seguir os se
 A tela “Grupo de Envio Institucional” será exibida:
 
 
-.. figure:: _static/images/04-13_Grupos-Envio-Institucionais-Lista_Tela-Desativar.png
+.. figure:: _static/images/04-13_Grupos-Envio-Institucionais_Lista_Desativar.png
 
 
 05. Localizar o Grupo a ser alterado e clicar no botão de Desativar Grupo de Envio;
@@ -388,7 +391,7 @@ Reativar o Grupo de Envio Institucional
 Após desativar o grupo de Envio Institucional, é possível reativá-lo. Para reativar o Grupo de Envio Institucional, o Administrador deve seguir os seguintes passos:
 
 
-.. figure:: _static/images/04-13_Grupos-Envio_Menu_Reativar.png
+.. figure:: _static/images/04-13_Grupos-Envio-Institucionais_Menu_Reativar.png
 
 01. No Menu Principal, acessar “Administração”;
 
@@ -415,7 +418,7 @@ Excluir o Grupo de Envio Institucional
 A exclusão do grupo de Envio instutucional é uma ação irreversível. Tendo isso em mente, para excluir o Grupo de Envio Institucional, o Administrador deve seguir os seguintes passos:
 
 
-.. figure:: _static/images/04-13_Grupos-Envio_Menu_Listar.png
+.. figure:: _static/images/04-13_Grupos-Envio-Institucionais_Menu_Listar.png
 
 01. No Menu Principal, acessar “Administração”;
 
