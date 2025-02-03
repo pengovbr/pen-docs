@@ -11,7 +11,7 @@ Neste tutorial, abordaremos os passos necessários para solicitar as credenciais
 1ª ETAPA – Solicitação
 ----------------------
 
-01. Acessar a página do `Serviço de Integração aos Produtos de Identidade Digital GOV.BR <https://www.gov.br/governodigital/pt-br/estrategias-e-governanca-digital/transformacao-digital/servico-de-integracao-aos-produtos-de-identidade-digital-gov.br>`_.
+01. Acessar a página do `Serviço de Integração aos Produtos de Identidade Digital GOV.BR <https://www.gov.br/governodigital/pt-br/estrategias-e-governanca-digital/transformacao-digital/servico-de-integracao-aos-produtos-de-identidade-digital-gov.br>`_ .
 
 02. Clicar no botão “Iniciar” 
 
@@ -166,7 +166,7 @@ URL de Logout (Homologação):
 
 17. Em “Considerações”, copiar os valores “client_id” e “secret”.
 
-.. figure:: _static/images/ModExt_02-Finalizacao_Analise_Prod_Homol-Consideracoes
+.. figure:: _static/images/ModExt_02-Finalizacao_Analise_Prod_Homol-Consideracoes.png
 
 18. Acessar o arquivo de configuração “ConfiguracaoModLoginUnico.php” e alterar o os campos "Client ID" e "Secret" com as informações obtidas no passo anterior, conforme linhas 45 e 48 da imagem abaixo. 
 
@@ -242,7 +242,7 @@ Descrição/Objetivo do Sistema:
  
 23. Clicar no botão “Enviar dados de produção” 
  
-.. figure:: _static/images/ModExt_02-Finalizacao_EnviarDadosProd_bot.png
+.. figure:: _static/images/ModExt_01-Finalizacao_EnviarDadosProd_bot.png
 
 .. figure:: _static/images/ModExt_02-Finalizacao_Dados_enviados.png
  
@@ -253,6 +253,6 @@ Orientações gerais:
 • A opção de login com o gov.br funcionará paralelamente ao login com o cadastro de usuário externo nativo do SEI;
 • Caso algum dado de produção informado esteja errado, o solicitante receberá um retorno nos e-mails cadastrados no formulário, para correção do problema;
 • Caso o processo de solicitação de credenciais esteja parado por mais de 10 dias úteis na mesma etapa, favor enviar um e-mail para o endereço integracaoid@gestao.gov.br, informando o número da solicitação e explicando o ocorrido;
-• Em caso de dúvidas técnicas sobre o preenchimento do formulário, favor enviar um e-mail para o endereço: integracao-acesso-govbr@economia.gov.br; 
+• Em caso de dúvidas técnicas sobre o preenchimento do formulário, favor enviar um e-mail para o endereço: integracao-acesso-govbr@gestao.gov.br; 
 • Os procedimentos para solicitar o credenciamento de órgãos podem ser encontrados no endereço https://manual-roteiro-integracao-login-unico.servicos.gov.br/pt/stable/solicitarconfiguracao.html;
 • Para mais informações, entre em contato pelo telefone 0800 978-9005 ou pela Central de Serviços do PEN, endereço https://portaldeservicos.gestao.gov.br.
