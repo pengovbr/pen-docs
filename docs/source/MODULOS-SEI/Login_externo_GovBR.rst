@@ -33,10 +33,7 @@ Neste tutorial, abordaremos os passos necessários para solicitar as credenciais
  
 .. figure:: _static/images/ModExt_01-Solicitacao_Questionario.png
 
-Justifique o benefício:
-++++++++++++++++++++++++
-
-.. admonition:: Notas
+.. admonition:: Justifique o benefício
 
    Sugestão de texto para o módulo Login Externo gov.br:
    "O uso do login gov.br dispensará a necessidade de envio de documentos comprobatórios para efetivação do cadastro de usuários externos do SEI."
@@ -47,18 +44,13 @@ Justifique o benefício:
 
 .. figure:: _static/images/ModExt_01-Solicitacao_Prod_Interesse_Homologacao.png
 
-Nome do Sistema (Homologação):
-+++++++++++++++++++++++++++++++
 
-.. admonition:: Nota
+.. admonition:: Nome do Sistema (Homologação)
 
    Sugestão de texto para o módulo Login Externo gov.br:
    "SEI Login Externo Gov.BR - <Adicionar o Nome do Órgão>"
 
-Descrição/Objetivo do Sistema:
-+++++++++++++++++++++++++++++++
-
-.. admonition:: Nota
+.. admonition:: Descrição/Objetivo do Sistema
 
    Sugestão de texto para o módulo Login Externo gov.br:
    "O módulo de Login Externo gov.br permite que cidadãos acessem o ambiente do SEI destinado a usuários externos."
@@ -67,19 +59,12 @@ Descrição/Objetivo do Sistema:
   
 .. figure:: _static/images/ModExt_01-Solicitacao_Servico.png
  
-Nome do Serviço:
-++++++++++++++++
-
-.. admonition:: Nota
+.. admonition:: Nome do Serviço
 
    Sugestão de texto para o módulo Login Externo gov.br:
    "SEI Login Externo Gov.BR - <Adicionar o Nome do Órgão>
 
-Descreva os benefícios ofertados ao cidadão:
-++++++++++++++++++++++++++++++++++++++++++++
-
-
-.. admonition:: Nota
+.. admonition:: Descreva os benefícios ofertados ao cidadão
 
    Sugestão de texto para o módulo Login Externo gov.br:
    "Possibilitar que cidadãos acessem o ambiente externo do SEI sem a necessidade de envio de documentos para ativação do cadastro."
@@ -92,19 +77,14 @@ Descreva os benefícios ofertados ao cidadão:
 
    No campo “Lista de IPs dos servidores” digite o IP público da instalação do SEI. Em caso de dúvida, consulte a área de TI do seu órgão ou entidade."
 
-Quais níveis, categorias e selos de confiabilidade:
-+++++++++++++++++++++++++++++++++++++++++++++++++++
 
-.. admonition:: Nota
+.. admonition:: Quais níveis, categorias e selos de confiabilidade
 
    Para o módulo Login Externo gov.br selecionar:
    Acesso ilimitado: Bronze, Prata, Ouro
 
 
-Justificativa de acesso ilimitado, restrito ou informação sigilosa:
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-.. admonition:: Nota
+.. admonition:: Justificativa de acesso ilimitado, restrito ou informação sigilosa
 
    Sugestão de texto para o módulo Login Externo gov.br:"
    "Os usuários externos do SEI podem ter acesso a documentos pessoais/sensíveis, a depender da liberação de acesso porventura disponibilizada pelo órgão."
@@ -117,29 +97,19 @@ Justificativa de acesso ilimitado, restrito ou informação sigilosa:
 
    Orientações sobre como criar um par de chaves PGP podem ser obtidas no `Roteiro de Integração do Login Único <https://acesso.gov.br/roteiro-tecnico/chavepgp.html>`_.
 
-
-URL(s) do retorno (Homologação):
-++++++++++++++++++++++++++++++++
-
-.. admonition:: Nota
+.. admonition:: URL(s) do retorno (Homologação)
 
    Sugestão de texto para o módulo Login Externo gov.br:
    "http://ENDEREÇO SEI/sei/modulos/loginunico/controlador_loginunico.php"  ou
    "https://ENDEREÇO SEI/sei/modulos/loginunico/controlador_loginunico.php"
 
 
-URL única para página inicial do sistema (Homologação) (Máx. 1):
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-.. admonition:: Nota
+.. admonition:: URL única para página inicial do sistema (Homologação) (Máx. 1)
  
    http://ENDEREÇO SEI  ou
    https://ENDEREÇO SEI
 
-URL de Logout (Homologação):
-++++++++++++++++++++++++++++
-
-.. admonition:: Notas
+.. admonition:: URL de Logout (Homologação)
 
    http://<ENDEREÇO SEI>/sei/modulos/loginunico/logout.php  ou
    https://<ENDEREÇO SEI>/sei/modulos/loginunico/logout.php
@@ -189,27 +159,19 @@ D. Fazer logout do sistema (sair da conta de usuário)
 
  .. figure:: _static/images/ModExt_02-Finalizacao_Chaves_URLs.png
 
-URL(s) do retorno (Produção):
-+++++++++++++++++++++++++++++
 
-.. admonition:: Nota
+.. admonition:: URL(s) do retorno (Produção)
 
    Sugestão de texto para o módulo Login Externo gov.br:
    https://ENDEREÇO SEI/sei/modulos/loginunico/controlador_loginunico.php
 
 
-URL única para página inicial do sistema (Produção):
-++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-.. admonition:: Nota
+.. admonition:: URL única para página inicial do sistema (Produção)
 
    Sugestão de texto para o módulo Login Externo gov.br:
    https://ENDEREÇO SEI
 
-URL(s) de Log Out (Produção):
-+++++++++++++++++++++++++++++
-
-.. admonition:: Nota
+.. admonition:: URL(s) de Log Out (Produção)
 
    Sugestão de texto para o módulo Login Externo gov.br:
    https://ENDEREÇO SEI/sei/modulos/loginunico/logout.php
@@ -228,10 +190,8 @@ URL(s) de Log Out (Produção):
 
 .. figure:: _static/images/ModExt_01-Solicitacao_Prod_Interesse_Producao.png
 
-Descrição/Objetivo do Sistema:
-++++++++++++++++++++++++++++++
 
-.. admonition:: Nota
+.. admonition:: Descrição/Objetivo do Sistema
 
    Sugestão de texto para o módulo Login Externo gov.br:
    O módulo de Login Externo gov.br permite que cidadãos acessem o ambiente do SEI destinado a usuários externos.
