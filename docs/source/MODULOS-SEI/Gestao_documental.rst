@@ -65,11 +65,11 @@ O módulo de Gestão Documental inclui dois novos perfis no SEI: perfil GD Arqui
    :widths: 20
    :header-rows: 1
 
+   - * Recurso:
    - * arquivamento_eliminacao_listar
    - * avaliacao_documental_pesquisar
    - * cpad_avaliacao_listar
    - * cpad_cadastrar
-   - * cpad_avaliacao_listar
    - * cpad_listar
    - * cpad_reativar
    - * edital_eliminacao_listar
