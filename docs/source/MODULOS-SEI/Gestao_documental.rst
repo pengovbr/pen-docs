@@ -1,5 +1,5 @@
-Módulo de Gestão Documental
-===========================
+Módulo Gestão Documental do SEI
+===============================
 
 O módulo de Gestão documental do SEI traz consigo uma série de funcionalidades que visam contribuir para a gestão arquivística dos processos possibilitando o arquivamento, o desarquivamento, o controle dos prazos de guarda, a avaliação e a eliminação.
 
