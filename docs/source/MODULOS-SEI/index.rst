@@ -15,3 +15,4 @@ Os módulos apresentados nesta seção não são nativamente instalados no SEI, 
    Gestao_documental
    Modulo_resposta
    Modulo_assinatura_avancada
+   Login_externo_GovBR

@@ -1,5 +1,5 @@
-Módulo de Gestão Documental
-===========================
+Módulo Gestão Documental do SEI
+===============================
 
 O módulo de Gestão documental do SEI traz consigo uma série de funcionalidades que visam contribuir para a gestão arquivística dos processos possibilitando o arquivamento, o desarquivamento, o controle dos prazos de guarda, a avaliação e a eliminação.
 
@@ -57,88 +57,49 @@ O módulo de Gestão Documental inclui dois novos perfis no SEI: perfil GD Arqui
 
 .. admonition:: ATENÇÃO 
 
-   A partir da versão 4.1, o SEI possui menus e recursos de gestão documental nativos. Para o correto funcionamento do módulo de Gestão documental, é necessário que os menus sejam excluídos e os  recursos sejam desativados conforme orientação abaixo:
+   A partir da versão 4.1, o SEI possui menus e recursos de gestão documental nativos. Para o correto funcionamento do módulo de Gestão documental, é necessário que os recursos sejam desativados no SIP, menu Recursos > Listar, conforme orientação abaixo:
 
-Para desativar os menus, acesse Menus > Listar e desative os menus abaixo por meio do ícone |icone_listar|.
-
-
-.. list-table::
-   :widths: 20
-   :header-rows: 1
-
-   - * Menus que devem ser excluídos:
-   - * Administração / CPAD
-   - * Administração / CPAD / Nova
-   - * Administração / CPAD / Listar
-   - * Administração / CPAD / Reativar
-   - * Avaliação CPAD
-   - * Avaliação Documental
-   - * Documentos para Eliminação
-   - * Editais de Eliminação
-   - * cpad_avaliacao_listar
-   - * arquivamento_eliminacao_listar
-   - * avaliacao_documental_pesquisar
-   - * edital_eliminacao_listar
-
-
-Para desativar os recursos, acesse o menu Recursos > Listar e realize a desativação dos recursos abaixo por meio do ícone |icone_listar|.
-
-.. |icone_listar| image:: _static/images/icone_listar.png
-   :align: middle
-   :width: 35
-
+**Recursos que devem ser desativados:**
 
 .. list-table::
    :widths: 20
    :header-rows: 1
 
-   - * Recursos que devem ser desativados:
-   - * avaliacao_documental_alterar 
-   - * cpad_avaliacao_alterar
-   - * cpad_avaliacao_ativar
-   - * cpad_avaliacao_cadastrar
-   - * cpad_avaliacao_desativar 
-   - * cpad_avaliacao_excluir
-   - * cpad_avaliacao_listar
-   - * cpad_versao_alterar
+   - * Recurso:
    - * arquivamento_eliminacao_listar
-   - * arquivamento_eliminacao_sinalizar
-   - * arquivamento eliminar
-   - * avaliacao_documental_alterar 
-   - * avaliacao_documental_cadastrar
-   - * avaliacao_documental_excluir 
    - * avaliacao_documental_pesquisar
-   - * avaliacao_documental_selecionar
-   - * cpad_avaliacao_alterar
-   - * cpad_avaliacao_desativar
-   - * cpad_avaliacao_excluir
-   - * edital_eliminacao_alterar
-   - * edital_eliminacao_cadastrar
-   - * edital_eliminacao_conteudo_cadastrar
-   - * edital_eliminacao_conteudo_excluir
-   - * edital_eliminacao_conteudo_listar
-   - * edital_eliminacao_eliminados_gerar
-   - * edital_eliminacao_eliminar
-   - * edital_eliminacao_erro_cadastrar
-   - * edital_eliminacao_erro_excluir
-   - * edital_eliminacao_excluir
-   - * edital_eliminacao_gerar
+   - * cpad_avaliacao_listar
+   - * cpad_cadastrar
+   - * cpad_listar
+   - * cpad_reativar
    - * edital_eliminacao_listar
 
 
 No Sistema Eletrônico de Informações (SEI)
 ++++++++++++++++++++++++++++++++++++++++++++++
 
+Acervo Global
+^^^^^^^^^^^^^^
+
+Esta funcionalidade lista os processos sem andamentos abertos e cujas todas as unidades por onde eles tramitaram encontram-se desativadas.
+
+Acesse o menu Administração > Gestão documental > Acervo Global
+
+.. figure:: _static/images/GIF_Acervo_Global.gif
+
+
 Configurações da Gestão Documental
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Por meio deste menu é possível configurar os tipos de processos e os tipos de documentos que serão utilizados pelo Módulo. Além disso, é possível configurar um prazo, em dias, que o Módulo irá aplicar quando da publicação do Edital de Ciência de Eliminação de Documentos a fim de permitir a eliminação dos processos. 
-
+Por meio deste menu é possível configurar os tipos de processos e tipos de documentos que serão utilizados pelo Módulo. Além disso, é possível definir em dias a contagem do prazo do Edital de Ciência de Eliminação, a fim de que o módulo habilite a funcionalidade de eliminação dos processos ao final do prazo parametrizado.
 
 .. admonition:: ATENÇÃO 
 
-   Por padrão, o Módulo vem configurado com o prazo de 30 (trinta) dias.
+   Por padrão, o Módulo de Gestão Documental vem com o campo **“Contagem do Prazo do Edital de Ciência de Eliminação de Documentos”** pré-configurado em 30 (trinta) dias. É possível alterar esta configuração para até 45 dias, conforme prazo definido na Resolução nª 5 do CONARQ, de 30 de setembro de 1996.
 
+Acesse o menu Administração > Gestão documental > Configurações 
+
+.. figure:: _static/images/GIF_Configuracoes_GD.gif
  
 Justificativas de Arquivamento e Desarquivamento
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -153,7 +114,7 @@ O Módulo já conta com justificativas cadastradas previamente. Para incluir nov
 Unidades de Arquivamento
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-Neste menu é possível listar, excluir e cadastrar as unidades que poderão realizar o arquivamento e desarquivamento de processos. Para cada unidade de arquivamento cadastrada é necessário indicar também a unidade que será responsável por realizar a avaliação dos processos quando do cumprimero do prazo de guarda corrente. 
+Neste menu é possível listar, excluir e cadastrar as unidades que poderão realizar o arquivamento e desarquivamento de processos. Para cada unidade de arquivamento cadastrada é necessário indicar também a unidade que será responsável por realizar a avaliação dos processos quando do cumprimento do prazo de guarda corrente. 
 
 Para cadastrar unidades de arquivamento, acesse  o Menu Gestão documental > Unidades de Arquivamento e realize o cadastro.
 
@@ -163,7 +124,7 @@ Para cadastrar unidades de arquivamento, acesse  o Menu Gestão documental > Uni
 Uso do Sistema
 --------------
 
-O sistema foi desenvolvido cumprindo as normativas de gestão documental expedidas pelo Arquivo Nacional e pelo Consel ho Nacional de Arquivos – Conarq. O fluxo é baseado na Teoria das Três Idades, e possui três macro-processos: o arquivamento, a avaliação e a destinação, incluindo seus respectivos procedimentos e operações técnicas.
+O sistema foi desenvolvido cumprindo as normativas de gestão documental expedidas pelo Arquivo Nacional e pelo Conselho Nacional de Arquivos – Conarq. O fluxo é baseado na Teoria das Três Idades, e possui três macroprocessos: o arquivamento, a avaliação e a destinação, incluindo seus respectivos procedimentos e operações técnicas.
 
 .. admonition:: ATENÇÃO 
 
@@ -185,7 +146,7 @@ Arquivar Processo
 
 A primeira etapa para o início da contagem dos prazos de guarda inicia-se no momento do arquivamento do processo, procedimento que finda a ação administrativa objeto do processo.
 
-O arquivamento segue as orientações da `Portaria Interministerial MJ/MPOG nº 1677/2014 <https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/portarias/portaria-interministerial-ndeg-1-677-de-07-de-outubro-de-2015>`_.
+O arquivamento segue as orientações da `Portaria Interministerial MJ/MPOG nº 1677/2015 <https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/portarias/portaria-interministerial-ndeg-1-677-de-07-de-outubro-de-2015>`_.
 
 O botão “**Arquivar Processo**” será utilizado para indicar que o último ato processual foi realizado, ou seja, tal processo não terá mais movimentações e estará pronto para iniciar a contagem dos prazos de guarda.
 
@@ -241,7 +202,7 @@ O Arquivamento Legado é uma funcionalidade que permite o arquivamento do proces
 
    No arquivamento legado não é possível selecionar uma data de arquivamento anterior à data da última conclusão do processo.
 
-.. figure:: _static/images/06.Arquivamento_Legado.gif
+.. figure:: _static/images/arquivamentolegado.gif
 
 
 Arquivo da Unidade
@@ -321,10 +282,12 @@ Ao gerar uma listagem, o sistema criará um novo processo contendo a listagem cr
 
 .. figure:: _static/images/12.Preparacao_de_Listagem.gif
 
-Adicionar observação e/ou justificativa **VERIFICAR NA TELA DE PREPARAÇÃO**.
+Adicionar observação e/ou justificativa.
 
 Para registrar uma observação e/ou justificativa, o usuário deverá clicar no botão “Adicionar observação e/ou justificativa”, presente na grid do processo que deseja.
 Preencher o campo com a informação desejada e clicar em Salvar.
+
+.. figure:: _static/images/obslistagem.gif
 
 Após esta ação, a informação salva ficará disponível em tela no campo Observações e/ou Justificativas da Grid do processo.
 
@@ -413,7 +376,7 @@ Após sua edição e assinatura, o edital deverá ser publicado no Diário Ofici
 Executar Eliminação
 ~~~~~~~~~~~~~~~~~~~~
 
-Finda a contagem do prazo definido no edital, o módulo habilitará o ícone que permite a execução do procedimento de eliminação. Para eliminar os processos clique no ícone |Icone_Executar_Eliminacao| e confirme a execução do procedimento clicando em OK/Sim.
+Finda a contagem do prazo definido no edital, o módulo habilitará o ícone que permite a execução do procedimento de eliminação. Para eliminar os processos clique no ícone |Icone_Executar_Eliminacao| e confirme a execução do procedimento clicando em OK.
 
 Os processos que constam na Listagem de Eliminação serão eliminados e ficarão indisponíveis para consulta, sendo preservados apenas os metadados.
 
@@ -436,7 +399,7 @@ Relação de Documentos Externos
  
 O Módulo de Gestão Documental mostra a relação de documentos externos que foram eliminados no ícone |Icone_listagem_excluido|. Tanto os documentos digitalizados, e sua localização, quanto os nato-digitais. Seus metadados também ficam guardados no módulo.
 
-.. figure:: _static/images/15.Executar_Eliminacao.gif
+.. figure:: _static/images/documentosexternos.gif
 
 .. |Icone_listagem_excluido| image:: _static/images/icone_listagem_excluido.png
    :align: middle

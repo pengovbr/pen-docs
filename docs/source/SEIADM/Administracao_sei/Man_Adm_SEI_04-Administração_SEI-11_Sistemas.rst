@@ -226,7 +226,7 @@ Para acessar essa funcionalidade, o administrador deve acompanhar o caminho desc
 
 .. figure:: _static/images/04-11_Listar-Sistemas_Tela_Acessar-Listar-Sistema.png
 
-.. figure:: _static/images/04-11_Reativar-Sistema_TelaSEI_Reativar-Sistema.png
+.. figure:: _static/images/04-11_Reativar-Sistema_Tela_Acessar-Reativar-Sistema.png
 	
 .. admonition:: Nota
 
@@ -234,4 +234,4 @@ Para acessar essa funcionalidade, o administrador deve acompanhar o caminho desc
 
 A imagem a seguir apresenta a disposição dos campos na tela “Reativar Sistema”.
 
-.. figure:: _static/images/04-11_Reativar-Sistema_Tela_Reativar-Sistema.png
+.. figure:: _static/images/04-11_Reativar-Sistema_TelaSEI_Reativar-Sistema.png
