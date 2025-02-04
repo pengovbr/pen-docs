@@ -75,51 +75,6 @@ O módulo de Gestão Documental inclui dois novos perfis no SEI: perfil GD Arqui
    - * edital_eliminacao_listar
 
 
-Para desativar os recursos, acesse o menu Recursos > Listar e realize a desativação dos recursos abaixo por meio do ícone |icone_listar|.
-
-.. |icone_listar| image:: _static/images/icone_listar.png
-   :align: middle
-   :width: 35
-
-
-.. list-table::
-   :widths: 20
-   :header-rows: 1
-
-   - * Recursos que devem ser desativados:
-   - * avaliacao_documental_alterar 
-   - * cpad_avaliacao_alterar
-   - * cpad_avaliacao_ativar
-   - * cpad_avaliacao_cadastrar
-   - * cpad_avaliacao_desativar 
-   - * cpad_avaliacao_excluir
-   - * cpad_avaliacao_listar
-   - * cpad_versao_alterar
-   - * arquivamento_eliminacao_listar
-   - * arquivamento_eliminacao_sinalizar
-   - * arquivamento eliminar
-   - * avaliacao_documental_alterar 
-   - * avaliacao_documental_cadastrar
-   - * avaliacao_documental_excluir 
-   - * avaliacao_documental_pesquisar
-   - * avaliacao_documental_selecionar
-   - * cpad_avaliacao_alterar
-   - * cpad_avaliacao_desativar
-   - * cpad_avaliacao_excluir
-   - * edital_eliminacao_alterar
-   - * edital_eliminacao_cadastrar
-   - * edital_eliminacao_conteudo_cadastrar
-   - * edital_eliminacao_conteudo_excluir
-   - * edital_eliminacao_conteudo_listar
-   - * edital_eliminacao_eliminados_gerar
-   - * edital_eliminacao_eliminar
-   - * edital_eliminacao_erro_cadastrar
-   - * edital_eliminacao_erro_excluir
-   - * edital_eliminacao_excluir
-   - * edital_eliminacao_gerar
-   - * edital_eliminacao_listar
-
-
 No Sistema Eletrônico de Informações (SEI)
 ++++++++++++++++++++++++++++++++++++++++++++++
 
