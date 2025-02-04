@@ -1,11 +1,11 @@
 Módulo Gestão Documental do SEI
 ===============================
 
-O módulo de Gestão documental do SEI traz consigo uma série de funcionalidades que visam contribuir para a gestão arquivística dos processos possibilitando o arquivamento, o desarquivamento, o controle dos prazos de guarda, a avaliação e a eliminação.
+O módulo Gestão documental do SEI traz consigo uma série de funcionalidades que visam contribuir para a gestão arquivística dos processos possibilitando o arquivamento, o desarquivamento, o controle dos prazos de guarda, a avaliação e a eliminação.
 
 Essa seção tem por objetivo demonstrar as funcionalidades que serão disponibilizadas pelo módulo de Gestão Documental e também as configurações necessárias para o seu correto funcionamento.
 
-O módulo de Gestão Documental adiciona funcionalidades ao SEI, tais como:
+O módulo Gestão Documental do SEI adiciona funcionalidades ao SEI, tais como:
 
 |icone_arquivar_processo| **Arquivar Processo** – Possibilita o arquivamento de processos.
 
@@ -53,11 +53,11 @@ No Sistema de Permissões (SIP)
 Concessão dos perfis
 ^^^^^^^^^^^^^^^^^^^^
 
-O módulo de Gestão Documental inclui dois novos perfis no SEI: perfil GD Arquivamento, que permite realizar o arquivamento e o desarquivamento de processos, e o perfil GD Avaliação, que permite realizar as configurações da gestão documental, a avaliação e a eliminação de processos. 
+O módulo Gestão Documental do SEI inclui dois novos perfis no SEI: perfil GD Arquivamento, que permite realizar o arquivamento e o desarquivamento de processos, e o perfil GD Avaliação, que permite realizar as configurações da gestão documental, a avaliação e a eliminação de processos. 
 
 .. admonition:: ATENÇÃO 
 
-   A partir da versão 4.1, o SEI possui menus e recursos de gestão documental nativos. Para o correto funcionamento do módulo de Gestão documental, é necessário que os recursos sejam desativados no SIP, menu Recursos > Listar, conforme orientação abaixo:
+   A partir da versão 4.1, o SEI possui menus e recursos de gestão documental nativos. Para o correto funcionamento do módulo Gestão Documental do SEI, é necessário que os recursos sejam desativados no SIP, menu Recursos > Listar, conforme orientação abaixo:
 
 **Recursos que devem ser desativados:**
 
@@ -95,7 +95,7 @@ Por meio deste menu é possível configurar os tipos de processos e tipos de doc
 
 .. admonition:: ATENÇÃO 
 
-   Por padrão, o Módulo de Gestão Documental vem com o campo **“Contagem do Prazo do Edital de Ciência de Eliminação de Documentos”** pré-configurado em 30 (trinta) dias. É possível alterar esta configuração para até 45 dias, conforme prazo definido na Resolução nª 5 do CONARQ, de 30 de setembro de 1996.
+   Por padrão, o Módulo Gestão Documental do SEI vem com o campo **“Contagem do Prazo do Edital de Ciência de Eliminação de Documentos”** pré-configurado em 30 (trinta) dias. É possível alterar esta configuração para até 45 dias, conforme prazo definido na Resolução nª 5 do CONARQ, de 30 de setembro de 1996.
 
 Acesse o menu Administração > Gestão documental > Configurações 
 
@@ -397,7 +397,7 @@ Feita a eliminação, o Termo de Eliminação de Documentos será gerado de form
 Relação de Documentos Externos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
-O Módulo de Gestão Documental mostra a relação de documentos externos que foram eliminados no ícone |Icone_listagem_excluido|. Tanto os documentos digitalizados, e sua localização, quanto os nato-digitais. Seus metadados também ficam guardados no módulo.
+O Módulo Gestão Documental do SEI mostra a relação de documentos externos que foram eliminados no ícone |Icone_listagem_excluido|. Tanto os documentos digitalizados, e sua localização, quanto os nato-digitais. Seus metadados também ficam guardados no módulo.
 
 .. figure:: _static/images/documentosexternos.gif
 
@@ -422,7 +422,7 @@ Para indicar que mais de um processo deve ser enviado para a tela “**Preparaç
 
    Nesta tela, caso tenha sido selecionado algum processo cuja destinação final não seja recolhimento, o módulo irá desconsiderar a seleção.
 
-Os processos enviados para Preparação da listagem de recolhimento irão permanecer nesta tela até que seja disponibilizada a próxima versão do Módulo de Gestão Documental.
+Os processos enviados para Preparação da listagem de recolhimento irão permanecer nesta tela até que seja disponibilizada a próxima versão do Módulo Gestão Documental do SEI.
 
 Gestão das Listagens de Recolhimento
 ++++++++++++++++++++++++++++++++++++
