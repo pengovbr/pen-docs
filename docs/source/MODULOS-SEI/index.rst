@@ -15,5 +15,5 @@ Os módulos apresentados nesta seção não são nativamente instalados no SEI, 
    Gestao_documental
    Modulo_resposta
    Login_externo_GovBR
-   Assinatura_Avançada_Processo_de_solicitacao_e_habilitacao
+   Assinatura_Avancada_Processo_de_solicitacao_e_habilitacao
    Modulo_assinatura_avancada
