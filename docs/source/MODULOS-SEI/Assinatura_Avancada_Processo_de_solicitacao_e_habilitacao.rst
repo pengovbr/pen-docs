@@ -1,5 +1,5 @@
-Solicitação de credenciais para uso dos módulos Login Externo GOV.BR
-====================================================================
+Solicitação de credenciais para uso dos módulos Login Externo GOV.BR - Assinatura Avançada
+==========================================================================================
 
 Introdução
 ----------
@@ -37,7 +37,6 @@ Neste tutorial, abordaremos os passos necessários para solicitar as credenciais
 
 .. admonition:: Justifique o benefício
 
-   Sugestão de texto para o módulo Assinatura Avançada:
    O uso do login gov.br permitirá a assinatura de documentos no SEI com emprego de assinatura avançada, garantindo um maior grau de confiabilidade.
 
 7. Clicar em “Avançar”
@@ -49,12 +48,10 @@ Neste tutorial, abordaremos os passos necessários para solicitar as credenciais
 
 .. admonition:: Nome do Sistema (Homologação)
 
-   Sugestão de texto para o módulo Assinatura Avançada
    "SEI Assinatura Avançada - <Adicionar o Nome do Órgão>"
 
 .. admonition:: Descrição/Objetivo do Sistema
 
-   Sugestão de texto para o módulo Assinatura Avançada:
    "O módulo de Assinatura Avançada permite a assinatura de documentos no SEI com emprego de assinatura avançada."
 
 09. Preencher os dados sobre o serviço a ser integrado e em seguida clique em “ADICIONAR DADOS NA TABELA +”
@@ -63,12 +60,10 @@ Neste tutorial, abordaremos os passos necessários para solicitar as credenciais
  
 .. admonition:: Nome do Serviço
 
-   Sugestão de texto para o módulo Assinatura Avançada:
    "SEI Assinatura Avançada - <Adicionar o Nome do Órgão>"
 
 .. admonition:: Descreva os benefícios ofertados ao cidadão
 
-   Sugestão de texto para o módulo Assinatura Avançada:
    "Possibilitar a assinatura de documentos no SEI com emprego de assinatura avançada."
 
 10. Preencher os campos abaixo conforme indicação:
@@ -86,7 +81,6 @@ Neste tutorial, abordaremos os passos necessários para solicitar as credenciais
 
 .. admonition:: Justificativa de acesso ilimitado, restrito ou informação sigilosa
 
-   Sugestão de texto para o módulo Assinatura Avançada:
    Os usuários do SEI poderão assinar documentos que contenham dados pessoais/sensíveis.
 
 
@@ -106,7 +100,7 @@ Neste tutorial, abordaremos os passos necessários para solicitar as credenciais
 
 .. admonition:: URL única para página inicial do sistema (Homologação) (Máx. 1):
 
-   "http://ENDEREÇO SEI  ou"
+   "http://ENDEREÇO SEI"  ou
    "https://ENDEREÇO SEI"
 
 .. admonition:: Atenção
@@ -149,7 +143,6 @@ Neste tutorial, abordaremos os passos necessários para solicitar as credenciais
 
 .. admonition:: URL(s) do retorno (Produção)
 
-   Sugestão de texto para o módulo Assinatura Avançada:
    "https://ENDEREÇO SEI/sei"
 
 .. admonition:: URL única para página inicial do sistema (Produção)
@@ -175,9 +168,9 @@ https://<ENDEREÇO SEI PRODUCAO>/sei/modulos/loginunico/logout.php
 
 .. figure:: _static/images/AssinAvan_02-Finalização_Prod_Interesse_Producao.png
 
-Sugestão de texto para o módulo Assinatura Avançada:
+.. admonition:: Descrição/Objetivo do Sistema
 
-O módulo de Login Externo gov.br permite que cidadãos acessem o ambiente do SEI destinado a usuários externos.
+   O módulo de Login Externo gov.br permite que cidadãos acessem o ambiente do SEI destinado a usuários externos.
 
 22. Rolar até o fim do formulário e na seção “Enviar dados/Dúvidas” selecionar a opção “Enviar dados de produção”.
  
