@@ -93,20 +93,22 @@ Neste tutorial, abordaremos os passos necessários para solicitar as credenciais
 
 .. admonition:: URL(s) do retorno (Homologação)
 
-   Sugestão de texto para o módulo Login Externo gov.br:
-   "http://ENDEREÇO SEI/sei/modulos/loginunico/controlador_loginunico.php"  ou
-   "https://ENDEREÇO SEI/sei/modulos/loginunico/controlador_loginunico.php"
+   "http://ENDEREÇO SEI/sei/modulos/loginunico/controlador_loginunico.php"; ou
+   
+   "https://ENDEREÇO SEI/sei/modulos/loginunico/controlador_loginunico.php".
 
 
 .. admonition:: URL única para página inicial do sistema (Homologação) (Máx. 1)
  
-   http://ENDEREÇO SEI  ou
-   https://ENDEREÇO SEI
+   "http://ENDEREÇO SEI";  ou
+   
+   "https://ENDEREÇO SEI".
 
 .. admonition:: URL de Logout (Homologação)
 
-   http://<ENDEREÇO SEI>/sei/modulos/loginunico/logout.php  ou
-   https://<ENDEREÇO SEI>/sei/modulos/loginunico/logout.php
+   "http://<ENDEREÇO SEI>/sei/modulos/loginunico/logout.php"; ou
+   
+   "https://<ENDEREÇO SEI>/sei/modulos/loginunico/logout.php".
 
 12. Clicar em "Confirmar dados".
 
@@ -141,7 +143,7 @@ Neste tutorial, abordaremos os passos necessários para solicitar as credenciais
 
 Grave um vídeo do teste realizado no ambiente de homologação que demonstre a integração do SEI ao login GOV.BR seguindo as seguintes instruções:
 
-A. No navegador, acessar a página de `acesso externo ao SEI <http://<ENDEREÇO SEI>/sei/controlador_externo.php?acao=usuario_externo_controle_acessos&id_orgao_acesso_externo=0>`_
+A. No navegador, acessar a página de acesso externo ao SEI ("http://<ENDEREÇO SEI>/sei/controlador_externo.php?acao=usuario_externo_controle_acessos&id_orgao_acesso_externo=0")
 
 B. Clicar no botão “Entrar com gov.br”
 
@@ -192,7 +194,7 @@ D. Fazer logout do sistema (sair da conta de usuário)
  
 23. Clicar no botão “Enviar dados de produção” 
  
-.. figure:: _static/images/ModExt_02-Finalizacao_EnviarDadosProd_bot.png
+.. figure:: _static/images/ModExt_02-Finalizacao_EnviarDadosProd-bot.png
 
 .. figure:: _static/images/ModExt_02-Finalizacao_Dados_enviados.png
  
