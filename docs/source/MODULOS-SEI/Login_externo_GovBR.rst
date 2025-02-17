@@ -1,4 +1,4 @@
-Solicitação de credenciais para uso dos módulos Login Externo GOV.BR
+Solicitação de credenciais para uso do módulo Login Externo GOV.BR
 ====================================================================
 
 Introdução
@@ -161,7 +161,7 @@ D. Fazer logout do sistema (sair da conta de usuário)
 
 .. admonition:: URL única para página inicial do sistema (Produção)
 
-   https://ENDEREÇO SEI
+   "https://ENDEREÇO SEI/sei/modulos/loginunico/logout.php"
 
 .. admonition:: URL(s) de Log Out (Produção)
 
@@ -192,7 +192,7 @@ D. Fazer logout do sistema (sair da conta de usuário)
  
 23. Clicar no botão “Enviar dados de produção” 
  
-.. figure:: _static/images/ModExt_01-Finalizacao_EnviarDadosProd_bot.png
+.. figure:: _static/images/ModExt_02-Finalizacao_EnviarDadosProd_bot.png
 
 .. figure:: _static/images/ModExt_02-Finalizacao_Dados_enviados.png
  

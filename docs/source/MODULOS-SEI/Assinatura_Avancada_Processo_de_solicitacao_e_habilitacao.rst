@@ -1,12 +1,12 @@
-Solicitação de credenciais para uso dos módulos Login Externo GOV.BR - Assinatura Avançada
-==========================================================================================
+Solicitação de credenciais para uso do módulo Assinatura Avançada
+=================================================================
 
 Introdução
 ----------
 
-A solicitação de credenciais é uma das etapas necessárias para utilização dos módulos **Login Externo GOV.BR** e **Assinatura Avançada do SEI**. A solicitação é feita junto à Secretaria de Governo Digital do Ministério da Gestão e da Inovação em Serviços Públicos (SGD/MGI) por meio do `Serviço de Integração aos Produtos de Identidade Digital GOV.BR <https://www.gov.br/governodigital/pt-br/estrategias-e-governanca-digital/transformacao-digital/servico-de-integracao-aos-produtos-de-identidade-digital-gov.br>`_.
+A solicitação de credenciais é uma das etapas necessárias para utilização do módulo **Assinatura Avançada do SEI**. A solicitação é feita junto à Secretaria de Governo Digital do Ministério da Gestão e da Inovação em Serviços Públicos (SGD/MGI) por meio do `Serviço de Integração aos Produtos de Identidade Digital GOV.BR <https://www.gov.br/governodigital/pt-br/estrategias-e-governanca-digital/transformacao-digital/servico-de-integracao-aos-produtos-de-identidade-digital-gov.br>`_.
 
-Neste tutorial, abordaremos os passos necessários para solicitar as credenciais para os ambientes de homologação e produção para o caso da Assinatura Avançada. 
+Neste tutorial, abordaremos os passos necessários para solicitar as credenciais para os ambientes de homologação e produção para a Assinatura Avançada.
 
 1ª ETAPA – Solicitação
 ----------------------
@@ -19,7 +19,7 @@ Neste tutorial, abordaremos os passos necessários para solicitar as credenciais
 
 03. Fazer login com a conta GOV.BR do agente público (preferencialmente um servidor público efetivo ou comissionado)
 
-.. figure:: _static/images/AssinAvan_01-Login_GOVBR.png
+.. figure:: _static/images/AssinAvan_01-Solicitacao_Login_GOVBR.png
  
 04. Preencher os dados do solicitante e do órgão/entidade
 
@@ -129,7 +129,7 @@ Neste tutorial, abordaremos os passos necessários para solicitar as credenciais
 
 17. Em “Considerações”, copiar os valores “client_id” e “secret”.
  
-.. figure:: _static/images/AssinAvan_02-Finalizacao_Analise_Prod_Homol-Consideracoes
+.. figure:: _static/images/AssinAvan_02-Finalizacao_Analise_Prod_Homol-Consideracoes.png
 
 18. Acessar o arquivo de configuração “ConfiguracaoModAssinaturaAvancada.exemplo.php” e alterar o os campos "Client ID" e "Secret" com as informações obtidas no passo anterior, conforme linhas 43 e 46 da imagem abaixo.
 
@@ -150,14 +150,6 @@ Neste tutorial, abordaremos os passos necessários para solicitar as credenciais
    "http://ENDEREÇO SEI"  ou
    "https://ENDEREÇO SEI"
 
-- URL(s) do retorno (Produção): digitar a url de o domínio de acesso ao ambiente de produção do SEIà sua Instalação SEI, com o sufixo /login-unico, conforme o exemplo abaixo. Abaixo é só um exemplo:
-https://<ENDEREÇO SEI PRODUCAO > /sei/modulos/loginunico/controlador_loginunico.php
-
-- URL única para página inicial do sistema (Pprodução): digitar a ulr do ambiente de produção do SEIo domínio de acesso à sua Instalação do SEI. , conforme Abaixo é só um exemplo:  
-https://<ENDEREÇO SEI PRODUCAO> 
-
-- URL(s) de Log Out (Produção): digitar a url de logout do ambiente de produção do SEI, conforme exemplo abaixo:o domínio de acesso à sua Instalação do SEI como sufixo /logout. Abaixo é só um exemplo:
-https://<ENDEREÇO SEI PRODUCAO>/sei/modulos/loginunico/logout.php 
 
 
 .. admonition:: Atenção 
@@ -174,7 +166,7 @@ https://<ENDEREÇO SEI PRODUCAO>/sei/modulos/loginunico/logout.php
 
 22. Rolar até o fim do formulário e na seção “Enviar dados/Dúvidas” selecionar a opção “Enviar dados de produção”.
  
-.. figure:: _static/images/
+.. figure:: _static/images//AssinAvan_02-Finalizacao_EnviarDadosProd.png
 
 23. Clicar no botão “Enviar dados de produção”
  
