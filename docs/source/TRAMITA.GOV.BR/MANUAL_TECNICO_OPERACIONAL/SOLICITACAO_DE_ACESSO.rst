@@ -40,6 +40,10 @@ Para o envio da solicitação de acesso, todos os campos são de preenchimento o
 
 **a.1.** Caso o órgão ou a entidade pertença ao poder Executivo da esfera federal, marque a opção como **“Sim”**, para que a estrutura seja recuperada do cadastro do Órgão/Entidade no SIORG. Assim, o sistema apresentará a Unidade Administrativa raiz da estrutura do SIORG. Navegue pela estrutura até encontrar o Órgão/Entidade representado e selecione-o para prosseguir com a solicitação.
 
+.. admonition:: Nota
+
+   Para facilitar a pesquisa do seu órgão, preencha o campo "Buscar por Nome do Órgão", insira no mínimo três caracteres para realizar a pesquisa. Os resultados aparecerão destacados em amarelo facilitando a localização do seu órgão na árvore. Caso o primeiro órgão exibido não seja o desejado, continue a busca por meio do botão “Próximo” até encontrá-lo. Ao localizar o seu órgão ou entidade, selecione-o e prossiga com a solicitação.   
+
 .. figure:: _static/images/Selecao_de_orgao_Entidade.gif
 
 **b.Órgão ou entidade que não pertence ao executivo federal**
