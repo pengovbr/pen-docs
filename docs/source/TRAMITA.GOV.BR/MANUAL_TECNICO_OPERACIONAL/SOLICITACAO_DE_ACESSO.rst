@@ -21,7 +21,6 @@ O presente Manual Técnico-Operacional trata apenas das operações a serem exec
 
 * Assim, conforme o fluxo, as atividades dessa etapa são diferentes de acordo com a classificação do órgão ou da entidade interessada em realizar o acesso a plataforma. 
 
-* É obrigatório que no mínimo um dos Gestores de Protocolo do órgão/entidade em processo de implantação preencher o `formulário de inclusão na Comunidade do Tramita.GOV.BR <https://forms.office.com/Pages/ResponsePage.aspx?id=aSnJPlFaGE-Kye-Y-6-peDi9G5TEeHJOgRQMfYkAx3hUOElTNllYNjA2WlgxV1ozV0k1S0hMQzU1RiQlQCN0PWcu>`_.  
 
 Preenchimento do Cadastro
 +++++++++++++++++++++++++
