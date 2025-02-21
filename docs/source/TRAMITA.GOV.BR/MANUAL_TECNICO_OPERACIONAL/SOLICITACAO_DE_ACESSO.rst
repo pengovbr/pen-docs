@@ -21,6 +21,7 @@ O presente Manual Técnico-Operacional trata apenas das operações a serem exec
 
 * Assim, conforme o fluxo, as atividades dessa etapa são diferentes de acordo com a classificação do órgão ou da entidade interessada em realizar o acesso a plataforma. 
 
+* É obrigatório que no mínimo um dos Gestores de Protocolo do órgão/entidade em processo de implantação preencher o `formulário de inclusão na Comunidade do Tramita.GOV.BR <https://forms.office.com/Pages/ResponsePage.aspx?id=aSnJPlFaGE-Kye-Y-6-peDi9G5TEeHJOgRQMfYkAx3hUOElTNllYNjA2WlgxV1ozV0k1S0hMQzU1RiQlQCN0PWcu>`_.  
 
 Preenchimento do Cadastro
 +++++++++++++++++++++++++
@@ -39,10 +40,6 @@ Para o envio da solicitação de acesso, todos os campos são de preenchimento o
 
 **a.1.** Caso o órgão ou a entidade pertença ao poder Executivo da esfera federal, marque a opção como **“Sim”**, para que a estrutura seja recuperada do cadastro do Órgão/Entidade no SIORG. Assim, o sistema apresentará a Unidade Administrativa raiz da estrutura do SIORG. Navegue pela estrutura até encontrar o Órgão/Entidade representado e selecione-o para prosseguir com a solicitação.
 
-.. admonition:: Nota
-
-   Para facilitar a pesquisa do seu órgão, preencha o campo "Buscar por Nome do Órgão", insira no mínimo três caracteres para realizar a pesquisa. Os resultados aparecerão destacados em amarelo facilitando a localização do seu órgão na árvore. Caso o primeiro órgão exibido não seja o desejado, continue a busca por meio do botão “Próximo” até encontrá-lo. Ao localizar o seu órgão ou entidade, selecione-o e prossiga com a solicitação.   
-
 .. figure:: _static/images/Selecao_de_orgao_Entidade.gif
 
 **b.Órgão ou entidade que não pertence ao executivo federal**
@@ -54,60 +51,18 @@ Para o envio da solicitação de acesso, todos os campos são de preenchimento o
 
 ** Campo Documento comprobatório 
 
-O órgão solicitante deve informar o Sistema de Governo [1]_ e o Gestor Tecnológico [2]_.
+O órgão solicitante deve informar o Gestor Tecnológico¹.
 
 
-  .. [1] O que é Sistema de Governo?
-  
-  O Sistema de Governo é o Sistema de Processo Administrativo Eletrônico (SPE) utilizado pelo órgão do solicitante. Alguns exemplos: SEI, SIPAC e SUAP. 
+  ¹O que são Gestores Tecnológicos?
 
-  Para mais informações é possível acessar o Item `2.3 da FAQ TramitaGOV.BR <https://wiki.processoeletronico.gov.br/pt-br/latest/Tramita_GOV_BR/Perguntas_frequentes/Conceitos_Gerais.html#o-que-e-sistema-de-processo-administrativo-eletronico-spe>`_. 
+  Gestores Tecnológicos são órgãos responsáveis pela infraestrutura na qual o SPE está implantado. Atualmente, existem duas opções: Interno e Dataprev. Na opção Interno, o SPE é instalado na infraestrutura interna do próprio órgão. Em contraste, o SPE pode ser implementado em uma infraestrutura externa, que não pertence ao órgão em questão.
 
-  .. [2] O que são Gestores Tecnológicos?
-  
-  Gestores Tecnológicos são órgãos responsáveis pela infraestrutura na qual o SPE está implantado. Alguns exemplos: Interno e Dataprev. Na opção Interno, o SPE é instalado na infraestrutura interna do próprio órgão. Por outro lado, o SPE pode ser implementado em uma infraestrutura externa, que não pertence ao órgão em questão, nesse caso o solicitante escolhe a empresa pública na qual o sistema está implantado. 
+  Para mais informações é possível acessar o `item 2.11 da FAQ Tramita GOV.BR <https://wiki.processoeletronico.gov.br/pt-br/latest/Tramita_GOV_BR/Perguntas_frequentes/Conceitos_Gerais.html#o-que-sao-gestores-tecnologicos>`_
 
-  Para mais informações é possível acessar o item `2.11 da FAQ Tramita GOV.BR <https://wiki.processoeletronico.gov.br/pt-br/latest/Tramita_GOV_BR/Perguntas_frequentes/Conceitos_Gerais.html#o-que-sao-gestores-tecnologicos>`_.  
+Durante o preenchimento dos dados do Gestor de Protocolo, o sistema solicita a anexação de uma Portaria ou outro documento de designação, que comprove sua competência para exercer esta função para o Órgão/ Entidade solicitante. 
 
-Durante o preenchimento dos dados do Gestor de Protocolo, é solicitado um Documento Comprobatório, que muda conforme o tipo de solicitante de acesso à plataforma. Para identificar o documento correto para seu órgão ou entidade, consulte o quadro sinóptico abaixo. Ressalta-se que caso o documento informado no cadastro não for o correto, a solicitação de acesso é recusada.
-
-.. list-table::
-   :widths: 35 20 35
-   :header-rows: 1
-
-   - * Tipo de Solicitante
-     * Fundamentação Legal
-     * Documento Comprobatório
-   - * Administração Direta, Autárquica e Fundacional do Poder Executivo Federal
-     * Art. 1º, Parágrafo Único
-     * Documento que comprove o vínculo do servidor com o órgão/entidade informado na solicitação [3]_
-   - * os Estados, o Distrito Federal, os Municípios e os consórcios públicos intermunicipais partícipes do Programa Nacional de Processo Eletrônico – ProPEN, nos termos do disposto no Decreto nº 11.946, de 12 de março de 2024
-     * Art. 4º, I
-     * Documento de Adesão [3]_ [4]_
-   - * os órgãos dos Poderes Judiciário e Legislativo federais, o Tribunal de Contas da União, o Ministério Público da União e a Defensoria Pública da União
-     * Art. 4º, II
-     * Termo de Designação [3]_ [4]_ [5]_
-   - * os órgãos dos Poderes Judiciário e Legislativo federais, o Tribunal de Contas da União, o Ministério Público da União e a Defensoria Pública da União; 
-     * Art. 4º, III 
-     * Termo de Designação [3]_ [4]_ [5]_   
-   - * os órgãos estaduais, distritais e municipais dos Poderes Executivo, Judiciário e Legislativo, os Tribunais de Contas dos Estados, do Distrito Federal e dos Municípios, os Ministérios Púbicos Estaduais e as Defensorias Públicas Estaduais ou do Distrito Federal
-     * Art. 4º, IV
-     * Termo de Designação [3]_ [4]_ [5]_
-   - * as entidades da administração pública indireta estadual, distrital e municipal
-     * Art. 4º, V
-     * Termo de Designação [3]_ [4]_ [5]_  
-   - * as pessoas jurídicas de direito privado sem fins lucrativos, de interesse coletivo e utilidade pública.
-     * Art. 4º, VI 
-     * Termo de Designação [3]_ [4]_ [5]_
-
-
-.. admonition:: Notas
-
-   .. [3] Em todos os casos, além do documento comprobatório, o solicitante deve incluir cópia de documento oficial que comprove o CPF informado no momento do cadastro; 
-
-   .. [4] O solicitante do órgão que se enquadra no Art. 4º, I, II, III, IV, V ou VI deve informar o seu CPF, e não o da autoridade responsável pela assinatura do Documento Comprobatório. 
-
-   .. [5] A solicitação de órgão que se enquadra no Art. 4º, II, III, IV, V ou VI será avaliada pela Secretaria de Gestão e Inovação do Ministério da Gestão e da Inovação em Serviços Públicos, consideradas a conveniência, a oportunidade e a capacidade de atendimento (Art. 4, Parágrafo único).
+Os órgãos/entidades não integrantes da administração pública federal direta, autárquica e fundacional devem **obrigatoriamente** incluir o Termo de Adesão ao Tramita.GOV.BR nesse campo, conforme modelo aprovado pela `Portaria SEGES nº 9.412, de 26 de outubro de 2022  <https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/portarias/portaria-seges-me-no-9412-de-26-de-outubro-de-2022>`_.
 
 
 Análise do Cadastro para Acesso ao Tramita.GOV.BR
@@ -115,7 +70,7 @@ Análise do Cadastro para Acesso ao Tramita.GOV.BR
 
 Após o envio da solicitação de cadastro de Acesso ao Tramita os administradores da plataforma receberão uma notificação para analisar o cadastro do primeiro Gestor de Protocolo.
 
-No caso de órgão solicitante que se enquadra no Art. 4º, I, II, III, IV, V ou VI, além do preenchimento adequado do formulário de solicitação, a autorização de acesso depende de avaliação pela Secretaria de Gestão e Inovação do Ministério da Gestão e da Inovação em Serviços Públicos, consideradas a conveniência, a oportunidade e a capacidade de atendimento (Art. 4, Parágrafo único), a qual pode resultar em aprovação ou rejeição fundamentada da solicitação realizada pelo órgão. 
+Nessa análise, serão verificados o instrumento normativo, a vinculação ao órgão indicado e os demais dados cadastrais informados pelo solicitante. Uma vez aprovada esta solicitação, o solicitante será notificado por e-mail para dar continuidade ao processo.
 
-Efetivado o cadastro, este gestor se torna responsável pelo cadastro dos demais gestores de protocolo ligados ao seu órgão, bem como a configuração da hierarquia e a geração do certificado digital. Após a liberação do acesso, o primeiro gestor é incluído na Comunidade do Tramita GOV.BR utilizando o telefone informado no cadastro pelos gestores da plataforma. Caso o gestor não tenha interesse em permanecer na comunidade, ele tem autonomia para sair.
+Efetivado o cadastro, este gestor se torna responsável pelo cadastro dos demais gestores de protocolo ligados ao seu órgão, bem como a configuração da hierarquia e a geração do certificado digital. Para os casos em que o Gestor Tecnológico não seja o próprio órgão (Interno), a empresa sinalizada como Gestor Tecnológico é responsável pela geração do certificado digital e não o Gestor de Protocolo, uma vez que a infraestrutura tecnológica não é gerenciada pelo órgão solicitante.
 
