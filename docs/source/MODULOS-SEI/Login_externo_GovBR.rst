@@ -1,4 +1,4 @@
-Solicitação de credenciais para uso dos módulos Login Externo GOV.BR
+Solicitação de credenciais para uso do módulo Login Externo GOV.BR
 ====================================================================
 
 Introdução
@@ -35,7 +35,6 @@ Neste tutorial, abordaremos os passos necessários para solicitar as credenciais
 
 .. admonition:: Justifique o benefício
 
-   Sugestão de texto para o módulo Login Externo gov.br:
    "O uso do login gov.br dispensará a necessidade de envio de documentos comprobatórios para efetivação do cadastro de usuários externos do SEI."
 
 07. Clicar em “Avançar”
@@ -47,12 +46,10 @@ Neste tutorial, abordaremos os passos necessários para solicitar as credenciais
 
 .. admonition:: Nome do Sistema (Homologação)
 
-   Sugestão de texto para o módulo Login Externo gov.br:
    "SEI Login Externo Gov.BR - <Adicionar o Nome do Órgão>"
 
 .. admonition:: Descrição/Objetivo do Sistema
 
-   Sugestão de texto para o módulo Login Externo gov.br:
    "O módulo de Login Externo gov.br permite que cidadãos acessem o ambiente do SEI destinado a usuários externos."
 
 09. Preencher os dados sobre o serviço a ser integrado e em seguida clique em “ADICIONAR DADOS NA TABELA +”
@@ -61,12 +58,10 @@ Neste tutorial, abordaremos os passos necessários para solicitar as credenciais
  
 .. admonition:: Nome do Serviço
 
-   Sugestão de texto para o módulo Login Externo gov.br:
    "SEI Login Externo Gov.BR - <Adicionar o Nome do Órgão>
 
 .. admonition:: Descreva os benefícios ofertados ao cidadão
 
-   Sugestão de texto para o módulo Login Externo gov.br:
    "Possibilitar que cidadãos acessem o ambiente externo do SEI sem a necessidade de envio de documentos para ativação do cadastro."
 
 10. Preencher os campos abaixo conforme indicação:
@@ -86,7 +81,6 @@ Neste tutorial, abordaremos os passos necessários para solicitar as credenciais
 
 .. admonition:: Justificativa de acesso ilimitado, restrito ou informação sigilosa
 
-   Sugestão de texto para o módulo Login Externo gov.br:"
    "Os usuários externos do SEI podem ter acesso a documentos pessoais/sensíveis, a depender da liberação de acesso porventura disponibilizada pelo órgão."
 
 11. Preencher os campos abaixo conforme indicação:
@@ -99,20 +93,22 @@ Neste tutorial, abordaremos os passos necessários para solicitar as credenciais
 
 .. admonition:: URL(s) do retorno (Homologação)
 
-   Sugestão de texto para o módulo Login Externo gov.br:
-   "http://ENDEREÇO SEI/sei/modulos/loginunico/controlador_loginunico.php"  ou
-   "https://ENDEREÇO SEI/sei/modulos/loginunico/controlador_loginunico.php"
+   "http://ENDEREÇO SEI/sei/modulos/loginunico/controlador_loginunico.php"; ou
+   
+   "https://ENDEREÇO SEI/sei/modulos/loginunico/controlador_loginunico.php".
 
 
 .. admonition:: URL única para página inicial do sistema (Homologação) (Máx. 1)
  
-   http://ENDEREÇO SEI  ou
-   https://ENDEREÇO SEI
+   "http://ENDEREÇO SEI";  ou
+   
+   "https://ENDEREÇO SEI".
 
 .. admonition:: URL de Logout (Homologação)
 
-   http://<ENDEREÇO SEI>/sei/modulos/loginunico/logout.php  ou
-   https://<ENDEREÇO SEI>/sei/modulos/loginunico/logout.php
+   "http://<ENDEREÇO SEI>/sei/modulos/loginunico/logout.php"; ou
+   
+   "https://<ENDEREÇO SEI>/sei/modulos/loginunico/logout.php".
 
 12. Clicar em "Confirmar dados".
 
@@ -147,7 +143,7 @@ Neste tutorial, abordaremos os passos necessários para solicitar as credenciais
 
 Grave um vídeo do teste realizado no ambiente de homologação que demonstre a integração do SEI ao login GOV.BR seguindo as seguintes instruções:
 
-A. No navegador, acessar a página de `acesso externo ao SEI <http://<ENDEREÇO SEI>/sei/controlador_externo.php?acao=usuario_externo_controle_acessos&id_orgao_acesso_externo=0>`_
+A. No navegador, acessar a página de acesso externo ao SEI ("http://<ENDEREÇO SEI>/sei/controlador_externo.php?acao=usuario_externo_controle_acessos&id_orgao_acesso_externo=0")
 
 B. Clicar no botão “Entrar com gov.br”
 
@@ -162,18 +158,15 @@ D. Fazer logout do sistema (sair da conta de usuário)
 
 .. admonition:: URL(s) do retorno (Produção)
 
-   Sugestão de texto para o módulo Login Externo gov.br:
    https://ENDEREÇO SEI/sei/modulos/loginunico/controlador_loginunico.php
 
 
 .. admonition:: URL única para página inicial do sistema (Produção)
 
-   Sugestão de texto para o módulo Login Externo gov.br:
-   https://ENDEREÇO SEI
+   "https://ENDEREÇO SEI/sei/modulos/loginunico/logout.php"
 
 .. admonition:: URL(s) de Log Out (Produção)
 
-   Sugestão de texto para o módulo Login Externo gov.br:
    https://ENDEREÇO SEI/sei/modulos/loginunico/logout.php
 
 .. admonition:: Atenção
@@ -193,7 +186,6 @@ D. Fazer logout do sistema (sair da conta de usuário)
 
 .. admonition:: Descrição/Objetivo do Sistema
 
-   Sugestão de texto para o módulo Login Externo gov.br:
    O módulo de Login Externo gov.br permite que cidadãos acessem o ambiente do SEI destinado a usuários externos.
 
 22. Rolar até o fim do formulário e na seção “Enviar dados/Dúvidas” selecionar a opção “Enviar dados de produção”;
@@ -202,7 +194,7 @@ D. Fazer logout do sistema (sair da conta de usuário)
  
 23. Clicar no botão “Enviar dados de produção” 
  
-.. figure:: _static/images/ModExt_01-Finalizacao_EnviarDadosProd_bot.png
+.. figure:: _static/images/ModExt_02-Finalizacao_Enviar_Dados_Prod_bot.png
 
 .. figure:: _static/images/ModExt_02-Finalizacao_Dados_enviados.png
  
