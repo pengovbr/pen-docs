@@ -194,7 +194,7 @@ D. Fazer logout do sistema (sair da conta de usuário)
  
 23. Clicar no botão “Enviar dados de produção” 
  
-.. figure:: _static/images/ModExt_02-Finalizacao_EnviarDadosProd-bot_1.png
+.. figure:: _static/images/ModExt_02-Finalizacao_EnviarDadosProd-bot.png
 
 .. figure:: _static/images/ModExt_02-Finalizacao_Dados_enviados.png
  
