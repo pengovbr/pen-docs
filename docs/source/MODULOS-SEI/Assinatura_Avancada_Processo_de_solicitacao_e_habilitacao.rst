@@ -43,7 +43,7 @@ Neste tutorial, abordaremos os passos necessários para solicitar as credenciais
 
 8. Preencher os campos sobre o produto a ser integrado
 
-.. figure:: _static/images/AssinAvan_01-Solicitacao_Prod_Interesse_Homologacao.png
+.. figure:: _static/images/AssinAvan_01-Solicitacao_Prod_Interesse_Homologacao_1.png
    
 
 .. admonition:: Nome do Sistema (Homologação)
