@@ -18,30 +18,28 @@ Créditos
 
 **Diretoria de Informações, Serviços e Sistemas de Gestão** 
 
-**Diretora** 
+**Diretor Substituto** 
 
-* Priscila Andressa Corrêa Cabral 
+* Pedro Henrique de Paiva Moreira da Silva
 
 **Coordenação-Geral de Soluções Negociais do Processo Eletrônico - CGESP** 
 
-**Coordenador-Geral** 
+**Coordenador-Geral Substituto** 
 
-* Pedro Henrique de Paiva Moreira da Silva 
+* Marco Aurélio Rodrigues Braga 
 
 **Equipe Técnica** 
 
-* Cristiana Gontijo Maciel Cafagna
-* Gabriel Barreto Carvalho Telles 
-* Leandro Medeiros da Silva Lima 
-* Vinícius Rafael Lôbo de Mendonça 
+* Antônio Augusto Rosolen Júnior 
+* Caio Fellipe De Oliveira Martins 
+* Cíntia Aparecida de Moura e Silva Gualberto 
+* Cristiana Gontijo Maciel Cafagna 
+* Vinícius Rafael Lobo de Mendonça 
 * Yuri Álisson Rodrigues de Oliveira
 
 **Revisão** 
 
-* Andrea Regina Lopes Ache 
-* Manuela Deolinda dos Santos da Silva Pires 
-* Pedro Henrique de Paiva Moreira da Silva 
-* Scheyla Cristina de Souza Belmiro do Amaral 
+* Vinícius Rafael Lôbo de Mendonça  
 
 **Editoração e Arte** 
 

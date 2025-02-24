@@ -23,7 +23,7 @@ O acesso ao Portal de Administração do Tramita.GOV.BR é feito pelo endereço 
 Funcionamento dos Trâmites de Processos ou Documentos
 +++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-O trâmite é o envio de um documento avulso, em meio eletrônico, ou de um processo administrativo eletrônico do remetente até o destinatário. O trâmite pode ser concluído de três formas: cancelado, recusado ou com sucesso. Em qualquer situação de conclusão, o trâmite percorre por vários status até a sua conclusão. A compreensão desses status é importante para que os Gestores de Protocolo saibam identificar eventuais problemas no andamento de trâmite no qual o seu órgão/ entidade está envolvido. Os vários status possíveis de um trâmite são explicados nos próximos tópicos.
+O trâmite é o envio de um documento avulso, em meio eletrônico, ou de um processo administrativo eletrônico do remetente até o destinatário. O trâmite pode ser concluído de três formas: cancelado, recusado ou com sucesso. Em qualquer situação de conclusão, o trâmite percorre por vários status até a sua conclusão. A compreensão desses status é importante para que os Gestores de Protocolo saibam identificar eventuais problemas no andamento de trâmite no qual o seu órgão/ entidade está envolvido.  A seguir, os três fluxos de conclusão de trâmite:
  
 Fluxo de Status
 +++++++++++++++
