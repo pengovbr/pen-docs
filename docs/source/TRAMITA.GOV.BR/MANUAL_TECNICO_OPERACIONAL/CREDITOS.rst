@@ -47,7 +47,7 @@ Créditos
 * Mônica Yumi Harada 
 
 
-*Caderno do PEN: Manual Técnico Operacional do Protocolo.GOV.BR. Brasília, 2023.*
+*Caderno do PEN: Manual Técnico Operacional do Protocolo.GOV.BR. Brasília, 2025.*
 
 
 
