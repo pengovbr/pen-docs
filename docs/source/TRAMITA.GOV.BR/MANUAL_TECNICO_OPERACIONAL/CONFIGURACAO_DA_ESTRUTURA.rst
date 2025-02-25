@@ -13,6 +13,10 @@ Geração do certificado digital
 
 Para maiores informações. leia a seção `Gerar Certificado <https://manuais.processoeletronico.gov.br/pt-br/latest/TRAMITA.GOV.BR/MANUAL_PORTAL_DE_ADMINISTRACAO/ADMINISTRACAO.html#gerar-certificado>`_ do Manaul do Portal de Administração.
 
+.. admonition:: Nota
+
+   Caso o Gestor Tecnológico não seja o próprio órgão (Interno), a empresa indicada como Gestor Tecnológico é responsável pela geração do certificado digital e não o Gestor de Protocolo, uma vez que a infraestrutura tecnológica não é gerenciada pelo órgão solicitante.
+
 Cadastro da Hierarquia
 ++++++++++++++++++++++
 

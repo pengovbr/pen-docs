@@ -39,7 +39,7 @@ Dentre as principais vantagens do Tramita.GOV.BR, destacam-se:
 
 (vii) Trâmite eletrônico independentemente da tecnologia e sistema de processo eletrônico adotado, devido à definição e ao estabelecimento de um protocolo comum para tramitação. 
 
-Este guia é parte integrante da Portaria SEGES nº xxxxx, de xx de xxxxxxx de 2024, que institui o Tramita GOV.BR, plataforma digital de comunicação integrante do Processo Eletrônico Nacional – PEN, destinado à tramitação externa, por meio de expedição, de processos administrativos eletrônicos e documentos avulsos entre sistemas de processo administrativo eletrônico –SPE. 
+Este guia é parte integrante da Portaria SEGES/MGI nº 1.363, de 21 de fevereiro de 2025, que institui o Tramita GOV.BR, plataforma digital de comunicação integrante do Processo Eletrônico Nacional – PEN, destinado à tramitação externa, por meio de expedição, de processos administrativos eletrônicos e documentos avulsos entre sistemas de processo administrativo eletrônico –SPE. 
 
 
 Sumário

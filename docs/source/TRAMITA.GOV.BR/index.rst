@@ -21,7 +21,7 @@ Como resultado do nosso trabalho, a plataforma Tramita GOV.BR possui até a pres
 
 **Manual do Portal de Administração:** Esse manual contempla todas as funcionalidades disponíveis do Portal de Administração documentadas e com imagens dinâmicas com a exemplificação do funcionamento de cada uma delas.
 
-**Manual Técnico Operacional:** Esse manual consolida todas as informações necessárias para o Gestor de Protocolo desde o início até a conclusão do processo de implantação da plataforma. O manual é parte integrante da Portaria SEGES nº 9.412, de 26 de outubro de 2022, a qual estabelece as regras de implantação do Tramita.GOV.BR, no âmbito da administração pública federal direta, autárquica e fundacional, assim como para os órgãos e entidades dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios, que tenham interesse em utilizar o sistema, conforme modelo constante do anexo da referida Portaria.
+**Manual Técnico Operacional:** Esse manual consolida todas as informações necessárias para o Gestor de Protocolo desde o início até a conclusão do processo de implantação da plataforma. O manual é parte integrante da Portaria SEGES/MGI nº 1.363, de 21 de fevereiro de 2025, que institui o Tramita GOV.BR, plataforma digital de comunicação integrante do Processo Eletrônico Nacional – PEN, destinado à tramitação externa, por meio de expedição, de processos administrativos eletrônicos e documentos avulsos entre sistemas de processo administrativo eletrônico –SPE.
 
 Acompanhe essa página para acompanhar o lançamento de novos e atualização dos existentes.
 
