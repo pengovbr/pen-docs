@@ -18,7 +18,7 @@ Para acessar essa funcionalidade no sistema, o usuário com perfil “Informáti
 2. Selecione a opção “Infra”;
 3. Clique no item “Sequências”.
 
-.. figure:: _static/images/04-26_Introducao-a-Funcionalidade-Sequencia_TelaSEI_Acessar-Sequencias.png
+.. figure:: _static/images/04-26_Introdução-à-Funcionalidade-Sequência_TelaSEI_Acessar-Sequencias.png
 
 .. admonition:: Nota
 
@@ -47,7 +47,7 @@ Outro exemplo é o ID do último sistema cadastrado no SEI, o qual é mantido pe
 
 A tela dessa funcionalidade é apresentada da seguinte maneira:
 
-.. figure:: _static/images/04-26_Introducao-a-Funcionalidade-Sequencia_Tela_Sistemas.png
+.. figure:: _static/images/04-26_Introdução-à-Funcionalidade-Sequência_Tela_Sistemas.png
 
 Manutenção
 ----------
@@ -56,7 +56,7 @@ O usuário com perfil “Informática” pode realizar algumas ações de manute
 
 A tela dessa funcionalidade é apresentada da seguinte maneira:
 
-.. figure:: _static/images/04-26_Manutencao_Tela_Manutencao-Sequencias.png
+.. figure:: _static/images/04-26_Manutenção_Tela_Manutenção-Sequencias.png
 
 Inclusão de Sequência
 ---------------------
@@ -74,14 +74,14 @@ _**Lembre-se de salvar a operação!**_
 
 A imagem a seguir demonstra a disposição dos campos descritos:
 
-.. figure:: _static/images/04-26_Inclusao-de-Sequência_Tela_Nova-Sequencia.png
+.. figure:: _static/images/04-26_Inclusão-de-Sequência_Tela_Nova-Sequencia.png
 
 Alteração
 ---------
 
 A ação “Alterar Sequência” permite ao usuário modificar as informações dos campos. Para alterar um critério já cadastrado, é necessário selecionar a sequência que se deseja alterar e clicar no ícone “Alterar Sequência” disponível na coluna “Ações”. Em seguida abrirá uma nova tela com os campos “Nome”, “Incremento”, “Valor Atual” e “Valor Máximo”, todos habilitados para alteração.
 
-.. figure:: _static/images/04-26_Alteracao_Tela_Alterar-Sequencias.png
+.. figure:: _static/images/04-26_Alteração_Tela_Alterar-Sequencias.png
 
 Exclusão
 --------
@@ -93,7 +93,7 @@ A ação “Excluir Sequência” pode ser realizada de duas maneiras:
 
 Depois disso, aparece uma mensagem de confirmação da exclusão conforme imagem a seguir:
 
-.. figure:: _static/images/04-26_Exclusao_Tela_Excluir-Sequencias.png
+.. figure:: _static/images/04-26_Exclusão_Tela_Excluir-Sequencias.png
 
 Consulta de Sequência
 ---------------------

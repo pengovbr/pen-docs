@@ -65,7 +65,7 @@ Os novos campos do Tipo de Formulário podem ser cadastrados na tela de “Tipos
 
 A tela com lista de Tipos de Formulários será exibida.
 
-.. figure:: _static/images/04-18_Tipos-Formulários_Lista_Tipos_Campos.png
+.. figure:: _static/images/04-18_Tipos-Formularios_Lista_Tipos_Campos.png
 
 04. Localizar o Tipo de Formulário e clicar em “Campos do Tipo de Formulário”;
 
@@ -177,7 +177,7 @@ Os campos do Tipo de Formulário podem ser alterados na tela de “Tipos de Form
 
 A tela com lista de Tipos de Formulários será exibida.
 
-.. figure:: _static/images/04-18_Tipos-Formulários_Lista_Tipos_Campos.png
+.. figure:: _static/images/04-18_Tipos-Formularios_Lista_Tipos_Campos.png
 
 04. Localizar o Tipo de Formulário cujo campo será alterado e clicar em “Campos do Tipo de Formulário”;
 
@@ -214,7 +214,7 @@ Para desativar um Campo do Tipo de Formulário, deve-se seguir os seguintes pass
 
 A tela com lista de Tipos de Formulários será exibida.
 
-.. figure:: _static/images/04-18_Tipos-Formulários_Lista_Tipos_Campos.png
+.. figure:: _static/images/04-18_Tipos-Formularios_Lista_Tipos_Campos.png
 
 04. Localizar o Tipo de Formulário cujo campo será alterado e clicar em “Campos do Tipo de Formulário”;
 
@@ -245,7 +245,7 @@ Para reativar um Campo do Tipo de Formulário, deve-se seguir os seguintes passo
 
 A tela com lista de Tipos de Formulários será exibida.
 
-.. figure:: _static/images/04-18_Tipos-Formulários_Lista_Tipos_Campos.png
+.. figure:: _static/images/04-18_Tipos-Formularios_Lista_Tipos_Campos.png
 
 04. Localizar o Tipo de Formulário cujo campo será reativado e clicar em “Campos do Tipo de Formulário”;
 
@@ -276,7 +276,7 @@ Para excluir um Campo do Formulário, deve-se seguir os seguintes passos:
 
 A tela com lista de Tipos de Formulários será exibida.
 
-.. figure:: _static/images/04-18_Tipos-Formulários_Lista_Tipos_Campos.png
+.. figure:: _static/images/04-18_Tipos-Formularios_Lista_Tipos_Campos.png
 
 04. Localizar o Tipo de Formulário cujo campo será excluído e clicar em “Campos do Tipo de Formulário”;
 
@@ -313,7 +313,7 @@ A tela com lista de Tipos de Formulários será exibida.
 
 A tela “Alterar Tipo de Formulário será aberta”.
 
-.. figure:: _static/images/04-18_Tipos-Formularios_Tela-Tipo_de_Formulário_Alterar.png
+.. figure:: _static/images/04-18_Tipos-Formulários_Tela-Tipo_de_Formulário_Alterar.png
 
 05. Alterar os campos pertinentes;
 
@@ -397,7 +397,7 @@ Para reativar o Tipo de Formulário, é preciso seguir os seguintes passos:
 
 A tela com lista de Tipos de Formulários será exibida.
 
-.. figure:: _static/images/04-18_Tipos-Formularios_ListaTipos-Reativar.png
+.. figure:: _static/images/04-18_Tipos-Formulários_ListaTipos_Reativar.png
 
 04. Clicar em “Reativar Tipo de Formulário”;
 

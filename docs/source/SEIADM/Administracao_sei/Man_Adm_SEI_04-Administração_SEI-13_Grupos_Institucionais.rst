@@ -92,7 +92,7 @@ Para desativar o Grupo de Contato Institucional, o Administrador deve seguir os 
 A tela “Grupo de Contatos Institucional” será exibida:
 
 
-.. figure:: _static/images/04-13_Grupos-Contatos-Institucionais-Lista_Tela-Desativar.png
+.. figure:: _static/images/04-13_Grupos-Contatos-Institucionais_Lista_Desativar.png
 
 05. Localizar o Grupo a ser alterado e clicar no botão de Desativar Grupo de Contatos;
 
@@ -161,7 +161,7 @@ Cadastrar novo Grupo de E-mails Institucional
 
 Para cadastrar novo Grupo de E-mails Institucional, o Administrador deve seguir os seguintes passos:
 
-.. figure:: _static/images/04-13_Grupos-Email_Menu_Novo.png
+.. figure:: _static/images/04-13_Grupos-Email-Institucionais_Tela_Novo.png
 
 01. No Menu Principal, acessar “Administração”;
 
