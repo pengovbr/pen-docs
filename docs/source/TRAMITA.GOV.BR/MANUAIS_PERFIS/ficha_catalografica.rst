@@ -9,15 +9,15 @@ Ficha Catalográfica
             Brasil. Ministério da Gestão e da Inovação em Serviços Públicos, 
          Secretaria de Gestão e Inovação. 
                                                 
-            Manual técnico operacional da plataforma tramita GOV.BR [recurso eletrônico] / 
+            Manual do supervisor : plataforma tramita GOV.BR [recurso eletrônico] / 
          Ministério da Gestão e da Inovação em Serviços Públicos, Secretaria de Gestão 
          e Inovação. -- Brasília : Coordenação-Geral de Soluções Negociais do Processo 
          Eletrônico/DTGES/SEGES/MGI, 2025.
-                1 v. : il.                                                                      
+                1 v. : il.                                                           
                                                                                              
-            1. Tramita GOV.BR – Administração Pública Federal. 2. Plataforma digital de 
-         comunicação. 3.Tramitação de processos e documentos 4. Documentos eletrônicos – 
-         Controle. 4. Implantação. I. Título. 
+            1. Plataforma Tramita GOV.BR – Acesso. 2. Administração Pública 
+         – Descentralização. 3.Supervisor – Competência. 4. Gestor público - Controle.
+         6. Implantação – Requisitos. I. Título. 
             
 
                                                                            CDD 341.35
