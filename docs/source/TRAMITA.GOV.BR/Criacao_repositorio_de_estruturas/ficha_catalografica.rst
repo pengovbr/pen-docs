@@ -26,5 +26,3 @@ Ficha Catalográfica
 
       
 **Permite-se a reprodução desta publicação, em parte ou no todo, desde que citada a fonte e sem fins comerciais.**
-
- 1. Tramita GOV.BR – Administração Pública Federal. 2. Criação de repositórios – Regras. 3. Organização interna – Padronização. 4. Processo  eletrônico – Controle. I. Título. 
