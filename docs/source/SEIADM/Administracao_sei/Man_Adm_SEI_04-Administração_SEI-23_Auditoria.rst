@@ -10,7 +10,7 @@ O acesso à funcionalidade “Auditoria” é realizado por meio do seguinte cam
 2. Selecione a opção “Infra”;
 3. Clique no item “Auditoria”.
 
-.. figure:: _static/images/04-23_Introdução-a-Funcionalidade-Auditoria_TelaSEI_Funcionalidade-Auditoria.png
+.. figure:: _static/images/04-23_Introducao-a-Funcionalidade-Auditoria_TelaSEI_Funcionalidade-Auditoria.png
 
 .. admonition:: Nota
 

@@ -79,7 +79,7 @@ Dessa forma após seguir os passos supracitados pode-se alterar uma regra anteri
 
 A imagem a seguir apresenta a disposição dos campos disponíveis na tela “Alterar Regra de Auditoria”.
 
-.. figure:: _static/images/04-21_Alteraçao-de-Regra-de-Auditoria-no-SIP_Tela_Alterar-Regras-de-Auditoria.png
+.. figure:: _static/images/04-21_Alteracao-de-Regra-de-Auditoria-no-SIP_Tela_Acessar-Alterar-Regra-de-Auditoria.png
 
 .. admonition:: Nota
 

@@ -6,24 +6,23 @@ Ficha Catalográfica
 ::
   
    
-         Brasil. Ministério da Economia. Secretaria        
-               Especial de Desburocratização. Departamento do 
-               Processo Eletrônico Nacional em Rede                                                    
-             Caderno do PEN : manual operacional do Tramita.GOV.BR / Ministério da                        
-         Economia, Secretaria Especial de Desburocratização, Gestão e Governo Digital                
-         Secretaria de Gestão, Departamento do Processo Eletrônico Nacional em Rede. --            
-         Brasília: DTPRO/SEGES/Ministério da Economia, 2022.           
-             27 p. : il.                                                                      
+            Brasil. Ministério da Gestão e da Inovação em Serviços Públicos, 
+         Secretaria de Gestão e Inovação. 
+                                                
+            Padrão de criação de repositório : tramita GOV.BR [recurso eletrônico] / 
+         Ministério da Gestão e da Inovação em Serviços Públicos, Secretaria de Gestão 
+         e Inovação. -- Brasília : Coordenação-Geral de Soluções Negociais do Processo 
+         Eletrônico/DTGES/SEGES/MGI, 2025.
+                1 v. : il.                                                                      
                                                                                              
-                                                                                             
-             1. Processo eletrônico Nacional – Basil. 2. Tramitação de Processos e 
-         Documentos. 3. Documento Digital. 4. Processo eletrônico. 5. Administração pública
-         Federal. 6. Brasil. Secretatia Especial de Desburocratização, Gestão e Governo
-         Digital. I. Título. II. Manual operacional do Tramita.GOV.BR.               
+            1. Tramita GOV.BR – Administração Pública Federal. 2. Criação de repositórios 
+         – Regras. 3.Organização interna – Padronização. 4. Processo  eletrônico – Controle. 
+         I. Título.
+            
 
-                                                                             CDD 341.35
-                                                                           CDU 37.077.3 
+                                                                           CDD 341.35
+                                                                           CDU 35.077 
 
 
+      
 **Permite-se a reprodução desta publicação, em parte ou no todo, desde que citada a fonte e sem fins comerciais.**
-
