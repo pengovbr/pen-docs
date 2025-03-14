@@ -30,9 +30,7 @@ Créditos
 
 **Equipe Técnica** 
 
-* Antônio Augusto Rosolen Júnior 
 * Caio Fellipe De Oliveira Martins 
-* Cíntia Aparecida de Moura e Silva Gualberto 
 * Cristiana Gontijo Maciel Cafagna 
 * Vinícius Rafael Lobo de Mendonça 
 * Yuri Álisson Rodrigues de Oliveira
@@ -48,5 +46,5 @@ Créditos
 * Oscar Henrique Carneiro de Oliveira
 
 
-*Caderno do PEN: Manual Técnico Operacional Tramita GOV.BR. Brasília, 2025.*
+*Caderno do PEN: Manual do Portal de Administração. Brasília, 2025.*
 

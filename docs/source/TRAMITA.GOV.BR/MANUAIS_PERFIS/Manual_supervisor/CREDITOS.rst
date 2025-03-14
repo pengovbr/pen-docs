@@ -48,5 +48,5 @@ Créditos
 * Oscar Henrique Carneiro de Oliveira
 
 
-*Caderno do PEN: Manual Técnico Operacional Tramita GOV.BR. Brasília, 2025.*
+*Caderno do PEN: Manual do Supervisor Tramita GOV.BR. Brasília, 2025.*
 
