@@ -161,7 +161,7 @@ Cadastrar novo Grupo de E-mails Institucional
 
 Para cadastrar novo Grupo de E-mails Institucional, o Administrador deve seguir os seguintes passos:
 
-.. figure:: _static/images/04-13_Grupos-Email-Institucionais_Tela_Novo.png
+.. figure:: _static/images/04-13_Grupos-Email-Institucionais_Menu_Novo.png
 
 01. No Menu Principal, acessar “Administração”;
 
