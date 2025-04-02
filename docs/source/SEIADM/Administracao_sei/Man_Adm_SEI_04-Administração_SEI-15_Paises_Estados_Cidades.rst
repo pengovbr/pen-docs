@@ -51,7 +51,7 @@ Para alterar o nome do país, deve-se seguir os seguintes passos:
 A tela com a lista “Países” é exibida:
 
 
-.. figure:: _static/images/04-15_Pais-Estado-Cidade_Lista-Pais-Alterar
+.. figure:: _static/images/04-15_Pais-Estado-Cidade_Lista-Pais-Alterar.png
 
 
 05. Localizar o País e clicar em Alterar País;
