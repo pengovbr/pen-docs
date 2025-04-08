@@ -53,26 +53,42 @@ No Sistema de Permissões (SIP)
 Concessão dos perfis
 ^^^^^^^^^^^^^^^^^^^^
 
-O módulo Gestão Documental do SEI inclui dois novos perfis no SEI: perfil GD Arquivamento, que permite realizar o arquivamento e o desarquivamento de processos, e o perfil GD Avaliação, que permite realizar as configurações da gestão documental, a avaliação e a eliminação de processos. 
+O módulo Gestão Documental do SEI inclui dois novos perfis no SEI, que **devem ser concedidos aos usuários** conforme definição do órgão: 
+
+* Perfil GD Arquivamento - Permite realizar o arquivamento e o desarquivamento de processos; 
+
+* Perfil GD Avaliação - Permite realizar as configurações da gestão documental, a avaliação e a eliminação de processos. 
 
 .. admonition:: ATENÇÃO 
 
    A partir da versão 4.1, o SEI possui menus e recursos de gestão documental nativos. Para o correto funcionamento do módulo Gestão Documental do SEI, é necessário que os recursos sejam desativados no SIP, menu Recursos > Listar, conforme orientação abaixo:
 
-**Recursos que devem ser desativados:**
+ **Recursos que devem ser desativados nas versões 4.1.X:**
 
-.. list-table::
-   :widths: 20
-   :header-rows: 1
+   .. list-table::
+      :widths: 20
+      :header-rows: 1
 
-   - * Recurso:
-   - * arquivamento_eliminacao_listar
-   - * avaliacao_documental_pesquisar
-   - * cpad_avaliacao_listar
-   - * cpad_cadastrar
-   - * cpad_listar
-   - * cpad_reativar
-   - * edital_eliminacao_listar
+      - * Recurso:
+      - * arquivamento_eliminacao_listar
+      - * avaliacao_documental_pesquisar
+      - * cpad_avaliacao_listar
+      - * cpad_cadastrar
+      - * cpad_listar
+      - * cpad_reativar
+      - * edital_eliminacao_listar
+
+ **Recursos que devem ser desativados na versão 5.0.0:**
+
+   .. list-table::
+      :widths: 20
+      :header-rows: 1
+
+      - * Recurso:
+      - * edital_eliminacao_listar 
+      - * arquivamento_eliminacao_listar 
+      - * avaliacao_documental_pesquisar
+      - * revisao_avaliacao_pesquisar 
 
 
 No Sistema Eletrônico de Informações (SEI)

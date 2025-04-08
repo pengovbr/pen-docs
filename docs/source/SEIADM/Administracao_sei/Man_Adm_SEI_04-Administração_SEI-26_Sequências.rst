@@ -41,7 +41,7 @@ As informações da quantidade de processos podem ser ratificadas por meio da fu
 
 A tela dessa funcionalidade é apresentada da seguinte maneira:
 
-.. figure:: _static/images/04-26_Introdução-à-Funcionalidade-Sequência_Tela_Estatisticas-da-Unidade.png
+.. figure:: _static/images/04-26_Introducao-a-Funcionalidade-Sequencia_Tela_Estatisticas-da-Unidade.png
 
 Outro exemplo é o ID do último sistema cadastrado no SEI, o qual é mantido pela sequência “usuario_sistema”, sendo que seu valor conforme apresentado na imagem a seguir é 2. Essa informação é ratificada por meio do seguinte caminho: no menu principal, acesse “Administração”, em seguida selecione “Sistemas” e por fim clique em “Listar”. 
 
@@ -74,7 +74,7 @@ _**Lembre-se de salvar a operação!**_
 
 A imagem a seguir demonstra a disposição dos campos descritos:
 
-.. figure:: _static/images/04-26_Inclusao-de-Sequência_Tela_Nova-Sequencia.png
+.. figure:: _static/images/04-26_Inclusao-de-Sequencia_Tela_Nova-Sequencia.png
 
 Alteração
 ---------

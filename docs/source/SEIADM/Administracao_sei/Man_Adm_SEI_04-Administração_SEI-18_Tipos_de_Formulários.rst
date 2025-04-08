@@ -391,9 +391,9 @@ Para reativar o Tipo de Formulário, é preciso seguir os seguintes passos:
 
 02. Acessar “Tipos de Formulários”;
 
-03. Clicar em “Listar”;
+03. Clicar em “Reativar”;
 
-.. figure:: _static/images/04-18_Tipos-Formularios_Menu-Listar.png
+.. figure:: _static/images/04-18_Tipos-Formularios_Menu-Reativar.png
 
 A tela com lista de Tipos de Formulários será exibida.
 
