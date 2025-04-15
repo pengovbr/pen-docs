@@ -28,7 +28,7 @@ A estruturação do repositório tem como base a estrutura do Poder Judiciário 
 
 .. admonition:: Nota
 
-   Panorama e Estrutura do Poder Judiciário Brasileiro – Disponível em: https://www.cnj.jus.br/poderjudiciario/panorama-e-estrutura-do-poder-judiciario-brasileiro/ - Acessado em maio de 2024.
+   Panorama e Estrutura do Poder Judiciário Brasileiro – Disponível em: https://www.cnj.jus.br/poder-judiciario/panorama-e-estrutura-do-poder-judiciario-brasileiro/ - Acessado em maio de 2024.
 
 
 Supremo Tribunal Federal

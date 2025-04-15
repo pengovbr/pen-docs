@@ -168,7 +168,7 @@ Uma vez criado o repositório, os órgãos de referência poderão ser incluído
 
    **Nome:**  Ministério Público de/da/do [Nome do Estado]
 
-   **Sigla:**[Cada Ministério Público possui sigla própria já definida]
+   **Sigla:** [Cada Ministério Público possui sigla própria já definida]
 
 Referência para inserção correta no repositório:
  
