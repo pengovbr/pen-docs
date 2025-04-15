@@ -23,13 +23,20 @@ Cenários de Utilização
 
 Nesta seção são descritos os cenários de utilização principais da Solução de interoperabilidade. A explicação é composta do fluxo de chamadas e texto complementar. Os cenários são: 
 
-• Iniciar o envio de um processo administrativo; 
-• Iniciar o envio de um documento avulso; 
-• Enviar os componentes digitais do trâmite; 
-• Enviar o recibo de conclusão do envio dos componentes digitais; 
-• Receber metadados e componentes digitais; 
-• Assinar e enviar o recibo de conclusão do trâmite; e, 
-• Receber o recibo de conclusão do trâmite.
+• Iniciar o envio de Status 0 para Status 1 - "Aguardando o envio dos arquivos digitais";
+• Iniciar o envio de um documento avulso; Status 2 - Arquivos digitais recebidos pelo Tramita GOV.BR.
+• Enviar os componentes digitais do trâmite;
+• Enviar o recibo de conclusão do envio dos componentes digitais;
+• Receber metadados e componentes digitais; Status 3 - Metadados recebidos pelo sistema de processo eletrônico destinatário e Status 4 - Arquivos digitais recebidos pelo destinatário
+
+• Assinar e enviar o recibo de conclusão do trâmite; e, Status 5 Recibo de conclusão recebido pelo Tramita GOV.BR
+• Receber o recibo de conclusão do trâmite. Status 6 - Recibo de conclusão recebido pelo remetente
+
+1,2,3 ou 4 para o 7 - Trâmite cancelado
+3 ou 4 para o 8 - Trâmite recusado. Aguardando ciência do remetente
+8 para 9 - Ciência da recusa recebido pelo remetente
+1,2,3 ou 4 para o 10 - Trâmite cancelado automaticamente
+
 
 
 Iniciar o envio de um processo administrativo 
@@ -39,10 +46,9 @@ Quando uma unidade administrativa deseja tramitar um processo administrativo, o 
 
 • Metadados do processo administrativo a ser tramitado; 
 
-• Identificação da unidade administrativa de destino, bem como seu repositório de estruturas 
-organizacionais. 
+• Identificação da unidade administrativa de destino, bem como seu repositório de estruturas organizacionais. 
 
-A Figura abaixo descreve os serviços que devem ser chamados para execução deste cenário. 
+A Figura abaixo descreve os serviços que devem ser chamados para execução deste cenário, a partir do endpoin enviarprocesso (/interoperabilidade/rest/v3/tramites/processo). 
 
 .. figure:: _static/images/Fluxo_tramite_Cenario_01-envio_proc_adm.png
 

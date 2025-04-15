@@ -1,11 +1,15 @@
 Conselhos de Fiscalização Profissional 
 =======================================
 
-Nessa seção é explicada como são inseridos os Conselhos de Fiscalização Profissional (CFP) no âmbito Federal e Regional, os quais devem ser inseridos, exclusivamente, no repositório específico dos Conselhos de Fiscalização Profissional. 
+Nessa seção é explicado como são inseridos os Conselhos de Fiscalização Profissional (CFP) no âmbito Federal e Regional, os quais devem ser inseridos, exclusivamente, no repositório específico dos Conselhos de Fiscalização Profissional. 
 
  
 Nomenclatura do repositório dos Conselhos de Fiscalização Profissional 
 ----------------------------------------------------------------------
+
+.. admonition:: Observação
+
+   Apenas os Administradores da Plataforma podem cadastrar o repositório e os nós do primeiro nível da árvore (Seções 1 e 2).
 
 O repositório criado para concentrar os órgãos pertencentes às classes profissionais dos Conselhos de Fiscalização Profissional deve possuir nome e descrição inseridas conforme a instrução que segue. 
 
@@ -111,6 +115,10 @@ Uma vez criado o repositório e estruturadas as suas categorias, é esperado que
 Inserção de órgãos de referência no repositório dos Conselhos de Fiscalização Profissional 
 ------------------------------------------------------------------------------------------
 
+.. admonition:: Observação
+
+   Apenas os Administradores e os Supervisores da Plataforma podem autorizar o acesso a plataforma (Seção 4).
+
 A nível de explicação, se entende por órgãos de referência neste documento, os órgãos a serem inseridos no Portal de Administração pelo administrador do Tramita GOV.BR, na categoria específica do repositório, no momento da autorização de acesso a plataforma. 
 
  
@@ -120,18 +128,16 @@ Conselhos Federais
 
 Uma vez criada a categoria, os órgãos de referência poderão ser incluídos. Para este caso os Conselhos de Federais serão cadastrados como um órgão de referência conforme instrução abaixo. 
 
-  **Nome:** Conselho Federal de/dos [Nome da Classe] 
+  **Nome:** Conselho Federal de/dos [Nome da Classe]
 
-  **Sigla:** [Cada conselho possui sigla própria já definida] 
+  **Sigla:** [Cada conselho possui sigla própria já definida]
 
-  **Descrição:** Composto pela estrutura interna do Conselho Federal de/dos [Nome da Classe]. 
 
 .. admonition:: Nota
 
    Em específico, quatro conselhos possuem grafia diferente dos demais. Para estes serão criadas seções específicas de forma a estabelecer um consoante grau de padronização.
 
-
-Exemplo: 
+Referência para inserção adequada à categoria:
 
 .. figure:: _static/images/repositorio_dos_Conselhos_de_Fiscalizacao_Profissional.png
 
@@ -146,8 +152,6 @@ Cabe ressaltar que diante da inexistência de uma padronização entre a grafia 
   **Nome:** [Nome por extenso do Conselho Regional] 
 
   **Sigla:** [Sigla do Conselho Regional] 
-
-  **Descrição:** Composto pela estrutura interna do [Nome por extenso do Conselho Regional]. 
 
 .. admonition:: Nota
 

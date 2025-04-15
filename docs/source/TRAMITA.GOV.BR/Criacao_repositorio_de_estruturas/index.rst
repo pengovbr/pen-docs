@@ -14,9 +14,10 @@ Diante do constante crescimento de adesões ao Tramita GOV.BR, e visualizando a 
 
 Como parte desse processo de aprimoramento, foram estabelecidas regras específicas de criação de repositórios, organizadas conforme o perfil do órgão solicitante. As regras estão estruturadas da seguinte forma:
 
-• Poder Judiciário;
-• Estados e Municípios;
-• Conselhos de Fiscalização Profissional.
+* Poder Judiciário;
+* Estados e Municípios;
+* Conselhos de Fiscalização Profissional;
+* Ministérios Públicos.
 
 Para mais informações sobre cada categoria de organização, consulte a seção correspondente.
 
@@ -33,5 +34,6 @@ Sumário
    PODER_JUDICIARIO
    ESTADOS_MUNICIPIOS
    CONSELHOS_DE_FISCALIZACAO_PROFISSIONAL
+   MINISTERIOS_PUBLICOS
    ficha_catalografica
    CREDITOS

@@ -1,10 +1,15 @@
 Poder Judiciário
 ================
 
-Nessa seção é explicada como são inseridos os órgãos do poder judiciário, os quais devem ser inseridos, exclusivamente, no repositório específico do Poder Judiciário.
+Nessa seção é explicado como são inseridos os órgãos do poder judiciário, os quais devem ser inseridos, exclusivamente, no repositório específico do Poder Judiciário.
 
 Nomenclatura do repositório do Poder Judiciário 
 -----------------------------------------------
+
+.. admonition:: Observação
+
+   Apenas os Administradores da Plataforma podem cadastrar o repositório e os nós do primeiro nível da árvore (Seções 1 e 2). 
+
 
 O repositório criado para concentrar os órgãos pertencentes à esfera do poder judiciário brasileiro deve possuir nome e descrição inseridas conforme a instrução que segue.
 
@@ -209,10 +214,14 @@ Uma vez criado o repositório e estruturadas as suas categorias, é esperado que
 Inserção de órgãos de referência no repositório do Poder Judiciário
 -------------------------------------------------------------------
 
+.. admonition:: Observação
+
+   Apenas os Administradores e os Supervisores da Plataforma podem autorizar o acesso a plataforma (Seção 4).
+
 A nível de explicação, se entende por órgãos de referência neste documento, os órgãos a serem inseridos no Portal de Administração pelo administrador do Tramita GOV.BR, na categoria específica do repositório, no momento da autorização de acesso a plataforma.
 
-Supremo Tribunal Federal
-+++++++++++++++++++++++++
+Supremo Tribunal Federal - STF
+++++++++++++++++++++++++++++++
 
 Uma vez criada a categoria é possível inserir o órgão de referência da categoria. Para o caso específico desta categoria somente um órgão será cadastrado e deve 
 possuir nome, sigla e descrição inseridas conforme a instrução que segue.
@@ -221,10 +230,13 @@ possuir nome, sigla e descrição inseridas conforme a instrução que segue.
 
   **Sigla:** STF
 
-  **Descrição:** Composto pela estrutura interna do Supremo Tribunal Federal.
+Referência para inserção adequada à categoria: 
 
-Superior Tribunal de Justiça
-+++++++++++++++++++++++++++++
+.. figure:: _static/images/referencia_categoria_STF.png
+
+
+Superior Tribunal de Justiça - STJ
+++++++++++++++++++++++++++++++++++++
 
 Uma vez criada a categoria é possível inserir o órgão de referência da categoria. Para o caso específico desta categoria somente um órgão será cadastrado e deve 
 possuir nome, sigla e descrição inseridas conforme a instrução que segue.
@@ -233,23 +245,44 @@ possuir nome, sigla e descrição inseridas conforme a instrução que segue.
 
   **Sigla:** STJ
 
-  **Descrição:** Composto pela estrutura interna do Superior Tribunal de Justiça.
 
-Superior Tribunal Militar
-+++++++++++++++++++++++++
+Referência para inserção adequada à categoria: 
+
+.. figure:: _static/images/referencia_categoria_STJ.png
+
+Superior Tribunal Militar - STM
+++++++++++++++++++++++++++++++++
 
 
 Uma vez criada a categoria é possível inserir o órgão de referência da categoria. Para o caso específico desta categoria somente um órgão será cadastrado e deve 
 possuir nome, sigla e descrição inseridas conforme a instrução que segue.
 
+  **Nome:** Superior Tribunal Militar
+
+  **Sigla:** STM
+
+Referência para inserção adequada à categoria: 
+
+.. figure:: _static/images/referencia_categoria_STM.png
+
+
+Tribunal Superior do Trabalho - TST
++++++++++++++++++++++++++++++++++++
+
+Uma vez criada a categoria é possível inserir o órgão de referência da categoria. Para o caso específico desta categoria somente um órgão será cadastrado e deverá seguir a instrução abaixo.
+
   **Nome:** Tribunal Superior do Trabalho
 
   **Sigla:** TST
 
-  **Descrição:** Composto pela estrutura interna do Tribunal Superior do Trabalho.
+Referência para inserção adequada à categoria: 
 
-Tribunal Superior Eleitoral
-+++++++++++++++++++++++++++++
+.. figure:: _static/images/referencia_categoria_TST.png
+
+
+
+Tribunal Superior Eleitoral - TSE
++++++++++++++++++++++++++++++++++
 
 Uma vez criada a categoria é possível inserir o órgão de referência da categoria.Para o caso específico desta categoria somente um órgão será cadastrado e deve 
 possuir nome, sigla e descrição inseridas conforme a instrução que segue.
@@ -259,62 +292,60 @@ possuir nome, sigla e descrição inseridas conforme a instrução que segue.
 
   **Sigla:** TSE
 
-  **Descrição:** Composto pela estrutura interna do Tribunal Superior Eleitoral.
+Referência para inserção adequada à categoria: 
 
-Conselhos de Justiça
-+++++++++++++++++++++
+.. figure:: _static/images/referencia_categoria_TSE.png
+
+
+
+Conselhos de Justiça - CJ
++++++++++++++++++++++++++
 
 Uma vez criada a categoria, os órgãos de referência poderão ser incluídos. Para este caso os Conselhos de Justiça serão cadastrados como um órgão de referência 
 e devem possuir nome, sigla e descrição inseridas conforme a instrução que segue.
 
-  **Nome:** Conselho [Nome do Conselho]
+  **Nome:** [Nome do Conselho]
 
   **Sigla:** [Sigla do Nome do Conselho]
 
-  **Descrição:** Composto pela estrutura interna do Conselho [Nome do Conselho].
-
-Exemplo:
+Referência para inserção adequada à categoria:
 
 .. figure:: _static/images/Nomenclatura_CJF.png
 
-Tribunais de Justiça
-++++++++++++++++++++
+Tribunais de Justiça - TJ
+++++++++++++++++++++++++++
 
 Uma vez criada a categoria, os órgãos de referência poderão ser incluídos. Para este caso os Tribunais de Justiça serão cadastrados como um órgão de referência e 
 devem possuir nome, sigla e descrição inseridas conforme a instrução que segue.
 
-  **Nome:** Tribunal de Justiça de/do [Nome do Estado]
+  **Nome:** Tribunal de Justiça do/da/de [Nome do Estado]
 
   **Sigla:** TJ[UF]
 
-  **Descrição:** Composto pela estrutura interna do Tribunal de Justiça de/do [Nome do Estado].
-
-Exemplo:
+Referência para inserção adequada à categoria:
 
 .. figure:: _static/images/Nomenclatura_TJ_ESTADO.png
 
 
-Tribunais de Justiça Militar
-+++++++++++++++++++++++++++++
+Tribunais de Justiça Militar - TJM
++++++++++++++++++++++++++++++++++++
 
 
 Uma vez criada a categoria, os órgãos de referência poderão ser incluídos. Para este caso os Tribunais de Justiça Militar serão cadastrados como um órgão de 
 referência e devem possuir nome, sigla e descrição inseridas conforme a instrução que segue.
 
 
-  **Nome:** Tribunal de Justiça Militar de/do [Nome do Estado]
+  **Nome:** Tribunal de Justiça Militar do/da/de [Nome do Estado]
 
   **Sigla:** TJM[UF]
 
-  **Descrição:** Composto pela estrutura interna do Tribunal de Justiça Militar de/do [Nome do Estado].
-
-Exemplo:
+Referência para inserção adequada à categoria:
 
 .. figure:: _static/images/Nomenclatura_TJM_ESTADO.png
 
 
-Tribunais Regionais do Trabalho
-+++++++++++++++++++++++++++++++
+Tribunais Regionais do Trabalho - TRT
+++++++++++++++++++++++++++++++++++++++
 
 Uma vez criada a categoria, os órgãos de referência poderão ser incluídos. Para este caso os Tribunais Regionais do Trabalho serão cadastrados como um órgão de 
 referência e devem possuir nome, sigla e descrição inseridas conforme a instrução que segue.
@@ -322,36 +353,35 @@ referência e devem possuir nome, sigla e descrição inseridas conforme a instr
 
   **Nome:** Tribunal Regional do Trabalho da Xª Região
 
-  **Sigla:** TRTX
+  **Sigla:** TRTXX
 
-  **Descrição:** Composto pela estrutura interna do Tribunal Regional do Trabalho da Xª Região.
+.. admonition:: Nota
 
+   Para os tribunais da 1ª à 9ª região, será adicionado o dígito 0 à sigla com o propósito de manter o padrão.
 
-Exemplo:
+Referência para inserção adequada à categoria:
 
 .. figure:: _static/images/Nomenclatura_TRT_X.png
 
-Tribunais Regionais Eleitorais
-+++++++++++++++++++++++++++++++
+Tribunais Regionais Eleitorais - TRE
++++++++++++++++++++++++++++++++++++++
 
 Uma vez criada a categoria, os órgãos de referência poderão ser incluídos. Para este caso os Tribunais Regionais Eleitorais serão cadastrados como um órgão de 
 referência e devem possuir nome, sigla e descrição inseridas conforme a instrução que segue.
 
-  **Nome:**  Tribunal Regional Eleitoral de/do [Nome do Estado]
+  **Nome:**  Tribunal Regional Eleitoral do/da/de [Nome do Estado]
 
   **Sigla:**  TRE-[UF]
 
   **Descrição:** Composto pela estrutura interna do Tribunal Regional Eleitoral de/do [Nome do Estado].
 
-
-
-Exemplo:
+Referência para inserção adequada à categoria:
 
 .. figure:: _static/images/Nomenclatura_TRE_UF.png
 
 
-Tribunais Regionais Federais
-++++++++++++++++++++++++++++
+Tribunais Regionais Federais - TRF
++++++++++++++++++++++++++++++++++++
 
 Uma vez criada a categoria, os órgãos de referência poderão ser incluídos. Para este caso os Tribunais Regionais Federais serão cadastrados como um órgão de 
 referência e devem possuir nome, sigla e descrição inseridas conforme a instrução que segue.
@@ -360,10 +390,7 @@ referência e devem possuir nome, sigla e descrição inseridas conforme a instr
 
   **Sigla:** TRFX
 
-  **Descrição:** : Composto pela estrutura interna do Tribunal Regional Federal da Xª Região.
-
-
-Exemplo:
+Referência para inserção adequada à categoria:
 
 .. figure:: _static/images/Nomenclatura_TRF_X.png
 
