@@ -9,7 +9,7 @@ Nomenclatura do repositório dos Conselhos de Fiscalização Profissional
 
 .. admonition:: Observação
 
-   Apenas os Administradores da Plataforma podem cadastrar o repositório e os nós do primeiro nível da árvore (Seções 1 e 2).
+   Apenas os Administradores da Plataforma podem cadastrar o repositório e os nós do primeiro nível da árvore (Seções 3.1 e 3.2).
 
 O repositório criado para concentrar os órgãos pertencentes às classes profissionais dos Conselhos de Fiscalização Profissional deve possuir nome e descrição inseridas conforme a instrução que segue. 
 
@@ -117,7 +117,7 @@ Inserção de órgãos de referência no repositório dos Conselhos de Fiscaliza
 
 .. admonition:: Observação
 
-   Apenas os Administradores e os Supervisores da Plataforma podem autorizar o acesso a plataforma (Seção 4).
+   Apenas os Administradores e os Supervisores da Plataforma podem autorizar o acesso a plataforma (Seção 3.4).
 
 A nível de explicação, se entende por órgãos de referência neste documento, os órgãos a serem inseridos no Portal de Administração pelo administrador do Tramita GOV.BR, na categoria específica do repositório, no momento da autorização de acesso a plataforma. 
 

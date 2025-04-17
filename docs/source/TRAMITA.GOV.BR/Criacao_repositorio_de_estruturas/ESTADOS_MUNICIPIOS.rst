@@ -9,7 +9,7 @@ Nomenclatura do Repositório da Unidade Federativa
 
 .. admonition:: Nota
 
-   Apenas os Administradores da Plataforma podem cadastrar o repositório e os nós do primeiro nível da árvore (Seções 1 e 2).
+   Apenas os Administradores da Plataforma podem cadastrar o repositório e os nós do primeiro nível da árvore (Seções 2.1 e 2.2).
 
 O repositório criado para uma determinada Unidade Federativa deve possuir nome e descrição inseridas conforme a instrução que segue.
 
@@ -111,7 +111,7 @@ Inserção de órgãos de referência no repositório da Unidade Federativa
 
 .. admonition:: Observação
 
-   Apenas os Administradores e os Supervisores da Plataforma podem autorizar o acesso a plataforma (Seção 4).
+   Apenas os Administradores e os Supervisores da Plataforma podem autorizar o acesso a plataforma (Seção 2.4).
 
 A nível de explicação, se entende por órgãos de referência neste documento, os órgãos a serem inseridos no grupo específico do repositório, no momento da autorização de acesso a plataforma.
 

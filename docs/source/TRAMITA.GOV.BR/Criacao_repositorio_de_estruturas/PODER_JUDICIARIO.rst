@@ -8,7 +8,7 @@ Nomenclatura do repositório do Poder Judiciário
 
 .. admonition:: Observação
 
-   Apenas os Administradores da Plataforma podem cadastrar o repositório e os nós do primeiro nível da árvore (Seções 1 e 2). 
+   Apenas os Administradores da Plataforma podem cadastrar o repositório e os nós do primeiro nível da árvore (Seções 1.1 e 1.2). 
 
 
 O repositório criado para concentrar os órgãos pertencentes à esfera do poder judiciário brasileiro deve possuir nome e descrição inseridas conforme a instrução que segue.
@@ -24,11 +24,10 @@ Exemplo:
 Categorias do repositório do Poder Judiciário
 ---------------------------------------------
 
-A estruturação do repositório tem como base a estrutura do Poder Judiciário Brasileiro apresentada pelo Conselho Nacional de Justiça e é configurada por meio de onze nós que estão no primeiro nível do repositório. A saber, são classificadas como categorias, os diversos tipos de tribunais pertencentes à essa esfera de poder, bem como conselhos que fazem parte de sua estrutura.
+A estruturação do repositório tem como base a estrutura do Poder Judiciário Brasileiro apresentada pelo Conselho Nacional de Justiça [1]_ e é configurada por meio de onze nós que estão no primeiro nível do repositório. A saber, são classificadas como categorias, os diversos tipos de tribunais pertencentes à essa esfera de poder, bem como conselhos que fazem parte de sua estrutura.
 
-.. admonition:: Nota
 
-   Panorama e Estrutura do Poder Judiciário Brasileiro – Disponível em: https://www.cnj.jus.br/poder-judiciario/panorama-e-estrutura-do-poder-judiciario-brasileiro/ - Acessado em maio de 2024.
+   .. [1] Panorama e Estrutura do Poder Judiciário Brasileiro – Disponível em: https://www.cnj.jus.br/poder-judiciario/panorama-e-estrutura-do-poder-judiciario-brasileiro/ - Acessado em maio de 2024.
 
 
 Supremo Tribunal Federal
@@ -85,7 +84,7 @@ A configuração da categoria Tribunal Superior do Trabalho é de composição �
 
   **Sigla:** TST
 
-  **Descrição:** Composto pela estrutura interna do Tribunal Superior do Trabalho.
+  **Descrição:** Uma vez criada a categoria é possível inserir o órgão de referência da categoria. Para o caso específico desta categoria somente um órgão será cadastrado e deve possuir nome, sigla e descrição inseridas conforme a instrução que segue.
 
 Exemplo:
 
@@ -109,7 +108,7 @@ Exemplo:
 Conselhos de Justiça
 ++++++++++++++++++++
 
-A configuração da categoria dos Conselhos de Justiça e deve possuir nome, sigla e descrição inseridas conforme a instrução que segue.
+A configuração da categoria dos Conselhos de Justiça deve possuir nome, sigla e descrição inseridas conforme a instrução que segue.
 
   **Nome:** Conselhos de Justiça
 
@@ -194,7 +193,7 @@ A configuração da categoria dos Tribunais Regionais Federais deve seguir a ins
 
   **Sigla:** TRF
 
-  **Descrição:** Composto pelos Tribunais Regionais Federais.
+  **Descrição:** A configuração da categoria dos Tribunais Regionais Federais deve possuir nome, sigla e descrição inseridas conforme a instrução que segue.
 
 
 Exemplo:
@@ -216,7 +215,7 @@ Inserção de órgãos de referência no repositório do Poder Judiciário
 
 .. admonition:: Observação
 
-   Apenas os Administradores e os Supervisores da Plataforma podem autorizar o acesso a plataforma (Seção 4).
+   Apenas os Administradores e os Supervisores da Plataforma podem autorizar o acesso a plataforma (Seção 1.4).
 
 A nível de explicação, se entende por órgãos de referência neste documento, os órgãos a serem inseridos no Portal de Administração pelo administrador do Tramita GOV.BR, na categoria específica do repositório, no momento da autorização de acesso a plataforma.
 

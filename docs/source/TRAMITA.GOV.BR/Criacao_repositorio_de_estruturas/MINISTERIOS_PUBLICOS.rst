@@ -9,7 +9,7 @@ Nomenclatura do repositório dos Ministérios Públicos
 
 .. admonition:: Observação
 
-   Apenas os Administradores da Plataforma podem cadastrar o repositório e os nós do primeiro nível da árvore (Seções 1 e 2).
+   Apenas os Administradores da Plataforma podem cadastrar o repositório e os nós do primeiro nível da árvore (Seções 4.1 e 4.2).
 
 O repositório centraliza os ramos que compõem o Ministério Público da União (MPU), os Ministérios Públicos Estaduais (MPEs) e o Conselho Nacional do Ministério Público (CNMP), deve ter seu nome e descrição inseridos conforme a instrução a seguir.
 
@@ -90,7 +90,7 @@ Inserção de órgãos de referência no repositório dos Ministérios Públicos
 
 .. admonition:: Observação
 
-   Apenas os Administradores e os Supervisores da Plataforma podem autorizar o acesso a plataforma (Seção 4). 
+   Apenas os Administradores e os Supervisores da Plataforma podem autorizar o acesso a plataforma (Seção 4.4). 
 
 A nível de explicação, se entende por órgãos de referência neste documento, os órgãos a serem inseridos no grupo específico do repositório, no momento da autorização de acesso a plataforma.
 
