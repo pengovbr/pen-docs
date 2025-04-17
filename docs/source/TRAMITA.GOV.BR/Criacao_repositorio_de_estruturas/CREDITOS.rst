@@ -41,10 +41,8 @@ Créditos
 
 **Editoração e Arte** 
 
-* Brenda Grazielle Mercês Silva 
-* Mônica Yumi Harada
 * Oscar Henrique Carneiro de Oliveira
 
 
-*Caderno do PEN: Manual de Criação de Repositório Tramita GOV.BR. Brasília, 2025.*
+*Padrão de Criação de Repositório, Brasília, março de 2025.*
 
