@@ -222,14 +222,11 @@ A nível de explicação, se entende por órgãos de referência neste documento
 Supremo Tribunal Federal - STF
 ++++++++++++++++++++++++++++++
 
-Uma vez criada a categoria é possível inserir o órgão de referência da categoria. Para o caso específico desta categoria somente um órgão será cadastrado e deve 
-possuir nome, sigla e descrição inseridas conforme a instrução que segue.
+Uma vez criada a categoria é possível inserir o órgão de referência da categoria. Para o caso específico desta categoria somente um órgão será cadastrado conforme a instrução que segue.
 
   **Nome:** Supremo Tribunal Federal
 
   **Sigla:** STF
-
-  **Descição:** Será cadastrado conforme a instrução que segue.
 
 
 Referência para inserção adequada à categoria: 
@@ -240,14 +237,11 @@ Referência para inserção adequada à categoria:
 Superior Tribunal de Justiça - STJ
 ++++++++++++++++++++++++++++++++++++
 
-Uma vez criada a categoria é possível inserir o órgão de referência da categoria. Para o caso específico desta categoria somente um órgão será cadastrado e deve 
-possuir nome, sigla e descrição inseridas conforme a instrução que segue.
+Uma vez criada a categoria é possível inserir o órgão de referência da categoria. Para o caso específico desta categoria somente um órgão será cadastrado conforme a instrução que segue.
 
   **Nome:** Superior Tribunal de Justiça
 
   **Sigla:** STJ
-
-  **Descição:** Será cadastrado conforme a instrução que segue.
 
 Referência para inserção adequada à categoria: 
 
@@ -257,14 +251,12 @@ Superior Tribunal Militar - STM
 ++++++++++++++++++++++++++++++++
 
 
-Uma vez criada a categoria é possível inserir o órgão de referência da categoria. Para o caso específico desta categoria somente um órgão será cadastrado e deve 
-possuir nome, sigla e descrição inseridas conforme a instrução que segue.
+Uma vez criada a categoria é possível inserir o órgão de referência da categoria. Para o caso específico desta categoria somente um órgão será cadastrado conforme a instrução que segue.
 
   **Nome:** Superior Tribunal Militar
 
   **Sigla:** STM
 
-  **Descição:** Será cadastrado conforme a instrução que segue.
 
 Referência para inserção adequada à categoria: 
 
@@ -274,13 +266,11 @@ Referência para inserção adequada à categoria:
 Tribunal Superior do Trabalho - TST
 +++++++++++++++++++++++++++++++++++
 
-Uma vez criada a categoria é possível inserir o órgão de referência da categoria. Para o caso específico desta categoria somente um órgão será cadastrado e deverá seguir a instrução abaixo.
+Uma vez criada a categoria é possível inserir o órgão de referência da categoria. Para o caso específico desta categoria somente um órgão será cadastrado conforme a instrução que segue.
 
   **Nome:** Tribunal Superior do Trabalho
 
   **Sigla:** TST
-
-  **Descição:** Será cadastrado conforme a instrução que segue.
 
 Referência para inserção adequada à categoria: 
 
@@ -291,15 +281,12 @@ Referência para inserção adequada à categoria:
 Tribunal Superior Eleitoral - TSE
 +++++++++++++++++++++++++++++++++
 
-Uma vez criada a categoria é possível inserir o órgão de referência da categoria.Para o caso específico desta categoria somente um órgão será cadastrado e deve 
-possuir nome, sigla e descrição inseridas conforme a instrução que segue.
+Uma vez criada a categoria é possível inserir o órgão de referência da categoria.Para o caso específico desta categoria somente um órgão será cadastrado conforme a instrução que segue.
 
 
   **Nome:** Tribunal Superior Eleitoral
 
   **Sigla:** TSE
-
-  **Descição:** Será cadastrado conforme a instrução que segue.
 
 
 Referência para inserção adequada à categoria: 
@@ -311,14 +298,11 @@ Referência para inserção adequada à categoria:
 Conselhos de Justiça - CJ
 +++++++++++++++++++++++++
 
-Uma vez criada a categoria, os órgãos de referência poderão ser incluídos. Para este caso os Conselhos de Justiça serão cadastrados como um órgão de referência 
-e devem possuir nome, sigla e descrição inseridas conforme a instrução que segue.
+Uma vez criada a categoria, os órgãos de referência poderão ser incluídos. Para este caso os Conselhos de Justiça serão cadastrados conforme instrução que segue.
 
   **Nome:** [Nome do Conselho]
 
   **Sigla:** [Sigla do Nome do Conselho]
-
-  **Descição:** Será cadastrado conforme a instrução que segue.
 
 Referência para inserção adequada à categoria:
 
@@ -327,14 +311,11 @@ Referência para inserção adequada à categoria:
 Tribunais de Justiça - TJ
 ++++++++++++++++++++++++++
 
-Uma vez criada a categoria, os órgãos de referência poderão ser incluídos. Para este caso os Tribunais de Justiça serão cadastrados como um órgão de referência e 
-devem possuir nome, sigla e descrição inseridas conforme a instrução que segue.
+Uma vez criada a categoria, os órgãos de referência poderão ser incluídos. Para este caso os Tribunais de Justiça serão cadastrados conforme instrução que segue.
 
   **Nome:** Tribunal de Justiça do/da/de [Nome do Estado]
 
   **Sigla:** TJ[UF]
-
-  **Descição:** Será cadastrado conforme a instrução que segue.
 
 Referência para inserção adequada à categoria:
 
@@ -345,15 +326,12 @@ Tribunais de Justiça Militar - TJM
 +++++++++++++++++++++++++++++++++++
 
 
-Uma vez criada a categoria, os órgãos de referência poderão ser incluídos. Para este caso os Tribunais de Justiça Militar serão cadastrados como um órgão de 
-referência e devem possuir nome, sigla e descrição inseridas conforme a instrução que segue.
+Uma vez criada a categoria, os órgãos de referência poderão ser incluídos. Para este caso os Tribunais de Justiça Militar serão cadastrados conforme instrução que segue.
 
 
   **Nome:** Tribunal de Justiça Militar do/da/de [Nome do Estado]
 
   **Sigla:** TJM[UF]
-
-  **Descição:** Será cadastrado conforme a instrução que segue.
 
 Referência para inserção adequada à categoria:
 
@@ -363,15 +341,12 @@ Referência para inserção adequada à categoria:
 Tribunais Regionais do Trabalho - TRT
 ++++++++++++++++++++++++++++++++++++++
 
-Uma vez criada a categoria, os órgãos de referência poderão ser incluídos. Para este caso os Tribunais Regionais do Trabalho serão cadastrados como um órgão de 
-referência e devem possuir nome, sigla e descrição inseridas conforme a instrução que segue.
+Uma vez criada a categoria, os órgãos de referência poderão ser incluídos. Para este caso os Tribunais Regionais do Trabalho serão cadastrados conforme instrução que segue.
 
 
   **Nome:** Tribunal Regional do Trabalho da Xª Região
 
   **Sigla:** TRTXX
-
-  **Descição:** Será cadastrado conforme a instrução que segue.
 
 .. admonition:: Nota
 
@@ -384,14 +359,12 @@ Referência para inserção adequada à categoria:
 Tribunais Regionais Eleitorais - TRE
 +++++++++++++++++++++++++++++++++++++
 
-Uma vez criada a categoria, os órgãos de referência poderão ser incluídos. Para este caso os Tribunais Regionais Eleitorais serão cadastrados como um órgão de 
-referência e devem possuir nome, sigla e descrição inseridas conforme a instrução que segue.
+Uma vez criada a categoria, os órgãos de referência poderão ser incluídos. Para este caso os Tribunais Regionais Eleitorais serão cadastrados conforme instrução que segue.
 
   **Nome:**  Tribunal Regional Eleitoral do/da/de [Nome do Estado]
 
   **Sigla:**  TRE-[UF]
 
-  **Descrição:** Composto pela estrutura interna do Tribunal Regional Eleitoral de/do [Nome do Estado]. Será cadastrado conforme a instrução que segue.
 
 Referência para inserção adequada à categoria:
 
@@ -401,14 +374,11 @@ Referência para inserção adequada à categoria:
 Tribunais Regionais Federais - TRF
 +++++++++++++++++++++++++++++++++++
 
-Uma vez criada a categoria, os órgãos de referência poderão ser incluídos. Para este caso os Tribunais Regionais Federais serão cadastrados como um órgão de 
-referência e devem possuir nome, sigla e descrição inseridas conforme a instrução que segue.
+Uma vez criada a categoria, os órgãos de referência poderão ser incluídos. Para este caso os Tribunais Regionais Federais serão cadastrados conforme instrução que segue.
 
   **Nome:**  Tribunal Regional Federal da Xª Região
 
   **Sigla:** TRFX
-
-  **Descição:** Será cadastrado conforme a instrução que segue.
 
 Referência para inserção adequada à categoria:
 

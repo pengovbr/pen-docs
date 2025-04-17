@@ -96,13 +96,11 @@ A nível de explicação, se entende por órgãos de referência neste documento
 Conselho Nacional do Ministério Público
 +++++++++++++++++++++++++++++++++++++++++
 
-Uma vez criado o grupo é possível inserir o órgão de referência da categoria. Para o caso específico desse grupo somente um órgão será cadastrado e deverá seguir a instrução abaixo.
+Uma vez criado o grupo é possível inserir o órgão de referência da categoria. Para o caso específico desse grupo somente um órgão será cadastrado conforme a instrução que segue.
 
    **Nome:** Conselho Nacional do Ministério Público
 
    **Sigla:** CNMP
-
-  **Descição:** Será cadastrado conforme a instrução que segue.
 
 Referência para inserção correta no repositório:
  
@@ -112,13 +110,12 @@ Referência para inserção correta no repositório:
 Ministério Público do Distrito Federal e Territórios
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Uma vez criada a categoria é possível inserir o órgão de referência da categoria. Para o caso específico desta categoria somente um órgão será cadastrado e deverá seguir a instrução abaixo.
+Uma vez criada a categoria é possível inserir o órgão de referência da categoria. Para o caso específico desta categoria somente um órgão será cadastrado conforme a instrução que segue.
 
    **Nome:** Ministério Público do Distrito Federal e Territórios
 
    **Sigla:** MPDFT
 
-  **Descição:** Será cadastrado conforme a instrução que segue.
 
 Referência para inserção correta no repositório:
 
@@ -127,13 +124,11 @@ Referência para inserção correta no repositório:
 Ministério Público do Trabalho
 ++++++++++++++++++++++++++++++
 
-Uma vez criada a categoria é possível inserir o órgão de referência da categoria. Para o caso específico desta categoria somente um órgão será cadastrado e deverá seguir a instrução abaixo.
+Uma vez criada a categoria é possível inserir o órgão de referência da categoria. Para o caso específico desta categoria somente um órgão sserá cadastrado conforme a instrução que segue.
 
    **Nome:** Ministério Público do Trabalho
 
    **Sigla:** MPT
-
-  **Descição:** Será cadastrado conforme a instrução que segue.
 
 Referência para inserção correta no repositório:
 
@@ -157,13 +152,11 @@ Referência para inserção correta no repositório:
 Ministério Público Militar
 +++++++++++++++++++++++++++
 
-Uma vez criado o grupo é possível inserir o órgão de referência da categoria. Para o caso específico desta categoria somente um órgão será cadastrado e deverá seguir a instrução abaixo.
+Uma vez criado o grupo é possível inserir o órgão de referência da categoria. Para o caso específico desta categoria somente um órgão será cadastrado conforme a instrução que segue.
 
    **Nome:** Ministério Público Militar
 
    **Sigla:** MPM
-
-  **Descição:** Será cadastrado conforme a instrução que segue.
 
 Referência para inserção correta no repositório:
 
@@ -173,13 +166,11 @@ Referência para inserção correta no repositório:
 Ministérios Públicos Estaduais
 +++++++++++++++++++++++++++++++
 
-Uma vez criado o repositório, os órgãos de referência poderão ser incluídos. Para este caso os Ministérios Públicos Estaduais serão cadastrados como um órgão de referência conforme instrução abaixo.
+Uma vez criado o repositório, os órgãos de referência poderão ser incluídos. Para este caso os Ministérios Públicos Estaduais serão cadastrados como um órgão,  conforme a instrução que segue.
 
    **Nome:**  Ministério Público de/da/do [Nome do Estado]
 
    **Sigla:** [Cada Ministério Público possui sigla própria já definida]
-
-  **Descição:** Será cadastrado conforme a instrução que segue.
 
 Referência para inserção correta no repositório:
  

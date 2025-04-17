@@ -123,13 +123,11 @@ Conselhos Federais
 +++++++++++++++++++
  
 
-Uma vez criada a categoria, os órgãos de referência poderão ser incluídos. Para este caso os Conselhos de Federais serão cadastrados como um órgão de referência conforme instrução abaixo. 
+Uma vez criada a categoria, os órgãos de referência poderão ser incluídos. Para este caso os Conselhos de Federais serão cadastrados como um órgão, conforme a instrução que segue. 
 
   **Nome:** Conselho Federal de/dos [Nome da Classe]
 
   **Sigla:** [Cada conselho possui sigla própria já definida]
-
-  **Descição:** Será cadastrado conforme a instrução que segue.
 
 
 .. admonition:: Nota
@@ -152,7 +150,6 @@ Cabe ressaltar que diante da inexistência de uma padronização entre a grafia 
 
   **Sigla:** [Sigla do Conselho Regional] 
 
-  **Descição:** Será cadastrado conforme a instrução que segue.
 
    .. [3] No caso específico do repositório dos Conselhos de Fiscalização Profissional, a inserção dos Conselhos Regionais é de responsabilidade dos Gestores de cada um dos Conselhos Federais.
 

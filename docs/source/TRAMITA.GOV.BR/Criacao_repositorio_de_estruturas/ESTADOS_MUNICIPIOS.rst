@@ -116,14 +116,12 @@ A nível de explicação, se entende por órgãos de referência neste documento
 Poder Executivo Estadual
 +++++++++++++++++++++++++
 
-Uma vez criada a categoria é possível inserir o órgão de referência da categoria. Para o caso específico desta categoria somente um órgão será cadastrado e deve possuir nome, sigla e descrição inseridas conforme a instrução que segue.
+Uma vez criada a categoria é possível inserir o órgão de referência da categoria. Para o caso específico desta categoria somente um órgão será cadastrado conforme a instrução que segue.
 
 
   **Nome:** Governo do Estado do/da/de [Nome do Estado]
 
   **Sigla:** [SIGLA]
-
-  **Descição:** Será cadastrado conforme a instrução que segue.
 
 Referência para inserção adequada à categoria:
 
@@ -133,14 +131,11 @@ Referência para inserção adequada à categoria:
 Poder Legislativo Estadual
 +++++++++++++++++++++++++++
 
-Uma vez criada a categoria é possível inserir o órgão de referência da categoria. Para o caso específico desta categoria somente um órgão será cadastrado e deve 
-possuir nome, sigla e descrição inseridas conforme a instrução que segue.
+Uma vez criada a categoria é possível inserir o órgão de referência da categoria. Para o caso específico desta categoria somente um órgão será cadastrado conforme a instrução que segue.
 
   **Nome:**  Assembleia Legislativa do/da/de [Nome do Estado]
 
   **Sigla:** [SIGLA]
-
-  **Descição:** Será cadastrado conforme a instrução que segue.
 
 Referência para inserção adequada à categoria:
 
@@ -149,13 +144,11 @@ Referência para inserção adequada à categoria:
 Poder Executivo Municipal
 +++++++++++++++++++++++++
 
-Uma vez criada a categoria, os órgãos de referência poderão ser incluídos. Para este caso o poder executivo de cada município será cadastrado como um órgão de referência e deve possuir nome, sigla e descrição inseridas conforme a instrução que segue.
+Uma vez criada a categoria, os órgãos de referência poderão ser incluídos. Para este caso o poder executivo de cada município será cadastrado como um órgão, conforme a instrução que segue.
 
   **Nome:** Prefeitura Municipal do/de [Nome do Município]
 
   **Sigla:** Conforme Fornecido (Caso não fornecido, solicitar ao requisitante e não passar de 5 dígitos)
-
-  **Descição:** Será cadastrado conforme a instrução que segue.
 
 Referência para inserção adequada à categoria:
 
@@ -164,13 +157,11 @@ Referência para inserção adequada à categoria:
 Poder Legislativo Municipal
 +++++++++++++++++++++++++++
 
-Uma vez criada a categoria, os órgãos de referência poderão ser incluídos. Para este caso o poder legislativo de cada município será cadastrado como um órgão de referência e deve possuir nome, sigla e descrição inseridas conforme a instrução que segue.
+Uma vez criada a categoria, os órgãos de referência poderão ser incluídos. Para este caso o poder legislativo de cada município será cadastrado como um órgão, conforme a instrução que segue.
 
   **Nome:** Câmara Municipal do/de [Nome do Município]
 
   **Sigla:** Conforme Fornecido (Caso não fornecido, solicitar ao requisitante e não passar de 5 dígitos)
-
-  **Descição:** Será cadastrado conforme a instrução que segue.
 
 Referência para inserção adequada à categoria:
 
