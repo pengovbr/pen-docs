@@ -30,7 +30,6 @@ Sumário
 
    :titlesonly:
    :numbered:
-   :maxdepth: 3
   
    PODER_JUDICIARIO
    ESTADOS_MUNICIPIOS
