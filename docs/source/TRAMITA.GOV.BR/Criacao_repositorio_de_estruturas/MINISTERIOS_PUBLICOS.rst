@@ -143,8 +143,6 @@ Uma vez criado o grupo é possível inserir o órgão de referência da categori
 
    **Sigla:** MPF
 
-  **Descição:** Será cadastrado conforme a instrução que segue.
-
 Referência para inserção correta no repositório:
 
 .. figure:: _static/images/repositorio_MPF.png
