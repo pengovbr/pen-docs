@@ -27,7 +27,7 @@ Categorias do repositório dos Conselhos de Fiscalização Profissional
 A estruturação do repositório tem por base o conjunto dos Conselhos Profissionais registrados no país. Atualmente, não são todas as classes profissionais que possuem um Conselho de Fiscalização, de forma que no Brasil são contabilizados 31 Conselhos Federais [1]_. Dessa forma, esses 31 Conselhos Profissionais Federais estarão apresentados no primeiro nível do repositório, em ordem alfabética. A saber, são classificadas como categorias, os diversos Conselhos Federais pertencentes a cada uma das classes profissionais elencadas no primeiro nível do repositório. 
 
 
-   .. [1] Conselhos no Brasil – Disponível em: https://pt.wikipedia.org/wiki/Associa%C3%A7%C3%A3o_profissional#Conselhos_no_Brasil – Acessado em outubro de 2024.
+.. [1] Conselhos no Brasil – Disponível em: https://pt.wikipedia.org/wiki/Associa%C3%A7%C3%A3o_profissional#Conselhos_no_Brasil – Acessado em outubro de 2024.
 
 
 Conselhos Federais – CF  
@@ -42,7 +42,7 @@ A configuração da categoria dos Conselhos Federais [2]_ deve seguir a instruç
   **Descrição:** Composto pelo Conselho Federal e pelos Conselhos Regionais de/dos [Nome da Classe]. 
 
 
-   .. [2] Em específico, quatro conselhos possuem grafia diferente dos demais. Para estes serão criadas seções específicas de forma a estabelecer um consoante grau de padronização. 
+.. [2] Em específico, quatro conselhos possuem grafia diferente dos demais. Para estes serão criadas seções específicas de forma a estabelecer um consoante grau de padronização. 
 
 
 Exemplo: 
@@ -152,7 +152,7 @@ Cabe ressaltar que diante da inexistência de uma padronização entre a grafia 
   **Sigla:** [Sigla do Conselho Regional] 
 
 
-   .. [3] No caso específico do repositório dos Conselhos de Fiscalização Profissional, a inserção dos Conselhos Regionais é de responsabilidade dos Gestores de cada um dos Conselhos Federais.
+.. [3] No caso específico do repositório dos Conselhos de Fiscalização Profissional, a inserção dos Conselhos Regionais é de responsabilidade dos Gestores de cada um dos Conselhos Federais.
 
  
 Exemplo: 
