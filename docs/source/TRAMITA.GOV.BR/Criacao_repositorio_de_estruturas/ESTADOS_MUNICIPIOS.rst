@@ -18,7 +18,7 @@ O repositório criado para uma determinada Unidade Federativa deve possuir nome 
   **Descrição do repositório:** O repositório centraliza órgãos dos poderes executivos e legislativos, tanto municipais quanto estaduais.
 
 
-   .. [1] A utilização de termos entre colchetes se refere ao preenchimento de um determinado dado a ser inserido naquele espaço em específico do texto. Ou seja, [Nome do Estado] significa dizer que o nome do Estado deve ser substituído naquele determinado local do texto. A saber “Estado – Acre”, “Estado – Pernambuco”
+.. [1] A utilização de termos entre colchetes se refere ao preenchimento de um determinado dado a ser inserido naquele espaço em específico do texto. Ou seja, [Nome do Estado] significa dizer que o nome do Estado deve ser substituído naquele determinado local do texto. A saber “Estado – Acre”, “Estado – Pernambuco”
 
 Exemplo:
 

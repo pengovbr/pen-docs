@@ -28,7 +28,7 @@ Categorias do repositório dos Ministérios Públicos
 O repositório centraliza os ramos que compõem o Ministério Público da União (MPU), os Ministérios Públicos Estaduais (MPEs) e o Conselho Nacional do Ministério Público (CNMP) [1]_. Dessa forma, aqui classificados em grupos, esses estarão apresentados no primeiro nível do repositório, em ordem alfabética.
 
 
-   .. [1] Estrutura do Ministério Público Brasileiro – Disponível em: https://www.mpdft.mp.br/portal/index.php/sobre-o-mpdft/10784-estrutura - Acessado em fevereiro de 2025.
+.. [1] Estrutura do Ministério Público Brasileiro – Disponível em: https://www.mpdft.mp.br/portal/index.php/sobre-o-mpdft/10784-estrutura - Acessado em fevereiro de 2025.
 
 Conselho Nacional do Ministério Público - CNMP
 +++++++++++++++++++++++++++++++++++++++++++++++
