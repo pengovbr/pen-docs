@@ -13,14 +13,12 @@ Nomenclatura do Repositório da Unidade Federativa
 
 O repositório criado para uma determinada Unidade Federativa deve possuir nome e descrição inseridas conforme a instrução que segue.
 
-  **Nome do repositório:** Estado - [Nome do Estado].
+  **Nome do repositório:** Estado - [Nome do Estado] [1]_.
 
   **Descrição do repositório:** O repositório centraliza órgãos dos poderes executivos e legislativos, tanto municipais quanto estaduais.
 
 
-.. admonition:: Nota
-
-    A utilização de termos entre colchetes se refere ao preenchimento de um determinado dado a ser inserido naquele espaço em específico do texto. Ou seja, [Nome do Estado] significa dizer que o nome do Estado deve ser substituído naquele determinado local do texto. A saber “Estado – Acre”, “Estado – Pernambuco”
+   .. [1] A utilização de termos entre colchetes se refere ao preenchimento de um determinado dado a ser inserido naquele espaço em específico do texto. Ou seja, [Nome do Estado] significa dizer que o nome do Estado deve ser substituído naquele determinado local do texto. A saber “Estado – Acre”, “Estado – Pernambuco”
 
 Exemplo:
 
@@ -125,6 +123,8 @@ Uma vez criada a categoria é possível inserir o órgão de referência da cate
 
   **Sigla:** [SIGLA]
 
+  **Descição:** Será cadastrado conforme a instrução que segue.
+
 Referência para inserção adequada à categoria:
 
 .. figure:: _static/images/Sigla_estado.png
@@ -140,6 +140,8 @@ possuir nome, sigla e descrição inseridas conforme a instrução que segue.
 
   **Sigla:** [SIGLA]
 
+  **Descição:** Será cadastrado conforme a instrução que segue.
+
 Referência para inserção adequada à categoria:
 
 .. figure:: _static/images/Nomenclatura_Assembleia.png
@@ -149,9 +151,11 @@ Poder Executivo Municipal
 
 Uma vez criada a categoria, os órgãos de referência poderão ser incluídos. Para este caso o poder executivo de cada município será cadastrado como um órgão de referência e deve possuir nome, sigla e descrição inseridas conforme a instrução que segue.
 
-  **Nome:** Prefeitura Municipal do/e [Nome do Município]
+  **Nome:** Prefeitura Municipal do/de [Nome do Município]
 
   **Sigla:** Conforme Fornecido (Caso não fornecido, solicitar ao requisitante e não passar de 5 dígitos)
+
+  **Descição:** Será cadastrado conforme a instrução que segue.
 
 Referência para inserção adequada à categoria:
 
@@ -162,9 +166,11 @@ Poder Legislativo Municipal
 
 Uma vez criada a categoria, os órgãos de referência poderão ser incluídos. Para este caso o poder legislativo de cada município será cadastrado como um órgão de referência e deve possuir nome, sigla e descrição inseridas conforme a instrução que segue.
 
-  **Nome:** Câmara Municipal do/e [Nome do Município]
+  **Nome:** Câmara Municipal do/de [Nome do Município]
 
   **Sigla:** Conforme Fornecido (Caso não fornecido, solicitar ao requisitante e não passar de 5 dígitos)
+
+  **Descição:** Será cadastrado conforme a instrução que segue.
 
 Referência para inserção adequada à categoria:
 

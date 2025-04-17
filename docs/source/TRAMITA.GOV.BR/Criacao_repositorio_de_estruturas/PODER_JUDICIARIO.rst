@@ -229,6 +229,9 @@ possuir nome, sigla e descrição inseridas conforme a instrução que segue.
 
   **Sigla:** STF
 
+  **Descição:** Será cadastrado conforme a instrução que segue.
+
+
 Referência para inserção adequada à categoria: 
 
 .. figure:: _static/images/referencia_categoria_STF.png
@@ -244,6 +247,7 @@ possuir nome, sigla e descrição inseridas conforme a instrução que segue.
 
   **Sigla:** STJ
 
+  **Descição:** Será cadastrado conforme a instrução que segue.
 
 Referência para inserção adequada à categoria: 
 
@@ -260,6 +264,8 @@ possuir nome, sigla e descrição inseridas conforme a instrução que segue.
 
   **Sigla:** STM
 
+  **Descição:** Será cadastrado conforme a instrução que segue.
+
 Referência para inserção adequada à categoria: 
 
 .. figure:: _static/images/referencia_categoria_STM.png
@@ -273,6 +279,8 @@ Uma vez criada a categoria é possível inserir o órgão de referência da cate
   **Nome:** Tribunal Superior do Trabalho
 
   **Sigla:** TST
+
+  **Descição:** Será cadastrado conforme a instrução que segue.
 
 Referência para inserção adequada à categoria: 
 
@@ -291,6 +299,9 @@ possuir nome, sigla e descrição inseridas conforme a instrução que segue.
 
   **Sigla:** TSE
 
+  **Descição:** Será cadastrado conforme a instrução que segue.
+
+
 Referência para inserção adequada à categoria: 
 
 .. figure:: _static/images/referencia_categoria_TSE.png
@@ -307,6 +318,8 @@ e devem possuir nome, sigla e descrição inseridas conforme a instrução que s
 
   **Sigla:** [Sigla do Nome do Conselho]
 
+  **Descição:** Será cadastrado conforme a instrução que segue.
+
 Referência para inserção adequada à categoria:
 
 .. figure:: _static/images/Nomenclatura_CJF.png
@@ -320,6 +333,8 @@ devem possuir nome, sigla e descrição inseridas conforme a instrução que seg
   **Nome:** Tribunal de Justiça do/da/de [Nome do Estado]
 
   **Sigla:** TJ[UF]
+
+  **Descição:** Será cadastrado conforme a instrução que segue.
 
 Referência para inserção adequada à categoria:
 
@@ -338,6 +353,8 @@ referência e devem possuir nome, sigla e descrição inseridas conforme a instr
 
   **Sigla:** TJM[UF]
 
+  **Descição:** Será cadastrado conforme a instrução que segue.
+
 Referência para inserção adequada à categoria:
 
 .. figure:: _static/images/Nomenclatura_TJM_ESTADO.png
@@ -353,6 +370,8 @@ referência e devem possuir nome, sigla e descrição inseridas conforme a instr
   **Nome:** Tribunal Regional do Trabalho da Xª Região
 
   **Sigla:** TRTXX
+
+  **Descição:** Será cadastrado conforme a instrução que segue.
 
 .. admonition:: Nota
 
@@ -372,7 +391,7 @@ referência e devem possuir nome, sigla e descrição inseridas conforme a instr
 
   **Sigla:**  TRE-[UF]
 
-  **Descrição:** Composto pela estrutura interna do Tribunal Regional Eleitoral de/do [Nome do Estado].
+  **Descrição:** Composto pela estrutura interna do Tribunal Regional Eleitoral de/do [Nome do Estado]. Será cadastrado conforme a instrução que segue.
 
 Referência para inserção adequada à categoria:
 
@@ -388,6 +407,8 @@ referência e devem possuir nome, sigla e descrição inseridas conforme a instr
   **Nome:**  Tribunal Regional Federal da Xª Região
 
   **Sigla:** TRFX
+
+  **Descição:** Será cadastrado conforme a instrução que segue.
 
 Referência para inserção adequada à categoria:
 

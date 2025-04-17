@@ -24,17 +24,16 @@ Exemplo:
 Categorias do repositório dos Conselhos de Fiscalização Profissional 
 --------------------------------------------------------------------
 
-A estruturação do repositório tem por base o conjunto dos Conselhos Profissionais registrados no país. Atualmente, não são todas as classes profissionais que possuem um Conselho de Fiscalização, de forma que no Brasil são contabilizados 31 Conselhos Federais. Dessa forma, esses 31 Conselhos Profissionais Federais estarão apresentados no primeiro nível do repositório, em ordem alfabética. A saber, são classificadas como categorias, os diversos Conselhos Federais pertencentes a cada uma das classes profissionais elencadas no primeiro nível do repositório. 
+A estruturação do repositório tem por base o conjunto dos Conselhos Profissionais registrados no país. Atualmente, não são todas as classes profissionais que possuem um Conselho de Fiscalização, de forma que no Brasil são contabilizados 31 Conselhos Federais [1]_. Dessa forma, esses 31 Conselhos Profissionais Federais estarão apresentados no primeiro nível do repositório, em ordem alfabética. A saber, são classificadas como categorias, os diversos Conselhos Federais pertencentes a cada uma das classes profissionais elencadas no primeiro nível do repositório. 
 
-.. admonition:: Nota
 
-   Conselhos no Brasil – Disponível em: https://pt.wikipedia.org/wiki/Associa%C3%A7%C3%A3o_profissional#Conselhos_no_Brasil – Acessado em outubro de 2024.
+   .. [1] Conselhos no Brasil – Disponível em: https://pt.wikipedia.org/wiki/Associa%C3%A7%C3%A3o_profissional#Conselhos_no_Brasil – Acessado em outubro de 2024.
 
 
 Conselhos Federais – CF  
 +++++++++++++++++++++++
 
-A configuração da categoria dos Conselhos Federais deve seguir a instrução abaixo. 
+A configuração da categoria dos Conselhos Federais [2]_ deve seguir a instrução abaixo. 
 
   **Nome:** Conselho Federal de/dos [Nome da Classe] 
 
@@ -43,9 +42,7 @@ A configuração da categoria dos Conselhos Federais deve seguir a instrução a
   **Descrição:** Composto pelo Conselho Federal e pelos Conselhos Regionais de/dos [Nome da Classe]. 
 
 
-.. admonition:: Nota
-
-   Em específico, quatro conselhos possuem grafia diferente dos demais. Para estes serão criadas seções específicas de forma a estabelecer um consoante grau de padronização. 
+   .. [2] Em específico, quatro conselhos possuem grafia diferente dos demais. Para estes serão criadas seções específicas de forma a estabelecer um consoante grau de padronização. 
 
 
 Exemplo: 
@@ -132,6 +129,8 @@ Uma vez criada a categoria, os órgãos de referência poderão ser incluídos. 
 
   **Sigla:** [Cada conselho possui sigla própria já definida]
 
+  **Descição:** Será cadastrado conforme a instrução que segue.
+
 
 .. admonition:: Nota
 
@@ -147,15 +146,15 @@ Conselhos Regionais
 
 A distribuição de Conselhos Regionais varia de acordo com a classe profissional. Como exemplo é possível citar os Conselhos Regionais de Nutrição e de Farmácia. Para a classe profissional de Nutrição atualmente existem onze Conselhos Regionais, separados por Região, enquanto para a classe profissional de Farmácia existem vinte e sete Conselhos Regionais, uma para cada Unidade Federativa. 
 
-Cabe ressaltar que diante da inexistência de uma padronização entre a grafia dos Conselhos Regionais, no momento da inserção, é importante que cada classe profissional registre os Órgãos de Referência de acordo com o padrão já existente para os seus Conselhos Regionais. A configuração dos Órgãos de Referência relacionados aos Conselhos Regionais deve seguir a instrução abaixo. 
+Cabe ressaltar que diante da inexistência de uma padronização entre a grafia dos Conselhos Regionais, no momento da inserção, é importante que cada classe profissional registre os Órgãos de Referência de acordo com o padrão já existente para os seus Conselhos Regionais [3]_. A configuração dos Órgãos de Referência relacionados aos Conselhos Regionais deve seguir a instrução abaixo. 
 
   **Nome:** [Nome por extenso do Conselho Regional] 
 
   **Sigla:** [Sigla do Conselho Regional] 
 
-.. admonition:: Nota
+  **Descição:** Será cadastrado conforme a instrução que segue.
 
-   No caso específico do repositório dos Conselhos de Fiscalização Profissional, a inserção dos Conselhos Regionais é de responsabilidade dos Gestores de cada um dos Conselhos Federais.
+   .. [3] No caso específico do repositório dos Conselhos de Fiscalização Profissional, a inserção dos Conselhos Regionais é de responsabilidade dos Gestores de cada um dos Conselhos Federais.
 
  
 Exemplo: 

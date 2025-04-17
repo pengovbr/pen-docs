@@ -25,11 +25,10 @@ Exemplo:
 Categorias do repositório dos Ministérios Públicos
 --------------------------------------------------
 
-O repositório centraliza os ramos que compõem o Ministério Público da União (MPU), os Ministérios Públicos Estaduais (MPEs) e o Conselho Nacional do Ministério Público (CNMP). Dessa forma, aqui classificados em grupos, esses estarão apresentados no primeiro nível do repositório, em ordem alfabética.
+O repositório centraliza os ramos que compõem o Ministério Público da União (MPU), os Ministérios Públicos Estaduais (MPEs) e o Conselho Nacional do Ministério Público (CNMP) [1]_. Dessa forma, aqui classificados em grupos, esses estarão apresentados no primeiro nível do repositório, em ordem alfabética.
 
-.. admonition:: Nota
 
-   Estrutura do Ministério Público Brasileiro – Disponível em: https://www.mpdft.mp.br/portal/index.php/sobre-o-mpdft/10784-estrutura - Acessado em fevereiro de 2025.
+   .. [1] Estrutura do Ministério Público Brasileiro – Disponível em: https://www.mpdft.mp.br/portal/index.php/sobre-o-mpdft/10784-estrutura - Acessado em fevereiro de 2025.
 
 Conselho Nacional do Ministério Público - CNMP
 +++++++++++++++++++++++++++++++++++++++++++++++
@@ -103,6 +102,8 @@ Uma vez criado o grupo é possível inserir o órgão de referência da categori
 
    **Sigla:** CNMP
 
+  **Descição:** Será cadastrado conforme a instrução que segue.
+
 Referência para inserção correta no repositório:
  
 .. figure:: _static/images/repositorio_CNMP.png
@@ -117,6 +118,8 @@ Uma vez criada a categoria é possível inserir o órgão de referência da cate
 
    **Sigla:** MPDFT
 
+  **Descição:** Será cadastrado conforme a instrução que segue.
+
 Referência para inserção correta no repositório:
 
 .. figure:: _static/images/repositorio_MPDFT.png
@@ -129,6 +132,8 @@ Uma vez criada a categoria é possível inserir o órgão de referência da cate
    **Nome:** Ministério Público do Trabalho
 
    **Sigla:** MPT
+
+  **Descição:** Será cadastrado conforme a instrução que segue.
 
 Referência para inserção correta no repositório:
 
@@ -143,6 +148,8 @@ Uma vez criado o grupo é possível inserir o órgão de referência da categori
 
    **Sigla:** MPF
 
+  **Descição:** Será cadastrado conforme a instrução que segue.
+
 Referência para inserção correta no repositório:
 
 .. figure:: _static/images/repositorio_MPF.png
@@ -155,6 +162,8 @@ Uma vez criado o grupo é possível inserir o órgão de referência da categori
    **Nome:** Ministério Público Militar
 
    **Sigla:** MPM
+
+  **Descição:** Será cadastrado conforme a instrução que segue.
 
 Referência para inserção correta no repositório:
 
@@ -169,6 +178,8 @@ Uma vez criado o repositório, os órgãos de referência poderão ser incluído
    **Nome:**  Ministério Público de/da/do [Nome do Estado]
 
    **Sigla:** [Cada Ministério Público possui sigla própria já definida]
+
+  **Descição:** Será cadastrado conforme a instrução que segue.
 
 Referência para inserção correta no repositório:
  
