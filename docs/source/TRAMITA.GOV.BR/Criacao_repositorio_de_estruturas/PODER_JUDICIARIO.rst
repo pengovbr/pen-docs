@@ -84,7 +84,7 @@ A configuração da categoria Tribunal Superior do Trabalho é de composição �
 
   **Sigla:** TST
 
-  **Descrição:** Uma vez criada a categoria é possível inserir o órgão de referência da categoria. Para o caso específico desta categoria somente um órgão será cadastrado e deve possuir nome, sigla e descrição inseridas conforme a instrução que segue.
+  **Descrição:** Composto pela estrutura interna do Tribunal Superior do Trabalho.
 
 Exemplo:
 
@@ -193,7 +193,7 @@ A configuração da categoria dos Tribunais Regionais Federais deve seguir a ins
 
   **Sigla:** TRF
 
-  **Descrição:** A configuração da categoria dos Tribunais Regionais Federais deve possuir nome, sigla e descrição inseridas conforme a instrução que segue.
+  **Descrição:** Composto pelos Tribunais Regionais Federais.
 
 
 Exemplo:
