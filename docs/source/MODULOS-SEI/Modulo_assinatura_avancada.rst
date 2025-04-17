@@ -1,7 +1,8 @@
-Módulo de Assinatura Avançada (Assinatura Eletrônica do gov.br)
-================================================================
+Módulo de Assinatura Eletrônica
+===============================
 
-O módulo de **Assinatura Avançada** adiciona ao SEI a possibilidade de assinatura e autenticação de documentos utilizando a Assinatura Eletrônica do gov.br, ampliando a validade dos documentos neste sistema.
+O módulo de **Assinatura Eletrônica** adiciona ao SEI a possibilidade de assinatura e autenticação de documentos utilizando a Assinatura Eletrônica do gov.br e assinatura qualificada em nuvem,
+ampliando a validade dos documentos neste sistema.
 
 Manual de Utilização
 --------------------
@@ -11,90 +12,100 @@ Esta seção tem por objetivo demonstrar as funcionalidades que serão disponibi
 Requisitos para Utilização do Módulo
 ++++++++++++++++++++++++++++++++++++
 
-* Módulo de Login Único instalado;
 * Possuir um usuário interno SEI;
 * Usuários com CPF cadastrado no menu de usuário SEI (Administração > Usuário > Contatos).
 * Usuários com conta gov.br com selo de confiabilidade prata ou ouro.
-* Aplicativo **gov.br** instalado no celular. ( `Link para download <https://acesso.gov.br/faq/_perguntasdafaq/oqueemeugovbrmobile.html>`_ )
 
-Utilização do Módulo
-++++++++++++++++++++
+Assinatura de documento interno
++++++++++++++++++++++++++++++++
 
-O módulo de **Assinatura Avançada** introduz a possibilidade de o usuário assinar documentos via **Assinatura Eletrônica do gov.br**, por meio das suas credenciais da Conta **gov.br**, ampliando a validade do documento assinado.
+O módulo de **Assinatura Eletrônica** introduz a possibilidade de o usuário assinar documentos via **Assinatura Eletrônica do gov.br**, por meio das suas credenciais da Conta **gov.br**, ou **Assinatura Quailificada em nuvem** ampliando a validade do documento assinado.
 
 Para realizar a **Assinatura Eletrônica do gov.br**, o usuário deverá acessar o documento e clicar no botão “Assinar Documento”.
 
 .. figure:: _static/images/assinatura_sei.png
 
-Em seguida será aberta a janela **Assinatura de Documentos**. Nessa, o usuário poderá assinar via SEI, com o Certificado Digital ou com **Assinatura Eletrônica do gov.br**.
+Em seguida será aberta a janela **Assinatura de Documentos**. Nessa, o usuário poderá assinar via SEI, com o Certificado Digital ou com **Assinatura avançada/qualificada**.
 
-Para assinatura com **gov.br**, o usuário deverá clicar no botão **"Assinatura GovBr"**.
+Para assinatura com o módulo, o usuário deverá clicar no botão **"Assinatura avançada/qualificada"**.
 
-Preencher os campos indicados em tela e clicar em assinar com **gov.br**:
+Preencher os campos indicados em tela e clicar no certificado desejado:
 
 .. figure:: _static/images/botao_assinar_com_gov.br.png
+
+.. admonition:: Importante
+
+   A lista de certificados depende de como o órgão configurou o módulo e quais certificados o usuário possui.
 
 1) **Órgão Assinante:** selecionar o órgão do assinante;
 2) **Assinante:** Indicar o nome do assinante;
 3) **Cargo/função:** selecionar o cargo do assinante.
 
-Ao clicar em assinar com **gov.br**, o sistema abrirá uma nova janela solicitando dados de autenticação da Conta gov.br. Após a autenticação, o sistema encaminhará uma mensagem para o **aplicativo gov.br** (que deverá estar instalado no celular do usuário) com um código de autenticação.
+
+
+Ao clicar em assinar com o certificado desejado, o sistema abrirá uma nova janela seguindo com o fluxo de cada certificado. 
+
+No caso do **gov.br** após a autenticação, o sistema encaminhará um SMS ou uma mensagem para o **aplicativo gov.br** (que deverá estar instalado no celular do usuário) com um código de autenticação.
 
 Incluir o código de autorização encaminhado ao **aplicativo gov.br** no campo **"Código"** e clicar em **"Autorizar"**.
 
 .. figure:: _static/images/tela_de_inclusao_de_codigo_de_autorizacao.png
 
-Após esta ação, o documento assinado via **gov.br** será atualização com a respsctiva assinatura eletrônica.
+Após esta ação, o documento assinado via **gov.br** será atualização com a respectiva assinatura eletrônica.
 
 .. admonition:: Nota
 
-   Caso o usuário não deseje assinar com a Conta gov.br, selecionar a opção **"Utilizar Assinatura Interna SEI"**.
+   Caso o usuário não deseje assinar com o módulo, deve-se selecionar a opção **"Utilizar Assinatura Interna SEI"**.
 
 .. figure:: _static/images/tela_opcao_pela_assinatura_via_Sei.png
+
+Assinatura de documento externo
++++++++++++++++++++++++++++++++
+
+Para realizar a **Assinatura Eletrônica do gov.br**, o usuário deverá acessar o documento e clicar no botão “Assinar Documento com Tarja”.
+
+.. figure:: _static/images/botao_assinar_com_tarja.png
+
+.. admonition:: Atenção
+
+   Somente documentos externos com formato PDF podem ser assinados.
+
+Será aberto uma opção de escolher onde a tarja de assinatura deverá ficar 
+no arquivo e se a tarja deverá ficar em todas as páginas.
+
+1) **Exibir assinatura em todas as páginas:** selecionar para a tarja ser adicionada em todas as páginas;
+2) **Área de assinatura:** Indicar onde a tarja de assinatura deve ficar no documento;
+3) **Assinar documento:** ir para a tela seguinte para selecionar qual certificado a ser usado.
+
+.. figure:: _static/images/doc_assinado_externo.png
+
+Após clicar em "Assinar documento", será exibido a lista de prestadores de serviço de confiança com a listagem dos certificados do usuário.
+
+.. figure:: _static/images/escolher_certificado_com_tarja.png
+
+.. admonition:: Importante
+
+   A lista de certificados depende de como o órgão configurou o módulo e quais certificados o usuário possui.
 
 Validação de Assinatura Eletrônica
 -----------------------------------
 
 Após a assinatura eletrônica, será possível submeter o documento assinado ao serviço de validação de assinaturas eletrônicas do Governo Federal e verificar o status de assinatura eletrônica ICP-Brasil, GOV.BR ou provenientes de acordos internacionais de reconhecimento mútuo.
 
-Acessar o documento assinado eletrônicamente e clicar no link presente seção localizada abaixo das assinaturas eletrônicas do documento;
+Acessar o documento assinado eletrônicamente e clicar no ícone "Visualizar Resultado Autenticidade"
 
 .. figure:: _static/images/doc_assinado.png
 
-Ao acessar a tela de Conferência de Autenticidade de Documentos, preencher os campos **Código Verificado** e **Código CRC**, com as informações disponibilizadas no documento assinado, seção abaixo da assinatura. Em seguida, copiar o conteúdo do Capcha para o campo apropriado e clicar em **Pesquisar**;
+Será consultado no ITI a validade da assinatura do documento e exibido a tela de validade:
 
 
 .. figure:: _static/images/tela_conferencia_autenticidade.png
 
-Realizar o download do conteúdo (1) e do certificado digital para para validação externa (2).
-
-.. figure:: _static/images/documentos_download.png
+Nessa tela é exibido um relatório de conformidade com os dados obtidos do ITI.
 
 .. admonition:: Nota
 
-   Caso deseje visualizar a integra do documento, será possível por meio da opção em tela (3).
-
-Após o dowload dos documentos, acessar o site do Validador por meio do endereço: https://h-validar.iti.gov.br/ , presente na seção da assinatura que deseja validar;
-
-.. figure:: _static/images/Validador.png
-
-Ao acessar o portal Validar:
-
-1) Clicar no botão *Escolher Arquivo* - selecionar o arquivo com extensão **HTML** baixado anteriormente;
-2) Marcar o select box **Assinatura Destacada**. 
-3) Ao selecionar essa opção, o botão *Assinatura Destacada Arquivo" - selecionar o arquivo com extensão **p7s** baixado anteriormente;
-4) Marcar o select box **Concordo com os termos de uso e política de privacidade.**;
-5) Clicar no botão **Validar**.
-
-.. figure:: _static/images/portal_validador.png
-
-Será aberta a tela com a validação do documento, onde será possível:
-
-1) ver o status da assinatura;
-2) exportar o relatório para PDF;
-3) ver relatório de Conformidade;
-
-.. figure:: _static/images/validacao_documento.png
+   Caso deseje revalidar o documento deve-se clicar em **"Revalidar"**.
 
 .. admonition:: Nota
 
