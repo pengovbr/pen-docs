@@ -29,8 +29,8 @@ Sumário
 .. toctree::
 
    :titlesonly:
-   :maxdepth: 3
    :numbered:
+   :maxdepth: 3
   
    PODER_JUDICIARIO
    ESTADOS_MUNICIPIOS
