@@ -42,12 +42,13 @@ A configuração da categoria dos Conselhos Federais [2]_ deve seguir a instruç
   **Descrição:** Composto pelo Conselho Federal e pelos Conselhos Regionais de/dos [Nome da Classe]. 
 
 
+   .. [2] Em específico, quatro conselhos possuem grafia diferente dos demais. Para estes serão criadas seções específicas de forma a estabelecer um consoante grau de padronização. 
+
+
 Exemplo: 
 
 .. figure:: _static/images/Conselho_Federal_Nome_da_Classe.png
 
-
-   .. [2] Em específico, quatro conselhos possuem grafia diferente dos demais. Para estes serão criadas seções específicas de forma a estabelecer um consoante grau de padronização. 
 
 
 Conselho Federal da Ordem dos Advogados do Brasil - OAB 
