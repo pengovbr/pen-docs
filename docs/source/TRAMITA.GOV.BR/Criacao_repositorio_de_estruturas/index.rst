@@ -27,7 +27,6 @@ Sumário
 ++++++++
 
 .. toctree::
-
    :titlesonly:
    :numbered:
   
