@@ -12,7 +12,7 @@ Quais responsabilidades?
 * Configurar quais unidades deverão estar habilitadas a realizar o envio e/ou o recebimento de trâmites;
 * Verificar a viabilidade de cadastro de unidades centralizadoras;
 * Manter os seus dados atualizados no Portal;
-* Realizar a leitura da documentação disponível na `Wiki <https://wiki.processoeletronico.gov.br/pt-br/latest/>`_ e no `Portal dos Manuais <https://manuais.processoeletronico.gov.br/pt-br/latest/>`_;
+* Realizar a leitura da documentação disponível na `Wiki <https://wiki.processoeletronico.gov.br/pt-br/latest/Tramita_GOV_BR/index.html>`_ e no `Portal dos Manuais <https://manuais.processoeletronico.gov.br/pt-br/latest/TRAMITA.GOV.BR/index.html>`_;
 * Realizar os testes mínimos em ambiente de homologação;
 * Realizar os testes mínimos em ambiente de produção;
 * Cadastrar a hierarquia do seu órgão, caso a estrutura não seja mantida pelo SIORG;
@@ -83,6 +83,10 @@ Gerar Certificado
 
 A informações relacionadas ao tema poderão ser consultadas no `Manual do Portal de Administração <https://manuais.processoeletronico.gov.br/pt-br/latest/TRAMITA.GOV.BR/MANUAL_PORTAL_DE_ADMINISTRACAO/ADMINISTRACAO.html#gerar-certificado>`_
 
+.. admonition:: Observação
+
+   A funcionalidade **"Geração de certificado"** é exclusiva para o gestor do portal cujo órgão é responsável pela gestão da sua própria infraestrutura.
+
 Painel de Controle
 ~~~~~~~~~~~~~~~~~~
 
@@ -104,6 +108,4 @@ A informações relacionadas ao tema poderão ser consultadas no `Manual do Port
 Meus Dados
 ^^^^^^^^^^
 
-A funcionalidade Meus dados é utilizada para atualização dos seus dados, tais como: e-mail, e-mail da unidade, telefone e celular.
-
-.. figure:: _static/images/GIF6-Cris.gif
+A informações relacionadas ao tema poderão ser consultadas no `Manual do Portal de Administração <https://homolog.manuais.processoeletronico.gov.br/pt-br/homologacao/TRAMITA.GOV.BR/MANUAL_PORTAL_DE_ADMINISTRACAO/ADMINISTRACAO.html#meus-dados>`_
