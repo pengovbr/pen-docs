@@ -85,7 +85,7 @@ A informações relacionadas ao tema poderão ser consultadas no `Manual do Port
 
 .. admonition:: Observação
 
-   A funcionalidade **"Geração de certificado"** é exclusiva para o gestor do portal cujo órgão é responsável pela gestão da sua própria infraestrutura.
+   A funcionalidade **"Gerar Certificado"** é exclusiva para o gestor do portal cujo órgão é responsável pela gestão da sua própria infraestrutura.
 
 Painel de Controle
 ~~~~~~~~~~~~~~~~~~
