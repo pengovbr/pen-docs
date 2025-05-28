@@ -201,7 +201,7 @@ Além da unidade de destino, o usuário poderá informar:
 
    1) A partir da versão 4.1 do SEI, o recurso **Reabertura Programa de Processo** foi incorporado à funcionalidade de envio de processos a outra unidade. Tal recurso tem por objetivo facilitar a programação de reabertura de processos na unidade atual, após o seu encaminhamento a outra unidade.
 
-  2) Cumpre informar que a funcionalidade de **Reabertura Programa de Processo** só ficará disponível em tela para registro caso a opção **Manter processo aberto na unidade atual** não tenho sido marcada.
+   2) Cumpre informar que a funcionalidade de **Reabertura Programa de Processo** só ficará disponível em tela para registro caso a opção **Manter processo aberto na unidade atual** não tenho sido marcada.
 
 * Se deseja definir uma data de Reabertura programada de Processo, selecionar:
 
