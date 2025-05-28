@@ -41,9 +41,33 @@ Cumpre informar que o campo “**Classificação por Assuntos**” não deve ser
 
 Os demais campos são os seguintes:
 
+* **Protocolo**
+
+  * Automático - se marcada essa opção o SEI irá gerar uma numeração automática para o processo em criação;
+
+  * Informado - se marcada essa opção, o usuário deverá preencher o número do protocolo e a data de autuação.
+
 * **Especificação:** Insira informações que detalhem o processo em questão. Essas informações serão exibidas, juntamente com o tipo do processo, ao posicionar o cursor sobre o número do protocolo, na tela Controle de Processos.
 
 .. figure:: _static/images/2-OBCP_incluir_processo_identificacao_assunto_tela_inicial.png
+
+.. admonition:: Nota
+
+   A partir da versão 4.1 do SEI, por meio do campo "Prioridade" foi dispobonilizada a possiblidade de priorização de processos, à luz das leis relacionadas às situações indicadas abaixo:
+
+   * Pessoa com Deficiência - PcD;
+   
+   * Idoso entre 60 e 80 anos;
+
+   * Idoso com mais de 80 anos;
+
+   * Pessoa com Doença Grave;
+
+   * Processo e procedimentos previstos no Estatuto da Criança de do Adolescente (ECA);
+
+   * Licença Ambiental no Órgão do Sistema - contratos públicos.
+ 
+* **Prioridade:** selecione a prioridade objeto do processo a ser criado. 
 
 * **Interessados:** Insira o nome do(s) interessado(s) no mérito do processo, podendo ser pessoa física ou jurídica.
 
@@ -172,6 +196,18 @@ Além da unidade de destino, o usuário poderá informar:
 
     * Data certa: para estabelecimento de uma data específica para retorno; ou
     * Prazo em dias: para indicação do prazo em dias para retorno da questão. O usuário poderá indicar, ainda, se este prazo será contado em dias úteis ou corridos.
+
+.. admonition:: Nota
+
+   1) A partir da versão 4.1 do SEI, o recurso **Reabertura Programa de Processo** foi incorporado à funcionalidade de envio de processos a outra unidade. Tal recurso tem por objetivo facilitar a programação de reabertura de processos na unidade atual, após o seu encaminhamento a outra unidade.
+
+  2) Cumpre informar que a funcionalidade de **Reabertura Programa de Processo** só ficará disponível em tela para registro caso a opção **Manter processo aberto na unidade atual** não tenho sido marcada.
+
+* Se deseja definir uma data de Reabertura programada de Processo, selecionar:
+
+  * Data certa: para estabelecimento de uma data específica para reabertura; ou
+
+  * Prazo em dias: para indicação do prazo em dias para reabertura do processo. O usuário poderá indicar, ainda, se este prazo será contado em dias úteis ou corridos.
 
 Após o preenchimento dos campos, basta clicar no botão **Enviar**.
 

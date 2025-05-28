@@ -923,6 +923,26 @@ Para visualizar os processos referentes a determinado Grupo de “**Acompanhamen
 
 .. figure:: _static/images/11-ARIP-painel_controle_acompanhamento_especial.gif
 
+
+Painel de Controle em Números
+-----------------------------
+
+A partir da versão 4.1 do SEI, foi disponibilizada a funcionalidade **Painel de Controle em Números** que possibilita ao usuário ter uma visão mais resumida e personalizada dos processos da unidade.
+
+
+Será possível selecionar essa visão via **Menu Principal** ou via ícone |numeros| disponível na barra de ferramentas, na parte superior direita da tela. Ao acessá-la, será apresentado um painel em números com as quantidades e informações relacionadas aos processos da unidade.
+
+
+.. figure:: _static/images/Em_numeros_Menu_Principal.gif
+
+
+.. figure:: _static/images/Em_numeros_barra_de_ferramentas.gif
+
+
+.. |numeros| image:: _static/images/icone_em_numeros.png
+   :align: middle
+   :width: 35
+
 Configurar Painel de Controle
 -----------------------------
 
