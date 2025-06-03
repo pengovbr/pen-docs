@@ -1,5 +1,5 @@
-Manual do Gestor do Portal de Administração
-===========================================
+Manual do Gestor do Portal
+===========================
 
 
 Sumário
@@ -11,3 +11,5 @@ Sumário
    :maxdepth: 3
   
    Gestao_do_portal
+   ficha_catalografica
+   CREDITOS

@@ -14,25 +14,19 @@ Créditos
 
 **Secretária Adjunta de Gestão e Inovação** 
 
-* Kathyana Dantas Machado Buonafina 
+* Regina Lemos de Andrade 
 
 **Diretoria de Informações, Serviços e Sistemas de Gestão** 
 
-**Diretor Substituto** 
-
-* Pedro Henrique de Paiva Moreira da Silva
+* Priscila Andressa Corrêa Cabral 
 
 **Coordenação-Geral de Soluções Negociais do Processo Eletrônico - CGESP** 
 
-**Coordenador-Geral Substituto** 
-
-* Marco Aurélio Rodrigues Braga 
+* Pedro Henrique de Paiva Moreira da Silva   
 
 **Equipe Técnica** 
 
-* Antônio Augusto Rosolen Júnior 
-* Caio Fellipe De Oliveira Martins 
-* Cíntia Aparecida de Moura e Silva Gualberto 
+* Caio Fellipe De Oliveira Martins  
 * Cristiana Gontijo Maciel Cafagna 
 * Vinícius Rafael Lobo de Mendonça 
 * Yuri Álisson Rodrigues de Oliveira
@@ -48,5 +42,5 @@ Créditos
 * Oscar Henrique Carneiro de Oliveira
 
 
-*Caderno do PEN: Manual do Supervisor Tramita GOV.BR. Brasília, 2025.*
+*Caderno do PEN: Manual do Gestor do Portal. Brasília, 2025.*
 
