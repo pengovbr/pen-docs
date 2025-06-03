@@ -132,9 +132,9 @@ O Trâmite realizado com sucesso é representado pelo seguinte desenho de fluxo:
 
 .. figure:: _static/images/Fluxo_tramite_01-Tramite_Realizado.png
 
-.. image:: /_static/images/Fluxo_tramite_01-Tramite_Realizado.png
+.. image:: _static/images/Fluxo_tramite_01-Tramite_Realizado.png
    :alt: Imagem grande
-   :target: /_static/images/Fluxo_tramite_01-Tramite_Realizado.png
+   :target: _static/images/Fluxo_tramite_01-Tramite_Realizado.png
 
 
 Esse processo engloba os seguintes 
