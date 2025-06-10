@@ -427,6 +427,8 @@ Ao clicar em Gerar Excel, a pesquisa é exportada em um arquivo com extensão .p
 
    Em ambos os tipos de exportação, é necessário primeiro clicar em Gerar Painel de Controle.
 
+
+
 Gerenciar Acesso ao Tramita GOV.BR
 +++++++++++++++++++++++++++++++++++
 
@@ -575,4 +577,10 @@ Ao clicar em Editar o usuário pode alterar as informações cadastradas anterio
 
 .. figure:: _static/images/Gestores-Tecnologicos-Editar.gif
 
+Meus Dados
+++++++++++
+
+A funcionalidade Meus dados é utilizada para atualização dos seus dados, tais como: e-mail, e-mail da unidade, telefone e celular.
+
+.. figure:: _static/images/GIF6-Cris.gif
 

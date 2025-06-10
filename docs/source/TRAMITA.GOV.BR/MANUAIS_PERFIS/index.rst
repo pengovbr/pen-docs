@@ -12,3 +12,4 @@ Sumário
    :maxdepth: 3
   
    Manual_supervisor/index
+   Gestao_do_portal/index
