@@ -1,17 +1,6 @@
 Manual de Fluxo do Trâmite
 ==========================
 
-PRINCIPAIS ALTERAÇÕES:
-----------------------
-
-- Apresentação dos principais processos que compõem o processo de tramitação, bem como detalhamento em texto
-
-- Em construção: trocar a palavra "processo" quando se trata de gestão de processos administrativos por "fluxo". Manter a palavra "processo" quando se trata de processos tramitados.
-
-- Em construção: Inserir os fluxos referentes a documentos avulsos, além dos fluxos referentes a processos. 
-Pergunta: No caso de documentos avulsos, eles são referentes a um processo já tramitado ou naturalmente, por ser um documento avulso de uma nova tramitação (novo NRE)? Caso seja a segunda opção, não há a verificação, correto?
-
-
 Introdução
 ----------
 
@@ -119,6 +108,7 @@ Essa transição pode ser feita nos status 1,2,3 ou 4, após o trâmite estar pa
 
 Pré-Trâmite;
 ^^^^^^^^^^^^
+
 (Em construção)
 
 A etapa de Pré-Trâmite é realizada antes dos Processos de Fluxos de Trâmites propriamente ditos nesse documento.
@@ -132,12 +122,6 @@ O Trâmite realizado com sucesso é representado pelo seguinte desenho de fluxo:
 
 .. figure:: _static/images/Fluxo_tramite_01-Tramite_Realizado.png
 
-.. image:: _static/images/Fluxo_tramite_01-Tramite_Realizado.png
-   :alt: Imagem grande
-   :target: _static/images/Fluxo_tramite_01-Tramite_Realizado.png
-
-
-Esse processo engloba os seguintes 
 
 
 Iniciar o envio de um processo administrativo 
@@ -174,6 +158,7 @@ A Figura abaixo descreve o fluxo de chamadas para este cenário.
 Nota-se que há uma transição do Status 0 para o Status 1: A transição inicia após a finalização da Escolha de destinatário pelo Remetente. Após isso, a Solução gera um novo NRE.
 
 Com isso, a Solução realiza transição para o Status 1 e aciona o serviço/endpoint enviarDocumento.
+
 
 Enviar os componentes digitais do trâmite
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -262,18 +247,132 @@ Transição do Status 5 para o Status 6:após a solução realizar a troca para 
 
 Trâmite Recusado pelo destinatário
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-(Em construção)
+
+Outro processo principal da solução é quando o trâmite é recusado pelo destinatário. O SPE de destino de um trâmite pode, em determinadas circunstâncias, recusar um trâmite. 
+
+Para isso ele precisa dos seguintes itens: 
+
+• IDT do trâmite que já se encontra sob sua responsabilidade e ainda não foi concluído; 
+
+• Motivo da recusa (uma das opções da enumeração definida pela própria Solução); 
+• Justificativa da recusa (texto complementar ao motivo).
+
+O Trâmite Recusado pelo destinatário pode ser representado pelo seguinte desenho de fluxo:
+
+.. figure:: _static/images/Fluxo_tramite_02-Tramite_Recusado_pelo_destinatario.png
+
+Esse fluxo demonstra o processo em quais etapas ele pode ser recusado pelo destinatário em comparação ao fluxo de processo realizado com sucesso simplificado.
+
+Nesse fluxo de processo simplificado, retiramos os detalhes as tarefas e os acionamentos dos endpoints, deixando somente os status como eventos intermediários e as suas transições. Para maiores detalhes desses status não detalhados, consulte cada um deles no TRÂMITE REALIZADO COM SUCESSO.
+
+No fluxo de processo da recusa, temos basicamente 3 etapas: início, recusa e finalização. Será dado mais enfoque na recusa e na finalização, já que nessas etapas temos as ações e serviços específicos envolvidos no fluxo de trâmite recusado pelo destinatário. 
+
+O início contempla os status 0, status 1 e status 2. As possíveis recusas estão nos status 3 e 4. E a finalização da recusa estão nos status 8 e 9.
+
+
+Recusar o trâmite do processo
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Após o início do trâmite (nesse contexto, pode-se interpretar como após o status 2), o trâmite pode sofrer a recusa. A recusa pode ser realizada em uma das duas etapas: quando o processo se encontra com o status 3 (“Metadados recebidos pelo destinatário”) ou com o status 4 (“Componentes digitais recebidos pelo destinatário”).
+Assim que o trâmite recebe o status 3, para ele ter a recusa, o destinatário deve recusar o trâmite acionando o serviço/endpoint recusarTramite (/tramites/{idt}/recusa). A solução irá realizar a troca para o status 8 (Aguardando Ciência) para finalizar a recusa. 
+Da mesma forma, na recusa no status 4, após passar pelo status 3, o trâmite também pode sofrer a recusa pelo destinatário: Assim que o trâmite recebe o status 4, para ele ter a recusa, o destinatário deve recusar o trâmite acionando o serviço recusarTramite (/tramites/{idt}/recusa). A solução irá realizar a troca para o status 8 (Aguardando Ciência) para finalizar a recusa.
+
+.. figure:: _static/images/Fluxo_tramite_Cenario_08-RecusTram.png
+
+
+A partir do momento em que o trâmite for recusado pelo Destinatário, apenas o remetente visualizará os dados do trâmite, bem como suas situações/status. 
+
+Finalizar a recusa do trâmite do processo
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Após o serviço/endpoint recusarTramite ter sido acionado e o trâmite ter recebido o status, 8 (Aguardando Ciência), o SPE do remetente recebe notificação da recusa. 
+
+Em seguida o remetente aciona o serviço/endpoint realizarCienciaRecusa (/tramites/{idt}/ciencia) e realiza a troca de status para o 9 (Recusado pelo destinatário), concluindo o trâmite. 
+
+.. figure:: _static/images/Fluxo_tramite_Cenario_09-FinalizRecusTram.png
+
+
+.. admonition:: Notas 
+
+   É importante retomar e reforçar o que foi mencionado no começo do Manual: “um trâmite recusado não é um erro.” Para ilustrar essa máxima do Tramita.GOV.BR, seguem os exemplos de recusa de trâmite: 
+
+   * Um processo com o número de protocolo 02019.003483/2018-68 já existe no sistema de destino. OBS: A recusa é uma das três formas de conclusão de trâmite. Portanto, não é um erro. 
+
+   * O tamanho máximo permitido para arquivos PDF é 20 Mb. OBS: A recusa é uma das três formas de conclusão de trâmite. Portanto, não é um erro. 
+
+   * A Unidade "Advocacia Geral do Estado - AGE-MG" não está configurada para receber processos/documentos avulsos por meio da plataforma. OBS: A recusa é uma das três formas de conclusão de trâmite. Portanto, não é um erro.
+
 
 Trâmite Cancelado pelo Remetente
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-(Em construção)
+
+Outro processo principal da solução é quando o trâmite é cancelado pelo remetente. Após iniciar um trâmite de documento digital (avulso ou processo), o remetente pode desistir da operação, seja por motivos técnicos (algum hash que não foi calculado corretamente, por exemplo) ou por motivos negociais (a área identificou que o trâmite não deve mais ocorrer). Nesses casos, o SPE remetente deve cancelar o trâmite, e, para isto, os pré-requisitos são: 
+
+* possuir o IDT; e 
+* o destinatário ainda não ter enviado o recibo assinado para a Solução.
+
+O Trâmite Cancelado pelo remetente pode ser representado pelo seguinte desenho de fluxo:
+
+
+.. figure:: _static/images/Fluxo_tramite_03-Tramite_Cancelado_pelo_remetente.png
+
+Esse fluxo demonstra o processo em quais etapas ele pode ser cancelado pelo remetente em comparação ao fluxo de processo realizado com sucesso simplificado (semelhante ao fluxo de trâmite recusado). Naturalmente, nesse fluxo de processo simplificado, repete-se a retirada de detalhes das tarefas e dos acionamentos dos endpoints, deixando somente os status como eventos intermediários e as suas transições. Para maiores detalhes desses status não detalhados, consulte cada um deles no TRÂMITE REALIZADO COM SUCESSO. 
+
+Conforme foi explicado acima, o processo consegue ser cancelado pelo remetente somente se esse não tiver enviado o recibo de conclusão do trâmite assinado para a Solução (status 5). Isto é: após ter iniciado o trâmite, e esse receber o status 2, o trâmite pode ser cancelado pelo remetente no status 1, 2, 3 e 4.
+
+Cancelar o trâmite do processo
+
+Após o início do trâmite (nesse contexto, pode-se interpretar como após o status 0), o trâmite pode sofrer o cancelamento.
+
+O cancelamento pode ser realizado em uma das quatro etapas: 
+
+- Status 1 “Aguardando o Envio de Componentes Digitais”
+- Status 2: “Componentes digitais recebidos pela solução”
+- Status 3: “Metadados recebidos pelo destinatário”
+- Status 4: “Componentes digitais recebidos pelo destinatário”
+
+Abaixo temos uma representação parcial do processo, com foco no cancelamento pelo remetente, onde o ‘X’ pode ser o status 1 a 4.
+
+
+.. figure:: _static/images/Fluxo_tramite_Cenario_10-CancTram.png
+
+Todos eles têm a mesma mecânica, que é o remetente deve cancelar o trâmite acionando o serviço/endpoint cancelarEnvioDeTramite (/tramites/{idt}). A solução irá realizar a troca para o status 7 “Cancelamento” para finalizar o cancelamento.
+
 
 Trâmite Cancelado automaticamente
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-(Em construção)
+
+Como complemento aos processos principais, o trâmite cancelado automaticamente é uma funcionalidade que a solução apresenta para não permitir os trâmites fiquem parados aguardando uma decisão dos atores envolvidos. Nesses casos, o SPE remetente deve cancelar o trâmite, e, para isto, os pré-requisitos são: 
+
+* possuir o IDT; e 
+* o trâmite ficar parado em um status por um tempo maior que o estipulado;
+
+Basicamente, a solução verifica um timer que contabiliza o tempo em que um trâmite fica parado em um determinado status. Caso esse tempo ultrapasse o tempo máximo definido pela equipe do Tramita.GOV.BR, o trâmite é cancelado automaticamente.
+
+O tempo máximo é um parâmetro que é configurado pela equipe do Tramita.GOV.BR. 
+
+Cancelar automaticamente o trâmite do processo
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Após o início do trâmite (nesse contexto, pode-se interpretar como após o status 0), o trâmite pode sofrer o cancelamento automático
+
+O cancelamento automático pode ser realizada em uma das quatro etapas: 
+
+* Status 1 “Aguardando o Envio de Componentes Digitais”
+* Status 2: “Componentes digitais recebidos pela solução”
+* Status 3: “Metadados recebidos pelo destinatário”
+* Status 4: “Componentes digitais recebidos pelo destinatário”
+
+Abaixo temos uma representação parcial do processo, com foco no cancelamento pelo remetente, onde o ‘X’ pode ser o status 1 a 4.
+
+.. figure:: _static/images/Fluxo_tramite_Cenario_11-CancTramAutom.png
+
+Todos eles têm a mesma mecânica, que é solução deve cancelar automaticamente (após o tempo máximo estipulado) o trâmite acionando o serviço/endpoint cancelarEnvioDeTramite (/tramites/{idt}). A solução irá realizar a troca para o status 10 “Cancelado Automaticamente” para finalizar o cancelamento automático.
+
 
 Fluxos auxiliares de utilização 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 (Em construção)
 
 Nesta seção serão descritos os cenários de utilização auxiliares, ou seja, que não são essenciais para a efetivação de um trâmite completo, mas que atuam no auxílio para a busca de informações ou na execução de rotinas alternativas. Esses cenários são: 
