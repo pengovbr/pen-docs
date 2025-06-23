@@ -1,5 +1,5 @@
-Guia de Importação de Estrutura no Manual do Portal de Administração
-=====================================================================
+Guia de Importação de Estrutura 
+===============================
 
 .. admonition:: Observação
 
