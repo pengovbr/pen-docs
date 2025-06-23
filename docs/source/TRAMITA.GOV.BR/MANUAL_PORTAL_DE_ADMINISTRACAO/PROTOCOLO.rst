@@ -64,7 +64,7 @@ Funcionalidades de alteração na Estrutura de Unidades Administrativas:
 
 **a.Alterar “nó pai”** – Ao clicar, o usuário seleciona uma unidade administrativa para indicar um novo **“nó pai”**, ou seja, uma unidade - dentre as já cadastradas - que estará acima da unidade selecionada na hierarquia.
 
-**b.Importar Estruturas** - Ao clicar, é exibida uma modal com o campo para realizar a importação do modelo com as informações de estrutura organizacional preenchidas pelo usuário.  Maiores informações na seção: Guia de Importação de Estrutura (Colocar hiperlink).
+**b.Importar Estruturas** - Ao clicar, é exibida uma modal com o campo para realizar a importação do modelo com as informações de estrutura organizacional preenchidas pelo usuário.  Maiores informações na seção: `Guia de Importação de Estrutura <https://homolog.manuais.processoeletronico.gov.br/pt-br/homologacao/TRAMITA.GOV.BR/MANUAL_PORTAL_DE_ADMINISTRACAO/Importacao_Estrutura.html#guia-de-importacao-de-estrutura>`_.
 
 .. admonition:: Observação
 
