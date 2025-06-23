@@ -106,13 +106,6 @@ Essa transição pode ser feita nos status 3 ou 4
 Essa transição pode ser feita nos status 1,2,3 ou 4, após o trâmite estar parado por mais de 8 dias corridos nesses status citados. 
 
 
-Pré-Trâmite;
-^^^^^^^^^^^^
-
-(Em construção)
-
-A etapa de Pré-Trâmite é realizada antes dos Processos de Fluxos de Trâmites propriamente ditos nesse documento.
-Na representação, é representado como o Macroprocesso "Fluxo de Escolha de destinatário"
 
 
 Trâmite realizado com sucesso - Processo
@@ -139,7 +132,7 @@ A Figura abaixo descreve os serviços que devem ser chamados para execução des
 
 Nota-se que há uma transição do Status 0 para o Status 1: A transição inicia após a finalização da Escolha de destinatário pelo Remetente. Após isso, a Solução Verifica possíveis tramitações anteriores do processo: caso o processo já foi tramitado alguma vez com sucesso, a solução recupera o NRE (Número de Registro Eletrônico), caso negativo, a solução gera um novo NRE.
 
-Com isso, o Remetente aciona o serviço endpoint enviarprocesso para realizar a transição para o Status 1
+Com isso, o Remetente aciona o serviço endpoint enviarprocesso (/interoperabilidade/rest/v3/tramites/processo) para realizar a transição para o Status 1.
 
 
 Iniciar o envio de um documento avulso
@@ -175,7 +168,7 @@ A Figura abaixo descreve o fluxo para envio dos componentes digitais de um trâm
 
 .. figure:: _static/images/Fluxo_tramite_Cenario_03-envio_CompDig_v02.png
 
-Transição do Status 1 para o Status 2: A transição inicia após o acionamento do endpoint enviarprocesso. O remetente envia os arquivos digitais para a Solução: caso existam arquivos grandes dentro do processo para tramitação, o remetente aciona o serviço/endpoint enviarComponenteDigitalEmParte, caso contrário, somente o serviço enviarComponenteDigital. Em ambos os casos, a tarefa entra em looping até que todos os arquivos sejam enviados para a solução. 
+Transição do Status 1 para o Status 2: A transição inicia após o acionamento do endpoint enviarprocesso. O remetente envia os arquivos digitais para a Solução: caso existam arquivos grandes dentro do processo para tramitação, o remetente aciona o serviço/endpoint enviarComponenteDigitalEmParte (tickets-de-envio-de-componente/{idTicketDeEnvio}/protocolos/componentes-a-enviar/partes/{parte}), caso contrário, somente o serviço enviarComponenteDigital (tickets-de-envio-de-componente/{idTicketDeEnvio}/protocolos/componentes-a-enviar). Em ambos os casos, a tarefa entra em looping até que todos os arquivos sejam enviados para a solução.
 
 Em seguida, a solução realiza a troca para o status 2.
 
@@ -194,8 +187,9 @@ A Figura abaixo demonstra o fluxo desse cenário:
 .. figure:: _static/images/Fluxo_tramite_Cenario_04-Recibo_conclusao_v02.png
 
 
-Transição do Status 2 para o Status 3: após a solução a solução realizar a troca para o status 2, o Remetente aciona o serviço/endpoint downloadReciboDeEnvio. 
-A partir desse momento, o Destinatário pode baixar processo ou documento avulso, aciona serviço/endpoint solicitarMetaDados e a solução realiza troca para status 3.
+Transição do Status 2 para o Status 3: após a solução a solução realizar a troca para o status 2, o Remetente aciona o serviço/endpoint downloadReciboDeEnvio (/tramites/{idt}/recibo-de-envio). 
+
+A partir desse momento, o Destinatário pode baixar processo ou documento avulso, aciona serviço/endpoint solicitarMetaDados (/tramites/{idt}) e a solução realiza troca para status 3.
 
 
 Receber metadados e componentes digitais
@@ -209,7 +203,7 @@ A Figura abaixo demonstra os serviços que devem ser chamados para conclusão de
 
 .. figure:: _static/images/Fluxo_tramite_Cenario_05-Receb_Metadados_CompDig_v02.png
 
-Transição do Status 3 para o Status 4: após a troca para o status 3, o Destinatário recebe os arquivos digitais da solução: caso existam arquivos grandes dentro do processo para tramitação, o Destinatário aciona o serviço/endpoint downloadComponenteDigitalEmParte, caso contrário, somente o serviço downloadComponenteDigital. Em ambos os casos, a tarefa entra em looping até que todos os arquivos sejam baixados da solução.
+Transição do Status 3 para o Status 4: após a troca para o status 3, o Destinatário recebe os arquivos digitais da solução: caso existam arquivos grandes dentro do processo para tramitação, o Destinatário aciona o serviço/endpoint downloadComponenteDigitalEmParte (/tramites/{idt}/protocolos/componentes-digitais/partes/{parte}), caso contrário, somente o serviço downloadComponenteDigital (tramites/{idt}/protocolos/componentes-digitais). Em ambos os casos, a tarefa entra em looping até que todos os arquivos sejam baixados da solução.
 
 Em seguida, a solução realiza a troca para o status 4.
 
@@ -229,7 +223,7 @@ A Figura abaixo demonstra o fluxo de chamadas para o envio do recibo de trâmite
 
 .. figure:: _static/images/Fluxo_tramite_Cenario_06-AssEnv_RecConc_v02.png
 
-Transição do Status 4 para o Status 5: após a solução realizar a troca para o status 4, ela mesma aciona o serviço/endpoint enviarReciboTramit. Em seguida, a solução realiza a troca para o status 5.
+Transição do Status 4 para o Status 5: após a solução realizar a troca para o status 4, ela mesma aciona o serviço/endpoint enviarReciboTramite (/tramites/{idt}/recibo). Em seguida, a solução realiza a troca para o status 5.
 
 Receber o recibo de conclusão do trâmite
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -242,7 +236,7 @@ A Figura abaixo demonstra o fluxo de chamadas para o recebimento do recibo de co
 
 .. figure:: _static/images/Fluxo_tramite_Cenario_07-Receber_RecConc_v02.png
 
-Transição do Status 5 para o Status 6:após a solução realizar a troca para o status 5, o Remetente aciona o serviço/endpoint periodicamente listarPendências. Esse serviço fica em looping, verificando se existe pendências de status 5 (recebimento de recibo do Tramite). Somente quando existir pendência de status 5, o Remetente pode baixar o recibo de conclusão de Trâmite e acionar o serviço/endpoint downloadReciboTramite. A solução então realiza a troca para o status 6. Em complemento, caso o processo não foi tramitado alguma vez com sucesso (isto é, nunca havia recebido o status 6), o SPE irá armazenar o NRE. 
+Transição do Status 5 para o Status 6:após a solução realizar a troca para o status 5, o Remetente aciona o serviço/endpoint periodicamente listarPendências (tramites/pendentes). Esse serviço fica em looping, verificando se existe pendências de status 5 (recebimento de recibo do Tramite). Somente quando existir pendência de status 5, o Remetente pode baixar o recibo de conclusão de Trâmite e acionar o serviço/endpoint downloadRecibodeTramite (tramites/{idt}/recibo). A solução então realiza a troca para o status 6. Em complemento, caso o processo não foi tramitado alguma vez com sucesso (isto é, nunca havia recebido o status 6), o SPE irá armazenar o NRE.
 
 
 Trâmite Recusado pelo destinatário
