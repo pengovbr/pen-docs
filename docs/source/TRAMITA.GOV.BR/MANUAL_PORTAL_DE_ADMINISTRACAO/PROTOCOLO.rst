@@ -64,17 +64,25 @@ Funcionalidades de alteração na Estrutura de Unidades Administrativas:
 
 **a.Alterar “nó pai”** – Ao clicar, o usuário seleciona uma unidade administrativa para indicar um novo **“nó pai”**, ou seja, uma unidade - dentre as já cadastradas - que estará acima da unidade selecionada na hierarquia.
 
-**b.Adicionar unidade filha** – Operação inversa à descrita acima: ao clicar, o usuário cria Unidade Administrativa abaixo da unidade selecionada, devendo preencher um formulário com os dados: **Nome, Sigla, Código no Órgão/Entidade e Descrição** da unidade filha:
+**b.Importar Estruturas** - Ao clicar, é exibida uma modal com o campo para realizar a importação do modelo com as informações de estrutura organizacional preenchidas pelo usuário.  Maiores informações na seção: `Guia de Importação de Estrutura <https://homolog.manuais.processoeletronico.gov.br/pt-br/homologacao/TRAMITA.GOV.BR/MANUAL_PORTAL_DE_ADMINISTRACAO/Importacao_Estrutura.html#guia-de-importacao-de-estrutura>`_.
 
-**OBS.:** Como boa prática, indica-se cadastrar apenas a primeira letra de cada palavra em caixa alta, por exemplo: “Diretoria de Informações, Serviços e Sistemas de Gestão”. Portanto, evite cadastrar todo o nome da unidade em caixa alta.
+.. admonition:: Observação
 
-**c.Reativar** – Após o usuário habilitar a caixa de seleção “Mostrar inativos” e selecionar uma unidade na estrutura, o sistema possibilita reativar a unidade selecionada na estrutura organizacional.
+   Essa funcionalidade é apenas habilitada para órgãos que não utilizam o Repositório de Estrutura Poder Executivo Federal.
 
-**d.Inativar** – Ao clicar, o sistema permite inativar a estrutura organizacional.
+**c.Adicionar unidade filha** – Operação inversa à descrita acima: ao clicar, o usuário cria Unidade Administrativa abaixo da unidade selecionada, devendo preencher um formulário com os dados: **Nome, Sigla, Código no Órgão/Entidade e Descrição** da unidade filha:
 
-**e.Visualizar** – Ao clicar, o sistema apresenta as informações cadastrais da Unidade Administrativa selecionada.
+.. admonition:: Observação
 
-**f.Editar** - Ao clicar, o sistema apresenta as informações cadastrais da Unidade Administrativa selecionada que poderá ser editada e alterada.
+   Como boa prática, indica-se cadastrar apenas a primeira letra de cada palavra em caixa alta, por exemplo: “Diretoria de Informações, Serviços e Sistemas de Gestão”. Portanto, evite cadastrar todo o nome da unidade em caixa alta.
+
+**d.Reativar** – Após o usuário habilitar a caixa de seleção “Mostrar inativos” e selecionar uma unidade na estrutura, o sistema possibilita reativar a unidade selecionada na estrutura organizacional.
+
+**e.Inativar** – Ao clicar, o sistema permite inativar a estrutura organizacional.
+
+**f.Visualizar** – Ao clicar, o sistema apresenta as informações cadastrais da Unidade Administrativa selecionada.
+
+**g.Editar** - Ao clicar, o sistema apresenta as informações cadastrais da Unidade Administrativa selecionada que poderá ser editada e alterada.
 
 
 .. admonition:: Observação

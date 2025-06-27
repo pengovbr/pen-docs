@@ -30,5 +30,6 @@ Acreditamos que esse novo manual será um valioso recurso para todos os usuário
   
    PROTOCOLO
    ADMINISTRACAO
+   Importacao_Estrutura
    ficha_catalografica
    CREDITOS
