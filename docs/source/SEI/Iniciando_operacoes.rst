@@ -87,13 +87,13 @@ As funcionalidades disponíveis são:
    - * .. figure:: _static/images/1-IO_icone_controle_de_processos.png
           :align: center
      * **Controle de processos:** permite ao usuário voltar à tela principal do sistema.
-   - * .. figure:: _static/images/1-IO_icone_novidades.png
+   - * .. figure:: _static/images/icone_em_numeros.png
           :align: center
      * **Painel de Controle:** possibilita ao usuário ter uma visão mais resumida e personalizada dos processos da unidade. Tal funcionalidade foi disponibilizada na barra de ferramentas do SEI a partir da **versão 4.1**. 
-   - * .. figure:: _static/images/icone_em_numeros.png.png
+   - * .. figure:: _static/images/icone_acessibilidade.png
           :align: center
      * **Acessibilidade:** são mecanismos que permitem ao usuário acessar rapidamente funções ou visões do SEI, por meio de combinações de teclas de atalho. Tal funcionalidade foi incorporada ao SEI a partir da **versão 4.1**.
-   - * .. figure:: _static/images/icone_acessibilidade.png
+   - * .. figure:: _static/images/1-IO_icone_usuario.png
           :align: center
      * **Usuário:** identifica o usuário que está acessando o sistema.
    - * .. figure:: _static/images/1-IO_icone_configuracoes_do_sistema.png
