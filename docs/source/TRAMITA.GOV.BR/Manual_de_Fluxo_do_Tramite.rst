@@ -10,13 +10,12 @@ O manual  tem como objetivo apoiar os órgãos que precisam desenvolver a Plataf
 
 Para se integrar à Plataforma, o órgão interessado deve:
 
-1. Inscrever seu sistema de processo eletrônico junto à equipe gestora do sistema;
-2. Obter o acesso ao ambiente de homologação;
-3. Desenvolver a integração com o catálogo de serviços de interoperabilidade no ambiente de homologação;
-4. Obter o acesso ao ambiente de produção.
-
-Este manual é focado no item 3, ou seja, ele considera que o órgão interessado já possui acesso ao ambiente de homologação e deseja iniciar as evoluções em seu sistema.
-
+1. Solicitar o acesso em ambiente de homologação;
+2. Após a autorização, o usuário deve gerar o certificado necessário para possibilitar a comunicação do SPE com a plataforma GOV.BR
+3. Desenvolver a integração;;
+4. Realizar os testes mínimos em ambiente de homologação;
+5. Depois realizar a solicitação de acesso em ambiente de produção.
+Este manual é focado no passo 3, ou seja, ele considera que o órgão interessado já possui acesso ao ambiente de homologação e deseja desenvolver a integração.
 
 Processos do Fluxo de Trâmite
 -----------------------------
