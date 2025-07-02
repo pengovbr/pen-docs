@@ -259,7 +259,7 @@ Para associar um **Plano de Trabalho** a um processo, basta clicar no ícone |pl
 
 .. |plano_de_trabalho_documento| image:: _static/images/plano_de_trabalho_documento.png
    :align: middle
-   :width: 100
+   :width: 500
 
 
 Na tela Associar Plano de Trabalho, o usuário deverá selecionar o **Plano de Trabalho** que deverá ser associado ao processo e clicar em **Salvar**;
