@@ -228,6 +228,148 @@ Na tela **Controles de Prazos**, a visualização dos processos na Lista será p
    Também será possível controlar os processos com **Controle de Prazos**, por meio do **Painel de Controle**, desde que ele esteja configurado para mostrar os Controles de Prazo.
 
 
+Plano de Trabalho
+++++++++++++++++++
+
+.. admonition:: Nota
+
+   A partir da versão 4.1 tornou-se possível o ordenamento de atividades relativos a processo por meio da utilização da funcionalidade Plano de Trabalho.
+
+A funcionalidade Plano de Trabalho do SEI permite o sequenciamento de atividades dentro de um processo, organizando as etapas a serem executadas conforme um fluxo previamente definido. Cada etapa do plano pode conter indicação de situação, inclusão de documentos, registros de andamento e demais informações que facilitem o acompanhamento da execução das tarefas planejadas.
+
+O Plano de Trabalho tem como objetivo oferecer maior controle, transparência e organização das atividades relacionadas a um processo, contribuindo para que todas as ações previstas sejam realizadas de forma ordenada e registrada.
+
+A criação de um Plano de Trabalho é de responsabilidade de usuários com perfil de administrador do sistema, com base nos planos previamente estabelecidos pelas chefias da unidade, assegurando alinhamento com as diretrizes e prioridades institucionais.
+
+Essa funcionalidade contribui para o gerenciamento eficiente dos processos administrativos, promovendo a rastreabilidade e o monitoramento das atividades desenvolvidas ao longo da tramitação processual.
+
+Para associar um **Plano de Trabalho** a um processo, basta clicar no ícone |plano_de_trabalho| existente na Tela do Processo;
+
+.. figure:: _static/images/Plano_de_trabalho.gif
+
+.. |plano_de_trabalho| image:: _static/images/icone_plano_de_trabalho.png
+   :align: middle
+   :width: 35
+
+.. admonition:: Nota
+
+   O ícone |plano_de_trabalho| **Plano de Trabalho** também está disponível na Tela do Documento
+
+   |plano_de_trabalho_documento| 
+
+.. |plano_de_trabalho_documento| image:: _static/images/plano_de_trabalho_documento.png
+   :align: middle
+   :width: 500
+
+
+Na tela Associar Plano de Trabalho, o usuário deverá selecionar o **Plano de Trabalho** que deverá ser associado ao processo e clicar em **Salvar**;
+
+
+.. figure:: _static/images/Plano_de_trabalho_selecionar_plano.gif
+
+
+Para abrir o plano de trabalho, o usuário deverá clicar no ícone |plano_de_trabalho| existente na Tela do Processo;
+
+
+A lista de atividades relacionadas ao plano de trabalho ficará disponível para visualização e preenchimento do usuáio;
+
+
+.. figure:: _static/images/Plano_de_trabalho_lista_de_atividades.gif
+
+
+A Tela Plano de Trabalho tem as seguintes opção disponíveis para utilização:
+
+
+.. figure:: _static/images/Plano_de_trabalho_lista_de_atividades_operacoes.png
+
+1) **Etapa do Plano de Trabalho:** essa seção agrupará etapas do plano de trabalho por natureza ou tipo de atividade. Tais agrupamentos segurão a estrutura definida pela chefia da unidade.
+
+2) **Item do Plano de Trabalho:** cada linha representará um item do plano de trabalho;
+
+3) **Situação do Item:** ao lado esquerdo de cada item poderá ter marcadores que sinalizem a sua situação. Tais situações serão indicas pelo usuário por meio do menu "Atualizar Item", acessível pelo ícone |icone_atualizar_item|. O SEI possibilita o registro das seguintes situações:
+
+* Em andamento |em_andamento| 
+* Pausado |pausado|
+* Finalizado |finalizado|
+* Problema |problema|
+* Não se aplica |nao_se_aplica|
+* Desconsiderado |desconsiderado|
+
+
+
+.. |em_andamento| image:: _static/images/icone_PT_em_andamento.png
+   :align: middle
+   :width: 35
+
+.. |pausado| image:: _static/images/icone_PT_pausado.png
+   :align: middle
+   :width: 35
+
+.. |finalizado| image:: _static/images/icone_PT_finalizado.png
+   :align: middle
+   :width: 35
+
+.. |problema| image:: _static/images/icone_PT_problema.png
+   :align: middle
+   :width: 35
+
+.. |nao_se_aplica| image:: _static/images/icone_PT_nao_se_aplica.png
+   :align: middle
+   :width: 35
+
+.. |desconsiderado| image:: _static/images/icone_PT_desconsiderado.png
+   :align: middle
+   :width: 35
+
+.. |icone_atualizar_item| image:: _static/images/icone_atualizar_item.png
+   :align: middle
+   :width: 35
+
+4) **Documento:** demostra os documentos que estão relacioandos àquele item.
+
+5) **Unidade:** indica a unidade do usuário que está atualizando o item.
+
+6) **Incluir Documento:** após clicar no ícone |icone_incluir_documentos|, o procedimento de inclusão de documentos ocorrerá conforme os passos indicados na seção `Incluir documentos <https://manuais.processoeletronico.gov.br/pt-br/latest/SEI/Operacoes_basicas_com_documentos.html#incluir-documentos>`_ desse manual.
+
+.. admonition:: Nota
+
+   Ao incluir um documento em um item do plano de trabalho, a situação deste item passará automaticamente para "em andamento".
+
+
+.. |icone_incluir_documentos| image:: _static/images/icone_incluir_documentos.png
+   :align: middle
+   :width: 35
+
+7) **Atualizar item:** por meio desse ícone será possível:
+
+* registrar a situação do item;
+* registrar a descrição do item;
+* associar documentos da unidade ao item;
+* além disso, a tela de atualização contém tabela que traz a luz todo o histórico de atualizações do item.
+
+.. figure:: _static/images/Plano_de_trabalho_atualizar_item.png
+
+8) **Filtros de visualização:** Se selecionado "Ver todos os itens", serão expandidas todas as etapas, mantendo todos os itens do plano visíveis ao usuário. Se selecionado "Ocultar todos os itens", haverá retração dos itens, de forma que somente as etapas ficarão visíveis ao usuário.
+
+9) **Consultar plano de trabalho:** por meio desse ícone será possível visualizar mais informações sobre o plano de trabalho.
+
+
+.. figure:: _static/images/Plano_de_trabalho_mais_informacoes.png
+
+
+10) **Botão Associar Plano:** esse botão permite ao usuário substituir o plano cadastrado por um outro plano.
+
+11) **Botão Histórico:** tal botão permite a visualização de todas as atualizões registradas para os itens presentes no plano.
+
+12) **Botão Voltar:** ao clicar nesse botão o usuário será direcionado para a tela de processos.
+
+
+.. admonition:: Nota
+
+   A existência de um plano de trabalho em execução não bloqueiará ou impedirá quaisquer ações que precisem ser realizadas em um processo.  
+
+
+
 Marcadores
 ++++++++++
 
@@ -235,7 +377,12 @@ Esse recurso tem por objetivo organizar os processos da unidade, por meio da atr
 
 Os **Marcadores** são criados, gerenciados e adicionados aos processos pela própria unidade, que tem autonomia para definir a cor e a descrição de cada Marcador. Trata-se de uma ferramenta de organização interna.
 
-O SEI conta com 32 opções de marcadores para processos. 
+O SEI conta com 32 opções de marcadores para processos.
+
+.. admonition:: Nota
+
+
+   A partir da versão 4.1 foi amplido o número de caracteres do texto dos Marcadores para 500 caracteres.
 
 
 Como criar um Marcador

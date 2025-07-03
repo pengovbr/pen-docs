@@ -495,6 +495,37 @@ Caso o usuário deseje acessar os processos específicos de uma unidade, deverá
 Para retornar às telas anteriores, clique no botão Fechar em cada uma das telas.
 
 
+Relatório de atividades na unidade
++++++++++++++++++++++++++++++++++++
+
+.. admonition:: Nota
+
+   A partir da versão 4.1 tornou-se possível a consulta do histórico de atividades realizada por usuário, em determinada Unidade. 
+
+
+A funcionalidade **Relatório de Atividades na Unidade** encontra-se disponível no Menu Principal.
+
+
+.. figure:: _static/images/relatorio_atividades.gif
+
+
+A Tela Relatório de Atividade na Unidade será aberta. Para extração do relatório será necessário preencher os campos em tela conformo indicado abaixo:
+
+
+* **Unidade:** esse campo virá preenchido automaticamente com a Unidade indicada pelo usuário na Barra de Ferramentas;
+* **Usuário:** selecionar o usuário ao qual deseja verificar informações sobre suas atividades;
+* **Período:** selecionar o período de consulta;
+* **Tipo:** selecionar o tipo de relatório: 
+   * **Totais:** relatório agrupado, com a indicação da quantidade realizada por tipo de atividade;
+   * **Detalhado:** relatório contém uma linha para cada atividade realizada pelo usuário, no período proposto. O número do processo, Data, Unidade, Usuário e Descrição ficarão diposníveis para visualização e acesso via relatório.
+
+
+Ao concluir o preenchimento dos campos, clicar em "Pesquisar".
+
+.. figure:: _static/images/relatorio_atividades_campos.gif
+
+
+
 Ponto de controle
 +++++++++++++++++
 
