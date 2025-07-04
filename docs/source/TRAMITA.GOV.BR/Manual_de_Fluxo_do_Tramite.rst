@@ -5,18 +5,17 @@ Manual de Fluxo do Trâmite
 Introdução
 ----------
 
-O manual  tem como objetivo apoiar os órgãos que precisam desenvolver a solução de integração do Sistema de Processo Administrativo Eletrônico (SPE)  com a plataforma Tramita GOV.BR.
+O manual  tem como objetivo apoiar os órgãos que precisam desenvolver a solução de integração do Sistema de Processo Administrativo Eletrônico (SPE) com a plataforma Tramita GOV.BR.
 
 Para se integrar à plataforma, o órgão interessado deve:
 
 1. Solicitar o acesso em ambiente de homologação;
-2. Após a autorização, o usuário deve gerar o certificado necessário para possibilitar a comunicação do SPE com a plataforma GOV.BR
-3. Desenvolver a integração;;
+2. Após a autorização, o usuário deve gerar o certificado necessário para possibilitar a comunicação do SPE com a plataforma GOV.BR;
+3. Desenvolver a integração;
 4. Realizar os testes mínimos em ambiente de homologação;
 5. Depois realizar a solicitação de acesso em ambiente de produção.
-Este manual é focado no passo 3, ou seja, ele considera que o órgão interessado já possui acesso ao ambiente de homologação e deseja desenvolver a integração.
 
-
+Esse manual é focado no passo 3, ou seja, ele considera que o órgão interessado já possui acesso ao ambiente de homologação e deseja desenvolver a integração.
 
 
 Processos do Fluxo de Trâmite
@@ -51,16 +50,16 @@ Como fluxos auxiliares, temos:
 Os fluxos principais e auxiliares são compostos por diversos cenários concatenados conforme andamento de cada um. 
 
 
-
->Notas:
->1) Os desenhos de processo, que representarão os Processos de Fluxos de Trâmite serão baseados em notação BPMN, com as seguintes representações: 
->
->- Pool ou "Piscina", representando um processo. 
->- Raias são as faixas horizontais com faixas contínuas da _Pool_, tendo como atores responsáveis por executar as caixas de atividades: Remetente, Plataforma e Destinatário. A analogia simples entre Pool ("Piscina") e as suas raias serve como ilustração com a notação BPMN;
->- Milestones são as faixas verticais listradas, tendo como marcos os Status (cenários);
->- Caixas de atividades claras: Atividades executadas pelos atores dentro de um determinado milestone;
->- Caixas de atividades escuras: Atividades executadas pelos atores dentro de um determinado milestone, mas que estão relacionadas com acionamento de um endpoint;
->- Outras representações (anotações, gateways e eventos iniciais, intermediários e finais).
+ .. admonition:: Nota:
+ 
+ Os desenhos de processo, que representarão os Processos de Fluxos de Trâmite serão baseados em notação BPMN, com as seguintes representações: 
+ 
+ - Pool ou "Piscina", representando um processo. 
+ - Raias são as faixas horizontais com faixas contínuas da _Pool_, tendo como atores responsáveis por executar as caixas de atividades: Remetente, Plataforma e Destinatário. A analogia simples entre Pool ("Piscina") e as suas raias serve como ilustração com a notação BPMN;
+ - Milestones são as faixas verticais listradas, tendo como marcos os Status (cenários);
+ - Caixas de atividades claras: Atividades executadas pelos atores dentro de um determinado milestone;
+ - Caixas de atividades escuras: Atividades executadas pelos atores dentro de um determinado milestone, mas que estão relacionadas com acionamento de um endpoint;
+ - Outras representações (anotações, gateways e eventos iniciais, intermediários e finais).
 
 
 Fluxos Principais de Utilização
@@ -68,8 +67,7 @@ Fluxos Principais de Utilização
 
 Nesta seção são descritos os fluxos de processo de utilização principais da plataforma de Interoperabilidade e quais são os cenários envolvidos em cada um deles. 
 
-A explicação é composta do desenho do fluxo de processos e texto complementar. Basicamente são três as situações dos fluxos principais do Tramita.GOV.BR: Realizado, Cancelado e Recusado.
-O fluxo Realizado será a base comparativa de todos os outros fluxos, por motivos didáticos. 
+A plataforma estabelece três formas possíveis de conclusão de trâmite (com sucesso, com recusa e com cancelamento). Para facilitar a compreensão de como funciona o andamento de um trâmite, inicialmente, será explicado o fluxo de trâmite concluído com sucesso. 
 
 
 TRÂMITE REALIZADO COM SUCESSO - PROCESSO
@@ -78,9 +76,6 @@ TRÂMITE REALIZADO COM SUCESSO - PROCESSO
 O Trâmite realizado com sucesso é representado pelo seguinte desenho de fluxo: 
 
 .. figure:: _static/images/Fluxo_tramite_01-Tramite_Realizado.png
-
-
-
 
 
 
