@@ -1,14 +1,13 @@
 Manual de Fluxo do Trâmite
 ==========================
 
+
 Introdução
 ----------
 
-O manual  tem como objetivo apoiar os órgãos que precisam desenvolver a Plataforma de integração do Sistema de Processo Administrativo Eletrônico (SPE)  com a plataforma Tramita GOV.BR.
+O manual  tem como objetivo apoiar os órgãos que precisam desenvolver a solução de integração do Sistema de Processo Administrativo Eletrônico (SPE)  com a plataforma Tramita GOV.BR.
 
-
-
-Para se integrar à Plataforma, o órgão interessado deve:
+Para se integrar à plataforma, o órgão interessado deve:
 
 1. Solicitar o acesso em ambiente de homologação;
 2. Após a autorização, o usuário deve gerar o certificado necessário para possibilitar a comunicação do SPE com a plataforma GOV.BR
@@ -16,6 +15,9 @@ Para se integrar à Plataforma, o órgão interessado deve:
 4. Realizar os testes mínimos em ambiente de homologação;
 5. Depois realizar a solicitação de acesso em ambiente de produção.
 Este manual é focado no passo 3, ou seja, ele considera que o órgão interessado já possui acesso ao ambiente de homologação e deseja desenvolver a integração.
+
+
+
 
 Processos do Fluxo de Trâmite
 -----------------------------
@@ -34,6 +36,7 @@ Como fluxos principais temos:
 • Trâmite Cancelado automaticamente.
 
 
+
 Como fluxos auxiliares, temos:
 
 • Listar pendências; 
@@ -48,31 +51,28 @@ Como fluxos auxiliares, temos:
 Os fluxos principais e auxiliares são compostos por diversos cenários concatenados conforme andamento de cada um. 
 
 
-.. admonition:: Notas
 
-   1) Os desenhos de processo, que representarão os Processos de Fluxos de Trâmite serão baseados em notação BPMN, com as seguintes representações: 
+>Notas:
+>1) Os desenhos de processo, que representarão os Processos de Fluxos de Trâmite serão baseados em notação BPMN, com as seguintes representações: 
+>
+>- Pool ou "Piscina", representando um processo. 
+>- Raias são as faixas horizontais com faixas contínuas da _Pool_, tendo como atores responsáveis por executar as caixas de atividades: Remetente, Plataforma e Destinatário. A analogia simples entre Pool ("Piscina") e as suas raias serve como ilustração com a notação BPMN;
+>- Milestones são as faixas verticais listradas, tendo como marcos os Status (cenários);
+>- Caixas de atividades claras: Atividades executadas pelos atores dentro de um determinado milestone;
+>- Caixas de atividades escuras: Atividades executadas pelos atores dentro de um determinado milestone, mas que estão relacionadas com acionamento de um endpoint;
+>- Outras representações (anotações, gateways e eventos iniciais, intermediários e finais).
 
-   * Pool ou "Piscina", representando um processo. 
-   * Raias são as faixas horizontais com faixas contínuas da _Pool_, tendo como atores responsáveis por executar as caixas de atividades: Remetente, Plataforma e Destinatário. A analogia simples entre Pool ("Piscina") e as suas raias serve como ilustração com a notação BPMN;
-   * Milestones são as faixas verticais listradas, tendo como marcos os Status (cenários);
-   * Caixas de atividades claras: Atividades executadas pelos atores dentro de um determinado milestone;
-   * Caixas de atividades escuras: Atividades executadas pelos atores dentro de um determinado milestone, mas que estão relacionadas com acionamento de um endpoint;
-   * Outras representações (anotações, gateways e eventos iniciais, intermediários e finais).
 
 Fluxos Principais de Utilização
---------------------------------
+---------------------------
 
-Nesta seção são descritos os fluxos de processo de utilização principais da Plataforma de interoperabilidade e quais são os cenários envolvidos em cada um deles. 
+Nesta seção são descritos os fluxos de processo de utilização principais da plataforma de Interoperabilidade e quais são os cenários envolvidos em cada um deles. 
 
 A explicação é composta do desenho do fluxo de processos e texto complementar. Basicamente são três as situações dos fluxos principais do Tramita.GOV.BR: Realizado, Cancelado e Recusado.
-
 O fluxo Realizado será a base comparativa de todos os outros fluxos, por motivos didáticos. 
 
 
-
-
-
-Trâmite realizado com sucesso - Processo
+TRÂMITE REALIZADO COM SUCESSO - PROCESSO
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 O Trâmite realizado com sucesso é representado pelo seguinte desenho de fluxo: 
@@ -81,12 +81,15 @@ O Trâmite realizado com sucesso é representado pelo seguinte desenho de fluxo:
 
 
 
+
+
+
 Iniciar o envio de um processo administrativo 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-ara realizar o envio de um processo administrativo eletrônico de um SPE para outro:
+Para realizar o envio de um processo administrativo eletrônico de um SPE para outro:
 
-Pré-requisitos:
+Pré-requisitos: 
 
 • Metadados do processo administrativo a ser tramitado; 
 
@@ -97,8 +100,10 @@ A Figura abaixo descreve os serviços que devem ser chamados para execução des
 .. figure:: _static/images/Fluxo_tramite_Cenario_01-envio_proc_adm_v02.png
 
 Nota-se que há uma transição do Status 0 para o Status 1: A transição inicia após a finalização da Escolha de destinatário pelo Remetente. Após isso, a plataforma verifica possíveis tramitações anteriores do processo: caso o processo já foi tramitado alguma vez com sucesso, a plataforma recupera o NRE (Número de Registro Eletrônico), caso negativo, a plataforma gera um novo NRE.
-
 Com isso, o Remetente aciona o serviço endpoint enviarprocesso (/interoperabilidade/rest/v3/tramites/processo) para realizar a transição para o Status 1.
+
+
+
 
 
 Iniciar o envio de um documento avulso
@@ -106,7 +111,7 @@ Iniciar o envio de um documento avulso
 
 Para realizar o envio de um documento avulso de um SPE para outro:
 
-Pré-requisitos:
+Pré-requisitos: 
 
 • Metadados do documento avulso a ser tramitado; 
 
@@ -117,16 +122,15 @@ A Figura abaixo descreve o fluxo de chamadas para este cenário.
 .. figure:: _static/images/Fluxo_tramite_Cenario_02-envio_DocAv_v02.png
 
 Nota-se que há uma transição do Status 0 para o Status 1: A transição inicia após a finalização da Escolha de destinatário pelo Remetente. Após isso, a plataforma gera um novo NRE.
+Com isso, a plataforma realiza transição para o Status 1 e aciona o /interoperabilidade/rest/v3/tramites/documento 
 
-Com isso, a Plataforma realiza transição para o Status 1 e aciona o serviço/endpoint enviarDocumento.
 
 
 Enviar os componentes digitais do trâmite
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Após o início do trâmite, o SPE remetente deve enviar para a plataforma os componentes digitais do processo ou documento tramitado.
 Pré-requisitos: 
-
 
 • Ticket de envio de componentes digitais: número de identificação das pendências de envio, retornado na chamada do serviço que iniciou o trâmite; 
 
@@ -138,19 +142,23 @@ A Figura abaixo descreve o fluxo para envio dos componentes digitais de um trâm
 
 .. figure:: _static/images/Fluxo_tramite_Cenario_03-envio_CompDig_v02.png
 
-Transição do Status 1 para o Status 2: A transição inicia após o acionamento do endpoint enviarprocesso. O remetente envia os arquivos digitais para a Plataforma: caso existam arquivos grandes dentro do processo para tramitação, o remetente aciona o serviço/endpoint enviarComponenteDigitalEmParte (tickets-de-envio-de-componente/{idTicketDeEnvio}/protocolos/componentes-a-enviar/partes/{parte}), caso contrário, somente o serviço enviarComponenteDigital (tickets-de-envio-de-componente/{idTicketDeEnvio}/protocolos/componentes-a-enviar). Em ambos os casos, a tarefa entra em looping até que todos os arquivos sejam enviados para a Plataforma.
 
+Transição do Status 1 para o Status 2: A transição inicia após o acionamento do endpoint enviarprocesso. O remetente envia os arquivos digitais para a plataforma: caso existam arquivos grandes dentro do processo para tramitação, o remetente aciona o serviço/endpoint enviarComponenteDigitalEmParte (tickets-de-envio-de-componente/{idTicketDeEnvio}/protocolos/componentes-a-enviar/partes/{parte}), caso contrário, somente o serviço enviarComponenteDigital (tickets-de-envio-de-componente/{idTicketDeEnvio}/protocolos/componentes-a-enviar). Em ambos os casos, a tarefa entra em looping até que todos os arquivos sejam enviados para a plataforma.
 Em seguida, a plataforma realiza a troca para o status 2.
 
 
+
+
+
+
 Enviar o recibo de conclusão do envio dos componentes digitais
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Após o remetente enviar todos os componentes digitais referentes ao trâmite para a plataforma, a plataforma gera o recibo de conclusão do envio dos componentes digitais do processo ou documento tramitado para uma possível consulta pelo remetente. Pré-requisitos: 
 
 • IDT: identificador do trâmite. 
 
-* Ter concluído o envio para a plataforma de todos os componentes digitais solicitados. 
+• Ter concluído o envio para a plataforma de todos os componentes digitais solicitados. 
 
 A Figura abaixo demonstra o fluxo desse cenário:
 
@@ -158,8 +166,11 @@ A Figura abaixo demonstra o fluxo desse cenário:
 
 
 Transição do Status 2 para o Status 3: após a plataforma realizar a troca para o status 2, o Remetente aciona o serviço/endpoint downloadReciboDeEnvio (/tramites/{idt}/recibo-de-envio). 
+A partir desse momento, o Destinatário pode baixar processo ou documento avulso, aciona serviço/endpoint solicitarMetaDados (/tramites/{idt}) e a plataforma realiza troca para status 3.
 
-A partir desse momento, o Destinatário pode baixar processo ou documento avulso, aciona serviço/endpoint solicitarMetaDados (/tramites/{idt}) e a Plataforma realiza troca para status 3.
+
+
+
 
 
 Receber metadados e componentes digitais
@@ -173,6 +184,7 @@ A Figura abaixo demonstra os serviços que devem ser chamados para conclusão de
 
 .. figure:: _static/images/Fluxo_tramite_Cenario_05-Receb_Metadados_CompDig_v02.png
 
+
 Transição do Status 3 para o Status 4: após a troca para o status 3, o Destinatário recebe os arquivos digitais da plataforma: caso existam arquivos grandes dentro do processo para tramitação, o Destinatário aciona o serviço/endpoint downloadComponenteDigitalEmParte (/tramites/{idt}/protocolos/componentes-digitais/partes/{parte}), caso contrário, somente o serviço downloadComponenteDigital (tramites/{idt}/protocolos/componentes-digitais). Em ambos os casos, a tarefa entra em looping até que todos os arquivos sejam baixados da plataforma.
 
 Em seguida, a plataforma realiza a troca para o status 4.
@@ -180,10 +192,15 @@ Em seguida, a plataforma realiza a troca para o status 4.
 Deve ser considerado que, a critério de cada SPE, o momento da solicitação dos metadados e o momento do recebimento dos componentes digitais podem divergir, a fim de permitir a melhor utilização dos recursos de tráfego de rede. Como exemplo, o SPE pode receber os metadados assim que a pendência surge para ele, mas agendar o recebimento dos componentes digitais para período de baixa utilização de rede.
 
 
-Assinar e enviar o recibo de conclusão do trâmite 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Após a conclusão do recebimento dos componentes digitais, o SPE precisa assinar um recibo de conclusão do trâmite. Essa assinatura é feita através do certificado digital que o SPE usa para se comunicar com a Plataforma de interoperabilidade. Pré-requisitos: 
+
+
+Assinar e enviar o recibo de conclusão do trâmite 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Após a conclusão do recebimento dos componentes digitais, o SPE precisa assinar um recibo de conclusão do trâmite. Essa assinatura é feita através do certificado digital que o SPE usa para se comunicar com a plataforma Tramita GOV.BR.
+
+Pré-requisitos: 
 
 • IDT do trâmite que está aguardando o recibo de conclusão; 
 
@@ -200,6 +217,7 @@ Receber o recibo de conclusão do trâmite
 
 Após o envio do recibo à plataforma, assinado pelo SPE destinatário, o SPE remetente é notificado com uma pendência para receber este recibo. Este é o último passo antes que o trâmite seja dado como concluído dentro da plataforma Tramita GOV.BR. 
 
+Pré-requisitos:
 • IDT do trâmite na situação correspondente. 
 
 A Figura abaixo demonstra o fluxo de chamadas para o recebimento do recibo de conclusão de trâmite.
@@ -209,16 +227,17 @@ A Figura abaixo demonstra o fluxo de chamadas para o recebimento do recibo de co
 Transição do Status 5 para o Status 6:após a plataforma realizar a troca para o status 5, o Remetente aciona o serviço/endpoint periodicamente listarPendências (tramites/pendentes). Esse serviço fica em looping, verificando se existe pendências de status 5 (recebimento de recibo do Tramite). Somente quando existir pendência de status 5, o Remetente pode baixar o recibo de conclusão de Trâmite e acionar o serviço/endpoint downloadRecibodeTramite (tramites/{idt}/recibo). A plataforma então realiza a troca para o status 6. Em complemento, caso o processo não foi tramitado alguma vez com sucesso (isto é, nunca havia recebido o status 6), o SPE irá armazenar o NRE.
 
 
-Trâmite Recusado pelo destinatário
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Outro processo principal da plataforma é quando o trâmite é recusado pelo destinatário. O SPE de destino de um trâmite pode, em determinadas circunstâncias, recusar um trâmite.  
+TRÂMITE RECUSADO PELO DESTINATÁRIO
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Outro processo principal da plataforma é quando o trâmite é recusado pelo destinatário. O SPE de destino de um trâmite pode, em determinadas circunstâncias, recusar um trâmite. 
 
 Para isso ele precisa dos seguintes itens: 
 
 • IDT do trâmite que já se encontra sob sua responsabilidade e ainda não foi concluído; 
 
 • Motivo da recusa (uma das opções da enumeração definida pela própria plataforma); 
+
 • Justificativa da recusa (texto complementar ao motivo).
 
 O Trâmite Recusado pelo destinatário pode ser representado pelo seguinte desenho de fluxo:
@@ -241,6 +260,7 @@ Após o início do trâmite (nesse contexto, pode-se interpretar como após o st
 Assim que o trâmite recebe o status 3, para ele ter a recusa, o destinatário deve recusar o trâmite acionando o serviço/endpoint recusarTramite (/tramites/{idt}/recusa). A plataforma irá realizar a troca para o status 8 (Aguardando Ciência) para finalizar a recusa. 
 Da mesma forma, na recusa no status 4, após passar pelo status 3, o trâmite também pode sofrer a recusa pelo destinatário: Assim que o trâmite recebe o status 4, para ele ter a recusa, o destinatário deve recusar o trâmite acionando o serviço recusarTramite (/tramites/{idt}/recusa). A plataforma irá realizar a troca para o status 8 (Aguardando Ciência) para finalizar a recusa.
 
+
 .. figure:: _static/images/Fluxo_tramite_Cenario_08-RecusTram.png
 
 
@@ -256,24 +276,21 @@ Em seguida o remetente aciona o serviço/endpoint realizarCienciaRecusa (/tramit
 .. figure:: _static/images/Fluxo_tramite_Cenario_09-FinalizRecusTram.png
 
 
-.. admonition:: Notas 
 
-   É importante retomar e reforçar o que foi mencionado no começo do Manual: “um trâmite recusado não é um erro.” Para ilustrar essa máxima do Tramita.GOV.BR, seguem os exemplos de recusa de trâmite: 
-
-   * Um processo com o número de protocolo 02019.003483/2018-68 já existe no sistema de destino. OBS: A recusa é uma das três formas de conclusão de trâmite. Portanto, não é um erro. 
-
-   * O tamanho máximo permitido para arquivos PDF é 20 Mb. OBS: A recusa é uma das três formas de conclusão de trâmite. Portanto, não é um erro. 
-
-   * A Unidade "Advocacia Geral do Estado - AGE-MG" não está configurada para receber processos/documentos avulsos por meio da plataforma. OBS: A recusa é uma das três formas de conclusão de trâmite. Portanto, não é um erro.
+Nota:
+É importante retomar e reforçar o que foi mencionado no começo do Manual: “um trâmite recusado não é um erro.” Para ilustrar essa máxima do Tramita.GOV.BR, seguem os exemplos de recusa de trâmite: 
+- Um processo com o número de protocolo 02019.003483/2018-68 já existe no sistema de destino. OBS: A recusa é uma das três formas de conclusão de trâmite. Portanto, não é um erro. 
+ - O tamanho máximo permitido para arquivos PDF é 20 Mb. OBS: A recusa é uma das três formas de conclusão de trâmite. Portanto, não é um erro. 
+- A Unidade "Advocacia Geral do Estado - AGE-MG" não está configurada para receber processos/documentos avulsos por meio da plataforma. OBS: A recusa é uma das três formas de conclusão de trâmite. Portanto, não é um erro.
 
 
-Trâmite Cancelado pelo Remetente
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TRÂMITE CANCELADO PELO REMETENTE
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Outro processo principal da plataforma é quando o trâmite é cancelado pelo remetente. Após iniciar um trâmite de documento digital (avulso ou processo), o remetente pode desistir da operação, seja por motivos técnicos (algum hash que não foi calculado corretamente, por exemplo) ou por motivos negociais (a área identificou que o trâmite não deve mais ocorrer). Nesses casos, o SPE remetente deve cancelar o trâmite, e, para isto, os pré-requisitos são: 
+• possuir o IDT; e 
+• o destinatário ainda não ter enviado o recibo assinado para a plataforma.
 
-* possuir o IDT; e 
-* o destinatário ainda não ter enviado o recibo assinado para a Plataforma.
 
 O Trâmite Cancelado pelo remetente pode ser representado pelo seguinte desenho de fluxo:
 
@@ -285,16 +302,12 @@ Esse fluxo demonstra o processo em quais etapas ele pode ser cancelado pelo reme
 Conforme foi explicado acima, o processo consegue ser cancelado pelo remetente somente se esse não tiver enviado o recibo de conclusão do trâmite assinado para a plataforma (status 5). Isto é: após ter iniciado o trâmite, e esse receber o status 2, o trâmite pode ser cancelado pelo remetente no status 1, 2, 3 e 4.
 
 Cancelar o trâmite do processo
-
 Após o início do trâmite (nesse contexto, pode-se interpretar como após o status 0), o trâmite pode sofrer o cancelamento.
-
 O cancelamento pode ser realizado em uma das quatro etapas: 
-
 - Status 1 “Aguardando o Envio de Componentes Digitais”
-- Status 2: “Componentes digitais recebidos pela Plataforma”
+- Status 2: “Componentes digitais recebidos pela solução”
 - Status 3: “Metadados recebidos pelo destinatário”
 - Status 4: “Componentes digitais recebidos pelo destinatário”
-
 Abaixo temos uma representação parcial do processo, com foco no cancelamento pelo remetente, onde o ‘X’ pode ser o status 1 a 4.
 
 
@@ -303,33 +316,28 @@ Abaixo temos uma representação parcial do processo, com foco no cancelamento p
 Todos eles têm a mesma mecânica, que é o remetente deve cancelar o trâmite acionando o serviço/endpoint cancelarEnvioDeTramite (/tramites/{idt}). A plataforma irá realizar a troca para o status 7 “Cancelamento” para finalizar o cancelamento.
 
 
-Trâmite Cancelado automaticamente
+TRÂMITE CANCELADO AUTOMATICAMENTE
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Como complemento aos processos principais, o trâmite cancelado automaticamente é uma funcionalidade que a Plataforma apresenta para não permitir os trâmites fiquem parados aguardando uma decisão dos atores envolvidos. Nesses casos, o SPE remetente deve cancelar o trâmite, e, para isto, os pré-requisitos são: 
 
-* possuir o IDT; e 
-* o trâmite ficar parado em um status por um tempo maior que o estipulado;
-
-Basicamente, a Plataforma verifica um timer que contabiliza o tempo em que um trâmite fica parado em um determinado status. Caso esse tempo ultrapasse o tempo máximo definido pela equipe do Tramita.GOV.BR, o trâmite é cancelado automaticamente.
-
+Como complemento aos processos principais, o trâmite cancelado automaticamente é uma funcionalidade que a plataforma apresenta para não permitir os trâmites fiquem parados aguardando uma decisão dos atores envolvidos. Nesses casos, o SPE remetente deve cancelar o trâmite, e, para isto, os pré-requisitos são: 
+• possuir o IDT; e 
+• o trâmite ficar parado em um status por um tempo maior que o estipulado;
+Basicamente, a plataforma verifica um timer que contabiliza o tempo em que um trâmite fica parado em um determinado status. Caso esse tempo ultrapasse o tempo máximo definido pela equipe do Tramita.GOV.BR, o trâmite é cancelado automaticamente.
 O tempo máximo é um parâmetro que é configurado pela equipe do Tramita.GOV.BR. 
+
 
 Cancelar automaticamente o trâmite do processo
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Após o início do trâmite (nesse contexto, pode-se interpretar como após o status 0), o trâmite pode sofrer o cancelamento automático
-
 O cancelamento automático pode ser realizada em uma das quatro etapas: 
-
-* Status 1 “Aguardando o Envio de Componentes Digitais”
-* Status 2: “Componentes digitais recebidos pela Plataforma”
-* Status 3: “Metadados recebidos pelo destinatário”
-* Status 4: “Componentes digitais recebidos pelo destinatário”
-
+- Status 1 “Aguardando o Envio de Componentes Digitais”
+- Status 2: “Componentes digitais recebidos pela solução”
+- Status 3: “Metadados recebidos pelo destinatário”
+- Status 4: “Componentes digitais recebidos pelo destinatário”
 Abaixo temos uma representação parcial do processo, com foco no cancelamento pelo remetente, onde o ‘X’ pode ser o status 1 a 4.
 
 .. figure:: _static/images/Fluxo_tramite_Cenario_11-CancTramAutom.png
 
 Todos eles têm a mesma mecânica, que é plataforma deve cancelar automaticamente (após o tempo máximo estipulado) o trâmite acionando o serviço/endpoint cancelarEnvioDeTramite (/tramites/{idt}). A plataforma irá realizar a troca para o status 10 “Cancelado Automaticamente” para finalizar o cancelamento automático.
-
