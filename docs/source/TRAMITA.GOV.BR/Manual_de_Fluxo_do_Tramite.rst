@@ -5,7 +5,7 @@ Manual de Fluxo do Trâmite
 Introdução
 ----------
 
-O manual  tem como objetivo apoiar os órgãos que precisam desenvolver a solução de integração do Sistema de Processo Administrativo Eletrônico (SPE) com a plataforma Tramita GOV.BR.
+O manual  tem como objetivo apoiar os órgãos que precisam desenvolver a solução de integração do Sistema de Processo Administrativo Eletrônico (`SPE <https://wiki.processoeletronico.gov.br/pt-br/latest/Tramita_GOV_BR/Perguntas_frequentes/Conceitos_Gerais.html#o-que-e-sistema-de-processo-administrativo-eletronico-spe>`__) com a plataforma Tramita GOV.BR.
 
 Para se integrar à plataforma, o órgão interessado deve:
 
@@ -62,6 +62,10 @@ Os fluxos principais e auxiliares são compostos por diversos cenários concaten
  - Outras representações (anotações, gateways e eventos iniciais, intermediários e finais).
 
 
+É necessário informar que em cada um dos cenários mencionados, os serviços de endpoint são mencionados em conjunto com o link. Para maiores detalhamentos, é sugerido verificar no `Swagger <https://homolog.api.processoeletronico.gov.br/swagger/swagger-ui/index.html#/>`__, lembrando que o acesso a ele depende de Certificado Digital.
+
+
+
 Fluxos Principais de Utilização
 ---------------------------
 
@@ -77,6 +81,9 @@ O Trâmite realizado com sucesso é representado pelo seguinte desenho de fluxo:
 
 .. figure:: _static/images/Fluxo_tramite_01-Tramite_Realizado.png
 
+.. admonition:: Nota:
+
+Para facilitar a visualização do fluxo acima, clique com o botão direito do mouse e abra a imagem em uma nova guia.
 
 
 Iniciar o envio de um processo administrativo 
@@ -94,7 +101,7 @@ A Figura abaixo descreve os serviços que devem ser chamados para execução des
 
 .. figure:: _static/images/Fluxo_tramite_Cenario_01-envio_proc_adm_v02.png
 
-Nota-se que há uma transição do Status 0 para o Status 1: A transição inicia após a finalização da Escolha de destinatário pelo Remetente. Após isso, a plataforma verifica possíveis tramitações anteriores do processo: caso o processo já foi tramitado alguma vez com sucesso, a plataforma recupera o NRE (Número de Registro Eletrônico), caso negativo, a plataforma gera um novo NRE.
+Nota-se que há uma transição do Status 0 para o Status 1: A transição inicia após a finalização da Escolha de destinatário pelo Remetente. Após isso, a plataforma verifica possíveis tramitações anteriores do processo: caso o processo já foi tramitado alguma vez com sucesso, a plataforma recupera o `NRE <https://wiki.processoeletronico.gov.br/pt-br/latest/Tramita_GOV_BR/Perguntas_frequentes/Conceitos_Gerais.html#o-que-e-numero-de-registro-eletronico-nre>`__ (Número de Registro Eletrônico), caso negativo, a plataforma gera um novo NRE.
 Com isso, o Remetente aciona o serviço endpoint enviarprocesso (/interoperabilidade/rest/v3/tramites/processo) para realizar a transição para o Status 1.
 
 
@@ -151,7 +158,7 @@ Enviar o recibo de conclusão do envio dos componentes digitais
 
 Após o remetente enviar todos os componentes digitais referentes ao trâmite para a plataforma, a plataforma gera o recibo de conclusão do envio dos componentes digitais do processo ou documento tramitado para uma possível consulta pelo remetente. Pré-requisitos: 
 
-• IDT: identificador do trâmite. 
+• `IDT <https://wiki.processoeletronico.gov.br/pt-br/latest/Tramita_GOV_BR/Perguntas_frequentes/Conceitos_Gerais.html#o-que-e-indice-de-tramite-idt>`__: identificador do trâmite. 
 
 • Ter concluído o envio para a plataforma de todos os componentes digitais solicitados. 
 
@@ -279,10 +286,16 @@ Nota:
 - A Unidade "Advocacia Geral do Estado - AGE-MG" não está configurada para receber processos/documentos avulsos por meio da plataforma. OBS: A recusa é uma das três formas de conclusão de trâmite. Portanto, não é um erro.
 
 
-TRÂMITE CANCELADO PELO REMETENTE
+TRÂMITE CANCELADO
+^^^^^^^^^^^^^^^^^
+
+Outro processo principal da plataforma é quando o trâmite é cancelado e ele pode ser feito de duas maneiras: Cancelado pelo Remetente e Cancelado Automaticamente. 
+
+
+Trâmite Cancelado pelo Remetente
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Outro processo principal da plataforma é quando o trâmite é cancelado pelo remetente. Após iniciar um trâmite de documento digital (avulso ou processo), o remetente pode desistir da operação, seja por motivos técnicos (algum hash que não foi calculado corretamente, por exemplo) ou por motivos negociais (a área identificou que o trâmite não deve mais ocorrer). Nesses casos, o SPE remetente deve cancelar o trâmite, e, para isto, os pré-requisitos são: 
+Após iniciar um trâmite de documento digital (avulso ou processo), o remetente pode desistir da operação, seja por motivos técnicos (algum hash que não foi calculado corretamente, por exemplo) ou por motivos negociais (a área identificou que o trâmite não deve mais ocorrer). Nesses casos, o SPE remetente deve cancelar o trâmite, e, para isto, os pré-requisitos são: 
 • possuir o IDT; e 
 • o destinatário ainda não ter enviado o recibo assinado para a plataforma.
 
@@ -311,7 +324,7 @@ Abaixo temos uma representação parcial do processo, com foco no cancelamento p
 Todos eles têm a mesma mecânica, que é o remetente deve cancelar o trâmite acionando o serviço/endpoint cancelarEnvioDeTramite (/tramites/{idt}). A plataforma irá realizar a troca para o status 7 “Cancelamento” para finalizar o cancelamento.
 
 
-TRÂMITE CANCELADO AUTOMATICAMENTE
+Trâmite Cancelado Automaticamente
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
@@ -322,8 +335,7 @@ Basicamente, a plataforma verifica um timer que contabiliza o tempo em que um tr
 O tempo máximo é um parâmetro que é configurado pela equipe do Tramita.GOV.BR. 
 
 
-Cancelar automaticamente o trâmite do processo
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+**Cancelar automaticamente o trâmite do processo**
 
 Após o início do trâmite (nesse contexto, pode-se interpretar como após o status 0), o trâmite pode sofrer o cancelamento automático
 O cancelamento automático pode ser realizada em uma das quatro etapas: 
