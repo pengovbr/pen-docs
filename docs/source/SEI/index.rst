@@ -1,8 +1,8 @@
 
 .. figure:: _static/images/titulo_Manual_do_Usuario_do_sei.png
 
-MANUAL DO USUÁRIO SEI 4.0
-==========================
+MANUAL DO USUÁRIO SEI 4.0+
+===========================
 
 Este manual foi elaborado pela equipe da Diretoria de Informações, Serviços e Sistemas (DTGES). Sua construção foi baseada em documentações de apoio ao uso do SEI, dando destaque à "Cartilha do Usuário do Sistema Eletrônico de Informações (SEI)" elaborada pela Diretoria de Administração e Logística do Ministérios da Gestão e Inovação em Serviços Públicos e ao "Guia Prático do SEI", elaborado pelo Superior Tribunal de Justiça (STJ).
 
