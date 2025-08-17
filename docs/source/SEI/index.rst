@@ -6,10 +6,9 @@ MANUAL DO USUÁRIO SEI 4.0
 
 Este manual foi elaborado pela equipe da Diretoria de Informações, Serviços e Sistemas (DTGES). Sua construção foi baseada em documentações de apoio ao uso do SEI, dando destaque à "Cartilha do Usuário do Sistema Eletrônico de Informações (SEI)" elaborada pela Diretoria de Administração e Logística do Ministérios da Gestão e Inovação em Serviços Públicos e ao "Guia Prático do SEI", elaborado pelo Superior Tribunal de Justiça (STJ).
 
-O objetivo deste material é apresentar aos usuários os recursos e facilidades fornecidas pelo SEI, permitindo uma melhor experiência no uso da ferramenta no dia a dia. Além disso, entendemos este material em processo de melhoria contínua, podendo sofrer revisões devido a melhorias de funcionalidade ou mesmo revisões para tornar as redações mais claras e esclarecedoras aos usuários. Todos os servidores fazem parte de processo e podem realizar sugestões sempre que entenderem necessário.
+Este material contempla funcionalidades disponíveis a partir da versão 4.0 do SEI, incluindo evoluções incorporadas nas versões 4.1 e 5.0. Seu objetivo é apresentar aos usuários os recursos e facilidades fornecidos pelo sistema, permitindo uma melhor experiência no uso da ferramenta no dia a dia.
 
-A equipe do PEN construiu este material pensando em você! Desejamos que você utilize todos os recursos oferecidos pelo SEI e que o sistema possa auxiliá-lo na execução, tramitação, guarda e recuperação das informações do dia a dia.
-
+Além disso, este manual está em constante aprimoramento, podendo passar por revisões em função de melhorias de funcionalidades ou ajustes redacionais que tornem o conteúdo mais claro e acessível aos usuários. Todos os servidores fazem parte desse processo e podem contribuir com sugestões sempre que julgarem necessário.
 
 **Departamento de Informações, Serviços e Sistemas de Gestão (DTGES)** / **Coordenação-Geral de Soluções Negociais em Processo Eletrônico (CGESP)**
 
