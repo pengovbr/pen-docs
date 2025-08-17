@@ -237,6 +237,11 @@ Os **Marcadores** são criados, gerenciados e adicionados aos processos pela pr�
 
 O SEI conta com 32 opções de marcadores para processos. 
 
+.. admonition:: Nota
+
+
+   A partir da versão 4.1 foi amplido o número de caracteres do texto dos Marcadores para 500 caracteres.
+
 
 Como criar um Marcador
 ----------------------
