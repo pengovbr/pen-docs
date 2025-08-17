@@ -100,6 +100,89 @@ As funcionalidades disponíveis são:
           :align: center
      * **Sair do sistema:** permite ao usuário sair com segurança do sistema.
 
+Lista de Acessibilidades
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. list-table::
+   :widths: 20 35
+   :header-rows: 1
+
+   - * "Atalho"
+     * Descrição
+   - * ALT + F1
+     * Exibe esta tela.
+   - * ALT + F2
+     * Exibe a tela de Controle de Processos.
+   - * ALT + F3 
+     * Exibe a tela de Painel de Controle.
+   - * ALT + F9
+     * Exibe ou oculta o menu lateral.
+   - * ALT + F10
+     * Acessa a Pesquisa Rápida.
+   - * ALT + F11
+     * Troca de unidade.
+   - * ALT + F12
+     * Posiciona no link sair do sistema.
+   - * ALT + M
+     * Pesquisa no menu.
+   - * ALT + T
+     * Posiciona no título da tela.
+   - * ALT + B
+     * Posiciona no primeiro botão da barra de comandos.
+   - * TAB
+     * Permite a navegação entre componentes da tela.
+   - * SHIFT + TAB
+     * Permite a navegação inversa entre componentes da tela.
+   - * ALT + Seta acima
+     * Posiciona no componente de seleção da linha anterior (se o foco está em um componente em tabela).
+   - * ALT + Seta abaixo
+     * Posiciona no componente de seleção da próxima linha (se o foco está em um componente em tabela).
+   - * ESC
+     * Fecha janelas de seleção abertas internamente.
+   - * ALT + R
+     * Posiciona na tabela de processos recebidos.
+   - * ALT + G
+     * Posiciona na tabela de processos gerados.
+   - * CTRL + ALT + R
+     * Posiciona no item raiz da árvore que representa o número do processo.
+   - * CTRL + ALT + S
+     * Posiciona no item de protocolo selecionado atualmente na árvore. 
+   - * CTRL + ALT + F
+     * Posiciona na barra de funcionalidades associadas com o protocolo selecionado (usar TAB para navegar entre as funcionalidades disponíveis).
+   - * CTRL + ALT + V
+     * Posiciona na área de visualização de conteúdo associada com protocolo selecionado ou funcionalidade escolhida.
+   - * CTRL + ALT + U
+     * Posiciona no último item de protocolo da árvore.
+   - * CTRL + ALT + S
+     * Salva o documento em edição.
+   - * CTRL + SHIFT + A
+     * Assina um documento em edição.
+   - * CTRL + SHIFT + L 
+     * Insere um link para processo ou documento do SEI. 
+   - * CTRL + SHIFT + X 
+     * Insere o conteúdo de um texto padrão (AutoTexto).
+   - * CTRL + B 
+     * Torna o texto selecionado em Negrito.
+   - * CTRL + I
+     * Torna o texto selecionado em Itálico.
+   - * CTRL + U 
+     * Torna o texto selecionado em Sublinhado.
+   - * CTRL + X 
+     * Recorta o conteúdo selecionado em um documento.
+   - * CTRL + C
+     * Copia o conteúdo selecionado em um documento.
+   - * CTRL + V 
+     * Insere ("cola") o conteúdo existente na área de transferência para um documento em edição.
+   - * CTRL + SHIFT + V
+     * Insere ("cola") o conteúdo existente na área de transferência para um documento em edição, como texto sem formatação. 
+   - * CTRL + Z
+     * Desfaz a última operação em um documento em edição.
+   - * CTRL + Y
+     * Refaz a última operação em um documento em edição.
+   - * ALT + 0
+     * Exibe instruções de acessibilidade do editor de textos.
+
+
 
 
 Menu Principal
