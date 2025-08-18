@@ -229,6 +229,8 @@ O perfil básico apresenta as seguintes opções:
 
 * **Iniciar Processo**: permite iniciar um novo processo no SEI.
 
+* **Lixeira** (a partir da Versão 5.0): permite disponibilizar temporariamente os conteúdos de documentos excluídos/cancelados. O próprio usuário que executou a ação poderá fazer o download do conteúdo.
+
 * **Marcadores**: permite que a unidade crie e gerencie marcadores para os processos sob sua gestão. Utilizado para organização interna da equipe de trabalho.
 
 * **Painel de Controle**: Funcionalidade que possibilita ao usuário ter uma visão resumida e personalizada dos processos da unidade.
