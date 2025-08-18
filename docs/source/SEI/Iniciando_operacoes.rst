@@ -95,7 +95,7 @@ As funcionalidades disponíveis são:
      * **Usuário:** identifica o usuário que está acessando o sistema.
    - * .. figure:: _static/images/1-IO_icone_configuracoes_do_sistema.png
           :align: center 
-     * **Configurações do sistema:** permite que o usuário altere o esquema de cores do sistema.
+     * **Configurações do sistema:** permite que o usuário altere o esquema de cores do sistema. A partir da **versão 5.0**, é possível escolher a página inicial (Controle de Processos, Painel de Controle ou Blocos de Assinatura) e também optar por filtrar os botões acessados recentemente.
    - * .. figure:: _static/images/1-IO_icone_sair_do_sistema.png
           :align: center
      * **Sair do sistema:** permite ao usuário sair com segurança do sistema.
