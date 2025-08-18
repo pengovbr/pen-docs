@@ -469,6 +469,9 @@ Ao clicar no ícone, será necessário confirmar a operação para exclusão do 
 
    4. O ícone “**Excluir**” |Excluir_documento| ficará visível também na Barra de Ícones do processo quando o procedimento de exclusão do processo for permitido.
 
+   5. A partir da **versão 5.0**, o SEI conta com um novo recurso: a Lixeira. A Lixeira disponibiliza temporariamente
+os conteúdos de documentos excluídos/cancelados. O próprio usuário que executou a ação poderá fazer o download do conteúdo.
+
 .. |Excluir_documento| image:: _static/images/5-OBD-icone_excluir.png
    :align: middle
    :width: 15
