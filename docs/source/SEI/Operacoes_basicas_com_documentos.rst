@@ -505,3 +505,122 @@ Após esse procedimento, o documento permanecerá na Árvore do Processo, com se
 
    3. Só será permitido o cancelamento de um documento que não caiba mais edição ou exclusão, ou seja, documentos que tiveram sua tramitação ou ciclo de assinaturas completo.
 
+
+Novas funções da versão 5.0
++++++++++++++++++++++++++++
+
+O novo editor web apresenta um visual mais moderno e melhor usabilidade: novas funções que a versão 5.0 do SEI oferecem para o Usuário.
+
+01.	permite inclusão de comentários em trechos do texto com visibilidade global, somente unidade ou apenas para o usuário que adicionou.
+A possibilidade de inserir comentários é possível seguindo os seguintes passos: 
+Selecionar o texto a ser comentado e clicar no ícone “Inserir Comentário” .. figure:: _static/images/5-OBD-icone5.0_Inserir comentario.png
+Inserir o comentário sobre o texto selecionado
+Selecionar a visibilidade que o comentário pode permitir
+.. figure:: _static/images/5-OBD-5.0_Comentario_opcoes.png
+Clicar em adicionar.
+
+O comentário foi inserido para a visibilidade selecionada. Junto com o comentário, tem-se os dados da inserção do comentário, bem como a visibilidade permitida, com as respectivas figuras:
+
+.. figure:: _static/images/5-OBD-Simbolo5.0_Vis_Todos.png
+.. figure:: _static/images/5-OBD-Simbolo5.0_Vis_Unidade.png
+.. figure:: _static/images/5-OBD-Simbolo5.0_Vis_Usuario.png
+ 
+Note que também é possível alterar o conteúdo do comentário clicando em “Alterar” e editar o comentário. 
+
+02.	Visualização e inclusão de comentários em trechos do documento também por meio da árvore de processo. 
+Ao selecionar o documento na árvore de processos, também é possível a visualização dos comentários, não somente no Editor.
+
+.. figure:: _static/images/5-OBD-5.0_Arvore_Visual_Coment.png
+
+03.	Melhorias em tabelas com opções para legenda, alinhamento, redimensionamento uniforme de colunas, ordenação de colunas e limpeza de formatação;
+Ao inserir a tabela no documento, são apresentados botões para serem acionados conforme necessidade
+
+.. figure:: _static/images/5-OBD-5.0_Arvore_Visual_Coment.png
+
+Os recursos novos são: 
+**Habilitar Legenda**: Possível inserir uma legenda acima ou abaixo da tabela, conforme acionamento das opções;
+.. figure:: _static/images/5-OBD-icone5.0_Tabela_Habilitar_Legenda.png
+
+**Alinhar Tabela**: Permite alinhar a tabela para a esquerda, centralizada, à direita ou alinhada ao recuo do parágrafo, conforme acionamento das opções;
+.. figure:: _static/images/5-OBD-icone5.0_Tabela_Alinhar.png
+
+**Coluna**: O recurso coluna habilita diversos comandos, a saber: 
+.. figure:: _static/images/5-OBD-icone5.0_Tabela_coluna.png
+- Permite selecionar a coluna cuja célula selecionada seja o “cabeçalho” 
+- Permite inserir uma coluna à esquerda da célula selecionada;
+- Permite inserir uma coluna à direita da célula selecionada;
+- Permite excluir a coluna da célula selecionada;
+- Permite selecionar a coluna da célula selecionada;
+- Permite redimensionar uniformemente a coluna da célula selecionada;
+- Permite ordenar ascendente a coluna da célula selecionada;
+- Permite ordenar descendente a coluna da célula selecionada.
+
+**Linha**: O recurso Linha habilita diversos comandos, a saber: 
+.. figure:: _static/images/5-OBD-icone5.0_Tabela_linha.png
+- Permite selecionar a linha cuja célula selecionada seja o “cabeçalho” 
+- Permite inserir uma linha acima da célula selecionada;
+- Permite inserir uma linha abaixo da célula selecionada;
+- Permite excluir a coluna da célula selecionada;
+- Permite selecionar a coluna da célula selecionada;
+
+**Mesclar células**: O recurso Mesclar Células habilita diversos comandos dependendo da célula selecionada, a saber:
+.. figure:: _static/images/5-OBD-icone5.0_Tabela_Mesclar_celula.png
+- Permite mesclar com a célula acima da célula selecionada
+- Permite mesclar com a célula à direita da célula selecionada
+- Permite mesclar com a célula abaixo da célula selecionada
+- Permite mesclar com a célula à esquerda da célula selecionada
+- Permite dividir verticalmente a célula selecionada
+- Permite dividir horizontalmente a célula selecionada
+
+**Propriedades da Tabela**: O recurso Propriedades da tabela habilita formatações da tabela inteira: 
+- Estilo: permite alterar o estilo da tabela
+- Cor: permite alterar a cor da fonte da tabela
+- Largura: permite alterar a largura da tabela
+- Cor de fundo: permite alterar a cor do fundo da tabela
+- Largura x Altura: permite alterar a proporção de largura x altura da tabela
+
+**Propriedades da Célula**: O recurso Propriedades da célula habilita formatações da célula selecionada: 
+- Estilo: permite alterar o estilo da célula
+- Cor: permite alterar a cor da fonte da célula
+- Largura: permite alterar a largura da célula
+- Cor de fundo: permite alterar a cor do fundo da célula
+- Alinhamento do texto na Célula: permite alterar o alinhamento do texto da célula 
+
+**Remover formatação**: O comando remove a formatação atual da tabela
+.. figure:: _static/images/5-OBD-icone5.0_Remover_formatacao.png
+
+**Remover tabela**: O comando remove a tabela inteira
+.. figure:: _static/images/5-OBD-icone5.0_Tabela_Remover.png
+
+
+
+04.	Conversão automática de números no texto selecionado para links de protocolos (ao clicar no botão de inclusão de link SEI);
+Ao inserir um número de protocolo, é possível convertê-lo em um link direto para o protocolo: basta selecionar o número do protocolo e clicar no botão “SEI” .. figure:: _static/images/5-OBD-icone5.0_Tabela_botaoSEI.png ou utilizar a tecla de atalho Ctrl + Shift + I
+ 
+
+05.	Mais opções de formatos em listas ordenadas e não ordenadas com possibilidade de combinar as opções desejadas;
+Outra novidade é a utilização com mais opções nas listas ordenadas (ou listas numeradas) e não ordenadas (ou listas com marcadores), bem como a combinação entre elas. 
+.. figure:: _static/images/5-OBD-icone5.0_listas.png
+
+
+
+06.	Inclusão de referências no texto.
+A inclusão de referências é uma novidade importante na edição dos textos, pois permite maior embasamento 
+Para utilizar esse recurso, após citar a fonte no texto, clique no botão .. figure:: _static/images/5-OBD-icone5.0_Botao_Inserir_referencia.png . Abrirá uma janela que permite selecionar a inserção de uma nova referência, quanto a referência de uma já citada. Selecionar uma dessas opções e clicar no botão “check”. Sendo uma nova referência, o campo Referências, ao final do documento será aberto para inserir os dados da referência citada. O número da referência estará sobrescrito na citação do texto, correspondente ao número da referência.
+
+.. figure:: _static/images/5-OBD-5.0_Referencia_texto.png
+
+07.	Inserção de quebra de página
+
+Essa função é bastante comum nos editores de texto e foi disponibilizada nessa versão do SEI. 
+Para acioná-la, clique no botão 
+
+.. figure:: _static/images/5-OBD-icone5.0_Quebradepg.png
+
+08. Linha Horizontal
+
+Outro recurso que também é bastante comum nos editores de texto e que foi disponibilizada nessa versão do SEI. 
+
+Para acioná-la, clique no botão 
+
+.. figure:: _static/images/5-OBD-icone5.0_Linha_horiz.png
