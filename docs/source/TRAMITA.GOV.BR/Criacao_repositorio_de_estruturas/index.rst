@@ -17,7 +17,10 @@ Como parte desse processo de aprimoramento, foram estabelecidas regras específi
 * Poder Judiciário;
 * Estados e Municípios;
 * Conselhos de Fiscalização Profissional;
-* Ministérios Públicos.
+* Ministérios Públicos; 
+* Defensorias Públicas; 
+* Tribunais de Contas; 
+* Orientações para inativação de repositório. 
 
 Para mais informações sobre cada categoria de organização, consulte a seção correspondente.
 
