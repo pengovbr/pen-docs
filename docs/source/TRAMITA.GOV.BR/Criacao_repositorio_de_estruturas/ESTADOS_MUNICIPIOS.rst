@@ -1,7 +1,7 @@
 Estados e Municípios
 ====================
 
-Nessa seção é explicado como são inseridos os órgãos municipais e estaduais do Poder Legislativo e Executivo, pelo Administrador do Tramita, no repositório do Estado adequado.
+Nessa seção, são explicados os critérios para inserção dos órgãos municipais e estaduais dos Poderes Legislativo e Executivo, pelo Administrador do Tramita, no repositório do Estado adequado. 
 
 
 Nomenclatura do Repositório da Unidade Federativa
@@ -13,12 +13,14 @@ Nomenclatura do Repositório da Unidade Federativa
 
 O repositório criado para uma determinada Unidade Federativa deve possuir nome e descrição inseridas conforme a instrução que segue.
 
-  **Nome do repositório:** Estado - [Nome do Estado] [1]_.
+  **Nome do repositório:** Estado - [Nome da Unidade Federativa] [1]_.
 
-  **Descrição do repositório:** O repositório centraliza órgãos dos poderes executivos e legislativos, tanto municipais quanto estaduais.
+  **Descrição do repositório[2]_:** O repositório centraliza órgãos dos poderes executivos e legislativos, tanto municipais quanto estaduais.
 
 
-.. [1] A utilização de termos entre colchetes se refere ao preenchimento de um determinado dado a ser inserido naquele espaço em específico do texto. Ou seja, [Nome do Estado] significa dizer que o nome do Estado deve ser substituído naquele determinado local do texto. A saber “Estado – Acre”, “Estado – Pernambuco”
+.. [1] A utilização de termos entre colchetes se refere ao preenchimento de um determinado dado a ser inserido naquele espaço em específico do texto. Ou seja, [Nome da Unidade Federativa] significa dizer que o nome da Unidade Federativa deve ser substituído naquele determinado local do texto. A saber “Estado – Acre”, “Estado – Pernambuco”
+
+.. [2] Excepcionalmente para o Distrito Federal, o repositório não possuirá em seu nome o início com o termo “Estado”. Além disso, na descrição do repositório deverá constar apenas que O repositório centraliza órgãos dos poderes executivos e legislativos do Distrito Federal. 
 
 Exemplo:
 
@@ -27,68 +29,71 @@ Exemplo:
 Categorias do repositório da Unidade Federativa
 ------------------------------------------------
 
-A estruturação do repositório da Unidade Federativa sé configurada por meio do cadastro de quatro nós que estão no primeiro nível do repositório. A saber, dois deles 
-são relacionados ao poder executivo e outros dois ao poder legislativo, que por sua vez são classificados em Municipal e Estadual.
+Para fins de esclarecimento, se entende por categoria, neste documento, os nomes exibidos no primeiro nível do repositório. A estruturação do repositório da Unidade Federativa é configurada por meio do cadastro de quatro categorias. A saber, duas estão relacionadas ao Poder Executivo e duas ao Poder Legislativo, que por sua vez são classificadas em municipal e estadual. 
 
-Poder Executivo Estadual
-+++++++++++++++++++++++++
+Poder Executivo Estadual - PEE
+++++++++++++++++++++++++++++++
 
-A configuração da categoria do Poder Executivo Estadual deve possuir nome, sigla e descrição inseridas conforme a instrução que segue.
+A categoria do Poder Executivo Estadual deve ser inserida conforme as orientações que seguem. 
 
-  **Nome:** Poder Executivo Estadual do/da/de [Nome do Estado]
+  **Nome:** Poder Executivo Estadual do/da/de [Nome da Unidade Federativa] [1]_
 
-  **Sigla:** PEE[UF]
+  **Sigla:** PEE[UF] [1]_
 
-  **Descrição:** Composto por secretarias e órgãos pertencentes ao poder executivo estadual.
+  **Descrição:** Composto por secretarias e órgãos pertencentes ao Poder Executivo Estadual.
 
+.. [1] Para o Distrito Federal, a referida categoria deve ser inserida com o nome Poder Executivo do Distrito Federal, sigla PEDF e descrição Composto por secretarias e órgãos pertencentes ao Poder Executivo do Distrito Federal. 
 
 Exemplo:
 
 .. figure:: _static/images/Nomenclatura_PEE.png
 
-Poder Legislativo Estadual
-+++++++++++++++++++++++++++
+Poder Legislativo Estadual - PLE
+++++++++++++++++++++++++++++++++
 
-A configuração da categoria do Poder Legislativo Estadual deve possuir nome, sigla e descrição inseridas conforme a instrução que segue.
+A categoria do Poder Legislativo Estadual deve ser inserida conforme as orientações que seguem. 
 
-  **Nome:** Poder Legislativo Estadual do/da/de [Nome do Estado]
+  **Nome:** Poder Legislativo Estadual do/da/de [Nome da Unidade Federativa] [1]_
 
-  **Sigla:** PLE[UF]
+  **Sigla:** PLE[UF] [1]_
 
-  **Descrição:** Composto pela estrutura interna da assembleia legislativa do/da/de [Nome do Estado].
+  **Descrição:** Composto pela estrutura interna da assembleia legislativa do/da/de [Nome da Unidade Federativa].
 
+.. [1] Para o Distrito Federal, a referida categoria deve ser inserida com o nome *Poder Legislativo do Distrito Federal*, sigla PLDF e descrição *Composto pela estrutura interna da assembleia legislativa do Distrito Federal*. 
 
 Exemplo:
 
 .. figure:: _static/images/Nomenclatura_PLE.png
 
-Poder Executivo Municipal
-+++++++++++++++++++++++++
+Poder Executivo Municipal - PEM
++++++++++++++++++++++++++++++++
 
-A configuração da categoria do Poder Executivo Municipal deve possuir nome, sigla e descrição inseridas conforme a instrução que segue.
+A categoria do Poder Executivo Municipal¹ deve ser inserida conforme as orientações que seguem. 
 
-  **Nome:** Poderes Executivos Municipais do/da/de [Nome do Estado]
+  **Nome:** Poderes Executivos Municipais do/da/de [Nome da Unidade Federativa] 
 
-  **Sigla:**  PEM[UF]
+  **Sigla:**  PEM[UF] 
 
-  **Descrição:** Composto por secretarias e órgãos pertencentes ao poder executivo dos municípios do/da/de [Nome do Estado].
+  **Descrição:** Composto por secretarias e órgãos pertencentes ao Poder Executivo dos municípios do/da/de [Nome da Unidade Federativa].
 
+.. [1] Essa categoria não deve ser cadastrada no repositório do Distrito Federal. 
 
 Exemplo:
 
 .. figure:: _static/images/Nomenclatura_PEM.png
 
-Poder Legislativo Municipal
-+++++++++++++++++++++++++++
+Poder Legislativo Municipal - PLM
++++++++++++++++++++++++++++++++++
 
-A configuração da categoria do Poder Legislativo Municipal deve possuir nome, sigla e descrição inseridas conforme a instrução que segue.
+A categoria do Poder Legislativo Municipal¹ deve ser inserida conforme as orientações que seguem. 
 
-  **Nome:** Poderes Legislativos Municipais do/da/de [Nome do Estado]
+  **Nome:** Poderes Legislativos Municipais do/da/de [Nome da Unidade Federativa]
 
   **Sigla:**  PLM[UF]
 
-  **Descrição:** Composto pelas câmaras municipais dos municípios do/da/de [Nome do Estado].
+  **Descrição:** Composto pelas câmaras municipais dos municípios do/da/de [Nome da Unidade Federativa].
 
+.. [1] A categoria não deve ser cadastrada no repositório do Distrito Federal. 
 
 Exemplo:
 
@@ -99,7 +104,7 @@ Uma vez criada a categoria, os poderes legislativos municipais poderão ser incl
 Consolidação do repositório da Unidade Federativa
 --------------------------------------------------
 
-Uma vez criado o repositório e estruturadas as suas categorias, é esperado que este se apresente conforme a imagem abaixo.
+Concluída a criação do repositório e a organização de suas categorias, sua estrutura deverá refletir o padrão ilustrado na imagem que segue. 
 
 .. figure:: _static/images/Repositorio_UF.png
 
@@ -109,19 +114,22 @@ Inserção de órgãos de referência no repositório da Unidade Federativa
 
 .. admonition:: Observação
 
-   Apenas os Administradores e os Supervisores da Plataforma podem autorizar o acesso a plataforma (Seção 2.4).
+   Apenas os Administradores e os Supervisores da Plataforma podem autorizar o acesso à plataforma (Seção 2.4).
 
-A nível de explicação, se entende por órgãos de referência neste documento, os órgãos a serem inseridos no grupo específico do repositório, no momento da autorização de acesso a plataforma.
+Para fins de esclarecimento, se entende por órgãos de referência, neste documento, os órgãos a serem inseridos por meio do Portal de Administração pela equipe administradora do Tramita GOV.BR, na categoria específica do repositório, no momento da autorização de acesso a plataforma. 
 
 Poder Executivo Estadual
 +++++++++++++++++++++++++
 
-Uma vez criada a categoria é possível inserir o órgão de referência da categoria. Para o caso específico desta categoria somente um órgão será cadastrado conforme a instrução que segue.
+Cada categoria é composta por órgãos de referência. Entretando, no caso específico desta categoria, deverá ser cadastrado apenas um órgão, conforme as instruções que seguem. 
 
 
-  **Nome:** Governo do Estado do/da/de [Nome do Estado]
+  **Nome:** Governo do Estado do/da/de [Nome da Unidade Federativa] [1]_
 
   **Sigla:** [SIGLA]
+
+.. [1] Para o Distrito Federal, o referido órgão deve ser inserido com o nome *Governo do Distrito Federal*. 
+
 
 Referência para inserção adequada à categoria:
 
@@ -131,9 +139,9 @@ Referência para inserção adequada à categoria:
 Poder Legislativo Estadual
 +++++++++++++++++++++++++++
 
-Uma vez criada a categoria é possível inserir o órgão de referência da categoria. Para o caso específico desta categoria somente um órgão será cadastrado conforme a instrução que segue.
+Cada categoria é composta por órgãos de referência. Entretando, no caso específico desta categoria, deverá ser cadastrado apenas um órgão, conforme as instruções que seguem. 
 
-  **Nome:**  Assembleia Legislativa do/da/de [Nome do Estado]
+  **Nome:**  Assembleia Legislativa do/da/de [Nome da Unidade Federativa]
 
   **Sigla:** [SIGLA]
 
@@ -144,11 +152,11 @@ Referência para inserção adequada à categoria:
 Poder Executivo Municipal
 +++++++++++++++++++++++++
 
-Uma vez criada a categoria, os órgãos de referência poderão ser incluídos. Para este caso o poder executivo de cada município será cadastrado como um órgão, conforme a instrução que segue.
+Cada categoria é composta por órgãos de referência. No caso desta categoria, deverão ser cadastrados órgãos conforme as instruções que seguem. 
 
   **Nome:** Prefeitura Municipal do/de [Nome do Município]
 
-  **Sigla:** Conforme Fornecido (Caso não fornecido, solicitar ao requisitante e não passar de 5 dígitos)
+  **Sigla:** Conforme Fornecido (Caso não fornecido, solicitar ao requisitante e não passar de 6 dígitos)
 
 Referência para inserção adequada à categoria:
 
@@ -157,11 +165,11 @@ Referência para inserção adequada à categoria:
 Poder Legislativo Municipal
 +++++++++++++++++++++++++++
 
-Uma vez criada a categoria, os órgãos de referência poderão ser incluídos. Para este caso o poder legislativo de cada município será cadastrado como um órgão, conforme a instrução que segue.
+Cada categoria é composta por órgãos de referência. No caso desta categoria, deverão ser cadastrados órgãos conforme as instruções que seguem. 
 
   **Nome:** Câmara Municipal do/de [Nome do Município]
 
-  **Sigla:** Conforme Fornecido (Caso não fornecido, solicitar ao requisitante e não passar de 5 dígitos)
+  **Sigla:** Conforme Fornecido (Caso não fornecido, solicitar ao requisitante e não passar de 6 dígitos)
 
 Referência para inserção adequada à categoria:
 
@@ -170,6 +178,6 @@ Referência para inserção adequada à categoria:
 Visualização final do repositório da Unidade Federativa
 --------------------------------------------------------
 
-À medida que os órgãos desse repositório são liberados na plataforma, a estrutura do repositório se molda, conforme a imagem abaixo. Ressalta-se que a quantidades de órgãos do poder executivo e legislativo municipais depende da quantidade de municípios presentes no Estado do repositório.
+À medida que os órgãos desse repositório são liberados na plataforma, a estrutura do repositório se ajusta, conforme a imagem que segue. 
 
 .. figure:: _static/images/Visualizacao_Repostorio_UF.png
