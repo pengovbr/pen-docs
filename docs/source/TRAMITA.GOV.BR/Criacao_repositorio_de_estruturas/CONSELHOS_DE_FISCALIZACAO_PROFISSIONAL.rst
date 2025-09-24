@@ -1,7 +1,7 @@
 Conselhos de Fiscalização Profissional 
 =======================================
 
-Nessa seção é explicado como são inseridos os Conselhos de Fiscalização Profissional (CFP) no âmbito Federal e Regional, os quais devem ser inseridos, exclusivamente, no repositório específico dos Conselhos de Fiscalização Profissional. 
+Nessa seção, são explicados os critérios para inserção dos Conselhos de Fiscalização Profissional (CFP) no âmbito Federal e Regional. Assim sendo, esses órgãos devem ser inseridos, exclusivamente, no repositório específico dos Conselhos de Fiscalização Profissional. 
 
  
 Nomenclatura do repositório dos Conselhos de Fiscalização Profissional 
@@ -24,7 +24,7 @@ Exemplo:
 Categorias do repositório dos Conselhos de Fiscalização Profissional 
 --------------------------------------------------------------------
 
-A estruturação do repositório tem por base o conjunto dos Conselhos Profissionais registrados no país. Atualmente, não são todas as classes profissionais que possuem um Conselho de Fiscalização, de forma que no Brasil são contabilizados 31 Conselhos Federais [1]_. Dessa forma, esses 31 Conselhos Profissionais Federais estarão apresentados no primeiro nível do repositório, em ordem alfabética. A saber, são classificadas como categorias, os diversos Conselhos Federais pertencentes a cada uma das classes profissionais elencadas no primeiro nível do repositório. 
+Assim sendo, esses órgãos devem ser inseridos, exclusivamente, no repositório específico. Este repositório tem por base o conjunto dos Conselhos Profissionais registrados no país. Atualmente, não são todas as classes profissionais que possuem um Conselho de Fiscalização, de forma que no Brasil são contabilizados 31 Conselhos Federais2. Dessa forma, esses 31 Conselhos Profissionais Federais estarão apresentados no primeiro nível do repositório, em ordem alfabética.  
 
 
 .. [1] Conselhos no Brasil – Disponível em: https://pt.wikipedia.org/wiki/Associa%C3%A7%C3%A3o_profissional#Conselhos_no_Brasil – Acessado em outubro de 2024.
@@ -33,7 +33,7 @@ A estruturação do repositório tem por base o conjunto dos Conselhos Profissio
 Conselhos Federais – CF  
 +++++++++++++++++++++++
 
-A configuração da categoria dos Conselhos Federais [2]_ deve seguir a instrução abaixo. 
+A categoria dos Conselhos Federais* deve ser inserida conforme as orientações que seguem.  
 
   **Nome:** Conselho Federal de/dos [Nome da Classe] 
 
@@ -54,7 +54,7 @@ Exemplo:
 Conselho Federal da Ordem dos Advogados do Brasil - OAB 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-A configuração da categoria Conselho Federal da Ordem dos Advogados do Brasil deve seguir a instrução abaixo. 
+A categoria Conselho Federal da Ordem dos Advogados do Brasil deve ser inserida conforme as orientações que seguem.  
 
 
   **Nome:** Conselho Federal da Ordem dos Advogados do Brasil  
@@ -68,7 +68,7 @@ A configuração da categoria Conselho Federal da Ordem dos Advogados do Brasil 
 Conselho de Arquitetura e Urbanismo do Brasil – CAU-BR 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-A configuração da categoria Conselho Federal da Ordem dos Advogados do Brasil deve seguir a instrução abaixo. 
+A categoria Conselho de Arquitetura e Urbanismo do Brasil deve ser inserida conforme as orientações que seguem.
 
   **Nome:** Conselho de Arquitetura e Urbanismo do Brasil 
 
@@ -80,7 +80,7 @@ A configuração da categoria Conselho Federal da Ordem dos Advogados do Brasil 
 Conselho Nacional de Técnicos em Radiologia - Coter 
 +++++++++++++++++++++++++++++++++++++++++++++++++++
 
-A configuração da categoria Conselho Nacional de Técnicos em Radiologia deve seguir a instrução abaixo. 
+A categoria Conselho Nacional de Técnicos em Radiologia deve ser inserida conforme as orientações que seguem. 
 
   **Nome:** Conselho Nacional de Técnicos em Radiologia 
 
@@ -92,7 +92,7 @@ A configuração da categoria Conselho Nacional de Técnicos em Radiologia deve 
 Ordem dos Músicos do Brasil Conselho Federal - OMB 
 +++++++++++++++++++++++++++++++++++++++++++++++++++
 
-A configuração da categoria Conselho Nacional de Técnicos em Radiologia deve seguir a instrução abaixo. 
+A categoria Ordem dos Músicos do Brasil Conselho Federal deve ser inserida conforme as orientações que seguem. 
 
   **Nome:** Ordem dos Músicos do Brasil Conselho Federal 
 
@@ -104,7 +104,7 @@ A configuração da categoria Conselho Nacional de Técnicos em Radiologia deve 
 Consolidação do repositório dos Conselhos de Fiscalização Profissional 
 ----------------------------------------------------------------------
 
-Uma vez criado o repositório e estruturadas as suas categorias, é esperado que este se apresente conforme a imagem abaixo. 
+Concluída a criação do repositório e a organização de suas categorias, sua estrutura deverá refletir o padrão ilustrado na imagem que segue.  
 
 
 .. figure:: _static/images/Consolidacao_do_repositorio_dos_Conselhos.png
@@ -115,16 +115,16 @@ Inserção de órgãos de referência no repositório dos Conselhos de Fiscaliza
 
 .. admonition:: Observação
 
-   Apenas os Administradores e os Supervisores da Plataforma podem autorizar o acesso a plataforma (Seção 3.4).
+   Apenas os Administradores e os Supervisores da Plataforma podem autorizar o acesso à plataforma (Seção 3.4).
 
-A nível de explicação, se entende por órgãos de referência neste documento, os órgãos a serem inseridos no Portal de Administração pelo administrador do Tramita GOV.BR, na categoria específica do repositório, no momento da autorização de acesso a plataforma. 
+Para fins de esclarecimento, se entende por órgãos de referência, neste documento, os órgãos a serem inseridos por meio do Portal de Administração pela equipe administradora do Tramita GOV.BR, na categoria específica do repositório, no momento da autorização de acesso a plataforma. 
 
  
 Conselhos Federais 
 +++++++++++++++++++
  
 
-Uma vez criada a categoria, os órgãos de referência poderão ser incluídos. Para este caso os Conselhos de Federais serão cadastrados como um órgão, conforme a instrução que segue. 
+Cada categoria é composta por órgãos de referência. No caso desta categoria, deverão ser cadastrados órgãos* conforme as instruções que seguem. 
 
   **Nome:** Conselho Federal de/dos [Nome da Classe]
 
@@ -163,6 +163,6 @@ Visualização final do repositório dos Conselhos de Fiscalização Profissiona
 -----------------------------------------------------------------------------
  
 
-À medida que os órgãos desse repositório são liberados na plataforma, a estrutura do repositório se molda, conforme a imagem abaixo.
+À medida que os órgãos desse repositório são liberados na plataforma, a estrutura do repositório se ajusta, conforme a imagem que segue.
 
 .. figure:: _static/images/Visualizacao_final_do_repositorio.png
