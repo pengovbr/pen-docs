@@ -1,7 +1,7 @@
 Poder Judiciário
 ================
 
-Nessa seção é explicado como são inseridos os órgãos do poder judiciário, os quais devem ser inseridos, exclusivamente, no repositório específico do Poder Judiciário.
+Nessa seção, são explicados os critérios para inserção dos órgãos do Poder Judiciário. Os órgãos inseridos incluem o Supremo Tribunal Federal (STF), o Superior Tribunal de Justiça (STJ), o Superior Tribunal Militar (STM), o Tribunal Superior do Trabalho (TST), o Tribunal Superior Eleitoral (STE), os Conselhos de Justiça (CJ), os Tribunais de Justiça (TJ), os Tribunais de Justiça Militar (TJM), os Tribunais Regionais do Trabalho (TRT), os Tribunais Regionais Eleitorais (TRE) e os Tribunais Regionais Federais (TRF). Assim sendo, esses órgãos devem ser inseridos, exclusivamente, no repositório específico do Poder Judiciário. 
 
 Nomenclatura do repositório do Poder Judiciário 
 -----------------------------------------------
@@ -11,7 +11,7 @@ Nomenclatura do repositório do Poder Judiciário
    Apenas os Administradores da Plataforma podem cadastrar o repositório e os nós do primeiro nível da árvore (Seções 1.1 e 1.2). 
 
 
-O repositório criado para concentrar os órgãos pertencentes à esfera do poder judiciário brasileiro deve possuir nome e descrição inseridas conforme a instrução que segue.
+O repositório criado para concentrar os órgãos pertencentes à esfera do Poder Judiciário brasileiro deve possuir nome e descrição inseridas conforme a instrução que segue.
 
   **Nome do repositório:** Poder Judiciário
 
@@ -24,16 +24,16 @@ Exemplo:
 Categorias do repositório do Poder Judiciário
 ---------------------------------------------
 
-A estruturação do repositório tem como base a estrutura do Poder Judiciário Brasileiro apresentada pelo Conselho Nacional de Justiça [1]_ e é configurada por meio de onze nós que estão no primeiro nível do repositório. A saber, são classificadas como categorias, os diversos tipos de tribunais pertencentes à essa esfera de poder, bem como conselhos que fazem parte de sua estrutura.
+Para fins de esclarecimento, se entende por categoria, neste documento, os nomes exibidos no primeiro nível do repositório. Este repositório tem como base a estrutura do Poder Judiciário, contemplando o Supremo Tribunal Federal (STF), o Superior Tribunal de Justiça (STJ), o Superior Tribunal Militar (STM), o Tribunal Superior do Trabalho (TST), o Tribunal Superior Eleitoral (TSE), os Conselhos de Justiça (CJ), os Tribunais de Justiça (TJ), os Tribunais de Justiça Militar (TJM), os Tribunais Regionais do Trabalho (TRT), os Tribunais Regionais Eleitorais (TRE) e os Tribunais Regionais Federais (TRF) [1]_. Dessa forma, essas serão as categorias, exibidas na ordem que segue. 
 
 
 .. [1] Panorama e Estrutura do Poder Judiciário Brasileiro – Disponível em: https://www.cnj.jus.br/poder-judiciario/panorama-e-estrutura-do-poder-judiciario-brasileiro/ - Acessado em maio de 2024.
 
 
-Supremo Tribunal Federal
-++++++++++++++++++++++++
+Supremo Tribunal Federal - STF
+++++++++++++++++++++++++++++++
 
-A configuração da categoria do Supremo Tribunal Federal é de composição única e deve possuir nome, sigla e descrição inseridas conforme a instrução que segue.
+A categoria do Supremo Tribunal Federal deve ser inserida conforme as orientações que seguem.
 
   **Nome:** Supremo Tribunal Federal
 
@@ -45,10 +45,10 @@ Exemplo:
 
 .. figure:: _static/images/Nomenclatura_STF.png
 
-Superior Tribunal de Justiça
-++++++++++++++++++++++++++++
+Superior Tribunal de Justiça - STJ
+++++++++++++++++++++++++++++++++++
 
-A configuração da categoria do Superior Tribunal de Justiça é de composição única e deve possuir nome, sigla e descrição inseridas conforme a instrução que segue.
+A categoria do Superior Tribunal de Justiça deve ser inserida conforme as orientações que seguem. 
 
   **Nome:** Superior Tribunal de Justiça
 
@@ -60,10 +60,10 @@ Exemplo:
 
 .. figure:: _static/images/Nomenclatura_STJ.png
 
-Superior Tribunal Militar
-+++++++++++++++++++++++++
+Superior Tribunal Militar - STM
++++++++++++++++++++++++++++++++
 
-A configuração da categoria Superior Tribunal Militar é de composição única e deve possuir nome, sigla e descrição inseridas conforme a instrução que segue.
+A categoria Superior Tribunal Militar deve ser inserida conforme as orientações que seguem. 
 
   **Nome:** Superior Tribunal Militar
 
@@ -75,10 +75,10 @@ Exemplo:
 
 .. figure:: _static/images/Nomenclatura_STM.png
 
-Tribunal Superior do Trabalho
-+++++++++++++++++++++++++++++
+Tribunal Superior do Trabalho - TST
++++++++++++++++++++++++++++++++++++
 
-A configuração da categoria Tribunal Superior do Trabalho é de composição única e deve possuir nome, sigla e descrição inseridas conforme a instrução que segue.
+A categoria Tribunal Superior do Trabalho deve ser inserida conforme as orientações que seguem. 
 
   **Nome:** Tribunal Superior do Trabalho
 
@@ -90,10 +90,10 @@ Exemplo:
 
 .. figure:: _static/images/Nomenclatura_TST.png
 
-Tribunal Superior Eleitoral
-+++++++++++++++++++++++++++
+Tribunal Superior Eleitoral - TSE
++++++++++++++++++++++++++++++++++
 
-A configuração da categoria Tribunal Superior Eleitoral é de composição única e deve possuir nome, sigla e descrição inseridas conforme a instrução que segue.
+A categoria Tribunal Superior Eleitoral deve ser inserida conforme as orientações que seguem. 
 
   **Nome:** Tribunal Superior Eleitoral
 
@@ -105,10 +105,10 @@ Exemplo:
 
 .. figure:: _static/images/Nomenclatura_TSE.png
 
-Conselhos de Justiça
-++++++++++++++++++++
+Conselhos de Justiça - CJ
++++++++++++++++++++++++++
 
-A configuração da categoria dos Conselhos de Justiça deve possuir nome, sigla e descrição inseridas conforme a instrução que segue.
+A categoria dos Conselhos de Justiça deve ser inserida conforme as orientações que seguem. 
 
   **Nome:** Conselhos de Justiça
 
@@ -120,8 +120,8 @@ Exemplo:
 
 .. figure:: _static/images/Nomenclatura_CJ.png
 
-Tribunais de Justiça
-++++++++++++++++++++
+Tribunais de Justiça - TJ
++++++++++++++++++++++++++
 
 A configuração da categoria dos Tribunais de Justiça deve possuir nome, sigla e descrição inseridas conforme a instrução que segue.
 
@@ -135,10 +135,10 @@ Exemplo:
 
 .. figure:: _static/images/Nomenclatura_TJ.png
 
-Tribunais de Justiça Militar
-++++++++++++++++++++++++++++
+Tribunais de Justiça Militar - TJM
+++++++++++++++++++++++++++++++++++
 
-A configuração da categoria dos Tribunais de Justiça Militar deve possuir nome, sigla e descrição inseridas conforme a instrução que segue.
+A categoria dos Tribunais de Justiça Militar deve ser inserida conforme as orientações que seguem.
 
 
   **Nome:** Tribunal de Justiça Militar
@@ -152,10 +152,10 @@ Exemplo:
 
 .. figure:: _static/images/Nomenclatura_TJM.png
 
-Tribunais Regionais do Trabalho
-+++++++++++++++++++++++++++++++
+Tribunais Regionais do Trabalho - TRT
++++++++++++++++++++++++++++++++++++++
 
-A configuração da categoria dos Tribunais Regionais do Trabalho deve possuir nome, sigla e descrição inseridas conforme a instrução que segue.
+A categoria dos Tribunais Regionais do Trabalho deve ser inserida conforme as orientações que seguem. 
 
   **Nome:** Tribunais Regionais do Trabalho
 
@@ -168,10 +168,10 @@ Exemplo:
 
 .. figure:: _static/images/Nomenclatura_TRT.png
 
-Tribunais Regionais Eleitorais
-+++++++++++++++++++++++++++++++
+Tribunais Regionais Eleitorais - TER
+++++++++++++++++++++++++++++++++++++
 
-A configuração da categoria dos Tribunais Regionais Eleitorais deve possuir nome, sigla e descrição inseridas conforme a instrução que segue.
+A categoria dos Tribunais Regionais Eleitorais deve ser inserida conforme as orientações que seguem. 
 
   **Nome:** Tribunais Regionais Eleitorais
 
@@ -184,10 +184,10 @@ Exemplo:
 
 .. figure:: _static/images/Nomenclatura_TRE.png
 
-Tribunais Regionais Federais
-+++++++++++++++++++++++++++++
+Tribunais Regionais Federais - TRF
+++++++++++++++++++++++++++++++++++
 
-A configuração da categoria dos Tribunais Regionais Federais deve seguir a instrução abaixo.
+A categoria dos Tribunais Regionais Federais deve ser inserida conforme as orientações que seguem. 
 
   **Nome:** Tribunais Regionais Federais
 
@@ -204,7 +204,7 @@ Exemplo:
 Consolidação do repositório do Poder Judiciário
 -----------------------------------------------
 
-Uma vez criado o repositório e estruturadas as suas categorias, é esperado que este se apresente conforme a imagem abaixo.
+Concluída a criação do repositório e a organização de suas categorias, sua estrutura deverá refletir o padrão ilustrado na imagem que segue. 
 
 
 .. figure:: _static/images/repositorio_estruturado.png
@@ -215,14 +215,14 @@ Inserção de órgãos de referência no repositório do Poder Judiciário
 
 .. admonition:: Observação
 
-   Apenas os Administradores e os Supervisores da Plataforma podem autorizar o acesso a plataforma (Seção 1.4).
+   Apenas os Administradores e os Supervisores da Plataforma podem autorizar o acesso À plataforma (Seção 1.4).
 
-A nível de explicação, se entende por órgãos de referência neste documento, os órgãos a serem inseridos no Portal de Administração pelo administrador do Tramita GOV.BR, na categoria específica do repositório, no momento da autorização de acesso a plataforma.
+Para fins de esclarecimento, se entende por órgãos de referência, neste documento, os órgãos a serem inseridos por meio do Portal de Administração pela equipe administradora do Tramita GOV.BR, na categoria específica do repositório, no momento da autorização de acesso a plataforma. 
 
-Supremo Tribunal Federal - STF
-++++++++++++++++++++++++++++++
+Supremo Tribunal Federal
+++++++++++++++++++++++++
 
-Uma vez criada a categoria é possível inserir o órgão de referência da categoria. Para o caso específico desta categoria somente um órgão será cadastrado conforme a instrução que segue.
+Cada categoria é composta por órgãos de referência. Entretando, no caso específico desta categoria, deverá ser cadastrado apenas um órgão, conforme as instruções que seguem. 
 
   **Nome:** Supremo Tribunal Federal
 
@@ -234,10 +234,10 @@ Referência para inserção adequada à categoria:
 .. figure:: _static/images/referencia_categoria_STF.png
 
 
-Superior Tribunal de Justiça - STJ
-++++++++++++++++++++++++++++++++++++
+Superior Tribunal de Justiça
+++++++++++++++++++++++++++++
 
-Uma vez criada a categoria é possível inserir o órgão de referência da categoria. Para o caso específico desta categoria somente um órgão será cadastrado conforme a instrução que segue.
+Cada categoria é composta por órgãos de referência. Entretando, no caso específico desta categoria, deverá ser cadastrado apenas um órgão, conforme as instruções que seguem.
 
   **Nome:** Superior Tribunal de Justiça
 
@@ -247,11 +247,11 @@ Referência para inserção adequada à categoria:
 
 .. figure:: _static/images/referencia_categoria_STJ.png
 
-Superior Tribunal Militar - STM
-++++++++++++++++++++++++++++++++
+Superior Tribunal Militar
++++++++++++++++++++++++++
 
 
-Uma vez criada a categoria é possível inserir o órgão de referência da categoria. Para o caso específico desta categoria somente um órgão será cadastrado conforme a instrução que segue.
+Cada categoria é composta por órgãos de referência. Entretando, no caso específico desta categoria, deverá ser cadastrado apenas um órgão, conforme as instruções que seguem. 
 
   **Nome:** Superior Tribunal Militar
 
@@ -263,10 +263,10 @@ Referência para inserção adequada à categoria:
 .. figure:: _static/images/referencia_categoria_STM.png
 
 
-Tribunal Superior do Trabalho - TST
-+++++++++++++++++++++++++++++++++++
+Tribunal Superior do Trabalho
++++++++++++++++++++++++++++++
 
-Uma vez criada a categoria é possível inserir o órgão de referência da categoria. Para o caso específico desta categoria somente um órgão será cadastrado conforme a instrução que segue.
+Cada categoria é composta por órgãos de referência. Entretando, no caso específico desta categoria, deverá ser cadastrado apenas um órgão, conforme as instruções que seguem. 
 
   **Nome:** Tribunal Superior do Trabalho
 
@@ -278,10 +278,10 @@ Referência para inserção adequada à categoria:
 
 
 
-Tribunal Superior Eleitoral - TSE
-+++++++++++++++++++++++++++++++++
+Tribunal Superior Eleitoral
++++++++++++++++++++++++++++
 
-Uma vez criada a categoria é possível inserir o órgão de referência da categoria.Para o caso específico desta categoria somente um órgão será cadastrado conforme a instrução que segue.
+Cada categoria é composta por órgãos de referência. Entretando, no caso específico desta categoria, deverá ser cadastrado apenas um órgão, conforme as instruções que seguem. 
 
 
   **Nome:** Tribunal Superior Eleitoral
@@ -295,10 +295,10 @@ Referência para inserção adequada à categoria:
 
 
 
-Conselhos de Justiça - CJ
-+++++++++++++++++++++++++
+Conselhos de Justiça
+++++++++++++++++++++
 
-Uma vez criada a categoria, os órgãos de referência poderão ser incluídos. Para este caso os Conselhos de Justiça serão cadastrados conforme instrução que segue.
+Cada categoria é composta por órgãos de referência. No caso desta categoria, deverão ser cadastrados órgãos conforme as instruções que seguem.
 
   **Nome:** [Nome do Conselho]
 
@@ -308,10 +308,10 @@ Referência para inserção adequada à categoria:
 
 .. figure:: _static/images/Nomenclatura_CJF.png
 
-Tribunais de Justiça - TJ
+Tribunais de Justiça
 ++++++++++++++++++++++++++
 
-Uma vez criada a categoria, os órgãos de referência poderão ser incluídos. Para este caso os Tribunais de Justiça serão cadastrados conforme instrução que segue.
+Cada categoria é composta por órgãos de referência. No caso desta categoria, deverão ser cadastrados órgãos conforme as instruções que seguem.
 
   **Nome:** Tribunal de Justiça do/da/de [Nome do Estado]
 
@@ -322,11 +322,11 @@ Referência para inserção adequada à categoria:
 .. figure:: _static/images/Nomenclatura_TJ_ESTADO.png
 
 
-Tribunais de Justiça Militar - TJM
-+++++++++++++++++++++++++++++++++++
+Tribunais de Justiça Militar
+++++++++++++++++++++++++++++
 
 
-Uma vez criada a categoria, os órgãos de referência poderão ser incluídos. Para este caso os Tribunais de Justiça Militar serão cadastrados conforme instrução que segue.
+Cada categoria é composta por órgãos de referência. No caso desta categoria, deverão ser cadastrados órgãos conforme as instruções que seguem. 
 
 
   **Nome:** Tribunal de Justiça Militar do/da/de [Nome do Estado]
@@ -338,10 +338,10 @@ Referência para inserção adequada à categoria:
 .. figure:: _static/images/Nomenclatura_TJM_ESTADO.png
 
 
-Tribunais Regionais do Trabalho - TRT
-++++++++++++++++++++++++++++++++++++++
+Tribunais Regionais do Trabalho
++++++++++++++++++++++++++++++++
 
-Uma vez criada a categoria, os órgãos de referência poderão ser incluídos. Para este caso os Tribunais Regionais do Trabalho serão cadastrados conforme instrução que segue.
+Cada categoria é composta por órgãos de referência. No caso desta categoria, deverão ser cadastrados órgãos conforme as instruções que seguem.
 
 
   **Nome:** Tribunal Regional do Trabalho da Xª Região
@@ -356,10 +356,10 @@ Referência para inserção adequada à categoria:
 
 .. figure:: _static/images/Nomenclatura_TRT_X.png
 
-Tribunais Regionais Eleitorais - TRE
-+++++++++++++++++++++++++++++++++++++
+Tribunais Regionais Eleitorais
+++++++++++++++++++++++++++++++
 
-Uma vez criada a categoria, os órgãos de referência poderão ser incluídos. Para este caso os Tribunais Regionais Eleitorais serão cadastrados conforme instrução que segue.
+Cada categoria é composta por órgãos de referência. No caso desta categoria, deverão ser cadastrados órgãos conforme as instruções que seguem.
 
   **Nome:**  Tribunal Regional Eleitoral do/da/de [Nome do Estado]
 
@@ -371,10 +371,10 @@ Referência para inserção adequada à categoria:
 .. figure:: _static/images/Nomenclatura_TRE_UF.png
 
 
-Tribunais Regionais Federais - TRF
-+++++++++++++++++++++++++++++++++++
+Tribunais Regionais Federais
+++++++++++++++++++++++++++++
 
-Uma vez criada a categoria, os órgãos de referência poderão ser incluídos. Para este caso os Tribunais Regionais Federais serão cadastrados conforme instrução que segue.
+Cada categoria é composta por órgãos de referência. No caso desta categoria, deverão ser cadastrados órgãos conforme as instruções que seguem. 
 
   **Nome:**  Tribunal Regional Federal da Xª Região
 
@@ -387,7 +387,7 @@ Referência para inserção adequada à categoria:
 Visualização final do repositório do Poder Judiciário
 ------------------------------------------------------
 
-À medida que os órgãos desse repositório são liberados na plataforma, a estrutura do repositório se molda, conforme a imagem abaixo. Ressalta-se que a quantidades de órgãos é limitada conforme a estrutura do poder judiciário.
+À medida que os órgãos desse repositório são liberados na plataforma, a estrutura do repositório se ajusta, conforme a imagem que segue. 
 
 
 .. figure:: _static/images/final_repositorio_poder_judiciario.png
