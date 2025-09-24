@@ -167,7 +167,7 @@ Os seguintes campos ficarão disponíveis para preenchimento:
 
 .. admonition:: Notas
 
-   1. O campo possibilita o upload de arquivos de até 200mb.
+   1. O campo permite o upload de arquivos, respeitado o tamanho máximo configurado pela administração do sistema para cada extensão de arquivo permitida.
    
    2. Ao realizar o upload de arquivo com extensão não habilitada no sistema, será exibida mensagem de alerta com a lista de extensões permitidas.
 
