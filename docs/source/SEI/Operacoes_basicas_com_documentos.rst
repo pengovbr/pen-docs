@@ -276,7 +276,7 @@ Ao clicar neste ícone, o sistema abrirá a tela para preenchimento do Protocolo
    4. A opção de copiar da Árvore do Processo como um Link para acesso direto possibilita o acesso direto ao endereço eletrônico do processo ou documento selecionado. Assim, é possível compartilhar esse link com outros usuários do sistema.
 
 Novas funções da versão 5.0
-+++++++++++++++++++++++++++
+---------------------------
 
 O novo editor web apresenta um visual mais moderno e melhor usabilidade: novas funções que a versão 5.0 do SEI oferecem para o Usuário.
 
