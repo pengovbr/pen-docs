@@ -7,7 +7,7 @@ Acesso ao Sistema
 Para acessar o SEI, o usuário deve utilizar um navegador de internet para acessar a URL fornecida pelo órgão ao qual está vinculado, informar seu login, senha e – no caso de instalações multiórgão – o órgão ao qual está vinculado.
 
 
-.. figure:: _static/images/1-IO-Tela_inicial.gif
+.. figure:: _static/images/1-IO-Tela_Inicial_SSO.gif
 
 
 Autenticação em dois fatores
