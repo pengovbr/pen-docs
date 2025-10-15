@@ -9,9 +9,10 @@ Para acessar o SEI, o usuário deve utilizar um navegador de internet para acess
 
 .. figure:: _static/images/1-IO-Tela_Inicial_SSO.gif
 
-Desde a versão 5.0 do SEI, o sistema oferece ao usuário a possibilidade de realizar o login utilizando diferentes possibilidades de autenticação única, ou Single-Sign-On (SSO), caso devidamente habilitadas pela Administração do Sistema. São elas:
-* Acesso com Login Google;
-* Acesso com Login da Microsoft; e
+Desde a versão 5.0 do SEI, o sistema oferece ao usuário a possibilidade de realizar o login utilizando diferentes possibilidades de autenticação única, ou Single-Sign-On (SSO), caso devidamente habilitadas pela Administração do Sistema. São elas:  
+
+* Acesso com Login Google;  
+* Acesso com Login da Microsoft; e  
 * Acesso com Login GOV.BR.
 
 
