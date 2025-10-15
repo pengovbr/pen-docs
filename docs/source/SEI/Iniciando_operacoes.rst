@@ -19,7 +19,7 @@ Desde a versão 5.0 do SEI, o sistema oferece ao usuário a possibilidade de rea
 Autenticação em dois fatores
 +++++++++++++++++++++++++++++
 
-Para habilitar a Autenticação em dois fatores, é necessário acessar a tela de login do SEI, preencher o campo **Usuário**, inserir a **Senha** e clicar sobre a opção **Autenticação em dois fatores**. 
+E desde sua versão 4.0, o SEI oferece a possibilidade de habilitar a Autenticação em dois fatores para o usuário. Para isso, é necessário acessar a tela de login do SEI, preencher o campo **Usuário**, inserir a **Senha** e clicar sobre a opção **Autenticação em dois fatores**. 
 
 .. admonition:: Nota
     
