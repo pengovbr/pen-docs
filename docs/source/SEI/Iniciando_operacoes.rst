@@ -19,12 +19,13 @@ Desde a versão 5.0 do SEI, o sistema oferece ao usuário a possibilidade de rea
 Autenticação em dois fatores
 +++++++++++++++++++++++++++++
 
-E desde sua versão 4.0, o SEI oferece a possibilidade de habilitar a Autenticação em dois fatores para o usuário. Para isso, é necessário acessar a tela de login do SEI, preencher o campo **Usuário**, inserir a **Senha** e clicar sobre a opção **Autenticação em dois fatores**. 
+Desde sua versão 4.0, o SEI oferece a possibilidade de habilitar a Autenticação em dois fatores para o usuário. Para isso, é necessário acessar a tela de login do SEI, preencher o campo **Usuário**, inserir a **Senha** e clicar sobre a opção **Autenticação em dois fatores**. A funcionalidade reforça a segurança do processo de login, ao  combinar o uso da senha do usuário com um código gerado em seu smartphone, adicionando uma camada extra de proteção ao acesso.
 
 .. admonition:: Nota
     
-   O usuário poderá, se desejar, habilitar a Autenticação em dois fatores para efetuar o login no sistema. A disponibilização desse recurso é um dos itens que evidenciam a preocupação com a segurança do sistema e das informações registradas.
-   Com essa possibilidade, o usuário poderá adicionar uma camada extra de segurança aos seus dados de acesso, uma vez que essa sistemática associa um dado que o usuário conhece (a sua senha) a um recurso que possui em mãos (o seu smartphone). 
+  A partir da versão 5.0 do SEI, é possível configurar, também, o Duplo Fator de Autenticação (2FA) para os casos de login via Google, Microsoft ou por meio da conta GOV.BR.
+
+Abaixo, está descrito o caminho para configuração do 2FA a partir da autenticação do SEI com login e senha. Basta ao usuário, na tela inicial do SEI, inserir seu login e senha e clicar em "Autenticação em dois fatores", como na ilustração a seguir: 
 
 .. figure:: _static/images/tela_A2F.gif
 
