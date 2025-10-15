@@ -9,6 +9,8 @@ Para acessar o SEI, o usuário deve utilizar um navegador de internet para acess
 
 .. figure:: _static/images/1-IO-Tela_Inicial_SSO.gif
 
+Desde a versão 5.0 do SEI, o sistema oferece ao usuário a possibilidade de realizar o login utilizando diferentes modelos de Single-Sign-On (SSO)
+
 
 Autenticação em dois fatores
 +++++++++++++++++++++++++++++
