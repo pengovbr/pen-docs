@@ -218,7 +218,7 @@ O perfil básico apresenta as seguintes opções:
      * Permite gerenciar os blocos de assinatura criados pela unidade ou disponibilizados a ela. Possibilita que mais de um usuário, de qualquer unidade, possa assinar documentos produzidos no sistema.
    - * **Blocos de Reunião** 
      * Permite gerenciar os blocos de reunião criados pela unidade ou disponibilizados a ela. Possibilita que uma unidade disponibilize processos para conhecimento de outras unidades, sem que estas tenham uma atuação formal sobre eles, para serem discutidos em reuniões ou decisão colegiada. Essa funcionalidade permite a visualização do conteúdo dos documentos mesmo que não estejam assinados.
-   - * **Blocos Internos**:
+   - * **Blocos Internos**
      * Permite visualizar os blocos internos criados pela unidade. Possibilita a organização de conjuntos de processos que possuam alguma ligação entre si. Esta forma de organização é visível apenas pela unidade que a criou.
 
 .. admonition:: Saiba Mais
@@ -229,41 +229,39 @@ O perfil básico apresenta as seguintes opções:
    :widths: 20 35
    :header-rows: 1
 
-   - * **Contatos**: 
+   - * **Contatos**
      * Permite o cadastro e consulta dos contatos que serão exibidos como opções para o preenchimento dos campos Interessados, Remetente e Destinatários, na tela de cadastro do processo ou do documento, por exemplo.
-   - * **Controle de Prazos**: 
+   - * **Controle de Prazos**
      * Ferramenta utilizada para administração de prazos dentro da unidade. É uma funcionalidade de organização interna – ou seja, outras unidades não terão acesso ao Controle de Prazos da unidade.
-
-   - * **Controle de Processos**:
+   - * **Controle de Processos**
     * Direciona o usuário para a tela principal do SEI, onde são visualizados todos os processos que estão em sua unidade.
-
-   - * **Estatísticas**:
+   - * **Estatísticas**
      * Permite visualizar as estatísticas da unidade e o desempenho de processos.
-   - * **Favoritos**: 
+   - * **Favoritos**
      * Permite visualizar e gerenciar a relação de processos salvos como favoritos na unidade, possibilitando acesso rápido a eles.
-   - * **Grupos de Contato**: 
+   - * **Grupos de Contato**
      * Possibilita a criação de uma lista a partir da seleção de contatos cadastrados no sistema.
-   - * **Grupos de E-mail**: 
+   - * **Grupos de E-mail**
      * Permite criar e gerenciar grupos de e-mail para o envio de mensagens eletrônicas dentro do sistema.
-   - * **Grupos de Envio**: 
+   - * **Grupos de Envio**
      * Permite criar e gerenciar grupos de unidades para o envio de processos dentro do sistema.
-   - * **Iniciar Processo**: 
+   - * **Iniciar Processo**
      * Permite iniciar um novo processo no SEI.
-   - * **Lixeira** (a partir da Versão 5.0): 
+   - * **Lixeira** (a partir da Versão 5.0)
      * Permite disponibilizar temporariamente os conteúdos de documentos excluídos/cancelados. O próprio usuário que executou a ação poderá fazer o download do conteúdo.
-   - * **Marcadores**: 
+   - * **Marcadores**
      * Permite que a unidade crie e gerencie marcadores para os processos sob sua gestão. Utilizado para organização interna da equipe de trabalho.
-   - * **Painel de Controle**: 
+   - * **Painel de Controle**
      * Funcionalidade que possibilita ao usuário ter uma visão resumida e personalizada dos processos da unidade.
-   - * **Pesquisa**: 
+   - * **Pesquisa**
      * Possibilita a pesquisa avançada de informações, documentos ou processos.
-   - * **Pontos de Controle**: 
+   - * **Pontos de Controle**
      * Recurso que permite atribuir Pontos de Controle (fases ou categorias) para acompanhamento de processos.
-   - * **Processos Sobrestados**: 
+   - * **Processos Sobrestados**
      * Permite visualizar a relação de processos da unidade que se encontram suspensos temporariamente e as informações relativas ao sobrestamento.
-   - * **Retorno Programado**:
+   - * **Retorno Programado**
      * Permite verificar a relação de retornos programados da unidade – aqueles processos aos quais foram atribuídos prazos para resposta.
-   - * **Textos Padrão**: 
+   - * **Textos Padrão**
      * Permite incluir textos que sejam recorrentes na unidade para utilização em documentos e e-mails produzidos no sistema. 
 
 
