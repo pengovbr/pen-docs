@@ -225,6 +225,7 @@ O perfil básico apresenta as seguintes opções:
 
    Além disso, diferentemente do Acompanhamento Especial – que pode ser utilizado para assinalar qualquer processo, independentemente de onde este esteja aberto – a    inclusão em bloco interno só pode ser feita em processos abertos na unidade.
 
+
 .. list-table::
    :widths: 20 35
    :header-rows: 0
