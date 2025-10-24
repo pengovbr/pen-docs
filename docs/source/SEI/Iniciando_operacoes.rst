@@ -227,7 +227,7 @@ O perfil básico apresenta as seguintes opções:
 
 .. list-table::
    :widths: 20 35
-   :header-rows: 1
+   :header-rows: 0
 
    - * **Contatos**
      * Permite o cadastro e consulta dos contatos que serão exibidos como opções para o preenchimento dos campos Interessados, Remetente e Destinatários, na tela de cadastro do processo ou do documento, por exemplo.
