@@ -222,9 +222,7 @@ O perfil básico apresenta as seguintes opções:
      * Permite visualizar os blocos internos criados pela unidade. Possibilita a organização de conjuntos de processos que possuam alguma ligação entre si. Esta forma de organização é visível apenas pela unidade que a criou.
 
 .. admonition:: Saiba Mais
-
    Além disso, diferentemente do Acompanhamento Especial – que pode ser utilizado para assinalar qualquer processo, independentemente de onde este esteja aberto – a    inclusão em bloco interno só pode ser feita em processos abertos na unidade.
-
 
 .. list-table::
    :widths: 20 35
