@@ -219,15 +219,7 @@ O perfil básico apresenta as seguintes opções:
    - * **Blocos de Reunião** 
      * Permite gerenciar os blocos de reunião criados pela unidade ou disponibilizados a ela. Possibilita que uma unidade disponibilize processos para conhecimento de outras unidades, sem que estas tenham uma atuação formal sobre eles, para serem discutidos em reuniões ou decisão colegiada. Essa funcionalidade permite a visualização do conteúdo dos documentos mesmo que não estejam assinados.
    - * **Blocos Internos**
-     * Permite visualizar os blocos internos criados pela unidade. Possibilita a organização de conjuntos de processos que possuam alguma ligação entre si. Esta forma de organização é visível apenas pela unidade que a criou.
-
-.. admonition:: Saiba Mais
-   Além disso, diferentemente do Acompanhamento Especial – que pode ser utilizado para assinalar qualquer processo, independentemente de onde este esteja aberto – a    inclusão em bloco interno só pode ser feita em processos abertos na unidade.
-
-.. list-table::
-   :widths: 20 35
-   :header-rows: 0
-
+     * Permite visualizar os blocos internos criados pela unidade. Possibilita a organização de conjuntos de processos que possuam alguma ligação entre si. Esta forma de organização é visível apenas pela unidade que a criou. Além disso, diferentemente do Acompanhamento Especial – que pode ser utilizado para assinalar qualquer processo, independentemente de onde este esteja aberto – **a inclusão em bloco interno só pode ser feita em processos abertos na unidade.** 
    - * **Contatos**
      * Permite o cadastro e consulta dos contatos que serão exibidos como opções para o preenchimento dos campos Interessados, Remetente e Destinatários, na tela de cadastro do processo ou do documento, por exemplo.
    - * **Controle de Prazos**
