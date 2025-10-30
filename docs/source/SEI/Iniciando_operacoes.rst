@@ -9,7 +9,7 @@ Para acessar o SEI, o usuário deve utilizar um navegador de internet para acess
 
 .. figure:: _static/images/1-IO-Tela_Inicial_SSO.gif
 
-Desde a versão 5.0 do SEI, o sistema oferece ao usuário a possibilidade de realizar o login utilizando diferentes possibilidades de autenticação única, ou Single-Sign-On (SSO), caso devidamente habilitadas pela Administração do Sistema. São elas:  
+Desde a versão 5.0 do SEI, o sistema oferece ao usuário, também,  a possibilidade de realizar o login utilizando diferentes possibilidades de autenticação única - ou Single-Sign-On (SSO) - caso devidamente habilitadas pela Administração do Sistema. São elas:  
 
 * Acesso com Login Google;  
 * Acesso com Login da Microsoft; e  
@@ -19,17 +19,17 @@ Desde a versão 5.0 do SEI, o sistema oferece ao usuário a possibilidade de rea
 Autenticação em dois fatores
 +++++++++++++++++++++++++++++
 
-Desde sua versão 4.0, o SEI oferece a possibilidade de habilitar a Autenticação em dois fatores para o usuário. Para isso, é necessário acessar a tela de login do SEI, preencher o campo **Usuário**, inserir a **Senha** e clicar sobre a opção **Autenticação em dois fatores**. A funcionalidade reforça a segurança do processo de login, ao  combinar o uso da senha do usuário com um código gerado em seu smartphone, adicionando uma camada extra de proteção ao acesso.
+Desde sua versão 4.0, o SEI oferece a possibilidade de habilitar a Autenticação em dois fatores para o usuário. Para isso, é necessário acessar a tela de login do SEI, preencher o campo **Usuário**, inserir a **Senha** e clicar sobre a opção **Autenticação em dois fatores**. A funcionalidade reforça a segurança do processo de login, ao combinar o uso da senha do usuário com a exigência de se inserir um código gerado em seu smartphone, adicionando uma camada extra de proteção ao acesso.
 
 .. admonition:: Nota
     
-  A partir da versão 5.0 do SEI, é possível configurar, também, o Duplo Fator de Autenticação (2FA) para os casos de login via Google, Microsoft ou por meio da conta GOV.BR.
+  A partir da versão 5.0 do SEI, é possível configurar, também, o Duplo Fator de Autenticação (2FA) para os casos de login via Google, Microsoft ou por meio da conta GOV.BR, em que o código de acesso será gerado na função nativa de 2FA desses provedores.
 
-Abaixo, está descrito o caminho para configuração do 2FA a partir da autenticação do SEI com login e senha. Basta ao usuário, na tela inicial do SEI, inserir seu login e senha e clicar em "Autenticação em dois fatores", como na ilustração a seguir: 
+Abaixo, está descrito o caminho para configuração do 2FA a partir da autenticação do SEI com login e senha. Basta que o usuário, na tela inicial do SEI, insira seu login e senha e clique em "Autenticação em dois fatores", como na ilustração a seguir: 
 
 .. figure:: _static/images/tela_A2F.gif
 
-Na tela seguinte, será exibido um link com todas as informações para a habilitação do recurso. O usuário deverá ler as instruções e, em seguida, clicar no botão **Prosseguir**.
+Na tela seguinte, será exibido um link com todas as informações para a habilitação do recurso. O usuário deverá ler as instruções e, em seguida, caso de acordo, clicar no botão **Prosseguir**.
 
 Para continuar, é necessário ter, em seu dispositivo móvel, um aplicativo destinado a autenticação em duas etapas. O ***Google Authenticator*** e o ***Microsoft Authenticator*** são exemplos de apps que podem ser utilizados para esta finalidade. 
 
@@ -37,7 +37,7 @@ Após esse procedimento, abra o aplicativo e acesse a opção para leitura de **
 
 .. admonition:: Nota
 
-   Recomenda-se informar um e-mail pessoal, que não esteja associado à sua Instituição. É imprescindível que a senha de acesso a esse e-mail seja diferente da senha de acesso ao SEI.
+   Recomenda-se informar um e-mail pessoal, que não esteja associado à sua Instituição. É imprescindível, para sua segurança, que a senha de acesso a esse e-mail seja diferente da senha de acesso ao SEI.
 
 Faça a leitura da imagem, insira seu e-mail pessoal e clique em **Enviar**.
 
@@ -46,7 +46,7 @@ Faça a leitura da imagem, insira seu e-mail pessoal e clique em **Enviar**.
 
 Ao clicar sobre o botão **ACESSAR**, o sistema emitirá uma mensagem informando o envio de um e-mail para habilitação do recurso, com validade de até 60 minutos para a conclusão da solicitação.  
 
-Para ativar a Autenticação em dois fatores, o usuário deve acessar o e-mail e clicar sobre o *link* (ou copiar o endereço eletrônico da mensagem e colar no navegador). 
+Para ativar a Autenticação em dois fatores, o usuário deve acessar o e-mail e clicar sobre o *link* fornecido (ou copiar o endereço eletrônico informado na mensagem e colá-lo na barra de endereços de seu navegador). 
 
 Para acessar o sistema, insira o usuário e a senha na tela inicial. Depois, clique em **ACESSAR**. 
 
@@ -62,7 +62,7 @@ A desativação da Autenticação em dois fatores também poderá ser feita por 
 
 .. admonition:: Saiba Mais
    
-   Caso o usuário tenha utilizado a Autenticação em dois fatores e, por qualquer motivo, tenha efetuado a desabilitação do recurso ou perdido o prazo para sua ativação, será necessário, para efetuar uma nova tentativa, verificar se essa conta permanece registrada no aplicativo. Em caso afirmativo, será preciso excluí-la    antes de efetuar a leitura do novo QR Code.
+   Caso o usuário tenha utilizado a Autenticação em dois fatores e, por qualquer motivo, tenha efetuado a desabilitação do recurso ou perdido o prazo para sua ativação, será necessário, para efetuar uma nova tentativa, verificar se essa conta permanece registrada no aplicativo. Caso ainda esteja ativa, será preciso excluí-la antes de efetuar a leitura do novo QR Code.
 
 
 Barra de Ferramentas
@@ -87,30 +87,30 @@ As funcionalidades disponíveis são:
      * **Exibir/ocultar:** permite ocultar e exibir o menu principal.
    - * .. figure:: _static/images/1-IO_icone_pesquisa.png
           :align: center     
-     * **Pesquisa:** possibilita uma busca rápida a processos ou documentos.
+     * **Pesquisa:** Campo de pesquisa rápida em processos ou documentos.
    - * .. figure:: _static/images/1-IO_icone_caixa_selecao_unidade.png
           :align: center 
-     * **Caixa de seleção de unidade:** informa ao usuário qual unidade ele está acessando e possibilita navegar pelas unidades nas quais tenha permissão.
+     * **Caixa de seleção de unidade:** exibe qual unidade o usuário está acessando no momento e, ao se clicar nela, possibilita selecionar a unidade de atuação, com base em suas permissões de acesso.
    - * .. figure:: _static/images/1-IO_icone_controle_de_processos.png
           :align: center
-     * **Controle de processos:** permite ao usuário voltar à tela principal do sistema.
+     * **Controle de processos:** permite ao usuário, a partir de qualquer tela do sistema, retornar à tela Controle de Processos.
    - * .. figure:: _static/images/icone_em_numeros.png
           :align: center
-     * **Painel de Controle:** possibilita ao usuário ter uma visão mais resumida e personalizada dos processos da unidade. Tal funcionalidade foi disponibilizada na barra de ferramentas do SEI a partir da **versão 4.1**. 
+     * **Painel de Controle:** exibe ao usuário um painel com informações a respeito dos processos na unidade. Tal funcionalidade foi disponibilizada na barra de ferramentas do SEI a partir da **versão 4.1**. 
    - * .. figure:: _static/images/icone_acessibilidade.png
           :align: center
-     * **Acessibilidade:** são mecanismos que permitem ao usuário acessar rapidamente funções ou visões do SEI, por meio de combinações de teclas de atalho. Tal funcionalidade foi incorporada ao SEI a partir da **versão 4.1**.
+     * **Acessibilidade:** Exibe as teclas de atalho associadas a funcionalidades de acessibilidade, que permitem a pessoas cegas ou com baixa visão alterar o foco do cursor ou executar comandos no SEI com leitores de tela. Tal funcionalidade foi incorporada ao SEI a partir da **versão 4.1**.
    - * .. figure:: _static/images/1-IO_icone_usuario.png
           :align: center
-     * **Usuário:** identifica o usuário que está acessando o sistema.
+     * **Usuário:** identifica o usuário que está acessando o sistema. Ao clicar no ícone, é possível visualizar dados dos últimos acessos do usuário, como data e hora, navegador e o IP utilizado. 
    - * .. figure:: _static/images/1-IO_icone_configuracoes_do_sistema.png
           :align: center 
-     * **Configurações do sistema:** permite que o usuário altere o esquema de cores do sistema. A partir da **versão 5.0**, é possível escolher a página inicial (Controle de Processos, Painel de Controle ou Blocos de Assinatura) e também optar por filtrar os botões acessados recentemente.
+     * **Configurações do sistema:** permite que o usuário altere o esquema de cores do sistema. A partir da **versão 5.0**, é possível escolher a página inicial (Controle de Processos, Painel de Controle ou Blocos de Assinatura) e também optar por filtrar a visualização pelos botões acessados recentemente.
    - * .. figure:: _static/images/1-IO_icone_sair_do_sistema.png
           :align: center
-     * **Sair do sistema:** permite ao usuário sair com segurança do sistema.
+     * **Sair do sistema:** permite ao usuário encerrar a sessão atual e sair com segurança do sistema.
 
-Lista de Acessibilidades
+Funções de Acessibilidade
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. list-table::
@@ -120,7 +120,7 @@ Lista de Acessibilidades
    - * "Atalho"
      * Descrição
    - * ALT + F1
-     * Exibe esta tela.
+     * Exibe a tela de Acessibilidade - Teclas de Atalho.
    - * ALT + F2
      * Exibe a tela de Controle de Processos.
    - * ALT + F3 
