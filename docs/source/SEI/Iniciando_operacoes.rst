@@ -196,7 +196,7 @@ Funções de Acessibilidade
 Menu Principal
 +++++++++++++++
 
-É a coluna localizada na lateral esquerda da tela. Disponibiliza um conjunto de funcionalidades de acordo com o perfil do usuário ou do tipo de unidade.
+É a coluna localizada na lateral esquerda da tela, que disponibiliza funcionalidades de acordo com o perfil do usuário ou do tipo de unidade.
 
 As funcionalidades estão apresentadas em ordem alfabética e contêm símbolos para facilitar a sua identificação e correspondência com os ícones existentes na tela de controle de processos e tela do processo.
 
