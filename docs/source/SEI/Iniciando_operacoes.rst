@@ -241,19 +241,19 @@ O perfil básico apresenta as seguintes opções:
    - * **Lixeira** (a partir da Versão 5.0)
      * Permite disponibilizar temporariamente (a configuração padrão é 'por 45 dias') os conteúdos de documentos excluídos/cancelados (a configuração padrão é '45 dias'). O próprio usuário que executou a ação poderá fazer o download do conteúdo.
    - * **Marcadores**
-     * Permite que a unidade crie e gerencie marcadores para os processos sob sua gestão. Estes têm formato de etiqueta e são utilizados para organização interna da equipe de trabalho.
+     * Permite que a unidade crie e gerencie marcadores para os processos sob sua gestão. Estes têm formato de etiqueta e são utilizados para organização dos processos na unidade.
    - * **Painel de Controle**
-     * Funcionalidade que exibe ao usuário um painel com informações a respeito dos processos na unidade. Tal funcionalidade foi disponibilizada na **versão 4.1**.
+     * Funcionalidade que exibe ao usuário um painel com informações a respeito dos processos na unidade. TDisponível no SEI a partir da **versão 4.1**.
    - * **Pesquisa**
      * Possibilita a pesquisa avançada de informações, documentos ou processos.
    - * **Pontos de Controle**
-     * Recurso que permite atribuir Pontos de Controle (fases ou categorias) para acompanhamento de processos.
+     * Recurso que permite atribuir Pontos de Controle (fases de um processo de trabalho ou categorias) para acompanhamento de processos.
    - * **Processos Sobrestados**
      * Permite visualizar a relação de processos da unidade que se encontram sobrestados (suspensos temporariamente) e as informações relativas ao sobrestamento.
    - * **Retorno Programado**
-     * Permite verificar a relação de retornos programados da unidade – aqueles processos aos quais foram atribuídos prazos para resposta.
+     * Permite verificar a relação de retornos programados da unidade: processos aos quais foram atribuídos prazos para resposta em que a unidade figura como remetente ou destinatário.
    - * **Textos Padrão**
-     * Permite incluir textos que sejam utilizados recorrentemente na unidade para produção de documentos e e-mails no sistema. 
+     * Permite cadastrar textos que sejam utilizados recorrentemente na unidade para produção de documentos e e-mails no sistema. 
 
 
 Tela de Controle de Processos
@@ -267,7 +267,7 @@ Além disso, a tela de controle de processos apresenta filtros que permitem dife
 
 Nessa tela é possível realizar operações com processos em lote. Para isso, é necessário **clicar na caixa de seleção ao lado do número de cada processo** e selecionar o ícone da operação desejada, conforme a necessidade.
 
-Abaixo, estão descritas as diversas funcionalidades da barra de ícones. O passo a passo para o uso de cada uma dessas funcionalidades será apresentado mais à frente. 
+Abaixo, estão descritas as diversas funcionalidades da barra de ícones, que permite a execução de operações em lote. O passo a passo para o uso de cada uma dessas funcionalidades será apresentado mais à frente. 
 
 
 .. list-table::
@@ -293,11 +293,11 @@ Abaixo, estão descritas as diversas funcionalidades da barra de ícones. O pass
    - * |Acompanhamento_especial|
      * **Acompanhamento especial:** possibilita ao usuário salvar o(s) processo(s) a ser(em) acompanhado(s) posteriormente em uma lista, sem a necessidade de mantê-lo(s) aberto(s) em sua unidade. A lista é compartilhada por todos os usuários da unidade e pode ser organizada em grupos. Um processo pode ser incluído em mais de um grupo de acompanhamento especial.
    - * |Incluir_documento|
-     * **Incluir documento:** permite incluir novo documento no(s) processo(s) selecionado(s).
+     * **Incluir documento:** permite incluir um novo documento (a partir de documento modelo ou texto padrão) nos processos selecionados, permitindo, ainda a inclusão dos documentos gerados em um bloco de assinatura.
    - * |Gerenciar_marcador|
-     * **Gerenciar marcador:** permite que a unidade crie e gerencie marcadores para os processos sob sua gestão. Utilizado para organização interna da equipe de trabalho. Essas informações não ficam disponíveis para unidades que, eventualmente, consultarem o processo.
+     * **Adicionar ou Remover marcador:** permite que a unidade inclua ou retire marcadores dos processos selecionados. OS marcadores têm formato de etiqueta e são utilizados para organização dos processos na unidade.
    - * |Controle_de_Prazos|
-     * **Controle de Prazos:** ferramenta utilizada para administração de prazos dentro da unidade. É uma funcionalidade de organização interna, dessa forma, outras unidades não terão acesso ao Controle de Prazos da unidade.
+     * **Controle de Prazos:** ferramenta utilizada para administração de prazos de cada processo dentro da unidade, se necessário. Por ser  uma funcionalidade de organização interna, usuários em outras unidades não terão acesso ao Controle de Prazos da unidade.
 
 .. |enviar_processo| image:: _static/images/1-IO_icone_Enviar_Processo.png
    :align: middle
@@ -344,7 +344,7 @@ Abaixo, estão descritas as diversas funcionalidades da barra de ícones. O pass
    :width: 50
 
 
-Os Filtros disponíveis na tela Controle de Processos, que ficam logo abaixo da Barra de Ícones, permitem diversas visualizações dos processos. Veja a explicação de cada opção a seguir:
+Os Filtros disponíveis na tela Controle de Processos, que ficam logo abaixo da Barra de Ícones, possibilitam diferentes formas de visualizar os processos que estão na unidade. Veja a explicação de cada opção a seguir:
 
 .. list-table::
    :header-rows: 1
