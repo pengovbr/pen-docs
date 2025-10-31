@@ -285,13 +285,13 @@ Abaixo, estão descritas as diversas funcionalidades da barra de ícones. O pass
    - * |Incluir_em_bloco|
      * **Incluir em bloco:** uma das ferramentas de organização dos processos dentro do sistema. Processos podem ser incluídos em *Bloco Interno*, para fins de separação temática na unidade, ou *Bloco de Reunião*, que possibilita - quando disponibilizado - o compartilhamento de processos com outra unidade para mera visualização, inclusive das minutas (documentos não assinados).
    - * |Sobrestar_processo|
-     * **Sobrestar processo:** utilizado quando o processo precisa aguardar alguma providência antes de ter prosseguimento, mantendo-se suspenso temporariamente na unidade.
+     * **Sobrestar processo:** expediente de interrupção dos trâmites administrativos, utilizado quando o processo precisa ser "pausado" para aguardar alguma providência antes de prosseguir, mantendo-se fora do Controle de Processos da unidade enquanto sobrestado, acessível apenas pela funcionalidade *Processos Sobrestados* do Menu Principal.
    - * |Concluir_processo_nesta_unidade|
-     * **Concluir processo nesta unidade:** permite finalizar o processo na unidade em que o usuário que está acessando o sistema. O processo desaparecerá da tela “Controle de Processos”, mas poderá ser recuperado na Pesquisa ou Acompanhamento Especial (se previamente incluído em acompanhamento).
+     * **Concluir processo nesta unidade:** permite finalizar o processo na unidade em que o usuário que está acessando o sistema. O processo desaparecerá da tela “Controle de Processos”, mas poderá ser recuperado na Pesquisa ou Acompanhamento Especial (quando previamente incluído).
    - * |Anotações|
-     * **Anotações:** permite inserir informações adicionais que não devem constar dos autos do processo. Utilizado geralmente para orientações internas de trabalho da equipe. Essas informações não ficam disponíveis para outras unidades que, eventualmente, consultarem o processo.
+     * **Anotações:** permite incluir anotações no processo, que ficam visíveis em um ícone em formato de bilhete "post-it" ao lado do número do processo. Para visualizar o teor da anotação, basta passar o ponteiro do mouse sobre o ícone. A funcionalidade é utilizada para incluir informações adicionais que não precisem constar dos autos do processo. Visíveis apenas para os usuários com acesso à unidade, as informações não são acessíveis para outras unidades que, eventualmente, consultem o processo.
    - * |Acompanhamento_especial|
-     * **Acompanhamento especial:** possibilita ao usuário acompanhar o andamento do processo, mesmo que ele esteja tramitando em outra unidade, sem a necessidade de mantê-lo aberto em sua unidade.
+     * **Acompanhamento especial:** possibilita ao usuário salvar o(s) processo(s) a ser(em) acompanhado(s) posteriormente em uma lista, sem a necessidade de mantê-lo(s) aberto(s) em sua unidade. A lista é compartilhada por todos os usuários da unidade e pode ser organizada em grupos. Um processo pode ser incluído em mais de um grupo de acompanhamento especial.
    - * |Incluir_documento|
      * **Incluir documento:** permite incluir novo documento no(s) processo(s) selecionado(s).
    - * |Gerenciar_marcador|
