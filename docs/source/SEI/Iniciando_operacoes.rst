@@ -253,7 +253,7 @@ O perfil básico apresenta as seguintes opções:
    - * **Retorno Programado**
      * Permite verificar a relação de retornos programados da unidade – aqueles processos aos quais foram atribuídos prazos para resposta.
    - * **Textos Padrão**
-     * Permite incluir textos que sejam utilizados recorrentemente na unidade para produção de documentos e e-mails redigidos no sistema. 
+     * Permite incluir textos que sejam utilizados recorrentemente na unidade para produção de documentos e e-mails no sistema. 
 
 
 Tela de Controle de Processos
@@ -277,13 +277,13 @@ Abaixo, estão descritas as diversas funcionalidades da barra de ícones. O pass
    - * Ícones
      * Descrição
    - * |enviar_processo|
-     * **Enviar processo:** permite tramitar processo(s) para outra unidade. Conclui o processo na unidade remetente, a menos que, no momento do envio, o usuário assinale a opção “Manter o processo aberto na unidade atual”. Se concluído, o processo desaparecerá da tela “Controle de Processos”, mas poderá ser recuperado na Pesquisa ou Acompanhamento Especial (quando assinalado).
+     * **Enviar processo:** permite tramitar processo(s) para outra unidade. Conclui o processo na unidade remetente - a menos que, no momento do envio, o usuário assinale a opção “Manter o processo aberto na unidade atual”. Se concluído, o processo desaparecerá da tela “Controle de Processos”, mas poderá ser recuperado na Pesquisa ou Acompanhamento Especial (quando previamente incluído).
    - * |atualizar_andamento| 
-     * **Atualizar andamento:** permite incluir uma informação ou despacho de andamento ao(s) processo(s) selecionado(s).
+     * **Atualizar andamento:** permite acrescentar manualmente uma informação no registro de andamento do(s) processo(s) selecionado(s). *Atenção*: Informações incluídas no andamento de um processo não podem ser removidas.
    - * |Atribuição_de_processos|
-     * **Atribuição de processos:** permite distribuir processos entre os usuários da unidade, atribuindo-lhes responsabilidade. Essa informação não fica disponível para outras unidades que, eventualmente, consultarem o processo.
+     * **Atribuição de processos:** permite associar um (ou mais) processo(s) a um usuário da unidade, atribuindo-lhe a responsabilidade pelas tratativas dos autos. Essa informação não fica disponível para outras unidades que, eventualmente, consultarem o processo, sendo uma ferramenta de organização interna da unidade, com a finalidade de distribuição de tarefas.
    - * |Incluir_em_bloco|
-     * **Incluir em bloco:** utilizado para organizar os processos dentro do sistema, incluindo-os em Bloco Interno ou Bloco de Reunião.
+     * **Incluir em bloco:** uma das ferramentas de organização dos processos dentro do sistema. Processos podem ser incluídos em *Bloco Interno*, para fins de separação temática na unidade, ou *Bloco de Reunião*, que possibilita - quando disponibilizado - o compartilhamento de processos com outra unidade para mera visualização, inclusive das minutas (documentos não assinados).
    - * |Sobrestar_processo|
      * **Sobrestar processo:** utilizado quando o processo precisa aguardar alguma providência antes de ter prosseguimento, mantendo-se suspenso temporariamente na unidade.
    - * |Concluir_processo_nesta_unidade|
