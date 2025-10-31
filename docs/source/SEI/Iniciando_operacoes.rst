@@ -239,21 +239,21 @@ O perfil básico apresenta as seguintes opções:
    - * **Iniciar Processo**
      * Permite iniciar um novo processo no SEI.
    - * **Lixeira** (a partir da Versão 5.0)
-     * Permite disponibilizar temporariamente os conteúdos de documentos excluídos/cancelados. O próprio usuário que executou a ação poderá fazer o download do conteúdo.
+     * Permite disponibilizar temporariamente (a configuração padrão é 'por 45 dias') os conteúdos de documentos excluídos/cancelados (a configuração padrão é '45 dias'). O próprio usuário que executou a ação poderá fazer o download do conteúdo.
    - * **Marcadores**
-     * Permite que a unidade crie e gerencie marcadores para os processos sob sua gestão. Utilizado para organização interna da equipe de trabalho.
+     * Permite que a unidade crie e gerencie marcadores para os processos sob sua gestão. Estes têm formato de etiqueta e são utilizados para organização interna da equipe de trabalho.
    - * **Painel de Controle**
-     * Funcionalidade que possibilita ao usuário ter uma visão resumida e personalizada dos processos da unidade.
+     * Funcionalidade que exibe ao usuário um painel com informações a respeito dos processos na unidade. Tal funcionalidade foi disponibilizada na **versão 4.1**.
    - * **Pesquisa**
      * Possibilita a pesquisa avançada de informações, documentos ou processos.
    - * **Pontos de Controle**
      * Recurso que permite atribuir Pontos de Controle (fases ou categorias) para acompanhamento de processos.
    - * **Processos Sobrestados**
-     * Permite visualizar a relação de processos da unidade que se encontram suspensos temporariamente e as informações relativas ao sobrestamento.
+     * Permite visualizar a relação de processos da unidade que se encontram sobrestados (suspensos temporariamente) e as informações relativas ao sobrestamento.
    - * **Retorno Programado**
      * Permite verificar a relação de retornos programados da unidade – aqueles processos aos quais foram atribuídos prazos para resposta.
    - * **Textos Padrão**
-     * Permite incluir textos que sejam recorrentes na unidade para utilização em documentos e e-mails produzidos no sistema. 
+     * Permite incluir textos que sejam utilizados recorrentemente na unidade para produção de documentos e e-mails redigidos no sistema. 
 
 
 Tela de Controle de Processos
@@ -265,7 +265,7 @@ Além disso, a tela de controle de processos apresenta filtros que permitem dife
 
 .. figure:: _static/images/1-IO_tela_controle_de_processos.png
 
-Nessa tela é possível realizar operações com processos em lote. Para isso, é necessário clicar na caixa de seleção ao lado do número de cada processo e selecionar o ícone da operação desejada, conforme a necessidade.
+Nessa tela é possível realizar operações com processos em lote. Para isso, é necessário **clicar na caixa de seleção ao lado do número de cada processo** e selecionar o ícone da operação desejada, conforme a necessidade.
 
 Abaixo, estão descritas as diversas funcionalidades da barra de ícones. O passo a passo para o uso de cada uma dessas funcionalidades será apresentado mais à frente. 
 
@@ -287,7 +287,7 @@ Abaixo, estão descritas as diversas funcionalidades da barra de ícones. O pass
    - * |Sobrestar_processo|
      * **Sobrestar processo:** utilizado quando o processo precisa aguardar alguma providência antes de ter prosseguimento, mantendo-se suspenso temporariamente na unidade.
    - * |Concluir_processo_nesta_unidade|
-     * **Concluir processo nesta unidade:** permite finalizar o processo na unidade em que o usuário que está acessando o sistema. O processo desaparecerá da tela “Controle de Processos”, mas poderá ser recuperado na Pesquisa ou Acompanhamento Especial quando tiver sido previamente incluído em acompanhamento).
+     * **Concluir processo nesta unidade:** permite finalizar o processo na unidade em que o usuário que está acessando o sistema. O processo desaparecerá da tela “Controle de Processos”, mas poderá ser recuperado na Pesquisa ou Acompanhamento Especial (se previamente incluído em acompanhamento).
    - * |Anotações|
      * **Anotações:** permite inserir informações adicionais que não devem constar dos autos do processo. Utilizado geralmente para orientações internas de trabalho da equipe. Essas informações não ficam disponíveis para outras unidades que, eventualmente, consultarem o processo.
    - * |Acompanhamento_especial|
