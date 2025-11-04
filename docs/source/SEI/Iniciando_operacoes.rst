@@ -385,40 +385,40 @@ Para melhor compreender a organização das listas de processos gerados e recebi
    - * |Processo_fundo_azul|
      * **Processo com fundo azul**: indica que o processo sigiloso foi acessado e/ou que sofreu alguma ação realizada pelo usuário no login/sessão atual. Igualmente, só pode ser visto por usuários com credencial de acesso ao processo sigiloso. Posicionar o ponteiro do mouse sobre o número exibirá o Tipo de Processo.
    - * |retorno_laranja|
-     * Indica que o processo recebido pela unidade tem prazo de Retorno Programado a vencer. Posicionar o ponteiro do mouse sobre o ícone exibirá o status do retorno programado ("Para devolver"), a unidade para o qual o Retorno está cadastrado, a data prevista para devolução e, entre parênteses, quantos dias faltam para o encerramento do prazo previsto.
+     * **Para devolver (no prazo)**: Indica que o processo recebido pela unidade tem prazo de Retorno Programado a vencer. Posicionar o ponteiro do mouse sobre o ícone exibirá o status do retorno programado ("Para devolver"), a unidade para o qual o Retorno está cadastrado, a data prevista para devolução e, entre parênteses, quantos dias faltam para o encerramento do prazo previsto.
    - * |retorno_vermelho|
-     * Indica que o processo recebido pela unidade está com prazo de Retorno Programado expirado (atrasado). Posicionar o ponteiro do mouse sobre o ícone exibirá o status do retorno programado ("Para devolver"), a unidade para o qual o Retorno está cadastrado, a data prevista para devolução e, entre parênteses, quantos dias ela está atrasada.
+     * **Para devolver (atrasado)**: Indica que o processo recebido pela unidade está com prazo de Retorno Programado expirado (atrasado). Posicionar o ponteiro do mouse sobre o ícone exibirá o status do retorno programado ("Para devolver"), a unidade para o qual o Retorno está cadastrado, a data prevista para devolução e, entre parênteses, quantos dias ela está atrasada.
    - * |retorno_azul|
-     * Indica que esse processo recebido pela unidade tinha prazo de Retorno Programado e foi devolvido. Posicionar o ponteiro do mouse sobre o ícone exibirá o status do retorno programado ("Devolução cumprida"), a unidade para o qual o Retorno estava cadastrado, a data prevista para devolução e, entre parênteses, a data em que o processo foi efetivamente devolvido.
+     * **Devolução cumprida**: Indica que esse processo recebido pela unidade tinha prazo de Retorno Programado e foi devolvido. Posicionar o ponteiro do mouse sobre o ícone exibirá o status do retorno programado ("Devolução cumprida"), a unidade para o qual o Retorno estava cadastrado, a data prevista para devolução e, entre parênteses, a data em que o processo foi efetivamente devolvido.
    - * |ampulheta_laranja| 
-     * Indica que o processo enviado pela unidade com Retorno Programado está aguardando retorno de outra unidade. Posicionar o ponteiro do mouse sobre o ícone exibirá o status do retorno programado ("Aguardando Retorno"), a unidade da qual se aguarda o Retorno, a data prevista para devolução e, entre parênteses, quantos dias faltam para o encerramento do prazo previsto.
+     * **Aguardando Retorno (no prazo)**: Indica que o processo enviado pela unidade com Retorno Programado está aguardando retorno de outra unidade. Posicionar o ponteiro do mouse sobre o ícone exibirá o status do retorno programado ("Aguardando Retorno"), a unidade da qual se aguarda o Retorno, a data prevista para devolução e, entre parênteses, quantos dias faltam para o encerramento do prazo previsto.
    - * |ampulheta_azul| 
-     * Indica que o processo enviado pela unidade com Retorno Programado teve o retorno cumprido. Posicionar o ponteiro do mouse sobre o ícone exibirá o status do retorno programado ("Retorno Cumprido"), a unidade da qual se aguardava o Retorno, a data prevista para devolução e, entre parênteses, a data em que o processo foi efetivamente devolvido.
+     * **Retorno Cumprido**: Indica que o processo enviado pela unidade com Retorno Programado teve o retorno cumprido. Posicionar o ponteiro do mouse sobre o ícone exibirá o status do retorno programado ("Retorno Cumprido"), a unidade da qual se aguardava o Retorno, a data prevista para devolução e, entre parênteses, a data em que o processo foi efetivamente devolvido.
    - * |ampulheta_vermelha|
-     * Indica que o processo enviado pela unidade com Retorno Programado está com o prazo de devolução expirado (atrasado). Posicionar o ponteiro do mouse sobre o ícone exibirá o status do retorno programado ("Aguardando Retorno"), a unidade da qual se aguarda o Retorno, a data prevista para retorno e, entre parênteses, quantos dias ele está atrasado.
+     * **Aguardando Retorno (atrasado)**: Indica que o processo enviado pela unidade com Retorno Programado está com o prazo de devolução expirado (atrasado). Posicionar o ponteiro do mouse sobre o ícone exibirá o status do retorno programado ("Aguardando Retorno"), a unidade da qual se aguarda o Retorno, a data prevista para retorno e, entre parênteses, quantos dias ele está atrasado.
    - * |alerta|
-     * Indica que um documento foi incluído ou assinado no processo.
+     * **Alerta**: Indica que um documento foi incluído ou assinado no processo.
    - * |anotacoes| 
-     * Indica a existência de uma Anotação simples. Posicionar o ponteiro do mouse sobre o ícone exibirá o autor, a data e hora de criação e o texto da anotação.
+     * **Anotação**: Indica a existência de uma Anotação simples. Posicionar o ponteiro do mouse sobre o ícone exibirá o autor, a data e hora de criação e o texto da anotação.
    - * |anotocoes_vermelho|
-     * Indica a existência de uma Anotação com prioridade. Posicionar o ponteiro do mouse sobre o ícone exibirá o autor, a data e hora de criação e o texto da anotação.
+     * **Anotação urgente**: Indica a existência de uma Anotação com prioridade. Posicionar o ponteiro do mouse sobre o ícone exibirá o autor, a data e hora de criação e o texto da anotação.
    - * |marcador|
-     * Indica que o processo possui um marcador. Posicionar o ponteiro do mouse sobre o ícone exibirá a descrição do marcador e o texto (opcional) informado pelo usuário que o inseriu.
+     * **Marcador**: Indica que o processo possui um marcador. Posicionar o ponteiro do mouse sobre o ícone exibirá a descrição do marcador e o texto (opcional) informado pelo usuário que o inseriu.
    - * |ponto_controle|
-     * Indica que o processo possui um Ponto de Controle. Posicionar o ponteiro do mouse sobre o ícone exibirá o nome do Ponto de Controle associado ao processo.
+     * **Ponto de Controle**: Indica que o processo possui um Ponto de Controle associado a ele. Posicionar o ponteiro do mouse sobre o ícone exibirá o nome do Ponto de Controle em questão.
    - * |controle_prazo_laranja|
-     * Indica que o processo possui um Controle de Prazo a vencer.
+     * **Controle de prazo (a vencer)**: Indica que o processo possui um Controle de Prazo a vencer. Posicionar o ponteiro do mouse sobre o ícone exibirá o usuário que definiu o prazo, sua data de vencimento e, entre parênteses, quanto tempo falta para esta data.
    - * |controle_prazo_azul| 
-     * Indica que o processo possui um Controle de Prazo concluído.
+     * **Controle de prazo (concluído)**: Indica que o processo possui um Controle de Prazo concluído. Posicionar o ponteiro do mouse sobre o ícone exibirá o usuário que definiu o prazo, sua data de vencimento e, entre parênteses, a data em que este prazo foi cumprido.
    - * |controle_prazo_vermelho|
-     * Indica que o processo possui um Controle de Prazo vencido (atrasado).
+     * **Controle de prazo (vencido)**: Indica que o processo possui um Controle de Prazo vencido (atrasado). Posicionar o ponteiro do mouse sobre o ícone exibirá o usuário que definiu o prazo, sua data de vencimento e, entre parênteses, quanto tempo já se passou desta data.
 
 .. |Login_entre_parenteses| image:: _static/images/1-IO_icone_Login_entre_parenteses.png
    :align: middle
    :width: 150
 
 .. |Processo_numero_preto| image:: _static/images/1-IO_icone_numero_preto.png
-   :align: middle
+   :align:middle
    :width: 100
 
 .. |Processo_núumero_vermelho| image::  _static/images/1-IO_icone_numero_em_vermelho.png
