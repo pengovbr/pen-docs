@@ -496,11 +496,11 @@ Para melhor compreender a organização das listas de processos gerados e recebi
 Tela do Processo
 ++++++++++++++++
 
-Ao clicar sobre um número de processo, na tela Controle de Processos, o usuário será direcionado a uma nova tela, onde poderá visualizar seu conteúdo.
+Ao clicar sobre o número de um processo na tela Controle de Processos, o usuário será direcionado a uma nova tela, onde poderá visualizar o conteúdo do processo em que clicou.
 
 .. figure:: _static/images/1-IO_tela_do_processo.png
 
-O lado esquerdo da tela mostra o número do processo e a relação de documentos organizados por ordem de produção – é a chamada **“Árvore do Processo”**. Logo abaixo, é apresentada a funcionalidade **“Consultar Andamento”** e, em seguida, são mostrados os **Processos Relacionados**, quando houver. 
+O lado esquerdo da tela mostra o número do processo e a relação de documentos organizados cronologicamente por data e hora de geração – é a chamada **“Árvore do Processo”**. Logo abaixo da árvore, é exibida a funcionalidade **“Consultar Andamento”** e, em seguida, são mostrados os **Processos Relacionados**, quando houver. 
 
 À direita da tela são exibidos os ícones de operações possíveis para o processo e, logo abaixo, as unidades nas quais o processo está aberto.
 
@@ -517,7 +517,7 @@ Alguns desses ícones são os mesmos apresentados na tela Controle de Processos,
    - * |Iniciar_processo_relacionado| 
      * **Iniciar processo relacionado:** permite iniciar um novo processo relacionado ao processo em que o usuário está trabalhando no momento. 
    - * |Consultar_Alterar_processo|
-     * **Consultar/Alterar processo:** permite consultar ou alterar os dados de cadastro do processo (descrição, interessados, destinatário, nível de acesso), com exceção da data de autuação e do NUP.
+     * **Consultar/Alterar processo:** permite consultar ou alterar os dados cadastrais do processo (descrição, interessados, destinatário, nível de acesso). **Não podem ser alterados** a data de autuação do processo e seu número, se gerado automaticamente pelo sistema.
    - * |Ciencia|
      * **Ciência:** permite que as unidades registrem ciência do processo, dispensando a necessidade de se produzir um novo documento para esse fim. 
    - * |Favoritos|
