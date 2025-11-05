@@ -521,35 +521,35 @@ Alguns desses ícones são os mesmos apresentados na tela Controle de Processos,
    - * Ícone
      * Descrição
    - * |Iniciar_processo_relacionado| 
-     * **Iniciar processo relacionado:** permite iniciar um novo processo relacionado ao processo em que o usuário está trabalhando no momento. 
+     * **Iniciar processo relacionado:** permite iniciar um novo processo relacionado ao processo em que o usuário está trabalhando no momento. Processos relacionados não têm qualquer dependência um do outro, mas podem ser facilmente acessados a partir da lista abaixo da árvore do Processo.
    - * |Consultar_Alterar_processo|
-     * **Consultar/Alterar processo:** permite consultar ou alterar os dados cadastrais do processo (descrição, interessados, destinatário, nível de acesso). **Não podem ser alterados** a data de autuação do processo e seu número, se gerado automaticamente pelo sistema.
+     * **Consultar/Alterar processo:** permite consultar ou alterar os dados cadastrais - ou metadados - do processo (descrição, interessados, destinatário, nível de acesso). **Não podem ser alterados** a data de autuação do processo e seu número, se gerado automaticamente pelo sistema.
    - * |Ciencia|
-     * **Ciência:** permite que as unidades registrem ciência do processo, dispensando a necessidade de se produzir um novo documento para esse fim. 
+     * **Ciência:** permite o registro de ciência no processo, dispensando a necessidade de se produzir um documento para esse fim, sendo permitido ao usuário registrar ciência de um processo uma vez por dia. Também é possível fazê-lo em documentos específicos do processo. Ao receber a primeira ciência, um ícone equivalente passa a ser exibido ao lado do número do processo, permitindo a visualização das ciências já informadas em uma tabela, que vai recebendo novas linhas conforme outros usuários também manifestam ciência.
    - * |Favoritos|
-     * **Favoritos:** Permite salvar o processo selecionado como “favorito”, podendo-se incluí-lo em grupos de favoritos, a critério da unidade. Os processos favoritos podem ser acessados a partir da opção “Favoritos” no menu Principal.
+     * **Favoritos:** permite salvar o processo selecionado como “favorito”, podendo-se incluí-lo em grupos de favoritos, a critério da unidade. Os processos favoritos podem ser acessados a partir da opção “Favoritos” no menu Principal.
    - * |Duplicar_processo|
-     * **Duplicar processo:** permite duplicar os documentos integrantes de um processo, gerando um novo processo.
+     * **Duplicar processo:** permite gerar um novo processo por duplicação de documentos selecionados. **Importante:** não se trata de uma cópia do mesmo processo, mas de um **novo** processo com documentos idênticos. No processo gerado, qualquer assinatura existente nos documentos duplicados é removida e estes podem ser modificados a critério do usuário.
    - * |Enviar_correspondência_eletronica|
-     * **Enviar correspondência eletrônica:** permite enviar e-mail relacionado ao processo, com ou sem anexos.
+     * **Enviar correspondência eletrônica:** permite a elaboração de um e-mail a ser remetido a partir do processo, podendo incluir documentos que constem nos autos ou outros arquivos selecionados do computador do usuário. O e-mail enviado passa a figurar na árvore do processo, como qualquer outro documento.
    - * |Relacionamentos_do_processo|
-     * **Relacionamentos do processo:** permite vincular virtualmente um processo a outro, mantendo os andamentos de forma independente. 
+     * **Relacionamentos do processo:** permite vincular um processo a outro, a partir da informação de seu número. Processos relacionados não têm qualquer dependência um do outro, mas podem ser facilmente acessados a partir da lista abaixo da árvore do Processo.
    - * |Ordenar_arvore_do_processo|
-     * **Ordenar árvore do processo:** permite que o usuário altere a ordem dos documentos de um processo conforme a necessidade.
+     * **Ordenar árvore do processo:** permite que o usuário altere a ordem dos documentos de um processo, em caso de estrita necessidade. **Importante:** A funcionalidade deve ser utilizada em situações excepcionais e justificadas, como para a correção de cadastros de documentos em ordem incorreta, para se reestabelecer a sequência cronológica original e o contexto do conjunto documental. Sugere-se, ainda, que quaisquer alterações sejam devidamente formalizadas e nunca realizadas de forma arbitrária.
    - * |Gerenciar_disponibilizacoes_de_acesso_externo|
-     * **Gerenciar disponibilizações de acesso externo**: utilizado para liberar acesso ao conteúdo do processo para um usuário externo. Envia e-mail com link que dará acesso aos documentos do processo. 
+     * **Gerenciar disponibilizações de acesso externo**: concede acesso ao conteúdo do processo a um usuário externo. Esta disponibilização pode ocorrer de duas maneiras: pode se tratar de uma "disponibilização de acesso externo", em que é gerado um link de visualização do processo que pode ser remetido a *qualquer* destinatário de e-mail (deve-se, portanto, ser utilizada com a devida cautela); ou de uma "disponibilização de acesso **a usuário** externo", que, neste caso, exige que este usuário externo esteja previamente cadastrado no SEI (com identidade validada e acesso liberado). Usuários externos são listados com seu endereço de e-mail ao lado do nome, sendo possível, também filtrar a listagem para que sejam exibidos apenas os usuários previamente cadastrados.
    - * |Anexar_processo| 
-     * **Anexar processo:** permite anexar um processo a outro. Essa ação não pode ser desfeita. 
+     * **Anexar processo:** permite unir, de forma definitiva, um processo a outro quando houver identidade de assunto e de interessado, assegurando a continuidade da ação administrativa. Para tanto, basta informar o número do processo a ser anexado na tela seguinte. Deve-se atentar que, uma vez anexado, não é possível alterar o teor de um processo. Logo, quaisquer *minutas* de documento que constem no processo precisam ser assinadas para que sejam visíveis após a anexação. A operação deve ser realizada com cautela, pois representa uma união arquivística irreversível (ainda que o sistema disponha de recurso técnico para desfazê-la, tal ação contraria as normas arquivísticas e só deve ocorrer em casos excepcionais e formalmente justificados). 
    - * |Gerar_arquivo_PDF_do_processo|
-     * **Gerar arquivo PDF do processo:** permite gerar um arquivo do processo no formato PDF. O usuário pode escolher quais documentos deseja incluir no arquivo. 
+     * **Gerar arquivo PDF do processo:** permite gerar um arquivo no formato .PDF, com os documentos incluídos na sequência da árvore do processo. É permitido ao usuário escolher quais documentos deseja incluir no arquivo gerado.
    - * |Gerar_arquivo_ZIP_do_processo|
-     * **Gerar arquivo ZIP do processo:** permite gerar um arquivo do processo no formato ZIP. O usuário pode escolher quais documentos deseja incluir no arquivo. 
+     * **Gerar arquivo ZIP do processo:** permite gerar um arquivo no formato .ZIP, com os documentos do processo em seu formato original, incluídos na sequência da árvore do processo. É permitido ao usuário escolher quais documentos deseja incluir no arquivo gerado. 
    - * |Comentarios| 
-     * **Comentários:** permite a inclusão de comentários em processos e/ou documentos.
+     * **Comentários:** permite a inclusão de comentários no processo. Estes comentários ficam visíveis para usuários de todas as unidades que tiverem acesso ao processo. É possível incluir comentários também em documentos - que podem ser visualizados a partir de tela similar, acessível por meio de ícone junto ao número do documento na árvore - ou junto aos comentários referentes ao processo, ao se clicar na opção "Ver Todos" na tela de exibição dos comentários do processo.
    - * |Controle_de_Processos|
-     * **Controle de Processos:** permite que o usuário acesse a tela de controle de processos.
+     * **Controle de Processos:** permite que o usuário retorne à tela de controle de processos.
    - * |Pesquisar_no_Processo|
-     * **Pesquisar no Processo:** Permite que o usuário realize pesquisas avançadas sobre processos e documentos.
+     * **Pesquisar no Processo:** Permite que o usuário pesquise por termos apenas nos documentos do processo sendo visualizado.
 
 
 .. |Iniciar_processo_relacionado| image:: _static/images/1-IO_icone__iniciar_processo_relacionado.png
