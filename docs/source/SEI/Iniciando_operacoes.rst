@@ -412,8 +412,8 @@ Para melhor compreender a organização das listas de processos gerados e recebi
      * **Controle de prazo (concluído)**: Indica que o processo possui um Controle de Prazo concluído. Posicionar o ponteiro do mouse sobre o ícone exibirá o usuário que definiu o prazo, sua data de vencimento e, entre parênteses, a data em que este prazo foi cumprido.
    - * |controle_prazo_vermelho|
      * **Controle de prazo (vencido)**: Indica que o processo possui um Controle de Prazo vencido (atrasado). Posicionar o ponteiro do mouse sobre o ícone exibirá o usuário que definiu o prazo, sua data de vencimento e, entre parênteses, quanto tempo já se passou desta data.
-    - * |Processo_prioritario|
-      * **Processo prioritário**: Indica que o processo em questão deve receber tratamento prioritário, nos termos da legislação vigente. Posicionar o ponteiro do mouse sobre o ícone exibirá o tipo de prioridade associado ao processo. A prioridade é informada no ato de criação do processo administrativo. Disponível no SEI a partir da **versão 5.0**.
+   - * |Processo_prioritario|
+     * **Processo prioritário**: Indica que o processo em questão deve receber tratamento prioritário, nos termos da legislação vigente. Posicionar o ponteiro do mouse sobre o ícone exibirá o tipo de prioridade associado ao processo. A prioridade é informada no ato de criação do processo administrativo. Disponível no SEI a partir da **versão 5.0**.
 
 .. |Login_entre_parenteses| image:: _static/images/1-IO_icone_Login_entre_parenteses.png
    :align: middle
