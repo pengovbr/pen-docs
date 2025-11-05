@@ -114,7 +114,7 @@ Funções de Acessibilidade
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. list-table::
-   :widths: 20 35
+   :widths: 15 35
    :header-rows: 1
 
    - * "Atalho"
@@ -414,11 +414,11 @@ Para melhor compreender a organização das listas de processos gerados e recebi
      * **Controle de prazo (vencido)**: Indica que o processo possui um Controle de Prazo vencido (atrasado). Posicionar o ponteiro do mouse sobre o ícone exibirá o usuário que definiu o prazo, sua data de vencimento e, entre parênteses, quanto tempo já se passou desta data.
 
 .. |Login_entre_parenteses| image:: _static/images/1-IO_icone_Login_entre_parenteses.png
-   :align: center
+   :align: middle
    :width: 150
 
 .. |Processo_numero_preto| image:: _static/images/1-IO_icone_numero_preto.png
-   :align: center
+   :align: middle
    :width: 100
 
 .. |Processo_núumero_vermelho| image::  _static/images/1-IO_icone_numero_em_vermelho.png
