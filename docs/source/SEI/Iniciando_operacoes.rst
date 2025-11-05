@@ -295,7 +295,7 @@ Abaixo, estão descritas as diversas funcionalidades da barra de ícones, que pe
    - * |Incluir_documento|
      * **Incluir documento:** permite incluir um novo documento (a partir de documento modelo ou texto padrão) nos processos selecionados, permitindo, ainda a inclusão dos documentos gerados em um bloco de assinatura.
    - * |Gerenciar_marcador|
-     * **Adicionar ou Remover marcador:** permite que a unidade inclua ou retire marcadores dos processos selecionados. OS marcadores têm formato de etiqueta e são utilizados para organização dos processos na unidade.
+     * **Adicionar ou Remover marcador:** permite que a unidade inclua ou retire marcadores dos processos selecionados. Os marcadores têm formato de etiqueta e são utilizados para organização dos processos na unidade.
    - * |Controle_de_Prazos|
      * **Controle de Prazos:** ferramenta utilizada para administração de prazos de cada processo dentro da unidade, se necessário. Por ser  uma funcionalidade de organização interna, usuários em outras unidades não terão acesso ao Controle de Prazos da unidade.
 
