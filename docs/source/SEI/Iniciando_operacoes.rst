@@ -243,7 +243,7 @@ O perfil básico apresenta as seguintes opções:
    - * **Marcadores**
      * Permite que a unidade crie e gerencie marcadores para os processos sob sua gestão. Estes têm formato de etiqueta e são utilizados para organização dos processos na unidade.
    - * **Painel de Controle**
-     * Funcionalidade que exibe ao usuário um painel com informações a respeito dos processos na unidade. TDisponível no SEI a partir da **versão 4.1**.
+     * Funcionalidade que exibe ao usuário um painel com informações a respeito dos processos na unidade. Disponível no SEI a partir da **versão 4.1**.
    - * **Pesquisa**
      * Possibilita a pesquisa avançada de informações, documentos ou processos.
    - * **Pontos de Controle**
@@ -412,6 +412,8 @@ Para melhor compreender a organização das listas de processos gerados e recebi
      * **Controle de prazo (concluído)**: Indica que o processo possui um Controle de Prazo concluído. Posicionar o ponteiro do mouse sobre o ícone exibirá o usuário que definiu o prazo, sua data de vencimento e, entre parênteses, a data em que este prazo foi cumprido.
    - * |controle_prazo_vermelho|
      * **Controle de prazo (vencido)**: Indica que o processo possui um Controle de Prazo vencido (atrasado). Posicionar o ponteiro do mouse sobre o ícone exibirá o usuário que definiu o prazo, sua data de vencimento e, entre parênteses, quanto tempo já se passou desta data.
+    - * |Processo_prioritario|
+      * **Processo prioritário**: Indica que o processo em questão deve receber tratamento prioritário, nos termos da legislação vigente. Posicionar o ponteiro do mouse sobre o ícone exibirá o tipo de prioridade associado ao processo. A prioridade é informada no ato de criação do processo administrativo. Disponível no SEI a partir da **versão 5.0**.
 
 .. |Login_entre_parenteses| image:: _static/images/1-IO_icone_Login_entre_parenteses.png
    :align: middle
@@ -487,9 +489,13 @@ Para melhor compreender a organização das listas de processos gerados e recebi
 
 .. |controle_prazo_azul| image:: _static/images/1-IO_icone__controle_prazo_concluido.png
    :align: middle
-   :width: 35
+   :width: 40
 
 .. |controle_prazo_vermelho| image:: _static/images/1-IO_icone__controle_prazo_atrasado.png
+   :align: middle
+   :width: 40
+
+.. |Processo_prioritario| image:: _static/images/1-IO_Processo_prioritario.png
    :align: middle
    :width: 40
 
