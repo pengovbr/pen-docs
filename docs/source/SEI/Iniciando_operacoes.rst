@@ -495,7 +495,7 @@ Para melhor compreender a organização das listas de processos gerados e recebi
    :align: middle
    :width: 40
 
-.. |Processo_prioritario| image:: _static/images/1-IO_Processo_prioritario.png
+.. |Processo_prioritario| image:: _static/images/1-IO_ProcessoPrioritario.png
    :align: middle
    :width: 40
 
