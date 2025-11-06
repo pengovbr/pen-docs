@@ -628,24 +628,29 @@ Outro ponto interessante a destacar aqui é que o SEI facilita copiar o número 
 
 .. figure:: _static/images/1-IO_tela_arvore_de_processos_NUP.png
 
-As opções para cópia do número do processo são:
-* **🅃 número do processo**: copia o número do processo em texto plano, sem formatação.
-* **🅃 número do processo (tipo de processo)**: copia o número e o tipo do processo em texto plano, sem formatação.
-* **🄴 número do processo**: copia o número do processo formatado para utilização no Editor de textos do SEI, para referenciamento (acesso ao processo com um clique).
-* **🄴 número do processo (tipo de processo)**: copia o número e o tipo do processo formatado para utilização no Editor de textos do SEI, para referenciamento (acesso ao processo com um clique).
-* **🄻 Link para acesso direto**: Gera um link que permite acesso ao processo, para usuários já autenticados. Para usuários não autenticados, será preciso fazer login no SEI para acessar o processo.
+As opções para cópia do número do processo são:  
+* **🅃 número do processo**: copia o número do processo em texto plano, sem formatação.  
+* **🅃 número do processo (tipo de processo)**: copia o número e o tipo do processo em texto plano, sem formatação.  
+* **🄴 número do processo**: copia o número do processo formatado para utilização no Editor de textos do SEI, para referenciamento (acesso ao processo com um clique).  
+* **🄴 número do processo (tipo de processo)**: copia o número e o tipo do processo formatado para utilização no Editor de textos do SEI, para referenciamento (acesso ao processo com um clique).  
+* **🄻 Link para acesso direto**: Gera um link que permite acesso ao processo, para usuários já autenticados. Para usuários não autenticados, será preciso fazer login no SEI para acessar o processo.  
 
 
 Tela do Documento
 +++++++++++++++++
 
-Ao clicar sobre um documento na árvore do processo, ele recebe uma marcação em azul enfatizando o item selecionado.
+Ao clicar sobre um documento na Árvore de Documentos do Processo, o documento selecionado fica destacado em azul.
 
 .. figure:: _static/images/1-IO_tela_do_documento.png
 
-À direita, são mostrados todos os ícones de operações possíveis para documentos e, logo abaixo, é apresentado o corpo do documento.
+À direita, são mostrados todos os ícones de operações possíveis para documentos e, abaixo deles, é exibido o teor do documento.
 
-Alguns desses ícones são os mesmos apresentados na tela do processo, já detalhados no tópico anterior. As demais funcionalidades disponíveis são as seguintes:
+Alguns desses ícones são os mesmos apresentados na tela do processo, já detalhados no tópico anterior. Em alguns casos, o comportamento é idêntico (o ícone foi apenas repetido para possibilitar acesso mais ágil ao usuário), mas em outros, há pequenas variações de comportamento, que abordamos abaixo:
+
+
+
+
+As demais funcionalidades disponíveis são as seguintes:
 
 
 .. list-table::
