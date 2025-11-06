@@ -506,7 +506,7 @@ Ao clicar sobre o número de um processo na tela Controle de Processos, o usuár
 
 .. figure:: _static/images/1-IO_tela_do_processo.png
 
-O lado esquerdo da tela mostra o número do processo e a relação de documentos organizados cronologicamente por data e hora de geração – é a chamada **“Árvore do Processo”**. Logo abaixo da árvore, é exibida a funcionalidade **“Consultar Andamento”** e, em seguida, são mostrados os **Processos Relacionados**, quando houver. 
+O lado esquerdo da tela mostra o número do processo e a relação de documentos organizados cronologicamente por data e hora de geração – é a chamada **“Árvore de documentos do Processo”**. Logo abaixo da árvore, é exibida a funcionalidade **“Consultar Andamento”** e, em seguida, são mostrados os **Processos Relacionados**, quando houver. 
 
 À direita da tela são exibidos os ícones de operações possíveis para o processo e, logo abaixo, as unidades nas quais o processo está aberto.
 
@@ -549,7 +549,7 @@ Alguns desses ícones são os mesmos apresentados na tela Controle de Processos,
    - * |Controle_de_Processos|
      * **Controle de Processos:** permite que o usuário retorne à tela de controle de processos.
    - * |Pesquisar_no_Processo|
-     * **Pesquisar no Processo:** Permite que o usuário pesquise por termos apenas nos documentos do processo sendo visualizado.
+     * **Pesquisar no Processo:** Permite que o usuário realizar uma pesquisa com resultados limitados ao que consta nos documentos do processo sendo visualizado.
 
 
 .. |Iniciar_processo_relacionado| image:: _static/images/1-IO_icone__iniciar_processo_relacionado.png
@@ -613,21 +613,27 @@ Alguns desses ícones são os mesmos apresentados na tela Controle de Processos,
    :width: 50
 
 
-Árvore de Processos
+Árvore de Documentos do Processo
 -------------------
 
-Todos os documentos do processo são organizados por ordem de inclusão, na vertical, em um modo de visualização denominado **“Árvore de Documentos do Processo”**.
+Como dito anteriormente, todos os documentos do processo são organizados por ordem de inclusão em uma lista vertical, denominada **“Árvore de Documentos do Processo”**.
 
 .. figure:: _static/images/1-IO_tela_arvore_de_processos.png
 
-Processos que, por sua natureza, comportem grande volume de documentos apresentam seus conteúdos aglutinados em pastas, de modo que sempre fiquem visíveis os últimos documentos inseridos. Essa aglutinação não pode ser confundida com “Volume de Processo”, que é típico de processos em suporte físico, não existente em processo eletrônico.
+Como forma de otimizar a visualização da árvore, o SEI organiza a visualização de processos que possuem muitos documentos em **pastas** em formato "sanfona" (clique para expandir, clique novamente para condensar), habitualmente configuradas para juntar documentos em grupos de 20 (vinte), valor que pode ser parametrizado pela administração local do sistema. 
 
-O SEI traz facilidades para cópia do Número Único de Protocolo (NUP). Para isso, deve-se clicar no ícone ao lado do número do processo.
+Mas então o SEI criou subpastas no processo? **Não.** Trata-se apenas de uma ferramenta para agilizar o carregamento dos componentes digitais, sendo que, por padrão, são carregados primeiro os documentos mais recentes, onde normalmente constam as providências imediatas a serem adotadas no âmbito do processo, e os demais, conforme se expande a "pasta" em que se encontram. Esta organização não deve ser confundida com os “Volumes de Processo”, típicos de processos em suporte físico e que não existem no âmbito do processo administrativo eletrônico.
 
-Será possível copiar o número do processo, o número do processo acompanhado do seu assunto ou o seu link de acesso.
+Outro ponto interessante a destacar aqui é que o SEI facilita copiar o número do processo (o mesmo vale para documentos). Para isso, basta clicar no ícone do processo, ao lado de seu número, como demonstrado na figura abaixo:
 
 .. figure:: _static/images/1-IO_tela_arvore_de_processos_NUP.png
 
+As opções para cópia do número do processo são:
+* **🅃 número do processo**: copia o número do processo em texto plano, sem formatação.
+* **🅃 número do processo (tipo de processo)**: copia o número e o tipo do processo em texto plano, sem formatação.
+* **🄴 número do processo**: copia o número do processo formatado para utilização no Editor de textos do SEI, para referenciamento (acesso ao processo com um clique).
+* **🄴 número do processo (tipo de processo)**: copia o número e o tipo do processo formatado para utilização no Editor de textos do SEI, para referenciamento (acesso ao processo com um clique).
+* **🄻 Link para acesso direto**: Gera um link que permite acesso ao processo, para usuários já autenticados. Para usuários não autenticados, será preciso fazer login no SEI para acessar o processo.
 
 
 Tela do Documento
