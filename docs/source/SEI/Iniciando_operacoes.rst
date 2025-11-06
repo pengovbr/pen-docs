@@ -644,11 +644,25 @@ Ao clicar sobre um documento na Árvore de Documentos do Processo, o documento s
 
 .. figure:: _static/images/1-IO_tela_do_documento.png
 
-À direita, são mostrados todos os ícones de operações possíveis para documentos e, abaixo deles, é exibido o teor do documento.
+À direita, são mostrados todos os ícones de operações possíveis para documentos e, abaixo deles, é exibido o teor do documento selecionado.
 
 Alguns desses ícones são os mesmos apresentados na tela do processo, já detalhados nos tópicos anteriores. Em alguns casos, o comportamento é idêntico (o ícone foi apenas repetido para possibilitar acesso mais ágil ao usuário), mas em outros, há pequenas variações de comportamento, que abordamos abaixo:
 
+.. list-table::
+   :header-rows: 1
+   :widths: 5 35
 
+
+   - * Ícone
+     * Descrição
+   - * |Consultar_Alterar_processo|
+     * **Consultar/Alterar Documento:** permite consultar ou alterar os dados cadastrais - ou metadados - do documento, como o Tipo do Documento (para documentos externos), sua descrição, Nome e número na árvore, interessados, destinatário (quando houver), observações e seu nível de acesso.
+   - * |Incluir_em_bloco|
+     * **Incluir em bloco de assinatura:** permite que um usuário de outra unidade assine o documento. Para isso, ele deve ser incluído em um *Bloco de Assinatura* a ser disponibilizado para a outra unidade, para ser revisado, editado e/ou assinado. A definição da unidade para qual cada bloco deve ser disponibilizado é feita na tela Blocos > Assinatura do Menu Principal, na criação ou alteração do bloco.
+   - * |Gerar_arquivo_PDF_do_processo|
+     * **Gerar arquivo PDF do documento:** permite gerar um arquivo no formato .PDF, com o documento selecionado.
+   - * |Comentarios| 
+     * **Comentários:** permite a inclusão de comentários no documento. Estes comentários ficam visíveis para usuários de todas as unidades que tiverem acesso ao documento. Os comentários do documento podem ser visualizados a partir da tela correspondente, acessível por meio de ícone junto ao número do documento na árvore, ou junto aos comentários referentes ao processo, ao se clicar na opção "Ver Todos" na tela de exibição dos comentários do processo.
 
 
 
@@ -662,14 +676,12 @@ As demais funcionalidades disponíveis são as seguintes:
 
    - * Ícone
      * Descrição
-   - * |Consultar_Alterar_documento|
-     * **Consultar/Alterar documento:** permite consultar ou alterar os dados de cadastro do documento (descrição, interessados, destinatário, nível de acesso), com exceção da data de produção e do número do documento.
    - * |Adicionar_aos_favoritos| 
      * **Adicionar aos favoritos:** permite que o usuário defina o documento como modelo, aproveitando seu formato e conteúdo na produção de novos documentos. 
    - * |Imprimir_web| 
      * **Imprimir web**: permite imprimir um documento. Essa funcionalidade está disponível apenas para documentos produzidos no editor de texto do sistema.
    - * |Consultar_assinaturas| 
-     * **Consultar assinaturas:** permite consultar as assinaturas de autenticação efetuadas no documento externo digitalizado e inserido no SEI.
+     * **Consultar assinaturas:** permite consultar as autenticações efetuadas nos documentos externo digitalizado e inserido no SEI.
 
 .. |Consultar_Alterar_documento| image:: _static/images/1-IO_icone__consultar_alterar_documento.png
    :align: middle
