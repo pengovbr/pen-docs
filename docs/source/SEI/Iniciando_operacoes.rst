@@ -520,10 +520,14 @@ Alguns desses ícones são os mesmos apresentados na tela Controle de Processos,
 
    - * Ícone
      * Descrição
+   - * |Incluir_documento| 
+     * **Incluir documento:** permite incluir um novo documento no processo, seja este interno (produzido no editor de textos do SEI) ou externo (carregado por meio de upload).
    - * |Iniciar_processo_relacionado| 
      * **Iniciar processo relacionado:** permite iniciar um novo processo relacionado ao processo em que o usuário está trabalhando no momento. Processos relacionados não têm qualquer dependência um do outro, mas podem ser facilmente acessados a partir da lista abaixo da árvore do Processo.
    - * |Consultar_Alterar_processo|
      * **Consultar/Alterar processo:** permite consultar ou alterar os dados cadastrais - ou metadados - do processo (descrição, interessados, destinatário, nível de acesso). **Não podem ser alterados** a data de autuação do processo e seu número, se gerado automaticamente pelo sistema.
+   - * |Acompanhamento_especial|
+     * **Acompanhamento especial:** possibilita ao usuário salvar o processo em acompanhamento especial, uma lista que possibilita acesso para acompanhamento posterior, sem a necessidade de mantê-lo aberto em sua unidade. A lista é compartilhada por todos os usuários da unidade e pode ser organizada em grupos. Um processo pode ser incluído em mais de um grupo de acompanhamento especial.
    - * |Ciencia|
      * **Ciência:** permite o registro de ciência no processo, dispensando a necessidade de se produzir um documento para esse fim, sendo permitido ao usuário registrar ciência de um processo uma vez por dia. Também é possível fazê-lo em documentos específicos do processo. Ao receber a primeira ciência, um ícone equivalente passa a ser exibido ao lado do número do processo, permitindo a visualização das ciências já informadas em uma tabela, que vai recebendo novas linhas conforme outros usuários também manifestam ciência.
    - * |Favoritos|
@@ -640,13 +644,13 @@ As opções para cópia do número do processo são:
 Tela do Documento
 +++++++++++++++++
 
-Ao clicar sobre um documento na Árvore de Documentos do Processo, o documento selecionado fica destacado em azul.
+No SEI, os documentos são divididos em **internos**, que são aqueles gerados no próprio sistema por meio do editor de textos nativo, e **externos**, que são aqueles documentos produzidos fora do sistema e incluídos por meio de upload. Mais detalhes podem ser conferidos no capítulo sobre `Operações Básicas com Documentos <https://manuais.processoeletronico.gov.br/pt-br/homologacao/SEI/Operacoes_basicas_com_documentos.html>`__ deste manual.
 
 .. figure:: _static/images/1-IO_tela_do_documento.png
 
-À direita, são mostrados todos os ícones de operações possíveis para documentos e, abaixo deles, é exibido o teor do documento selecionado.
+Ao se clicar sobre um documento na árvore do processo, ele recebe uma marcação em azul, destacando-o dos demais. Do lado direito da tela, na parte superior, são mostrados todos os ícones de operações possíveis para documentos e, logo abaixo, é apresentado o corpo do documento.
 
-Alguns desses ícones são os mesmos apresentados na tela do processo, já detalhados nos tópicos anteriores. Em alguns casos, o comportamento é idêntico (o ícone foi apenas repetido para possibilitar acesso mais ágil ao usuário), mas em outros, há pequenas variações de comportamento, que abordamos abaixo:
+As funcionalidades variam de acordo com a natureza do documento - se *interno* ou *externo* - e se o documento já recebeu assinatura ou autenticação. Nos documentos internos não assinados, são exibidos os seguintes ícones:
 
 .. list-table::
    :header-rows: 1
@@ -657,8 +661,10 @@ Alguns desses ícones são os mesmos apresentados na tela do processo, já detal
      * Descrição
    - * |Consultar_Alterar_processo|
      * **Consultar/Alterar Documento:** permite consultar ou alterar os dados cadastrais - ou metadados - do documento, como o Tipo do Documento (para documentos externos), sua descrição, Nome e número na árvore, interessados, destinatário (quando houver), observações e seu nível de acesso.
+   - * |Ciencia|
+     * **Ciência:** permite o registro de ciência no documento, dispensando a necessidade de se produzir um novo documento para esse fim, sendo permitido ao usuário registrar ciência de um documento uma vez por dia. Ao receber a primeira ciência, um ícone equivalente passa a ser exibido ao lado do número do documento e também ao lado do número do processo, permitindo a visualização das ciências já informadas em uma tabela, que vai recebendo novas linhas conforme outros usuários também manifestam ciência.
    - * |Incluir_em_bloco|
-     * **Incluir em bloco de assinatura:** permite que um usuário de outra unidade assine o documento. Para isso, ele deve ser incluído em um *Bloco de Assinatura* a ser disponibilizado para a outra unidade, para ser revisado, editado e/ou assinado. A definição da unidade para qual cada bloco deve ser disponibilizado é feita na tela Blocos > Assinatura do Menu Principal, na criação ou alteração do bloco.
+     * **Incluir em bloco de assinatura:** permite que um usuário de outra unidade assine o documento. Para isso, ele deve ser incluído em um *Bloco de Assinatura* a ser disponibilizado para a outra unidade, para ser revisado, editado e/ou assinado. A definição da unidade para qual cada bloco deve ser disponibilizado é feita na tela ``Blocos`` > ``Assinatura`` do Menu Principal, na criação ou alteração do bloco.
    - * |Gerar_arquivo_PDF_do_processo|
      * **Gerar arquivo PDF do documento:** permite gerar um arquivo no formato .PDF, com o documento selecionado.
    - * |Comentarios| 
