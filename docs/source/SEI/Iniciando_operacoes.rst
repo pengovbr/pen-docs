@@ -520,8 +520,8 @@ Alguns desses ícones são os mesmos apresentados na tela Controle de Processos,
 
    - * Ícone
      * Descrição
-   - * |Incluir_documento| 
-     * **Incluir documento:** permite incluir um novo documento no processo, seja este interno (produzido no editor de textos do SEI) ou externo (carregado por meio de upload).
+   - * |Incluir_documento|
+     * **Incluir documento:** permite incluir um novo documento no processo, por meio de upload ou do editor de textos do SEI, permitindo gerar um documento em branco, a partir de texto padrão ou usando outro documento como modelo (podendo inclusive ser usado um documento modelo salvo previamente).
    - * |Iniciar_processo_relacionado| 
      * **Iniciar processo relacionado:** permite iniciar um novo processo relacionado ao processo em que o usuário está trabalhando no momento. Processos relacionados não têm qualquer dependência um do outro, mas podem ser facilmente acessados a partir da lista abaixo da árvore do Processo.
    - * |Consultar_Alterar_processo|
@@ -661,6 +661,8 @@ As funcionalidades variam de acordo com a natureza do documento - se *interno* o
 
    - * Ícone
      * Descrição
+   - * |Incluir_documento|
+     * **Incluir documento:** permite incluir um novo documento no processo, por meio de upload ou do editor de textos do SEI, permitindo gerar um documento em branco, a partir de texto padrão ou usando outro documento como modelo (podendo inclusive ser usado um documento modelo salvo previamente).
    - * |Consultar_Alterar_processo|
      * **Consultar/Alterar Documento:** permite consultar ou alterar os dados cadastrais - ou metadados - do documento, como o Tipo do Documento (para documentos externos), sua descrição, Nome e número na árvore, interessados, destinatário (quando houver), observações e seu nível de acesso.
    - * |Ciencia|
