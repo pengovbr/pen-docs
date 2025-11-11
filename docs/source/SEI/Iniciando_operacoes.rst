@@ -279,7 +279,7 @@ Abaixo, estão descritas as diversas funcionalidades da barra de ícones, que pe
    - * |enviar_processo|
      * **Enviar processo:** permite tramitar processo(s) para outra unidade. Conclui o processo na unidade remetente - a menos que, no momento do envio, o usuário assinale a opção “Manter o processo aberto na unidade atual”. Se concluído, o processo desaparecerá da tela “Controle de Processos”, mas poderá ser recuperado na Pesquisa ou Acompanhamento Especial (quando previamente incluído).
    - * |atualizar_andamento| 
-     * **Atualizar andamento:** permite acrescentar manualmente uma informação no registro de andamento do(s) processo(s) selecionado(s). *Atenção*: Informações incluídas no andamento de um processo não podem ser removidas.
+     * **Atualizar andamento:** permite acrescentar manualmente uma informação no registro de andamento do(s) processo(s) selecionado(s). *Atenção: Informações incluídas no andamento de um processo não podem ser removidas*.
    - * |Atribuição_de_processos|
      * **Atribuição de processos:** permite associar um (ou mais) processo(s) a um usuário da unidade, atribuindo-lhe a responsabilidade pelas tratativas dos autos. Essa informação não fica disponível para outras unidades que, eventualmente, consultarem o processo, sendo uma ferramenta de organização interna da unidade, com a finalidade de distribuição de tarefas.
    - * |Incluir_em_bloco|
@@ -350,7 +350,7 @@ Os Filtros disponíveis na tela Controle de Processos, que ficam logo abaixo da 
    :header-rows: 1
    :widths: 15 35
 
-   - * Ícones
+   - * Filtro
      * Descrição
    - * *Visualização detalhada*
      * Possibilita uma visualização mais detalhada dos processos na tela. O usuário poderá configurar essa opção clicando no link “Visualização detalhada” e, em seguida, no link “Configurar nível de detalhe”.
@@ -364,7 +364,11 @@ Os Filtros disponíveis na tela Controle de Processos, que ficam logo abaixo da 
      * Exibe os tipos de processos abertos na unidade e a quantidade de processos de cada tipo. Para acessar os processos, basta clicar no número correspondente à quantidade de cada tipo, na coluna Processos.
 
 
-Para melhor compreender a organização das listas de processos gerados e recebidos na tela Controle de Processos, é recomendável conhecer a organização das cores e dos elementos em tela. De forma resumida, os processos ficam divididos entre aqueles que foram remetidos por outras unidades e aqueles que foram gerados na própria unidade. Além disso, é possível identificar o Tipo e especificação de cada processo ao se passar o ponteiro do mouse por cima do número do processo, além de outros detalhes. Veja a descrição de cada um deles a seguir:
+Para melhor compreender a organização das listas de processos gerados e recebidos na tela Controle de Processos, é recomendável conhecer a **organização das cores e dos elementos** em tela. 
+
+De forma resumida, os processos ficam divididos entre aqueles que foram remetidos por outras unidades e aqueles que foram gerados na própria unidade. 
+
+Além disso, é possível identificar o Tipo e especificação de cada processo ao se passar o ponteiro do mouse por cima do número do processo, além de outros detalhes. Veja a descrição de cada um deles a seguir:
 
 .. list-table::
    :header-rows: 1
@@ -373,7 +377,7 @@ Para melhor compreender a organização das listas de processos gerados e recebi
    - * Ícones/Simbologias
      * Descrição
    - * |Login_entre_parenteses|
-     * **Login entre parênteses**: indica o usuário a quem o processo foi atribuído na unidade. Posicionar o ponteiro do mouse sobre o login exibirá a informação "Atribuído para [Nome completo do Usuário].
+     * **Login entre parênteses**: indica o usuário a quem o processo foi atribuído na unidade. Posicionar o ponteiro do mouse sobre o login exibirá a informação "Atribuído para [Nome completo do Usuário]".
    - * |Processo_numero_preto|
      * **Processo com número em preto**: indica que este processo já foi acessado por algum usuário da unidade. Posicionar o ponteiro do mouse sobre o número exibirá o Tipo de Processo e sua especificação.
    - * |Processo_núumero_vermelho|
@@ -618,7 +622,7 @@ Alguns desses ícones são os mesmos apresentados na tela Controle de Processos,
 
 
 Árvore de Documentos do Processo
--------------------
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 Como dito anteriormente, todos os documentos do processo são organizados por ordem de inclusão em uma lista vertical, denominada **“Árvore de Documentos do Processo”**.
 
@@ -626,19 +630,21 @@ Como dito anteriormente, todos os documentos do processo são organizados por or
 
 Como forma de otimizar a visualização da árvore, o SEI organiza a visualização de processos que possuem muitos documentos em **pastas** em formato "sanfona" (clique para expandir, clique novamente para condensar), habitualmente configuradas para juntar documentos em grupos de 20 (vinte), valor que pode ser parametrizado pela administração local do sistema. 
 
-Mas então o SEI criou subpastas no processo? **Não.** Trata-se apenas de uma ferramenta para agilizar o carregamento dos componentes digitais, sendo que, por padrão, são carregados primeiro os documentos mais recentes, onde normalmente constam as providências imediatas a serem adotadas no âmbito do processo, e os demais, conforme se expande a "pasta" em que se encontram. Esta organização não deve ser confundida com os “Volumes de Processo”, típicos de processos em suporte físico e que não existem no âmbito do processo administrativo eletrônico.
+.. admonition:: Saiba Mais
 
-Outro ponto interessante a destacar aqui é que o SEI facilita copiar o número do processo (o mesmo vale para documentos). Para isso, basta clicar no ícone do processo, ao lado de seu número, como demonstrado na figura abaixo:
+Então o SEI criou subpastas no processo? **Não.** Trata-se apenas de uma ferramenta para agilizar o carregamento dos componentes digitais, sendo que, por padrão, são carregados primeiro os documentos mais recentes, onde normalmente constam as providências imediatas a serem adotadas no âmbito do processo, e os demais, conforme se expande a "pasta" em que se encontram. Esta organização não deve ser confundida com os “Volumes de Processo”, típicos de processos em suporte físico e que não existem no âmbito do processo administrativo eletrônico.
+
+Outro ponto interessante a destacar aqui é que o SEI facilita **copiar o número do processo** (o mesmo vale para documentos). Para isso, basta clicar no ícone do processo, ao lado de seu número, como demonstrado na figura abaixo:
 
 .. figure:: _static/images/1-IO_tela_arvore_de_processos_NUP.png
 
 As opções para cópia do número do processo são:  
 
-* **🅃 número do processo**: copia o número do processo em texto plano, sem formatação.  
-* **🅃 número do processo (tipo de processo)**: copia o número e o tipo do processo em texto plano, sem formatação.  
-* **🄴 número do processo**: copia o número do processo formatado para utilização no Editor de textos do SEI, para referenciamento (acesso ao processo com um clique).  
-* **🄴 número do processo (tipo de processo)**: copia o número e o tipo do processo formatado para utilização no Editor de textos do SEI, para referenciamento (acesso ao processo com um clique).  
-* **🄻 Link para acesso direto**: Gera um link que permite acesso ao processo, para usuários já autenticados. Para usuários não autenticados, será preciso fazer login no SEI para acessar o processo.  
+* 🅃 **número do processo**: copia o número do processo em texto plano, sem formatação.  
+* 🅃 **número do processo (tipo de processo)**: copia o número e o tipo do processo em texto plano, sem formatação.  
+* 🄴 **número do processo**: copia o número do processo formatado para utilização no Editor de textos do SEI, para referenciamento (acesso ao processo com um clique).  
+* 🄴 **número do processo (tipo de processo)**: copia o número e o tipo do processo formatado para utilização no Editor de textos do SEI, para referenciamento (acesso ao processo com um clique).  
+* 🄻 **Link para acesso direto**: Gera um link que permite acesso ao processo, para usuários já autenticados. Para usuários não autenticados, será preciso fazer login no SEI para acessar o processo.  
 
 
 Tela do Documento
