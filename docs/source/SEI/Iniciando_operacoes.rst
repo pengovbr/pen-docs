@@ -499,10 +499,6 @@ Além disso, é possível identificar o Tipo e especificação de cada processo 
    :align: middle
    :width: 40
 
-.. |Processo_prioritario| image:: _static/images/1-IO_ProcessoPrioritario.png
-   :align: middle
-   :width: 40
-
 Tela do Processo
 ++++++++++++++++
 
