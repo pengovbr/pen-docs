@@ -13,7 +13,8 @@ Para possibilitar a integração via webservice do Protocolo.GOV.BR com o SPE de
 
 .. important::
 
-Atenção!
+**Atenção!** 
+
 É importante destacar que os procedimentos e exemplos aqui indicados tomam como referência o funcionamento do Sistema Eletrônico de Informações (SEI), cabendo aos órgãos e entidades que utilizam outros SPEs desenvolver e documentar a integração ao Protocolo.GOV.BR.
 
 
@@ -62,6 +63,6 @@ Para cadastrar as operações, clique em “Novo” e preencha os campos conform
 
 .. important:: 
 
-Atenção!
+**Atenção!**
 
 Ao se selecionar as operações “Consultar Documento” e “Incluir Documento”, o sistema exibirá um novo campo, denominado “Tipo de Documento” no qual também deve ser selecionada a opção “Todos”.
