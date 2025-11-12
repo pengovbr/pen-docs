@@ -1,8 +1,7 @@
-Manual Técnico Operacional do Protocolo GOV.BR para Sydle
-=========================================================
-
 Solicitação de Adesão e Procedimentos Iniciais para a Implantação
------------------------------------------------------------------
+=================================================================
+
+
 
 Para iniciar a implantação do Protocolo.GOV.BR, o órgão ou entidade deve enviar ofício ao Ministério da Gestão da Inovação, conforme orientações e modelos disponíveis no Portal do Processo Eletrônico Nacional, no endereço www.gov.br/pen. Esse ofício deve conter a indicação dos pontos focais que serão responsáveis por todo o contato com a equipe das Secretarias de Gestão (SEGES) e de Governo Digital (SGD) durante a implantação.
 
