@@ -14,7 +14,7 @@ O acesso ao Portal de Administração do Tramita.GOV.BR é feito pelo endereço 
 
 **Somente após o cumprimento dos requisitos mínimos descritos nos capítulos anteriores** e validação dos mesmos pela equipe técnica do PEN, será autorizado o acesso ao **ambiente de Produção**, sendo que nesse ambiente, após a realização das configurações no portal do Tramita.GOV.BR, **devem ser realizados novamente TODOS  os  requisitos mínimos**.
 
-**Em produção**, os processos de testes de que trata o Capítulo `Acesso ao Ambiente de Produção <https://manuais.processoeletronico.gov.br/pt-br/latest/TRAMITA.GOV.BR/MANUAL_TECNICO_OPERACIONAL/ACESSO_AO_AMBIENTE_DE_PRODUCAO.html?highlight=defini%C3%A7%C3%A3o%20dos%20status#acesso-ao-ambiente-de-producao>`_ devem ser enviados para a unidade “Divisão de Gestão de Sistemas de Documentação e Informação – DISIS”, do Ministério da Gestão e da Inovação em Serviços Públicos.
+**Em produção**, os processos de testes de que trata o Capítulo `Acesso ao Ambiente de Produção <https://manuais.processoeletronico.gov.br/pt-br/latest/TRAMITA.GOV.BR/MANUAL_TECNICO_OPERACIONAL/ACESSO_AO_AMBIENTE_DE_PRODUCAO.html?highlight=defini%C3%A7%C3%A3o%20dos%20status#acesso-ao-ambiente-de-producao>`_ devem ser enviados para a unidade descrita na pergunta `8.4. Como um órgão é considerado implantado? <https://wiki.processoeletronico.gov.br/pt-br/latest/Tramita_GOV_BR/Perguntas_frequentes/Utiliza_Tramita_Observacoes_importantes.html#como-um-orgao-e-considerado-implantado>`_ do FAQ da plataforma.
 
 .. admonition:: Nota
 
