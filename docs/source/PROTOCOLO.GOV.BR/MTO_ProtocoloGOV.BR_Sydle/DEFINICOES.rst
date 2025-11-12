@@ -1,8 +1,6 @@
-Manual Técnico Operacional do Protocolo GOV.BR para Sydle
-=========================================================
-
 Definições
-----------
+==========
+
 
 I - documento: unidade de registro de informações, independentemente do formato, do suporte ou da natureza;
 
