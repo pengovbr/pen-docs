@@ -21,13 +21,17 @@ Para possibilitar a integração via webservice do Protocolo.GOV.BR com o SPE de
 Acesse o menu Administração > Sistemas > Novo
 Selecione o Órgão, cadastre a Sigla e o Nome do Sistema, no padrão de texto do exemplo abaixo (Protocolo.GOV.BR). Para finalizar e gravar as informações, clique em “Salvar”.
 
-  
+.. figure:: _static/images/01_Cadastrar_Novo_sistema.gif
+
+
 Cadastro do serviço
 +++++++++++++++++++
 
 Após o cadastro do Sistema é necessário cadastrar o Serviço para integrar o SPE ao Protocolo.GOV.BR.
 Acesse o menu Administração > Sistemas > Listar para localizar o sistema cadastrado na etapa anterior.
 Clique no ícone   (“Serviços”) da coluna Ações. Clique em “Novo”, preencha os campos e clique em “Salvar”.
+
+.. figure:: _static/images/01_Cadastrar_Novo_servico.gif
 
 
 Cadastro das operações
@@ -66,3 +70,5 @@ Para cadastrar as operações, clique em “Novo” e preencha os campos conform
 **Atenção!**
 
 Ao se selecionar as operações “Consultar Documento” e “Incluir Documento”, o sistema exibirá um novo campo, denominado “Tipo de Documento” no qual também deve ser selecionada a opção “Todos”.
+
+.. figure:: _static/images/01_Cadastrar_Operacoes.gif
