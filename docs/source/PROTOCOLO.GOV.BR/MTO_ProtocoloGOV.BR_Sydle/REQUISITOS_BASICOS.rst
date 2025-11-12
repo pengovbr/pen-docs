@@ -1,8 +1,6 @@
-Manual Técnico Operacional do Protocolo GOV.BR para Sydle
-=========================================================
-
 Requisitos Básicos
-------------------
+==================
+
   
 Para a utilização do Protocolo.GOV.BR, são requisitos básicos:
   
