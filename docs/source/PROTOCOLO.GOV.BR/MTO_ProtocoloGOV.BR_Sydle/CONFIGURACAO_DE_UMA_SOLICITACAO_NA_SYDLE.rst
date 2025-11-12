@@ -1,8 +1,5 @@
-Manual Técnico Operacional do Protocolo GOV.BR para Sydle
-=========================================================
-
 Configuração de uma solicitação na Sydle
-----------------------------------------  
+========================================
 
   
 Para realizar as configurações necessárias no Protocolo.GOV.BR, acesse o endereço eletrônico do Sistema Sydle que será fornecido pelo Ministério da Gestão e Inovação (MGI) e siga as etapas apresentadas a seguir.
