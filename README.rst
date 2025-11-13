@@ -1,6 +1,6 @@
-Manual online para usuários do SEI
+Manual online para usuários das soluções do PEN
 ==========================================
 
-Manual online em construção.
+Manuais online das principais soluções do Processo Eletrônico Nacional, com foco no usuário final e nas equipes gestoras.
 
-Link para documentação do usuário: https://manuais.processoeletronico.gov.br/
+Acesso em: https://manuais.processoeletronico.gov.br/
