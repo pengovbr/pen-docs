@@ -9,16 +9,16 @@ A seguir, são apresentadas as etapas de configuração do sistema de processo a
 Cadastro do Sistema
 +++++++++++++++++++
   
-Para possibilitar a integração via webservice do Protocolo.GOV.BR com o SPE de seu órgão/entidade, é necessário que o Administrador do Sistema inclua o Protocolo.GOV.BR no cadastro de sistemas do SPE, para que as devidas permissões sejam habilitadas.
+Para possibilitar a integração via webservice do Protocolo.GOV.BR com o SPE de seu órgão/entidade, é necessário que o **Administrador do Sistema** inclua o Protocolo.GOV.BR no cadastro de sistemas do SPE, para que as devidas permissões sejam habilitadas.
 
-.. important::
 
-**Atenção!** 
+  **Atenção!**  
 
-É importante destacar que os procedimentos e exemplos aqui indicados tomam como referência o funcionamento do Sistema Eletrônico de Informações (SEI), cabendo aos órgãos e entidades que utilizam outros SPEs desenvolver e documentar a integração ao Protocolo.GOV.BR.
+  É importante destacar que os procedimentos e exemplos aqui indicados tomam como referência o funcionamento do Sistema Eletrônico de Informações (SEI), cabendo aos órgãos e entidades que utilizam outros SPEs desenvolver e documentar a integração ao Protocolo.GOV.BR.
 
 
 Acesse o menu Administração > Sistemas > Novo
+
 Selecione o Órgão, cadastre a Sigla e o Nome do Sistema, no padrão de texto do exemplo abaixo (Protocolo.GOV.BR). Para finalizar e gravar as informações, clique em “Salvar”.
 
 .. figure:: _static/images/01_Cadastrar_Novo_sistema.gif
