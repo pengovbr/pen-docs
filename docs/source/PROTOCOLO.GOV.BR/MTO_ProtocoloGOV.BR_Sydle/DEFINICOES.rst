@@ -19,7 +19,7 @@ VI - **Processo Eletrônico Nacional - PEN:** infraestrutura pública de process
 
 VII - **Portal GOV.BR:** É um portal que reúne, em um só lugar, serviços para o cidadão e informações sobre a atuação do Governo Federal.
 
-VIII - ** Sistema de Processo Eletrônico - SPE:** sistemas de gerenciamento de processos administrativos e documentos avulsos em meio eletrônico utilizados pelos órgãos e entidades públicas, no exercício de suas atividades administrativas;
+VIII - **Sistema de Processo Eletrônico - SPE:** sistemas de gerenciamento de processos administrativos e documentos avulsos em meio eletrônico utilizados pelos órgãos e entidades públicas, no exercício de suas atividades administrativas;
 
 IX - **Sistema Eletrônico de Informações - SEI:** é a solução oficial do Governo Federal para produção e gestão de documentos e processos administrativos eletrônicos, desenvolvida pelo Tribunal Regional Federal da 4ª Região (TRF-4) e cedida gratuitamente para instituições públicas desde 2013, com o objetivo de promover a eficiência administrativa.
 
