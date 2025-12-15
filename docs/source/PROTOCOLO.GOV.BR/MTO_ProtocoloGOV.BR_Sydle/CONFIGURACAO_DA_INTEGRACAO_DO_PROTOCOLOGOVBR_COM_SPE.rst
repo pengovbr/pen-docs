@@ -13,11 +13,16 @@ Integração com o SPE
   
 Acesse o endereço https://gestao.servicos.gov.br/app/govBr/login e faça o login via gov.br.
 Com o menu lateral Protocolo GOV.BR selecionado, clique no ícone   da segunda coluna e, em seguida, na opção Criar web service.
-GIF
 
- 
+
+.. figure:: _static/images/01_Integração_SPE.gif
+
 Na coluna da direita, a tela “Parâmetro de método: Criar web service” será aberta. Preencha os campos:
-  
+
+.. figure:: _static/images/01_Integração_SPE01.png
+
+
+
 - **Órgão:** Nome do Órgão por extenso/(Sigla);
 
 - **Nome:** Nome do Órgão por extenso;
@@ -28,7 +33,10 @@ Na coluna da direita, a tela “Parâmetro de método: Criar web service” ser�
 
 - **Identificador do serviço:** Nome do serviço cadastrado no SPE ou chave de acesso do serviço. Para consultar o serviço, acesse o menu do SPE Administração > Sistemas > Listar. Após localizar o sistema clique no ícone “Serviços” do menu de Ações e, em seguida, na opção “Consultar Serviços”. Para gerar a chave de acesso, clique no ícone   da coluna ”ações” do serviço cadastrado.
 
- 
+
+
+
 Clique em “Validar webservice” e aguarde a mensagem de validação. Em seguida, clique em “Criar web service”. A conexão será confirmada através de uma mensagem exibida pelo sistema.
  
-GIF – Não ok: problemas com validação do Web Service
+
+.. figure:: _static/images/01_Integração_SPE02.png
