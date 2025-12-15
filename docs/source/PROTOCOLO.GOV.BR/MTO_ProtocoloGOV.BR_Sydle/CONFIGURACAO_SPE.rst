@@ -1,6 +1,3 @@
-Manual Técnico Operacional do Protocolo GOV.BR para Sydle
-=========================================================
-
 Configuração do Sistema de Processo Administrativo Eletrônico - SPE
 -------------------------------------------------------------------
 
