@@ -57,27 +57,42 @@ Parâmetros para integração com o SPE:
 
 **O solicitante poderá informar protocolo anterior?** Clique em **“Sim”** ou **“Não”** para definir se o solicitante poderá informar o número de um processo já existente.
 
-**Link de direcionamento para página de pesquisa de processos:** informe o por meio do qual o solicitante poderá realizar o acompanhamento dos processo gerado.
+**Link de direcionamento para página de pesquisa de processos:** informe o por meio do qual o solicitante poderá realizar o acompanhamento do processo gerado.
 
-**Atenção!**
+  **Atenção!**
 
-Fica a critério do órgão ou entidade decidir qual ferramenta de acompanhamento de processos irá disponibilizar. Alguns exemplos são o Módulo de Pesquisa Pública e o Protocolo Integrado.
+  Fica a critério do órgão ou entidade decidir qual ferramenta de acompanhamento de processos irá disponibilizar. Alguns exemplos são o Módulo de Pesquisa Pública e o Protocolo Integrado.
 
 
-GIF
+.. figure:: _static/images/01_Parametros_para_integracao_SPE.gif
 
 Documentação obrigatória:
 +++++++++++++++++++++++++
 
-Clique no ícone  e inclua os documentos de anexação obrigatória pelo solicitante. Neste campo, você deve cadastrar ao menos um tipo de documento. Informe o link de orientação sobre o documento, se houver, selecione as extensões de arquivo permitidas e informe o tamanho máximo do documento (MB).
+Clique no ícone |adicionar_docs| e inclua os documentos de anexação obrigatória pelo solicitante. Neste campo, você deve cadastrar ao menos um tipo de documento. Informe o link de orientação sobre o documento, se houver, selecione as extensões de arquivo permitidas e informe o tamanho máximo do documento (MB).
+
+.. |adicionar_docs| image:: _static/images/Icone_Cadastrar_tipo_de_solicitacao_Adicao.png
+   :align: middle
+   :width: 30
+
+
+.. figure:: _static/images/01_Parametros_para_integracao_SPE_doc-obrigatoria.gif
+
 
 Documentação opcional:
 ++++++++++++++++++++++
 
-Clique no ícone  e inclua os documentos de anexação opcional pelo solicitante. Informe o link de orientação sobre o documento, se houver, selecione as extensões de arquivo permitidas e informe o tamanho máximo do documento (MB).
+Clique no ícone |adicionar_docs| e inclua os documentos de anexação opcional pelo solicitante. Informe o link de orientação sobre o documento, se houver, selecione as extensões de arquivo permitidas e informe o tamanho máximo do documento (MB).
 
 Em seguida, defina se o solicitante poderá anexar documentos adicionais (de sua escolha) à solicitação. Ou seja, caso ele deseje incluir outros documentos, além dos cadastrados na solicitação.
-GIF
+
+
+.. figure:: _static/images/01_Parametros_para_integracao_SPE_doc-opcional.gif
+
+.. |adicionar_docs| image:: _static/images/Icone_Cadastrar_tipo_de_solicitacao_Adicao.png
+   :align: middle
+   :width: 30
+
 
 Configuração de informações adicionais:
 +++++++++++++++++++++++++++++++++++++++
