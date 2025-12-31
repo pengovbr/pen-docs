@@ -99,19 +99,26 @@ Configuração de informações adicionais:
 
 Nesta etapa, é possível definir se o solicitante deverá anexar procuração caso esteja protocolando em nome de terceiros, bem como se o solicitante pode inserir informação adicional que acredite ser pertinente para análise de sua solicitação. Caso opte por habilitar o campo para que solicitante possa incluir informações adicionais no formulário - visível para o atendente da triagem - marque a opção “SIM”. Caso seja marcado “NÃO” o campo não estará disponível no formulário do solicitante.
 
-GIF
+.. figure:: _static/images/01_Parametros_para_integracao_SPE_info_adic.gif
+
+
 
 Templates de notificações para o cidadão:
 +++++++++++++++++++++++++++++++++++++++++
 
 Esta é a última etapa a ser preenchida no cadastro de uma solicitação. Nela estão pré-configuradas mensagens de envio automático ao cidadão em cada etapa do processo: Abertura de solicitação, encerramento de solicitação pelo atendente, resulta e conclusão, solicitação de ajustes e upload para o SPE. As mensagens podem ser personalizadas de acordo com o que for definido pelo órgão.
 
-Clique no ícone   para concluir o cadastro de sua solicitação. Uma mensagem de confirmação será exibida no canto superior direito da tela.
+Clique no ícone |Icone_Check| para concluir o cadastro de sua solicitação. Uma mensagem de confirmação será exibida no canto superior direito da tela.
 
-GIF
+.. figure:: _static/images/01_Parametros_para_integracao_SPE_templates_notif.gif
 
-**Atenção:**
+.. |Icone_Check| image:: _static/images/Icone_Check.png
+   :align: middle
+   :width: 30
 
-As solicitações cadastradas pelo órgão ficarão visíveis na coluna do meio na tela do colaborador com perfil de configurador de solicitação. Para gerar o link da solicitação, basta clicar nela e, depois, no ícone  .
 
-GIF
+  **Atenção:**
+
+  As solicitações cadastradas pelo órgão ficarão visíveis na coluna do meio na tela do colaborador com perfil de configurador de solicitação. Para gerar o link da solicitação, basta clicar nela e, depois, no ícone  .
+
+  .. figure:: _static/images/01_Parametros_para_integracao_SPE_link.gif
