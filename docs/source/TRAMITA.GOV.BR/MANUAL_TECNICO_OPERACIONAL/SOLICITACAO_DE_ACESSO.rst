@@ -87,7 +87,7 @@ Durante o preenchimento dos dados do Gestor de Protocolo, é solicitado um Docum
    - * os órgãos dos Poderes Judiciário e Legislativo federais, o Tribunal de Contas da União, o Ministério Público da União e a Defensoria Pública da União
      * Art. 4º, II
      * Termo de Designação [3]_ [4]_ [5]_
-   - * os órgãos dos Poderes Judiciário e Legislativo federais, o Tribunal de Contas da União, o Ministério Público da União e a Defensoria Pública da União; 
+   - * as empresas públicas e sociedades de economia mista da União; 
      * Art. 4º, III 
      * Termo de Designação [3]_ [4]_ [5]_   
    - * os órgãos estaduais, distritais e municipais dos Poderes Executivo, Judiciário e Legislativo, os Tribunais de Contas dos Estados, do Distrito Federal e dos Municípios, os Ministérios Púbicos Estaduais e as Defensorias Públicas Estaduais ou do Distrito Federal
