@@ -1,11 +1,11 @@
-Configuração da Integração do PROTOCOLO.GOV.BR com o SPE
+Configuração da Integração do Protocolo GOV.BR com o SPE
 ========================================================
 
-Para realizar as configurações necessárias no Protocolo.GOV.BR, acesse o endereço eletrônico do Sistema Sydle que será fornecido pelo Ministério da Gestão e Inovação (MGI) e siga as etapas apresentadas a seguir.
+Para realizar as configurações necessárias no Protocolo GOV.BR, acesse o endereço eletrônico do Sistema Sydle que será fornecido pelo Ministério da Gestão e da Inovação em Serviços Públicos (MGI) e siga as etapas apresentadas a seguir.
 
   Atenção
 
-  Esta operação é executada por servidor/colaborador com o perfil **“Configurador de Integração”** no sistema Sydle. O detentor deste perfil é responsável por configurar, no Protocolo.GOV.BR, os parâmetros necessários à integração com o webservice do SPE. O órgão deve informar os colaboradores que devem receber o perfil durante o processo de adesão. 
+  Esta operação é executada por servidor/colaborador com o perfil **“Configurador de Integração”** no sistema Sydle. O detentor deste perfil é responsável por configurar, no Protocolo GOV.BR, os parâmetros necessários à integração com o webservice do SPE. O órgão deve informar os colaboradores que devem receber o perfil durante o processo de adesão. 
 
   
 Integração com o SPE
