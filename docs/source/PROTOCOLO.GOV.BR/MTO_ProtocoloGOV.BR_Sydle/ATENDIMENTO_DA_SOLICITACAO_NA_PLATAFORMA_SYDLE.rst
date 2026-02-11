@@ -1,7 +1,7 @@
 Atendimento da solicitação na plataforma Sydle
 ==============================================
 
-Para realizar o atendimento de uma solicitação no Protocolo.GOV.BR, acesse o endereço eletrônico do Sistema Sydle que será fornecido pelo Ministério da Gestão e Inovação (MGI) e siga as etapas apresentadas a seguir.
+Para realizar o atendimento de uma solicitação no Protocolo GOV.BR, acesse o endereço eletrônico do Sistema Sydle que será fornecido pelo Ministério da Gestão e da Inovação em Serviços Públicos (MGI) e siga as etapas apresentadas a seguir.
 
 
 **Atenção!**
