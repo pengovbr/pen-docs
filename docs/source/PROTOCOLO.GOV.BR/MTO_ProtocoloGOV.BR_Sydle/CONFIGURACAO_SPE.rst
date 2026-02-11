@@ -62,8 +62,6 @@ Localize o serviço cadastrado no passo Cadastro do Serviço e clique na opção
 Para cadastrar as operações, clique em “Novo” e preencha os campos conforme imagens a seguir. Em “Tipo de Operação”, deve ser selecionada a respectiva operação, conforme listado acima. Em “Unidade”, deve ser mantida a opção “Todas” e, em “Tipo de Processo”, a opção “Todos”. A cada nova operação incluída, é necessário clicar em “Salvar” para gravar as informações e repetir a ação.
 
 
-.. important:: 
-
   **Atenção!**
 
   Ao se selecionar as operações “Consultar Documento” e “Incluir Documento”, o sistema exibirá um novo campo, denominado “Tipo de Documento” no qual também deve ser selecionada a opção “Todos”.
