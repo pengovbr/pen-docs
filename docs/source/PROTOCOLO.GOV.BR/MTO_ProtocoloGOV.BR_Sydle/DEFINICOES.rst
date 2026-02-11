@@ -23,6 +23,6 @@ VIII - **Sistema de Processo Eletrônico - SPE:** sistemas de gerenciamento de p
 
 IX - **Sistema Eletrônico de Informações - SEI:** é a solução oficial do Governo Federal para produção e gestão de documentos e processos administrativos eletrônicos, desenvolvida pelo Tribunal Regional Federal da 4ª Região (TRF-4) e cedida gratuitamente para instituições públicas desde 2013, com o objetivo de promover a eficiência administrativa.
 
-X - **Tramita.GOV.BR:** plataforma digital de comunicação entre SPEs, integrante do PEN, disponibilizada e gerenciada pela Secretaria de Gestão do Ministério da Gestão e Inovação, destinado à tramitação de processos administrativos eletrônicos e/ou documentos avulsos, em meio eletrônico, entre os diversos SPEs existentes na administração pública; e
+X - **Tramita.GOV.BR:** plataforma digital de comunicação entre SPEs, integrante do PEN, disponibilizada e gerenciada pela Secretaria de Gestão do Ministério da Gestão e da Inovação em Serviços Públicos (SEGES/MGI), destinado à tramitação de processos administrativos eletrônicos e/ou documentos avulsos, em meio eletrônico, entre os diversos SPEs existentes na administração pública; e
 
-XI - **Usuário:** pessoa natural identificada que atua em nome próprio, como representante de pessoa física ou jurídica, ou como portador de documento, solicitação ou requerimento perante o Protocolo.GOV.BR.
+XI - **Usuário:** pessoa natural identificada que atua em nome próprio, como representante de pessoa física ou jurídica, ou como portador de documento, solicitação ou requerimento perante o Protocolo GOV.BR.
