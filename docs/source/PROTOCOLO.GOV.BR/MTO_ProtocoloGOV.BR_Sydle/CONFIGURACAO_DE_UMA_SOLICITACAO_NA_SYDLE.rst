@@ -2,7 +2,7 @@ Configuração de uma solicitação na Sydle
 ========================================
 
   
-Para realizar as configurações necessárias no Protocolo.GOV.BR, acesse o endereço eletrônico do Sistema Sydle que será fornecido pelo Ministério da Gestão e Inovação (MGI) e siga as etapas apresentadas a seguir.
+Para realizar as configurações necessárias no Protocolo GOV.BR, acesse o endereço eletrônico do Sistema Sydle que será fornecido pelo Ministério da Gestão e da Inovação em Serviços Públicos (MGI) e siga as etapas apresentadas a seguir.
 Atenção.
 
 Esta operação é executada por servidor/colaborador com o perfil “Configurador de Solicitação” no sistema Sydle. O detentor deste perfil é responsável por criar, editar, ativar e inativar as configurações de solicitações do órgão. O órgão deve informar os colaboradores que devem receber o perfil durante o processo de adesão.
@@ -18,7 +18,7 @@ Com o menu lateral Protocolo GOV.BR > Configuração de solicitação selecionad
  
 Na coluna da direita, a tela “Parâmetro de método: Cadastrar tipo de solicitação” será aberta. Clique em “Configuração de solicitação” e preencha/selecione os campos:
   
-**Nome:** Aqui, preencha o nome da solicitação, ou seja, como ela aparecerá para o solicitante quando do preenchimento do formulário, por exemplo: “Protocolar documento junto ao Ministério da Gestão e Inovação”;
+**Nome:** Aqui, preencha o nome da solicitação, ou seja, como ela aparecerá para o solicitante quando do preenchimento do formulário, por exemplo: “Protocolar documento junto ao Ministério da Gestão e da Inovação em Serviços Públicos (MGI)”;
 
 **Ativo:** Define se a solicitação ficará visível (ativa) ou invisível (inativa) para o solicitante;
 
@@ -30,11 +30,11 @@ Na coluna da direita, a tela “Parâmetro de método: Cadastrar tipo de solicit
 
 .. figure:: _static/images/01_Cadastrar_Tipo-de-Solicitacao01.gif 
 
-**Será realizada triagem pelo Protocolo?** Aqui, defina se será realizada a triagem pelo Protocolo clicando em “Sim” ou “Não”. Caso seja marcado com a opção “Sim”, as solicitações enviadas por meio do Protocolo.GOV.BR serão direcionadas para o ambiente de triagem do Sistema, sendo necessária a análise pelo setor de Protocolo antes do envio ao SPE, cuja equipe deve ser credenciada com o respectivo perfil de acesso.
+**Será realizada triagem pelo Protocolo?** Aqui, defina se será realizada a triagem pelo Protocolo clicando em “Sim” ou “Não”. Caso seja marcado com a opção “Sim”, as solicitações enviadas por meio do Protocolo GOV.BR serão direcionadas para o ambiente de triagem do Sistema, sendo necessária a análise pelo setor de Protocolo antes do envio ao SPE, cuja equipe deve ser credenciada com o respectivo perfil de acesso.
 
 Se você marcar “Sim”, será exibida a pergunta : “Será permitido envio da solicitação para o SPE?”. Clique em “Sim” ou “Não”;
 
-Se você marcar “Não”, a solicitação será enviada diretamente para o SPE do órgão ou entidade, sem a necessidade de análise por parte do setor de protocolo. Será exibida a pergunta : “Será permitido comunicação via módulo de Resposta? Marque a opção “SIM” caso deseje que a solicitação permaneça aberta no Protocolo.GOV.BR, aguardando o envio da resposta ao solicitante por meio do Módulo de Resposta do SEI instalado no SPE; marque a opção “Não”, caso deseje que a solicitação seja concluída e o Módulo de Resposta do SEI não seja ativado no SPE. Em ambos os casos os documentos recebidos são enviados para o SPE e o NUP gerado é informado ao solicitante por e-mail
+Se você marcar “Não”, a solicitação será enviada diretamente para o SPE do órgão ou entidade, sem a necessidade de análise por parte do setor de protocolo. Será exibida a pergunta : “Será permitido comunicação via módulo de Resposta? Marque a opção “SIM” caso deseje que a solicitação permaneça aberta no Protocolo GOV.BR, aguardando o envio da resposta ao solicitante por meio do Módulo de Resposta do SEI instalado no SPE; marque a opção “Não”, caso deseje que a solicitação seja concluída e o Módulo de Resposta do SEI não seja ativado no SPE. Em ambos os casos os documentos recebidos são enviados para o SPE e o NUP gerado é informado ao solicitante por e-mail
 
 Essa combinação de marcações das respostas das perguntas, oferece cinco cenários:
   
