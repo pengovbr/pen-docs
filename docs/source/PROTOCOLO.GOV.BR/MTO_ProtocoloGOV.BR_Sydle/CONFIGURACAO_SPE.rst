@@ -16,26 +16,26 @@ Para possibilitar a integração via webservice do Protocolo GOV.BR com o SPE de
 
 Acesse o menu Administração > Sistemas > Novo
 
-Selecione o Órgão, cadastre a Sigla e o Nome do Sistema, no padrão de texto do exemplo abaixo (Protocolo GOV.BR). Para finalizar e gravar as informações, clique em “Salvar”.
+Selecione o Órgão, cadastre a Sigla e o Nome do Sistema conforme exemplo abaixo (Protocolo GOV.BR). Para finalizar e gravar as informações, clique em “Salvar”.
 
 .. figure:: _static/images/01_Cadastrar_Novo_sistema.gif
 
 
-Cadastro do serviço
+Cadastro do Serviço
 +++++++++++++++++++
 
 Após o cadastro do Sistema é necessário cadastrar o Serviço para integrar o SPE ao Protocolo GOV.BR.
 Acesse o menu Administração > Sistemas > Listar para localizar o sistema cadastrado na etapa anterior.
-Clique no ícone   (“Serviços”) da coluna Ações. Clique em “Novo”, preencha os campos e clique em “Salvar”.
+Clique no ícone   “Serviços” da coluna "Ações". Clique em “Novo”, preencha os campos e clique em “Salvar”.
 
 .. figure:: _static/images/01_Cadastrar_Novo_servico.gif
 
 
-Cadastro das operações
+Cadastro das Operações
 ++++++++++++++++++++++
   
 Acesse o menu Administração > Sistemas > Listar. Em seguida, localize o sistema cadastrado no passo Cadastro do Sistema e clique na opção   (“Serviços”) da coluna ações para visualizar os serviços utilizados por esse sistema.
-Localize o serviço cadastrado no passo Cadastro do Serviço e clique na opção  (“Operações”), da coluna de Ações, para cadastrar as operações a serem utilizadas pelo Protocolo GOV.BR. São elas:
+Localize o serviço cadastrado no passo Cadastro do Serviço e clique na opção  “Operações”, da coluna de "Ações", para cadastrar as operações a serem utilizadas pelo Protocolo GOV.BR. São elas:
 
 1.	Gerar Processo;
 
@@ -57,15 +57,15 @@ Localize o serviço cadastrado no passo Cadastro do Serviço e clique na opção
 
 10.	Listar Extensões de Arquivo Permitidas.
 
-11.	Listar Unidades
+
 
 Para cadastrar as operações, clique em “Novo” e preencha os campos conforme imagens a seguir. Em “Tipo de Operação”, deve ser selecionada a respectiva operação, conforme listado acima. Em “Unidade”, deve ser mantida a opção “Todas” e, em “Tipo de Processo”, a opção “Todos”. A cada nova operação incluída, é necessário clicar em “Salvar” para gravar as informações e repetir a ação.
 
 
 .. important:: 
 
-**Atenção!**
+  **Atenção!**
 
-Ao se selecionar as operações “Consultar Documento” e “Incluir Documento”, o sistema exibirá um novo campo, denominado “Tipo de Documento” no qual também deve ser selecionada a opção “Todos”.
+  Ao se selecionar as operações “Consultar Documento” e “Incluir Documento”, o sistema exibirá um novo campo, denominado “Tipo de Documento” no qual também deve ser selecionada a opção “Todos”.
 
-.. figure:: _static/images/01_Cadastrar_Operacoes.gif
+  .. figure:: _static/images/01_Cadastrar_Operacoes.gif
