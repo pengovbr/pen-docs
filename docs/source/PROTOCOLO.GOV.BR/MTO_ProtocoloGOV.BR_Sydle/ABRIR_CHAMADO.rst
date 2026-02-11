@@ -1,7 +1,7 @@
 Abrir chamado
 =============
 
-Para comunicar erro, paralisação parcial ou total do Protocolo.GOV.BR, orienta-se a abertura de chamado, que poderá ser realizada de duas formas:
+Para comunicar erro, paralisação parcial ou total do Protocolo GOV.BR, orienta-se a abertura de chamado, que poderá ser realizada de duas formas:
 
 **- Na plataforma da Sydle:** 
 
