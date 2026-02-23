@@ -85,7 +85,7 @@ Clique no ícone |adicionar_docs| e inclua os documentos de anexação obrigató
    :width: 30
 
 
-.. figure:: _static/images/01_Parametros_para_integracao_SPE_doc-obrigatoria.gif
+.. figure:: _static/images/01_Parametros_para_integracao_SPE_doc-obrigatoria.gif 
 
 
 Documentação Opcional:
@@ -94,18 +94,21 @@ Documentação Opcional:
 Clique no ícone |adicionar_docs| e inclua os documentos de anexação opcional pelo solicitante. Informe o link de orientação sobre o documento, se houver, selecione as extensões de arquivo permitidas e informe o tamanho máximo do documento (MB).
 
 
+.. figure:: _static/images/01_Parametros_para_integracao_SPE_doc-opcional.gif 
+
+
 Documentação Adicional:
 ++++++++++++++++++++++
 
 Defina se o solicitante poderá anexar documentos adicionais à solicitação. Caso esta opção seja habilitada, o solicitante poderá inserir qualquer tipo de documento externo cadastrado no SPE do órgão. Caso deseje, defina o limite de tamanho máximo do documento (MB) complementar, bem como as extensões de arquivo permitidas.
 
 
-.. figure:: _static/images/01_Parametros_para_integracao_SPE_doc-opcional.gif
+.. figure:: _static/images/01_Parametros_para_integracao_SPE_doc-adicional.gif
 
 
   **Atenção!**
 
-  O limite máximo de anexos por solicitação deve ser de até 600 MB.
+  O limite máximo de anexos por solicitação deve ser de até 600 MB. 
 
 
 .. |adicionar_docs| image:: _static/images/Icone_Cadastrar_tipo_de_solicitacao_Adicao.png
@@ -118,6 +121,7 @@ Configuração de informações adicionais:
 
 Nesta etapa, é possível definir se o solicitante deverá anexar procuração caso esteja protocolando em nome de terceiros, bem como se o solicitante pode inserir informação adicional que acredite ser pertinente para análise de sua solicitação. Caso opte por habilitar o campo para que solicitante possa incluir informações adicionais no formulário - visível para o atendente da triagem - marque a opção “SIM”. Caso seja marcado “NÃO” o campo não estará disponível no formulário do solicitante.
 
+
 .. figure:: _static/images/01_Parametros_para_integracao_SPE_info_adic.gif
 
 
@@ -129,16 +133,18 @@ Esta é a última etapa a ser preenchida no cadastro de uma solicitação. Nela 
 
 Clique no ícone |Icone_Check| para concluir o cadastro de sua solicitação. Uma mensagem de confirmação será exibida no canto superior direito da tela.
 
-.. figure:: _static/images/01_Parametros_para_integracao_SPE_templates_notif.gif
-
-
 .. |Icone_Check| image:: _static/images/Icone_Check.png
    :align: middle
    :width: 30
 
 
+.. figure:: _static/images/01_Parametros_para_integracao_SPE_templates_notif.gif 
+  
+
   **Atenção:**
 
-  As solicitações cadastradas pelo órgão ficarão visíveis na coluna do meio na tela do colaborador com perfil de configurador de solicitação. Para gerar o link da solicitação, basta clicar nela e, depois, no ícone  .
+  As solicitações cadastradas pelo órgão ficarão visíveis na coluna do meio na tela do colaborador com perfil de configurador de solicitação. Para gerar o link da solicitação, basta clicar nela e, depois, no ícone  |Icone_Link-solicitacao|.
 
-  .. figure:: _static/images/01_Parametros_para_integracao_SPE_link.gif
+.. |Icone_Link-solicitacao| image:: _static/images/Icone_Link-solicitacao.png
+   :align: middle
+   :width: 30
