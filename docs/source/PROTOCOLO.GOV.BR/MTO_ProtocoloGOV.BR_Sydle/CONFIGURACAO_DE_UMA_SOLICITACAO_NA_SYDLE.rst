@@ -108,10 +108,9 @@ Defina se o solicitante poderá anexar documentos adicionais à solicitação. C
 
 .. figure:: _static/images/01_Parametros_para_integracao_SPE_doc-adicional.gif
 
-
   **Atenção!**
 
-  O limite máximo de anexos por solicitação deve ser de até 600 MB. 
+  O limite máximo de anexos por solicitação deve ser de até 600 MB.
 
 
 Configuração de informações adicionais:
@@ -137,10 +136,9 @@ Clique no ícone |Icone_Check| para concluir o cadastro de sua solicitação. Um
 
 .. figure:: _static/images/01_Parametros_para_integracao_SPE_templates_notif.gif
 
-
   **Atenção!**
 
-  As solicitações cadastradas pelo órgão ficarão visíveis na coluna do meio na tela do colaborador com perfil de configurador de solicitação. Para gerar o link da solicitação, basta clicar nela e, depois, no ícone  |Icone_Link-solicitacao|.
+  As solicitações cadastradas pelo órgão ficarão visíveis na coluna do meio na tela do colaborador com perfil de configurador de solicitação. Para gerar o link da solicitação, basta clicar nela e, depois, no ícone |Icone_Link-solicitacao|.
 
 
 .. |Icone_Link-solicitacao| image:: _static/images/Icone_Link-solicitacao.png
