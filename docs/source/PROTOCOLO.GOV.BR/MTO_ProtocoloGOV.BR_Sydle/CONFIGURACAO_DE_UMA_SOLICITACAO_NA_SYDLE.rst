@@ -4,7 +4,7 @@ Configuração da solicitação
   
 Para realizar as configurações necessárias no Protocolo GOV.BR, acesse o endereço eletrônico do Sistema Sydle que será fornecido pelo Ministério da Gestão e da Inovação em Serviços Públicos (MGI) e siga as etapas apresentadas a seguir.
 
-  **Atenção:**
+  **Atenção!**
 
   Esta operação é executada por servidor/colaborador com o perfil “Configurador de Solicitação” no sistema Sydle. O detentor deste perfil é responsável por criar, editar, ativar e inativar as configurações de solicitações do órgão. O órgão deve informar os colaboradores que devem receber o perfil durante o processo de adesão.
 
@@ -93,6 +93,9 @@ Documentação Opcional:
 
 Clique no ícone |adicionar_docs| e inclua os documentos de anexação opcional pelo solicitante. Informe o link de orientação sobre o documento, se houver, selecione as extensões de arquivo permitidas e informe o tamanho máximo do documento (MB).
 
+.. |adicionar_docs| image:: _static/images/Icone_Cadastrar_tipo_de_solicitacao_Adicao.png
+   :align: middle
+   :width: 30
 
 .. figure:: _static/images/01_Parametros_para_integracao_SPE_doc-opcional.gif 
 
@@ -109,11 +112,6 @@ Defina se o solicitante poderá anexar documentos adicionais à solicitação. C
   **Atenção!**
 
   O limite máximo de anexos por solicitação deve ser de até 600 MB. 
-
-
-.. |adicionar_docs| image:: _static/images/Icone_Cadastrar_tipo_de_solicitacao_Adicao.png
-   :align: middle
-   :width: 30
 
 
 Configuração de informações adicionais:
@@ -137,13 +135,13 @@ Clique no ícone |Icone_Check| para concluir o cadastro de sua solicitação. Um
    :align: middle
    :width: 30
 
+.. figure:: _static/images/01_Parametros_para_integracao_SPE_templates_notif.gif
 
-.. figure:: _static/images/01_Parametros_para_integracao_SPE_templates_notif.gif 
-  
 
-  **Atenção:**
+  **Atenção!**
 
   As solicitações cadastradas pelo órgão ficarão visíveis na coluna do meio na tela do colaborador com perfil de configurador de solicitação. Para gerar o link da solicitação, basta clicar nela e, depois, no ícone  |Icone_Link-solicitacao|.
+
 
 .. |Icone_Link-solicitacao| image:: _static/images/Icone_Link-solicitacao.png
    :align: middle
