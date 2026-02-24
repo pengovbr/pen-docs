@@ -103,7 +103,7 @@ Clique no ícone |adicionar_docs| e inclua os documentos de anexação opcional 
 Documentação Adicional:
 ++++++++++++++++++++++
 
-Defina se o solicitante poderá anexar documentos adicionais à solicitação. Caso esta opção seja habilitada, o solicitante poderá inserir qualquer tipo de documento externo cadastrado no SPE do órgão. Caso deseje, defina o limite de tamanho máximo do documento (MB) complementar, bem como as extensões de arquivo permitidas.
+Caso haja documentação adicional para inserir, selecione "Sim" para a questão "Solicitante pode anexar documentos adicionais?". Após a seleção, será necessário definir o tamanho máximo do documento (em MB), bem como as extensões permitidas.
 
 
 .. figure:: _static/images/01_Parametros_para_integracao_SPE_doc-adicional.gif
