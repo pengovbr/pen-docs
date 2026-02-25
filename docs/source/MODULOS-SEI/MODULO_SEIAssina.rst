@@ -1,10 +1,10 @@
-MANUAL DE UTILIZAÇÃO DO MÓDULO SEIAssina!
+MANUAL DE UTILIZAÇÃO DO MÓDULO SEI!Assina
 =========================================
 
 1. INTRODUÇÃO 
 -------------
 
-O Módulo SEIAssina! possibilita que os usuários assinem documentos por meio de assinatura avançada (`Pergunta 1.4 <https://wiki.processoeletronico.gov.br/pt-br/homologacao/MODULOS_SEI/SEI_Assina/Perguntas_Frequentes_FAQ.html#conceito>`__ ) e qualificada (`Pergunta 1.5 <https://wiki.processoeletronico.gov.br/pt-br/homologacao/MODULOS_SEI/SEI_Assina/Perguntas_Frequentes_FAQ.html#conceito>`__). O novo módulo unifica todos os meios de assinatura, elimina o antigo componente Java do SEI e cria padronização entre órgãos. Os modelos de certificado compatíveis com o módulo estão enumerados na `Pergunta 3.1 do FAQ <https://wiki.processoeletronico.gov.br/pt-br/homologacao/MODULOS_SEI/SEI_Assina/Perguntas_Frequentes_FAQ.html#certificado-digital>`__
+O Módulo SEI!Assina possibilita que os usuários assinem documentos por meio de assinatura avançada (`Pergunta 1.4 <https://wiki.processoeletronico.gov.br/pt-br/homologacao/MODULOS_SEI/SEI_Assina/Perguntas_Frequentes_FAQ.html#conceito>`__ ) e qualificada (`Pergunta 1.5 <https://wiki.processoeletronico.gov.br/pt-br/homologacao/MODULOS_SEI/SEI_Assina/Perguntas_Frequentes_FAQ.html#conceito>`__). O novo módulo unifica todos os meios de assinatura, elimina o antigo componente Java do SEI e cria padronização entre órgãos. Os modelos de certificado compatíveis com o módulo estão enumerados na `Pergunta 3.1 do FAQ <https://wiki.processoeletronico.gov.br/pt-br/homologacao/MODULOS_SEI/SEI_Assina/Perguntas_Frequentes_FAQ.html#certificado-digital>`__
 
 2. ASSINATURA ELETRÔNICA EM ÚNICO DOCUMENTO
 -------------------------------------------
@@ -94,27 +94,100 @@ Em seguida, escolha o seu certificado em nuvem e utilize a sua biometria para co
 Ao optar por essa opção, o sistema abrirá uma pequena tela para que você localize o arquivo do certificado (que deve estar previamente guardado em uma pasta de seu computador). Após localizar o arquivo, deve-se digitar a senha especifica desse certificado e, em seguida, no botão “Assinar”. 
 
 
+.. figure:: _static/images/SEIAss_02-5_cert-a1_assinatura.png
+
+
+  **OBS: Além das opções habilitadas, o usuário também consegue realizar a assinatura interna do SEI por meio da funcionalidade “Assinar Documento”. Como esse tipo de assinatura é nativa do sistema, caso tenha dúvidas de como realizar a assinatura simples, a orientação é realizar a leitura do `Manual do SEI <https://manuais.processoeletronico.gov.br/pt-br/homologacao/SEI/index.html/>`__.**
+
+
+3. ASSINATURA DIGITAL P7S 
+-------------------------
+
+Além de assinar diretamente no SEI, o usuário também consegue realizar upload do arquivo de `assinatura digital p7s <https://wiki.processoeletronico.gov.br/pt-br/homologacao/MODULOS_SEI/SEI_Assina/Perguntas_Frequentes_FAQ.html#conceito/>`__ para documentos externos. O arquivo é anexado por meio da funcionalidade “Anexar assinatura digital p7s”.
+
+Ao clicar na funcionalidade, a tela abaixo é exibida.
+
+
+.. figure:: _static/images/SEIAss_03_AssDigP7S_Novo.png
+
+
+Após o carregamento da tela, o usuário é redirecionado para uma nova, onde ele poderá realizar o upload do arquivo p7s.
 
 
 
+.. figure:: _static/images/SEIAss_03_AssDigP7S_Anexar-arq.png
+
+
+Após realizar o upload, a tela é atualizada com o arquivo p7s. O usuário deve clicar em salvar para concluir a operação.
+
+  **OBS1: Essa funcionalidade está disponível a partir da versão 1.4.0 do módulo.** 
 
 
 
+4.	ASSINATURA ELETRÔNICA DE VÁRIOS DOCUMENTOS
+---------------------------------------------
+
+O módulo possibilita que o usuário assine vários documentos internos, por meio do bloco de assinatura, com assinatura avançada ou qualificada. O processo é o mesmo utilizado para assinar com assinatura simples, que é a assinatura nativa do SEI. Mais informações a respeito do funcionamento de assinaturas em bloco estão no `Manual do SEI <https://manuais.processoeletronico.gov.br/pt-br/latest/SEI/Blocos.html#bloco-de-assinatura>`__ .
+
+ **OBS1: A partir da versão 1.4.0 do módulo, além dos documentos internos, também é possível assinar documentos externos por meio de bloco de assinatura. Nesses casos, é necessário assinar os documentos do bloco um de cada vez, para posicionar o local da assinatura em cada item (O botão de assinar não está disponível fora do bloco de externo, apenas é possível assinar cada documento individualmente dentro do bloco).**
+ 
+ **OBS2: A respeito das regras do bloco, orientamos a leitura da `Pergunta 4.4 do FAQ <https://wiki.processoeletronico.gov.br/pt-br/homologacao/MODULOS_SEI/SEI_Assina/Perguntas_Frequentes_FAQ.html#assinar-e-validar/>`__
+.**
+
+
+5.	ASSINATURA COM CARIMBO DE TEMPO 
+----------------------------------
+
+.. figure:: _static/images/SEIAss_05_AssCarTempo_Carimbo.png
+
+A inclusão de Carimbo de tempo na assinatura de um documento é habilitada apenas pelo administrador do SEI no seu órgão, que precisa alinhar com a área responsável a viabilidade de contratar o serviço de uma Autoridade de Carimbo de Tempo e após a aquisição configurar na funcionalidade a credencial.
+
+Com a parametrização dos dados da carimbadora na funcionalidade, ao selecionar um documento para assinatura é exibido o checkbox “Carimbo de tempo” para todos os usuários tanto para documentos internos quanto externos.
+
+.. figure:: _static/images/SEIAss_05_AssCarTempo_CarimboClose.png
+
+ **OBS1: Essa funcionalidade está disponível a partir da versão 1.4.0 do módulo.**
 
 
 
+6.	ASSINATURA EM TODAS AS PÁGINAS DO DOCUMENTO
+----------------------------------------------
 
 
 
+.. figure:: _static/images/SEIAss_06_AssTodasPag_Todas.png
+
+
+.. figure:: _static/images/SEIAss_06_AssTodasPag_TodasClose.png
+
+ **OBS1: Essa funcionalidade é exclusiva para documentos externos.**
 
 
 
+7.	VALIDAÇÃO DE ASSINATURA ELETRÔNICA
+-------------------------------------
+
+
+Além de possibilitar a realização da assinatura qualificada e avançada, o módulo também permite que o usuário valide as assinaturas realizadas nos documentos, sem que seja preciso sair do sistema e entrar no site do Validador ITI. No SEI são exibidas as mesmas informações apresentadas no site citado, anteriormente,
+
+A validade é acessada por meio da funcionalidade “Visualizar Resultado Autenticidade”. Após clicar no ícone dessa funcionalidade, é apresentada a validade de todas as assinaturas realizadas no documento.
+
+.. figure:: _static/images/SEIAss_07_Validacao.png
+
+.. figure:: _static/images/SEIAss_07_ValidacaoResultado.png
 
 
 
+8.	ASSINATURA DE DOCUMENTOS POR USUÁRIOS EXTERNOS
+-------------------------------------------------
 
 
 
-.. figure:: _static/images/SEIAss_02_assinatura_sei.png
+O módulo também possibilita que o usuário externo assine documentos internos e externos com assinatura avançada e qualificada. O passo a passo para usuário realizar a assinatura é o mesmo que ele executa para assinar algum documento com assinatura simples. 
 
-`Texto do link <https://domain.invalid/>`__
+ **OBS1: Essa funcionalidade para documentos internos está disponível a partir da versão 1.3.0 do módulo;**
+
+ **OBS2: Essa funcionalidade para documentos externos está disponível a partir da versão 1.4.0 do módulo;**
+
+ **OBS3: A utilização de assinatura com carimbo de tempo pelo usuário externo é habilitada pelo Administrador do SEI, a partir da versão 1.4.0.**
+
