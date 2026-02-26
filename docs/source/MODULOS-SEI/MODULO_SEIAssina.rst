@@ -1,10 +1,10 @@
-MANUAL DE UTILIZAÇÃO DO MÓDULO SEI!Assina
-=========================================
+MANUAL DE UTILIZAÇÃO DO MÓDULO DE ASSINATURA ELETRÔNICA
+=======================================================
 
 1. INTRODUÇÃO 
 -------------
 
-O Módulo SEI!Assina possibilita que os usuários assinem documentos por meio de assinatura avançada (`Pergunta 1.4 <https://wiki.processoeletronico.gov.br/pt-br/homologacao/MODULOS_SEI/SEI_Assina/Perguntas_Frequentes_FAQ.html#conceito>`__ ) e qualificada (`Pergunta 1.5 <https://wiki.processoeletronico.gov.br/pt-br/homologacao/MODULOS_SEI/SEI_Assina/Perguntas_Frequentes_FAQ.html#conceito>`__). O novo módulo unifica todos os meios de assinatura, elimina o antigo componente Java do SEI e cria padronização entre órgãos. Os modelos de certificado compatíveis com o módulo estão enumerados na `Pergunta 3.1 do FAQ <https://wiki.processoeletronico.gov.br/pt-br/homologacao/MODULOS_SEI/SEI_Assina/Perguntas_Frequentes_FAQ.html#certificado-digital>`__
+O Módulo de Assinatura Eletrônica possibilita que os usuários assinem documentos por meio de assinatura avançada (`Pergunta 1.4 <https://wiki.processoeletronico.gov.br/pt-br/homologacao/MODULOS_SEI/SEI_Assina/Perguntas_Frequentes_FAQ.html#conceito>`__ ) e qualificada (`Pergunta 1.5 <https://wiki.processoeletronico.gov.br/pt-br/homologacao/MODULOS_SEI/SEI_Assina/Perguntas_Frequentes_FAQ.html#conceito>`__). O novo módulo unifica todos os meios de assinatura, elimina o antigo componente Java do SEI e cria padronização entre órgãos. Os modelos de certificado compatíveis com o módulo estão enumerados na `Pergunta 3.1 do FAQ <https://wiki.processoeletronico.gov.br/pt-br/homologacao/MODULOS_SEI/SEI_Assina/Perguntas_Frequentes_FAQ.html#certificado-digital>`__
 
 2. ASSINATURA ELETRÔNICA EM ÚNICO DOCUMENTO
 -------------------------------------------
@@ -18,7 +18,7 @@ Os novos tipos de assinaturas são acessados por meio da funcionalidade Assinar 
 
 Se for um documento interno, depois de clicar na funcionalidade “Assinar Documento”, é exibida a tela abaixo. 
 
-.. figure:: _static/images/SEIAss_02_docum_interno.png
+.. figure:: _static/images/SEIAss_02-1_docum_interno.png
 
 Após clicar em Assinatura Eletrônica, uma nova tela exibida comas seguintes informações para o usuário.
 
@@ -30,7 +30,7 @@ Após clicar em Assinatura Eletrônica, uma nova tela exibida comas seguintes in
 
 Além das informações acima, também são exibidos os tipos de assinatura habilitados pelo Administrador do SEI no seu órgão. O usuário deve escolher um dos tipos para assinar o documento interno.
 
-.. figure:: _static/images/SEIAss_02-1_assinatura_docum_interno.png
+.. figure:: _static/images/SEIAss_02-1_docum_interno-assinatura.png
   
   **OBS2: A partir da 1.3.0, essa funcionalidade está disponível para usuários externos.**
 
