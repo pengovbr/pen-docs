@@ -137,7 +137,7 @@ Além do SERPROID, a equipe responsável pode habilitar outros exemplos de Certi
 **2.2.5 ASSINATURA DIGITAL P7S**
 
 
-Além de assinar diretamente no SEI, o usuário também consegue realizar upload do arquivo de `assinatura digital p7s <https://wiki.processoeletronico.gov.br/pt-br/homologacao/MODULOS_SEI/SEI_Assina/Perguntas_Frequentes_FAQ.html#conceito/>`__ para documentos externos. O arquivo é anexado por meio da funcionalidade “Anexar assinatura digital p7s”.
+Além de assinar diretamente no SEI, o usuário também consegue realizar upload do arquivo de `assinatura digital p7s <https://wiki.processoeletronico.gov.br/pt-br/homologacao/MODULOS_SEI/SEI_Assina/Perguntas_Frequentes_FAQ/Conceito.html#o-que-e-p7s>`__ para documentos externos. O arquivo é anexado por meio da funcionalidade “Anexar assinatura digital p7s”.
 
 Ao clicar na funcionalidade, a tela abaixo é exibida.
 
