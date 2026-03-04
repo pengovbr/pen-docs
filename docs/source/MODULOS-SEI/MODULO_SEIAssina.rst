@@ -83,7 +83,7 @@ Após esta ação, o documento assinado via gov.br será atualização com a res
 
 .. figure:: _static/images/SEIAss_02-4_serproid.png
 
-O módulo possibilita a assinatura utilizando o `certificado em nuvem emitido <https://wiki.processoeletronico.gov.br/pt-br/latest/MODULOS_SEI/SEI_Assina/Perguntas_Frequentes_FAQ/Conceito.html#o-que-e-certificado-a3-em-nuvem>`__ pelo SERPRO. Para utilizar esse tipo de certificado, o usuário deve escolher a opção SERPROID, aparecerá um modal com o QRCode do SerproID, permitindo que, usando o app do Serpro, possa se fazer a leitura do respectivo código e fazer a validação da assinatura.
+O módulo possibilita a assinatura utilizando o `certificado em nuvem emitido <https://wiki.processoeletronico.gov.br/pt-br/homologacao/MODULOS_SEI/SEI_Assina/Perguntas_Frequentes_FAQ/Conceito.html#o-que-e-certificado-a3-em-nuvem>`__ pelo SERPRO. Para utilizar esse tipo de certificado, o usuário deve escolher a opção SERPROID, aparecerá um modal com o QRCode do SerproID, permitindo que, usando o app do Serpro, possa se fazer a leitura do respectivo código e fazer a validação da assinatura.
 
 
 .. figure:: _static/images/SEIAss_02-4_serproid-autorizacao.png
