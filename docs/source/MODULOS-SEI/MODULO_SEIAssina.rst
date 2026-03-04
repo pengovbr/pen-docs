@@ -72,7 +72,7 @@ Incluir o código de autorização encaminhado ao aplicativo gov.br no campo “
 
 Após esta ação, o documento assinado via gov.br será atualização com a respectiva assinatura eletrônica.
 
- **OBS1: Na** `Pergunta 5.6 do FAQ <https://wiki.processoeletronico.gov.br/pt-br/homologacao/MODULOS_SEI/SEI_Assina/Perguntas_Frequentes_FAQ/Assinar_e_Validar.html#qualquer-usuario-consegue-realizar-assinatura-por-meio-do-gov-br>`__  **é explicado quais usuários podem assinar utilizando o GOV.BR.**
+ **OBS1: Na ** `FAQ 5.6 <https://wiki.processoeletronico.gov.br/pt-br/homologacao/MODULOS_SEI/SEI_Assina/Perguntas_Frequentes_FAQ/Assinar_e_Validar.html#qualquer-usuario-consegue-realizar-assinatura-por-meio-do-gov-br>`__  **é explicado quais usuários podem assinar utilizando o GOV.BR.**
 
 
  **OBS2: A assinatura gov.br é do tipo avançada.**
@@ -164,7 +164,7 @@ O módulo possibilita que o usuário assine vários documentos internos, por mei
 
  **OBS1: A partir da versão 1.4.0 do módulo, além dos documentos internos, também é possível assinar documentos externos por meio de bloco de assinatura. Nesses casos, é necessário assinar os documentos do bloco um de cada vez, para posicionar o local da assinatura em cada item (O botão de assinar não está disponível fora do bloco de externo, apenas é possível assinar cada documento individualmente dentro do bloco).**
  
- **OBS2: A respeito das regras do bloco, orientamos a leitura da** `Pergunta 5.4 do FAQ <https://wiki.processoeletronico.gov.br/pt-br/homologacao/MODULOS_SEI/SEI_Assina/Perguntas_Frequentes_FAQ/Assinar_e_Validar.html#e-possivel-assinar-tantos-documentos-internos-quanto-externos-no-mesmo-bloco-de-assinatura>`__ .
+ **OBS2: A respeito das regras do bloco, orientamos a leitura da** `FAQ 5.4 <https://wiki.processoeletronico.gov.br/pt-br/homologacao/MODULOS_SEI/SEI_Assina/Perguntas_Frequentes_FAQ/Assinar_e_Validar.html#e-possivel-assinar-tantos-documentos-internos-quanto-externos-no-mesmo-bloco-de-assinatura>`__ .
 
 
 4.	ASSINATURA COM CARIMBO DE TEMPO
