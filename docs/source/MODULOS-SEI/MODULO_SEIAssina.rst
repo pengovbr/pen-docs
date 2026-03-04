@@ -9,7 +9,7 @@ O Módulo de Assinatura Eletrônica possibilita que os usuários assinem documen
 2. ASSINATURA ELETRÔNICA EM ÚNICO DOCUMENTO
 -------------------------------------------
 
-Os novos tipos de assinaturas são acessados por meio da funcionalidade Assinar Documento. De acordo com o tipo do documento, a forma como a tela é exibida para o usuário muda.  
+Os novos tipos de assinaturas são acessados por meio da funcionalidade Assinar Documento. De acordo com o tipo do documento, a forma como a tela é exibida para o usuário muda.
 
 .. figure:: _static/images/SEIAss_02_assinatura_sei.png
 
@@ -24,11 +24,11 @@ Se for um documento interno, depois de clicar na funcionalidade “Assinar Docum
 
 Após clicar em Assinatura Eletrônica, uma nova tela exibida comas seguintes informações para o usuário.
 
-1.  **Órgão Assinante:** selecionar o órgão do assinante;
+1. **Órgão Assinante:** selecionar o órgão do assinante;
 2.	**Assinante:** Indicar o nome do assinante;
 3.	**Cargo/função:** selecionar o cargo do assinante.
 
-  **OBS1: Apenas os campos Órgão Assinante e Cargo/função estão habilitados para edição pelo usuário**.
+ **OBS1: Apenas os campos Órgão Assinante e Cargo/função estão habilitados para edição pelo usuário**.
 
 Além das informações acima, também são exibidos os tipos de assinatura habilitados pelo Administrador do SEI no seu órgão. O usuário deve escolher um dos tipos para assinar o documento interno.
 
@@ -39,7 +39,7 @@ Ao acessar o sistema utilizando Login e Senha, são exibidos os tipos de assinat
 .. figure:: _static/images/SEIAss_02-1_docum_interno-assinatura.png 
 
 
-  **OBS1: Além das opções habilitadas, o usuário também consegue realizar a assinatura interna do SEI por meio da  funcionalidade “Assinar Documento”. Como esse tipo de assinatura é nativa do sistema, caso tenha dúvidas de como realizar a assinatura simples, a orientação é realizar a leitura do** `Manual do SEI <https://manuais.processoeletronico.gov.br/pt-br/latest/SEI/Operacoes_basicas_com_documentos.html#assinar-documento-interno>`__ .
+ **OBS1: Além das opções habilitadas, o usuário também consegue realizar a assinatura interna do SEI por meio da funcionalidade “Assinar Documento”. Como esse tipo de assinatura é nativa do sistema, caso tenha dúvidas de como realizar a assinatura simples, a orientação é realizar a leitura do** `Manual do SEI <https://manuais.processoeletronico.gov.br/pt-br/latest/SEI/Operacoes_basicas_com_documentos.html#assinar-documento-interno>`__ .
 
 
 **2.1.1.2 Login gov.br**
@@ -55,7 +55,7 @@ Se for um documento externo (um pdf, por exemplo) é exibida a tela com os dados
 
 .. figure:: _static/images/SEIAss_02-2_docum_externo.png
 
-  **OBS: A partir da 1.4.0, essa funcionalidade está disponível para usuários externos.**
+ **OBS: A partir da 1.4.0, essa funcionalidade está disponível para usuários externos.**
 
 2.2 TIPOS DE ASSINATURAS
 ^^^^^^^^^^^^^^^^^^^^^^^^
@@ -72,10 +72,10 @@ Incluir o código de autorização encaminhado ao aplicativo gov.br no campo “
 
 Após esta ação, o documento assinado via gov.br será atualização com a respectiva assinatura eletrônica.
 
-  **OBS1: Na** `Pergunta 5.6 do FAQ <https://wiki.processoeletronico.gov.br/pt-br/homologacao/MODULOS_SEI/SEI_Assina/Perguntas_Frequentes_FAQ/Assinar_e_Validar.html#qualquer-usuario-consegue-realizar-assinatura-por-meio-do-gov-br>`__  **é explicado quais usuários podem assinar utilizando o GOV.BR.**
+ **OBS1: Na** `Pergunta 5.6 do FAQ <https://wiki.processoeletronico.gov.br/pt-br/homologacao/MODULOS_SEI/SEI_Assina/Perguntas_Frequentes_FAQ/Assinar_e_Validar.html#qualquer-usuario-consegue-realizar-assinatura-por-meio-do-gov-br>`__  **é explicado quais usuários podem assinar utilizando o GOV.BR.**
 
 
-  **OBS2: A assinatura gov.br é do tipo avançada.**
+ **OBS2: A assinatura gov.br é do tipo avançada.**
 
 
 **2.2.2 SERPROID**
