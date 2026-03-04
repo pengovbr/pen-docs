@@ -72,7 +72,7 @@ Incluir o código de autorização encaminhado ao aplicativo gov.br no campo “
 
 Após esta ação, o documento assinado via gov.br será atualização com a respectiva assinatura eletrônica.
 
- **OBS1: Na ** `FAQ 5.6 <https://wiki.processoeletronico.gov.br/pt-br/homologacao/MODULOS_SEI/SEI_Assina/Perguntas_Frequentes_FAQ/Assinar_e_Validar.html#qualquer-usuario-consegue-realizar-assinatura-por-meio-do-gov-br>`__  **é explicado quais usuários podem assinar utilizando o GOV.BR.**
+ **OBS1: Na** `FAQ 5.6 <https://wiki.processoeletronico.gov.br/pt-br/homologacao/MODULOS_SEI/SEI_Assina/Perguntas_Frequentes_FAQ/Assinar_e_Validar.html#qualquer-usuario-consegue-realizar-assinatura-por-meio-do-gov-br>`__ **é explicado quais usuários podem assinar utilizando o GOV.BR.**
 
 
  **OBS2: A assinatura gov.br é do tipo avançada.**
