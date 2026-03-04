@@ -1,11 +1,10 @@
-
 Manual de Utilização do Módulo de Assinatura Eletrônica
 =======================================================
 
 1. INTRODUÇÃO 
 -------------
 
-O Módulo de Assinatura Eletrônica possibilita que os usuários assinem documentos por meio de assinatura avançada (`FAQ 1.5 <https://wiki.processoeletronico.gov.br/pt-br/latest/MODULOS_SEI/SEI_Assina/Perguntas_Frequentes_FAQ/Conceito.html#o-que-e-assinatura-avancada>`__) e qualificada (`FAQ 1.6 <https://wiki.processoeletronico.gov.br/pt-br/latest/MODULOS_SEI/SEI_Assina/Perguntas_Frequentes_FAQ/Conceito.html#o-que-e-assinatura-qualificada>`__). O novo módulo unifica todos os meios de assinatura, elimina o antigo componente Java do SEI e cria padronização entre órgãos. Os modelos de certificado compatíveis com o módulo estão enumerados na `FAQ 3.1 <https://wiki.processoeletronico.gov.br/pt-br/homologacao/MODULOS_SEI/SEI_Assina/Perguntas_Frequentes_FAQ/Credenciais.html#quais-credenciais-sao-necessarias-para-utilizar-o-modulo>`__
+O Módulo de Assinatura Eletrônica possibilita que os usuários assinem documentos por meio de assinatura avançada (`FAQ 1.5 <https://wiki.processoeletronico.gov.br/pt-br/homologacao/MODULOS_SEI/SEI_Assina/Perguntas_Frequentes_FAQ/Conceito.html#o-que-e-assinatura-avancada>`__) e qualificada (`FAQ 1.6 <https://wiki.processoeletronico.gov.br/pt-br/homologacao/MODULOS_SEI/SEI_Assina/Perguntas_Frequentes_FAQ/Conceito.html#o-que-e-assinatura-qualificada>`__). O novo módulo unifica todos os meios de assinatura, elimina o antigo componente Java do SEI e cria padronização entre órgãos. Os modelos de certificado compatíveis com o módulo estão enumerados na `FAQ 3.1 <https://wiki.processoeletronico.gov.br/pt-br/homologacao/MODULOS_SEI/SEI_Assina/Perguntas_Frequentes_FAQ/Credenciais.html#quais-credenciais-sao-necessarias-para-utilizar-o-modulo>`__
 
 2. ASSINATURA ELETRÔNICA EM ÚNICO DOCUMENTO
 -------------------------------------------
@@ -73,7 +72,7 @@ Incluir o código de autorização encaminhado ao aplicativo gov.br no campo “
 
 Após esta ação, o documento assinado via gov.br será atualização com a respectiva assinatura eletrônica.
 
- **OBS1: Na ** `FAQ 5.6 <https://wiki.processoeletronico.gov.br/pt-br/latest/MODULOS_SEI/SEI_Assina/Perguntas_Frequentes_FAQ/Assinar_e_Validar.html#qualquer-usuario-consegue-realizar-assinatura-por-meio-do-gov-br>`__  **é explicado quais usuários podem assinar utilizando o GOV.BR.**
+ **OBS1: Na** `FAQ 5.6 <https://wiki.processoeletronico.gov.br/pt-br/homologacao/MODULOS_SEI/SEI_Assina/Perguntas_Frequentes_FAQ/Assinar_e_Validar.html#qualquer-usuario-consegue-realizar-assinatura-por-meio-do-gov-br>`__ **é explicado quais usuários podem assinar utilizando o GOV.BR.**
 
 
  **OBS2: A assinatura gov.br é do tipo avançada.**
@@ -84,7 +83,7 @@ Após esta ação, o documento assinado via gov.br será atualização com a res
 
 .. figure:: _static/images/SEIAss_02-4_serproid.png
 
-O módulo possibilita a assinatura utilizando o `certificado em nuvem emitido <https://wiki.processoeletronico.gov.br/pt-br/latest/MODULOS_SEI/SEI_Assina/Perguntas_Frequentes_FAQ/Conceito.html#o-que-e-icp-brasil>`__ pelo SERPRO. Para utilizar esse tipo de certificado, o usuário deve escolher a opção SERPROID, aparecerá um modal com o QRCode do SerproID, permitindo que, usando o app do Serpro, possa se fazer a leitura do respectivo código e fazer a validação da assinatura.
+O módulo possibilita a assinatura utilizando o `certificado em nuvem emitido <https://wiki.processoeletronico.gov.br/pt-br/homologacao/MODULOS_SEI/SEI_Assina/Perguntas_Frequentes_FAQ/Conceito.html#o-que-e-icp-brasil>`__ pelo SERPRO. Para utilizar esse tipo de certificado, o usuário deve escolher a opção SERPROID, aparecerá um modal com o QRCode do SerproID, permitindo que, usando o app do Serpro, possa se fazer a leitura do respectivo código e fazer a validação da assinatura.
 
 
 .. figure:: _static/images/SEIAss_02-4_serproid-autorizacao.png
@@ -137,7 +136,7 @@ Além do SERPROID, a equipe responsável pode habilitar outros exemplos de Certi
 **2.2.5 ASSINATURA DIGITAL P7S**
 
 
-Além de assinar diretamente no SEI, o usuário também consegue realizar upload do arquivo de `assinatura digital p7s <https://wiki.processoeletronico.gov.br/pt-br/latest/MODULOS_SEI/SEI_Assina/Perguntas_Frequentes_FAQ/Conceito.html#o-que-e-p7s>`__ para documentos externos. O arquivo é anexado por meio da funcionalidade “Anexar assinatura digital p7s”.
+Além de assinar diretamente no SEI, o usuário também consegue realizar upload do arquivo de `assinatura digital p7s <https://wiki.processoeletronico.gov.br/pt-br/homologacao/MODULOS_SEI/SEI_Assina/Perguntas_Frequentes_FAQ/Conceito.html#o-que-e-p7s>`__ para documentos externos. O arquivo é anexado por meio da funcionalidade “Anexar assinatura digital p7s”.
 
 Ao clicar na funcionalidade, a tela abaixo é exibida.
 
@@ -165,7 +164,7 @@ O módulo possibilita que o usuário assine vários documentos internos, por mei
 
  **OBS1: A partir da versão 1.4.0 do módulo, além dos documentos internos, também é possível assinar documentos externos por meio de bloco de assinatura. Nesses casos, é necessário assinar os documentos do bloco um de cada vez, para posicionar o local da assinatura em cada item (O botão de assinar não está disponível fora do bloco de externo, apenas é possível assinar cada documento individualmente dentro do bloco).**
  
- **OBS2: A respeito das regras do bloco, orientamos a leitura da** `FAQ 5.4 <https://wiki.processoeletronico.gov.br/pt-br/latest/MODULOS_SEI/SEI_Assina/Perguntas_Frequentes_FAQ/Assinar_e_Validar.html#e-possivel-assinar-tantos-documentos-internos-quanto-externos-no-mesmo-bloco-de-assinatura>`__ .
+ **OBS2: A respeito das regras do bloco, orientamos a leitura da** `FAQ 5.4 <https://wiki.processoeletronico.gov.br/pt-br/homologacao/MODULOS_SEI/SEI_Assina/Perguntas_Frequentes_FAQ/Assinar_e_Validar.html#e-possivel-assinar-tantos-documentos-internos-quanto-externos-no-mesmo-bloco-de-assinatura>`__ .
 
 
 4.	ASSINATURA COM CARIMBO DE TEMPO
@@ -173,7 +172,7 @@ O módulo possibilita que o usuário assine vários documentos internos, por mei
 
 .. figure:: _static/images/SEIAss_05_AssCarTempo_Carimbo.png
 
-A inclusão de `Carimbo de tempo <https://wiki.processoeletronico.gov.br/pt-br/latest/MODULOS_SEI/SEI_Assina/Perguntas_Frequentes_FAQ/Carimbo_de_Tempo.html#carimbo-de-tempo>`__ na assinatura de um documento é habilitada apenas pelo administrador do SEI no seu órgão, que precisa alinhar com a área responsável a viabilidade de contratar o serviço de uma Autoridade de Carimbo de Tempo e após a aquisição configurar na funcionalidade a credencial.
+A inclusão de `Carimbo de tempo <https://wiki.processoeletronico.gov.br/pt-br/homologacao/MODULOS_SEI/SEI_Assina/Perguntas_Frequentes_FAQ/Carimbo_de_Tempo.html#carimbo-de-tempo>`__ na assinatura de um documento é habilitada apenas pelo administrador do SEI no seu órgão, que precisa alinhar com a área responsável a viabilidade de contratar o serviço de uma Autoridade de Carimbo de Tempo e após a aquisição configurar na funcionalidade a credencial.
 
 Com a parametrização dos dados da carimbadora na funcionalidade, ao selecionar um documento para assinatura é exibido o checkbox “Carimbo de tempo” para todos os usuários tanto para documentos internos quanto externos.
 
@@ -223,3 +222,4 @@ O módulo também possibilita que o usuário externo assine documentos internos 
  **OBS2: Essa funcionalidade para documentos externos está disponível a partir da versão 1.4.0 do módulo;**
 
  **OBS3: A utilização de assinatura com carimbo de tempo pelo usuário externo é habilitada pelo Administrador do SEI, a partir da versão 1.4.0.**
+
