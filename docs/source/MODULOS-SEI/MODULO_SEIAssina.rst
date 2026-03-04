@@ -4,7 +4,7 @@ Manual de Utilização do Módulo de Assinatura Eletrônica
 1. INTRODUÇÃO 
 -------------
 
-O Módulo de Assinatura Eletrônica possibilita que os usuários assinem documentos por meio de assinatura avançada (`Pergunta 1.4 <https://wiki.processoeletronico.gov.br/pt-br/homologacao/MODULOS_SEI/SEI_Assina/Perguntas_Frequentes_FAQ/Conceito.html#o-que-e-assinatura-simples-revalidada-pelo-gov-br>`__ ) e qualificada (`Pergunta 1.5 <https://wiki.processoeletronico.gov.br/pt-br/homologacao/MODULOS_SEI/SEI_Assina/Perguntas_Frequentes_FAQ/Conceito.html#o-que-e-assinatura-avancada>`__). O novo módulo unifica todos os meios de assinatura, elimina o antigo componente Java do SEI e cria padronização entre órgãos. Os modelos de certificado compatíveis com o módulo estão enumerados na `Pergunta 3.1 do FAQ <https://wiki.processoeletronico.gov.br/pt-br/homologacao/MODULOS_SEI/SEI_Assina/Perguntas_Frequentes_FAQ/Credenciais.html#quais-credenciais-sao-necessarias-para-utilizar-o-modulo>`__
+O Módulo de Assinatura Eletrônica possibilita que os usuários assinem documentos por meio de assinatura avançada (`Pergunta 1.5 <https://wiki.processoeletronico.gov.br/pt-br/homologacao/MODULOS_SEI/SEI_Assina/Perguntas_Frequentes_FAQ/Conceito.html#o-que-e-assinatura-avancada>`__) e qualificada (`Pergunta 1.6 <https://wiki.processoeletronico.gov.br/pt-br/homologacao/MODULOS_SEI/SEI_Assina/Perguntas_Frequentes_FAQ/Conceito.html#o-que-e-assinatura-qualificada>`__). O novo módulo unifica todos os meios de assinatura, elimina o antigo componente Java do SEI e cria padronização entre órgãos. Os modelos de certificado compatíveis com o módulo estão enumerados na `Pergunta 3.1 do FAQ <https://wiki.processoeletronico.gov.br/pt-br/homologacao/MODULOS_SEI/SEI_Assina/Perguntas_Frequentes_FAQ/Credenciais.html#quais-credenciais-sao-necessarias-para-utilizar-o-modulo>`__
 
 2. ASSINATURA ELETRÔNICA EM ÚNICO DOCUMENTO
 -------------------------------------------
@@ -119,7 +119,6 @@ Ao optar por essa opção, o sistema abrirá uma pequena tela para que você loc
  
   **OBS1: A assinatura de Certificado A1 é do tipo qualificada.**
 
-  **OBS2: Além das opções habilitadas, o usuário também consegue realizar a assinatura interna do SEI por meio da funcionalidade “Assinar Documento”. Como esse tipo de assinatura é nativa do sistema, caso tenha dúvidas de como realizar a assinatura simples, a orientação é realizar a leitura do** `Manual do SEI <https://manuais.processoeletronico.gov.br/pt-br/homologacao/SEI/index.html/>`__ .
  
  
 **2.2.4 CERTIFICADOS A3 EM NUVEM**
@@ -168,12 +167,12 @@ O módulo possibilita que o usuário assine vários documentos internos, por mei
  **OBS2: A respeito das regras do bloco, orientamos a leitura da** `Pergunta 5.4 do FAQ <https://wiki.processoeletronico.gov.br/pt-br/homologacao/MODULOS_SEI/SEI_Assina/Perguntas_Frequentes_FAQ/Assinar_e_Validar.html#e-possivel-assinar-tantos-documentos-internos-quanto-externos-no-mesmo-bloco-de-assinatura>`__ .
 
 
-4.	ASSINATURA COM `CARIMBO DE TEMPO <https://wiki.processoeletronico.gov.br/pt-br/homologacao/MODULOS_SEI/SEI_Assina/Perguntas_Frequentes_FAQ/Carimbo_de_Tempo.html#carimbo-de-tempo>`__
------------------------------------
+4.	ASSINATURA COM CARIMBO DE TEMPO
+----------------------------------
 
 .. figure:: _static/images/SEIAss_05_AssCarTempo_Carimbo.png
 
-A inclusão de Carimbo de tempo na assinatura de um documento é habilitada apenas pelo administrador do SEI no seu órgão, que precisa alinhar com a área responsável a viabilidade de contratar o serviço de uma Autoridade de Carimbo de Tempo e após a aquisição configurar na funcionalidade a credencial.
+A inclusão de `Carimbo de tempo <https://wiki.processoeletronico.gov.br/pt-br/homologacao/MODULOS_SEI/SEI_Assina/Perguntas_Frequentes_FAQ/Carimbo_de_Tempo.html#carimbo-de-tempo>`__ na assinatura de um documento é habilitada apenas pelo administrador do SEI no seu órgão, que precisa alinhar com a área responsável a viabilidade de contratar o serviço de uma Autoridade de Carimbo de Tempo e após a aquisição configurar na funcionalidade a credencial.
 
 Com a parametrização dos dados da carimbadora na funcionalidade, ao selecionar um documento para assinatura é exibido o checkbox “Carimbo de tempo” para todos os usuários tanto para documentos internos quanto externos.
 
@@ -189,7 +188,7 @@ Com a parametrização dos dados da carimbadora na funcionalidade, ao selecionar
 
 .. figure:: _static/images/SEIAss_06_AssTodasPag_Todas.png
 
-Ao marcar o flag ou opção “Todas as páginas", a assinatura será replicada em todas as páginas daquele documento que está sendo assinado, sempre no mesmo local escolhido.
+Ao marcar a opção “Todas as páginas", a assinatura será replicada em todas as páginas daquele documento que está sendo assinado, sempre no mesmo local escolhido.
 
 .. figure:: _static/images/SEIAss_06_AssTodasPag_TodasClose.png
 
