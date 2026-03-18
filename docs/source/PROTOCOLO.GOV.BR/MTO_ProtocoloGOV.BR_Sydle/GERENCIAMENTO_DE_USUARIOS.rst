@@ -74,7 +74,9 @@ Selecione o usuário e realize as alterações necessárias.
 .. figure:: _static/images/Gerenciamento_Usuarios03.gif
 
 **Inativar usuários:** Opção para inativar o cadastro de um ou mais usuários ativos. Selecione o usuário que deseja inativar o perfil e finalize a ação.
+
 .. figure:: _static/images/Gerenciamento_Usuarios04.gif
 
 **Ativar usuários:** Opção para ativar um ou mais usuários que estejam inativos. Selecione o usuário que deseja ativar o perfil e finalize a ação.
+
 .. figure:: _static/images/Gerenciamento_Usuarios05.gif
