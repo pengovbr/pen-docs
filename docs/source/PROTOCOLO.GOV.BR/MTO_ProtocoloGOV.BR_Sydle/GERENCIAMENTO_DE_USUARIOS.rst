@@ -49,9 +49,24 @@ Para acessar a funcionalidade, clique no ícone |IconeSydle_Menu| localizado no 
     
     Para adicionar mais de um usuário, basta clicar no ícone  .
 
-Após finalizar o preenchimento, um novo card com status   será criado ao lado do card com status  . Clique no botão   e confirme as ações, finalizando o processo.
+Após finalizar o preenchimento, um novo card com status |IconeSydle_Confirmacao_Pendente|  será criado ao lado do card com status  |IconeSydle_Confirmacao_Concluido|. 
+
+Clique no botão |Icone_Atender| e confirme as ações, finalizando o processo.
 
 .. figure:: _static/images/Gerenciamento_Usuarios02.gif
+
+
+.. |IconeSydle_Confirmacao_Pendente| image:: _static/images/IconeSydle_Confirmacao_Pendente.png
+   :align: middle
+   :width: 30
+
+.. |IconeSydle_Confirmacao_Concluido| image:: _static/images/IconeSydle_Confirmacao_Concluido.png
+   :align: middle
+   :width: 30
+
+.. |Icone_Atender| image:: _static/images/Icone_Atender.png
+   :align: middle
+   :width: 30
 
 Alterar dados dos usuários: Aqui, é possível alterar/atualizar as informações de um ou mais usuários.
 Selecione o usuário e realize as alterações necessárias.
