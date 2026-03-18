@@ -2,13 +2,35 @@ Gerenciamento de usuários
 =========================
   
 Esta funcionalidade permite que o usuário com perfil de **gestor** do Protocolo GOV.BR faça a gestão dos usuários de sua equipe. Nela, será possível adicionar, alterar informações, inativar e alterar usuários e apontar novo usuário para ser gestor da ferramenta.
-Para acessar a funcionalidade, clique no ícone   localizado no canto superior esquerdo da tela, depois em  . Feito isso, clique no ícone   no canto superior direito da tela, depois em   e, em seguida, no card” Selecionar atividades” e no ícone  .Escolha a opção desejada.
 
-GIF
+Para acessar a funcionalidade, clique no ícone |IconeSydle_Menu| localizado no canto superior esquerdo da tela, depois em  |IconeSydle_Gerenciar-Usuarios|. Feito isso, clique no ícone |IconeSydle_Menu-de-criacao| no canto superior direito da tela, depois em |IconeSydle_Gerenciar-Usuarios-de-um-servico|  e, em seguida, no card” Selecionar atividades” e no ícone   |Icone_Atender|. Escolha a opção desejada.
+
+.. |IconeSydle_Menu| image:: _static/images/IconeSydle_Menu.png
+   :align: middle
+   :width: 30
+
+.. |IconeSydle_Gerenciar-Usuarios| image:: _static/images/IconeSydle_Gerenciar-Usuarios.png
+   :align: middle
+   :width: 30
+
+.. |IconeSydle_Menu-de-criacao| image:: _static/images/IconeSydle_Menu-de-criacao.png
+   :align: middle
+   :width: 30
+
+.. |IconeSydle_Gerenciar-Usuarios-de-um-servico| image:: _static/images/IconeSydle_Gerenciar-Usuarios-de-um-servico.png
+   :align: middle
+   :width: 30
+
+.. |Icone_Atender| image:: _static/images/Icone_Atender.png
+   :align: middle
+   :width: 30
+
+
+.. figure:: _static/images/Gerenciamento_Usuarios01.gif
 
 **Apontar novo gestor:** Opção que seleciona um novo usuário para ser o gestor de um serviço. Utilizar esta opção para transferir a permissão de gestor de um usuário para outro;
 
-GIF
+.. figure:: _static/images/Gerenciamento_Usuarios01-1.gif
 
 **Adicionar usuários:** Nesta opção, é possível realizar o cadastro novos usuários. Preencha os campos conforme orientações abaixo:
   **Nome:** Nome do novo usuário;
@@ -29,15 +51,15 @@ GIF
 
 Após finalizar o preenchimento, um novo card com status   será criado ao lado do card com status  . Clique no botão   e confirme as ações, finalizando o processo.
 
-GIF
+.. figure:: _static/images/Gerenciamento_Usuarios02.gif
 
 Alterar dados dos usuários: Aqui, é possível alterar/atualizar as informações de um ou mais usuários.
 Selecione o usuário e realize as alterações necessárias.
 
-GIF
+.. figure:: _static/images/Gerenciamento_Usuarios03.gif
 
 **Inativar usuários:** Opção para inativar o cadastro de um ou mais usuários ativos. Selecione o usuário que deseja inativar o perfil e finalize a ação.
-GIF
+.. figure:: _static/images/Gerenciamento_Usuarios04.gif
 
 **Ativar usuários:** Opção para ativar um ou mais usuários que estejam inativos. Selecione o usuário que deseja ativar o perfil e finalize a ação.
-GIF
+.. figure:: _static/images/Gerenciamento_Usuarios05.gif
