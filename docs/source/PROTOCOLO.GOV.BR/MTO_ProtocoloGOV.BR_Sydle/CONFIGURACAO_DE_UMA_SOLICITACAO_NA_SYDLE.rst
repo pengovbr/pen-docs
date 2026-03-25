@@ -105,12 +105,14 @@ Documentação Adicional:
 
 Caso haja documentação adicional para inserir, selecione "Sim" para a questão "Solicitante pode anexar documentos adicionais?". Após a seleção, será necessário definir o tamanho máximo do documento (em MB), bem como as extensões permitidas.
 
-
-.. figure:: _static/images/01_Parametros_para_integracao_SPE_doc-adicional.gif
-
   **Atenção!**
 
   O limite máximo de anexos por solicitação deve ser de até 600 MB.
+
+
+.. figure:: _static/images/01_Parametros_para_integracao_SPE_doc-adicional.gif
+
+
 
 
 Configuração de informações adicionais:
@@ -134,11 +136,14 @@ Clique no ícone |Icone_Check| para concluir o cadastro de sua solicitação. Um
    :align: middle
    :width: 30
 
-.. figure:: _static/images/01_Parametros_para_integracao_SPE_templates_notif.gif
-
   **Atenção!**
 
   As solicitações cadastradas pelo órgão ficarão visíveis na coluna do meio na tela do colaborador com perfil de configurador de solicitação. Para gerar o link da solicitação, basta clicar nela e, depois, no ícone |Icone_Link-solicitacao|.
+
+
+.. figure:: _static/images/01_Parametros_para_integracao_SPE_templates_notif.gif
+
+
 
 
 .. |Icone_Link-solicitacao| image:: _static/images/Icone_Link-solicitacao.png
