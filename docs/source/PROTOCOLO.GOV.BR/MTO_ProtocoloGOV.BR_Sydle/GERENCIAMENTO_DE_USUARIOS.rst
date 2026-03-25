@@ -1,7 +1,7 @@
 Gerenciamento de usuários
 =========================
   
-Esta funcionalidade permite que o usuário com perfil de **gestor** do Protocolo GOV.BR faça a gestão dos usuários de sua equipe. Nela, será possível adicionar, alterar informações, inativar e alterar usuários e apontar novo usuário para ser gestor da ferramenta.
+Esta funcionalidade permite que o usuário com perfil de **gestor** do Protocolo GOV.BR faça a gestão dos usuários de sua equipe. Nela, será possível adicionar, alterar informações, inativar e alterar usuários bem como apontar novo usuário para ser gestor da ferramenta.
 
 Para acessar a funcionalidade, clique no ícone |IconeSydle_Menu| localizado no canto superior esquerdo da tela, depois em  |IconeSydle_Gerenciar-Usuarios|. Feito isso, clique no ícone |IconeSydle_Menu-de-criacao| no canto superior direito da tela, depois em |IconeSydle_Gerenciar-Usuarios-de-um-servico|  e, em seguida, no card” Selecionar atividades” e no ícone   |Icone_Atender|. Escolha a opção desejada.
 
