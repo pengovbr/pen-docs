@@ -7,8 +7,7 @@ Para realizar as configurações necessárias no Protocolo.GOV.BR, acesse o ende
 
   Esta operação é executada por servidor/colaborador com o perfil “Configurador de Integração” no sistema Sydle. O detentor deste perfil é responsável por configurar, no Protocolo.GOV.BR, os parâmetros necessários à integração com o webservice do SPE. O órgão deve informar os colaboradores que devem receber o perfil durante o processo de adesão. 
 
-Integração com o SPE
---------------------
+*Integração com o SPE*
 
 Acesse o endereço https://gestao.servicos.gov.br/app/govBr/login e faça o login via gov.br.
 Com o menu lateral Protocolo GOV.BR selecionado, clique no ícone |Icone_Mais-Opcoes| da segunda coluna e, em seguida, na opção Cadastrar web service.
