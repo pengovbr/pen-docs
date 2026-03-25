@@ -132,12 +132,8 @@ Esta é a última etapa a ser preenchida no cadastro de uma solicitação. Nela 
 
 Clique no ícone |Icone_Check| para concluir o cadastro de sua solicitação. Uma mensagem de confirmação será exibida no canto superior direito da tela.
 
-.. |Icone_Check| image:: _static/images/Icone_Check.png
-   :align: middle
-   :width: 30
 
   **Atenção!**
-
   As solicitações cadastradas pelo órgão ficarão visíveis na coluna do meio na tela do colaborador com perfil de configurador de solicitação. Para gerar o link da solicitação, basta clicar nela e, depois, no ícone |Icone_Link-solicitacao|.
 
 
@@ -147,5 +143,9 @@ Clique no ícone |Icone_Check| para concluir o cadastro de sua solicitação. Um
 
 
 .. |Icone_Link-solicitacao| image:: _static/images/Icone_Link-solicitacao.png
+   :align: middle
+   :width: 30
+
+.. |Icone_Check| image:: _static/images/Icone_Check.png
    :align: middle
    :width: 30
