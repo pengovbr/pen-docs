@@ -5,7 +5,7 @@ Acesse o endereço https://gestao.servicos.gov.br/app/govBr/login e faça o logi
 
 Com o menu lateral esquerdo Protocolo GOV.BR > Protocolar documentos Gov.Br selecionado, será possível visualizar, na coluna do meio, o card com as solicitações recebidas.
 
-Ao selecionar a solicitação desejada, as atividades são sinalizadas em cards da seguinte forma:
+Ao selecionar a solicitação desejada, a coluna da direita exibirá as informações da solicitação. As atividades são sinalizadas em cards da seguinte forma: 
 
 - **Pendente**: Atividades pendentes de triagem;
 
@@ -52,3 +52,6 @@ Esta funcionalidade está disponível na coluna do meio da tela do atendente. Pa
 .. |Icone_Filtro| image:: _static/images/Icone_Filtro.png
    :align: middle
    :width: 30
+
+
+.. figure:: _static/images/01_Triagem_filtros.gif 
