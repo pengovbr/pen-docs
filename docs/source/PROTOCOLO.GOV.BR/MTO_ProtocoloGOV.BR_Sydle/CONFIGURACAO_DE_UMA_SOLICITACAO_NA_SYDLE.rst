@@ -30,13 +30,11 @@ Na coluna da direita, a tela “Parâmetro de método: Cadastrar tipo de solicit
 
 .. figure:: _static/images/01_Cadastrar_Tipo-de-Solicitacao01.gif 
 
-**Será realizada triagem pelo Protocolo?** Aqui, defina se será realizada a triagem pela equipe de Protocolo clicando em “Sim” ou “Não”. Caso seja marcado com a opção “Sim”, as solicitações enviadas por meio do Protocolo GOV.BR serão direcionadas para o ambiente de triagem do Sistema, sendo necessária a análise pelo setor de Protocolo antes do envio ao SPE, cuja equipe deve ser credenciada com o respectivo perfil de acesso.
+**Será realizada triagem pelo Protocolo?** Aqui, defina se será realizada a triagem pela equipe de Protocolo clicando em “Sim” ou “Não”. 
 
-Se você marcar “Sim”, será exibida a pergunta : “Será permitido envio da solicitação para o SPE?”. Clique em “Sim” ou “Não”;
+Caso seja marcado com a opção “Sim”, as solicitações enviadas por meio do Protocolo.GOV.BR serão direcionadas para o ambiente de triagem do Sistema, sendo necessária a análise pelo setor de Protocolo. Será habilitado o campo “Será permitido envio da solicitação para o SPE?”. Ao clicar em “Sim”, será habilitado o campo “Parâmetros para integração com o SPE”. 
 
-Caso seja marcado com a opção “Sim”, as solicitações enviadas por meio do Protocolo.GOV.BR serão direcionadas para o ambiente de triagem do Sistema, sendo necessária a análise pelo setor de Protocolo . Será habilitado o campo “Será permitido envio da solicitação para o SPE?”. Ao clicar em “Sim”, será habilitado o campo “Parâmetros para integração com o SPE”. 
-
-Caso seja marcado com a opção “Não”, a solicitação será enviada diretamente para o SPE do órgão ou entidade, sem a necessidade de análise por parte do setor de protocolo. Será exibida a pergunta : “Manter solicitação aberta ou fechada?”. Marque a opção “Aberta” caso deseje que a solicitação permaneça aberta no Protocolo.GOV.BR, aguardando o envio da resposta ao solicitante por meio do Módulo de Resposta ou por meio da própria solicitação. Em seguida, no campo “Habilitar Módulo Resposta”, defina se o Módulo será utilizado ou não. Caso deseje que a solicitação seja concluída e o Módulo de Resposta do SEI não seja ativado no SPE, marque a opção “Fechada”. 
+Caso seja marcado com a opção “Não”, a solicitação será enviada diretamente para o SPE do órgão ou entidade, sem a necessidade de análise por parte do setor de protocolo. Será exibida a pergunta: “Manter solicitação aberta ou fechada?”. Marque a opção “Aberta” caso deseje que a solicitação permaneça aberta no Protocolo.GOV.BR, aguardando o envio da resposta ao solicitante por meio do Módulo de Resposta ou por meio da própria solicitação. Em seguida, no campo “Habilitar Módulo Resposta”, defina se o Módulo será utilizado ou não. Caso deseje que a solicitação seja concluída e o Módulo de Resposta do SEI não seja ativado no SPE, marque a opção “Fechada”. 
 
 Em ambos os casos os documentos recebidos são enviados para o SPE e o NUP gerado é informado ao solicitante por e-mail. 
 
@@ -62,7 +60,7 @@ Parâmetros para integração com o SPE:
 
 **Tipo de processo:** Selecione o tipo de processo que será criado quando do envio da solicitação ao SPE;
 
-**Tipo de documento no recibo:** Selecione o tipo de documento que será criado para o recibo da solicitação; O recibo de protocolo será o primeiro documento do processo criado no SPE. Também é o comprovante recebido pelo solicitante quando a solicitação é enviada.
+**Tipo de documento do recibo:** Selecione o tipo de documento que será criado para o recibo da solicitação; O recibo de protocolo será o primeiro documento do processo criado no SPE. Também é o comprovante recebido pelo solicitante quando a solicitação é enviada.
 
 **O solicitante poderá informar protocolo anterior?** Clique em **“Sim”** ou **“Não”** para definir se o solicitante poderá informar o número de um processo já existente.
 
@@ -91,7 +89,9 @@ Clique no ícone |adicionar_docs| e inclua os documentos de anexação obrigató
 Documentação Opcional:
 ++++++++++++++++++++++
 
-Clique no ícone |adicionar_docs| e inclua os documentos de anexação opcional pelo solicitante. Informe o link de orientação sobre o documento, se houver, selecione as extensões de arquivo permitidas e informe o tamanho máximo do documento (MB).
+Clique no ícone |adicionar_docs| e inclua os documentos de anexação opcional pelo solicitante. 
+
+Informe o link de orientação sobre o documento, se houver, selecione as extensões de arquivo permitidas e informe o tamanho máximo do documento (MB).
 
 .. |adicionar_docs| image:: _static/images/Icone_Cadastrar_tipo_de_solicitacao_Adicao.png
    :align: middle
@@ -103,7 +103,7 @@ Clique no ícone |adicionar_docs| e inclua os documentos de anexação opcional 
 Documentação Adicional:
 ++++++++++++++++++++++
 
-Caso haja documentação adicional para inserir, selecione "Sim" para a questão "Solicitante pode anexar documentos adicionais?". Após a seleção, será necessário definir o tamanho máximo do documento (em MB), bem como as extensões permitidas.
+Defina se o solicitante poderá anexar documentos adicionais à solicitação. Caso esta opção seja habilitada, o solicitante poderá inserir qualquer tipo de documento externo cadastrado no SPE do órgão. Caso deseje, defina o limite de tamanho máximo do documento (MB) complementar, bem como as extensões de arquivo permitidas. 
 
   **Atenção!**
 
