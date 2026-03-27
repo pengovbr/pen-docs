@@ -11,7 +11,7 @@ Para acessar a funcionalidade, clique no ícone |IconeSydle_Menu| localizado no 
 
 .. |IconeSydle_Gerenciar-Usuarios| image:: _static/images/IconeSydle_Gerenciar-Usuarios.png
    :align: middle
-   :width: 30
+   :width: 100
 
 .. |IconeSydle_Menu-de-criacao| image:: _static/images/IconeSydle_Menu-de-criacao.png
    :align: middle
@@ -19,7 +19,7 @@ Para acessar a funcionalidade, clique no ícone |IconeSydle_Menu| localizado no 
 
 .. |IconeSydle_Gerenciar-Usuarios-de-um-servico| image:: _static/images/IconeSydle_Gerenciar-Usuarios-de-um-servico.png
    :align: middle
-   :width: 30
+   :width: 150
 
 .. |Icone_Atender| image:: _static/images/Icone_Atender.png
    :align: middle
@@ -28,26 +28,33 @@ Para acessar a funcionalidade, clique no ícone |IconeSydle_Menu| localizado no 
 
 .. figure:: _static/images/Gerenciamento_Usuarios01.gif
 
-**Apontar novo gestor:** Opção que seleciona um novo usuário para ser o gestor de um serviço. Utilizar esta opção para transferir a permissão de gestor de um usuário para outro;
+**Transferir gerência do serviço à outro usuário:** Ao clicar em “Sim”, será possível transferir a permissão de gestor para outro usuário do órgão. Selecione os campos, preencha os dados e confirme a ação. 
+
+Ao clicar em “Não”, será habilitado um campo select para as ações de: 
 
 .. figure:: _static/images/Gerenciamento_Usuarios01-1.gif
 
-**Adicionar usuários:** Nesta opção, é possível realizar o cadastro novos usuários. Preencha os campos conforme orientações abaixo:
-  **Nome:** Nome do novo usuário;
+**Adicionar usuários:** Nesta opção, é possível realizar o cadastro de novos usuários. Será possível realizar o cadastro manualmente ou através da importação de planilha. Para cadastro manual, clique no campo “Novos usuários” e preencha os campos conforme orientações abaixo: 
 
-  **CPF:** Número do CPF;
+**Nome:** Nome do novo usuário;
 
-  **E-mail:** E-mail institucional válido. Para o tipo de e-mail, selecionar “Atendimento”;
+**CPF:** Número do CPF;
 
-  **Órgão alocado:** Selecionar o órgão ao qual o usuário pertence;
+**E-mail:** E-mail institucional válido. Para o tipo de e-mail, selecionar “Atendimento”;
 
-  **Atribuições:** Selecionar as atribuições do usuário;
+**Órgão alocado:** Selecionar o órgão ao qual o usuário pertence;
 
-  **Cargos em Gestão de OS:** Caso o usuário seja um agente do processo Gestão de OS, selecione nesta coluna a atribuição.
+**Atribuições:** Selecionar as atribuições do usuário;
 
-    **Atenção:**
+**Cargos em Gestão de OS:** Caso o usuário seja um agente do processo Gestão de OS, selecione nesta coluna a atribuição.
+
+  **Atenção:**
     
-    Para adicionar mais de um usuário, basta clicar no ícone  .
+  Para adicionar mais de um usuário, basta clicar no ícone |Icone_Adicionar_Usuario|.
+
+.. |Icone_Adicionar_Usuario| image:: _static/images/Icone_Adicionar_Usuario.png
+   :align: middle
+   :width: 30
 
 Após finalizar o preenchimento, um novo card com status |IconeSydle_Confirmacao_Pendente|  será criado ao lado do card com status  |IconeSydle_Confirmacao_Concluido|. 
 
@@ -58,17 +65,17 @@ Clique no botão |Icone_Atender| e confirme as ações, finalizando o processo.
 
 .. |IconeSydle_Confirmacao_Pendente| image:: _static/images/IconeSydle_Confirmacao_Pendente.png
    :align: middle
-   :width: 30
+   :width: 150
 
 .. |IconeSydle_Confirmacao_Concluido| image:: _static/images/IconeSydle_Confirmacao_Concluido.png
    :align: middle
-   :width: 30
+   :width: 150
 
 .. |Icone_Atender| image:: _static/images/Icone_Atender.png
    :align: middle
    :width: 30
 
-Alterar dados dos usuários: Aqui, é possível alterar/atualizar as informações de um ou mais usuários.
+**Alterar dados dos usuários:** Aqui, é possível alterar/atualizar as informações de um ou mais usuários.
 Selecione o usuário e realize as alterações necessárias.
 
 .. figure:: _static/images/Gerenciamento_Usuarios03.gif
