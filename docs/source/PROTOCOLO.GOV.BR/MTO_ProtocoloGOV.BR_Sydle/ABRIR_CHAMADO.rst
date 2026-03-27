@@ -31,6 +31,6 @@ Preencha os campos, anexe evidências do problema e clique em |Icone_Check|.
 
 **- Na plataforma do GOV.BR:**
 
-Registre um chamado no Atendimento gov.br por meio do endereço https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/atendimento-gov.br/duvidas-na-plataforma-de-automacao/gestor-do-servico/solicitar-suporte/registrar-um-chamado
+Registre um chamado no Atendimento gov.br por meio do endereço https://www.gov.br/governodigital/pt-br/estrategias-e-governanca-digital/transformacao-digital/ferramentas/automacao-de-servicos/duvidas-na-plataforma-de-automacao/gestor-do-servico/automacao-e-sustentacao-de-servicos/solicitar-apoio-tecnico-na-plataforma-de-automacao 
 
 .. figure:: _static/images/01_Abrir-Chamado02.gif
