@@ -19,5 +19,6 @@ O processo enviado para o SPE deverá conter, como primeiro documento, o recibo 
     
   .. figure:: _static/images/01_Conferindo_processo02.gif 
 
-
+..
+  
   -	A área responsável pela análise da demanda entre em contato direto com o cidadão para solicitar ajustes ou informar o resultado de sua solicitação, através do uso do Módulo Resposta. 
