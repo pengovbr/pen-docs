@@ -51,8 +51,8 @@ A combinação das opções selecionadas oferece cinco cenários:
 - Sem triagem pelo Protocolo + Solicitação Fechada 
 
 
-Parâmetros para integração com o SPE:
-+++++++++++++++++++++++++++++++++++++
+**Parâmetros para integração com o SPE:**
+
 
 **Web Service:** Selecione o web service cadastrado na etapa de criar webservice;
 
@@ -73,8 +73,8 @@ Parâmetros para integração com o SPE:
 
 .. figure:: _static/images/01_Parametros_para_integracao_SPE.gif
 
-Documentação obrigatória:
-+++++++++++++++++++++++++
+**Documentação obrigatória:**
+
 
 Clique no ícone |adicionar_docs| e inclua os documentos de anexação obrigatória pelo solicitante. Neste campo, você deve cadastrar ao menos um tipo de documento. Informe o link de orientação sobre o documento, se houver, selecione as extensões de arquivo permitidas e informe o tamanho máximo do documento (MB).
 
@@ -86,8 +86,8 @@ Clique no ícone |adicionar_docs| e inclua os documentos de anexação obrigató
 .. figure:: _static/images/01_Parametros_para_integracao_SPE_doc-obrigatoria.gif 
 
 
-Documentação Opcional:
-++++++++++++++++++++++
+**Documentação Opcional:**
+
 
 Clique no ícone |adicionar_docs| e inclua os documentos de anexação opcional pelo solicitante. 
 
@@ -100,8 +100,8 @@ Informe o link de orientação sobre o documento, se houver, selecione as extens
 .. figure:: _static/images/01_Parametros_para_integracao_SPE_doc-opcional.gif 
 
 
-Documentação Adicional:
-++++++++++++++++++++++
+**Documentação Adicional:**
+
 
 Defina se o solicitante poderá anexar documentos adicionais à solicitação. Caso esta opção seja habilitada, o solicitante poderá inserir qualquer tipo de documento externo cadastrado no SPE do órgão. Caso deseje, defina o limite de tamanho máximo do documento (MB) complementar, bem como as extensões de arquivo permitidas. 
 
@@ -115,8 +115,8 @@ Defina se o solicitante poderá anexar documentos adicionais à solicitação. C
 
 
 
-Configuração de informações adicionais:
-+++++++++++++++++++++++++++++++++++++++
+**Configuração de informações adicionais:**
+
 
 Nesta etapa, é possível definir se o solicitante deverá anexar procuração caso esteja protocolando em nome de terceiros, bem como se o solicitante pode inserir informação adicional que acredite ser pertinente para análise de sua solicitação. Caso opte por habilitar o campo para que solicitante possa incluir informações adicionais no formulário - visível para o atendente da triagem - marque a opção “SIM”. Caso seja marcado “NÃO” o campo não estará disponível no formulário do solicitante.
 
@@ -125,8 +125,8 @@ Nesta etapa, é possível definir se o solicitante deverá anexar procuração c
 
 
 
-Templates de notificações para o cidadão:
-+++++++++++++++++++++++++++++++++++++++++
+**Templates de notificações para o cidadão:**
+
 
 Esta é a última etapa a ser preenchida no cadastro de uma solicitação. Nela estão pré-configuradas mensagens de envio automático ao cidadão em cada etapa do processo: Abertura de solicitação, encerramento de solicitação pelo atendente, resultado e conclusão, solicitação de ajustes e upload para o SPE. As mensagens podem ser personalizadas conforme a preferência de cada órgão.
 
