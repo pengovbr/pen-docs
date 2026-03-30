@@ -8,3 +8,4 @@ MANUAIS PROTOCOLO GOV.BR
    :maxdepth: 3
   
    MANUAL_TECNICO_OPERACIONAL/index
+   MTO_ProtocoloGOV.BR_Sydle/index
