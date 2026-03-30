@@ -21,8 +21,3 @@ O módulo permite à equipe técnica:
   **Atenção:**
 
   -	Para acessar o resultado, o cidadão deverá obrigatoriamente, via Protocolo GOV.BR, aceitar o termo de ciência exibido. Este termo será automaticamente incluído no processo no SPE como comprovação do aceite do cidadão. 
-
-
-Inclusão do termo:
-
-.. figure:: _static/images/Modulo-resposta03.gif
