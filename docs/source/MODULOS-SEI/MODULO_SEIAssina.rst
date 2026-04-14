@@ -223,3 +223,86 @@ O módulo também possibilita que o usuário externo assine documentos internos 
 
  **OBS3: A utilização de assinatura com carimbo de tempo pelo usuário externo é habilitada pelo Administrador do SEI, a partir da versão 1.4.0.**
 
+
+
+8.	FICHA CATALOGRÁFICA
+----------------------
+
+
+**Normalização Bibliográfica: Biblioteca do Ministério da Gestão e da Inovação em Serviços Públicos**
+
+::
+  
+   
+            Brasil. Ministério da Gestão e da Inovação em Serviços Públicos. Secretaria  
+         de Gestão e Inovação.  
+                                                
+            Manual de utilização do módulo de assinatura eletrônica / Ministério da 
+         Gestão e da Inovação em Serviços Públicos, Secretaria de Gestão e Inovação. -- 
+         Brasília : Coordenação de Interoperabilidade e Governança de Dados/ 
+         DTGES/SEGES/MGI, 2026.
+                1 v. : il.                                                                      
+                                                                                             
+             1. Assinatura eletrônica. 2. Documentos eletrônicos. 3. Carimbo de tempo. 
+         4. Validação de assinatura eletrônica. 5. Usuários externos. 6. Processo eletrônico 
+         nacional. . 7. Administração pública federal. I. Título.   
+            
+
+                                                                           
+                                                                           CDU - 004.056.55:35.077 
+
+
+      
+
+9.	CRÉDITOS
+-----------
+
+
+**Ministra de Estado da Gestão e da Inovação em Serviços Públicos** 
+
+* Esther Dweck 
+
+**Secretaria de Gestão e Inovação** 
+
+* Roberto Seara Machado Pojo Rego 
+
+**Secretária Adjunta de Gestão e Inovação** 
+
+* Regina Lemos de Andrade  
+
+**Diretoria de Transformação Digital em Processo Eletrônico e Sistemas de Gestão** 
+
+**Diretoria**
+
+* Priscila Andressa Corrêa Cabral
+
+**Coordenação-Geral de Sistema de Processo Eletrônico** 
+
+**Coordenador-Geral** 
+
+* Higo Maiquel Caldas Cavalcante 
+
+**Coordenação de Interoperabilidade e Governança de Dados**
+
+**Coordenador**
+
+* Vinícius Rafael Lobo de Mendonça
+
+**Equipe Técnica** 
+
+* Caio Fellipe De Oliveira Martins 
+* Cristiana Gontijo Maciel Cafagna 
+* Hudson Soares Leite Junior
+* Mateus Michetti Vital e Silva 
+* Yuri Álisson Rodrigues de Oliveira
+
+**Revisão** 
+
+* Cíntia Aparecida de Moura e Silva Gualberto 
+* Vinícius Rafael Lôbo de Mendonça  
+
+**Editoração e Arte** 
+
+* Brenda Grazielle Mercês Silva 
+* Mônica Yumi Harada
+* Rodrigo Massamitsu Hideshima 
