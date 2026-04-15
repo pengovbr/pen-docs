@@ -1,12 +1,19 @@
-Solicitação de credenciais para uso do módulo Assinatura Avançada
-=================================================================
+Solicitação de credenciais para uso do Módulo de Assinatura Eletrônica
+======================================================================
 
 Introdução
 ----------
 
-A solicitação de credenciais é uma das etapas necessárias para utilização do módulo **Assinatura Avançada do SEI**. A solicitação é feita junto à Secretaria de Governo Digital do Ministério da Gestão e da Inovação em Serviços Públicos (SGD/MGI) por meio do `Serviço de Integração aos Produtos de Identidade Digital GOV.BR <https://www.gov.br/governodigital/pt-br/estrategias-e-governanca-digital/transformacao-digital/servico-de-integracao-aos-produtos-de-identidade-digital-gov.br>`_.
+A solicitação de credenciais é uma das etapas necessárias para utilização do Módulo de **Assinatura Eletrônica do SEI**. A solicitação é feita junto à Secretaria de Governo Digital do Ministério da Gestão e da Inovação em Serviços Públicos (SGD/MGI) por meio do `Serviço de Integração aos Produtos de Identidade Digital GOV.BR <https://www.gov.br/governodigital/pt-br/estrategias-e-governanca-digital/transformacao-digital/servico-de-integracao-aos-produtos-de-identidade-digital-gov.br>`_.
 
-Neste tutorial, abordaremos os passos necessários para solicitar as credenciais para os ambientes de homologação e produção para a Assinatura Avançada.
+ **ATENÇÃO:**
+ 
+ A integração com Assinatura Avançada do GOV.BR depende da integração do GOV.BR. Por isso, antes de continuar com a solicitação da credencial da assinatura, tenha a outra credencial. Para mais informações de como solicitar a credencial GOV.BR, `clique aqui <https://www.gov.br/governodigital/pt-br/identidade/identidade-digital-para-gestores-publicos>`_ .
+
+
+
+Nesse tutorial, abordaremos os passos necessários para solicitar as credenciais para os ambientes de homologação e produção.
+
 
 1ª ETAPA – Solicitação
 ----------------------
@@ -15,22 +22,32 @@ Neste tutorial, abordaremos os passos necessários para solicitar as credenciais
 
 02. Clicar no botão “Iniciar”
 
+Imagem 1 – página inicial:
+
 .. figure:: _static/images/AssinAvan_01-Solicitacao_Iniciar.png
 
 03. Fazer login com a conta GOV.BR do agente público (preferencialmente um servidor público efetivo ou comissionado)
 
+Imagem 2 – tela de login:
+
 .. figure:: _static/images/AssinAvan_01-Solicitacao_Login_GOVBR.png
  
-04. Preencher os dados do solicitante e do órgão/entidade
+04. Preencher os dados do Órgão e do Requisitante:
+
+Imagem 3 - dados órgão e requisitante:
 
 .. figure:: _static/images/AssinAvan_01-Solicitacao_Dados-Org-Solicit.png
 
 05. Preencher os dados do Responsável Negocial e do Responsável Técnico 
  
+	Imagem 4 – dados funcionais:
+
 .. figure:: _static/images/AssinAvan_01-Solicitacao_Dados-Funcionais.png
  
-06. Preencher o Questionário, conforme abaixo
- 
+06. Preencher o Questionário abaixo
+
+Imagem 5 – questionário:
+
 .. figure:: _static/images/AssinAvan_01-Solicitacao_Questionario.png
  
 
