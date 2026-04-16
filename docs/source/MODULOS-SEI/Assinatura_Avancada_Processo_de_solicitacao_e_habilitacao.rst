@@ -57,7 +57,7 @@ Imagem 5 – questionário:
 
 .. admonition:: ATENÇÃO!
 
-  "A integração com Assianatura Avançada do GOV.BR depende da integração do GOV.BR. Por isso, antes de continuar com a solicitação da credencial da assinatura, tenha a outra credencial. Para mais informações de como solicitar a credencial GOV.BR, clique aqui!"
+  "A integração com Assianatura Avançada do GOV.BR depende da integração do GOV.BR. Por isso, antes de continuar com a solicitação da credencial da assinatura, tenha a outra credencial. Para mais informações de como solicitar a credencial GOV.BR, `clique aqui <https://www.gov.br/governodigital/pt-br/identidade/identidade-digital-para-gestores-publicos>`_ !"
 
 
 Imagem 6 – produto assinatura:
@@ -88,9 +88,14 @@ Imagem 7 – instruções:
 
    "SEI Assinatura Avançada - <Adicionar o Nome do Órgão>"
 
-.. admonition:: Descreva os benefícios ofertados ao cidadão
+.. admonition:: Descreva os benefícios ofertados à sociedade
 
    "Possibilitar a assinatura de documentos no SEI com emprego de assinatura avançada."
+
+.. admonition:: Descreva os benefícios ofertados à sociedade
+
+   "Documentos internos (produzidos dentro do SEI) e documentos externos."
+
 
 10. Preencher os campos sobre volumetria, sazonalidade e anexar a chave pública PGP
    
