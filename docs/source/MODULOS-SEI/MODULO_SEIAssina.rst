@@ -251,11 +251,15 @@ O módulo também possibilita que o usuário externo assine documentos internos 
                                                                            
                                                                            CDU - 004.056.55:35.077 
 
+**Permite-se a reprodução desta publicação, em parte ou no todo, desde que citada a fonte e sem fins comerciais.**
 
-      
+
+     
 
 9.	CRÉDITOS
 -----------
+
+.. figure:: _static/images/Escudo_MGI.png
 
 
 **Ministra de Estado da Gestão e da Inovação em Serviços Públicos** 
@@ -306,3 +310,7 @@ O módulo também possibilita que o usuário externo assine documentos internos 
 * Brenda Grazielle Mercês Silva 
 * Mônica Yumi Harada
 * Rodrigo Massamitsu Hideshima 
+
+
+*Caderno do PEN: Manual de Utilização do Módulo de Assinatura Eletrônica. Brasília, 2025.*
+
