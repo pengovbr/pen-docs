@@ -1,4 +1,4 @@
-Manual de Configuração do NIPE no SEI
+MANUAL DE CONFIGURAÇÃO DO NIPE NO SEI
 =====================================
 
 
