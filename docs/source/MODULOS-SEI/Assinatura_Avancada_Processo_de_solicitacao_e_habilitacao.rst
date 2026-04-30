@@ -1,14 +1,15 @@
-Solicitação de credenciais para uso do Módulo de Assinatura Eletrônica
-======================================================================
+Solicitação de credenciais para uso do Módulo Assinatura Eletrônica
+===================================================================
 
 Introdução
 ----------
 
-A solicitação de credenciais é uma das etapas necessárias para utilização do Módulo de **Assinatura Eletrônica do SEI**. A solicitação é feita junto à Secretaria de Governo Digital do Ministério da Gestão e da Inovação em Serviços Públicos (SGD/MGI) por meio do `Serviço de Integração aos Produtos de Identidade Digital GOV.BR <https://www.gov.br/governodigital/pt-br/estrategias-e-governanca-digital/transformacao-digital/servico-de-integracao-aos-produtos-de-identidade-digital-gov.br>`_.
+A solicitação de credenciais é uma das etapas necessárias para utilização do Módulo **Assinatura Eletrônica do SEI**. A solicitação é feita junto à Secretaria de Governo Digital do Ministério da Gestão e da Inovação em Serviços Públicos (SGD/MGI) por meio do `Serviço de Integração aos Produtos de Identidade Digital GOV.BR <https://www.gov.br/governodigital/pt-br/estrategias-e-governanca-digital/transformacao-digital/servico-de-integracao-aos-produtos-de-identidade-digital-gov.br>`_.
 
  **ATENÇÃO:**
  
- A integração com Assinatura Avançada do GOV.BR depende da integração do GOV.BR. Por isso, antes de continuar com a solicitação da credencial da assinatura, tenha a outra credencial. Para mais informações de como solicitar a credencial GOV.BR, `clique aqui <https://www.gov.br/governodigital/pt-br/identidade/identidade-digital-para-gestores-publicos>`_ .
+ Para implementar a Assinatura Avançada do GOV.BR, é imprescindível a prévia integração com o Login GOV.BR. 
+ Para mais informações, `clique aqui <https://www.gov.br/governodigital/pt-br/identidade/identidade-digital-para-gestores-publicos>`_ .
 
 
 
@@ -22,31 +23,26 @@ Nesse tutorial, abordaremos os passos necessários para solicitar as credenciais
 
 02. Clicar no botão “Iniciar”
 
-Imagem 1 – página inicial:
 
 .. figure:: _static/images/AssinAvan_01-Solicitacao_Iniciar.png
 
 03. Fazer login com a conta GOV.BR do agente público (preferencialmente um servidor público efetivo ou comissionado)
 
-Imagem 2 – tela de login:
 
 .. figure:: _static/images/AssinAvan_01-Solicitacao_Login_GOVBR.png
  
 04. Preencher os dados do Órgão e do Requisitante:
 
-Imagem 3 - dados órgão e requisitante:
 
 .. figure:: _static/images/AssinAvan_01-Solicitacao_Dados-Org-Solicit.png
 
 05. Preencher os dados do Responsável Negocial e do Responsável Técnico 
  
-Imagem 4 – dados funcionais:
 
 .. figure:: _static/images/AssinAvan_01-Solicitacao_Dados-Funcionais.png
  
 06. Preencher o Questionário abaixo
 
-Imagem 5 – questionário:
 
 .. figure:: _static/images/AssinAvan_01-Solicitacao_Questionario.png
  
@@ -60,7 +56,6 @@ Imagem 5 – questionário:
   "A integração com Assianatura Avançada do GOV.BR depende da integração do GOV.BR. Por isso, antes de continuar com a solicitação da credencial da assinatura, tenha a outra credencial. Para mais informações de como solicitar a credencial GOV.BR, `clique aqui <https://www.gov.br/governodigital/pt-br/identidade/identidade-digital-para-gestores-publicos>`_ !"
 
 
-Imagem 6 – produto assinatura:
 
 .. figure:: _static/images/AssinAvan_01-Solicitacao_Prod_Interesse_Homologacao_1.png
    
@@ -71,7 +66,7 @@ Imagem 6 – produto assinatura:
 
 .. admonition:: Descrição/Objetivo do Sistema
 
-   "O Módulo de Assinatura Eletrônica permite a assinatura de documentos no SEI com emprego de assinatura avançada."
+   "O Módulo Assinatura Eletrônica permite a assinatura de documentos no SEI com emprego de assinatura avançada."
 
 .. admonition:: Público Alvo
 	
@@ -80,7 +75,6 @@ Imagem 6 – produto assinatura:
 
 09. Preencher os dados sobre o serviço a ser integrado e em seguida clicar em “ADICIONAR DADOS NA TABELA +”
 
-Imagem 7 – instruções:
 
 .. figure:: _static/images/AssinAvan_01-Solicitacao_Servico.png
  
@@ -99,7 +93,6 @@ Imagem 7 – instruções:
 
 10. Preencher os campos sobre volumetria, sazonalidade e anexar a chave pública PGP
    
- Imagem 8 – volumetria:
 
 .. figure:: _static/images/AssinAvan_01-Solicitacao_Servico2.png
 
@@ -110,7 +103,6 @@ Imagem 7 – instruções:
 
 11. Preencher a URL de retorno em homologação e em seguida clicar em “ADICIONAR DADOS NA TABELA +”
 
-Imagem 9 – url retorno homolog:
 
 .. figure:: _static/images/AssinAvan_01-Solicitacao_Chaves_URLs.png
 
@@ -126,14 +118,12 @@ Imagem 9 – url retorno homolog:
 
 13. Aceitar os termos e clicar em “Enviar solicitação”, aguardando o prazo de até 10 dias úteis para retorno deste primeiro formulário, onde o processo ficará com o status 3 “Análise/Aprovação”
 
-Imagem 10 - termo de uso:
 
 .. figure:: _static/images/AssinAvan_01-Solicitacao_CienciaTermos_EnvioSolicitacao.png
 
 
 14. A solicitação ficará na fase 3 “Análise/Aprovação”. Aguardar o prazo de até 10 dias úteis para retorno deste primeiro formulário. 
 
-Imagem 11 - fase 3:
 
 .. figure:: _static/images/AssinAvan_01-Solicitacao_CienciaTermos_EnvioSolicitacao_Status3.png
 
@@ -143,7 +133,6 @@ Imagem 11 - fase 3:
 
 16. Se houver ocorrido a alteração da fase 3 “Análise/Aprovação” para outra fase, conforme imagem abaixo, clicar em “Ver” para dar andamento à solicitação. Caso a fase não tenha sido alterada, continuar verificando dentro do prazo de 10 dias úteis.
 
-Imagem 12 - fase 4:
 
 .. figure:: _static/images/AssinAvan_01-Solicitacao_CienciaTermos_EnvioSolicitacao_Status4.png
 
@@ -153,28 +142,24 @@ Imagem 12 - fase 4:
 
 .. admonition:: ATENÇÃO! 
 
-   "Orientações adicionais estão disponíveis no Manual de Instalação e Configuração do Módulo de Assinatura Eletrônica do SEI."
+   "Orientações adicionais estão disponíveis no Manual de Instalação e Configuração do Módulo Assinatura Eletrônica do SEI."
 
 
-Imagem 13 - análise homolog:
  
 .. figure:: _static/images/AssinAvan_02-Finalizacao_Analise_Prod_Homol-Consideracoes02.png
 
 18. Localizar a sessão “Produto de Identidade Digital de Interesse” e informar o “Nome do Sistema (Produção)”
 
-Imagem 14 – produto:
 
 .. figure:: _static/images/AssinAvan_02-cod_ClientID-Secret.png
 
 19. Informar a “URL Produção” e clicar em “ADICIONAR DADOS NA TABELA +”
 
-Imagem 15 – url produção:
 
 .. figure:: _static/images/AssinAvan_02-Finalizacao_URLProd.png
 
 20. Anexar as evidências do funcionamento do módulo em ambiente de homologação 
 
-Imagem 16 – evidências:
 
 .. figure:: _static/images/AssinAvan_02-Finalizacao_Evidencias.png
 
@@ -182,7 +167,6 @@ Imagem 16 – evidências:
 
 21. Registrar ciência nos termos, conforme abaixo
 
-Imagem 17 – termo:
 
 .. figure:: _static/images/AssinAvan_02-Finalizacao_Termo.png
 
@@ -190,7 +174,6 @@ Imagem 17 – termo:
 
 22. Localizar a sessão “Enviar dados/Dúvidas” e selecionar a opção “Enviar Dados de Produção” conforme exemplo
 
-Imagem 18 – enviar dados:
 
 .. figure:: _static/images/AssinAvan_02-Finalizacao_EnviarDadosProd02.png
 
@@ -198,7 +181,6 @@ Imagem 18 – enviar dados:
 
 24.	A solicitação ficará na fase 5 “Desenvolvimento”. Aguardar o prazo de até 8 dias úteis.
 
-Imagem 19 – fase 5:
 
 .. figure:: _static/images/AssinAvan_02-Finalizacao_status5.png
 
@@ -214,7 +196,6 @@ Imagem 19 – fase 5:
 
 26.	Se houver ocorrido a alteração da fase 5 “Desenvolvimento” para a fase 6 “Análise para credencial de produção”, conforme imagem abaixo, clicar em “Ver” para dar andamento à solicitação. Caso a fase não tenha sido alterada, continuar verificando dentro do prazo de 8 dias úteis.
 
-Imagem 20 – fase 6:
 
 .. figure:: _static/images/AssinAvan_02-Finalizacao_status6.png
 
@@ -222,15 +203,13 @@ Imagem 20 – fase 6:
 
 .. admonition:: Atenção
 
-   "Orientações adicionais estão disponíveis no `Manual de Instalação e Configuração <https://manuais.processoeletronico.gov.br/pt-br/homologacao/MODULOS-SEI/Modulo_resposta.html>`_do Módulo de Assinatura Eletrônica do SEI."
+   "Orientações adicionais estão disponíveis no `Manual de Instalação e Configuração <https://manuais.processoeletronico.gov.br/pt-br/homologacao/MODULOS-SEI/Modulo_resposta.html>`_do Módulo Assinatura Eletrônica do SEI."
 
-Imagem 21 – análise produção:
 
 .. figure:: _static/images/AssinAvan_02-analise-producao.png
 
 28.	Localizar a sessão “Disponibilização do serviço” e informar a “Data em que o serviço foi disponibilizado para a sociedade”.
 
-Imagem 22 – disponibilização:
 
 .. figure:: _static/images/AssinAvan_02-Disponibilizacao.png
 
