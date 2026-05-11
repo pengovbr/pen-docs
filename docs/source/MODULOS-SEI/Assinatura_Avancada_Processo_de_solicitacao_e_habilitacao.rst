@@ -53,7 +53,7 @@ Nesse tutorial, abordaremos os passos necessários para solicitar as credenciais
 
 .. admonition:: ATENÇÃO!
 
-  "A integração com Assianatura Avançada do GOV.BR depende da integração do GOV.BR. Por isso, antes de continuar com a solicitação da credencial da assinatura, tenha a outra credencial. Para mais informações de como solicitar a credencial GOV.BR, `clique aqui <https://www.gov.br/governodigital/pt-br/identidade/identidade-digital-para-gestores-publicos>`_ !"
+  "A integração com Assinatura Avançada do GOV.BR depende da integração do GOV.BR. Por isso, antes de continuar com a solicitação da credencial da assinatura, tenha a outra credencial. Para mais informações de como solicitar a credencial GOV.BR, `clique aqui <https://www.gov.br/governodigital/pt-br/identidade/identidade-digital-para-gestores-publicos>`_ !"
 
 
 
@@ -116,7 +116,7 @@ Nesse tutorial, abordaremos os passos necessários para solicitar as credenciais
 12. Clicar em "CONFIRMAR DADOS"
 
 
-13. Aceitar os termos e clicar em “Enviar solicitação”, aguardando o prazo de até 10 dias úteis para retorno deste primeiro formulário, onde o processo ficará com o status 3 “Análise/Aprovação”
+13. Aceitar os termos e clicar em “Enviar solicitação”
 
 
 .. figure:: _static/images/AssinAvan_01-Solicitacao_CienciaTermos_EnvioSolicitacao.png
@@ -142,7 +142,7 @@ Nesse tutorial, abordaremos os passos necessários para solicitar as credenciais
 
 .. admonition:: ATENÇÃO! 
 
-   "Orientações adicionais estão disponíveis no Manual de Instalação e Configuração do Módulo Assinatura Eletrônica do SEI."
+   **Orientações adicionais estão disponíveis no Manual de Instalação e Configuração do Módulo Assinatura Eletrônica do SEI.**
 
 
  
@@ -203,7 +203,7 @@ Nesse tutorial, abordaremos os passos necessários para solicitar as credenciais
 
 .. admonition:: Atenção
 
-   "Orientações adicionais estão disponíveis no `Manual de Instalação e Configuração <https://manuais.processoeletronico.gov.br/pt-br/homologacao/MODULOS-SEI/Modulo_resposta.html>`_do Módulo Assinatura Eletrônica do SEI."
+   Orientações adicionais estão disponíveis no `Manual de Instalação e Configuração <https://manuais.processoeletronico.gov.br/pt-br/homologacao/MODULOS-SEI/Modulo_resposta.html>`_ do Módulo Assinatura Eletrônica do SEI.
 
 
 .. figure:: _static/images/AssinAvan_02-analise-producao.png
@@ -223,4 +223,4 @@ Orientações gerais:
 
 • Caso algum dado de produção informado esteja errado, o solicitante receberá um retorno nos e-mails cadastrados no formulário, para correção do problema;
 • Caso o processo de solicitação de credenciais esteja parado por mais de 10 dias úteis na mesma etapa, favor enviar um e-mail para o endereço integracaoid@gestao.gov.br, informando o número da solicitação e explicando o ocorrido;
-• Em caso de dúvidas técnicas sobre o preenchimento do formulário, favor enviar um e-mail para o endereço: integracao-acesso-govbr@economia.gov.br; 
+• Em caso de dúvidas técnicas sobre o preenchimento do formulário, favor enviar um e-mail para o endereço: integracao-acesso-govbr@gestao.gov.br; 
