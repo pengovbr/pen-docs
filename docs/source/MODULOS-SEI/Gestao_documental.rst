@@ -94,15 +94,6 @@ O módulo Gestão Documental do SEI inclui dois novos perfis no SEI, que **devem
 No Sistema Eletrônico de Informações (SEI)
 ++++++++++++++++++++++++++++++++++++++++++++++
 
-Acervo Global
-^^^^^^^^^^^^^^
-
-Esta funcionalidade lista os processos sem andamentos abertos e cujas todas as unidades por onde eles tramitaram encontram-se desativadas.
-
-Acesse o menu Administração > Gestão documental > Acervo Global
-
-.. figure:: _static/images/GIF_Acervo_Global.gif
-
 
 Configurações da Gestão Documental
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -145,6 +136,15 @@ O sistema foi desenvolvido cumprindo as normativas de gestão documental expedid
 .. admonition:: ATENÇÃO 
 
    Na atual versão do Módulo as atividades referentes à destinação englobam apenas a eliminação. O recolhimento estará disponível na próxima versão do Módulo.
+
+Acervo Global
++++++++++++++
+
+Esta funcionalidade lista os processos sem andamentos abertos e cujas todas as unidades por onde eles tramitaram encontram-se desativadas.
+
+Acesse o menu Administração > Gestão documental > Acervo Global
+
+.. figure:: _static/images/GIF_Acervo_Global.gif
 
 Menu Pendências de Arquivamento
 ++++++++++++++++++++++++++++++++
@@ -444,10 +444,3 @@ Gestão das Listagens de Recolhimento
 ++++++++++++++++++++++++++++++++++++
 
 Esta funcionalidade estará disponível a partir da próxima versão do módulo.
-
-
-
-
-
-
-
