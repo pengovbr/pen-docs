@@ -370,8 +370,8 @@ Para concluir a edição da listagem, clique no ícone |Icone_Concluir_Edicao_da
 
 .. admonition:: ATENÇÃO
 
-O fluxo de eliminação de documentos, conforme a legislação vigente no âmbito dos órgãos e entidades do Poder Executivo Federal, envolve a realização de etapas externas ao Módulo GD. Dentre essas etapas, destacam-se a inclusão da ata da reunião da Comissão Permanente de Avaliação de Documentos (CPAD) no processo de eliminação no SEI, com a aprovação da Listagem de Eliminação de Documentos (LED), bem como o encaminhamento dessa listagem para aprovação pelo Arquivo Nacional.
-Para mais informações sobre as CPADs e eliminação de documentos, consulte o `Decreto nº 10.148, de 2 de dezembro de 2019 <https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/decreto/d10148.htm>`_ e o `Decreto nº 12.939, de 16 de abril de 2026 <https://www.in.gov.br/en/web/dou/-/decreto-n-12.939-de-16-de-abril-de-2026-700223926>`_.
+O fluxo de eliminação de documentos envolve a realização de etapas externas ao Módulo GD. Dentre essas etapas, destacam-se a inclusão da ata da reunião da Comissão Permanente de Avaliação de Documentos (CPAD) no processo de eliminação no SEI, com a aprovação da Listagem de Eliminação de Documentos (LED), bem como o encaminhamento dessa listagem para aprovação pela instituição arquivística pública em sua esfera de competência.
+Para mais informações sobre as CPADs e eliminação de documentos, consulte em especial o `Decreto nº 10.148, de 2 de dezembro de 2019 <https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/decreto/d10148.htm>`_, o `Decreto nº 12.939, de 16 de abril de 2026 <https://www.in.gov.br/en/web/dou/-/decreto-n-12.939-de-16-de-abril-de-2026-700223926>`_ e a `Resolução nº 40, de 09 de dezembro de 2014 <https://www.gov.br/conarq/pt-br/legislacao-arquivistica/resolucoes-do-conarq/resolucao-no-40-de-9-de-dezembro-de-2014-alterada>`_.
 
 
 Gerar Edital de Ciência de Eliminação
