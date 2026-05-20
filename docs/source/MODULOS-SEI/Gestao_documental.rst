@@ -363,9 +363,13 @@ Para concluir a edição da listagem, clique no ícone |Icone_Concluir_Edicao_da
    :width: 30
 
 
+   É possível excluir as listagens de eliminação antigas clicando no ícone |Icone_Excluir|. Apenas a última listagem gerada no processo não pode ser excluída. Após a assinatura da Listagem de Eliminação será possível gerar o Edital de Ciência de Eliminação de Documentos.
+
 .. admonition:: ATENÇÃO
 
-   É possível excluir as listagens de eliminação antigas clicando no ícone |Icone_Excluir|. Apenas a última listagem gerada no processo não pode ser excluída. Após a assinatura da Listagem de Eliminação será possível gerar o Edital de Ciência de Eliminação de Documentos.
+O fluxo de eliminação de documentos, conforme a legislação vigente no âmbito dos órgãos e entidades do Poder Executivo Federal, envolve a realização de etapas externas ao Módulo GD. Dentre essas etapas, destacam-se a inclusão da ata da reunião da Comissão Permanente de Avaliação de Documentos (CPAD) no processo de eliminação no SEI, com a aprovação da Listagem de Eliminação de Documentos (LED), bem como o encaminhamento dessa listagem para aprovação pelo Arquivo Nacional.
+Para mais informações sobre as CPADs e eliminação de documentos, consulte o `Decreto nº 10.148, de 2 de dezembro de 2019 <https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/decreto/d10148.htm>`_ e o `Decreto nº 12.939, de 16 de abril de 2026 <https://www.in.gov.br/en/web/dou/-/decreto-n-12.939-de-16-de-abril-de-2026-700223926>`_.
+
 
 Gerar Edital de Ciência de Eliminação
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
