@@ -1,0 +1,15 @@
+5. Exemplo Prático de Preenchimento 
+-----------------------------------
+
+Para a Prefeitura de Palmas, a estrutura no SEI seria configurada assim:
+
+1. **Menu Administração > Órgãos:** Localize o órgão de Palmas e preencha o campo Código com 137.
+
+2. **No campo Máscara de Numeração do Órgão:** Cole a máscara: 
+
+17.@cod_orgao_sei_03d@@cod_unidade_sei_03d@.@seq_anual_cod_unidade_sei_06d@/@ano_4d@-@dv_mod11_executivo_federal_2d@
+
+3. **No Cadastro da Unidade (ex: Protocolo Geral):** Informe o "Código da Unidade de Protocolo" como 001.
+
+
+4. **Resultado no Primeiro Processo Gerado:** 17.137001.000001/2026-21.

@@ -1,0 +1,29 @@
+4. Gestão de Unidades e Sequenciais
+-----------------------------------
+
+O NIPE permite flexibilidade na gestão das Unidades Protocolizadoras (UPs).
+
+
+4.1. Múltiplas Unidades em uma mesma UP (Ex: Prefeitura de Palmas)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Se diversas unidades vinculadas às secretarias de Palmas (ex: Finanças, Saúde, Educação) devem compartilhar a mesma numeração sequencial:
+
+* Configuração: No cadastro de cada Unidade no SEI, o campo "Código da Unidade de Protocolo" deve ser preenchido com o mesmo valor (ex: 001).
+
+* Resultado: O sistema manterá um sequencial único para todas essas unidades.
+
+
+
+
+
+4.2. Sequenciais Separados por Órgão/Secretaria
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Se Palmas deseja que secretarias diferentes tenham sequências independentes, cada uma deve receber um código de UP diferente:
+
+* **Secretaria de Finanças:** UP 001 -> NIPE: 17.137001.XXXXXX/...
+
+* **Secretaria de Saúde:** UP 002 -> NIPE: 17.137002.XXXXXX/...
+
+* **Secretaria de Educação:** UP 003 -> NIPE: 17.137003.XXXXXX/...
