@@ -363,7 +363,10 @@ Para concluir a edição da listagem, clique no ícone |Icone_Concluir_Edicao_da
    :width: 30
 
 
-   É possível excluir as listagens de eliminação antigas clicando no ícone |Icone_Excluir|. Apenas a última listagem gerada no processo não pode ser excluída. Após a assinatura da Listagem de Eliminação será possível gerar o Edital de Ciência de Eliminação de Documentos.
+
+É possível excluir as listagens de eliminação antigas clicando no ícone |Icone_Excluir|. Apenas a última listagem gerada no processo não pode ser excluída. Após a assinatura da Listagem de Eliminação será possível gerar o Edital de Ciência de Eliminação de Documentos.
+
+
 
 .. admonition:: ATENÇÃO
 
