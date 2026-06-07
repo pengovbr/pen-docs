@@ -40,6 +40,6 @@ Acompanhe essa página para acompanhar o lançamento de novos e atualização do
    MANUAIS_PERFIS/index
    Criacao_repositorio_de_estruturas/index
    Guia_Op_Recusa_de_Acesso/index
-   Manual_de_Fluxo_do_Tramite.rst
+   MANUAL_FLUXO_TRAMITE/index
 
 
