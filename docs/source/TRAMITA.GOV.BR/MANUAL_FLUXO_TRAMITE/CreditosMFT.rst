@@ -18,11 +18,9 @@ Créditos
 
 **Diretoria de Informações, Serviços e Sistemas de Gestão** 
 
-**Diretora  
-
 * Priscila Andressa Corrêa Cabral 
 
-**Coordenação-Geral de Soluções Negociais do Processo Eletrônico - CGESP** 
+**Coordenação (parei aqui)** 
 
 **Coordenador-Geral** 
 
