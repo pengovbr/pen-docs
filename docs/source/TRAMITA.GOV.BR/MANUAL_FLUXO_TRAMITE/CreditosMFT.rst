@@ -1,7 +1,7 @@
 Créditos
 =========
 
-.. figure:: _static/images/Escudo_MGI.png
+.. figure:: _static/images/brasao_mgi_dtges.png.png
 
 
 **Ministra de Estado da Gestão e da Inovação em Serviços Públicos** 
