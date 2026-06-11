@@ -1,8 +1,7 @@
-Créditos
-=========
-
 .. figure:: _static/images/brasao_mgi_dtges.png
 
+Créditos
+=========
 
 **Ministra de Estado da Gestão e da Inovação em Serviços Públicos** 
 
