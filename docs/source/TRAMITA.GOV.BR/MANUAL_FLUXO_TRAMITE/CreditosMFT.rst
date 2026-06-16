@@ -7,7 +7,7 @@ Créditos
 
 * Esther Dweck 
 
-**Secretaria de Gestão e Inovação** 
+**Secretário de Gestão e Inovação** 
 
 * Roberto Seara Machado Pojo Rego 
 
@@ -15,19 +15,15 @@ Créditos
 
 * Regina Lemos de Andrade
 
-**Diretoria de Informações, Serviços e Sistemas de Gestão** 
+**Diretora de Informações, Serviços e Sistemas de Gestão** 
 
 * Priscila Andressa Corrêa Cabral 
 
-**Coordenação (parei aqui)** 
-
-**Coordenador-Geral** 
+**Coordenador-Geral de Soluções Negociais do Processo Eletrônico - CGESP**
 
 * Pedro Henrique de Paiva Moreira da Silva 
 
-**Coordenação-Geral de Sistema de Processo Eletrônico - CGSIS 
-
-**Coordenador-Geral  
+**Coordenador-Geral de Sistema de Processo Eletrônico - CGSIS**
 
 * Higo Maiquel Caldas Cavalcante 
 
@@ -50,6 +46,7 @@ Créditos
 **Editoração** 
 
 * Rodrigo Massamitsu Hideshima
+* Camila Aparecida Corgosinho Ribeiro
 
 
 *Manual do Fluxo de Trâmite, Brasília, setembro de 2025.*
