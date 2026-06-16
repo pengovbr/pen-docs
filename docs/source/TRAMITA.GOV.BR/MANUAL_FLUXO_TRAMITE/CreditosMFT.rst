@@ -49,4 +49,4 @@ Créditos
 * Camila Aparecida Corgosinho Ribeiro
 
 
-*Manual do Fluxo de Trâmite, Brasília, setembro de 2025.*
+*Manual de Fluxo do Trâmite, Brasília, setembro de 2025.*
