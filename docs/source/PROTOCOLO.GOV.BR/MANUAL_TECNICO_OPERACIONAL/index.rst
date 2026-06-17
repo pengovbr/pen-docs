@@ -35,7 +35,7 @@ II - promover a transparência do processo administrativo eletrônico federal; e
 
 III - aplicar as soluções tecnológicas do Portal GOV.BR, visando ofertar atendimento ágil, transparente, seguro e gratuito aos usuários. 
 
-Este guia é parte integrante da Portaria SEGES nº XX, de XX de XXXXX de XXXX, a qual estabelece as regras de implantação do Protocolo.GOV.BR, no âmbito da administração pública federal direta, autárquica e fundacional.
+Este guia é parte integrante da Portaria SEGES/ME Nº 10.988, de 23 de dezembro de 2022, a qual estabelece as regras de implantação do Protocolo.GOV.BR, no âmbito da administração pública federal direta, autárquica e fundacional.
 
 
 .. toctree::
