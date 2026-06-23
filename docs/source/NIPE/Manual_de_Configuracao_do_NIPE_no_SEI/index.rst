@@ -5,7 +5,7 @@ MANUAL DE CONFIGURAÇÃO DO NIPE NO SEI
 .. toctree::   
    :numbered:
 
-   O_que_e_o_NIPE
+   O_que_e_o_NIPE_V2
    Estrutura_do_Numero
    Configuracao_no_SEI
    Gestao_de_Unidades_e_Sequenciais
