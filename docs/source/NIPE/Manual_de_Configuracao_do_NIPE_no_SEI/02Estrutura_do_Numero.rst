@@ -1,4 +1,4 @@
-2. Estrutura do Número (Padrão 20 dígitos)
+Estrutura do Número (Padrão 20 dígitos)
 ------------------------------------------
 
 
