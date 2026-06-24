@@ -1,4 +1,4 @@
-3. Configuração no SEI
+Configuração no SEI
 ----------------------
 
 A configuração da numeração deve ser realizada por um administrador do sistema no menu Administração > Órgãos.
