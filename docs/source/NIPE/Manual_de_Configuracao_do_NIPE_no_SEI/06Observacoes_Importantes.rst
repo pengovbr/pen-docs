@@ -1,4 +1,4 @@
-6. Observações Importantes
+Observações Importantes
 --------------------------
 
 * **Validação do DV:** O algoritmo @dv_mod11_executivo_federal_2d@ é o mesmo utilizado pelo Governo Federal, garantindo plena compatibilidade com o SEI.
