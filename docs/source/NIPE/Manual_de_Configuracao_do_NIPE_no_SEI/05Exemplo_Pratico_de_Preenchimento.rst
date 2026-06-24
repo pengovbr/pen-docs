@@ -1,4 +1,4 @@
-5. Exemplo Prático de Preenchimento 
+Exemplo Prático de Preenchimento 
 -----------------------------------
 
 Para a Prefeitura de Palmas, a estrutura no SEI seria configurada assim:
