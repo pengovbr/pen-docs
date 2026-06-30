@@ -64,7 +64,7 @@ Gerar Certificado
 
 * O certificado é gerado por meio da ação “Gerar Certificado”. Antes de sair da tela de geração, não se esqueça de salvar a senha e o certificado em algum lugar seguro. O certificado é vinculado automaticamente ao órgão ou a entidade no Portal de administração e se torna confiável para o Tramita.GOV.BR.
 
-.. figure:: _static/images/Geracao_de_Certificado_por_meio_do_Portal_do_Barramento.gif
+.. Retirado em virtude do período de defeso eleitoral 2026 .. figure:: _static/images/Geracao_de_Certificado_por_meio_do_Portal_do_Barramento.gif .
 
 Sistemas de Governo
 +++++++++++++++++++
@@ -106,7 +106,7 @@ Esta funcionalidade foi desenvolvida para definir quais órgãos estão habilita
 
 https://paineis.processoeletronico.gov.br/painel.php?type=1&panel=19383b01-3e5f-4ba8-be94-4ca1be1686a5&sheet=12f5711f-e2c1-4f71-a26c-dcd03d7f5193
 
-.. figure:: _static/images/Estrutra-Organizacionais-PEN-Painel.gif
+.. Retirado em virtude do período de defeso eleitoral 2026 .. figure:: _static/images/Estrutra-Organizacionais-PEN-Painel.gif .
 
 Pesquisar
 ---------
@@ -133,14 +133,14 @@ Nesta funcionalidade é definido o órgão que é incluído na carga do painel d
     
 Após salvar, o órgão cadastrado é incluído na carga e na próxima atualização os seus dados são apresentados no painel.
 
-.. figure:: _static/images/Estrutaras-Organizacionais-PEN-Cadastrar.gif
+.. Retirado em virtude do período de defeso eleitoral 2026 .. figure:: _static/images/Estrutaras-Organizacionais-PEN-Cadastrar.gif .
 
 Editar
 ------
 
 Ao clicar em editar o usuário pode alterar as informações cadastradas anteriormente em Cadastrar. Para confirmar a alteração clicar no botão Salvar.
 
-.. figure:: _static/images/Estrutaras-Organizacionais-PEN-Editar.gif
+.. Retirado em virtude do período de defeso eleitoral 2026 .. figure:: _static/images/Estrutaras-Organizacionais-PEN-Editar.gif .
 
 Parâmetros da solução
 ++++++++++++++++++++++
@@ -201,7 +201,7 @@ Editar
 
 Ao clicar em Editar, o usuário pode alterar as informações cadastradas anteriormente. Para confirmar a alteração clicar no botão Salvar.
 
-.. figure:: _static/images/Parametros-Solucao-Editar.gif
+.. Retirado em virtude do período de defeso eleitoral 2026 .. figure:: _static/images/Parametros-Solucao-Editar.gif .
 
 .. admonition:: Observação
 
@@ -230,7 +230,7 @@ Cadastrar
 
 Nesta funcionalidade se cadastra o Repositório de Estrutura, o usuário deve preencher os dados no formulário e clicar no botão Salvar.
 
-.. figure:: _static/images/Repositorio-Estrutura-Cadastrar.gif
+.. Retirado em virtude do período de defeso eleitoral 2026 .. figure:: _static/images/Repositorio-Estrutura-Cadastrar.gif .
 
 .. admonition:: Observações
 
@@ -244,7 +244,7 @@ Editar
 
 Ao clicar em Editar o usuário pode alterar as informações cadastradas anteriormente em Cadastrar. Para confirmar a alteração clicar no botão Salvar.
 
-.. figure:: _static/images/Repositorio-Estrutura-Editar.gif
+.. Retirado em virtude do período de defeso eleitoral 2026 .. figure:: _static/images/Repositorio-Estrutura-Editar.gif .
 
 
 Inativar e Reativar
@@ -259,14 +259,14 @@ Ao clicar no botão de Inativar o Repositório de Estrutura selecionado será in
 
 Ao clicar em Órgãos/Entidades abre uma tela que o usuário com as seguintes opções:
 
-.. figure:: _static/images/Repositorio-Estrutura-Orgaos_Entidades.gif
+.. Retirado em virtude do período de defeso eleitoral 2026 .. figure:: _static/images/Repositorio-Estrutura-Orgaos_Entidades.gif .
 
 Mostrar inativos
 ^^^^^^^^^^^^^^^^
 
 Ao selecionar essa funcionalidade, o usuário pode visualizar os órgãos/entidades inativos, caso contrário, visualiza somente os ativos.
 
-.. figure:: _static/images/Repositorio-Estrutura-Mostrar_Inativos.gif
+.. Retirado em virtude do período de defeso eleitoral 2026 .. figure:: _static/images/Repositorio-Estrutura-Mostrar_Inativos.gif .
 
 Adicionar Órgão/Entidade
 ^^^^^^^^^^^^^^^^^^^^^^^^
@@ -278,7 +278,7 @@ O usuário preenche os seguintes dados para cadastro de um órgão no primeiro n
 3. Código no Órgão/Entidade:  É possível incluir um código numérico com até 50 caracteres;
 4. Descrição: Uma descrição concisa do Órgão.
 
-.. figure:: _static/images/Repositorio-Estrutura-Orgaos_Entidades.gif
+.. Retirado em virtude do período de defeso eleitoral 2026 .. figure:: _static/images/Repositorio-Estrutura-Orgaos_Entidades.gif .
 
 Seleção do Órgão/Entidade
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -287,7 +287,7 @@ Ao selecionar o órgão/entidade desejado, se tiver ativo pode inativar, caso co
 
 A opção editar o usuário poderá alterar os dados do órgão/entidade (Nome, Sigla, Código no Órgão/Entidade, Descrição). Para confirmar a alteração clicar no botão “Salvar”.
 
-.. figure:: _static/images/Repositorio-Estrutura-Selecao-Orgao_Entidade.gif
+.. Retirado em virtude do período de defeso eleitoral 2026 .. figure:: _static/images/Repositorio-Estrutura-Selecao-Orgao_Entidade.gif .
 
 Migrar 
 ------
@@ -306,7 +306,7 @@ A migração é sempre composta por origem e pelo destino, após clicar em concl
 
    3. Sempre respeitar o padrão de organização dos repositórios.
 
-.. figure:: _static/images/Repositorio-Estrutura-Migrar01.gif
+.. Retirado em virtude do período de defeso eleitoral 2026 .. figure:: _static/images/Repositorio-Estrutura-Migrar01.gif .
 
 Hipóteses Legais
 ++++++++++++++++
@@ -343,14 +343,14 @@ Após o preenchimento de todos os campos os obrigatórios, basta clicar em Salva
 
    A depender de como é utilizado o endpoint da API, as hipóteses legais inativas não são recuperadas.
 
-.. figure:: _static/images/Hipotese-Legais-Cadastrar.gif
+.. Retirado em virtude do período de defeso eleitoral 2026 .. figure:: _static/images/Hipotese-Legais-Cadastrar.gif .
 
 Editar
 ------
 
 Ao clicar Editar o usuário pode alterar as informações cadastradas anteriormente em Cadastrar. Para confirmar a alteração clicar no botão Salvar.
 
-.. figure:: _static/images/Hipotese-Legais-Editar.gif
+.. Retirado em virtude do período de defeso eleitoral 2026 .. figure:: _static/images/Hipotese-Legais-Editar.gif .
 
 Inativar e Reativar 
 -------------------
@@ -369,7 +369,7 @@ O Painel de Controle é uma funcionalidade, disponível aos Gestores de Protocol
 
 Esta funcionalidade pode ser acessada por meio do menu **Administração > Painel de Controle**.
  
-.. figure:: _static/images/Filtros_da_Funcionalidade_Painel_de_Controle.gif
+.. Retirado em virtude do período de defeso eleitoral 2026 .. figure:: _static/images/Filtros_da_Funcionalidade_Painel_de_Controle.gif .
 
 Função que permite consultar por todos os Sistemas de Processo Administrativo Eletrônico - SPE ou selecionar um SPE específico.
 
@@ -379,7 +379,7 @@ Função que permite selecionar os dados do Gráfico por percentual ou por quant
 
 Função que permite gerar o Painel de Controle dos trâmites por situação.
 
-.. figure:: _static/images/Resultado_da_Pesquisa_do_Painel_de_Controle.gif
+.. Retirado em virtude do período de defeso eleitoral 2026 .. figure:: _static/images/Resultado_da_Pesquisa_do_Painel_de_Controle.gif .
 
 Função que permite selecionar uma situação do trâmite ou todas as situações.
 
@@ -391,23 +391,23 @@ Ao clicar no Número do IDT, o sistema apresentará uma tela com as Informaçõe
 
 **A. Informações** – Informações detalhada do trâmite, o sistema apresenta do Trâmite ( Tipo, Descrição e Nível de Acesso) e do Remetente e do Destinatário ( Repositório, órgão, SPE vinculado, tipo de autenticação )
 
-.. figure:: _static/images/Informações_do_Tramite.gif
+.. Retirado em virtude do período de defeso eleitoral 2026 .. figure:: _static/images/Informações_do_Tramite.gif .
 
 **B. Recibo** – São os recibos que são trocados entre os dois sistemas para confirmar os envios e recebimento dos documentos.
 
-.. figure:: _static/images/Painel_de_Controle_02_Informacoes_para_Recibo.gif
+.. Retirado em virtude do período de defeso eleitoral 2026 .. figure:: _static/images/Painel_de_Controle_02_Informacoes_para_Recibo.gif .
 
 **C. Situações** – O sistema apresenta a situação atual do trâmite com data e hora. Para Cada IDT, pode haver uma ou várias situações do Trâmite. Se o trâmite é concluído com recusa, será exibida uma nova aba com o motivo da recusa.
 
-.. figure:: _static/images/Painel_de_Controle_03_Informacoes_para_Situacao.gif
+.. Retirado em virtude do período de defeso eleitoral 2026 .. figure:: _static/images/Painel_de_Controle_03_Informacoes_para_Situacao.gif .
 
 **D. Componentes** – São os componentes digitais que foram tramitados no IDT. O sistema apresenta a Ordem, Documento, Espécie, Nível de Restrição, Avulso, Hash, Tipo de Conteúdo, MimeType e Tamanho individual e Total dos arquivos do trâmite.
 
-.. figure:: _static/images/Painel_de_Controle_04_Informacoes_para_Componentes.gif
+.. Retirado em virtude do período de defeso eleitoral 2026 .. figure:: _static/images/Painel_de_Controle_04_Informacoes_para_Componentes.gif .
 
 **E. Recusa** –  É exibida apenas quando o trâmite é concluído com recusa. Com essa aba é possível consultar a justificativa de recusa do processo ou documento avulso.
 
-.. figure:: _static/images/GifRecusasTramita.gif
+.. Retirado em virtude do período de defeso eleitoral 2026 .. figure:: _static/images/GifRecusasTramita.gif .
 
 Gerar Excel 
 -----------
@@ -476,7 +476,7 @@ Durante o processo de avaliação, caso necessário o avaliador entra em contrat
 
 Se algum dos requisitos da solicitação não for alcançado, a solicitação é invalidada.  Independente do caso, o solicitante é informado do motivo da recusa por meio de e-mail automático após a confirmação.
 
-.. figure:: _static/images/Gerenciar-Acesso-Tramita-GOV-Editar_Visualizar.gif
+.. Retirado em virtude do período de defeso eleitoral 2026 .. figure:: _static/images/Gerenciar-Acesso-Tramita-GOV-Editar_Visualizar.gif .
 
 .. admonition:: Observações
 
@@ -507,14 +507,14 @@ A limpeza é realizada ao clicar no botão Limpar. Caso não queira mais visuali
 
 Nas combos que é possível a multi-seleção (Sistemas de Governo e Perfis), com a tecla Ctrl é possível selecionar simultaneamente itens diferentes. Para fazer isso, basta clicar em um dos itens, selecionar a tecla “Ctrl” e clicar nos itens adicionais que queira selecionar.
 
-.. figure:: _static/images/Gerenciar-Perfis-Pesquisar.gif
+.. Retirado em virtude do período de defeso eleitoral 2026 .. figure:: _static/images/Gerenciar-Perfis-Pesquisar.gif .
 
 Cadastrar
 ---------
 
 Nesta funcionalidade, o usuário deve inserir o CPF do usuário a ser cadastrado, clicando-se em seguida no Botão “Procurar”. Caso o novo usuário não seja localizado, após preencher dados no formulário, selecionar o perfil desejado e clicar no botão “Salvar”.
 
-.. figure:: _static/images/Gerenciar-Perfis-Cadastrar.gif
+.. Retirado em virtude do período de defeso eleitoral 2026 .. figure:: _static/images/Gerenciar-Perfis-Cadastrar.gif .
 
 Relatório  
 ---------
@@ -582,5 +582,5 @@ Meus Dados
 
 A funcionalidade Meus dados é utilizada para atualização dos seus dados, tais como: e-mail, e-mail da unidade, telefone e celular.
 
-.. figure:: _static/images/GIF6-Cris.gif
+.. Retirado em virtude do período de defeso eleitoral 2026 .. figure:: _static/images/GIF6-Cris.gif .
 
