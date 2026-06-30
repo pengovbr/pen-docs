@@ -24,12 +24,12 @@ Nesse tutorial, abordaremos os passos necessários para solicitar as credenciais
 02. Clicar no botão “Iniciar”
 
 
-.. Retirado em virtude do período de desefo eleitoral 2026 .. figure:: _static/images/AssinAvan_01-Solicitacao_Iniciar.png .
+.. Retirado em virtude do período de defeso eleitoral 2026 .. figure:: _static/images/AssinAvan_01-Solicitacao_Iniciar.png .
 
 03. Fazer login com a conta GOV.BR do agente público (preferencialmente um servidor público efetivo ou comissionado)
 
 
-.. Retirado em virtude do período de desefo eleitoral 2026 .. figure:: _static/images/AssinAvan_01-Solicitacao_Login_GOVBR.png .
+.. Retirado em virtude do período de defeso eleitoral 2026 .. figure:: _static/images/AssinAvan_01-Solicitacao_Login_GOVBR.png .
  
 04. Preencher os dados do Órgão e do Requisitante:
 
