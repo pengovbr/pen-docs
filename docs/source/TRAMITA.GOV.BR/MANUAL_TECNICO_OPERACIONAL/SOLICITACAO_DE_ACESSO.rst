@@ -13,7 +13,7 @@ O presente Manual Técnico-Operacional trata apenas das operações a serem exec
 
 * Para acessar o ambiente de Homologação, o endereço é https://homolog.gestaopen.processoeletronico.gov.br/. 
 
-.. figure:: _static/images/Portal_administracao.gif
+.. Retirado em virtude do período de defeso eleitoral 2026 .. figure:: _static/images/Portal_administracao.gif .
 
 * No fluxo a seguir, estão detalhadas todas as etapas necessárias para solicitar o acesso ao Tramita.GOV.BR. 
 
@@ -28,7 +28,7 @@ Preenchimento do Cadastro
 Para o envio da solicitação de acesso, todos os campos são de preenchimento obrigatório. Segue o passo a passo com as orientações para o preenchimento dos campos na tela de solicitação do cadastro.
 
 
-.. figure:: _static/images/Campos_para_preenchimento_da_Tela_de_Acesso.gif
+.. Retirado em virtude do período de defeso eleitoral 2026 .. figure:: _static/images/Campos_para_preenchimento_da_Tela_de_Acesso.gif .
 
 **a.Executivo Federal**
 
