@@ -1,18 +1,19 @@
-Solicitação de credenciais para uso do Módulo de Assinatura Eletrônica
-======================================================================
+Solicitação de credenciais para uso do Módulo Assinatura Eletrônica
+===================================================================
 
 Introdução
 ----------
 
-A solicitação de credenciais é uma das etapas necessárias para utilização do Módulo de **Assinatura Eletrônica do SEI**. A solicitação é feita junto à Secretaria de Governo Digital do Ministério da Gestão e da Inovação em Serviços Públicos (SGD/MGI) por meio do `Serviço de Integração aos Produtos de Identidade Digital GOV.BR <https://www.gov.br/governodigital/pt-br/estrategias-e-governanca-digital/transformacao-digital/servico-de-integracao-aos-produtos-de-identidade-digital-gov.br>`_.
+A solicitação de credenciais é uma das etapas necessárias para utilização do Módulo **Assinatura Eletrônica do SEI**. A solicitação é feita junto à Secretaria de Governo Digital do Ministério da Gestão e da Inovação em Serviços Públicos (SGD/MGI) por meio do `Serviço de Integração aos Produtos de Identidade Digital GOV.BR <https://www.gov.br/governodigital/pt-br/estrategias-e-governanca-digital/transformacao-digital/servico-de-integracao-aos-produtos-de-identidade-digital-gov.br>`_.
 
  **ATENÇÃO:**
  
- A integração com Assinatura Avançada do GOV.BR depende da integração do GOV.BR. Por isso, antes de continuar com a solicitação da credencial da assinatura, tenha a outra credencial. Para mais informações de como solicitar a credencial GOV.BR, `clique aqui <https://www.gov.br/governodigital/pt-br/identidade/identidade-digital-para-gestores-publicos>`_ .
+ Para implementar a Assinatura Avançada do GOV.BR, é imprescindível a prévia integração com o Login GOV.BR. 
+ Para mais informações, `clique aqui <https://www.gov.br/governodigital/pt-br/identidade/identidade-digital-para-gestores-publicos>`_ .
 
 
 
-Nesse tutorial, abordaremos os passos necessários para solicitar as credenciais para os ambientes de homologação e produção.
+Neste tutorial, abordaremos os passos necessários para solicitar as credenciais para os ambientes de homologação e produção.
 
 
 1ª ETAPA – Solicitação
@@ -22,21 +23,26 @@ Nesse tutorial, abordaremos os passos necessários para solicitar as credenciais
 
 02. Clicar no botão “Iniciar”
 
+
 .. Retirado em virtude do período de defeso eleitoral 2026 .. figure:: _static/images/AssinAvan_01-Solicitacao_Iniciar.png .
 
 03. Fazer login com a conta GOV.BR do agente público (preferencialmente um servidor público efetivo ou comissionado)
 
+
 .. Retirado em virtude do período de defeso eleitoral 2026 .. figure:: _static/images/AssinAvan_01-Solicitacao_Login_GOVBR.png .
  
-04. Preencher os dados do Órgão e do Requisitante
+04. Preencher os dados do Órgão e do Requisitante:
+
 
 .. figure:: _static/images/AssinAvan_01-Solicitacao_Dados-Org-Solicit.png
 
 05. Preencher os dados do Responsável Negocial e do Responsável Técnico 
+ 
 
 .. figure:: _static/images/AssinAvan_01-Solicitacao_Dados-Funcionais.png
  
 06. Preencher o Questionário abaixo
+
 
 .. figure:: _static/images/AssinAvan_01-Solicitacao_Questionario.png
  
@@ -47,7 +53,8 @@ Nesse tutorial, abordaremos os passos necessários para solicitar as credenciais
 
 .. admonition:: ATENÇÃO!
 
-  "A integração com Assianatura Avançada do GOV.BR depende da integração do GOV.BR. Por isso, antes de continuar com a solicitação da credencial da assinatura, tenha a outra credencial. Para mais informações de como solicitar a credencial GOV.BR, `clique aqui <https://www.gov.br/governodigital/pt-br/identidade/identidade-digital-para-gestores-publicos>`_ !"
+  "A integração com Assinatura Avançada do GOV.BR depende da integração do GOV.BR. Por isso, antes de continuar com a solicitação da credencial da assinatura, tenha a outra credencial. Para mais informações de como solicitar a credencial GOV.BR, `clique aqui <https://www.gov.br/governodigital/pt-br/identidade/identidade-digital-para-gestores-publicos>`_ !"
+
 
 
 .. figure:: _static/images/AssinAvan_01-Solicitacao_Prod_Interesse_Homologacao_1.png
@@ -59,7 +66,7 @@ Nesse tutorial, abordaremos os passos necessários para solicitar as credenciais
 
 .. admonition:: Descrição/Objetivo do Sistema
 
-   "O Módulo de Assinatura Eletrônica permite a assinatura de documentos no SEI com emprego de assinatura avançada."
+   "O Módulo Assinatura Eletrônica permite a assinatura de documentos no SEI com emprego de assinatura avançada."
 
 .. admonition:: Público Alvo
 	
@@ -67,6 +74,7 @@ Nesse tutorial, abordaremos os passos necessários para solicitar as credenciais
 
 
 09. Preencher os dados sobre o serviço a ser integrado e em seguida clicar em “ADICIONAR DADOS NA TABELA +”
+
 
 .. figure:: _static/images/AssinAvan_01-Solicitacao_Servico.png
  
@@ -84,6 +92,7 @@ Nesse tutorial, abordaremos os passos necessários para solicitar as credenciais
 
 
 10. Preencher os campos sobre volumetria, sazonalidade e anexar a chave pública PGP
+   
 
 .. figure:: _static/images/AssinAvan_01-Solicitacao_Servico2.png
 
@@ -93,6 +102,7 @@ Nesse tutorial, abordaremos os passos necessários para solicitar as credenciais
 
 
 11. Preencher a URL de retorno em homologação e em seguida clicar em “ADICIONAR DADOS NA TABELA +”
+
 
 .. figure:: _static/images/AssinAvan_01-Solicitacao_Chaves_URLs.png
 
@@ -106,7 +116,8 @@ Nesse tutorial, abordaremos os passos necessários para solicitar as credenciais
 12. Clicar em "CONFIRMAR DADOS"
 
 
-13. Aceitar os termos e clicar em “Enviar solicitação”, aguardando o prazo de até 10 dias úteis para retorno deste primeiro formulário, onde o processo ficará com o status 3 “Análise/Aprovação”
+13. Aceitar os termos e clicar em “Enviar solicitação”
+
 
 .. figure:: _static/images/AssinAvan_01-Solicitacao_CienciaTermos_EnvioSolicitacao.png
 
@@ -131,7 +142,8 @@ Nesse tutorial, abordaremos os passos necessários para solicitar as credenciais
 
 .. admonition:: ATENÇÃO! 
 
-   "Orientações adicionais estão disponíveis no Manual de Instalação e Configuração do Módulo de Assinatura Eletrônica do SEI."
+   **Orientações adicionais estão disponíveis no Manual de Instalação e Configuração do Módulo Assinatura Eletrônica do SEI.**
+
 
  
 .. figure:: _static/images/AssinAvan_02-Finalizacao_Analise_Prod_Homol-Consideracoes02.png
@@ -191,7 +203,7 @@ Nesse tutorial, abordaremos os passos necessários para solicitar as credenciais
 
 .. admonition:: Atenção
 
-   "Orientações adicionais estão disponíveis no `Manual de Instalação e Configuração <https://manuais.processoeletronico.gov.br/pt-br/homologacao/MODULOS-SEI/Modulo_resposta.html>`_do Módulo de Assinatura Eletrônica do SEI."
+   Orientações adicionais estão disponíveis no `Manual de Instalação e Configuração <https://manuais.processoeletronico.gov.br/pt-br/homologacao/MODULOS-SEI/Modulo_resposta.html>`_ do Módulo Assinatura Eletrônica do SEI.
 
 
 .. figure:: _static/images/AssinAvan_02-analise-producao.png
@@ -211,4 +223,4 @@ Orientações gerais:
 
 • Caso algum dado de produção informado esteja errado, o solicitante receberá um retorno nos e-mails cadastrados no formulário, para correção do problema;
 • Caso o processo de solicitação de credenciais esteja parado por mais de 10 dias úteis na mesma etapa, favor enviar um e-mail para o endereço integracaoid@gestao.gov.br, informando o número da solicitação e explicando o ocorrido;
-• Em caso de dúvidas técnicas sobre o preenchimento do formulário, favor enviar um e-mail para o endereço: integracao-acesso-govbr@economia.gov.br; 
+• Em caso de dúvidas técnicas sobre o preenchimento do formulário, favor enviar um e-mail para o endereço: integracao-acesso-govbr@gestao.gov.br. 
