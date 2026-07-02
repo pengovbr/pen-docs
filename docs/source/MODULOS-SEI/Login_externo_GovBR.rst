@@ -17,9 +17,11 @@ Neste tutorial, abordaremos os passos necessários para solicitar as credenciais
 02. Clicar no botão “Iniciar” 
 
 .. Retirado em virtude do período de defeso eleitoral 2026 .. figure:: _static/images/ModExt_01-Solicitacao_Iniciar.png .
+
 03. Fazer login com a conta GOV.BR do agente público (preferencialmente um servidor público efetivo ou comissionado)
 
 .. Retirado em virtude do período de defeso eleitoral 2026 .. figure:: _static/images/ModExt_01-Login_GOVBR.png .
+
 04. Preencher os dados do solicitante e do órgão/entidade
 
 .. figure:: _static/images/ModExt_01-Solicitacao_Dados-Org-Solicit.png
