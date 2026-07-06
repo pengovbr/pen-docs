@@ -109,22 +109,22 @@ Para acessar a ferramenta, o usuário com perfil de gestor deve clicar em Sistem
 
 Cada categoria de Analytics consolida dados específicos. São elas: 
 
-Produtividade por analista: Apresenta os dados de produtividade geral de cada analista, incluindo as ações executadas e quantidade de solicitações atendidas. 
+**Produtividade por analista:** Apresenta os dados de produtividade geral de cada analista, incluindo as ações executadas e quantidade de solicitações atendidas. 
 
-.. figure:: _static/images/Produtividade por analista.gif 
+.. figure:: _static/images/Produtividade_por_analista.gif 
 
-Solicitações devolvidas para ajustes por analista: Informa a quantidade de solicitações que cada analista devolveu para ajustes pelo solicitante. 
+**Solicitações devolvidas para ajustes por analista:** Informa a quantidade de solicitações que cada analista devolveu para ajustes pelo solicitante. 
 
-.. figure:: _static/images/Solicitações devolvidas para ajustes por analista.gif 
+.. figure:: _static/images/Solicitações_devolvidas_para_ajustes_por_analista.gif 
 
-Solicitações triadas por analista: Informa o percentual de solicitações atendidas por cada analista. 
+**Solicitações triadas por analista:** Informa o percentual de solicitações atendidas por cada analista. 
 
-.. figure:: _static/images/Solicitações triadas por analista.gif
+.. figure:: _static/images/Solicitações_triadas_por_analista.gif
 
-Tempo médio para realização da triagem: Calcula e informa a média de tempo mensal utilizada na execução da atividade de triagem. 
+**Tempo médio para realização da triagem:** Calcula e informa a média de tempo mensal utilizada na execução da atividade de triagem. 
 
-.. figure:: _static/images/Tempo médio para realização da triagem.gif
+.. figure:: _static/images/Tempo_médio_para_realização_da_triagem.gif
 
-Recorrência de solicitações por tipo: Informa a quantidade de solicitações abertas por tipo específico. 
+**Recorrência de solicitações por tipo:** Informa a quantidade de solicitações abertas por tipo específico. 
 
-.. figure:: _static/images/Recorrência de solicitações por tipo.gif
+.. figure:: _static/images/Recorrência_de_solicitações_por_tipo.gif
