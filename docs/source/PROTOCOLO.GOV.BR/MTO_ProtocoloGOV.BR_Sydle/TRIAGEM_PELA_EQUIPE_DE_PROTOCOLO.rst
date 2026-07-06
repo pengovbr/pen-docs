@@ -43,6 +43,15 @@ Ao enviar a solicitação para o SPE é gerado um processo com Número Único de
 
 .. figure:: _static/images/01_Triagem04.gif 
 
+**Ferramenta "Buscar"** |Icone_Triagem_pela_equipe_Buscar|
+
+.. |Icone_Triagem_pela_equipe_Buscar| image:: _static/images/Icone_Triagem_pela_equipe_Buscar.png
+   :align: middle
+   :width: 30
+
+Na segunda coluna da tela do atendente, é possível realizar pesquisa a partir de informações básicas, como: número da solicitação, número do processo gerado no SPE, data, tipo de solicitação, nome do solicitante e nome do atendente.
+
+.. figure:: _static/images/01_AGUARDANDO.gif
 
 Uso de filtros
 ^^^^^^^^^^^^^^
