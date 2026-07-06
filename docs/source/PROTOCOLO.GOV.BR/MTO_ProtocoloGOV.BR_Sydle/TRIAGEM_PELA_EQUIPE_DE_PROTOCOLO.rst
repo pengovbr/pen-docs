@@ -64,3 +64,36 @@ Esta funcionalidade está disponível na coluna do meio da tela do atendente. Pa
 
 
 .. figure:: _static/images/01_Triagem_filtros.gif 
+
+
+
+
+**Tags de filtros**
+
+Esta funcionalidade permite que o atendente filtre as solicitações que deseja visualizar através da seleção do status: 
+
+**Todas:** Exibe todo o histórico de solicitações; 
+
+**Caixa de Entrada:** Exibe as solicitações que pendentes de ação ou análise do atendente; 
+
+**Em Aberto:** Exibe as solicitações ainda em andamento (não concluídas/não canceladas); 
+
+**Aguardando Triagem:** Exibe as solicitações pendentes de triagem; 
+
+**Aguardando resposta da equipe técnica:** Exibe as solicitações abertas que aguardam resposta da equipe técnica; 
+
+**Em Ajustes:** Exibe as solicitações pendentes de ajustes por parte do solicitante; 
+
+**Concluídas:** Exibe todas as solicitações finalizadas; 
+
+**Canceladas pelo Cidadão:** Exibe as solicitações canceladas pelo cidadão. 
+
+**Erro de Integração:** Lista as solicitações que apresentaram erro de integração com o SPE. 
+
+.. figure:: _static/images/02_Triagem_tags-filtros.gif
+
+ 
+  **Atenção!**
+    
+  O campo buscas salvas permite que o atendente visualize as seguintes opções: a) Solicitações aguardando triagem; b) Solicitações devolvidas para ajustes; c) Solicitações por período; e d) Solicitações triadas e enviadas para o SPE.
+
