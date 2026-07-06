@@ -31,6 +31,7 @@ Para acessar a funcionalidade, clique no ícone |IconeSydle_Menu| localizado no 
 
 .. figure:: _static/images/Gerenciamento_Usuarios01.gif
 
+
   **Atenção:**
     
   Além do caminho apresentado acima, há o atalho para a funcionalidade de gerenciamento de usuários. Procure pelo ícone de engrenagem: |Icone_Engrenagem|.
@@ -115,16 +116,16 @@ Cada categoria de Analytics consolida dados específicos. São elas:
 
 **Solicitações devolvidas para ajustes por analista:** Informa a quantidade de solicitações que cada analista devolveu para ajustes pelo solicitante. 
 
-.. figure:: _static/images/Solicitações_devolvidas_para_ajustes_por_analista.gif 
+.. figure:: _static/images/Solicitacoes_devolvidas_para_ajustes_por_analista.gif 
 
 **Solicitações triadas por analista:** Informa o percentual de solicitações atendidas por cada analista. 
 
-.. figure:: _static/images/Solicitações_triadas_por_analista.gif
+.. figure:: _static/images/Solicitacoes_triadas_por_analista.gif
 
 **Tempo médio para realização da triagem:** Calcula e informa a média de tempo mensal utilizada na execução da atividade de triagem. 
 
-.. figure:: _static/images/Tempo_médio_para_realização_da_triagem.gif
+.. figure:: _static/images/Tempo_medio_para_realizacao_da_triagem.gif
 
 **Recorrência de solicitações por tipo:** Informa a quantidade de solicitações abertas por tipo específico. 
 
-.. figure:: _static/images/Recorrência_de_solicitações_por_tipo.gif
+.. figure:: _static/images/Recorrencia_de_solicitacoes_por_tipo.gif
