@@ -51,7 +51,7 @@ Ao enviar a solicitação para o SPE é gerado um processo com Número Único de
 
 Na segunda coluna da tela do atendente, é possível realizar pesquisa a partir de informações básicas, como: número da solicitação, número do processo gerado no SPE, data, tipo de solicitação, nome do solicitante e nome do atendente.
 
-.. figure:: _static/images/01_AGUARDANDO.gif
+.. figure:: _static/images/00_Triagem_Buscar.gif
 
 Uso de filtros
 ^^^^^^^^^^^^^^
