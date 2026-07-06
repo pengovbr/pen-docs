@@ -22,7 +22,15 @@ Na coluna da direita, a tela “Parâmetro de método: Cadastrar tipo de solicit
 
 **Órgão/Entidade:** Selecione o seu órgão;
 
-**A avaliação do cidadão deverá ser contabilizada para órgão provido?** Este campo se destina aos órgãos que possuem estrutura multiórgaos. Clique em “Sim” para selecionar o Órgão/Entidade para o qual a avaliação deve ser contabilizada ou em “Não” para que todas as avaliações de usuário sejam contabilizadas apenas no Órgão principal. 
+**A avaliação será destinada ao órgão provido?** Este campo se destina aos órgãos que possuem estrutura multiórgaos. Clique em “Sim” para selecionar o Órgão/Entidade para o qual a avaliação do atendimento pelo cidadão deve ser destinada ou em “Não” para que todas as avaliações de usuário sejam destinadas apenas ao Órgão principal. Se o seu órgão não possui estrutura multiórgãos, a opção “Não” deve ser sempre a escolhida.
+
+**A triagem será destinada ao órgão provido?** Este campo se destina aos órgãos que possuem estrutura multiórgaos. Clique em “Sim” para selecionar o Órgão/Entidade para o qual a triagem da solicitação deve ser destinada ou em “Não” para que todas as triagens sejam destinadas apenas ao Órgão principal. Se o seu órgão não possui estrutura multiórgãos, a opção “Não” deve ser sempre a escolhida.
+
+  **Atenção!**
+
+  Em se tratando de multiórgãos, caso a configuração optada seja a de **triagem** por Órgão provido, apenas os usuários cadastrados no Órgão selecionado poderão visualizar as solicitações na caixa de entrada.
+
+**Prazo para o solicitante atender solicitação de ajustes:** Neste campo, defina o prazo que o solicitante possui para atender as alterações solicitadas pelo atendente de protocolo: 7, 15, 30 ou 60 dias. Em caso de não cumprimento do prazo, a solicitação será automaticamente cancelada e o usuário notificado para, se desejar, enviar nova solicitação.
 
 **Link de orientação:** Caso haja, inclua um endereço de página na internet onde constem informações ou orientações a respeito da solicitação que está sendo cadastrada.
 
@@ -63,6 +71,8 @@ A combinação das opções selecionadas oferece cinco cenários:
 **Tipo de documento do recibo:** Selecione o tipo de documento que será criado para o recibo da solicitação; O recibo de protocolo será o primeiro documento do processo criado no SPE. Também é o comprovante recebido pelo solicitante quando a solicitação é enviada.
 
 **O solicitante poderá informar protocolo anterior?** Clique em **“Sim”** ou **“Não”** para definir se o solicitante poderá informar o número de um processo já existente.
+
+**Sincronizar parâmetros - SEI:** Clique no botão “Atualizar” para sincronizar os dados entre o SPE e a ferramenta Sydle.
 
 **Link de direcionamento para página de pesquisa de processos:** Informe o link pelo qual o solicitante poderá realizar o acompanhamento do processo gerado.
 
