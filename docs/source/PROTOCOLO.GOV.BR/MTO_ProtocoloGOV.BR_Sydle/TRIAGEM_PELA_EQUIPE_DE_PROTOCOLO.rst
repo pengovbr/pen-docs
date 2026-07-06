@@ -94,6 +94,5 @@ Esta funcionalidade permite que o atendente filtre as solicitações que deseja 
 
  
   **Atenção!**
-    
-  O campo buscas salvas permite que o atendente visualize as seguintes opções: a) Solicitações aguardando triagem; b) Solicitações devolvidas para ajustes; c) Solicitações por período; e d) Solicitações triadas e enviadas para o SPE.
 
+  O campo buscas salvas permite que o atendente visualize as seguintes opções: a) Solicitações aguardando triagem; b) Solicitações devolvidas para ajustes; c) Solicitações por período; e d) Solicitações triadas e enviadas para o SPE.
