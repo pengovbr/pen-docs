@@ -34,7 +34,7 @@ Para acessar a funcionalidade, clique no ícone |IconeSydle_Menu| localizado no 
 
   **Atenção:**
     
-  Além do caminho apresentado acima, há o atalho para a funcionalidade de gerenciamento de usuários. Procure pelo ícone de engrenagem: |Icone_Engrenagem|.
+Além do caminho apresentado acima, há o atalho para a funcionalidade de gerenciamento de usuários. Procure pelo ícone de engrenagem: |Icone_Engrenagem|.
 
 .. |Icone_Engrenagem| image:: _static/images/Icone_Engrenagem.png
    :align: middle
