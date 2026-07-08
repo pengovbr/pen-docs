@@ -1,5 +1,5 @@
-Manual Técnico Operacional do Protocolo GOV.BR
-===============================================
+Manual Técnico Operacional do Protocolo GOV.BR para Lecom
+=========================================================
 
 Apresentação
 ------------
