@@ -32,7 +32,7 @@ Para acessar a funcionalidade, clique no ícone |IconeSydle_Menu| localizado no 
 .. figure:: _static/images/Gerenciamento_Usuarios01.gif
 
 
-  **Atenção!**
+**Atenção!**
     
 Além do caminho apresentado acima, há o atalho para a funcionalidade de gerenciamento de usuários. Procure pelo ícone de engrenagem: |Icone_Engrenagem|.
 
