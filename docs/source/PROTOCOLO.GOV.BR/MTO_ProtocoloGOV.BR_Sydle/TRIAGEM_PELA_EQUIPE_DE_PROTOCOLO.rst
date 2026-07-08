@@ -43,6 +43,15 @@ Ao enviar a solicitação para o SPE é gerado um processo com Número Único de
 
 .. figure:: _static/images/01_Triagem04.gif 
 
+**Ferramenta "Buscar"** |Icone_Triagem_pela_equipe_Buscar|
+
+.. |Icone_Triagem_pela_equipe_Buscar| image:: _static/images/Icone_Triagem_pela_equipe_Buscar.png
+   :align: middle
+   :width: 30
+
+Na segunda coluna da tela do atendente, é possível realizar pesquisa a partir de informações básicas, como: número da solicitação, número do processo gerado no SPE, data, tipo de solicitação, nome do solicitante e nome do atendente.
+
+.. figure:: _static/images/00_Triagem_Buscar.gif
 
 Uso de filtros
 ^^^^^^^^^^^^^^
@@ -55,3 +64,44 @@ Esta funcionalidade está disponível na coluna do meio da tela do atendente. Pa
 
 
 .. figure:: _static/images/01_Triagem_filtros.gif 
+
+
+
+
+**Tags de filtros**
+
+Esta funcionalidade permite que o atendente filtre as solicitações que deseja visualizar através da seleção do status: 
+
+**Todas:** Exibe todo o histórico de solicitações; 
+
+**Caixa de Entrada:** Exibe as solicitações que pendentes de ação ou análise do atendente; 
+
+**Em Aberto:** Exibe as solicitações ainda em andamento (não concluídas/não canceladas); 
+
+**Aguardando Triagem:** Exibe as solicitações pendentes de triagem; 
+
+**Aguardando resposta da equipe técnica:** Exibe as solicitações abertas que aguardam resposta da equipe técnica; 
+
+**Em Ajustes:** Exibe as solicitações pendentes de ajustes por parte do solicitante; 
+
+**Concluídas:** Exibe todas as solicitações finalizadas; 
+
+**Canceladas pelo Cidadão:** Exibe as solicitações canceladas pelo cidadão. 
+
+**Erro de Integração:** Lista as solicitações que apresentaram erro de integração com o SPE. 
+
+.. figure:: _static/images/02_Triagem_tags-filtros.gif
+
+  **Atenção!**
+  
+  O campo buscas salvas permite que o atendente visualize as seguintes opções:
+
+- Solicitações aguardando triagem;
+
+- Solicitações devolvidas para ajustes;
+
+- Solicitações por período; e
+
+- Solicitações triadas e enviadas para o SPE.
+
+ 
