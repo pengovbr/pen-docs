@@ -32,14 +32,13 @@ Para acessar a funcionalidade, clique no ícone |IconeSydle_Menu| localizado no 
 .. figure:: _static/images/Gerenciamento_Usuarios01.gif
 
 
-  **Atenção:**
+  **Atenção!**
     
 Além do caminho apresentado acima, há o atalho para a funcionalidade de gerenciamento de usuários. Procure pelo ícone de engrenagem: |Icone_Engrenagem|.
 
 .. |Icone_Engrenagem| image:: _static/images/Icone_Engrenagem.png
    :align: middle
-   :width: 30
-
+   :width: 30 
 
 **Transferir gerência do serviço à outro usuário:** Ao clicar em “Sim”, será possível transferir a permissão de gestor para outro usuário do órgão. Selecione os campos, preencha os dados e confirme a ação. 
 
@@ -61,7 +60,7 @@ Ao clicar em “Não”, será habilitado um campo select para as ações de:
 
 **Cargos em Gestão de OS:** Caso o usuário seja um agente do processo Gestão de OS, selecione nesta coluna a atribuição.
 
-  **Atenção:**
+  **Atenção!**
     
   Para adicionar mais de um usuário, basta clicar no ícone |Icone_Adicionar_Usuario|.
 
