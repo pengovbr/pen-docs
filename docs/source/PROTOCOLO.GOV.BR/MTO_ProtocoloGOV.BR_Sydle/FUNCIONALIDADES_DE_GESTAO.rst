@@ -1,5 +1,8 @@
-Gerenciamento de usuários
+Funcionalidades de Gestão
 =========================
+
+Gerenciamento de usuários
+--------------------------
   
 Esta funcionalidade permite que o usuário com perfil de **gestor** do Protocolo GOV.BR faça a gestão dos usuários de sua equipe. Nela, será possível adicionar, alterar informações, inativar e alterar usuários bem como apontar novo usuário para ser gestor da ferramenta.
 
@@ -28,6 +31,15 @@ Para acessar a funcionalidade, clique no ícone |IconeSydle_Menu| localizado no 
 
 .. figure:: _static/images/Gerenciamento_Usuarios01.gif
 
+
+  **Atenção!**
+    
+Além do caminho apresentado acima, há o atalho para a funcionalidade de gerenciamento de usuários. Procure pelo ícone de engrenagem: |Icone_Engrenagem|.
+
+.. |Icone_Engrenagem| image:: _static/images/Icone_Engrenagem.png
+   :align: middle
+   :width: 30 
+
 **Transferir gerência do serviço à outro usuário:** Ao clicar em “Sim”, será possível transferir a permissão de gestor para outro usuário do órgão. Selecione os campos, preencha os dados e confirme a ação. 
 
 Ao clicar em “Não”, será habilitado um campo select para as ações de: 
@@ -48,7 +60,7 @@ Ao clicar em “Não”, será habilitado um campo select para as ações de:
 
 **Cargos em Gestão de OS:** Caso o usuário seja um agente do processo Gestão de OS, selecione nesta coluna a atribuição.
 
-  **Atenção:**
+  **Atenção!**
     
   Para adicionar mais de um usuário, basta clicar no ícone |Icone_Adicionar_Usuario|.
 
@@ -87,3 +99,32 @@ Selecione o usuário e realize as alterações necessárias.
 **Ativar usuários:** Opção para ativar um ou mais usuários que estejam inativos. Selecione o usuário que deseja ativar o perfil e finalize a ação.
 
 .. figure:: _static/images/Gerenciamento_Usuarios05.gif
+
+Analytics
+---------
+
+Disponível no perfil de gestor, a funcionalidade Analytics disponibiliza relatórios com dados qualificados para apoiar a gestão. 
+
+Para acessar a ferramenta, o usuário com perfil de gestor deve clicar em Sistema > Analytics. 
+
+Cada categoria de Analytics consolida dados específicos. São elas: 
+
+**Produtividade por analista:** Apresenta os dados de produtividade geral de cada analista, incluindo as ações executadas e quantidade de solicitações atendidas. 
+
+.. figure:: _static/images/Produtividade_por_analista.gif 
+
+**Solicitações devolvidas para ajustes por analista:** Informa a quantidade de solicitações que cada analista devolveu para ajustes pelo solicitante. 
+
+.. figure:: _static/images/Solicitacoes_devolvidas_para_ajustes_por_analista.gif 
+
+**Solicitações triadas por analista:** Informa o percentual de solicitações atendidas por cada analista. 
+
+.. figure:: _static/images/Solicitacoes_triadas_por_analista.gif
+
+**Tempo médio para realização da triagem:** Calcula e informa a média de tempo mensal utilizada na execução da atividade de triagem. 
+
+.. figure:: _static/images/Tempo_medio_para_realizacao_da_triagem.gif
+
+**Recorrência de solicitações por tipo:** Informa a quantidade de solicitações abertas por tipo específico. 
+
+.. figure:: _static/images/Recorrencia_de_solicitacoes_por_tipo.gif
