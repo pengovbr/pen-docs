@@ -27,7 +27,7 @@ Semântica das Tags
 
 * **@cod_unidade_sei_03d@**: Mapeia o código da Unidade Protocolizadora cadastrado na Unidade administrativa.
 
-* **@seq_anual_cod_unidade_sei_06d@**: Garante que a sequência de 7 dígitos seja única por Unidade Protocolizadora e reiniciada anualmente.
+* **@seq_anual_cod_unidade_sei_06d@**: Garante que a sequência de 6 dígitos seja única por Unidade Protocolizadora e reiniciada anualmente.
 
 * **@ano_4d@**: Ano com 4 dígitos.
 
