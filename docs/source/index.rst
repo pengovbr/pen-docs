@@ -50,3 +50,10 @@ Acesse todas essas informações no menu lateral dessa página de manuais do PEN
    :titlesonly:   
 
    PROTOCOLO.GOV.BR/index
+
+
+.. toctree::
+   :hidden:
+   :titlesonly:   
+
+   NIPE/index
