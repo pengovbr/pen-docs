@@ -1,4 +1,4 @@
-MANUAIS NIPE
+NIPE - Número de Identificação de Protocolo Eletrônico
 ============
 
 
