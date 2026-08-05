@@ -70,7 +70,7 @@ A combinação das opções selecionadas oferece cinco cenários:
 
 **Tipo de documento do recibo:** Selecione o tipo de documento que será criado para o recibo da solicitação; O recibo de protocolo será o primeiro documento do processo criado no SPE. Também é o comprovante recebido pelo solicitante quando a solicitação é enviada.
 
-**O solicitante poderá informar protocolo anterior?** Clique em **“Sim”** ou **“Não”** para definir se o solicitante poderá informar o número de um processo já existente. *
+**O solicitante poderá informar protocolo anterior?** Clique em **“Sim”** ou **“Não”** para definir se o solicitante poderá informar o número de um processo já existente.
 
 **Sincronizar parâmetros - SEI:** Clique no botão “Atualizar” para sincronizar os dados entre o SPE e a ferramenta Sydle.
 
