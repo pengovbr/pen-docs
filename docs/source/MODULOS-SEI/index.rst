@@ -1,5 +1,5 @@
 
-.. figure:: _static/images/titulo-modulo-do-sei.png
+.. Retirado em virtude do período de defeso eleitoral 2026 .. figure:: _static/images/titulo-modulo-do-sei.png .
 
 
 MÓDULOS SEI
