@@ -43,6 +43,13 @@ Ao enviar a solicitação para o SPE é gerado um processo com Número Único de
 
 .. figure:: _static/images/01_Triagem04.gif 
 
+**Atenção!**
+  
+  Nos casos em que o solicitante informar NUP existente e, na configuração da solicitação, for definida unidade de reabertura de processos já concluídos, serão exibidos dois campos adicionais: 
+
+  Unidade de reabertura disponíveis - Informa as unidades disponíveis para reabertura do processo; e 
+  Qual unidade deseja utilizar para reabertura? - Aqui, selecione a unidade configurada ou última unidade responsável pela conclusão do processo. 
+
 **Ferramenta "Buscar"** |Icone_Triagem_pela_equipe_Buscar|
 
 .. |Icone_Triagem_pela_equipe_Buscar| image:: _static/images/Icone_Triagem_pela_equipe_Buscar.png
@@ -96,13 +103,10 @@ Esta funcionalidade permite que o atendente filtre as solicitações que deseja 
   
   O campo buscas salvas permite que o atendente visualize as seguintes opções:
 
-- Solicitações aguardando triagem;
+  - Solicitações aguardando triagem;
 
-- Solicitações devolvidas para ajustes;
+  - Solicitações devolvidas para ajustes;
 
-- Solicitações por período; e
+  - Solicitações por período; e
 
-- Solicitações triadas e enviadas para o SPE.
-
- 
-
+  - Solicitações triadas e enviadas para o SPE.
