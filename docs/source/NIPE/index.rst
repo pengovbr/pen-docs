@@ -7,4 +7,4 @@ NIPE - Número de Identificação de Protocolo Eletrônico
    :titlesonly:
    :maxdepth: 3
 
-   Manual_de_Configuracao_do_NIPE_no_SEI
+   Manual_de_Configuracao_do_NIPE_no_SEI/index
