@@ -41,14 +41,14 @@ O formulário do solicitante será aberto. Nele é possível visualizar todas as
 **Subir para o SPE:** Essa opção envia a solicitação para o SPE. Aqui, o atendente tem a possibilidade de informar um NUP já existente para envio dos anexos da solicitação bem como de manter a solicitação aberta ou fechada. Se a solicitação for mantida aberta, será possível utilizar o módulo Resposta. 
 Ao enviar a solicitação para o SPE é gerado um processo com Número Único de Protocolo (NUP). O NUP é enviado ao solicitante por e-mail e será o número de referência para informações sobre o processo criado.
 
-.. figure:: _static/images/01_Triagem04.gif 
-
 **Atenção!**
   
   Nos casos em que o solicitante informar NUP existente e, na configuração da solicitação, for definida unidade de reabertura de processos já concluídos, serão exibidos dois campos adicionais: 
 
   Unidade de reabertura disponíveis - Informa as unidades disponíveis para reabertura do processo; e 
-  Qual unidade deseja utilizar para reabertura? - Aqui, selecione a unidade configurada ou última unidade responsável pela conclusão do processo. 
+  Qual unidade deseja utilizar para reabertura? - Aqui, selecione a unidade configurada ou última unidade responsável pela conclusão do processo.
+
+.. figure:: _static/images/Imagem_print_unidades.png
 
 **Ferramenta "Buscar"** |Icone_Triagem_pela_equipe_Buscar|
 
