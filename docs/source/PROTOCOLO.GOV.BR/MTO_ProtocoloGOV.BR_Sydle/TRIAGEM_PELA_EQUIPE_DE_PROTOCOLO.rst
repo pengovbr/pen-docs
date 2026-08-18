@@ -48,7 +48,7 @@ Ao enviar a solicitação para o SPE é gerado um processo com Número Único de
   Unidade de reabertura disponíveis - Informa as unidades disponíveis para reabertura do processo; e 
   Qual unidade deseja utilizar para reabertura? - Aqui, selecione a unidade configurada ou última unidade responsável pela conclusão do processo.
 
-.. figure:: _static/images/Imagem_print_unidades.png 
+.. figure:: _static/images/Imagem_print_unidade.png 
 
 **Ferramenta "Buscar"** |Icone_Triagem_pela_equipe_Buscar|
 
