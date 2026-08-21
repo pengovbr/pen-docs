@@ -72,6 +72,12 @@ A combinação das opções selecionadas oferece cinco cenários:
 
 **O solicitante poderá informar protocolo anterior?** Clique em **“Sim”** ou **“Não”** para definir se o solicitante poderá informar o número de um processo já existente.
 
+Ao permitir a indicação de NUP já existente será exibido o campo “Configurar unidade de reabertura?”, que permite a indicação de uma unidade para reabertura **caso o processo esteja concluído em todas as áreas pela qual tramitou.**
+
+Ao clicar em “Sim”, será habilitado o campo “Unidade de reabertura”. Selecione a unidade na qual deseja que o processo seja reaberto.
+
+Ao clicar em “Não”, o processo será reaberto na última unidade responsável por sua conclusão. 
+
 **Sincronizar parâmetros - SEI:** Clique no botão “Atualizar” para sincronizar os dados entre o SPE e a ferramenta Sydle.
 
 **Link de direcionamento para página de pesquisa de processos:** Informe o link pelo qual o solicitante poderá realizar o acompanhamento do processo gerado.
