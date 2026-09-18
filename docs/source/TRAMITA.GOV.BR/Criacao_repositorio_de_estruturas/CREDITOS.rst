@@ -42,6 +42,7 @@ Créditos
 **Editoração e Arte** 
 
 * Oscar Henrique Carneiro de Oliveira
+* Camila Aparecida Corgosinho Ribeiro
 
 
 *Padrão de Criação de Repositório, Brasília, março de 2025.*
