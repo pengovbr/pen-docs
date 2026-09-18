@@ -1,4 +1,4 @@
-DEFENSORIAS PÚBLICAS
+Defensorias Públicas
 ====================
 
 Nessa seção, são explicados os critérios para inserção das Defensorias Públicas. Os órgãos inseridos incluem as Defensorias Públicas Estaduais (DPEs), a Defensoria Pública do Distrito Federal e Territórios (DPDFT) e a Defensoria Pública da União (DPU). Além disso, o Conselho Nacional das Defensoras e Defensores Públicos-Gerais (CONDEGE), órgão máximo representativo das DPEs e DPDFT, também faz parte desse repositório. Assim sendo, esses órgãos devem ser inseridos, exclusivamente, no repositório específico das Defensorias Públicas. 
