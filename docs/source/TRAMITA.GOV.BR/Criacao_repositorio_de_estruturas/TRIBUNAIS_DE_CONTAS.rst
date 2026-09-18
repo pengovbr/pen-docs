@@ -1,4 +1,4 @@
-TRIBUNAIS DE CONTAS
+Tribunais de Contas
 ===================
 
 Nessa seção, são explicados os critérios para inserção dos Tribunais de Contas. Os órgãos inseridos incluem o Tribunal de Contas da União (TCU), o Tribunal de Contas do Distrito Federal (TC-DF), os Tribunais de Contas dos Estados (TCE), os Tribunais de Contas dos Municípios (TCM) e os Tribunais de Contas Municipais (TCM). Assim sendo, esses órgãos devem ser inseridos, exclusivamente, no repositório específico dos Tribunais de Contas.
