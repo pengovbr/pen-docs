@@ -211,8 +211,6 @@ do módulo, conforme apresentado abaixo:
    -  Homologação:
       https://homolog.api.processoeletronico.gov.br/interoperabilidade/soap/v3/
    -  Produção:
-      https://api.conectagov.processoeletronico.gov.br/interoperabilidade/soap/v2/
-   -  Produção:
       https://api.conectagov.processoeletronico.gov.br/interoperabilidade/soap/v3/
 
 -  **LocalizacaoCertificado**
