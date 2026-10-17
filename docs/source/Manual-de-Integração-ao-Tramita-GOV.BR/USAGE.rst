@@ -40,7 +40,7 @@ Ao criar o processo, para envio externo pelo PEN, são obrigatórios os
 campos **especificação e interessado** (deve haver pelo menos um
 interessado no processo)
 
-.. figure:: imagens/campos_especificacao_interessado.png
+.. figure:: images/campos_especificacao_interessado.png
    :alt: Tela de Iniciar Processos - Destaque para Campos Especificação
    e Interessados
 
@@ -126,7 +126,7 @@ Administração do PEN. **As unidades disponíveis para envio externo
 dependem da configuração realizada por cada Comitê Gestor de Protocolo
 dos órgãos e entidades.**
 
-.. figure:: imagens/selecao_unidade_envio_externo.png
+.. figure:: images/selecao_unidade_envio_externo.png
    :alt: Tela de Envio Externo de Processo - Destaque para o Filtro de
    Unidades Administrativas para Envio Externo
 
@@ -137,7 +137,7 @@ Na tela de envio externo de processo, há a opção de indicar a
 **urgência** para o processo. As opções são automaticamente
 sincronizadas a partir do serviço do PEN.
 
-.. figure:: imagens/urgencia_envio_externo.png
+.. figure:: images/urgencia_envio_externo.png
    :alt: Tela de Envio Externo de Processo - Destaque para o Filtro de
    Unidades Administrativas para Envio Externo
 
@@ -150,7 +150,7 @@ PEN. O andamento do progresso de validação e envio é exibido por meio de
 uma janela *pop-up* do navegador web. É importante permitir a abertura
 de *pop-ups* no navegador web, para que a operação possa ser verificada.
 
-.. figure:: imagens/em_envio_externo_processo.png
+.. image:: images/em_envio_externo_processo.png
    :alt: Tela de Status de Envio do Processo - Barra de Progresso
 
    Tela de Status de Envio do Processo - Barra de Progresso
@@ -160,7 +160,7 @@ seguinte mensagem é exibida. **Mas isso não significa que a unidade
 destinatária recebeu e aceitou o processo, pois esta também deve fazer
 uma série de validações,** conforme explicado na próxima seção.
 
-.. figure:: imagens/confirmado_envio_externo_processo.png
+.. figure:: images/confirmado_envio_externo_processo.png
    :alt: Tela de Status de Envio do Processo - Barra de Progresso -
    Finalizado
 
@@ -181,7 +181,7 @@ vez validados, na origem, os requisitos para envio externo,*\*
 registra-se no andamento do processo a operação de envio*\* por meio do
 Barramento, conforme o seguinte exemplo:
 
-.. figure:: imagens/historico_origem_envio_externo.png
+.. figure:: images/historico_origem_envio_externo.png
    :alt: Tela de Histórico do Processo - Processo em Envio Externo
 
    Tela de Histórico do Processo - Processo em Envio Externo
@@ -194,7 +194,7 @@ seu número, na tela de Controle do Processo. No estado bloqueado, as
 opções disponíveis são **apenas de visualização**, sem permitir
 operações que alteram informações do processo.
 
-.. figure:: imagens/processo_em_tramitacao.png
+.. figure:: images/processo_em_tramitacao.png
    :alt: Tela de Controle de Processos - Processo em Envio Externo
 
    Tela de Controle de Processos - Processo em Envio Externo
@@ -204,7 +204,7 @@ validou as informações e recebeu o processo, faz o registro no
 andamento, indicando o sucesso no trâmite, e o **processo passa a
 indicar que não possui mais andamentos abertos**.
 
-.. figure:: imagens/processo_bloqueado_envio_externo.png
+.. figure:: images/processo_bloqueado_envio_externo.png
    :alt: Tela de Controle de Processos - Processo sem Andamentos Abertos
 
    Tela de Controle de Processos - Processo sem Andamentos Abertos
@@ -212,7 +212,7 @@ indicar que não possui mais andamentos abertos**.
 Abaixo, mensagem registrada no histórico, indicando a confirmação do
 envio externo:
 
-.. figure:: imagens/confirmacao_envio_externo.png
+.. figure:: images/confirmacao_envio_externo.png
    :alt: Tela de Histórico do Processo - Confirmação do Envio Externo
 
    Tela de Histórico do Processo - Confirmação do Envio Externo
@@ -236,7 +236,7 @@ unidade.
 A operação de recebimento de processo por meio de envio externo também é
 registrada na unidade destinatária, conforme nota-se na imagem:
 
-.. figure:: imagens/recebimento_destinatario_historico.png
+.. figure:: images/recebimento_destinatario_historico.png
    :alt: Tela de Histórico do Processo - Informações na Unidade/Órgão
    Destinatários
 
@@ -268,7 +268,7 @@ Para consultar os recibos gerados, deve-se acessar o ícone
 correspondente, na barra de controle de processos, conforme imagem
 seguinte:
 
-.. figure:: imagens/icone_consulta_recibos.png
+.. figure:: images/icone_consulta_recibos.png
    :alt: Tela de Controle do Processo - Ícone de Consulta de Recibos
 
    Tela de Controle do Processo - Ícone de Consulta de Recibos
@@ -278,7 +278,7 @@ de trâmite, conforme imagens seguintes. O recibo de envio indica que o
 Tramita.GOV.BR recebeu com sucesso os documentos e processos de forma
 íntegra.
 
-.. figure:: imagens/recibo_confirmacao_envio.png
+.. figure:: images/recibo_confirmacao_envio.png
    :alt: Tela de Controle do Processo - Ícone de Consulta de Recibos
 
    Tela de Controle do Processo - Ícone de Consulta de Recibos
@@ -286,7 +286,7 @@ Tramita.GOV.BR recebeu com sucesso os documentos e processos de forma
 O recibo de trâmite indica que o Tramita.GOV.BR conseguiu entregar com
 sucesso os documentos e processos de forma íntegra ao destinatário.
 
-.. figure:: imagens/recibo_confirmacao_tramite.png
+.. figure:: images/recibo_confirmacao_tramite.png
    :alt: Tela de Controle do Processo - Ícone de Consulta de Recibos
 
    Tela de Controle do Processo - Ícone de Consulta de Recibos
@@ -294,7 +294,7 @@ sucesso os documentos e processos de forma íntegra ao destinatário.
 O destinatário pode realizar a consulta ao recibo de trâmite, acessando
 o ícone de recibos, conforme imagem seguinte.
 
-.. figure:: imagens/recibo_conclusao_tramite_destinatario.png
+.. figure:: images/recibo_conclusao_tramite_destinatario.png
    :alt: Tela de Controle do Processo - Ícone de Consulta de Recibos
 
    Tela de Controle do Processo - Ícone de Consulta de Recibos
