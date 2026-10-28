@@ -1,5 +1,5 @@
 
-.. Retirado em virtude do período de defeso eleitoral 2026 .. figure:: _static/images/título-Manual-do-Tramita.png .
+.. figure:: _static/images/título-Manual-do-Tramita.png
 
 
 Padrão de Criação de Repositório
