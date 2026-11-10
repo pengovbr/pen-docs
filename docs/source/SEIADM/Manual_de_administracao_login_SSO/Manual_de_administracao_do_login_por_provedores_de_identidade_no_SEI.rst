@@ -1,8 +1,6 @@
 Manual de administração do login por provedores de identidade no SEI
 =====================================================================
 
-Público: administradores do SIP responsáveis por configurar o acesso ao SEI por Gov.br, Microsoft Entra e Google Workspace.
-
 Visão geral do login por provedores de identidade
 +++++++++++++++++++++++++++++++++++++++++++++++++
 
