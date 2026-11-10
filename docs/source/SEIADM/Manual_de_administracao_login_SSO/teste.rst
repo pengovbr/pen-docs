@@ -1,24 +1,10 @@
-# Manual de administração do login por provedores de identidade no SEI
+Manual de administração do login por provedores de identidade no SEI
+=====================================================================
 
 Público: administradores do SIP responsáveis por configurar o acesso ao SEI por Gov.br, Microsoft Entra e Google Workspace.
 
-
-
-## Sumário
-
-- [Visão geral do login por provedores de identidade](#visão-geral-do-login-por-provedores-de-identidade)
-- [Antes de começar](#antes-de-começar)
-- [Como cadastrar um Serviço SSO](#como-cadastrar-um-serviço-sso)
-  - [Campos do Serviço SSO](#campos-do-serviço-sso)
-  - [Serviço para integração com o gov.br](#serviço-para-integração-com-o-govbr)
-  - [Serviço de outro provedor: Microsoft Entra e Google Workspace](#serviço-de-outro-provedor-microsoft-entra-e-google-workspace)
-  - [Logo do provedor](#logo-do-provedor)
-  - [Críticas ao salvar o Serviço SSO](#críticas-ao-salvar-o-serviço-sso)
-- [Como associar o Serviço SSO ao sistema](#como-associar-o-serviço-sso-ao-sistema)
-- [Como consultar, alterar, desativar e excluir Serviços SSO](#como-consultar-alterar-desativar-e-excluir-serviços-sso)
-- [Perfis e permissões](#perfis-e-permissões)
-
-## Visão geral do login por provedores de identidade
+Visão geral do login por provedores de identidade
+-------------------------------------------------
 
 A autenticação no SEI é realizada por meio do Sistema de Permissões - SIP. O login por provedor externo, por sua vez, usa o recurso de Login Único (SSO) do SIP, implementado sobre o protocolo OpenID Connect.
 
@@ -28,7 +14,8 @@ O Serviço SSO só aparece na tela de login depois de associado a um sistema. A 
 
 O acesso Externo do SEI oferece apenas o provedor gov.br. O botão aparece quando o serviço gov.br está na lista **Serviços SSO Externo** do sistema e o ambiente habilita essa opção. Microsoft Entra e Google Workspace aplicam-se ao acesso Interno.
 
-## Antes de começar
+Antes de começar
+----------------
 
 Reúna os dados de registro da aplicação no provedor antes de cadastrar o Serviço SSO: **Client ID**, **Client Secret**, endereço base do serviço e escopo de acesso. Para Microsoft Entra e Google Workspace, obtenha também os endereços de autorização e de token.
 
@@ -36,7 +23,8 @@ Registre no provedor a URL de retorno do SIP, o endereço do SIP seguido de `/lo
 
 Para cadastrar e manter Serviços SSO, use um login com o perfil Administrador do SIP. Para associar o serviço a um sistema, use um login com o perfil Administrador de Sistema. A seção [Perfis e permissões](#perfis-e-permissões) detalha os recursos.
 
-## Como cadastrar um Serviço SSO
+Como cadastrar um Serviço SSO
+-----------------------------
 
 O cadastro de Serviços SSO fica no menu **Login Único SSO**, item **Serviços**.
 
