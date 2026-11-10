@@ -27,5 +27,5 @@ Sumário
    Man_Adm_SEI_02-Visao_Geral
    Configuração_da_estrutura/index
    Administracao_sei/index
-   Manual_de_administracao_login_SSO/index
+   Manual_de_administracao_do_login_por_provedores_de_identidade_no_SEI
 
