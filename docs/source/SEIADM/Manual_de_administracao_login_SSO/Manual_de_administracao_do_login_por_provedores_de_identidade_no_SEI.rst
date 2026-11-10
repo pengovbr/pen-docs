@@ -51,7 +51,7 @@ O campo **Campo Usuário** liga a conta do provedor ao cadastro do SIP. Ao escol
 Serviço para integração com o gov.br
 ------------------------------------
 
-Ao marcar **Serviço para integração com o gov.br**, o formulário fixa a **Identificação** em `gov.br`, exibe o campo **URL API** e a seção **Assinatura Avançada**, e oculta os campos **URL Issuer**, **URL Authorize** e **URL Token**, porque o SIP usa os endereços padrão do gov.br.
+Ao marcar **Serviço para integração com o gov.br**, o formulário fixa a **Identificação** em ``gov.br``, exibe o campo **URL API** e a seção **Assinatura Avançada**, e oculta os campos **URL Issuer**, **URL Authorize** e **URL Token**, porque o SIP usa os endereços padrão do gov.br.
 
 .. figure:: _static/images/Cap03_Servico_para_integracao_com_govbr.png
 
@@ -94,7 +94,7 @@ O provedor só aparece na tela de login após associar o Serviço SSO ao sistema
 3. No campo **Serviços SSO Externo**, adicione pelo botão de busca os provedores que valem para o acesso Externo.
 4. Defina o campo **Autenticação padrão (Usuário/Senha)** conforme a necessidade e selecione **Salvar**.
 
-O campo **Autenticação padrão (Usuário/Senha)** controla a exibição dos campos Usuário e Senha na tela de login, com a ajuda `Indica se os campos Usuário/Senha devem ser exibidos na tela de login. Se estiver desmarcado obrigará a escolha de pelo menos um Serviço SSO Interno.`
+O campo **Autenticação padrão (Usuário/Senha)** controla a exibição dos campos Usuário e Senha na tela de login, com a ajuda ``Indica se os campos Usuário/Senha devem ser exibidos na tela de login. Se estiver desmarcado obrigará a escolha de pelo menos um Serviço SSO Interno.``
 
 A ordem dos serviços na lista define a ordem dos botões na tela de login.
 
